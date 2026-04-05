@@ -1,0 +1,73 @@
+{
+  "date": "2026-03-29",
+  "generated_at": "2026-04-05T18:53:39.209012",
+  "whoop": {
+    "imported": true,
+    "recovery": 29.0,
+    "hrv": 27.1,
+    "rhr": 52.0,
+    "sleep_perf": 80.0,
+    "strain": 4.0,
+    "sleep_hrs": 6.7,
+    "spo2": 96.4,
+    "skin_temp": 33.4,
+    "sleep_efficiency": 96.5,
+    "sleep_consistency": 89.0,
+    "respiratory_rate": 13.6,
+    "light_sleep_hrs": 2.7,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 2.0,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 4,
+    "disturbances": 4,
+    "sleep_needed_hrs": 10.7,
+    "sleep_debt_hrs": 2.1,
+    "calories": 1498,
+    "avg_hr": 59,
+    "max_hr": 129,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23069,
+    "resting_hr": 51.0,
+    "hrv": 48.89,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 48.0,
+    "spo2": 96.91,
+    "respiratory_rate": 13.58,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 5,
+    "journal": "It was a good day overall. I spent a lot of time outside eating, clothing, tinkering about my allergy. It was relaxing day. Watch the Spanish cartoon.\nmy throat feels tight, right after I woke up kinda weird, and it stayed like this i feel some tingling sensation in my throat, almost some mucus is coming out when I am coughing",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Magnesium Glycinate",
+      "Telfast",
+      "Vitamin C"
+    ],
+    "anxiety": 1,
+    "bloating": 2
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 3,
+    "meal_names": [
+      "Roasted Chicken and Potato Wedges with Side Salad and Boiled Egg",
+      "Carrot and Ginger Soup with Croutons and Balsamic Glaze",
+      "Avocado Toast with Fried Eggs and Papaya"
+    ],
+    "avg_score": 64.0,
+    "calories": 1516.0,
+    "protein_g": 140.1,
+    "fat_g": 70.8,
+    "carbs_g": 80.4,
+    "fibre_g": 12.100000000000001
+  }
+}
