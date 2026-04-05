@@ -1640,59 +1640,82 @@ async function loadDashboard() {
     html += `<div class="missing-banner"><span class="missing-icon">&#9888;</span> Missing: ${missing.join(', ')}</div>`;
   }
 
-  // Journal entries section
+  // Journal entries section - from localStorage (today) OR from status file (historical)
   const localData = JSON.parse(localStorage.getItem('checkin-' + dateStr) || 'null');
-  if (localData) {
+  const hasLocalJournal = localData && (localData.morning_saved || localData.evening_saved);
+  const hasRemoteJournal = c.imported && (c.journal || c.supplements_list);
+
+  if (hasLocalJournal || hasRemoteJournal) {
     html += '<div class="dash-journal">';
-    // Morning journal
-    if (localData.morning_saved) {
-      html += '<div class="dash-journal-section"><h3>&#127773; Morning Check-in</h3>';
-      const morningFields = [];
-      if (localData.sleep_quality_subjective) morningFields.push(`Sleep: ${localData.sleep_quality_subjective}/10`);
-      if (localData.energy_morning) morningFields.push(`Energy: ${localData.energy_morning}/10`);
-      if (localData.mood_score) morningFields.push(`Mood: ${localData.mood_score}/10`);
-      if (localData.pain_score) morningFields.push(`Pain: ${localData.pain_score}/10`);
-      if (localData.anxiety_score) morningFields.push(`Anxiety: ${localData.anxiety_score}/10`);
-      if (morningFields.length) html += `<div class="dash-journal-metrics">${morningFields.join(' | ')}</div>`;
-      // Gratitude
-      if (localData.gratitude_raw) {
-        const grats = typeof localData.gratitude_raw === 'string' ? localData.gratitude_raw.split('\n').filter(g=>g.trim()) :
-          Array.isArray(localData.gratitude_raw) ? localData.gratitude_raw.filter(g=>g) : [];
-        if (grats.length) {
-          html += '<div class="dash-journal-gratitude"><span class="grat-label">Gratitude:</span>';
-          grats.forEach(g => { html += `<div class="grat-item">${g}</div>`; });
-          html += '</div>';
+
+    if (hasLocalJournal) {
+      // Show PWA check-in data from localStorage
+      if (localData.morning_saved) {
+        html += '<div class="dash-journal-section"><h3>&#127773; Morning Check-in</h3>';
+        const morningFields = [];
+        if (localData.sleep_quality_subjective) morningFields.push(`Sleep: ${localData.sleep_quality_subjective}/10`);
+        if (localData.energy_morning) morningFields.push(`Energy: ${localData.energy_morning}/10`);
+        if (localData.mood_score) morningFields.push(`Mood: ${localData.mood_score}/10`);
+        if (localData.pain_score) morningFields.push(`Pain: ${localData.pain_score}/10`);
+        if (localData.anxiety_score) morningFields.push(`Anxiety: ${localData.anxiety_score}/10`);
+        if (morningFields.length) html += `<div class="dash-journal-metrics">${morningFields.join(' | ')}</div>`;
+        if (localData.gratitude_raw) {
+          const grats = typeof localData.gratitude_raw === 'string' ? localData.gratitude_raw.split('\n').filter(g=>g.trim()) :
+            Array.isArray(localData.gratitude_raw) ? localData.gratitude_raw.filter(g=>g) : [];
+          if (grats.length) {
+            html += '<div class="dash-journal-gratitude"><span class="grat-label">Gratitude:</span>';
+            grats.forEach(g => { html += `<div class="grat-item">${g}</div>`; });
+            html += '</div>';
+          }
         }
+        if (localData.affirmation) html += `<div class="dash-journal-aff">"${localData.affirmation}"</div>`;
+        if (localData.morning_supplements && localData.morning_supplements.length > 0) {
+          html += `<div class="dash-journal-supps">&#128138; ${localData.morning_supplements.join(', ')}</div>`;
+        }
+        html += '</div>';
       }
-      // Affirmation
-      if (localData.affirmation) {
-        html += `<div class="dash-journal-aff">"${localData.affirmation}"</div>`;
+      if (localData.evening_saved) {
+        html += '<div class="dash-journal-section"><h3>&#127769; Evening Check-in</h3>';
+        const eveningFields = [];
+        if (localData.energy_afternoon) eveningFields.push(`Energy PM: ${localData.energy_afternoon}/10`);
+        if (localData.energy_evening) eveningFields.push(`Energy Eve: ${localData.energy_evening}/10`);
+        if (localData.mood_evening) eveningFields.push(`Mood: ${localData.mood_evening}/10`);
+        if (localData.bloating_score) eveningFields.push(`Bloating: ${localData.bloating_score}/10`);
+        if (eveningFields.length) html += `<div class="dash-journal-metrics">${eveningFields.join(' | ')}</div>`;
+        if (localData.evening_supplements && localData.evening_supplements.length > 0) {
+          html += `<div class="dash-journal-supps">&#128138; ${localData.evening_supplements.join(', ')}</div>`;
+        }
+        if (localData.evening_notes) html += `<div class="dash-journal-notes">${localData.evening_notes}</div>`;
+        html += '</div>';
       }
-      // Supplements
-      if (localData.morning_supplements && localData.morning_supplements.length > 0) {
-        html += `<div class="dash-journal-supps">Supplements: ${localData.morning_supplements.join(', ')}</div>`;
+    }
+
+    // Show historical journal/supplements from status file (health.db data)
+    if (!hasLocalJournal && hasRemoteJournal) {
+      html += '<div class="dash-journal-section"><h3>&#128221; Journal</h3>';
+      // Scores
+      const scores = [];
+      if (c.mood) scores.push(`Mood: ${c.mood}/10`);
+      if (c.energy) scores.push(`Energy AM: ${c.energy}/10`);
+      if (c.energy_afternoon) scores.push(`PM: ${c.energy_afternoon}/10`);
+      if (c.energy_evening) scores.push(`Eve: ${c.energy_evening}/10`);
+      if (c.pain) scores.push(`Pain: ${c.pain}/10`);
+      if (c.anxiety) scores.push(`Anxiety: ${c.anxiety}/10`);
+      if (c.bloating) scores.push(`Bloating: ${c.bloating}/10`);
+      if (scores.length) html += `<div class="dash-journal-metrics">${scores.join(' | ')}</div>`;
+      // Journal text
+      if (c.journal) {
+        html += `<div class="dash-journal-notes">${c.journal}</div>`;
+      } else if (c.journal_summary) {
+        html += `<div class="dash-journal-notes">${c.journal_summary}</div>`;
+      }
+      // Supplements list
+      if (c.supplements_list && c.supplements_list.length > 0) {
+        html += `<div class="dash-journal-supps">&#128138; ${c.supplements_list.join(', ')}</div>`;
       }
       html += '</div>';
     }
-    // Evening journal
-    if (localData.evening_saved) {
-      html += '<div class="dash-journal-section"><h3>&#127769; Evening Check-in</h3>';
-      const eveningFields = [];
-      if (localData.energy_afternoon) eveningFields.push(`Energy PM: ${localData.energy_afternoon}/10`);
-      if (localData.energy_evening) eveningFields.push(`Energy Eve: ${localData.energy_evening}/10`);
-      if (localData.mood_evening) eveningFields.push(`Mood: ${localData.mood_evening}/10`);
-      if (localData.bloating_score) eveningFields.push(`Bloating: ${localData.bloating_score}/10`);
-      if (eveningFields.length) html += `<div class="dash-journal-metrics">${eveningFields.join(' | ')}</div>`;
-      // Evening supps
-      if (localData.evening_supplements && localData.evening_supplements.length > 0) {
-        html += `<div class="dash-journal-supps">Supplements: ${localData.evening_supplements.join(', ')}</div>`;
-      }
-      // Notes
-      if (localData.evening_notes) {
-        html += `<div class="dash-journal-notes">${localData.evening_notes}</div>`;
-      }
-      html += '</div>';
-    }
+
     html += '</div>';
   }
 
