@@ -1,0 +1,91 @@
+{
+  "date": "2026-03-28",
+  "generated_at": "2026-04-05T18:53:37.260598",
+  "whoop": {
+    "imported": true,
+    "recovery": 65.0,
+    "hrv": 37.2,
+    "rhr": 49.0,
+    "sleep_perf": 73.0,
+    "strain": 18.9,
+    "sleep_hrs": 6.0,
+    "spo2": 94.3,
+    "skin_temp": 34.1,
+    "sleep_efficiency": 87.7,
+    "sleep_consistency": 87.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 1.9,
+    "deep_sleep_hrs": 2.7,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 1.0,
+    "sleep_cycles": 7,
+    "disturbances": 7,
+    "sleep_needed_hrs": 10.4,
+    "sleep_debt_hrs": 2.1,
+    "calories": 3863,
+    "avg_hr": 77,
+    "max_hr": 164,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 1551,
+        "avg_hr": 128,
+        "max_hr": 164
+      },
+      {
+        "sport": "Activity",
+        "calories": 808,
+        "avg_hr": 127,
+        "max_hr": 161
+      },
+      {
+        "sport": "HIIT",
+        "calories": 57,
+        "avg_hr": 97,
+        "max_hr": 116
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31635,
+    "resting_hr": 52.0,
+    "hrv": 69.53,
+    "sleep_hrs": 6.0,
+    "daylight_mins": 170.0,
+    "spo2": 96.04,
+    "respiratory_rate": 13.36,
+    "sleep_awake_hrs": 1.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 4,
+    "journal": "Feeling good in general actually even though I slept less. Somehow I feel cool, like I've been relatively productive, maybe losing a bit of creativity but I'll try to get it back. Great day with nephews, lots of sports. Feeling tired but happy. Last computer in the evening too\nToday I didn't feel much acidity, perhaps a little bit in the evening after taking magnesium and Telfast but overall okay. \n\nbloating 2/10 turns out if I do sports I don't get bloated so much. But also I ate pretty much sa",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium",
+      "Telfast",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 2
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 3,
+    "meal_names": [
+      "Toast with Nut Butter and Banana",
+      "Roasted Fish with Mixed Vegetables and Potatoes",
+      "Fried Eggs with Avocado"
+    ],
+    "avg_score": 76.0,
+    "calories": 1502.0,
+    "protein_g": 81.5,
+    "fat_g": 89.2,
+    "carbs_g": 95.19999999999999,
+    "fibre_g": 16.5
+  }
+}
