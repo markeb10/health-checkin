@@ -857,9 +857,17 @@ function autoGrowAll() {
 // ==================== TEXT PARSING ====================
 function parseItems(text) {
   if (!text || !text.trim()) return [];
+  // If text has numbered entries (1. xxx 2. xxx), split on those boundaries
+  if (/^\s*\d+[\.\)]\s/.test(text)) {
+    return text
+      .split(/(?:^|\n)\s*\d+[\.\)]\s*/)
+      .map(s => s.replace(/\n/g, ' ').trim())
+      .filter(s => s.length > 0);
+  }
+  // Otherwise split on commas/newlines (for simple comma-separated input)
   return text
     .split(/[,\n]+/)
-    .map(s => s.replace(/^\d+[\.\)]\s*/, '').trim())
+    .map(s => s.trim())
     .filter(s => s.length > 0);
 }
 
