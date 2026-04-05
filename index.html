@@ -1131,6 +1131,14 @@ async function saveMorning() {
   data.morning_saved = true;
   data.morning_saved_at = new Date().toISOString();
   setData(data);
+  // Verify the save landed in the right key
+  const key = getKey();
+  const verify = JSON.parse(localStorage.getItem(key) || '{}');
+  if (!verify.morning_saved) {
+    console.error('Save verification failed! Key:', key);
+    showToast('Save error - please retry', false, 'warn');
+    return;
+  }
   const synced = await syncToGitHub(data);
   if (synced) {
     showToast('Saved & synced', false, 'check');
@@ -1139,6 +1147,7 @@ async function saveMorning() {
     showSyncPending(true);
   }
   updateStreak();
+  refreshDashboard();
   showStatus('morning-status', 'Morning check-in saved!');
 }
 
@@ -1150,6 +1159,14 @@ async function saveEvening() {
   data.evening_saved = true;
   data.evening_saved_at = new Date().toISOString();
   setData(data);
+  // Verify the save landed in the right key
+  const key = getKey();
+  const verify = JSON.parse(localStorage.getItem(key) || '{}');
+  if (!verify.evening_saved) {
+    console.error('Save verification failed! Key:', key);
+    showToast('Save error - please retry', false, 'warn');
+    return;
+  }
   const synced = await syncToGitHub(data);
   if (synced) {
     showToast('Saved & synced', true, 'check');
@@ -1158,7 +1175,15 @@ async function saveEvening() {
     showSyncPending(true);
   }
   updateStreak();
+  refreshDashboard();
   showStatus('evening-status', 'Evening check-in saved!');
+}
+
+function refreshDashboard() {
+  // Refresh dashboard if it exists so journal entries show immediately
+  if (document.getElementById('dashContent')) {
+    loadDashboard();
+  }
 }
 
 function showSyncPending(show) {
