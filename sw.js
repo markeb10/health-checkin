@@ -1,4 +1,4 @@
-const CACHE_NAME = 'health-checkin-v9';
+const CACHE_NAME = 'health-checkin-v10';
 const ASSETS = ['./index.html'];
 
 self.addEventListener('install', e => {
