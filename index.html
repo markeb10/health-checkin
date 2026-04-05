@@ -13,12 +13,17 @@
 :root{
   --bg:#0f0f1a;--card:#1a1a2e;--card2:#222240;--gold:#d4a853;--gold2:#e8c76a;
   --text:#e0e0e0;--text2:#888;--green:#4ade80;--red:#f87171;--blue:#60a5fa;
+  --amber:#f59e0b;
   --safe-top:env(safe-area-inset-top,20px);--safe-bottom:env(safe-area-inset-bottom,20px);
 }
 html,body{background:var(--bg);color:var(--text);font-family:-apple-system,system-ui,sans-serif;
   min-height:100vh;-webkit-font-smoothing:antialiased;overscroll-behavior:none}
 
-.app{max-width:420px;margin:0 auto;padding:calc(var(--safe-top) + 10px) 16px calc(var(--safe-bottom) + 80px)}
+.app{max-width:420px;margin:0 auto;padding:calc(var(--safe-top) + 10px) 16px calc(var(--safe-bottom) + 120px)}
+
+/* Views */
+.view{display:none}
+.view.active{display:block}
 
 /* Header */
 .header{display:flex;align-items:center;justify-content:space-between;padding:8px 0 16px}
@@ -168,11 +173,22 @@ input[type=number]{width:70px;text-align:center}
 .streak-divider{width:1px;height:28px;background:var(--card2)}
 
 /* Save toast */
-.toast{position:fixed;bottom:calc(var(--safe-bottom) + 20px);left:50%;transform:translateX(-50%) translateY(80px);
+.toast{position:fixed;bottom:calc(var(--safe-bottom) + 80px);left:50%;transform:translateX(-50%) translateY(80px);
   background:var(--green);color:#000;padding:12px 24px;border-radius:12px;font-size:14px;font-weight:700;
-  opacity:0;transition:all .3s ease;z-index:200;pointer-events:none;white-space:nowrap}
+  opacity:0;transition:all .3s ease;z-index:200;pointer-events:none;white-space:nowrap;
+  display:flex;align-items:center;gap:8px}
 .toast.show{transform:translateX(-50%) translateY(0);opacity:1}
 .toast.evening-toast{background:#6366f1;color:#fff}
+.toast.warn-toast{background:var(--amber);color:#000}
+.toast .toast-icon{font-size:18px}
+
+/* Sync pending banner */
+.sync-pending-banner{display:none;background:rgba(245,158,11,.12);border:1px solid rgba(245,158,11,.3);
+  color:var(--amber);padding:10px 16px;border-radius:10px;margin-bottom:12px;font-size:13px;
+  font-weight:600;align-items:center;justify-content:space-between;gap:8px}
+.sync-pending-banner.show{display:flex}
+.sync-pending-banner button{background:var(--amber);color:#000;border:none;border-radius:6px;
+  padding:6px 12px;font-size:12px;font-weight:700;cursor:pointer;flex-shrink:0}
 
 /* Calendar modal */
 .calendar-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:100;display:none;
@@ -214,191 +230,332 @@ input[type=number]{width:70px;text-align:center}
 .source-badge.yes{background:rgba(74,222,128,.15);color:var(--green)}
 .source-badge.no{background:rgba(248,113,113,.1);color:var(--red)}
 .day-detail-loading{text-align:center;padding:20px;color:var(--text2);font-size:13px}
+
+/* Bottom Navigation */
+.bottom-nav{position:fixed;bottom:0;left:0;right:0;background:var(--card);
+  border-top:1px solid var(--card2);display:flex;justify-content:center;
+  padding:8px 0 calc(var(--safe-bottom) + 4px);z-index:90}
+.bottom-nav-inner{display:flex;gap:0;max-width:420px;width:100%}
+.nav-tab{flex:1;display:flex;flex-direction:column;align-items:center;gap:2px;
+  padding:6px 0;cursor:pointer;color:var(--text2);font-size:11px;font-weight:600;
+  transition:color .15s;-webkit-tap-highlight-color:transparent}
+.nav-tab.active{color:var(--gold)}
+.nav-tab .nav-icon{font-size:20px}
+
+/* Dashboard styles */
+.dash-section-title{font-size:13px;color:var(--text2);font-weight:600;text-transform:uppercase;
+  letter-spacing:.5px;margin:20px 0 10px;padding:0 4px}
+.dash-section-title:first-child{margin-top:0}
+
+.kpi-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px}
+.kpi-card{background:var(--card);border-radius:14px;padding:16px;cursor:pointer;
+  transition:transform .1s;-webkit-tap-highlight-color:transparent;position:relative;overflow:hidden}
+.kpi-card:active{transform:scale(.97)}
+.kpi-label{font-size:11px;color:var(--text2);font-weight:600;text-transform:uppercase;letter-spacing:.3px;margin-bottom:6px}
+.kpi-value{font-size:28px;font-weight:800;line-height:1.1;margin-bottom:4px}
+.kpi-sub{font-size:11px;color:var(--text2);line-height:1.3}
+.kpi-unit{font-size:14px;font-weight:600;color:var(--text2)}
+.kpi-card.no-data{opacity:.4}
+.kpi-card.no-data .kpi-value{color:var(--text2)}
+
+/* KPI colors */
+.kpi-green{color:var(--green)}
+.kpi-yellow{color:var(--amber)}
+.kpi-red{color:var(--red)}
+.kpi-blue{color:var(--blue)}
+
+/* Missing data banner */
+.missing-banner{background:rgba(245,158,11,.1);border:1px solid rgba(245,158,11,.25);
+  border-radius:12px;padding:12px 16px;margin-bottom:14px;font-size:13px;color:var(--amber);
+  display:flex;align-items:center;gap:8px}
+.missing-banner .missing-icon{font-size:16px;flex-shrink:0}
+
+/* Meals list */
+.meals-list{background:var(--card);border-radius:14px;padding:16px;margin-bottom:14px}
+.meals-list h3{font-size:13px;color:var(--gold2);font-weight:600;margin-bottom:10px}
+.meal-item{display:flex;align-items:center;justify-content:space-between;padding:8px 0;
+  border-bottom:1px solid var(--card2)}
+.meal-item:last-child{border-bottom:none}
+.meal-name{font-size:13px;color:var(--text)}
+.meal-score{font-size:14px;font-weight:700;min-width:32px;text-align:right}
+
+/* Sparklines */
+.sparklines-card{background:var(--card);border-radius:14px;padding:16px;margin-bottom:14px}
+.sparklines-card h3{font-size:13px;color:var(--gold2);font-weight:600;margin-bottom:12px}
+.sparkline-row{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.sparkline-row:last-child{margin-bottom:0}
+.sparkline-label{font-size:12px;color:var(--text2);width:60px;flex-shrink:0}
+.sparkline-svg{flex:1;height:28px}
+.sparkline-val{font-size:12px;font-weight:700;width:36px;text-align:right;flex-shrink:0}
+
+/* Dashboard loading */
+.dash-loading{text-align:center;padding:40px 20px;color:var(--text2);font-size:14px}
+
+/* Bottom sheet (drill-down) */
+.bottom-sheet-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:160;display:none;
+  align-items:flex-end;justify-content:center}
+.bottom-sheet-overlay.show{display:flex}
+.bottom-sheet{background:var(--card);border-radius:20px 20px 0 0;
+  padding:20px 20px calc(var(--safe-bottom) + 20px);width:100%;max-width:420px;max-height:60vh;overflow-y:auto}
+.bottom-sheet .sheet-handle{width:36px;height:4px;background:var(--card2);border-radius:2px;
+  margin:0 auto 16px}
+.bottom-sheet h3{color:var(--gold);font-size:16px;font-weight:700;margin-bottom:14px;text-align:center}
+.sheet-row{display:flex;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--card2);
+  font-size:14px}
+.sheet-row:last-child{border-bottom:none}
+.sheet-row .sheet-label{color:var(--text2)}
+.sheet-row .sheet-val{font-weight:600;color:var(--text)}
+
+/* Validation */
+@keyframes pulse-red{0%{border-color:var(--red)}50%{border-color:transparent}100%{border-color:var(--red)}}
+@keyframes shake{0%,100%{transform:translateX(0)}20%,60%{transform:translateX(-4px)}40%,80%{transform:translateX(4px)}}
+.field-warning{animation:pulse-red .6s ease 2;border-color:var(--red) !important}
+.btn-shake{animation:shake .4s ease}
+.validation-msg{color:var(--red);font-size:12px;text-align:center;padding:6px 0;font-weight:600;display:none}
+.validation-msg.show{display:block}
 </style>
 </head>
 <body>
 <div class="app">
-  <div class="header">
-    <h1>Check-in <span class="saved-dot unsaved" id="dot"></span></h1>
-    <div class="date-nav">
-      <button onclick="changeDate(-1)">&lsaquo;</button>
-      <span class="date-label" id="dateLabel"></span>
-      <button onclick="changeDate(1)">&rsaquo;</button>
+
+  <!-- ==================== DASHBOARD VIEW ==================== -->
+  <div id="view-dashboard" class="view">
+    <div class="header">
+      <h1>Dashboard</h1>
+      <div class="date-nav">
+        <button onclick="changeDate(-1)">&lsaquo;</button>
+        <span class="date-label" id="dashDateLabel"></span>
+        <button onclick="changeDate(1)">&rsaquo;</button>
+      </div>
+      <button class="gear-btn" onclick="toggleSettings()">&#9881;</button>
     </div>
-    <button class="gear-btn" onclick="toggleSettings()">&#9881;</button>
+
+    <div class="date-banner" id="dashDateBanner">
+      <div id="dashDateBig">Sunday, 5 April</div>
+      <div class="date-sub" id="dashDateSub">Today</div>
+      <div class="date-warning" id="dashDateWarning">You're viewing a different day</div>
+    </div>
+
+    <div id="dashContent">
+      <div class="dash-loading">Loading dashboard...</div>
+    </div>
   </div>
 
-  <!-- Big date banner -->
-  <div class="date-banner" id="dateBanner" onclick="openDayDetail(fmt(currentDate))">
-    <div id="dateBig">Sunday, 5 April</div>
-    <div class="date-sub" id="dateSub">Today</div>
-    <div class="date-warning" id="dateWarning">You're filling a different day</div>
-    <div style="font-size:11px;color:var(--text2);margin-top:4px" id="dataSourceHint">Tap to see data sources</div>
+  <!-- ==================== JOURNAL VIEW ==================== -->
+  <div id="view-journal" class="view">
+    <div class="header">
+      <h1>Check-in <span class="saved-dot unsaved" id="dot"></span></h1>
+      <div class="date-nav">
+        <button onclick="changeDate(-1)">&lsaquo;</button>
+        <span class="date-label" id="dateLabel"></span>
+        <button onclick="changeDate(1)">&rsaquo;</button>
+      </div>
+      <button class="gear-btn" onclick="toggleSettings()">&#9881;</button>
+    </div>
+
+    <!-- Big date banner -->
+    <div class="date-banner" id="dateBanner" onclick="openDayDetail(fmt(currentDate))">
+      <div id="dateBig">Sunday, 5 April</div>
+      <div class="date-sub" id="dateSub">Today</div>
+      <div class="date-warning" id="dateWarning">You're filling a different day</div>
+      <div style="font-size:11px;color:var(--text2);margin-top:4px" id="dataSourceHint">Tap to see data sources</div>
+    </div>
+
+    <!-- Sync pending banner -->
+    <div class="sync-pending-banner" id="syncPendingBanner">
+      <span>Saved locally, sync pending</span>
+      <button onclick="retrySyncCurrent()">Retry</button>
+    </div>
+
+    <!-- Streak bar -->
+    <div class="streak-bar" onclick="openCalendar()">
+      <span class="streak-fire">&#128293;</span>
+      <div class="streak-stat">
+        <span class="streak-num" id="streakCount">0</span>
+        <span class="streak-label">day streak</span>
+      </div>
+      <div class="streak-divider"></div>
+      <div class="streak-stat">
+        <span class="streak-num" id="monthCount">0</span>
+        <span class="streak-label">this month</span>
+      </div>
+      <div class="streak-divider"></div>
+      <div class="streak-stat" style="font-size:11px;color:var(--text2)">&#128197;</div>
+    </div>
+
+    <div class="tabs">
+      <div class="tab active" onclick="switchTab('morning')">Morning</div>
+      <div class="tab" onclick="switchTab('evening')">Evening</div>
+    </div>
+
+    <!-- MORNING -->
+    <div class="section active" id="sec-morning">
+      <div class="card">
+        <h2>How are you feeling?</h2>
+        <div class="slider-row">
+          <span class="slider-label">Sleep</span>
+          <div class="slider-wrap"><input type="range" min="1" max="10" value="5" data-field="sleep_quality_subjective" oninput="onSlider(this)"></div>
+          <span class="slider-val">5</span>
+        </div>
+        <div class="slider-row">
+          <span class="slider-label">Mood</span>
+          <div class="slider-wrap"><input type="range" min="1" max="10" value="5" data-field="mood_score" oninput="onSlider(this)"></div>
+          <span class="slider-val">5</span>
+        </div>
+        <div class="slider-row">
+          <span class="slider-label">Energy</span>
+          <div class="slider-wrap"><input type="range" min="1" max="10" value="5" data-field="energy_morning" oninput="onSlider(this)"></div>
+          <span class="slider-val">5</span>
+        </div>
+        <div class="slider-row">
+          <span class="slider-label">Pain</span>
+          <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="pain_score" oninput="onSlider(this)"></div>
+          <span class="slider-val">0</span>
+        </div>
+        <div class="slider-row">
+          <span class="slider-label">Anxiety</span>
+          <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="anxiety_score" oninput="onSlider(this)"></div>
+          <span class="slider-val">0</span>
+        </div>
+        <h3>Sleep notes</h3>
+        <textarea data-field="sleep_notes" placeholder="Woke at 4am, gut grumbling..." oninput="autoSave()"></textarea>
+      </div>
+
+      <div class="card">
+        <h2>I am grateful for...</h2>
+        <textarea data-field="gratitude_raw" placeholder="Just say it all... e.g. My health, the sunshine today, having time with family" style="min-height:80px" oninput="autoSave()"></textarea>
+        <div class="parsed-items" id="gratitude-parsed"></div>
+      </div>
+
+      <div class="card">
+        <h2>What would make today great?</h2>
+        <textarea data-field="make_today_great" placeholder="Just talk..." oninput="autoSave()"></textarea>
+      </div>
+
+      <div class="card">
+        <h2>Daily affirmation</h2>
+        <textarea data-field="affirmation" placeholder="I am..." style="min-height:50px" oninput="autoSave()"></textarea>
+      </div>
+
+      <div class="card">
+        <h2>Morning supplements</h2>
+        <div class="supp-grid" id="morning-supps"></div>
+        <div class="add-supp-row">
+          <input type="text" id="add-morning-supp" placeholder="Add supplement...">
+          <button class="add-supp-btn" onclick="addCustomSupp('morning')">+</button>
+        </div>
+      </div>
+
+      <div class="validation-msg" id="morning-validation"></div>
+      <button class="submit-btn morning" id="morning-save-btn" onclick="saveMorning()">Save Morning Check-in</button>
+      <div class="status" id="morning-status"></div>
+    </div>
+
+    <!-- EVENING -->
+    <div class="section" id="sec-evening">
+      <div class="card">
+        <h2>End of day</h2>
+        <div class="slider-row">
+          <span class="slider-label">Energy PM</span>
+          <div class="slider-wrap"><input type="range" min="1" max="10" value="5" data-field="energy_afternoon" oninput="onSlider(this)"></div>
+          <span class="slider-val">5</span>
+        </div>
+        <div class="slider-row">
+          <span class="slider-label">Energy Eve</span>
+          <div class="slider-wrap"><input type="range" min="1" max="10" value="5" data-field="energy_evening" oninput="onSlider(this)"></div>
+          <span class="slider-val">5</span>
+        </div>
+        <div class="slider-row">
+          <span class="slider-label">Mood</span>
+          <div class="slider-wrap"><input type="range" min="1" max="10" value="5" data-field="mood_evening" oninput="onSlider(this)"></div>
+          <span class="slider-val">5</span>
+        </div>
+        <div class="slider-row">
+          <span class="slider-label">Pain</span>
+          <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="pain_evening" oninput="onSlider(this)"></div>
+          <span class="slider-val">0</span>
+        </div>
+        <div class="slider-row">
+          <span class="slider-label">Bloating</span>
+          <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="bloating_score" oninput="onSlider(this)"></div>
+          <span class="slider-val">0</span>
+        </div>
+        <div class="slider-row">
+          <span class="slider-label">Acidity</span>
+          <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="acidity_score" oninput="onSlider(this)"></div>
+          <span class="slider-val">0</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Intake</h2>
+        <div class="time-row">
+          <label>Last meal time</label>
+          <input type="time" data-field="last_meal_time" oninput="autoSave()">
+        </div>
+        <button class="zoe-sync-btn" onclick="triggerZoeSync()">
+          <span class="zoe-icon">&#129367;</span> Sync Zoe Food Diary
+        </button>
+        <div class="zoe-status" id="zoe-status"></div>
+      </div>
+
+      <div class="card">
+        <h2>Amazing things today</h2>
+        <textarea data-field="amazing_raw" placeholder="Just say what was great..." style="min-height:80px" oninput="autoSave()"></textarea>
+        <div class="parsed-items" id="amazing-parsed"></div>
+      </div>
+
+      <div class="card">
+        <h2>How could today have been better?</h2>
+        <textarea data-field="could_be_better" placeholder="Just talk..." style="min-height:60px" oninput="autoSave()"></textarea>
+      </div>
+
+      <div class="card">
+        <h2>Evening supplements</h2>
+        <div class="supp-grid" id="evening-supps"></div>
+        <div class="add-supp-row">
+          <input type="text" id="add-evening-supp" placeholder="Add supplement...">
+          <button class="add-supp-btn" onclick="addCustomSupp('evening')">+</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Wind down</h2>
+        <div class="time-row">
+          <label>Screen off time</label>
+          <input type="time" data-field="screen_off_time" oninput="autoSave()">
+        </div>
+        <h3>Notes</h3>
+        <textarea data-field="evening_notes" placeholder="Anything else..." oninput="autoSave()"></textarea>
+      </div>
+
+      <div class="validation-msg" id="evening-validation"></div>
+      <button class="submit-btn evening" id="evening-save-btn" onclick="saveEvening()">Save Evening Check-in</button>
+      <div class="status" id="evening-status"></div>
+    </div>
   </div>
+</div>
 
-  <!-- Streak bar -->
-  <div class="streak-bar" onclick="openCalendar()">
-    <span class="streak-fire">🔥</span>
-    <div class="streak-stat">
-      <span class="streak-num" id="streakCount">0</span>
-      <span class="streak-label">day streak</span>
+<!-- Bottom Navigation -->
+<div class="bottom-nav">
+  <div class="bottom-nav-inner">
+    <div class="nav-tab active" id="nav-dashboard" onclick="switchView('dashboard')">
+      <span class="nav-icon">&#128202;</span>
+      <span>Dashboard</span>
     </div>
-    <div class="streak-divider"></div>
-    <div class="streak-stat">
-      <span class="streak-num" id="monthCount">0</span>
-      <span class="streak-label">this month</span>
+    <div class="nav-tab" id="nav-journal" onclick="switchView('journal')">
+      <span class="nav-icon">&#128221;</span>
+      <span>Journal</span>
     </div>
-    <div class="streak-divider"></div>
-    <div class="streak-stat" style="font-size:11px;color:var(--text2)">📅</div>
   </div>
+</div>
 
-  <div class="tabs">
-    <div class="tab active" onclick="switchTab('morning')">Morning</div>
-    <div class="tab" onclick="switchTab('evening')">Evening</div>
-  </div>
-
-  <!-- MORNING -->
-  <div class="section active" id="sec-morning">
-    <div class="card">
-      <h2>How are you feeling?</h2>
-      <div class="slider-row">
-        <span class="slider-label">Sleep</span>
-        <div class="slider-wrap"><input type="range" min="1" max="10" value="5" data-field="sleep_quality_subjective" oninput="onSlider(this)"></div>
-        <span class="slider-val">5</span>
-      </div>
-      <div class="slider-row">
-        <span class="slider-label">Mood</span>
-        <div class="slider-wrap"><input type="range" min="1" max="10" value="5" data-field="mood_score" oninput="onSlider(this)"></div>
-        <span class="slider-val">5</span>
-      </div>
-      <div class="slider-row">
-        <span class="slider-label">Energy</span>
-        <div class="slider-wrap"><input type="range" min="1" max="10" value="5" data-field="energy_morning" oninput="onSlider(this)"></div>
-        <span class="slider-val">5</span>
-      </div>
-      <div class="slider-row">
-        <span class="slider-label">Pain</span>
-        <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="pain_score" oninput="onSlider(this)"></div>
-        <span class="slider-val">0</span>
-      </div>
-      <div class="slider-row">
-        <span class="slider-label">Anxiety</span>
-        <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="anxiety_score" oninput="onSlider(this)"></div>
-        <span class="slider-val">0</span>
-      </div>
-      <h3>Sleep notes</h3>
-      <textarea data-field="sleep_notes" placeholder="Woke at 4am, gut grumbling..." oninput="autoSave()"></textarea>
-    </div>
-
-    <div class="card">
-      <h2>I am grateful for...</h2>
-      <textarea data-field="gratitude_raw" placeholder="Just say it all... e.g. My health, the sunshine today, having time with family" style="min-height:80px" oninput="autoSave()"></textarea>
-      <div class="parsed-items" id="gratitude-parsed"></div>
-    </div>
-
-    <div class="card">
-      <h2>What would make today great?</h2>
-      <textarea data-field="make_today_great" placeholder="Just talk..." oninput="autoSave()"></textarea>
-    </div>
-
-    <div class="card">
-      <h2>Daily affirmation</h2>
-      <textarea data-field="affirmation" placeholder="I am..." style="min-height:50px" oninput="autoSave()"></textarea>
-    </div>
-
-    <div class="card">
-      <h2>Morning supplements</h2>
-      <div class="supp-grid" id="morning-supps"></div>
-      <div class="add-supp-row">
-        <input type="text" id="add-morning-supp" placeholder="Add supplement...">
-        <button class="add-supp-btn" onclick="addCustomSupp('morning')">+</button>
-      </div>
-    </div>
-
-    <button class="submit-btn morning" onclick="saveMorning()">Save Morning Check-in</button>
-    <div class="status" id="morning-status"></div>
-  </div>
-
-  <!-- EVENING -->
-  <div class="section" id="sec-evening">
-    <div class="card">
-      <h2>End of day</h2>
-      <div class="slider-row">
-        <span class="slider-label">Energy PM</span>
-        <div class="slider-wrap"><input type="range" min="1" max="10" value="5" data-field="energy_afternoon" oninput="onSlider(this)"></div>
-        <span class="slider-val">5</span>
-      </div>
-      <div class="slider-row">
-        <span class="slider-label">Energy Eve</span>
-        <div class="slider-wrap"><input type="range" min="1" max="10" value="5" data-field="energy_evening" oninput="onSlider(this)"></div>
-        <span class="slider-val">5</span>
-      </div>
-      <div class="slider-row">
-        <span class="slider-label">Mood</span>
-        <div class="slider-wrap"><input type="range" min="1" max="10" value="5" data-field="mood_evening" oninput="onSlider(this)"></div>
-        <span class="slider-val">5</span>
-      </div>
-      <div class="slider-row">
-        <span class="slider-label">Pain</span>
-        <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="pain_evening" oninput="onSlider(this)"></div>
-        <span class="slider-val">0</span>
-      </div>
-      <div class="slider-row">
-        <span class="slider-label">Bloating</span>
-        <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="bloating_score" oninput="onSlider(this)"></div>
-        <span class="slider-val">0</span>
-      </div>
-      <div class="slider-row">
-        <span class="slider-label">Acidity</span>
-        <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="acidity_score" oninput="onSlider(this)"></div>
-        <span class="slider-val">0</span>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2>Intake</h2>
-      <div class="time-row">
-        <label>Last meal time</label>
-        <input type="time" data-field="last_meal_time" oninput="autoSave()">
-      </div>
-      <button class="zoe-sync-btn" onclick="triggerZoeSync()">
-        <span class="zoe-icon">🥗</span> Sync Zoe Food Diary
-      </button>
-      <div class="zoe-status" id="zoe-status"></div>
-    </div>
-
-    <div class="card">
-      <h2>Amazing things today</h2>
-      <textarea data-field="amazing_raw" placeholder="Just say what was great..." style="min-height:80px" oninput="autoSave()"></textarea>
-      <div class="parsed-items" id="amazing-parsed"></div>
-    </div>
-
-    <div class="card">
-      <h2>How could today have been better?</h2>
-      <textarea data-field="could_be_better" placeholder="Just talk..." style="min-height:60px" oninput="autoSave()"></textarea>
-    </div>
-
-    <div class="card">
-      <h2>Evening supplements</h2>
-      <div class="supp-grid" id="evening-supps"></div>
-      <div class="add-supp-row">
-        <input type="text" id="add-evening-supp" placeholder="Add supplement...">
-        <button class="add-supp-btn" onclick="addCustomSupp('evening')">+</button>
-      </div>
-    </div>
-
-    <div class="card">
-      <h2>Wind down</h2>
-      <div class="time-row">
-        <label>Screen off time</label>
-        <input type="time" data-field="screen_off_time" oninput="autoSave()">
-      </div>
-      <h3>Notes</h3>
-      <textarea data-field="evening_notes" placeholder="Anything else..." oninput="autoSave()"></textarea>
-    </div>
-
-    <button class="submit-btn evening" onclick="saveEvening()">Save Evening Check-in</button>
-    <div class="status" id="evening-status"></div>
+<!-- Bottom sheet for KPI drill-down -->
+<div class="bottom-sheet-overlay" id="sheetOverlay" onclick="if(event.target===this)closeSheet()">
+  <div class="bottom-sheet">
+    <div class="sheet-handle"></div>
+    <h3 id="sheetTitle">Details</h3>
+    <div id="sheetContent"></div>
   </div>
 </div>
 
@@ -450,7 +607,7 @@ input[type=number]{width:70px;text-align:center}
 </div>
 
 <script>
-// Supplements config
+// ==================== CONFIG ====================
 const MORNING_SUPPS = [
   {id:'telfast', name:'Telfast'},
   {id:'vitc_1', name:'Vitamin C (1)'},
@@ -468,7 +625,29 @@ const EVENING_SUPPS = [
 
 let currentDate = new Date();
 let saveTimer = null;
+let currentView = localStorage.getItem('health-active-view') || 'dashboard';
 
+// Field touch tracking for validation
+const touchedFields = new Set();
+
+// Dashboard data cache: { 'YYYY-MM-DD': { data, fetchedAt } }
+const statusCache = {};
+
+// ==================== VIEW SWITCHING ====================
+function switchView(view) {
+  currentView = view;
+  localStorage.setItem('health-active-view', view);
+  document.getElementById('view-dashboard').classList.toggle('active', view === 'dashboard');
+  document.getElementById('view-journal').classList.toggle('active', view === 'journal');
+  document.getElementById('nav-dashboard').classList.toggle('active', view === 'dashboard');
+  document.getElementById('nav-journal').classList.toggle('active', view === 'journal');
+  if (view === 'dashboard') {
+    updateDashDateDisplay();
+    loadDashboard();
+  }
+}
+
+// ==================== CORE UTILS ====================
 function fmt(d) {
   return d.toISOString().split('T')[0];
 }
@@ -487,6 +666,10 @@ function friendlyDate(d) {
 function changeDate(delta) {
   currentDate = new Date(currentDate.getTime() + delta * 86400000);
   loadDay();
+  if (currentView === 'dashboard') {
+    updateDashDateDisplay();
+    loadDashboard();
+  }
 }
 
 function getKey() { return 'checkin-' + fmt(currentDate); }
@@ -507,9 +690,10 @@ function updateDot(state) {
   dot.className = 'saved-dot ' + state;
 }
 
-// Sliders
+// ==================== SLIDERS & AUTOSAVE ====================
 function onSlider(el) {
   el.parentElement.nextElementSibling.textContent = el.value;
+  touchedFields.add(el.dataset.field);
   autoSave();
 }
 
@@ -539,10 +723,16 @@ function autoSave() {
   }, 300);
 }
 
-// Parse free-form text into items
+// Track touches on text fields too
+document.addEventListener('input', function(e) {
+  if (e.target.dataset && e.target.dataset.field) {
+    touchedFields.add(e.target.dataset.field);
+  }
+});
+
+// ==================== TEXT PARSING ====================
 function parseItems(text) {
   if (!text || !text.trim()) return [];
-  // Split on commas, periods, newlines, "and", or numbered patterns like "1." "2)"
   return text
     .replace(/\d+[\.\)]\s*/g, ',')
     .replace(/\band\b/gi, ',')
@@ -565,13 +755,12 @@ function showParsed(fieldName, containerId) {
   }
 }
 
-// Supplement rendering
+// ==================== SUPPLEMENTS ====================
 function renderSupps(containerId, list) {
   const data = getData();
   const section = containerId.split('-')[0];
   const saved = data[section + '_supplements'] || [];
   const savedNames = saved.map(s => s.name);
-  // Merge custom supplements for this section
   const customs = getCustomSupps().filter(c => c.section === section);
   const allSupps = [...list, ...customs];
   const c = document.getElementById(containerId);
@@ -598,7 +787,6 @@ function addCustomSupp(section) {
   const input = document.getElementById(`add-${section}-supp`);
   const raw = input.value.trim();
   if (!raw) return;
-  // Support comma-separated batch entry
   const names = raw.split(',').map(s => s.trim()).filter(s => s.length > 0);
   const customs = getCustomSupps();
   const grid = document.getElementById(`${section}-supps`);
@@ -607,7 +795,6 @@ function addCustomSupp(section) {
     if (!customs.find(c => c.id === id)) {
       customs.push({id, name, section});
     }
-    // Add to grid and auto-check
     const div = document.createElement('div');
     div.className = 'supp-item checked';
     div.dataset.id = id;
@@ -621,17 +808,18 @@ function addCustomSupp(section) {
   autoSave();
 }
 
-// Tab switching
+// ==================== TAB SWITCHING (morning/evening) ====================
 function switchTab(tab) {
   document.querySelectorAll('.tab').forEach((t, i) => {
     t.classList.toggle('active', (tab === 'morning' ? i === 0 : i === 1));
   });
   document.getElementById('sec-morning').classList.toggle('active', tab === 'morning');
   document.getElementById('sec-evening').classList.toggle('active', tab === 'evening');
+  touchedFields.clear();
   loadFields();
 }
 
-// Load data into fields
+// ==================== LOAD DATA ====================
 function loadFields() {
   const data = getData();
   document.querySelectorAll('.section.active [data-field]').forEach(el => {
@@ -649,59 +837,163 @@ function loadFields() {
   const section = document.querySelector('.section.active').id === 'sec-morning' ? 'morning' : 'evening';
   renderSupps(section + '-supps', section === 'morning' ? MORNING_SUPPS : EVENING_SUPPS);
   updateDot(data.synced ? 'synced' : (data.updated_at ? 'saved' : 'unsaved'));
+  // Reset touched fields when loading a new day
+  touchedFields.clear();
+  // If data was previously saved, mark required fields as touched
+  if (data.morning_saved) {
+    ['sleep_quality_subjective','mood_score','energy_morning'].forEach(f => touchedFields.add(f));
+  }
 }
 
 function loadDay() {
   document.getElementById('dateLabel').textContent = friendlyDate(currentDate);
+  document.getElementById('dashDateLabel').textContent = friendlyDate(currentDate);
   // Big date banner
   const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
   const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-  document.getElementById('dateBig').textContent = `${days[currentDate.getDay()]}, ${currentDate.getDate()} ${months[currentDate.getMonth()]}`;
+  const bigText = `${days[currentDate.getDay()]}, ${currentDate.getDate()} ${months[currentDate.getMonth()]}`;
+  document.getElementById('dateBig').textContent = bigText;
+  document.getElementById('dashDateBig').textContent = bigText;
   const today = new Date(); today.setHours(0,0,0,0);
   const check = new Date(currentDate); check.setHours(0,0,0,0);
   const diff = Math.round((today - check) / 86400000);
   const banner = document.getElementById('dateBanner');
+  const dashBanner = document.getElementById('dashDateBanner');
   if (diff === 0) {
     document.getElementById('dateSub').textContent = 'Today';
+    document.getElementById('dashDateSub').textContent = 'Today';
     banner.classList.remove('not-today');
+    dashBanner.classList.remove('not-today');
   } else if (diff === 1) {
     document.getElementById('dateSub').textContent = 'Yesterday';
+    document.getElementById('dashDateSub').textContent = 'Yesterday';
     banner.classList.add('not-today');
+    dashBanner.classList.add('not-today');
   } else if (diff === -1) {
     document.getElementById('dateSub').textContent = 'Tomorrow';
+    document.getElementById('dashDateSub').textContent = 'Tomorrow';
     banner.classList.add('not-today');
+    dashBanner.classList.add('not-today');
   } else {
     document.getElementById('dateSub').textContent = fmt(currentDate);
+    document.getElementById('dashDateSub').textContent = fmt(currentDate);
     banner.classList.add('not-today');
+    dashBanner.classList.add('not-today');
   }
   loadFields();
 }
 
-// Save & sync
+function updateDashDateDisplay() {
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  document.getElementById('dashDateBig').textContent = `${days[currentDate.getDay()]}, ${currentDate.getDate()} ${months[currentDate.getMonth()]}`;
+  document.getElementById('dashDateLabel').textContent = friendlyDate(currentDate);
+  const today = new Date(); today.setHours(0,0,0,0);
+  const check = new Date(currentDate); check.setHours(0,0,0,0);
+  const diff = Math.round((today - check) / 86400000);
+  const dashBanner = document.getElementById('dashDateBanner');
+  if (diff === 0) {
+    document.getElementById('dashDateSub').textContent = 'Today';
+    dashBanner.classList.remove('not-today');
+  } else if (diff === 1) {
+    document.getElementById('dashDateSub').textContent = 'Yesterday';
+    dashBanner.classList.add('not-today');
+  } else {
+    document.getElementById('dashDateSub').textContent = fmt(currentDate);
+    dashBanner.classList.add('not-today');
+  }
+}
+
+// ==================== VALIDATION ====================
+function validateFields(type) {
+  const required = type === 'morning'
+    ? ['sleep_quality_subjective', 'mood_score', 'energy_morning']
+    : [];
+  if (required.length === 0) return true;
+
+  const untouched = required.filter(f => !touchedFields.has(f));
+  if (untouched.length === 0) return true;
+
+  // Highlight untouched fields
+  untouched.forEach(f => {
+    const el = document.querySelector(`[data-field="${f}"]`);
+    if (el) {
+      el.classList.remove('field-warning');
+      void el.offsetWidth; // force reflow
+      el.classList.add('field-warning');
+      setTimeout(() => el.classList.remove('field-warning'), 1500);
+    }
+  });
+
+  // Shake save button
+  const btn = document.getElementById(`${type}-save-btn`);
+  btn.classList.remove('btn-shake');
+  void btn.offsetWidth;
+  btn.classList.add('btn-shake');
+  setTimeout(() => btn.classList.remove('btn-shake'), 500);
+
+  // Show message
+  const msgEl = document.getElementById(`${type}-validation`);
+  const names = untouched.map(f => f.replace(/_/g, ' ').replace('subjective',''));
+  msgEl.textContent = `Heads up: ${names.join(', ')} not adjusted yet`;
+  msgEl.classList.add('show');
+  setTimeout(() => msgEl.classList.remove('show'), 4000);
+
+  return false; // warn but don't block
+}
+
+// ==================== SAVE & SYNC ====================
 async function saveMorning() {
+  validateFields('morning'); // warn only, don't block
   autoSave();
   clearTimeout(saveTimer);
   const data = getData();
   data.morning_saved = true;
   data.morning_saved_at = new Date().toISOString();
   setData(data);
-  await syncToGitHub(data);
-  showToast('☀️ Morning check-in saved!');
+  const synced = await syncToGitHub(data);
+  if (synced) {
+    showToast('Saved & synced', false, 'check');
+  } else {
+    showToast('Saved locally', false, 'warn');
+    showSyncPending(true);
+  }
   updateStreak();
   showStatus('morning-status', 'Morning check-in saved!');
 }
 
 async function saveEvening() {
+  validateFields('evening'); // warn only
   autoSave();
   clearTimeout(saveTimer);
   const data = getData();
   data.evening_saved = true;
   data.evening_saved_at = new Date().toISOString();
   setData(data);
-  await syncToGitHub(data);
-  showToast('🌙 Evening check-in saved!', true);
+  const synced = await syncToGitHub(data);
+  if (synced) {
+    showToast('Saved & synced', true, 'check');
+  } else {
+    showToast('Saved locally', true, 'warn');
+    showSyncPending(true);
+  }
   updateStreak();
   showStatus('evening-status', 'Evening check-in saved!');
+}
+
+function showSyncPending(show) {
+  document.getElementById('syncPendingBanner').classList.toggle('show', show);
+}
+
+async function retrySyncCurrent() {
+  const data = getData();
+  if (data && !data.synced) {
+    const ok = await syncToGitHub(data);
+    if (ok) {
+      showSyncPending(false);
+      showToast('Synced!', false, 'check');
+    }
+  }
 }
 
 function showStatus(id, msg, isError) {
@@ -711,7 +1003,7 @@ function showStatus(id, msg, isError) {
   setTimeout(() => el.className = 'status', 3000);
 }
 
-// GitHub sync
+// ==================== GITHUB SYNC ====================
 function getSettings() {
   try { return JSON.parse(localStorage.getItem('checkin-settings')) || {}; } catch { return {}; }
 }
@@ -727,11 +1019,10 @@ function saveSettings() {
 
 async function syncToGitHub(data) {
   const s = getSettings();
-  if (!s.token || !s.repo) return;
+  if (!s.token || !s.repo) return false;
   const path = `${s.path || 'data/checkins'}/${data.date}.json`;
   const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
   try {
-    // Check if file exists (to get sha for update)
     let sha = null;
     try {
       const existing = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
@@ -762,20 +1053,22 @@ async function syncToGitHub(data) {
       data.synced_at = new Date().toISOString();
       setData(data);
       updateDot('synced');
+      showSyncPending(false);
+      return true;
     } else {
       console.error('Sync failed:', r.status, await r.text());
+      return false;
     }
   } catch (e) {
     console.error('Sync error:', e);
-    // Queue for later
     const queue = JSON.parse(localStorage.getItem('sync-queue') || '[]');
     queue.push(data.date);
     localStorage.setItem('sync-queue', JSON.stringify([...new Set(queue)]));
+    return false;
   }
 }
 
 async function testSync() {
-  // Force save first
   saveSettings();
   const token = document.getElementById('ghToken').value.trim();
   const repo = document.getElementById('ghRepo').value.trim();
@@ -830,7 +1123,6 @@ function toggleSettings() {
   }
 }
 
-// Retry offline queue
 async function retryQueue() {
   const queue = JSON.parse(localStorage.getItem('sync-queue') || '[]');
   if (!queue.length) return;
@@ -841,7 +1133,7 @@ async function retryQueue() {
   localStorage.setItem('sync-queue', '[]');
 }
 
-// Zoe sync trigger
+// ==================== ZOE SYNC ====================
 async function triggerZoeSync() {
   const s = getSettings();
   const st = document.getElementById('zoe-status');
@@ -888,19 +1180,23 @@ async function triggerZoeSync() {
   }
 }
 
-// Save toast
-function showToast(msg, isEvening) {
+// ==================== TOAST ====================
+function showToast(msg, isEvening, type) {
   const t = document.getElementById('saveToast');
-  t.textContent = msg;
-  t.className = 'toast show' + (isEvening ? ' evening-toast' : '');
+  const icon = type === 'check' ? '<span class="toast-icon">&#10004;</span>' :
+               type === 'warn' ? '<span class="toast-icon">&#9888;</span>' : '';
+  t.innerHTML = icon + msg;
+  let cls = 'toast show';
+  if (isEvening) cls += ' evening-toast';
+  if (type === 'warn') cls += ' warn-toast';
+  t.className = cls;
   setTimeout(() => t.className = 'toast', 2500);
 }
 
-// Streak calculation
+// ==================== STREAK ====================
 function calcStreak() {
   let streak = 0;
   const d = new Date(); d.setHours(0,0,0,0);
-  // Check from today backwards
   for (let i = 0; i < 365; i++) {
     const key = 'checkin-' + fmt(d);
     const data = JSON.parse(localStorage.getItem(key) || 'null');
@@ -908,7 +1204,6 @@ function calcStreak() {
       streak++;
       d.setDate(d.getDate() - 1);
     } else if (i === 0) {
-      // Today might not be filled yet, skip and keep counting from yesterday
       d.setDate(d.getDate() - 1);
       continue;
     } else {
@@ -936,7 +1231,7 @@ function updateStreak() {
   document.getElementById('monthCount').textContent = calcMonthCount();
 }
 
-// Calendar
+// ==================== CALENDAR ====================
 let calDate = new Date();
 
 function openCalendar() {
@@ -995,10 +1290,14 @@ function renderCalendar() {
 function selectCalDay(y, m, d) {
   currentDate = new Date(y, m, d);
   loadDay();
+  if (currentView === 'dashboard') {
+    updateDashDateDisplay();
+    loadDashboard();
+  }
   closeCalendar();
 }
 
-// Day detail (data sources report)
+// ==================== DAY DETAIL ====================
 function openDayDetail(dateStr) {
   const d = new Date(dateStr + 'T12:00:00');
   const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
@@ -1014,72 +1313,77 @@ function closeDayDetail() {
 }
 
 async function fetchDayStatus(dateStr) {
-  const s = getSettings();
   const el = document.getElementById('dayDetailContent');
-  if (!s.token || !s.repo) {
-    el.innerHTML = '<div class="day-detail-loading">Set up GitHub in settings to see data status</div>';
-    return;
+  const data = await fetchStatusData(dateStr);
+  if (!data) {
+    el.innerHTML = renderNoStatus();
+  } else {
+    el.innerHTML = renderDayStatus(data);
   }
+}
+
+// ==================== STATUS DATA FETCHER (shared) ====================
+async function fetchStatusData(dateStr) {
+  // Check cache
+  if (statusCache[dateStr] && (Date.now() - statusCache[dateStr].fetchedAt < 60000)) {
+    return statusCache[dateStr].data;
+  }
+  const s = getSettings();
+  if (!s.token || !s.repo) return null;
   try {
     const path = `data/daily-status/${dateStr}.json`;
     const r = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
       headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'}
     });
-    if (!r.ok) {
-      el.innerHTML = renderNoStatus();
-      return;
-    }
+    if (!r.ok) return null;
     const file = await r.json();
     const data = JSON.parse(atob(file.content));
-    el.innerHTML = renderDayStatus(data);
+    statusCache[dateStr] = { data, fetchedAt: Date.now() };
+    return data;
   } catch (e) {
-    el.innerHTML = '<div class="day-detail-loading">Error loading status</div>';
+    console.error('fetchStatusData error:', e);
+    return null;
   }
 }
 
 function renderNoStatus() {
   return `
-    <div class="source-row"><div class="source-icon">⏳</div>
+    <div class="source-row"><div class="source-icon">&#9203;</div>
     <div class="source-info"><span class="source-name">No status file yet</span>
     <div class="source-detail">Data may not have been synced for this day</div></div></div>`;
 }
 
 function renderDayStatus(data) {
   let html = '';
-  // WHOOP
   const w = data.whoop || {};
   html += `<div class="source-row">
-    <div class="source-icon">💚</div>
+    <div class="source-icon">&#128154;</div>
     <div class="source-info"><span class="source-name">WHOOP</span>
     ${w.imported ? `<div class="source-detail">Recovery ${w.recovery}% | HRV ${w.hrv}ms | RHR ${w.rhr} | Strain ${w.strain} | Sleep ${w.sleep_hrs}h</div>` : ''}
     </div><span class="source-badge ${w.imported?'yes':'no'}">${w.imported?'Imported':'Missing'}</span></div>`;
 
-  // Apple Health
   const a = data.apple_health || {};
   html += `<div class="source-row">
-    <div class="source-icon">🍎</div>
+    <div class="source-icon">&#127822;</div>
     <div class="source-info"><span class="source-name">Apple Health</span>
     ${a.imported ? `<div class="source-detail">Steps ${a.steps?.toLocaleString()||'-'} | HR ${a.resting_hr||'-'} | HRV ${a.hrv?Math.round(a.hrv):'-'}ms${a.weight_kg?' | '+a.weight_kg+'kg':''}</div>` : ''}
     </div><span class="source-badge ${a.imported?'yes':'no'}">${a.imported?'Imported':'Missing'}</span></div>`;
 
-  // Check-in
   const c = data.checkin || {};
   html += `<div class="source-row">
-    <div class="source-icon">📝</div>
+    <div class="source-icon">&#128221;</div>
     <div class="source-info"><span class="source-name">Journal Check-in</span>
     ${c.imported ? `<div class="source-detail">Mood ${c.mood||'-'}/10 | Energy ${c.energy||'-'}/10 | Sleep ${c.sleep_quality||'-'}/10 | ${c.supplements||0} supps</div>` : ''}
     </div><span class="source-badge ${c.imported?'yes':'no'}">${c.imported?'Imported':'Missing'}</span></div>`;
 
-  // Zoe
   const z = data.zoe || {};
   html += `<div class="source-row">
-    <div class="source-icon">🥗</div>
+    <div class="source-icon">&#129367;</div>
     <div class="source-info"><span class="source-name">Zoe Food Diary</span>
     ${z.imported ? `<div class="source-detail">${z.meals} meals | Score ${z.avg_score||'-'} | ${z.calories||'-'} cal | P${z.protein_g||'-'}g F${z.fat_g||'-'}g C${z.carbs_g||'-'}g</div>` : ''}
     ${z.imported && z.meal_names ? `<div class="source-detail" style="margin-top:4px">${z.meal_names.join(', ')}</div>` : ''}
     </div><span class="source-badge ${z.imported?'yes':'no'}">${z.imported?'Imported':'Missing'}</span></div>`;
 
-  // Summary line
   const total = [w,a,c,z].filter(x=>x.imported).length;
   const color = total===4?'var(--green)':total>=2?'var(--gold)':'var(--red)';
   html += `<div style="text-align:center;margin-top:12px;font-size:13px;color:${color};font-weight:600">${total}/4 data sources imported</div>`;
@@ -1087,9 +1391,296 @@ function renderDayStatus(data) {
   return html;
 }
 
-// Init
+// ==================== DASHBOARD ====================
+async function loadDashboard() {
+  const el = document.getElementById('dashContent');
+  el.innerHTML = '<div class="dash-loading">Loading dashboard...</div>';
+
+  const dateStr = fmt(currentDate);
+  const data = await fetchStatusData(dateStr);
+
+  if (!data) {
+    el.innerHTML = `<div class="dash-loading">No data for ${dateStr}<br><span style="font-size:12px;color:var(--text2);margin-top:8px;display:block">Check GitHub settings or sync data first</span></div>`;
+    return;
+  }
+
+  let html = '<div class="dash-section-title">Today at a Glance</div>';
+
+  const w = data.whoop || {};
+  const a = data.apple_health || {};
+  const c = data.checkin || {};
+  const z = data.zoe || {};
+
+  // KPI grid
+  html += '<div class="kpi-grid">';
+
+  // 1. WHOOP Recovery
+  const rec = w.imported ? w.recovery : null;
+  const recColor = rec != null ? (rec >= 67 ? 'kpi-green' : rec >= 34 ? 'kpi-yellow' : 'kpi-red') : '';
+  html += `<div class="kpi-card ${rec==null?'no-data':''}" onclick="openKpiSheet('whoop')">
+    <div class="kpi-label">WHOOP Recovery</div>
+    <div class="kpi-value ${recColor}">${rec != null ? rec + '<span class="kpi-unit">%</span>' : '--'}</div>
+    <div class="kpi-sub">${w.imported ? `HRV ${w.hrv}ms | RHR ${w.rhr}` : 'No data'}</div>
+  </div>`;
+
+  // 2. Sleep
+  const sleepHrs = w.imported ? w.sleep_hrs : null;
+  const sleepPerf = w.imported ? w.sleep_perf : null;
+  html += `<div class="kpi-card ${sleepHrs==null?'no-data':''}" onclick="openKpiSheet('sleep')">
+    <div class="kpi-label">Sleep</div>
+    <div class="kpi-value kpi-blue">${sleepHrs != null ? sleepHrs + '<span class="kpi-unit">h</span>' : '--'}</div>
+    <div class="kpi-sub">${sleepPerf != null ? sleepPerf + '% performance' : 'No data'}</div>
+  </div>`;
+
+  // 3. Zoe Score
+  const zoeScore = z.imported ? z.avg_score : null;
+  const zoeColor = zoeScore != null ? (zoeScore >= 70 ? 'kpi-green' : zoeScore >= 50 ? 'kpi-yellow' : 'kpi-red') : '';
+  html += `<div class="kpi-card ${zoeScore==null?'no-data':''}" onclick="openKpiSheet('zoe')">
+    <div class="kpi-label">Zoe Score</div>
+    <div class="kpi-value ${zoeColor}">${zoeScore != null ? zoeScore : '--'}</div>
+    <div class="kpi-sub">${z.imported ? `${z.meals} meals | ${z.calories} cal` : 'No data'}</div>
+  </div>`;
+
+  // 4. Activity
+  const steps = a.imported ? a.steps : null;
+  const strain = w.imported ? w.strain : null;
+  html += `<div class="kpi-card ${steps==null&&strain==null?'no-data':''}" onclick="openKpiSheet('activity')">
+    <div class="kpi-label">Activity</div>
+    <div class="kpi-value kpi-green">${steps != null ? (steps >= 1000 ? Math.round(steps/1000) + '<span class="kpi-unit">k</span>' : steps) : '--'}</div>
+    <div class="kpi-sub">${steps != null ? 'steps' : ''}${steps != null && strain != null ? ' | ' : ''}${strain != null ? 'strain ' + strain : ''}</div>
+  </div>`;
+
+  // 5. Mood/Energy
+  const mood = c.imported ? c.mood : null;
+  const energy = c.imported ? c.energy : null;
+  const moodColor = mood != null ? (mood >= 7 ? 'kpi-green' : mood >= 4 ? 'kpi-yellow' : 'kpi-red') : '';
+  html += `<div class="kpi-card ${mood==null?'no-data':''}" onclick="openKpiSheet('mood')">
+    <div class="kpi-label">Mood / Energy</div>
+    <div class="kpi-value ${moodColor}">${mood != null ? mood + '<span class="kpi-unit">/10</span>' : '--'}</div>
+    <div class="kpi-sub">${energy != null ? 'Energy ' + energy + '/10' : 'No data'}</div>
+  </div>`;
+
+  // 6. Weight
+  const weight = a.imported && a.weight_kg ? a.weight_kg : null;
+  html += `<div class="kpi-card ${weight==null?'no-data':''}" onclick="openKpiSheet('weight')">
+    <div class="kpi-label">Weight</div>
+    <div class="kpi-value kpi-blue">${weight != null ? weight + '<span class="kpi-unit">kg</span>' : '--'}</div>
+    <div class="kpi-sub">${a.imported && a.daylight_mins ? a.daylight_mins + ' min daylight' : ''}</div>
+  </div>`;
+
+  html += '</div>'; // close kpi-grid
+
+  // Missing data banner
+  const missing = [];
+  if (!w.imported) missing.push('WHOOP');
+  if (!a.imported) missing.push('Apple Health');
+  if (!c.imported) missing.push('Check-in');
+  if (!z.imported) missing.push('Zoe');
+  if (missing.length > 0) {
+    html += `<div class="missing-banner"><span class="missing-icon">&#9888;</span> Missing: ${missing.join(', ')}</div>`;
+  }
+
+  // Meals list
+  if (z.imported && z.meal_names && z.meal_names.length > 0) {
+    html += '<div class="meals-list"><h3>Meals</h3>';
+    z.meal_names.forEach((name, i) => {
+      // If there are individual scores we don't have them in the schema, just show names
+      html += `<div class="meal-item"><span class="meal-name">${name}</span></div>`;
+    });
+    html += '</div>';
+  }
+
+  // 7-day sparklines
+  html += await renderSparklines(dateStr);
+
+  el.innerHTML = html;
+}
+
+// ==================== SPARKLINES ====================
+async function renderSparklines(currentDateStr) {
+  const dates = [];
+  const d = new Date(currentDateStr + 'T12:00:00');
+  for (let i = 6; i >= 0; i--) {
+    const dd = new Date(d.getTime() - i * 86400000);
+    dates.push(fmt(dd));
+  }
+
+  // Fetch all 7 days (current day should already be cached)
+  const allData = [];
+  for (const ds of dates) {
+    const data = await fetchStatusData(ds);
+    allData.push(data);
+  }
+
+  const recoveryVals = allData.map(d => d && d.whoop && d.whoop.imported ? d.whoop.recovery : null);
+  const sleepVals = allData.map(d => d && d.whoop && d.whoop.imported ? d.whoop.sleep_hrs : null);
+  const stepVals = allData.map(d => d && d.apple_health && d.apple_health.imported ? d.apple_health.steps : null);
+
+  // Only show if we have at least 2 data points
+  const hasRecovery = recoveryVals.filter(v => v != null).length >= 2;
+  const hasSleep = sleepVals.filter(v => v != null).length >= 2;
+  const hasSteps = stepVals.filter(v => v != null).length >= 2;
+
+  if (!hasRecovery && !hasSleep && !hasSteps) return '';
+
+  let html = '<div class="sparklines-card"><h3>7-Day Trends</h3>';
+
+  if (hasRecovery) {
+    html += `<div class="sparkline-row">
+      <span class="sparkline-label">Recovery</span>
+      <div class="sparkline-svg">${buildSparklineSVG(recoveryVals, 0, 100, 'var(--green)')}</div>
+      <span class="sparkline-val" style="color:var(--green)">${recoveryVals[6] != null ? recoveryVals[6] + '%' : '--'}</span>
+    </div>`;
+  }
+
+  if (hasSleep) {
+    html += `<div class="sparkline-row">
+      <span class="sparkline-label">Sleep</span>
+      <div class="sparkline-svg">${buildSparklineSVG(sleepVals, 4, 10, 'var(--blue)')}</div>
+      <span class="sparkline-val" style="color:var(--blue)">${sleepVals[6] != null ? sleepVals[6] + 'h' : '--'}</span>
+    </div>`;
+  }
+
+  if (hasSteps) {
+    html += `<div class="sparkline-row">
+      <span class="sparkline-label">Steps</span>
+      <div class="sparkline-svg">${buildSparklineSVG(stepVals, 0, null, 'var(--gold)')}</div>
+      <span class="sparkline-val" style="color:var(--gold)">${stepVals[6] != null ? Math.round(stepVals[6]/1000) + 'k' : '--'}</span>
+    </div>`;
+  }
+
+  html += '</div>';
+  return html;
+}
+
+function buildSparklineSVG(values, minVal, maxVal, color) {
+  const width = 200;
+  const height = 28;
+  const padding = 2;
+
+  // Filter non-null for range calculation
+  const valid = values.filter(v => v != null);
+  if (valid.length < 2) return '';
+
+  const dataMin = minVal != null ? minVal : Math.min(...valid);
+  const dataMax = maxVal != null ? maxVal : Math.max(...valid);
+  const range = dataMax - dataMin || 1;
+
+  const points = [];
+  const dots = [];
+  const stepX = (width - padding * 2) / (values.length - 1);
+
+  values.forEach((v, i) => {
+    if (v == null) return;
+    const x = padding + i * stepX;
+    const y = height - padding - ((v - dataMin) / range) * (height - padding * 2);
+    points.push(`${x},${y}`);
+    if (i === values.length - 1) {
+      dots.push(`<circle cx="${x}" cy="${y}" r="3" fill="${color}"/>`);
+    }
+  });
+
+  if (points.length < 2) return '';
+
+  return `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" style="width:100%;height:100%">
+    <polyline points="${points.join(' ')}" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
+    ${dots.join('')}
+  </svg>`;
+}
+
+// ==================== KPI DRILL-DOWN SHEET ====================
+function openKpiSheet(type) {
+  const dateStr = fmt(currentDate);
+  const cached = statusCache[dateStr];
+  if (!cached || !cached.data) return;
+  const data = cached.data;
+  const title = document.getElementById('sheetTitle');
+  const content = document.getElementById('sheetContent');
+
+  let html = '';
+
+  if (type === 'whoop') {
+    const w = data.whoop || {};
+    title.textContent = 'WHOOP Details';
+    if (!w.imported) { html = '<div style="text-align:center;color:var(--text2);padding:20px">No WHOOP data</div>'; }
+    else {
+      html = sheetRow('Recovery', w.recovery + '%')
+        + sheetRow('HRV', w.hrv + ' ms')
+        + sheetRow('Resting HR', w.rhr + ' bpm')
+        + sheetRow('Strain', w.strain)
+        + sheetRow('Sleep', w.sleep_hrs + ' hrs')
+        + sheetRow('Sleep Performance', (w.sleep_perf || '--') + '%');
+    }
+  } else if (type === 'sleep') {
+    const w = data.whoop || {};
+    const a = data.apple_health || {};
+    title.textContent = 'Sleep Details';
+    html = sheetRow('WHOOP Sleep', w.imported ? w.sleep_hrs + ' hrs' : '--')
+      + sheetRow('Apple Health Sleep', a.imported && a.sleep_hrs ? a.sleep_hrs + ' hrs' : '--')
+      + sheetRow('Sleep Performance', w.imported ? (w.sleep_perf || '--') + '%' : '--')
+      + sheetRow('Resting HR', w.imported ? w.rhr + ' bpm' : '--')
+      + sheetRow('HRV (WHOOP)', w.imported ? w.hrv + ' ms' : '--')
+      + sheetRow('HRV (Apple)', a.imported && a.hrv ? Math.round(a.hrv) + ' ms' : '--');
+  } else if (type === 'zoe') {
+    const z = data.zoe || {};
+    title.textContent = 'Zoe Nutrition';
+    if (!z.imported) { html = '<div style="text-align:center;color:var(--text2);padding:20px">No Zoe data</div>'; }
+    else {
+      html = sheetRow('Average Score', z.avg_score)
+        + sheetRow('Meals', z.meals)
+        + sheetRow('Calories', z.calories + ' kcal')
+        + sheetRow('Protein', z.protein_g + ' g')
+        + sheetRow('Fat', z.fat_g + ' g')
+        + sheetRow('Carbs', z.carbs_g + ' g')
+        + sheetRow('Fibre', z.fibre_g + ' g');
+      if (z.meal_names) {
+        html += '<div style="margin-top:12px;font-size:12px;color:var(--text2)">Meals: ' + z.meal_names.join(', ') + '</div>';
+      }
+    }
+  } else if (type === 'activity') {
+    const a = data.apple_health || {};
+    const w = data.whoop || {};
+    title.textContent = 'Activity Details';
+    html = sheetRow('Steps', a.imported ? a.steps?.toLocaleString() : '--')
+      + sheetRow('WHOOP Strain', w.imported ? w.strain : '--')
+      + sheetRow('Daylight', a.imported && a.daylight_mins ? a.daylight_mins + ' min' : '--')
+      + sheetRow('Resting HR', a.imported ? (a.resting_hr || '--') + ' bpm' : '--');
+  } else if (type === 'mood') {
+    const c = data.checkin || {};
+    title.textContent = 'Mood & Energy';
+    if (!c.imported) { html = '<div style="text-align:center;color:var(--text2);padding:20px">No check-in data</div>'; }
+    else {
+      html = sheetRow('Mood', (c.mood || '--') + '/10')
+        + sheetRow('Energy', (c.energy || '--') + '/10')
+        + sheetRow('Sleep Quality', (c.sleep_quality || '--') + '/10')
+        + sheetRow('Supplements', (c.supplements || 0) + ' taken');
+    }
+  } else if (type === 'weight') {
+    const a = data.apple_health || {};
+    title.textContent = 'Weight & Body';
+    html = sheetRow('Weight', a.imported && a.weight_kg ? a.weight_kg + ' kg' : '--')
+      + sheetRow('Daylight', a.imported && a.daylight_mins ? a.daylight_mins + ' min' : '--')
+      + sheetRow('Steps', a.imported ? a.steps?.toLocaleString() : '--');
+  }
+
+  content.innerHTML = html;
+  document.getElementById('sheetOverlay').classList.add('show');
+}
+
+function sheetRow(label, val) {
+  return `<div class="sheet-row"><span class="sheet-label">${label}</span><span class="sheet-val">${val}</span></div>`;
+}
+
+function closeSheet() {
+  document.getElementById('sheetOverlay').classList.remove('show');
+}
+
+// ==================== INIT ====================
+// Set initial view
+switchView(currentView);
 updateStreak();
 loadDay();
+if (currentView === 'dashboard') loadDashboard();
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js').catch(() => {});
 }
