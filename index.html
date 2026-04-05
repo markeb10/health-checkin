@@ -1055,6 +1055,7 @@ function deleteMediaBlob(key) {
 // Compress photo using canvas
 function compressPhoto(file) {
   return new Promise((resolve, reject) => {
+    const url = URL.createObjectURL(file);
     const img = new Image();
     img.onload = () => {
       let w = img.width, h = img.height;
@@ -1066,10 +1067,15 @@ function compressPhoto(file) {
       const canvas = document.createElement('canvas');
       canvas.width = w; canvas.height = h;
       canvas.getContext('2d').drawImage(img, 0, 0, w, h);
-      canvas.toBlob(blob => resolve(blob), 'image/jpeg', PHOTO_QUALITY);
+      URL.revokeObjectURL(url);
+      canvas.toBlob(blob => {
+        if (blob) resolve(blob);
+        else reject(new Error('Canvas toBlob returned null'));
+      }, 'image/jpeg', PHOTO_QUALITY);
     };
-    img.onerror = reject;
-    img.src = URL.createObjectURL(file);
+    img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('Image load failed')); };
+    img.crossOrigin = 'anonymous';
+    img.src = url;
   });
 }
 
@@ -1077,6 +1083,7 @@ function compressPhoto(file) {
 function generateThumbnail(source, type) {
   return new Promise((resolve, reject) => {
     if (type === 'photo') {
+      const url = URL.createObjectURL(source);
       const img = new Image();
       img.onload = () => {
         let w = img.width, h = img.height;
@@ -1085,10 +1092,12 @@ function generateThumbnail(source, type) {
         const c = document.createElement('canvas');
         c.width = w; c.height = h;
         c.getContext('2d').drawImage(img, 0, 0, w, h);
+        URL.revokeObjectURL(url);
         resolve(c.toDataURL('image/jpeg', THUMB_QUALITY));
       };
-      img.onerror = reject;
-      img.src = URL.createObjectURL(source);
+      img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('Thumb image load failed')); };
+      img.crossOrigin = 'anonymous';
+      img.src = url;
     } else {
       const vid = document.createElement('video');
       vid.muted = true; vid.playsInline = true;
@@ -1139,6 +1148,14 @@ async function handleMediaSelect(input, section) {
     return;
   }
 
+  // Ensure IndexedDB is ready
+  if (!mediaDB) {
+    try { await initMediaDB(); } catch(e) {
+      showToast('Storage not available', false, 'warn');
+      return;
+    }
+  }
+
   const toProcess = files.slice(0, remaining);
   if (files.length > remaining) {
     showToast(`Only adding ${remaining} of ${files.length} (max 4)`, false, 'warn');
@@ -1174,7 +1191,7 @@ async function handleMediaSelect(input, section) {
       data.media.push(entry);
     } catch (e) {
       console.error('Media processing error:', e);
-      showToast('Failed to add media', false, 'warn');
+      showToast('Media error: ' + (e.message || e), false, 'warn');
     }
   }
 
@@ -2384,11 +2401,16 @@ async function loadDashboard() {
   const steps = a.imported ? a.steps : null;
   const strain = w.imported ? w.strain : null;
   const wCals = w.imported ? w.calories : null;
+  const km = steps ? Math.round(steps * 0.00075 * 10) / 10 : null;
   const strainColor = strain != null ? (strain >= 14 ? 'kpi-green' : strain >= 8 ? 'kpi-blue' : 'kpi-yellow') : 'kpi-green';
+  const actSubs = [];
+  if (km) actSubs.push(km + ' km');
+  if (steps) actSubs.push((steps >= 1000 ? Math.round(steps/1000) + 'k' : steps) + ' steps');
+  if (wCals) actSubs.push(wCals.toLocaleString() + ' cal');
   html += `<div class="kpi-card ${steps==null&&strain==null?'no-data':''}" onclick="openKpiSheet('activity')">
     <div class="kpi-label">Activity</div>
     <div class="kpi-value ${strainColor}">${strain != null ? strain + '<span class="kpi-unit">/21</span>' : '--'}</div>
-    <div class="kpi-sub">${wCals ? wCals.toLocaleString() + ' cal' : ''}${steps ? ' | ' + (steps >= 1000 ? Math.round(steps/1000) + 'k' : steps) + ' steps' : ''}</div>
+    <div class="kpi-sub">${actSubs.join(' | ') || 'No data'}</div>
   </div>`;
 
   // 5. Mood/Energy
@@ -2634,6 +2656,12 @@ async function renderSparklines(currentDateStr) {
   }
 
   if (hasSteps) {
+    const kmVals = stepVals.map(s => s != null ? Math.round(s * 0.00075 * 10) / 10 : null);
+    html += `<div class="sparkline-row">
+      <span class="sparkline-label">Distance</span>
+      <div class="sparkline-svg">${buildSparklineSVG(kmVals, 0, null, sparkColor)}</div>
+      <span class="sparkline-val" style="${sparkValStyle}">${kmVals[6] != null ? kmVals[6] + ' km' : '--'}</span>
+    </div>`;
     html += `<div class="sparkline-row">
       <span class="sparkline-label">Steps</span>
       <div class="sparkline-svg">${buildSparklineSVG(stepVals, 0, null, sparkColor)}</div>
@@ -2786,7 +2814,9 @@ function openKpiSheet(type) {
     const a = data.apple_health || {};
     const w = data.whoop || {};
     title.textContent = 'Activity Details';
+    const actKm = a.imported && a.steps ? Math.round(a.steps * 0.00075 * 10) / 10 : null;
     html = sheetSection('Overview')
+      + sheetRow('Distance', actKm ? actKm + ' km' : '--')
       + sheetRow('Steps', a.imported && a.steps ? a.steps.toLocaleString() : '--')
       + sheetRow('WHOOP Strain', w.imported ? w.strain + '/21' : '--')
       + sheetRow('Calories Burned', w.imported && w.calories ? w.calories.toLocaleString() + ' kcal' : '--')
