@@ -1,0 +1,60 @@
+{
+  "date": "2026-04-03",
+  "generated_at": "2026-04-05T18:38:51.930747",
+  "whoop": {
+    "imported": true,
+    "recovery": 52.0,
+    "hrv": 33.6,
+    "rhr": 49.0,
+    "sleep_perf": 82.0,
+    "strain": 6.4,
+    "sleep_hrs": 8.5,
+    "spo2": 95.4,
+    "skin_temp": 34.5,
+    "sleep_efficiency": 96.0,
+    "sleep_consistency": 70.0,
+    "respiratory_rate": 13.8,
+    "light_sleep_hrs": 4.6,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 6,
+    "disturbances": 6,
+    "sleep_needed_hrs": 10.2,
+    "sleep_debt_hrs": 2.1,
+    "calories": 1719,
+    "avg_hr": 60,
+    "max_hr": 138,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 178,
+        "avg_hr": 104,
+        "max_hr": 138
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": false
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Fried Eggs with Avocado Toast and Cheese",
+      "Pan-Seared Chicken with Asparagus and Greens",
+      "Toast with Nut Butter and Banana Slices",
+      "Toast with Nut Butter and Blueberries",
+      "Vegetable Soup with Croutons and Parsley"
+    ],
+    "avg_score": 78.0,
+    "calories": 1535.0,
+    "protein_g": 105.5,
+    "fat_g": 82.1,
+    "carbs_g": 93.6,
+    "fibre_g": 21.8
+  }
+}

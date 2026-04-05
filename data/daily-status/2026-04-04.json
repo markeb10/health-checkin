@@ -1,0 +1,74 @@
+{
+  "date": "2026-04-04",
+  "generated_at": "2026-04-05T18:38:51.930120",
+  "whoop": {
+    "imported": true,
+    "recovery": 89.0,
+    "hrv": 44.4,
+    "rhr": 47.0,
+    "sleep_perf": 81.0,
+    "strain": 18.1,
+    "sleep_hrs": 5.8,
+    "spo2": 97.6,
+    "skin_temp": 33.4,
+    "sleep_efficiency": 96.2,
+    "sleep_consistency": 82.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 2.1,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.3,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 5,
+    "disturbances": 6,
+    "sleep_needed_hrs": 8.7,
+    "sleep_debt_hrs": 1.1,
+    "calories": 3295,
+    "avg_hr": 77,
+    "max_hr": 167,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 589,
+        "avg_hr": 139,
+        "max_hr": 167
+      },
+      {
+        "sport": "Functional Fitness",
+        "calories": 1037,
+        "avg_hr": 118,
+        "max_hr": 159
+      },
+      {
+        "sport": "Walking",
+        "calories": 195,
+        "avg_hr": 121,
+        "max_hr": 144
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": false
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 7,
+    "meal_names": [
+      "Assorted Sushi and Sashimi Platter",
+      "Avocado Toast with Fried Eggs and Cashew Nuts",
+      "Miso Soup with Spring Onion and Seaweed",
+      "Peanut Butter on Toast",
+      "Seared Duck Breast with Puree, Microgreens, and Grilled Leek",
+      "Toast with Nut Butter and Blueberries",
+      "Whole Granadilla Fruit"
+    ],
+    "avg_score": 72.0,
+    "calories": 1641.0,
+    "protein_g": 101.0,
+    "fat_g": 86.3,
+    "carbs_g": 118.0,
+    "fibre_g": 20.5
+  }
+}

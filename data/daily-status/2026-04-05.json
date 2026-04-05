@@ -1,0 +1,50 @@
+{
+  "date": "2026-04-05",
+  "generated_at": "2026-04-05T18:38:51.927422",
+  "whoop": {
+    "imported": true,
+    "recovery": 26.0,
+    "hrv": 24.8,
+    "rhr": 54.0,
+    "sleep_perf": 71.0,
+    "strain": 0.6,
+    "sleep_hrs": 5.9,
+    "spo2": 94.8,
+    "skin_temp": 33.4,
+    "sleep_efficiency": 95.8,
+    "sleep_consistency": 76.0,
+    "respiratory_rate": 13.8,
+    "light_sleep_hrs": 2.7,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.1,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 5,
+    "disturbances": 6,
+    "sleep_needed_hrs": 10.3,
+    "sleep_debt_hrs": 1.8,
+    "calories": 635,
+    "avg_hr": 54,
+    "max_hr": 94,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": false
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 2,
+    "meal_names": [
+      "Fried Eggs with Toast",
+      "Roasted Fish with Mixed Vegetables"
+    ],
+    "avg_score": null,
+    "calories": null,
+    "protein_g": null,
+    "fat_g": null,
+    "carbs_g": null,
+    "fibre_g": null
+  }
+}

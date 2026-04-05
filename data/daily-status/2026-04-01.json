@@ -1,0 +1,67 @@
+{
+  "date": "2026-04-01",
+  "generated_at": "2026-04-05T18:38:51.931137",
+  "whoop": {
+    "imported": true,
+    "recovery": 48.0,
+    "hrv": 33.5,
+    "rhr": 48.0,
+    "sleep_perf": 79.0,
+    "strain": 11.4,
+    "sleep_hrs": 6.4,
+    "spo2": 94.6,
+    "skin_temp": 32.9,
+    "sleep_efficiency": 96.0,
+    "sleep_consistency": 78.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 2.7,
+    "deep_sleep_hrs": 2.5,
+    "rem_sleep_hrs": 1.2,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 4,
+    "disturbances": 9,
+    "sleep_needed_hrs": 9.8,
+    "sleep_debt_hrs": 1.8,
+    "calories": 2056,
+    "avg_hr": 62,
+    "max_hr": 163,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 76,
+        "avg_hr": 100,
+        "max_hr": 127
+      },
+      {
+        "sport": "Activity",
+        "calories": 441,
+        "avg_hr": 125,
+        "max_hr": 163
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": false
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 6,
+    "meal_names": [
+      "Beef Stew with Polenta and Side Salad",
+      "Cantaloupe melon",
+      "Carrot and Ginger Soup with Chives",
+      "Fried Eggs with Avocado Toast",
+      "Toast with Nut Butter and Blueberries",
+      "Toast with Nut Butter and Blueberries with Coconut Yogurt"
+    ],
+    "avg_score": 72.0,
+    "calories": 1739.0,
+    "protein_g": 83.3,
+    "fat_g": 90.69999999999999,
+    "carbs_g": 149.4,
+    "fibre_g": 31.3
+  }
+}

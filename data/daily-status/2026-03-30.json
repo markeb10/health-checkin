@@ -1,0 +1,70 @@
+{
+  "date": "2026-03-30",
+  "generated_at": "2026-04-05T18:38:51.931437",
+  "whoop": {
+    "imported": true,
+    "recovery": 91.0,
+    "hrv": 45.6,
+    "rhr": 47.0,
+    "sleep_perf": 81.0,
+    "strain": 13.2,
+    "sleep_hrs": 6.3,
+    "spo2": 94.9,
+    "skin_temp": 34.4,
+    "sleep_efficiency": 91.1,
+    "sleep_consistency": 88.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 2.4,
+    "deep_sleep_hrs": 2.5,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 6,
+    "disturbances": 7,
+    "sleep_needed_hrs": 9.7,
+    "sleep_debt_hrs": 2.1,
+    "calories": 2129,
+    "avg_hr": 65,
+    "max_hr": 167,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 502,
+        "avg_hr": 134,
+        "max_hr": 167
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14220,
+    "resting_hr": 50.0,
+    "hrv": 71.26,
+    "sleep_hrs": 6.3,
+    "daylight_mins": 4.0,
+    "spo2": 97.21,
+    "respiratory_rate": 11.04,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 3,
+    "meal_names": [
+      "Roasted Chicken and Potato Wedges with Side Salad and Boiled Egg",
+      "Carrot and Ginger Soup with Croutons and Balsamic Glaze",
+      "Avocado Toast with Fried Eggs and Papaya"
+    ],
+    "avg_score": 64.0,
+    "calories": 2031.0,
+    "protein_g": 141.9,
+    "fat_g": 91.1,
+    "carbs_g": 158.9,
+    "fibre_g": 23.299999999999997
+  }
+}
