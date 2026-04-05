@@ -133,6 +133,18 @@ input[type=number]{width:70px;text-align:center}
 .saved-dot.unsaved{background:var(--red)}
 .saved-dot.synced{background:var(--blue)}
 
+/* Zoe sync button */
+.zoe-sync-btn{width:100%;padding:14px;border:none;border-radius:12px;font-size:14px;
+  font-weight:600;cursor:pointer;background:rgba(74,222,128,.12);color:var(--green);
+  border:1px solid rgba(74,222,128,.25);display:flex;align-items:center;justify-content:center;
+  gap:8px;margin-top:12px;transition:all .15s}
+.zoe-sync-btn:active{opacity:.7;transform:scale(.97)}
+.zoe-icon{font-size:18px}
+.zoe-status{font-size:12px;text-align:center;margin-top:8px;min-height:16px}
+.zoe-status.pending{color:var(--gold)}
+.zoe-status.done{color:var(--green)}
+.zoe-status.fail{color:var(--red)}
+
 /* Parsed items preview */
 .parsed-items{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px}
 .parsed-item{background:rgba(212,168,83,.12);border:1px solid rgba(212,168,83,.25);
@@ -260,6 +272,10 @@ input[type=number]{width:70px;text-align:center}
         <label>Last meal time</label>
         <input type="time" data-field="last_meal_time" oninput="autoSave()">
       </div>
+      <button class="zoe-sync-btn" onclick="triggerZoeSync()">
+        <span class="zoe-icon">🥗</span> Sync Zoe Food Diary
+      </button>
+      <div class="zoe-status" id="zoe-status"></div>
     </div>
 
     <div class="card">
@@ -668,6 +684,52 @@ async function retryQueue() {
     if (data && !data.synced) await syncToGitHub(data);
   }
   localStorage.setItem('sync-queue', '[]');
+}
+
+// Zoe sync trigger
+async function triggerZoeSync() {
+  const s = getSettings();
+  const st = document.getElementById('zoe-status');
+  if (!s.token || !s.repo) {
+    st.textContent = 'Set up GitHub token in settings first';
+    st.className = 'zoe-status fail';
+    return;
+  }
+  st.textContent = 'Requesting Zoe sync...';
+  st.className = 'zoe-status pending';
+  const triggerData = {
+    action: 'sync_zoe',
+    date: fmt(currentDate),
+    requested_at: new Date().toISOString()
+  };
+  const path = `${s.path || 'data/checkins'}/zoe-trigger.json`;
+  const content = btoa(unescape(encodeURIComponent(JSON.stringify(triggerData, null, 2))));
+  try {
+    let sha = null;
+    try {
+      const existing = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
+        headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'}
+      });
+      if (existing.ok) { sha = (await existing.json()).sha; }
+    } catch {}
+    const body = {message: `zoe sync request ${fmt(currentDate)}`, content, committer: {name: 'Health Check-in', email: 'checkin@local'}};
+    if (sha) body.sha = sha;
+    const r = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
+      method: 'PUT',
+      headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json'},
+      body: JSON.stringify(body)
+    });
+    if (r.ok) {
+      st.textContent = 'Sync requested! Mac will process shortly.';
+      st.className = 'zoe-status done';
+    } else {
+      st.textContent = 'Failed to request sync';
+      st.className = 'zoe-status fail';
+    }
+  } catch (e) {
+    st.textContent = 'Network error';
+    st.className = 'zoe-status fail';
+  }
 }
 
 // Init
