@@ -81,7 +81,7 @@ input[type=range]:active::-webkit-slider-thumb{box-shadow:0 1px 4px rgba(0,0,0,.
 /* Text inputs */
 textarea,.text-input{width:100%;background:var(--bg);border:1.5px solid var(--border);
   border-radius:12px;padding:14px 16px;color:var(--text);font-size:14px;font-family:var(--sans);
-  resize:vertical;outline:none;transition:border .2s,box-shadow .2s;line-height:1.5}
+  resize:none;outline:none;transition:border .2s,box-shadow .2s;line-height:1.5;overflow:hidden}
 textarea:focus,.text-input:focus{border-color:var(--gold);box-shadow:0 0 0 3px rgba(196,149,106,.15)}
 textarea{min-height:70px}
 textarea::placeholder,.text-input::placeholder{color:#5A5450;font-style:italic}
@@ -467,7 +467,7 @@ input[type=number]{width:70px;text-align:center}
 
       <div class="card">
         <h2>I am grateful for...</h2>
-        <textarea data-field="gratitude_raw" placeholder="Just say it all... e.g. My health, the sunshine today, having time with family" style="min-height:80px" oninput="autoSave()"></textarea>
+        <textarea data-field="gratitude_raw" placeholder="1. My health, the sunshine today..." style="min-height:80px" oninput="autoSave()"></textarea>
         <div class="parsed-items" id="gratitude-parsed"></div>
       </div>
 
@@ -546,7 +546,7 @@ input[type=number]{width:70px;text-align:center}
 
       <div class="card">
         <h2>What I did today</h2>
-        <textarea data-field="done_today" placeholder="What did you get done today..." style="min-height:80px" oninput="autoSave()"></textarea>
+        <textarea data-field="done_today" placeholder="1. Duolingo, meditation..." style="min-height:80px" oninput="autoSave()"></textarea>
       </div>
 
       <div class="card">
@@ -804,6 +804,56 @@ document.addEventListener('input', function(e) {
   }
 });
 
+// ==================== AUTO-GROW & AUTO-NUMBER TEXTAREAS ====================
+function autoGrow(el) {
+  el.style.height = 'auto';
+  el.style.height = Math.max(el.scrollHeight, 70) + 'px';
+}
+
+// Auto-number: when user presses Enter, add next number prefix
+document.addEventListener('keydown', function(e) {
+  if (e.key !== 'Enter') return;
+  const ta = e.target;
+  if (ta.tagName !== 'TEXTAREA') return;
+
+  const pos = ta.selectionStart;
+  const text = ta.value;
+  // Find the current line
+  const before = text.slice(0, pos);
+  const lastNewline = before.lastIndexOf('\n');
+  const currentLine = before.slice(lastNewline + 1);
+  // Check if current line starts with a number
+  const m = currentLine.match(/^(\d+)\.\s/);
+  if (m) {
+    e.preventDefault();
+    const nextNum = parseInt(m[1]) + 1;
+    const insert = '\n' + nextNum + '. ';
+    ta.value = text.slice(0, pos) + insert + text.slice(pos);
+    ta.selectionStart = ta.selectionEnd = pos + insert.length;
+    ta.dispatchEvent(new Event('input', {bubbles: true}));
+  }
+});
+
+// Auto-insert "1. " when focusing an empty numbered textarea
+document.addEventListener('focus', function(e) {
+  const ta = e.target;
+  if (ta.tagName === 'TEXTAREA' && ta.value.trim() === '' && /^\d+\./.test(ta.placeholder)) {
+    ta.value = '1. ';
+    ta.selectionStart = ta.selectionEnd = 3;
+    autoGrow(ta);
+  }
+}, true);
+
+// Auto-grow all textareas on input
+document.addEventListener('input', function(e) {
+  if (e.target.tagName === 'TEXTAREA') autoGrow(e.target);
+});
+
+// Auto-grow on page load (after data is restored)
+function autoGrowAll() {
+  document.querySelectorAll('textarea').forEach(autoGrow);
+}
+
 // ==================== TEXT PARSING ====================
 function parseItems(text) {
   if (!text || !text.trim()) return [];
@@ -907,6 +957,8 @@ function loadFields() {
   const section = document.querySelector('.section.active').id === 'sec-morning' ? 'morning' : 'evening';
   renderSupps(section + '-supps', section === 'morning' ? MORNING_SUPPS : EVENING_SUPPS);
   updateDot(data.synced ? 'synced' : (data.updated_at ? 'saved' : 'unsaved'));
+  // Auto-grow textareas after populating values
+  setTimeout(autoGrowAll, 50);
   // Reset touched fields when loading a new day
   touchedFields.clear();
   // If data was previously saved, mark required fields as touched
