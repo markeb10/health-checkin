@@ -796,7 +796,7 @@ input[type=number]{width:70px;text-align:center}
 
 <script>
 // ==================== VERSION ====================
-const APP_VERSION = '2.1.0';
+const APP_VERSION = '2.2.0';
 const APP_BUILD = '2026-04-05';
 
 // ==================== CONFIG ====================
@@ -1903,20 +1903,35 @@ async function checkForUpdate() {
       const v = await r.json();
       if (v.version && v.version !== APP_VERSION) {
         el.innerHTML = `<span style="color:var(--gold)">Update available: v${v.version}</span><br>` +
-          `<span style="color:var(--text2);font-size:10px">${v.changelog || 'Reload to update'}</span>`;
-        // Clear SW cache so next reload gets new version
-        if (navigator.serviceWorker) {
-          navigator.serviceWorker.getRegistrations().then(regs => regs.forEach(r => r.unregister()));
-          caches.keys().then(keys => keys.forEach(k => caches.delete(k)));
-        }
+          `<span style="color:var(--text2);font-size:10px">${v.changelog || ''}</span><br>` +
+          `<button onclick="forceUpdate()" style="margin-top:8px;padding:8px 20px;border-radius:10px;border:none;background:var(--gold);color:#1A1714;font-weight:600;font-size:13px;cursor:pointer">Update Now</button>`;
       } else {
-        el.innerHTML = '<span style="color:var(--green)">You are on the latest version</span>';
+        el.innerHTML = '<span style="color:var(--green)">You are on the latest version (v' + APP_VERSION + ')</span>';
       }
     } else {
       el.innerHTML = '<span style="color:var(--green)">Up to date (v' + APP_VERSION + ')</span>';
     }
   } catch(e) {
     el.innerHTML = '<span style="color:var(--text2)">Could not check (offline?)</span>';
+  }
+}
+
+async function forceUpdate() {
+  const el = document.getElementById('updateStatus');
+  el.innerHTML = '<span style="color:var(--gold)">Updating...</span>';
+  try {
+    // Unregister all service workers
+    if (navigator.serviceWorker) {
+      const regs = await navigator.serviceWorker.getRegistrations();
+      await Promise.all(regs.map(r => r.unregister()));
+    }
+    // Clear all caches
+    const keys = await caches.keys();
+    await Promise.all(keys.map(k => caches.delete(k)));
+    // Force reload from network
+    window.location.reload(true);
+  } catch(e) {
+    el.innerHTML = '<span style="color:var(--red)">Update failed: ' + e.message + '</span>';
   }
 }
 
