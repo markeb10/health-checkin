@@ -132,6 +132,11 @@ input[type=number]{width:70px;text-align:center}
 .saved-dot.saved{background:var(--green)}
 .saved-dot.unsaved{background:var(--red)}
 .saved-dot.synced{background:var(--blue)}
+
+/* Parsed items preview */
+.parsed-items{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px}
+.parsed-item{background:rgba(212,168,83,.12);border:1px solid rgba(212,168,83,.25);
+  border-radius:8px;padding:6px 10px;font-size:12px;color:var(--gold2)}
 </style>
 </head>
 <body>
@@ -186,19 +191,18 @@ input[type=number]{width:70px;text-align:center}
 
     <div class="card">
       <h2>I am grateful for...</h2>
-      <div class="gratitude-item"><span class="gratitude-num">1</span><input class="text-input" data-field="gratitude_1" placeholder="" oninput="autoSave()"></div>
-      <div class="gratitude-item"><span class="gratitude-num">2</span><input class="text-input" data-field="gratitude_2" placeholder="" oninput="autoSave()"></div>
-      <div class="gratitude-item"><span class="gratitude-num">3</span><input class="text-input" data-field="gratitude_3" placeholder="" oninput="autoSave()"></div>
+      <textarea data-field="gratitude_raw" placeholder="Just say it all... e.g. My health, the sunshine today, having time with family" style="min-height:80px" oninput="autoSave()"></textarea>
+      <div class="parsed-items" id="gratitude-parsed"></div>
     </div>
 
     <div class="card">
       <h2>What would make today great?</h2>
-      <textarea data-field="make_today_great" placeholder="" oninput="autoSave()"></textarea>
+      <textarea data-field="make_today_great" placeholder="Just talk..." oninput="autoSave()"></textarea>
     </div>
 
     <div class="card">
       <h2>Daily affirmation</h2>
-      <input class="text-input" data-field="affirmation" placeholder="I am..." oninput="autoSave()">
+      <textarea data-field="affirmation" placeholder="I am..." style="min-height:50px" oninput="autoSave()"></textarea>
     </div>
 
     <div class="card">
@@ -271,15 +275,14 @@ input[type=number]{width:70px;text-align:center}
     </div>
 
     <div class="card">
-      <h2>3 amazing things today</h2>
-      <div class="gratitude-item"><span class="gratitude-num">1</span><input class="text-input" data-field="amazing_1" placeholder="" oninput="autoSave()"></div>
-      <div class="gratitude-item"><span class="gratitude-num">2</span><input class="text-input" data-field="amazing_2" placeholder="" oninput="autoSave()"></div>
-      <div class="gratitude-item"><span class="gratitude-num">3</span><input class="text-input" data-field="amazing_3" placeholder="" oninput="autoSave()"></div>
+      <h2>Amazing things today</h2>
+      <textarea data-field="amazing_raw" placeholder="Just say what was great..." style="min-height:80px" oninput="autoSave()"></textarea>
+      <div class="parsed-items" id="amazing-parsed"></div>
     </div>
 
     <div class="card">
       <h2>How could today have been better?</h2>
-      <textarea data-field="could_be_better" placeholder="" oninput="autoSave()"></textarea>
+      <textarea data-field="could_be_better" placeholder="Just talk..." style="min-height:60px" oninput="autoSave()"></textarea>
     </div>
 
     <div class="card">
@@ -407,7 +410,36 @@ function autoSave() {
     });
     data[section + '_supplements'] = supps;
     setData(data);
+    // Update parsed previews
+    showParsed('gratitude_raw', 'gratitude-parsed');
+    showParsed('amazing_raw', 'amazing-parsed');
   }, 300);
+}
+
+// Parse free-form text into items
+function parseItems(text) {
+  if (!text || !text.trim()) return [];
+  // Split on commas, periods, newlines, "and", or numbered patterns like "1." "2)"
+  return text
+    .replace(/\d+[\.\)]\s*/g, ',')
+    .replace(/\band\b/gi, ',')
+    .replace(/\.\s/g, ',')
+    .replace(/\n/g, ',')
+    .split(',')
+    .map(s => s.trim())
+    .filter(s => s.length > 0);
+}
+
+function showParsed(fieldName, containerId) {
+  const data = getData();
+  const raw = data[fieldName] || '';
+  const items = parseItems(raw);
+  const el = document.getElementById(containerId);
+  if (items.length > 0) {
+    el.innerHTML = items.map((it, i) => `<span class="parsed-item">${i+1}. ${it}</span>`).join('');
+  } else {
+    el.innerHTML = '';
+  }
 }
 
 // Supplement rendering
