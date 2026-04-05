@@ -1,5 +1,5 @@
 {
-  "version": "2.1.0",
+  "version": "2.2.0",
   "build": "2026-04-05",
-  "changelog": "Dark mode with warm tones, single gold accent for all KPI values, no bright/colorful fonts"
+  "changelog": "Photos & videos, dose picker, auto-numbering, UTC date fix, combined supplements"
 }
