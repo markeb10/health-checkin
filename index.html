@@ -1687,7 +1687,8 @@ async function loadDashboard() {
         }
         if (localData.affirmation) html += `<div class="dash-journal-aff">"${localData.affirmation}"</div>`;
         if (localData.morning_supplements && localData.morning_supplements.length > 0) {
-          html += `<div class="dash-journal-supps">&#128138; ${localData.morning_supplements.join(', ')}</div>`;
+          const suppNames = localData.morning_supplements.map(s => typeof s === 'string' ? s : s.name).join(', ');
+          html += `<div class="dash-journal-supps">&#128138; ${suppNames}</div>`;
         }
         html += '</div>';
       }
@@ -1706,7 +1707,8 @@ async function loadDashboard() {
           html += `<div class="dash-journal-notes"><span class="grat-label">Amazing things:</span> ${localData.amazing_raw}</div>`;
         }
         if (localData.evening_supplements && localData.evening_supplements.length > 0) {
-          html += `<div class="dash-journal-supps">&#128138; ${localData.evening_supplements.join(', ')}</div>`;
+          const suppNames = localData.evening_supplements.map(s => typeof s === 'string' ? s : s.name).join(', ');
+          html += `<div class="dash-journal-supps">&#128138; ${suppNames}</div>`;
         }
         if (localData.evening_notes) html += `<div class="dash-journal-notes">${localData.evening_notes}</div>`;
         html += '</div>';
