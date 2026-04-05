@@ -808,12 +808,8 @@ document.addEventListener('input', function(e) {
 function parseItems(text) {
   if (!text || !text.trim()) return [];
   return text
-    .replace(/\d+[\.\)]\s*/g, ',')
-    .replace(/\band\b/gi, ',')
-    .replace(/\.\s/g, ',')
-    .replace(/\n/g, ',')
-    .split(',')
-    .map(s => s.trim())
+    .split(/[,\n]+/)
+    .map(s => s.replace(/^\d+[\.\)]\s*/, '').trim())
     .filter(s => s.length > 0);
 }
 
