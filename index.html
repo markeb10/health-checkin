@@ -1685,6 +1685,12 @@ async function loadDashboard() {
             html += '</div>';
           }
         }
+        if (localData.sleep_notes) {
+          html += `<div class="dash-journal-notes"><span class="grat-label">Sleep:</span> ${localData.sleep_notes}</div>`;
+        }
+        if (localData.make_today_great) {
+          html += `<div class="dash-journal-notes"><span class="grat-label">Today I will:</span> ${localData.make_today_great}</div>`;
+        }
         if (localData.affirmation) html += `<div class="dash-journal-aff">"${localData.affirmation}"</div>`;
         if (localData.morning_supplements && localData.morning_supplements.length > 0) {
           const suppNames = localData.morning_supplements.map(s => typeof s === 'string' ? s : s.name).join(', ');
@@ -1699,12 +1705,16 @@ async function loadDashboard() {
         if (localData.energy_evening) eveningFields.push(`Energy Eve: ${localData.energy_evening}/10`);
         if (localData.mood_evening) eveningFields.push(`Mood: ${localData.mood_evening}/10`);
         if (localData.bloating_score) eveningFields.push(`Bloating: ${localData.bloating_score}/10`);
+        if (localData.acidity_score) eveningFields.push(`Acidity: ${localData.acidity_score}/10`);
         if (eveningFields.length) html += `<div class="dash-journal-metrics">${eveningFields.join(' | ')}</div>`;
         if (localData.done_today) {
           html += `<div class="dash-journal-notes"><span class="grat-label">What I did:</span> ${localData.done_today}</div>`;
         }
         if (localData.amazing_raw) {
           html += `<div class="dash-journal-notes"><span class="grat-label">Amazing things:</span> ${localData.amazing_raw}</div>`;
+        }
+        if (localData.could_be_better) {
+          html += `<div class="dash-journal-notes"><span class="grat-label">Could be better:</span> ${localData.could_be_better}</div>`;
         }
         if (localData.evening_supplements && localData.evening_supplements.length > 0) {
           const suppNames = localData.evening_supplements.map(s => typeof s === 'string' ? s : s.name).join(', ');
