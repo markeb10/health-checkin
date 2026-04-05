@@ -129,6 +129,49 @@ textarea::placeholder,.text-input::placeholder{color:#5A5450;font-style:italic}
 .dose-btn-clear{background:var(--card2);color:var(--text2);border:1px solid var(--border)!important}
 .dose-btn-save{background:var(--gold);color:#1A1714}
 
+/* Media grid (photos/videos) */
+.media-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.media-slot{position:relative;aspect-ratio:1;border-radius:12px;overflow:hidden;background:var(--bg);
+  border:1.5px dashed var(--border);display:flex;align-items:center;justify-content:center;cursor:pointer}
+.media-slot.filled{border-style:solid}
+.media-slot img,.media-slot video{width:100%;height:100%;object-fit:cover}
+.media-slot .add-icon{font-size:28px;color:var(--text2);font-weight:300}
+.media-slot .delete-btn{position:absolute;top:6px;right:6px;width:24px;height:24px;border-radius:50%;
+  background:rgba(0,0,0,.6);color:#fff;border:none;font-size:14px;cursor:pointer;display:flex;
+  align-items:center;justify-content:center;z-index:2;backdrop-filter:blur(4px)}
+.media-slot .video-badge{position:absolute;bottom:6px;left:6px;background:rgba(0,0,0,.6);color:#fff;
+  font-size:10px;font-weight:600;padding:3px 8px;border-radius:6px;backdrop-filter:blur(4px)}
+.media-slot .play-icon{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:36px;height:36px;border-radius:50%;background:rgba(0,0,0,.5);display:flex;
+  align-items:center;justify-content:center;backdrop-filter:blur(4px)}
+.media-slot .play-icon::after{content:'';border-style:solid;border-width:7px 0 7px 12px;
+  border-color:transparent transparent transparent #fff;margin-left:2px}
+.media-hint{font-size:11px;color:var(--text2);margin-top:6px;text-align:center}
+
+/* Dashboard media strip */
+.dash-media-strip{display:flex;gap:8px;overflow-x:auto;padding:4px 0 8px;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.dash-media-strip::-webkit-scrollbar{display:none}
+.dash-media-thumb{flex-shrink:0;width:100px;height:100px;border-radius:10px;overflow:hidden;
+  position:relative;cursor:pointer;border:1px solid var(--border)}
+.dash-media-thumb img{width:100%;height:100%;object-fit:cover}
+.dash-media-thumb .video-badge{position:absolute;bottom:4px;left:4px;background:rgba(0,0,0,.6);
+  color:#fff;font-size:9px;font-weight:600;padding:2px 6px;border-radius:4px}
+.dash-media-thumb .play-icon{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:28px;height:28px;border-radius:50%;background:rgba(0,0,0,.5);display:flex;
+  align-items:center;justify-content:center}
+.dash-media-thumb .play-icon::after{content:'';border-style:solid;border-width:5px 0 5px 9px;
+  border-color:transparent transparent transparent #fff;margin-left:2px}
+
+/* Lightbox */
+.lightbox{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.92);
+  z-index:2000;align-items:center;justify-content:center;flex-direction:column}
+.lightbox.show{display:flex}
+.lightbox-close{position:absolute;top:calc(var(--safe-top) + 12px);right:16px;width:36px;height:36px;
+  border-radius:50%;background:rgba(255,255,255,.15);color:#fff;border:none;font-size:20px;
+  cursor:pointer;z-index:2001;display:flex;align-items:center;justify-content:center}
+.lightbox img{max-width:95vw;max-height:85vh;border-radius:8px;object-fit:contain}
+.lightbox video{max-width:95vw;max-height:85vh;border-radius:8px}
+
 /* Add custom supplement */
 .add-supp-row{display:flex;gap:8px;margin-top:12px}
 .add-supp-row input{flex:1;background:var(--bg);border:1.5px solid var(--border);border-radius:10px;
@@ -507,6 +550,13 @@ input[type=number]{width:70px;text-align:center}
       </div>
 
       <div class="card">
+        <h2>Photos of the day</h2>
+        <div class="media-grid" id="media-grid-morning"></div>
+        <input type="file" accept="image/*,video/*" multiple id="media-input-morning" style="display:none" onchange="handleMediaSelect(this,'morning')">
+        <div class="media-hint">Tap + to add photos or videos (max 4, videos under 30s)</div>
+      </div>
+
+      <div class="card">
         <h2>Morning supplements</h2>
         <div class="supp-grid" id="morning-supps"></div>
         <div class="add-supp-row">
@@ -586,6 +636,13 @@ input[type=number]{width:70px;text-align:center}
       </div>
 
       <div class="card">
+        <h2>Photos of the day</h2>
+        <div class="media-grid" id="media-grid-evening"></div>
+        <input type="file" accept="image/*,video/*" multiple id="media-input-evening" style="display:none" onchange="handleMediaSelect(this,'evening')">
+        <div class="media-hint">Tap + to add photos or videos (max 4, videos under 30s)</div>
+      </div>
+
+      <div class="card">
         <h2>Evening supplements</h2>
         <div class="supp-grid" id="evening-supps"></div>
         <div class="add-supp-row">
@@ -654,6 +711,12 @@ input[type=number]{width:70px;text-align:center}
       <button class="confirm-delete" id="confirmDeleteBtn">Delete</button>
     </div>
   </div>
+</div>
+
+<!-- Lightbox for full-size media -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <button class="lightbox-close" onclick="closeLightbox()">&times;</button>
+  <div id="lightbox-content" onclick="event.stopPropagation()"></div>
 </div>
 
 <!-- Dose popup -->
@@ -933,6 +996,255 @@ function showParsed(fieldName, containerId) {
   }
 }
 
+// ==================== MEDIA (Photos & Videos) ====================
+const MAX_MEDIA = 4;
+const PHOTO_MAX_PX = 1200;
+const PHOTO_QUALITY = 0.8;
+const THUMB_MAX_PX = 200;
+const THUMB_QUALITY = 0.6;
+const VIDEO_MAX_SECONDS = 30;
+
+// IndexedDB for media blobs
+let mediaDB = null;
+function initMediaDB() {
+  return new Promise((resolve, reject) => {
+    const req = indexedDB.open('health-checkin-media', 1);
+    req.onupgradeneeded = e => { e.target.result.createObjectStore('blobs'); };
+    req.onsuccess = e => { mediaDB = e.target.result; resolve(); };
+    req.onerror = e => reject(e);
+  });
+}
+
+function saveMediaBlob(key, blob) {
+  return new Promise((resolve, reject) => {
+    const tx = mediaDB.transaction('blobs', 'readwrite');
+    tx.objectStore('blobs').put(blob, key);
+    tx.oncomplete = () => resolve();
+    tx.onerror = e => reject(e);
+  });
+}
+
+function getMediaBlob(key) {
+  return new Promise((resolve, reject) => {
+    const tx = mediaDB.transaction('blobs', 'readonly');
+    const req = tx.objectStore('blobs').get(key);
+    req.onsuccess = () => resolve(req.result || null);
+    req.onerror = e => reject(e);
+  });
+}
+
+function deleteMediaBlob(key) {
+  return new Promise((resolve, reject) => {
+    const tx = mediaDB.transaction('blobs', 'readwrite');
+    tx.objectStore('blobs').delete(key);
+    tx.oncomplete = () => resolve();
+    tx.onerror = e => reject(e);
+  });
+}
+
+// Compress photo using canvas
+function compressPhoto(file) {
+  return new Promise((resolve, reject) => {
+    const img = new Image();
+    img.onload = () => {
+      let w = img.width, h = img.height;
+      if (w > PHOTO_MAX_PX || h > PHOTO_MAX_PX) {
+        const ratio = Math.min(PHOTO_MAX_PX / w, PHOTO_MAX_PX / h);
+        w = Math.round(w * ratio);
+        h = Math.round(h * ratio);
+      }
+      const canvas = document.createElement('canvas');
+      canvas.width = w; canvas.height = h;
+      canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+      canvas.toBlob(blob => resolve(blob), 'image/jpeg', PHOTO_QUALITY);
+    };
+    img.onerror = reject;
+    img.src = URL.createObjectURL(file);
+  });
+}
+
+// Generate thumbnail as base64 data URI
+function generateThumbnail(source, type) {
+  return new Promise((resolve, reject) => {
+    if (type === 'photo') {
+      const img = new Image();
+      img.onload = () => {
+        let w = img.width, h = img.height;
+        const ratio = Math.min(THUMB_MAX_PX / w, THUMB_MAX_PX / h);
+        w = Math.round(w * ratio); h = Math.round(h * ratio);
+        const c = document.createElement('canvas');
+        c.width = w; c.height = h;
+        c.getContext('2d').drawImage(img, 0, 0, w, h);
+        resolve(c.toDataURL('image/jpeg', THUMB_QUALITY));
+      };
+      img.onerror = reject;
+      img.src = URL.createObjectURL(source);
+    } else {
+      const vid = document.createElement('video');
+      vid.muted = true; vid.playsInline = true;
+      vid.onloadeddata = () => {
+        vid.currentTime = Math.min(1, vid.duration / 2);
+      };
+      vid.onseeked = () => {
+        let w = vid.videoWidth, h = vid.videoHeight;
+        const ratio = Math.min(THUMB_MAX_PX / w, THUMB_MAX_PX / h);
+        w = Math.round(w * ratio); h = Math.round(h * ratio);
+        const c = document.createElement('canvas');
+        c.width = w; c.height = h;
+        c.getContext('2d').drawImage(vid, 0, 0, w, h);
+        URL.revokeObjectURL(vid.src);
+        resolve(c.toDataURL('image/jpeg', THUMB_QUALITY));
+      };
+      vid.onerror = reject;
+      vid.src = URL.createObjectURL(source);
+    }
+  });
+}
+
+// Check video duration
+function getVideoDuration(file) {
+  return new Promise((resolve, reject) => {
+    const vid = document.createElement('video');
+    vid.preload = 'metadata';
+    vid.onloadedmetadata = () => {
+      URL.revokeObjectURL(vid.src);
+      resolve(Math.round(vid.duration));
+    };
+    vid.onerror = reject;
+    vid.src = URL.createObjectURL(file);
+  });
+}
+
+// Handle file selection
+async function handleMediaSelect(input, section) {
+  const files = Array.from(input.files);
+  if (!files.length) return;
+  input.value = '';
+
+  const data = getData();
+  if (!data.media) data.media = [];
+  const remaining = MAX_MEDIA - data.media.length;
+  if (remaining <= 0) {
+    showToast('Maximum 4 photos/videos reached', false, 'warn');
+    return;
+  }
+
+  const toProcess = files.slice(0, remaining);
+  if (files.length > remaining) {
+    showToast(`Only adding ${remaining} of ${files.length} (max 4)`, false, 'warn');
+  }
+
+  for (const file of toProcess) {
+    try {
+      const isVideo = file.type.startsWith('video/');
+      const type = isVideo ? 'video' : 'photo';
+
+      if (isVideo) {
+        const dur = await getVideoDuration(file);
+        if (dur > VIDEO_MAX_SECONDS) {
+          showToast(`Video too long (${dur}s). Trim to ${VIDEO_MAX_SECONDS}s in Photos first.`, false, 'warn');
+          continue;
+        }
+      }
+
+      const id = (isVideo ? 'v' : 'p') + Date.now() + Math.random().toString(36).slice(2,5);
+      const idbKey = 'media-' + fmt(currentDate) + '-' + id;
+
+      // Compress photo or use video blob directly
+      const blob = isVideo ? file : await compressPhoto(file);
+      const thumbnail = await generateThumbnail(isVideo ? file : blob, type);
+
+      await saveMediaBlob(idbKey, blob);
+
+      const entry = {
+        id, type, idbKey, thumbnail,
+        timestamp: new Date().toISOString(),
+        duration: isVideo ? await getVideoDuration(file) : null,
+      };
+      data.media.push(entry);
+    } catch (e) {
+      console.error('Media processing error:', e);
+      showToast('Failed to add media', false, 'warn');
+    }
+  }
+
+  setData(data);
+  renderMediaGrid('morning');
+  renderMediaGrid('evening');
+}
+
+// Render the 2x2 grid
+function renderMediaGrid(section) {
+  const grid = document.getElementById('media-grid-' + section);
+  if (!grid) return;
+  const data = getData();
+  const media = data.media || [];
+
+  let html = '';
+  for (let i = 0; i < MAX_MEDIA; i++) {
+    if (i < media.length) {
+      const m = media[i];
+      const isVideo = m.type === 'video';
+      html += `<div class="media-slot filled">
+        <img src="${m.thumbnail}" alt="" onclick="openLightbox('${m.idbKey}','${m.type}')">
+        ${isVideo ? `<div class="play-icon"></div><div class="video-badge">${m.duration}s</div>` : ''}
+        <button class="delete-btn" onclick="event.stopPropagation();removeMedia('${m.id}')">&times;</button>
+      </div>`;
+    } else if (i === media.length) {
+      // First empty slot = add button
+      html += `<div class="media-slot" onclick="document.getElementById('media-input-${section}').click()">
+        <span class="add-icon">+</span>
+      </div>`;
+    } else {
+      html += `<div class="media-slot"></div>`;
+    }
+  }
+  grid.innerHTML = html;
+}
+
+// Remove a media item
+async function removeMedia(mediaId) {
+  const data = getData();
+  if (!data.media) return;
+  const item = data.media.find(m => m.id === mediaId);
+  if (item) {
+    try { await deleteMediaBlob(item.idbKey); } catch(e) {}
+    data.media = data.media.filter(m => m.id !== mediaId);
+    setData(data);
+    renderMediaGrid('morning');
+    renderMediaGrid('evening');
+  }
+}
+
+// Lightbox
+async function openLightbox(idbKey, type) {
+  const blob = await getMediaBlob(idbKey);
+  if (!blob) { showToast('Media not found', false, 'warn'); return; }
+  const url = URL.createObjectURL(blob);
+  const content = document.getElementById('lightbox-content');
+  if (type === 'video') {
+    content.innerHTML = `<video src="${url}" controls autoplay playsinline style="max-width:95vw;max-height:85vh;border-radius:8px"></video>`;
+  } else {
+    content.innerHTML = `<img src="${url}" style="max-width:95vw;max-height:85vh;border-radius:8px;object-fit:contain">`;
+  }
+  document.getElementById('lightbox').classList.add('show');
+}
+
+function closeLightbox() {
+  const lb = document.getElementById('lightbox');
+  lb.classList.remove('show');
+  const content = document.getElementById('lightbox-content');
+  // Revoke URLs and stop video
+  const vid = content.querySelector('video');
+  if (vid) { vid.pause(); URL.revokeObjectURL(vid.src); }
+  const img = content.querySelector('img');
+  if (img) URL.revokeObjectURL(img.src);
+  content.innerHTML = '';
+}
+
+// Init media DB on load
+initMediaDB().catch(e => console.error('MediaDB init error:', e));
+
 // ==================== SUPPLEMENTS ====================
 let _doseTarget = null; // the supp-item element being edited
 
@@ -1104,6 +1416,8 @@ function loadFields() {
   });
   const section = document.querySelector('.section.active').id === 'sec-morning' ? 'morning' : 'evening';
   renderSupps(section + '-supps', section === 'morning' ? MORNING_SUPPS : EVENING_SUPPS);
+  renderMediaGrid('morning');
+  renderMediaGrid('evening');
   updateDot(data.synced ? 'synced' : (data.updated_at ? 'saved' : 'unsaved'));
   // Auto-grow textareas after populating values
   setTimeout(autoGrowAll, 50);
@@ -1349,6 +1663,8 @@ async function syncToGitHub(data) {
       setData(data);
       updateDot('synced');
       showSyncPending(false);
+      // Sync photos to GitHub (background, non-blocking)
+      syncMediaToGitHub(data, s).catch(e => console.error('Media sync error:', e));
       return true;
     } else {
       console.error('Sync failed:', r.status, await r.text());
@@ -1360,6 +1676,43 @@ async function syncToGitHub(data) {
     queue.push(data.date);
     localStorage.setItem('sync-queue', JSON.stringify([...new Set(queue)]));
     return false;
+  }
+}
+
+async function syncMediaToGitHub(data, s) {
+  if (!data.media || !data.media.length || !mediaDB) return;
+  for (const m of data.media) {
+    if (m.type !== 'photo' || m.mediaSynced) continue;
+    try {
+      const blob = await getMediaBlob(m.idbKey);
+      if (!blob) continue;
+      const buf = await blob.arrayBuffer();
+      const bytes = new Uint8Array(buf);
+      let binary = '';
+      for (let i = 0; i < bytes.length; i++) binary += String.fromCharCode(bytes[i]);
+      const b64 = btoa(binary);
+      const mediaPath = `data/media/${data.date}/${m.id}.jpg`;
+      const r = await fetch(`https://api.github.com/repos/${s.repo}/contents/${mediaPath}`, {
+        method: 'PUT',
+        headers: {
+          'Authorization': `Bearer ${s.token}`,
+          'Accept': 'application/vnd.github.v3+json',
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          message: `photo ${data.date} ${m.id}`,
+          content: b64,
+          committer: {name: 'Health Check-in', email: 'checkin@local'}
+        })
+      });
+      if (r.ok) {
+        m.mediaSynced = true;
+        m.githubPath = mediaPath;
+        setData(data);
+      }
+    } catch (e) {
+      console.error('Photo sync error for', m.id, e);
+    }
   }
 }
 
@@ -2007,6 +2360,18 @@ async function loadDashboard() {
         html += '<div class="dash-journal-section"><h3>&#128138; Supplements</h3>';
         if (mSupps.length) html += `<div class="dash-journal-notes"><span class="grat-label">Morning:</span> ${mSupps.join(', ')}</div>`;
         if (eSupps.length) html += `<div class="dash-journal-notes"><span class="grat-label">Evening:</span> ${eSupps.join(', ')}</div>`;
+        html += '</div>';
+      }
+      // Photos & Videos strip
+      if (localData.media && localData.media.length > 0) {
+        html += '<div class="dash-media-strip">';
+        localData.media.forEach(m => {
+          const isVideo = m.type === 'video';
+          html += `<div class="dash-media-thumb" onclick="openLightbox('${m.idbKey}','${m.type}')">
+            <img src="${m.thumbnail}" alt="">
+            ${isVideo ? `<div class="play-icon"></div><div class="video-badge">${m.duration}s</div>` : ''}
+          </div>`;
+        });
         html += '</div>';
       }
     }
