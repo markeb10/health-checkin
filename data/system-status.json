@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T19:46:26.467384",
+  "generated_at": "2026-04-05T20:00:00.584194",
   "cron_active": true,
   "jobs": [
     {
@@ -56,18 +56,18 @@
       "name": "Zoe Sync Watcher",
       "schedule": "Every minute",
       "status": "ok",
-      "status_text": "[2026-04-05 19:46:01] No pending Zoe sync trigger",
-      "last_run": "2026-04-05 19:46:01",
-      "log_mtime": "2026-04-05T19:46:01.825295",
+      "status_text": "[2026-04-05 19:59:02] No pending Zoe sync trigger",
+      "last_run": "2026-04-05 19:59:02",
+      "log_mtime": "2026-04-05T19:59:02.384297",
       "recent_log": [
-        "[2026-04-05 19:39:01] No pending Zoe sync trigger",
-        "[2026-04-05 19:40:01] No pending Zoe sync trigger",
-        "[2026-04-05 19:41:01] No pending Zoe sync trigger",
-        "[2026-04-05 19:42:02] No pending Zoe sync trigger",
-        "[2026-04-05 19:43:01] No pending Zoe sync trigger",
-        "[2026-04-05 19:44:01] No pending Zoe sync trigger",
-        "[2026-04-05 19:45:01] No pending Zoe sync trigger",
-        "[2026-04-05 19:46:01] No pending Zoe sync trigger"
+        "[2026-04-05 19:52:02] No pending Zoe sync trigger",
+        "[2026-04-05 19:53:01] No pending Zoe sync trigger",
+        "[2026-04-05 19:54:01] No pending Zoe sync trigger",
+        "[2026-04-05 19:55:01] No pending Zoe sync trigger",
+        "[2026-04-05 19:56:01] No pending Zoe sync trigger",
+        "[2026-04-05 19:57:02] No pending Zoe sync trigger",
+        "[2026-04-05 19:58:01] No pending Zoe sync trigger",
+        "[2026-04-05 19:59:02] No pending Zoe sync trigger"
       ]
     }
   ],
