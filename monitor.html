@@ -2,61 +2,77 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="theme-color" content="#1A1714">
+<link rel="manifest" href="monitor-manifest.json">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
 <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-<title>Health System Monitor</title>
+<title>System Monitor</title>
 <style>
-:root{--bg:#0f1729;--card:#1a2744;--card2:#243352;--text:#e2e8f0;--text2:#8892a8;--gold:#d4a853;--gold2:#c49a3c;--green:#4ade80;--red:#f87171;--orange:#fb923c;--blue:#60a5fa}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
 *{margin:0;padding:0;box-sizing:border-box}
-body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;padding:20px}
-.container{max-width:600px;margin:0 auto}
-h1{color:var(--gold);font-size:22px;margin-bottom:4px}
-.subtitle{color:var(--text2);font-size:13px;margin-bottom:20px}
-.overall{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-bottom:16px}
-.overall.healthy{background:#22c55e22;color:var(--green)}
-.overall.warning{background:#f59e0b22;color:var(--orange)}
-.overall.error{background:#ef444422;color:var(--red)}
-.overall.unknown{background:#64748b22;color:var(--text2)}
-.cron-status{font-size:12px;margin-bottom:16px}
+:root{
+  --bg:#1A1714;--card:#242019;--card2:#2E2A24;--border:#352F28;
+  --gold:#C4956A;--gold2:#D4A87A;
+  --text:#E8E2DA;--text2:#7A7368;
+  --green:#7BAE7F;--red:#C47070;--orange:#C4956A;--blue:#7A9DBF;
+  --serif:'Playfair Display',Georgia,serif;
+  --sans:-apple-system,'SF Pro Text','Helvetica Neue',sans-serif;
+  --shadow:0 1px 3px rgba(0,0,0,.2),0 4px 12px rgba(0,0,0,.15);
+  --safe-top:env(safe-area-inset-top,20px);--safe-bottom:env(safe-area-inset-bottom,20px);
+}
+html,body{background:var(--bg);color:var(--text);font-family:var(--sans);
+  min-height:100vh;-webkit-font-smoothing:antialiased}
+.container{max-width:500px;margin:0 auto;padding:calc(var(--safe-top) + 16px) 20px calc(var(--safe-bottom) + 24px)}
+h1{font-family:var(--serif);color:var(--text);font-size:22px;font-weight:600;letter-spacing:-.3px;margin-bottom:4px}
+.subtitle{color:var(--text2);font-size:13px;margin-bottom:24px}
+
+.overall{display:inline-flex;align-items:center;gap:8px;padding:8px 16px;border-radius:20px;font-size:13px;font-weight:600;margin-bottom:18px}
+.overall.healthy{background:rgba(123,174,127,.1);color:var(--green);border:1px solid rgba(123,174,127,.2)}
+.overall.warning{background:rgba(196,149,106,.1);color:var(--orange);border:1px solid rgba(196,149,106,.2)}
+.overall.error{background:rgba(196,112,112,.1);color:var(--red);border:1px solid rgba(196,112,112,.2)}
+.overall.unknown{background:var(--card);color:var(--text2);border:1px solid var(--border)}
+.cron-status{font-size:12px;margin-bottom:18px;font-weight:500}
 .cron-status .ok{color:var(--green)}
 .cron-status .fail{color:var(--red)}
 
-.job-card{background:var(--card);border-radius:12px;padding:14px 16px;margin-bottom:8px;border:1px solid #2a3a5c}
-.job-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
-.job-name{font-size:15px;font-weight:600}
+.job-card{background:var(--card);border-radius:16px;padding:18px 20px;margin-bottom:10px;border:1px solid var(--border);box-shadow:var(--shadow)}
+.job-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
+.job-name{font-family:var(--serif);font-size:16px;font-weight:600;letter-spacing:-.2px}
 .job-dot{width:10px;height:10px;border-radius:50%;display:inline-block}
-.job-dot.ok{background:var(--green)}
-.job-dot.error{background:var(--red)}
-.job-dot.stale{background:var(--orange)}
+.job-dot.ok{background:var(--green);box-shadow:0 0 6px rgba(123,174,127,.4)}
+.job-dot.error{background:var(--red);box-shadow:0 0 6px rgba(196,112,112,.4)}
+.job-dot.stale{background:var(--orange);box-shadow:0 0 6px rgba(196,149,106,.4)}
 .job-dot.idle,.job-dot.unknown{background:var(--text2)}
-.job-info{font-size:12px;color:var(--text2);margin-bottom:8px}
-.job-status{font-size:11px;color:var(--text2);background:var(--card2);padding:6px 10px;border-radius:6px;font-family:'SF Mono',monospace;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.job-actions{display:flex;gap:6px;margin-top:8px}
-.btn{padding:5px 12px;border-radius:6px;border:none;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit}
-.btn-run{background:var(--blue);color:#fff}
-.btn-log{background:var(--card2);color:var(--text2)}
-.btn-run:hover{opacity:0.85}
-.btn-gold{background:var(--gold);color:#0f1729;padding:8px 20px;font-size:13px;border-radius:8px}
-.btn-refresh{background:var(--card2);color:var(--text);padding:8px 20px;font-size:13px;border-radius:8px}
+.job-info{font-size:12px;color:var(--text2);margin-bottom:10px;font-weight:500}
+.job-status{font-size:11px;color:var(--text2);background:var(--card2);padding:8px 12px;border-radius:10px;font-family:'SF Mono',Menlo,monospace;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border:1px solid var(--border)}
+.job-actions{display:flex;gap:8px;margin-top:10px}
+.btn{padding:7px 14px;border-radius:10px;border:none;font-size:12px;font-weight:600;cursor:pointer;font-family:var(--sans);transition:opacity .15s;letter-spacing:.2px}
+.btn:active{opacity:.7}
+.btn-run{background:var(--gold);color:#1A1714}
+.btn-log{background:var(--card2);color:var(--text2);border:1px solid var(--border)}
+.btn-gold{background:var(--gold);color:#1A1714;padding:10px 24px;font-size:14px;border-radius:12px;font-weight:700}
+.btn-refresh{background:var(--card2);color:var(--text);padding:10px 24px;font-size:14px;border-radius:12px;border:1px solid var(--border)}
 
-.actions-bar{display:flex;gap:10px;margin:16px 0}
-.log-panel{background:#1e1e2e;border-radius:10px;padding:12px;margin-top:12px;font-family:'SF Mono',monospace;font-size:11px;color:#cdd6f4;max-height:250px;overflow-y:auto;line-height:1.5;display:none}
+.actions-bar{display:flex;gap:10px;margin:20px 0}
+.log-panel{background:var(--card2);border-radius:14px;padding:14px 16px;margin-top:14px;font-family:'SF Mono',Menlo,monospace;font-size:11px;color:var(--text);max-height:280px;overflow-y:auto;line-height:1.6;display:none;border:1px solid var(--border)}
 .log-panel.visible{display:block}
-.log-panel .header{color:var(--gold);font-weight:bold}
+.log-panel .header{color:var(--gold2);font-weight:bold}
 .log-panel .error{color:var(--red)}
 .log-line{white-space:pre-wrap;word-break:break-all}
 
-.footer{text-align:center;color:var(--text2);font-size:11px;margin-top:20px;padding-bottom:20px}
+.footer{text-align:center;color:var(--text2);font-size:11px;margin-top:24px;padding-bottom:20px}
 .auto-refresh{color:var(--gold);font-size:11px}
-#loading{color:var(--text2);text-align:center;padding:40px}
+#loading{color:var(--text2);text-align:center;padding:48px;font-size:14px}
 </style>
 </head>
 <body>
 <div class="container">
-  <h1>Health System Monitor</h1>
-  <div class="subtitle">Background jobs &amp; services</div>
+  <h1>System Monitor</h1>
+  <div class="subtitle">Background jobs & services</div>
   <div id="content"><div id="loading">Loading status...</div></div>
   <div class="footer">
     <span class="auto-refresh">Auto-refreshes every 30s</span> |
@@ -94,9 +110,9 @@ function timeAgo(ts) {
 function render(status) {
   if (!status) {
     document.getElementById('content').innerHTML = `
-      <div style="text-align:center;padding:40px;color:var(--text2)">
+      <div style="text-align:center;padding:48px;color:var(--text2)">
         <p>No status data found.</p>
-        <p style="margin-top:8px;font-size:12px">Run: <code style="color:var(--gold)">python3 ~/health_centre/ingest/system_monitor.py</code></p>
+        <p style="margin-top:10px;font-size:13px">Run: <code style="color:var(--gold)">python3 ~/health_centre/ingest/system_monitor.py</code></p>
       </div>`;
     return;
   }
@@ -138,8 +154,6 @@ function render(status) {
 
   document.getElementById('content').innerHTML = html;
   document.getElementById('last-refresh').textContent = 'Updated: ' + new Date().toLocaleTimeString();
-
-  // Store jobs globally for log viewing
   window._statusJobs = status.jobs || [];
 }
 
@@ -161,7 +175,6 @@ function runJob(jobId) {
   logPanelVisible = true;
   const panel = document.getElementById('log-panel');
   if (panel) { panel.innerHTML = logContent; panel.classList.add('visible'); }
-  // We can't run local commands from a web page, but we'll refresh to show updated status
   setTimeout(refresh, 5000);
 }
 
@@ -178,10 +191,7 @@ async function refresh() {
   render(status);
 }
 
-// Initial load
 refresh();
-
-// Auto-refresh every 30s
 setInterval(refresh, 30000);
 </script>
 </body>
