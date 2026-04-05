@@ -1,0 +1,80 @@
+{
+  "date": "2026-03-25",
+  "generated_at": "2026-04-05T18:53:30.022014",
+  "whoop": {
+    "imported": true,
+    "recovery": 52.0,
+    "hrv": 33.5,
+    "rhr": 50.0,
+    "sleep_perf": 78.0,
+    "strain": 5.3,
+    "sleep_hrs": 6.1,
+    "spo2": 96.3,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 94.4,
+    "sleep_consistency": 93.0,
+    "respiratory_rate": 13.7,
+    "light_sleep_hrs": 2.6,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 6,
+    "disturbances": 5,
+    "sleep_needed_hrs": 10.0,
+    "sleep_debt_hrs": 2.1,
+    "calories": 1618,
+    "avg_hr": 61,
+    "max_hr": 126,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 52,
+        "avg_hr": 101,
+        "max_hr": 126
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19874,
+    "resting_hr": 51.5,
+    "hrv": 75.44,
+    "sleep_hrs": 6.1,
+    "daylight_mins": 42.0,
+    "vo2max": 40.51,
+    "spo2": 97.27,
+    "respiratory_rate": 15.55,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 1,
+    "journal": "Feeling wired in the morning, slept otherwise good, something. isoff in th emorning but surprisingly not being sleepy during the day and surviving with low sleep\nAcidity is present definitely that tomatoe meat sauce , bolonese is a bit of a problematic sauce for me haha, Gemini was right what can I say\n\nFeeling acidity a bit in the evening something lingering in the back of my throat maybe gargel the sodabicarbona",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2,
+    "bloating": 6
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 6,
+    "meal_names": [
+      "Toast with Nut Butter and Banana",
+      "Fusilli with Bolognese Sauce and Parmesan",
+      "Salad with Boiled Egg and Radish",
+      "Carrot and Ginger Soup with Croutons and Balsamic Glaze",
+      "Toast with Nut Butter",
+      "Avocado Toast with Fried Egg"
+    ],
+    "avg_score": 79.4,
+    "calories": 1811.0,
+    "protein_g": 85.0,
+    "fat_g": 100.7,
+    "carbs_g": 142.9,
+    "fibre_g": 25.6
+  }
+}
