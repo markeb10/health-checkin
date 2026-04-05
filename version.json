@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "build": "2026-04-05",
-  "changelog": "Complete visual redesign - 5 Minute Journal inspired: warm cream palette, serif typography, premium feel"
+  "changelog": "Dark mode with warm tones, single gold accent for all KPI values, no bright/colorful fonts"
 }

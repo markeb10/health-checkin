@@ -1,24 +1,21 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" style="stop-color:#FAF8F5"/>
-      <stop offset="100%" style="stop-color:#F0EDE8"/>
+      <stop offset="0%" style="stop-color:#242019"/>
+      <stop offset="100%" style="stop-color:#1A1714"/>
     </linearGradient>
     <linearGradient id="sunBody" x1="0.3" y1="0.2" x2="0.8" y2="0.9">
-      <stop offset="0%" style="stop-color:#E8D5B8"/>
-      <stop offset="100%" style="stop-color:#B8875A"/>
+      <stop offset="0%" style="stop-color:#D4A87A"/>
+      <stop offset="100%" style="stop-color:#C4956A"/>
     </linearGradient>
     <radialGradient id="glow" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#E8D5B8;stop-opacity:0.3"/>
-      <stop offset="100%" style="stop-color:#E8D5B8;stop-opacity:0"/>
+      <stop offset="0%" style="stop-color:#C4956A;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#C4956A;stop-opacity:0"/>
     </radialGradient>
   </defs>
-  <!-- Background -->
   <rect width="128" height="128" rx="28" fill="url(#bg)"/>
-  <!-- Outer glow -->
   <circle cx="64" cy="64" r="52" fill="url(#glow)"/>
-  <!-- Sun rays - elegant thin lines -->
-  <g stroke="#B8875A" stroke-width="2.5" stroke-linecap="round" opacity="0.5">
+  <g stroke="#C4956A" stroke-width="2.5" stroke-linecap="round" opacity="0.4">
     <line x1="64" y1="14" x2="64" y2="28"/>
     <line x1="64" y1="100" x2="64" y2="114"/>
     <line x1="14" y1="64" x2="28" y2="64"/>
@@ -28,8 +25,6 @@
     <line x1="99.4" y1="28.6" x2="89.5" y2="38.5"/>
     <line x1="38.5" y1="89.5" x2="28.6" y2="99.4"/>
   </g>
-  <!-- Sun body -->
   <circle cx="64" cy="64" r="26" fill="url(#sunBody)"/>
-  <!-- Inner highlight -->
-  <circle cx="58" cy="56" r="12" fill="#E8D5B8" opacity="0.35"/>
+  <circle cx="58" cy="56" r="12" fill="#D4A87A" opacity="0.3"/>
 </svg>
