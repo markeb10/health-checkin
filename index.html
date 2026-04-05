@@ -1424,22 +1424,76 @@ async function fetchStatusData(dateStr) {
   if (statusCache[dateStr] && (Date.now() - statusCache[dateStr].fetchedAt < 60000)) {
     return statusCache[dateStr].data;
   }
+
+  // Start with local check-in data (always available from localStorage)
+  let data = buildLocalStatus(dateStr);
+
+  // Try GitHub for server-side data (WHOOP, Apple Health, Zoe)
   const s = getSettings();
-  if (!s.token || !s.repo) return null;
-  try {
-    const path = `data/daily-status/${dateStr}.json`;
-    const r = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
-      headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'}
-    });
-    if (!r.ok) return null;
-    const file = await r.json();
-    const data = JSON.parse(atob(file.content));
-    statusCache[dateStr] = { data, fetchedAt: Date.now() };
-    return data;
-  } catch (e) {
-    console.error('fetchStatusData error:', e);
-    return null;
+  if (s.token && s.repo) {
+    try {
+      const path = `data/daily-status/${dateStr}.json`;
+      const r = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
+        headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'}
+      });
+      if (r.ok) {
+        const file = await r.json();
+        const remote = JSON.parse(atob(file.content));
+        // Merge: remote data for WHOOP/Apple Health/Zoe, local for checkin
+        data.whoop = remote.whoop || data.whoop;
+        data.apple_health = remote.apple_health || data.apple_health;
+        data.zoe = remote.zoe || data.zoe;
+        // Use remote checkin if it has more data than local
+        if (remote.checkin && remote.checkin.imported && !data.checkin.imported) {
+          data.checkin = remote.checkin;
+        }
+      }
+    } catch (e) {
+      console.error('GitHub fetch error:', e);
+    }
   }
+
+  statusCache[dateStr] = { data, fetchedAt: Date.now() };
+  return data;
+}
+
+function buildLocalStatus(dateStr) {
+  // Build status object from localStorage check-in data
+  const local = JSON.parse(localStorage.getItem('checkin-' + dateStr) || 'null');
+  const status = {
+    date: dateStr,
+    whoop: { imported: false },
+    apple_health: { imported: false },
+    checkin: { imported: false },
+    zoe: { imported: false },
+  };
+
+  if (local) {
+    const hasMorning = local.morning_saved;
+    const hasEvening = local.evening_saved;
+    if (hasMorning || hasEvening) {
+      const suppCount = (local.morning_supplements || []).length + (local.evening_supplements || []).length;
+      status.checkin = {
+        imported: true,
+        mood: local.mood_score || null,
+        energy: local.energy_morning || null,
+        sleep_quality: local.sleep_quality_subjective || null,
+        supplements: suppCount,
+        has_morning: hasMorning,
+        has_evening: hasEvening,
+        pain: local.pain_score || null,
+        anxiety: local.anxiety_score || null,
+        mood_evening: local.mood_evening || null,
+        energy_afternoon: local.energy_afternoon || null,
+        energy_evening: local.energy_evening || null,
+        bloating: local.bloating_score || null,
+        gratitude: local.gratitude_raw || null,
+        affirmation: local.affirmation || null,
+      };
+    }
+  }
+
+  return status;
 }
 
 function renderNoStatus() {
@@ -1495,12 +1549,10 @@ async function loadDashboard() {
   const dateStr = fmt(currentDate);
   const data = await fetchStatusData(dateStr);
 
-  if (!data) {
-    el.innerHTML = `<div class="dash-loading">No data for ${dateStr}<br><span style="font-size:12px;color:var(--text2);margin-top:8px;display:block">Check GitHub settings or sync data first</span></div>`;
-    return;
-  }
-
-  let html = '<div class="dash-section-title">Today at a Glance</div>';
+  const todayCheck = new Date(); todayCheck.setHours(0,0,0,0);
+  const selCheck = new Date(currentDate); selCheck.setHours(0,0,0,0);
+  const dayLabel = todayCheck.getTime() === selCheck.getTime() ? 'Today' : friendlyDate(currentDate);
+  let html = `<div class="dash-section-title">${dayLabel} at a Glance</div>`;
 
   const w = data.whoop || {};
   const a = data.apple_health || {};
