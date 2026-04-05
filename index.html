@@ -75,6 +75,15 @@ textarea{min-height:60px}
 .supp-name{font-size:12px;color:var(--text);line-height:1.2}
 .supp-time{font-size:10px;color:var(--text2)}
 
+/* Add custom supplement */
+.add-supp-row{display:flex;gap:6px;margin-top:10px}
+.add-supp-row input{flex:1;background:var(--card2);border:1px solid transparent;border-radius:8px;
+  padding:10px;color:var(--text);font-size:13px;outline:none;font-family:inherit}
+.add-supp-row input:focus{border-color:var(--gold)}
+.add-supp-btn{background:var(--gold);border:none;border-radius:8px;padding:10px 14px;
+  color:#000;font-weight:700;font-size:14px;cursor:pointer;flex-shrink:0}
+.add-supp-btn:active{opacity:.8}
+
 /* Time input */
 .time-row{display:flex;align-items:center;gap:12px;margin-bottom:10px}
 .time-row label{font-size:13px;color:var(--text);flex:1}
@@ -195,6 +204,10 @@ input[type=number]{width:70px;text-align:center}
     <div class="card">
       <h2>Morning supplements</h2>
       <div class="supp-grid" id="morning-supps"></div>
+      <div class="add-supp-row">
+        <input type="text" id="add-morning-supp" placeholder="Add supplement...">
+        <button class="add-supp-btn" onclick="addCustomSupp('morning')">+</button>
+      </div>
     </div>
 
     <button class="submit-btn morning" onclick="saveMorning()">Save Morning Check-in</button>
@@ -238,16 +251,11 @@ input[type=number]{width:70px;text-align:center}
     </div>
 
     <div class="card">
-      <h2>What I ate today</h2>
-      <textarea data-field="food_diary" placeholder="Breakfast: eggs, bread&#10;Lunch: fish, potatoes&#10;Dinner: chicken, rice" style="min-height:100px" oninput="autoSave()"></textarea>
-      <div class="time-row" style="margin-top:12px">
-        <label>Last meal</label>
+      <h2>Intake</h2>
+      <div class="time-row">
+        <label>Last meal time</label>
         <input type="time" data-field="last_meal_time" oninput="autoSave()">
       </div>
-    </div>
-
-    <div class="card">
-      <h2>Caffeine & Alcohol</h2>
       <div class="time-row">
         <label>Caffeine (mg)</label>
         <input type="number" data-field="caffeine_mg" placeholder="0" min="0" oninput="autoSave()">
@@ -277,6 +285,10 @@ input[type=number]{width:70px;text-align:center}
     <div class="card">
       <h2>Evening supplements</h2>
       <div class="supp-grid" id="evening-supps"></div>
+      <div class="add-supp-row">
+        <input type="text" id="add-evening-supp" placeholder="Add supplement...">
+        <button class="add-supp-btn" onclick="addCustomSupp('evening')">+</button>
+      </div>
     </div>
 
     <div class="card">
@@ -404,8 +416,11 @@ function renderSupps(containerId, list) {
   const section = containerId.split('-')[0];
   const saved = data[section + '_supplements'] || [];
   const savedNames = saved.map(s => s.name);
+  // Merge custom supplements for this section
+  const customs = getCustomSupps().filter(c => c.section === section);
+  const allSupps = [...list, ...customs];
   const c = document.getElementById(containerId);
-  c.innerHTML = list.map(s => {
+  c.innerHTML = allSupps.map(s => {
     const checked = savedNames.includes(s.name) ? 'checked' : '';
     return `<div class="supp-item ${checked}" data-id="${s.id}" data-name="${s.name}" onclick="toggleSupp(this)">
       <div class="supp-check">${checked ? '&#10003;' : ''}</div>
@@ -417,6 +432,33 @@ function renderSupps(containerId, list) {
 function toggleSupp(el) {
   el.classList.toggle('checked');
   el.querySelector('.supp-check').innerHTML = el.classList.contains('checked') ? '&#10003;' : '';
+  autoSave();
+}
+
+function getCustomSupps() {
+  try { return JSON.parse(localStorage.getItem('custom-supps')) || []; } catch { return []; }
+}
+
+function addCustomSupp(section) {
+  const input = document.getElementById(`add-${section}-supp`);
+  const name = input.value.trim();
+  if (!name) return;
+  const customs = getCustomSupps();
+  const id = 'custom_' + name.toLowerCase().replace(/\s+/g, '_');
+  if (!customs.find(c => c.id === id)) {
+    customs.push({id, name, section});
+    localStorage.setItem('custom-supps', JSON.stringify(customs));
+  }
+  input.value = '';
+  // Add to grid and auto-check it
+  const grid = document.getElementById(`${section}-supps`);
+  const div = document.createElement('div');
+  div.className = 'supp-item checked';
+  div.dataset.id = id;
+  div.dataset.name = name;
+  div.onclick = function(){ toggleSupp(this); };
+  div.innerHTML = `<div class="supp-check">&#10003;</div><span class="supp-name">${name}</span>`;
+  grid.appendChild(div);
   autoSave();
 }
 
