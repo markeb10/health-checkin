@@ -29,6 +29,14 @@ html,body{background:var(--bg);color:var(--text);font-family:-apple-system,syste
 .date-label{font-size:14px;color:var(--text);font-weight:600;min-width:100px;text-align:center}
 .gear-btn{background:none;border:none;color:var(--text2);font-size:20px;padding:8px;cursor:pointer}
 
+/* Current date banner */
+.date-banner{text-align:center;padding:12px 16px;margin-bottom:12px;border-radius:12px;
+  background:var(--card);font-size:22px;font-weight:800;color:var(--gold);letter-spacing:.3px}
+.date-banner .date-sub{font-size:12px;font-weight:500;color:var(--text2);margin-top:2px}
+.date-banner.not-today{background:rgba(248,113,113,.12);border:1px solid rgba(248,113,113,.25)}
+.date-banner.not-today .date-warning{display:block;font-size:12px;font-weight:600;color:var(--red);margin-top:4px}
+.date-banner .date-warning{display:none}
+
 /* Tabs */
 .tabs{display:flex;gap:4px;margin-bottom:20px;background:var(--card);border-radius:12px;padding:4px}
 .tab{flex:1;padding:10px;text-align:center;border-radius:10px;font-size:14px;font-weight:600;
@@ -149,6 +157,63 @@ input[type=number]{width:70px;text-align:center}
 .parsed-items{margin-top:10px;display:flex;flex-wrap:wrap;gap:6px}
 .parsed-item{background:rgba(212,168,83,.12);border:1px solid rgba(212,168,83,.25);
   border-radius:8px;padding:6px 10px;font-size:12px;color:var(--gold2)}
+
+/* Streak banner */
+.streak-bar{display:flex;align-items:center;justify-content:center;gap:12px;padding:10px 16px;
+  margin-bottom:16px;background:var(--card);border-radius:12px;font-size:13px}
+.streak-fire{font-size:22px}
+.streak-num{font-size:24px;font-weight:800;color:var(--gold);line-height:1}
+.streak-label{color:var(--text2);font-size:12px}
+.streak-stat{display:flex;flex-direction:column;align-items:center}
+.streak-divider{width:1px;height:28px;background:var(--card2)}
+
+/* Save toast */
+.toast{position:fixed;bottom:calc(var(--safe-bottom) + 20px);left:50%;transform:translateX(-50%) translateY(80px);
+  background:var(--green);color:#000;padding:12px 24px;border-radius:12px;font-size:14px;font-weight:700;
+  opacity:0;transition:all .3s ease;z-index:200;pointer-events:none;white-space:nowrap}
+.toast.show{transform:translateX(-50%) translateY(0);opacity:1}
+.toast.evening-toast{background:#6366f1;color:#fff}
+
+/* Calendar modal */
+.calendar-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:100;display:none;
+  align-items:center;justify-content:center}
+.calendar-overlay.show{display:flex}
+.calendar-box{background:var(--card);border-radius:20px;padding:20px;width:calc(100% - 32px);max-width:400px}
+.cal-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:16px}
+.cal-header h3{font-size:16px;color:var(--gold);font-weight:700}
+.cal-header button{background:none;border:none;color:var(--text2);font-size:20px;padding:8px;cursor:pointer}
+.cal-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;text-align:center}
+.cal-day-name{font-size:11px;color:var(--text2);padding:4px;font-weight:600}
+.cal-day{font-size:13px;padding:8px 4px;border-radius:8px;cursor:pointer;position:relative;color:var(--text2)}
+.cal-day:active{opacity:.7}
+.cal-day.today{color:var(--text);font-weight:700}
+.cal-day.has-both{background:rgba(74,222,128,.2);color:var(--green);font-weight:600}
+.cal-day.has-morning{background:rgba(212,168,83,.15);color:var(--gold)}
+.cal-day.has-evening{background:rgba(99,102,241,.15);color:var(--blue)}
+.cal-day.selected{outline:2px solid var(--gold);outline-offset:-2px}
+.cal-day.empty{cursor:default}
+.cal-legend{display:flex;gap:12px;justify-content:center;margin-top:12px;font-size:11px;color:var(--text2)}
+.cal-legend span{display:flex;align-items:center;gap:4px}
+.cal-legend .dot{width:8px;height:8px;border-radius:50%;display:inline-block}
+.cal-close{background:var(--card2);border:none;color:var(--text);padding:10px;width:100%;
+  border-radius:10px;font-size:14px;font-weight:600;cursor:pointer;margin-top:12px}
+
+/* Day detail overlay */
+.day-detail-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:150;display:none;
+  align-items:center;justify-content:center}
+.day-detail-overlay.show{display:flex}
+.day-detail{background:var(--card);border-radius:20px;padding:20px;width:calc(100% - 32px);max-width:400px;max-height:80vh;overflow-y:auto}
+.day-detail h3{color:var(--gold);font-size:17px;margin-bottom:14px;text-align:center}
+.source-row{display:flex;align-items:center;gap:10px;padding:12px;background:var(--card2);
+  border-radius:12px;margin-bottom:8px}
+.source-icon{font-size:20px;width:32px;text-align:center;flex-shrink:0}
+.source-info{flex:1}
+.source-name{font-size:14px;font-weight:600;color:var(--text)}
+.source-detail{font-size:11px;color:var(--text2);margin-top:2px;line-height:1.4}
+.source-badge{font-size:11px;font-weight:700;padding:3px 8px;border-radius:6px;flex-shrink:0}
+.source-badge.yes{background:rgba(74,222,128,.15);color:var(--green)}
+.source-badge.no{background:rgba(248,113,113,.1);color:var(--red)}
+.day-detail-loading{text-align:center;padding:20px;color:var(--text2);font-size:13px}
 </style>
 </head>
 <body>
@@ -161,6 +226,30 @@ input[type=number]{width:70px;text-align:center}
       <button onclick="changeDate(1)">&rsaquo;</button>
     </div>
     <button class="gear-btn" onclick="toggleSettings()">&#9881;</button>
+  </div>
+
+  <!-- Big date banner -->
+  <div class="date-banner" id="dateBanner" onclick="openDayDetail(fmt(currentDate))">
+    <div id="dateBig">Sunday, 5 April</div>
+    <div class="date-sub" id="dateSub">Today</div>
+    <div class="date-warning" id="dateWarning">You're filling a different day</div>
+    <div style="font-size:11px;color:var(--text2);margin-top:4px" id="dataSourceHint">Tap to see data sources</div>
+  </div>
+
+  <!-- Streak bar -->
+  <div class="streak-bar" onclick="openCalendar()">
+    <span class="streak-fire">🔥</span>
+    <div class="streak-stat">
+      <span class="streak-num" id="streakCount">0</span>
+      <span class="streak-label">day streak</span>
+    </div>
+    <div class="streak-divider"></div>
+    <div class="streak-stat">
+      <span class="streak-num" id="monthCount">0</span>
+      <span class="streak-label">this month</span>
+    </div>
+    <div class="streak-divider"></div>
+    <div class="streak-stat" style="font-size:11px;color:var(--text2)">📅</div>
   </div>
 
   <div class="tabs">
@@ -310,6 +399,36 @@ input[type=number]{width:70px;text-align:center}
 
     <button class="submit-btn evening" onclick="saveEvening()">Save Evening Check-in</button>
     <div class="status" id="evening-status"></div>
+  </div>
+</div>
+
+<!-- Day detail overlay -->
+<div class="day-detail-overlay" id="dayDetailOverlay" onclick="if(event.target===this)closeDayDetail()">
+  <div class="day-detail">
+    <h3 id="dayDetailTitle">Sunday, 5 April</h3>
+    <div id="dayDetailContent"><div class="day-detail-loading">Loading...</div></div>
+    <button class="cal-close" onclick="closeDayDetail()" style="margin-top:14px">Close</button>
+  </div>
+</div>
+
+<!-- Save toast -->
+<div class="toast" id="saveToast"></div>
+
+<!-- Calendar -->
+<div class="calendar-overlay" id="calendarOverlay" onclick="if(event.target===this)closeCalendar()">
+  <div class="calendar-box">
+    <div class="cal-header">
+      <button onclick="changeCalMonth(-1)">&lsaquo;</button>
+      <h3 id="calTitle">April 2026</h3>
+      <button onclick="changeCalMonth(1)">&rsaquo;</button>
+    </div>
+    <div class="cal-grid" id="calGrid"></div>
+    <div class="cal-legend">
+      <span><span class="dot" style="background:var(--gold)"></span> Morning</span>
+      <span><span class="dot" style="background:var(--blue)"></span> Evening</span>
+      <span><span class="dot" style="background:var(--green)"></span> Both</span>
+    </div>
+    <button class="cal-close" onclick="closeCalendar()">Close</button>
   </div>
 </div>
 
@@ -534,6 +653,27 @@ function loadFields() {
 
 function loadDay() {
   document.getElementById('dateLabel').textContent = friendlyDate(currentDate);
+  // Big date banner
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  document.getElementById('dateBig').textContent = `${days[currentDate.getDay()]}, ${currentDate.getDate()} ${months[currentDate.getMonth()]}`;
+  const today = new Date(); today.setHours(0,0,0,0);
+  const check = new Date(currentDate); check.setHours(0,0,0,0);
+  const diff = Math.round((today - check) / 86400000);
+  const banner = document.getElementById('dateBanner');
+  if (diff === 0) {
+    document.getElementById('dateSub').textContent = 'Today';
+    banner.classList.remove('not-today');
+  } else if (diff === 1) {
+    document.getElementById('dateSub').textContent = 'Yesterday';
+    banner.classList.add('not-today');
+  } else if (diff === -1) {
+    document.getElementById('dateSub').textContent = 'Tomorrow';
+    banner.classList.add('not-today');
+  } else {
+    document.getElementById('dateSub').textContent = fmt(currentDate);
+    banner.classList.add('not-today');
+  }
   loadFields();
 }
 
@@ -546,6 +686,8 @@ async function saveMorning() {
   data.morning_saved_at = new Date().toISOString();
   setData(data);
   await syncToGitHub(data);
+  showToast('☀️ Morning check-in saved!');
+  updateStreak();
   showStatus('morning-status', 'Morning check-in saved!');
 }
 
@@ -557,6 +699,8 @@ async function saveEvening() {
   data.evening_saved_at = new Date().toISOString();
   setData(data);
   await syncToGitHub(data);
+  showToast('🌙 Evening check-in saved!', true);
+  updateStreak();
   showStatus('evening-status', 'Evening check-in saved!');
 }
 
@@ -681,7 +825,7 @@ function toggleSettings() {
   if (m.classList.contains('show')) {
     const s = getSettings();
     document.getElementById('ghToken').value = s.token || '';
-    document.getElementById('ghRepo').value = s.repo || 'markeb10/test';
+    document.getElementById('ghRepo').value = s.repo || 'markeb10/health-centre';
     document.getElementById('ghPath').value = s.path || 'data/checkins';
   }
 }
@@ -744,7 +888,207 @@ async function triggerZoeSync() {
   }
 }
 
+// Save toast
+function showToast(msg, isEvening) {
+  const t = document.getElementById('saveToast');
+  t.textContent = msg;
+  t.className = 'toast show' + (isEvening ? ' evening-toast' : '');
+  setTimeout(() => t.className = 'toast', 2500);
+}
+
+// Streak calculation
+function calcStreak() {
+  let streak = 0;
+  const d = new Date(); d.setHours(0,0,0,0);
+  // Check from today backwards
+  for (let i = 0; i < 365; i++) {
+    const key = 'checkin-' + fmt(d);
+    const data = JSON.parse(localStorage.getItem(key) || 'null');
+    if (data && (data.morning_saved || data.evening_saved)) {
+      streak++;
+      d.setDate(d.getDate() - 1);
+    } else if (i === 0) {
+      // Today might not be filled yet, skip and keep counting from yesterday
+      d.setDate(d.getDate() - 1);
+      continue;
+    } else {
+      break;
+    }
+  }
+  return streak;
+}
+
+function calcMonthCount() {
+  const now = new Date();
+  const year = now.getFullYear();
+  const month = now.getMonth();
+  let count = 0;
+  for (let day = 1; day <= now.getDate(); day++) {
+    const key = 'checkin-' + fmt(new Date(year, month, day));
+    const data = JSON.parse(localStorage.getItem(key) || 'null');
+    if (data && (data.morning_saved || data.evening_saved)) count++;
+  }
+  return count;
+}
+
+function updateStreak() {
+  document.getElementById('streakCount').textContent = calcStreak();
+  document.getElementById('monthCount').textContent = calcMonthCount();
+}
+
+// Calendar
+let calDate = new Date();
+
+function openCalendar() {
+  calDate = new Date(currentDate);
+  renderCalendar();
+  document.getElementById('calendarOverlay').classList.add('show');
+}
+
+function closeCalendar() {
+  document.getElementById('calendarOverlay').classList.remove('show');
+}
+
+function changeCalMonth(delta) {
+  calDate.setMonth(calDate.getMonth() + delta);
+  renderCalendar();
+}
+
+function renderCalendar() {
+  const year = calDate.getFullYear();
+  const month = calDate.getMonth();
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  document.getElementById('calTitle').textContent = `${months[month]} ${year}`;
+
+  const firstDay = new Date(year, month, 1).getDay();
+  const daysInMonth = new Date(year, month + 1, 0).getDate();
+  const todayStr = fmt(new Date());
+  const selectedStr = fmt(currentDate);
+
+  let html = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].map(d => `<div class="cal-day-name">${d}</div>`).join('');
+
+  for (let i = 0; i < firstDay; i++) {
+    html += '<div class="cal-day empty"></div>';
+  }
+
+  for (let day = 1; day <= daysInMonth; day++) {
+    const d = new Date(year, month, day);
+    const ds = fmt(d);
+    const data = JSON.parse(localStorage.getItem('checkin-' + ds) || 'null');
+    const hasMorning = data && data.morning_saved;
+    const hasEvening = data && data.evening_saved;
+    let cls = 'cal-day';
+    if (hasMorning && hasEvening) cls += ' has-both';
+    else if (hasMorning) cls += ' has-morning';
+    else if (hasEvening) cls += ' has-evening';
+    if (ds === todayStr) cls += ' today';
+    if (ds === selectedStr) cls += ' selected';
+    html += `<div class="${cls}" onclick="selectCalDay(${year},${month},${day})"
+      ontouchstart="this._lp=setTimeout(()=>{this._held=true;openDayDetail('${ds}')},500)"
+      ontouchend="clearTimeout(this._lp);if(!this._held)return;this._held=false;event.preventDefault()"
+      oncontextmenu="event.preventDefault();openDayDetail('${ds}')">${day}</div>`;
+  }
+
+  document.getElementById('calGrid').innerHTML = html;
+}
+
+function selectCalDay(y, m, d) {
+  currentDate = new Date(y, m, d);
+  loadDay();
+  closeCalendar();
+}
+
+// Day detail (data sources report)
+function openDayDetail(dateStr) {
+  const d = new Date(dateStr + 'T12:00:00');
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  document.getElementById('dayDetailTitle').textContent = `${days[d.getDay()]}, ${d.getDate()} ${months[d.getMonth()]}`;
+  document.getElementById('dayDetailContent').innerHTML = '<div class="day-detail-loading">Loading status...</div>';
+  document.getElementById('dayDetailOverlay').classList.add('show');
+  fetchDayStatus(dateStr);
+}
+
+function closeDayDetail() {
+  document.getElementById('dayDetailOverlay').classList.remove('show');
+}
+
+async function fetchDayStatus(dateStr) {
+  const s = getSettings();
+  const el = document.getElementById('dayDetailContent');
+  if (!s.token || !s.repo) {
+    el.innerHTML = '<div class="day-detail-loading">Set up GitHub in settings to see data status</div>';
+    return;
+  }
+  try {
+    const path = `data/daily-status/${dateStr}.json`;
+    const r = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
+      headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'}
+    });
+    if (!r.ok) {
+      el.innerHTML = renderNoStatus();
+      return;
+    }
+    const file = await r.json();
+    const data = JSON.parse(atob(file.content));
+    el.innerHTML = renderDayStatus(data);
+  } catch (e) {
+    el.innerHTML = '<div class="day-detail-loading">Error loading status</div>';
+  }
+}
+
+function renderNoStatus() {
+  return `
+    <div class="source-row"><div class="source-icon">⏳</div>
+    <div class="source-info"><span class="source-name">No status file yet</span>
+    <div class="source-detail">Data may not have been synced for this day</div></div></div>`;
+}
+
+function renderDayStatus(data) {
+  let html = '';
+  // WHOOP
+  const w = data.whoop || {};
+  html += `<div class="source-row">
+    <div class="source-icon">💚</div>
+    <div class="source-info"><span class="source-name">WHOOP</span>
+    ${w.imported ? `<div class="source-detail">Recovery ${w.recovery}% | HRV ${w.hrv}ms | RHR ${w.rhr} | Strain ${w.strain} | Sleep ${w.sleep_hrs}h</div>` : ''}
+    </div><span class="source-badge ${w.imported?'yes':'no'}">${w.imported?'Imported':'Missing'}</span></div>`;
+
+  // Apple Health
+  const a = data.apple_health || {};
+  html += `<div class="source-row">
+    <div class="source-icon">🍎</div>
+    <div class="source-info"><span class="source-name">Apple Health</span>
+    ${a.imported ? `<div class="source-detail">Steps ${a.steps?.toLocaleString()||'-'} | HR ${a.resting_hr||'-'} | HRV ${a.hrv?Math.round(a.hrv):'-'}ms${a.weight_kg?' | '+a.weight_kg+'kg':''}</div>` : ''}
+    </div><span class="source-badge ${a.imported?'yes':'no'}">${a.imported?'Imported':'Missing'}</span></div>`;
+
+  // Check-in
+  const c = data.checkin || {};
+  html += `<div class="source-row">
+    <div class="source-icon">📝</div>
+    <div class="source-info"><span class="source-name">Journal Check-in</span>
+    ${c.imported ? `<div class="source-detail">Mood ${c.mood||'-'}/10 | Energy ${c.energy||'-'}/10 | Sleep ${c.sleep_quality||'-'}/10 | ${c.supplements||0} supps</div>` : ''}
+    </div><span class="source-badge ${c.imported?'yes':'no'}">${c.imported?'Imported':'Missing'}</span></div>`;
+
+  // Zoe
+  const z = data.zoe || {};
+  html += `<div class="source-row">
+    <div class="source-icon">🥗</div>
+    <div class="source-info"><span class="source-name">Zoe Food Diary</span>
+    ${z.imported ? `<div class="source-detail">${z.meals} meals | Score ${z.avg_score||'-'} | ${z.calories||'-'} cal | P${z.protein_g||'-'}g F${z.fat_g||'-'}g C${z.carbs_g||'-'}g</div>` : ''}
+    ${z.imported && z.meal_names ? `<div class="source-detail" style="margin-top:4px">${z.meal_names.join(', ')}</div>` : ''}
+    </div><span class="source-badge ${z.imported?'yes':'no'}">${z.imported?'Imported':'Missing'}</span></div>`;
+
+  // Summary line
+  const total = [w,a,c,z].filter(x=>x.imported).length;
+  const color = total===4?'var(--green)':total>=2?'var(--gold)':'var(--red)';
+  html += `<div style="text-align:center;margin-top:12px;font-size:13px;color:${color};font-weight:600">${total}/4 data sources imported</div>`;
+
+  return html;
+}
+
 // Init
+updateStreak();
 loadDay();
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('./sw.js').catch(() => {});
