@@ -730,11 +730,12 @@ async function triggerZoeSync() {
       st.textContent = 'Sync requested! Mac will process shortly.';
       st.className = 'zoe-status done';
     } else {
-      st.textContent = 'Failed to request sync';
+      const txt = await r.text();
+      st.textContent = 'Failed: ' + r.status + ' ' + txt.slice(0,100);
       st.className = 'zoe-status fail';
     }
   } catch (e) {
-    st.textContent = 'Network error';
+    st.textContent = 'Error: ' + e.message;
     st.className = 'zoe-status fail';
   }
 }
