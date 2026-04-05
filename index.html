@@ -94,7 +94,7 @@ textarea::placeholder,.text-input::placeholder{color:#5A5450;font-style:italic}
 
 /* Supplement checklist */
 .supp-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-.supp-item{display:flex;align-items:center;gap:10px;padding:12px;background:var(--bg);
+.supp-item{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:12px;background:var(--bg);
   border-radius:12px;cursor:pointer;transition:all .15s;-webkit-tap-highlight-color:transparent;
   border:1.5px solid var(--border)}
 .supp-item.checked{background:rgba(107,158,111,.08);border-color:rgba(107,158,111,.35)}
@@ -103,6 +103,18 @@ textarea::placeholder,.text-input::placeholder{color:#5A5450;font-style:italic}
 .supp-item.checked .supp-check{background:var(--green);border-color:var(--green);color:#fff}
 .supp-name{font-size:13px;color:var(--text);line-height:1.3;font-weight:500}
 .supp-time{font-size:10px;color:var(--text2)}
+.supp-dose{display:none;width:100%;margin-top:8px;gap:6px;align-items:center}
+.supp-item.checked .supp-dose{display:flex}
+.supp-dose input{width:60px;background:var(--card2);border:1px solid var(--border);border-radius:8px;
+  padding:6px 8px;color:var(--gold2);font-size:13px;font-weight:600;text-align:center;outline:none;
+  font-family:var(--sans);-moz-appearance:textfield}
+.supp-dose input::-webkit-inner-spin-button{-webkit-appearance:none}
+.supp-dose input:focus{border-color:var(--gold)}
+.supp-dose-units{display:flex;gap:4px}
+.supp-unit{padding:5px 10px;border-radius:8px;font-size:11px;font-weight:600;cursor:pointer;
+  background:var(--card2);color:var(--text2);border:1px solid var(--border);transition:all .15s;
+  font-family:var(--sans)}
+.supp-unit.active{background:rgba(196,149,106,.15);color:var(--gold2);border-color:var(--gold)}
 
 /* Add custom supplement */
 .add-supp-row{display:flex;gap:8px;margin-top:12px}
@@ -787,7 +799,11 @@ function autoSave() {
     const section = document.querySelector('.section.active').id === 'sec-morning' ? 'morning' : 'evening';
     const supps = [];
     document.querySelectorAll(`#${section}-supps .supp-item.checked`).forEach(el => {
-      supps.push({name: el.dataset.name, time: new Date().toTimeString().slice(0,5)});
+      const doseInput = el.querySelector('.supp-dose input');
+      const activeUnit = el.querySelector('.supp-unit.active');
+      const dose = doseInput ? doseInput.value : '';
+      const unit = activeUnit ? activeUnit.textContent : 'mg';
+      supps.push({name: el.dataset.name, time: new Date().toTimeString().slice(0,5), dose, unit});
     });
     data[section + '_supplements'] = supps;
     setData(data);
@@ -888,22 +904,44 @@ function renderSupps(containerId, list) {
   const data = getData();
   const section = containerId.split('-')[0];
   const saved = data[section + '_supplements'] || [];
-  const savedNames = saved.map(s => s.name);
+  const savedMap = {};
+  saved.forEach(s => { savedMap[s.name] = s; });
   const customs = getCustomSupps().filter(c => c.section === section);
   const allSupps = [...list, ...customs];
   const c = document.getElementById(containerId);
   c.innerHTML = allSupps.map(s => {
-    const checked = savedNames.includes(s.name) ? 'checked' : '';
-    return `<div class="supp-item ${checked}" data-id="${s.id}" data-name="${s.name}" onclick="toggleSupp(this)">
+    const sv = savedMap[s.name];
+    const checked = sv ? 'checked' : '';
+    const dose = sv && sv.dose ? sv.dose : '';
+    const unit = sv && sv.unit ? sv.unit : 'mg';
+    return `<div class="supp-item ${checked}" data-id="${s.id}" data-name="${s.name}" onclick="toggleSupp(event,this)">
       <div class="supp-check">${checked ? '&#10003;' : ''}</div>
       <span class="supp-name">${s.name}</span>
+      <div class="supp-dose" onclick="event.stopPropagation()">
+        <input type="number" inputmode="decimal" placeholder="0" value="${dose}" onchange="autoSave()" oninput="autoSave()">
+        <div class="supp-dose-units">
+          <span class="supp-unit ${unit==='mg'?'active':''}" onclick="pickUnit(this,'mg')">mg</span>
+          <span class="supp-unit ${unit==='ml'?'active':''}" onclick="pickUnit(this,'ml')">ml</span>
+          <span class="supp-unit ${unit==='g'?'active':''}" onclick="pickUnit(this,'g')">g</span>
+          <span class="supp-unit ${unit==='mcg'?'active':''}" onclick="pickUnit(this,'mcg')">mcg</span>
+        </div>
+      </div>
     </div>`;
   }).join('');
 }
 
-function toggleSupp(el) {
+function toggleSupp(e, el) {
+  // Don't toggle if clicking inside dose area
+  if (e.target.closest('.supp-dose')) return;
   el.classList.toggle('checked');
   el.querySelector('.supp-check').innerHTML = el.classList.contains('checked') ? '&#10003;' : '';
+  autoSave();
+}
+
+function pickUnit(unitEl, unit) {
+  const doses = unitEl.closest('.supp-dose-units');
+  doses.querySelectorAll('.supp-unit').forEach(u => u.classList.remove('active'));
+  unitEl.classList.add('active');
   autoSave();
 }
 
@@ -927,8 +965,17 @@ function addCustomSupp(section) {
     div.className = 'supp-item checked';
     div.dataset.id = id;
     div.dataset.name = name;
-    div.onclick = function(){ toggleSupp(this); };
-    div.innerHTML = `<div class="supp-check">&#10003;</div><span class="supp-name">${name}</span>`;
+    div.onclick = function(e){ toggleSupp(e, this); };
+    div.innerHTML = `<div class="supp-check">&#10003;</div><span class="supp-name">${name}</span>
+      <div class="supp-dose" onclick="event.stopPropagation()">
+        <input type="number" inputmode="decimal" placeholder="0" onchange="autoSave()" oninput="autoSave()">
+        <div class="supp-dose-units">
+          <span class="supp-unit active" onclick="pickUnit(this,'mg')">mg</span>
+          <span class="supp-unit" onclick="pickUnit(this,'ml')">ml</span>
+          <span class="supp-unit" onclick="pickUnit(this,'g')">g</span>
+          <span class="supp-unit" onclick="pickUnit(this,'mcg')">mcg</span>
+        </div>
+      </div>`;
     grid.appendChild(div);
   }
   localStorage.setItem('custom-supps', JSON.stringify(customs));
