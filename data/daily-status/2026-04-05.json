@@ -1,6 +1,6 @@
 {
   "date": "2026-04-05",
-  "generated_at": "2026-04-05T20:26:29.746308",
+  "generated_at": "2026-04-05T20:28:27.872065",
   "whoop": {
     "imported": true,
     "recovery": 26.0,
@@ -41,10 +41,10 @@
       "Roasted Fish with Mixed Vegetables"
     ],
     "avg_score": 61.0,
-    "calories": null,
-    "protein_g": null,
-    "fat_g": null,
-    "carbs_g": null,
-    "fibre_g": null
+    "calories": 1127.0,
+    "protein_g": 88.0,
+    "fat_g": 53.2,
+    "carbs_g": 75.6,
+    "fibre_g": 4.300000000000001
   }
 }
