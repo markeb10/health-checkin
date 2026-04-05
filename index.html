@@ -1581,11 +1581,13 @@ async function loadDashboard() {
   // 2. Sleep
   const sleepHrs = w.imported ? w.sleep_hrs : null;
   const sleepPerf = w.imported ? w.sleep_perf : null;
+  const restorativeHrs = w.imported && w.deep_sleep_hrs != null && w.rem_sleep_hrs != null ?
+    Math.round((w.deep_sleep_hrs + w.rem_sleep_hrs) * 10) / 10 : null;
   const sleepColor = sleepPerf != null ? (sleepPerf >= 85 ? 'kpi-green' : sleepPerf >= 70 ? 'kpi-blue' : 'kpi-yellow') : 'kpi-blue';
   html += `<div class="kpi-card ${sleepHrs==null?'no-data':''}" onclick="openKpiSheet('sleep')">
     <div class="kpi-label">Sleep</div>
     <div class="kpi-value ${sleepColor}">${sleepHrs != null ? sleepHrs + '<span class="kpi-unit">h</span>' : '--'}</div>
-    <div class="kpi-sub">${sleepPerf != null ? sleepPerf + '% perf | debt ' + (w.sleep_debt_hrs||'--') + 'h' : 'No data'}</div>
+    <div class="kpi-sub">${sleepPerf != null ? sleepPerf + '% perf | ' + (restorativeHrs != null ? restorativeHrs + 'h restorative' : 'debt ' + (w.sleep_debt_hrs||'--') + 'h') : 'No data'}</div>
   </div>`;
 
   // 3. Zoe Score
@@ -1871,8 +1873,12 @@ function openKpiSheet(type) {
     const w = data.whoop || {};
     const a = data.apple_health || {};
     title.textContent = 'Sleep Details';
+    const restorative = w.imported && w.deep_sleep_hrs != null && w.rem_sleep_hrs != null ?
+      Math.round((w.deep_sleep_hrs + w.rem_sleep_hrs) * 10) / 10 : null;
+    const restPct = restorative && w.sleep_hrs ? Math.round(restorative / w.sleep_hrs * 100) : null;
     html = sheetSection('Duration')
       + sheetRow('Total Sleep', w.imported ? w.sleep_hrs + ' hrs' : '--')
+      + sheetRow('Restorative Sleep', restorative != null ? restorative + ' hrs' + (restPct ? ' (' + restPct + '%)' : '') : '--', '#a78bfa')
       + sheetRow('Sleep Needed', w.imported && w.sleep_needed_hrs ? w.sleep_needed_hrs + ' hrs' : '--')
       + sheetRow('Sleep Debt', w.imported && w.sleep_debt_hrs ? w.sleep_debt_hrs + ' hrs' : '--', w.sleep_debt_hrs > 2 ? '#f87171' : null)
       + sheetSection('Quality')
