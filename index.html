@@ -650,11 +650,22 @@ input[type=number]{width:70px;text-align:center}
     <input type="text" id="ghPath" value="data/checkins" oninput="saveSettings()">
     <button class="modal-close" onclick="saveSettings();testSync()">Test Sync</button>
     <button class="modal-close" onclick="exportAll()">Export All Data (JSON)</button>
+    <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--card2)">
+      <div style="font-size:12px;color:var(--text2)">
+        Version <span id="appVersion" style="color:var(--gold)"></span> (build <span id="appBuild"></span>)
+      </div>
+      <div id="updateStatus" style="font-size:11px;margin-top:4px"></div>
+      <button class="modal-close" onclick="checkForUpdate()" style="margin-top:6px;font-size:11px">Check for Update</button>
+    </div>
     <button class="modal-close" onclick="toggleSettings()">Close</button>
   </div>
 </div>
 
 <script>
+// ==================== VERSION ====================
+const APP_VERSION = '1.2.0';
+const APP_BUILD = '2026-04-05';
+
 // ==================== CONFIG ====================
 const MORNING_SUPPS = [
   {id:'telfast', name:'Telfast'},
@@ -1168,6 +1179,36 @@ function toggleSettings() {
     document.getElementById('ghToken').value = s.token || '';
     document.getElementById('ghRepo').value = s.repo || 'markeb10/health-centre';
     document.getElementById('ghPath').value = s.path || 'data/checkins';
+    document.getElementById('appVersion').textContent = APP_VERSION;
+    document.getElementById('appBuild').textContent = APP_BUILD;
+    checkForUpdate();
+  }
+}
+
+async function checkForUpdate() {
+  const el = document.getElementById('updateStatus');
+  el.textContent = 'Checking...';
+  el.style.color = 'var(--text2)';
+  try {
+    const r = await fetch('./version.json?t=' + Date.now(), {cache:'no-cache'});
+    if (r.ok) {
+      const v = await r.json();
+      if (v.version && v.version !== APP_VERSION) {
+        el.innerHTML = `<span style="color:var(--gold)">Update available: v${v.version}</span><br>` +
+          `<span style="color:var(--text2);font-size:10px">${v.changelog || 'Reload to update'}</span>`;
+        // Clear SW cache so next reload gets new version
+        if (navigator.serviceWorker) {
+          navigator.serviceWorker.getRegistrations().then(regs => regs.forEach(r => r.unregister()));
+          caches.keys().then(keys => keys.forEach(k => caches.delete(k)));
+        }
+      } else {
+        el.innerHTML = '<span style="color:var(--green)">You are on the latest version</span>';
+      }
+    } else {
+      el.innerHTML = '<span style="color:var(--green)">Up to date (v' + APP_VERSION + ')</span>';
+    }
+  } catch(e) {
+    el.innerHTML = '<span style="color:var(--text2)">Could not check (offline?)</span>';
   }
 }
 
