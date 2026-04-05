@@ -1021,61 +1021,75 @@ function initMediaDB() {
     const req = indexedDB.open('health-checkin-media', 1);
     req.onupgradeneeded = e => { e.target.result.createObjectStore('blobs'); };
     req.onsuccess = e => { mediaDB = e.target.result; resolve(); };
-    req.onerror = e => reject(e);
+    req.onerror = () => reject(new Error('Could not open media storage'));
   });
 }
 
 function saveMediaBlob(key, blob) {
   return new Promise((resolve, reject) => {
+    if (!mediaDB) { reject(new Error('Media storage not ready')); return; }
     const tx = mediaDB.transaction('blobs', 'readwrite');
     tx.objectStore('blobs').put(blob, key);
     tx.oncomplete = () => resolve();
-    tx.onerror = e => reject(e);
+    tx.onerror = () => reject(new Error('Could not save media'));
   });
 }
 
 function getMediaBlob(key) {
   return new Promise((resolve, reject) => {
+    if (!mediaDB) { reject(new Error('Media storage not ready')); return; }
     const tx = mediaDB.transaction('blobs', 'readonly');
     const req = tx.objectStore('blobs').get(key);
     req.onsuccess = () => resolve(req.result || null);
-    req.onerror = e => reject(e);
+    req.onerror = () => reject(new Error('Could not read media'));
   });
 }
 
 function deleteMediaBlob(key) {
   return new Promise((resolve, reject) => {
+    if (!mediaDB) { reject(new Error('Media storage not ready')); return; }
     const tx = mediaDB.transaction('blobs', 'readwrite');
     tx.objectStore('blobs').delete(key);
     tx.oncomplete = () => resolve();
-    tx.onerror = e => reject(e);
+    tx.onerror = () => reject(new Error('Could not delete media'));
   });
 }
 
 // Compress photo using canvas
 function compressPhoto(file) {
   return new Promise((resolve, reject) => {
-    const url = URL.createObjectURL(file);
-    const img = new Image();
-    img.onload = () => {
-      let w = img.width, h = img.height;
-      if (w > PHOTO_MAX_PX || h > PHOTO_MAX_PX) {
-        const ratio = Math.min(PHOTO_MAX_PX / w, PHOTO_MAX_PX / h);
-        w = Math.round(w * ratio);
-        h = Math.round(h * ratio);
-      }
-      const canvas = document.createElement('canvas');
-      canvas.width = w; canvas.height = h;
-      canvas.getContext('2d').drawImage(img, 0, 0, w, h);
-      URL.revokeObjectURL(url);
-      canvas.toBlob(blob => {
-        if (blob) resolve(blob);
-        else reject(new Error('Canvas toBlob returned null'));
-      }, 'image/jpeg', PHOTO_QUALITY);
+    // Use FileReader instead of blob URL to avoid iOS CORS issues
+    const reader = new FileReader();
+    reader.onload = () => {
+      const img = new Image();
+      img.onload = () => {
+        let w = img.width, h = img.height;
+        // iOS Safari canvas limit ~4096x4096 - be conservative
+        const maxPx = Math.min(PHOTO_MAX_PX, 2048);
+        if (w > maxPx || h > maxPx) {
+          const ratio = Math.min(maxPx / w, maxPx / h);
+          w = Math.round(w * ratio);
+          h = Math.round(h * ratio);
+        }
+        try {
+          const canvas = document.createElement('canvas');
+          canvas.width = w; canvas.height = h;
+          const ctx = canvas.getContext('2d');
+          if (!ctx) { reject(new Error('Canvas context failed')); return; }
+          ctx.drawImage(img, 0, 0, w, h);
+          canvas.toBlob(blob => {
+            if (blob) resolve(blob);
+            else reject(new Error('Photo compression failed'));
+          }, 'image/jpeg', PHOTO_QUALITY);
+        } catch(e) {
+          reject(new Error('Canvas error: ' + e.message));
+        }
+      };
+      img.onerror = () => reject(new Error('Could not load image'));
+      img.src = reader.result; // data URL from FileReader
     };
-    img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('Image load failed')); };
-    img.crossOrigin = 'anonymous';
-    img.src = url;
+    reader.onerror = () => reject(new Error('Could not read file'));
+    reader.readAsDataURL(file);
   });
 }
 
@@ -1083,39 +1097,54 @@ function compressPhoto(file) {
 function generateThumbnail(source, type) {
   return new Promise((resolve, reject) => {
     if (type === 'photo') {
-      const url = URL.createObjectURL(source);
-      const img = new Image();
-      img.onload = () => {
-        let w = img.width, h = img.height;
-        const ratio = Math.min(THUMB_MAX_PX / w, THUMB_MAX_PX / h);
-        w = Math.round(w * ratio); h = Math.round(h * ratio);
-        const c = document.createElement('canvas');
-        c.width = w; c.height = h;
-        c.getContext('2d').drawImage(img, 0, 0, w, h);
-        URL.revokeObjectURL(url);
-        resolve(c.toDataURL('image/jpeg', THUMB_QUALITY));
+      // source is a Blob from compressPhoto - use FileReader for iOS compat
+      const reader = new FileReader();
+      reader.onload = () => {
+        const img = new Image();
+        img.onload = () => {
+          try {
+            let w = img.width, h = img.height;
+            const ratio = Math.min(THUMB_MAX_PX / w, THUMB_MAX_PX / h);
+            w = Math.round(w * ratio); h = Math.round(h * ratio);
+            const c = document.createElement('canvas');
+            c.width = w; c.height = h;
+            c.getContext('2d').drawImage(img, 0, 0, w, h);
+            resolve(c.toDataURL('image/jpeg', THUMB_QUALITY));
+          } catch(e) {
+            reject(new Error('Thumbnail canvas error: ' + e.message));
+          }
+        };
+        img.onerror = () => reject(new Error('Thumbnail image load failed'));
+        img.src = reader.result;
       };
-      img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('Thumb image load failed')); };
-      img.crossOrigin = 'anonymous';
-      img.src = url;
+      reader.onerror = () => reject(new Error('Thumbnail read failed'));
+      reader.readAsDataURL(source);
     } else {
+      // Video thumbnail - blob URL is OK here since we're not setting crossOrigin
+      const url = URL.createObjectURL(source);
       const vid = document.createElement('video');
       vid.muted = true; vid.playsInline = true;
       vid.onloadeddata = () => {
         vid.currentTime = Math.min(1, vid.duration / 2);
       };
       vid.onseeked = () => {
-        let w = vid.videoWidth, h = vid.videoHeight;
-        const ratio = Math.min(THUMB_MAX_PX / w, THUMB_MAX_PX / h);
-        w = Math.round(w * ratio); h = Math.round(h * ratio);
-        const c = document.createElement('canvas');
-        c.width = w; c.height = h;
-        c.getContext('2d').drawImage(vid, 0, 0, w, h);
-        URL.revokeObjectURL(vid.src);
-        resolve(c.toDataURL('image/jpeg', THUMB_QUALITY));
+        try {
+          let w = vid.videoWidth, h = vid.videoHeight;
+          if (!w || !h) { w = 200; h = 200; }
+          const ratio = Math.min(THUMB_MAX_PX / w, THUMB_MAX_PX / h);
+          w = Math.round(w * ratio); h = Math.round(h * ratio);
+          const c = document.createElement('canvas');
+          c.width = w; c.height = h;
+          c.getContext('2d').drawImage(vid, 0, 0, w, h);
+          URL.revokeObjectURL(url);
+          resolve(c.toDataURL('image/jpeg', THUMB_QUALITY));
+        } catch(e) {
+          URL.revokeObjectURL(url);
+          reject(new Error('Video thumbnail error: ' + e.message));
+        }
       };
-      vid.onerror = reject;
-      vid.src = URL.createObjectURL(source);
+      vid.onerror = () => { URL.revokeObjectURL(url); reject(new Error('Video load failed')); };
+      vid.src = url;
     }
   });
 }
@@ -1191,7 +1220,8 @@ async function handleMediaSelect(input, section) {
       data.media.push(entry);
     } catch (e) {
       console.error('Media processing error:', e);
-      showToast('Media error: ' + (e.message || e), false, 'warn');
+      const msg = e instanceof Error ? e.message : (typeof e === 'string' ? e : 'Unknown error - check console');
+      showToast('Media error: ' + msg, false, 'warn');
     }
   }
 

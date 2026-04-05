@@ -39,7 +39,10 @@ h1{font-family:var(--serif);color:var(--text);font-size:22px;font-weight:600;let
 .cron-status .ok{color:var(--green)}
 .cron-status .fail{color:var(--red)}
 
-.job-card{background:var(--card);border-radius:16px;padding:18px 20px;margin-bottom:10px;border:1px solid var(--border);box-shadow:var(--shadow)}
+.job-card{background:var(--card);border-radius:16px;padding:18px 20px;margin-bottom:10px;border:1px solid var(--border);box-shadow:var(--shadow);transition:border-color .3s}
+.job-card.running{border-color:var(--gold)}
+.job-card.just-done{border-color:var(--green)}
+.job-card.just-failed{border-color:var(--red)}
 .job-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:8px}
 .job-name{font-family:var(--serif);font-size:16px;font-weight:600;letter-spacing:-.2px}
 .job-dot{width:10px;height:10px;border-radius:50%;display:inline-block}
@@ -47,23 +50,32 @@ h1{font-family:var(--serif);color:var(--text);font-size:22px;font-weight:600;let
 .job-dot.error{background:var(--red);box-shadow:0 0 6px rgba(196,112,112,.4)}
 .job-dot.stale{background:var(--orange);box-shadow:0 0 6px rgba(196,149,106,.4)}
 .job-dot.idle,.job-dot.unknown{background:var(--text2)}
+.job-dot.running{background:var(--gold);animation:pulse 1s infinite}
+@keyframes pulse{0%,100%{opacity:1;box-shadow:0 0 6px rgba(196,149,106,.4)}50%{opacity:.5;box-shadow:0 0 12px rgba(196,149,106,.6)}}
+@keyframes spin{to{transform:rotate(360deg)}}
 .job-info{font-size:12px;color:var(--text2);margin-bottom:10px;font-weight:500}
 .job-status{font-size:11px;color:var(--text2);background:var(--card2);padding:8px 12px;border-radius:10px;font-family:'SF Mono',Menlo,monospace;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;border:1px solid var(--border)}
-.job-actions{display:flex;gap:8px;margin-top:10px}
-.btn{padding:7px 14px;border-radius:10px;border:none;font-size:12px;font-weight:600;cursor:pointer;font-family:var(--sans);transition:opacity .15s;letter-spacing:.2px}
+.job-actions{display:flex;gap:8px;margin-top:10px;align-items:center}
+.btn{padding:7px 14px;border-radius:10px;border:none;font-size:12px;font-weight:600;cursor:pointer;font-family:var(--sans);transition:all .15s;letter-spacing:.2px}
 .btn:active{opacity:.7}
 .btn-run{background:var(--gold);color:#1A1714}
+.btn-run.running{background:var(--card2);color:var(--gold);border:1px solid var(--gold);cursor:default}
 .btn-log{background:var(--card2);color:var(--text2);border:1px solid var(--border)}
 .btn-gold{background:var(--gold);color:#1A1714;padding:10px 24px;font-size:14px;border-radius:12px;font-weight:700}
+.btn-gold.running{background:var(--card2);color:var(--gold);border:1px solid var(--gold);cursor:default}
 .btn-refresh{background:var(--card2);color:var(--text);padding:10px 24px;font-size:14px;border-radius:12px;border:1px solid var(--border)}
 
-.actions-bar{display:flex;gap:10px;margin:20px 0}
-.log-panel{background:var(--card2);border-radius:14px;padding:14px 16px;margin-top:14px;font-family:'SF Mono',Menlo,monospace;font-size:11px;color:var(--text);max-height:280px;overflow-y:auto;line-height:1.6;display:none;border:1px solid var(--border)}
-.log-panel.visible{display:block}
-.log-panel .header{color:var(--gold2);font-weight:bold}
-.log-panel .error{color:var(--red)}
-.log-line{white-space:pre-wrap;word-break:break-all}
+/* Inline job output - shows right inside the card */
+.job-output{margin-top:10px;background:var(--card2);border-radius:10px;padding:10px 12px;font-family:'SF Mono',Menlo,monospace;font-size:11px;line-height:1.6;max-height:200px;overflow-y:auto;border:1px solid var(--border);display:none}
+.job-output.visible{display:block}
+.job-output .out-header{color:var(--gold2);font-weight:bold;margin-bottom:4px}
+.job-output .out-line{white-space:pre-wrap;word-break:break-all}
+.job-output .out-error{color:var(--red)}
+.job-output .out-ok{color:var(--green)}
+.job-output .out-running{color:var(--gold)}
+.job-output .spinner{display:inline-block;animation:spin 1s linear infinite;margin-right:4px}
 
+.actions-bar{display:flex;gap:10px;margin:20px 0}
 .footer{text-align:center;color:var(--text2);font-size:11px;margin-top:24px;padding-bottom:20px}
 .auto-refresh{color:var(--gold);font-size:11px}
 #loading{color:var(--text2);text-align:center;padding:48px;font-size:14px}
@@ -82,8 +94,9 @@ h1{font-family:var(--serif);color:var(--text);font-size:22px;font-weight:600;let
 
 <script>
 const STATUS_URL = './data/system-status.json';
-let logPanelVisible = false;
-let logContent = '';
+
+// Track active jobs and their output per card
+const activeJobs = {}; // jobId -> {status, output, startTime}
 
 async function loadStatus() {
   try {
@@ -107,6 +120,12 @@ function timeAgo(ts) {
   } catch { return ts; }
 }
 
+function elapsed(startTime) {
+  const secs = Math.floor((Date.now() - startTime) / 1000);
+  if (secs < 60) return secs + 's';
+  return Math.floor(secs/60) + 'm ' + (secs%60) + 's';
+}
+
 function render(status) {
   if (!status) {
     document.getElementById('content').innerHTML = `
@@ -126,30 +145,46 @@ function render(status) {
     <div class="cron-status">Cron daemon: <span class="${status.cron_active ? 'ok' : 'fail'}">${status.cron_active ? '✓ Active' : '✗ NOT RUNNING'}</span></div>
   `;
 
+  const anyRunning = Object.values(activeJobs).some(j => j.status === 'running');
+
   for (const job of (status.jobs || [])) {
-    const dotClass = job.status || 'unknown';
-    const statusLabels = {ok:'Running OK', error:'Error', stale:'Stale', idle:'Idle', unknown:'Unknown'};
+    const active = activeJobs[job.id];
+    const isRunning = active && active.status === 'running';
+    const justDone = active && active.status === 'ok' && (Date.now() - (active.doneAt||0)) < 10000;
+    const justFailed = active && active.status === 'error' && (Date.now() - (active.doneAt||0)) < 10000;
+    const dotClass = isRunning ? 'running' : (job.status || 'unknown');
+    const cardClass = isRunning ? 'running' : justDone ? 'just-done' : justFailed ? 'just-failed' : '';
+    const statusLabels = {ok:'Running OK', error:'Error', stale:'Stale', idle:'Idle', unknown:'Unknown', running:'Running...'};
+
     html += `
-      <div class="job-card">
+      <div class="job-card ${cardClass}" id="card-${job.id}">
         <div class="job-header">
           <span class="job-name">${job.name}</span>
           <span class="job-dot ${dotClass}" title="${statusLabels[dotClass] || dotClass}"></span>
         </div>
-        <div class="job-info">${job.schedule} | Last: ${timeAgo(job.last_run)}</div>
+        <div class="job-info">${job.schedule} | Last: ${timeAgo(job.last_run)}${isRunning ? ' | <span style="color:var(--gold)">Running ' + elapsed(active.startTime) + '</span>' : ''}</div>
         <div class="job-status">${job.status_text || '--'}</div>
         <div class="job-actions">
-          ${job.recent_log && job.recent_log.length ? `<button class="btn btn-log" onclick="showLog('${job.id}')">View Log</button>` : ''}
-          <button class="btn btn-run" onclick="runJob('${job.id}')">Run Now</button>
+          <button class="btn btn-run ${isRunning ? 'running' : ''}" onclick="${isRunning ? '' : "runJob('"+job.id+"')"}" ${isRunning ? 'disabled' : ''}>
+            ${isRunning ? '⟳ Running...' : 'Run Now'}
+          </button>
+          <button class="btn btn-log" onclick="toggleLog('${job.id}')">
+            ${active && active.output ? (isOutputVisible(job.id) ? 'Hide Log' : 'View Log') : (job.recent_log && job.recent_log.length ? 'View Log' : '')}
+          </button>
+        </div>
+        <div class="job-output ${isOutputVisible(job.id) ? 'visible' : ''}" id="output-${job.id}">
+          ${renderJobOutput(job)}
         </div>
       </div>`;
   }
 
   html += `
     <div class="actions-bar">
-      <button class="btn btn-gold" onclick="runAll()">Run All Jobs</button>
+      <button class="btn btn-gold ${anyRunning ? 'running' : ''}" onclick="${anyRunning ? '' : 'runAll()'}" ${anyRunning ? 'disabled' : ''}>
+        ${anyRunning ? '⟳ Running...' : 'Run All Jobs'}
+      </button>
       <button class="btn btn-refresh" onclick="refresh()">Refresh</button>
     </div>
-    <div class="log-panel ${logPanelVisible ? 'visible' : ''}" id="log-panel">${logContent}</div>
   `;
 
   document.getElementById('content').innerHTML = html;
@@ -157,33 +192,224 @@ function render(status) {
   window._statusJobs = status.jobs || [];
 }
 
-function showLog(jobId) {
-  const job = (window._statusJobs || []).find(j => j.id === jobId);
-  if (!job || !job.recent_log) return;
-  logContent = `<div class="header">=== ${job.name} ===</div>` +
-    job.recent_log.map(l => {
-      const cls = /error|fail|exception/i.test(l) ? 'error' : '';
-      return `<div class="log-line ${cls}">${l}</div>`;
-    }).join('');
-  logPanelVisible = true;
-  const panel = document.getElementById('log-panel');
-  if (panel) { panel.innerHTML = logContent; panel.classList.add('visible'); }
+// Track which output panels are open
+const openOutputs = new Set();
+
+function isOutputVisible(jobId) {
+  return openOutputs.has(jobId);
 }
 
-function runJob(jobId) {
-  logContent = '<div class="header">Running job...</div><div class="log-line">Dispatched. Check back in ~30s for results.</div>';
-  logPanelVisible = true;
-  const panel = document.getElementById('log-panel');
-  if (panel) { panel.innerHTML = logContent; panel.classList.add('visible'); }
-  setTimeout(refresh, 5000);
+function toggleLog(jobId) {
+  if (openOutputs.has(jobId)) {
+    openOutputs.delete(jobId);
+  } else {
+    openOutputs.add(jobId);
+  }
+  // Re-render just the output panel
+  const panel = document.getElementById('output-' + jobId);
+  if (panel) {
+    panel.classList.toggle('visible', openOutputs.has(jobId));
+    // If opening and no active output, show the static log
+    if (openOutputs.has(jobId) && !activeJobs[jobId]) {
+      const job = (window._statusJobs || []).find(j => j.id === jobId);
+      if (job) panel.innerHTML = renderJobOutput(job);
+    }
+  }
+  // Update button text
+  updateLogButton(jobId);
 }
 
-function runAll() {
-  logContent = '<div class="header">Running all jobs...</div><div class="log-line">Dispatched. Refresh in ~60s.</div>';
-  logPanelVisible = true;
-  const panel = document.getElementById('log-panel');
-  if (panel) { panel.innerHTML = logContent; panel.classList.add('visible'); }
-  setTimeout(refresh, 5000);
+function updateLogButton(jobId) {
+  const card = document.getElementById('card-' + jobId);
+  if (!card) return;
+  const btns = card.querySelectorAll('.btn-log');
+  if (btns.length) {
+    btns[0].textContent = openOutputs.has(jobId) ? 'Hide Log' : 'View Log';
+  }
+}
+
+function renderJobOutput(job) {
+  const active = activeJobs[job.id];
+
+  // If there's active/recent run output, show that
+  if (active && active.output) {
+    const statusClass = active.status === 'error' ? 'out-error' : active.status === 'ok' ? 'out-ok' : 'out-running';
+    const statusIcon = active.status === 'running' ? '<span class="spinner">⟳</span>' : active.status === 'ok' ? '✓' : '✗';
+    const statusText = active.status === 'running' ? 'Running... ' + elapsed(active.startTime) : active.status === 'ok' ? 'Completed' : 'Failed';
+    let lines = active.output.split('\n').filter(l => l.trim()).slice(-20); // last 20 lines
+    return `
+      <div class="out-header">${statusIcon} ${statusText}</div>
+      ${lines.map(l => {
+        const cls = /error|fail|exception|traceback/i.test(l) ? 'out-error' : '';
+        return '<div class="out-line ' + cls + '">' + escHtml(l) + '</div>';
+      }).join('')}
+    `;
+  }
+
+  // Otherwise show static log from status file
+  if (job.recent_log && job.recent_log.length) {
+    return `
+      <div class="out-header">=== Last Run ===</div>
+      ${job.recent_log.map(l => {
+        const cls = /error|fail|exception/i.test(l) ? 'out-error' : '';
+        return '<div class="out-line ' + cls + '">' + escHtml(l) + '</div>';
+      }).join('')}
+    `;
+  }
+
+  return '<div class="out-line" style="color:var(--text2)">No log output available</div>';
+}
+
+function escHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+async function runJob(jobId) {
+  activeJobs[jobId] = {status: 'running', output: 'Starting...', startTime: Date.now()};
+  openOutputs.add(jobId);
+  renderInPlace();
+
+  try {
+    const r = await fetch('/run/' + jobId, {method: 'POST'});
+    const d = await r.json();
+    activeJobs[jobId].output = 'Dispatched. Waiting for output...';
+    renderInPlace();
+    pollJobStatus(jobId);
+  } catch(e) {
+    activeJobs[jobId] = {status: 'error', output: 'Failed to dispatch: ' + e.message, doneAt: Date.now()};
+    renderInPlace();
+  }
+}
+
+async function runAll() {
+  // Mark all jobs as running
+  const jobs = window._statusJobs || [];
+  for (const job of jobs) {
+    activeJobs[job.id] = {status: 'running', output: 'Queued...', startTime: Date.now()};
+    openOutputs.add(job.id);
+  }
+  renderInPlace();
+
+  try {
+    const r = await fetch('/run/all', {method: 'POST'});
+    const d = await r.json();
+    for (const job of jobs) {
+      activeJobs[job.id].output = 'Dispatched. Waiting...';
+    }
+    renderInPlace();
+    pollJobStatus('all');
+  } catch(e) {
+    for (const job of jobs) {
+      activeJobs[job.id] = {status: 'error', output: 'Failed: ' + e.message, doneAt: Date.now()};
+    }
+    renderInPlace();
+  }
+}
+
+function pollJobStatus(jobId) {
+  let polls = 0;
+  const maxPolls = 120; // 6 minutes
+  const interval = setInterval(async () => {
+    polls++;
+    try {
+      const r = await fetch('/job-status?t=' + Date.now());
+      const statuses = await r.json();
+
+      if (jobId === 'all') {
+        let allDone = true;
+        for (const [id, s] of Object.entries(statuses)) {
+          if (activeJobs[id]) {
+            activeJobs[id].status = s.status === 'running' ? 'running' : (s.status === 'ok' ? 'ok' : 'error');
+            if (s.output) activeJobs[id].output = s.output;
+            if (s.status !== 'running' && !activeJobs[id].doneAt) {
+              activeJobs[id].doneAt = Date.now();
+            }
+            if (s.status === 'running') allDone = false;
+          }
+        }
+        renderInPlace();
+        if (allDone || polls >= maxPolls) {
+          clearInterval(interval);
+          // Refresh status data after a beat
+          setTimeout(async () => { const st = await loadStatus(); if (st) render(st); }, 2000);
+        }
+      } else {
+        const s = statuses[jobId];
+        if (s) {
+          activeJobs[jobId].status = s.status === 'running' ? 'running' : (s.status === 'ok' ? 'ok' : 'error');
+          if (s.output) activeJobs[jobId].output = s.output;
+          renderInPlace();
+          if (s.status !== 'running') {
+            activeJobs[jobId].doneAt = Date.now();
+            clearInterval(interval);
+            setTimeout(async () => { const st = await loadStatus(); if (st) render(st); }, 2000);
+          }
+        }
+      }
+    } catch(e) {}
+    if (polls >= maxPolls) clearInterval(interval);
+  }, 2000);
+}
+
+// Re-render without losing state - just update the dynamic parts
+function renderInPlace() {
+  const jobs = window._statusJobs || [];
+  for (const job of jobs) {
+    const card = document.getElementById('card-' + job.id);
+    if (!card) { refresh(); return; } // cards not rendered yet, do full render
+
+    const active = activeJobs[job.id];
+    const isRunning = active && active.status === 'running';
+    const justDone = active && active.status === 'ok' && (Date.now() - (active.doneAt||0)) < 10000;
+    const justFailed = active && active.status === 'error' && (Date.now() - (active.doneAt||0)) < 10000;
+
+    // Update card border
+    card.className = 'job-card' + (isRunning ? ' running' : justDone ? ' just-done' : justFailed ? ' just-failed' : '');
+
+    // Update dot
+    const dot = card.querySelector('.job-dot');
+    if (dot) {
+      dot.className = 'job-dot ' + (isRunning ? 'running' : (job.status || 'unknown'));
+    }
+
+    // Update info line
+    const info = card.querySelector('.job-info');
+    if (info) {
+      info.innerHTML = job.schedule + ' | Last: ' + timeAgo(job.last_run) +
+        (isRunning ? ' | <span style="color:var(--gold)">Running ' + elapsed(active.startTime) + '</span>' : '');
+    }
+
+    // Update run button
+    const runBtn = card.querySelector('.btn-run');
+    if (runBtn) {
+      runBtn.className = 'btn btn-run' + (isRunning ? ' running' : '');
+      runBtn.disabled = isRunning;
+      runBtn.textContent = isRunning ? '⟳ Running...' : 'Run Now';
+      runBtn.onclick = isRunning ? null : () => runJob(job.id);
+    }
+
+    // Update output panel
+    const output = document.getElementById('output-' + job.id);
+    if (output && openOutputs.has(job.id)) {
+      output.classList.add('visible');
+      output.innerHTML = renderJobOutput(job);
+      // Auto-scroll to bottom
+      output.scrollTop = output.scrollHeight;
+    }
+
+    // Update log button text
+    updateLogButton(job.id);
+  }
+
+  // Update Run All button
+  const anyRunning = Object.values(activeJobs).some(j => j.status === 'running');
+  const allBtn = document.querySelector('.btn-gold');
+  if (allBtn) {
+    allBtn.className = 'btn btn-gold' + (anyRunning ? ' running' : '');
+    allBtn.disabled = anyRunning;
+    allBtn.textContent = anyRunning ? '⟳ Running...' : 'Run All Jobs';
+    allBtn.onclick = anyRunning ? null : runAll;
+  }
 }
 
 async function refresh() {
