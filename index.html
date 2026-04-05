@@ -1716,6 +1716,58 @@ async function syncMediaToGitHub(data, s) {
   }
 }
 
+// Pull checkins from GitHub to restore on new devices
+async function pullFromGitHub() {
+  const s = getSettings();
+  if (!s.token || !s.repo) return;
+  const basePath = s.path || 'data/checkins';
+
+  // Check if we already have local data (don't overwrite)
+  const todayKey = 'checkin-' + fmt(new Date());
+  if (localStorage.getItem(todayKey)) return;
+
+  try {
+    // List files in the checkins directory
+    const r = await fetch(`https://api.github.com/repos/${s.repo}/contents/${basePath}`, {
+      headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'}
+    });
+    if (!r.ok) return;
+    const files = await r.json();
+    if (!Array.isArray(files)) return;
+
+    // Get the last 14 days of files
+    const recent = files
+      .filter(f => f.name.endsWith('.json'))
+      .sort((a, b) => b.name.localeCompare(a.name))
+      .slice(0, 14);
+
+    let restored = 0;
+    for (const file of recent) {
+      const dateStr = file.name.replace('.json', '');
+      const localKey = 'checkin-' + dateStr;
+      if (localStorage.getItem(localKey)) continue; // don't overwrite existing
+
+      const fr = await fetch(file.download_url);
+      if (!fr.ok) continue;
+      const data = await fr.json();
+      localStorage.setItem(localKey, JSON.stringify(data));
+      restored++;
+    }
+
+    if (restored > 0) {
+      console.log(`Restored ${restored} checkins from GitHub`);
+      loadFields();
+      updateStreak();
+      loadDashboard();
+    }
+  } catch (e) {
+    console.error('Pull from GitHub error:', e);
+  }
+}
+
+// Auto-pull on load
+setTimeout(pullFromGitHub, 1500);
+
 async function testSync() {
   saveSettings();
   const token = document.getElementById('ghToken').value.trim();
