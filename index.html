@@ -530,6 +530,11 @@ input[type=number]{width:70px;text-align:center}
       </div>
 
       <div class="card">
+        <h2>What I did today</h2>
+        <textarea data-field="done_today" placeholder="What did you get done today..." style="min-height:80px" oninput="autoSave()"></textarea>
+      </div>
+
+      <div class="card">
         <h2>Amazing things today</h2>
         <textarea data-field="amazing_raw" placeholder="Just say what was great..." style="min-height:80px" oninput="autoSave()"></textarea>
         <div class="parsed-items" id="amazing-parsed"></div>
@@ -1279,7 +1284,7 @@ async function confirmDelete() {
     // Remove evening fields
     const eveningFields = ['energy_afternoon','energy_evening','mood_evening','pain_evening',
       'bloating_score','acidity_score','last_meal_time','amazing_raw','could_be_better',
-      'screen_off_time','evening_notes','evening_supplements'];
+      'screen_off_time','evening_notes','evening_supplements','done_today'];
     eveningFields.forEach(f => delete data[f]);
     delete data.evening_saved;
     delete data.evening_saved_at;
@@ -1682,6 +1687,12 @@ async function loadDashboard() {
         if (localData.mood_evening) eveningFields.push(`Mood: ${localData.mood_evening}/10`);
         if (localData.bloating_score) eveningFields.push(`Bloating: ${localData.bloating_score}/10`);
         if (eveningFields.length) html += `<div class="dash-journal-metrics">${eveningFields.join(' | ')}</div>`;
+        if (localData.done_today) {
+          html += `<div class="dash-journal-notes"><span class="grat-label">What I did:</span> ${localData.done_today}</div>`;
+        }
+        if (localData.amazing_raw) {
+          html += `<div class="dash-journal-notes"><span class="grat-label">Amazing things:</span> ${localData.amazing_raw}</div>`;
+        }
         if (localData.evening_supplements && localData.evening_supplements.length > 0) {
           html += `<div class="dash-journal-supps">&#128138; ${localData.evening_supplements.join(', ')}</div>`;
         }
