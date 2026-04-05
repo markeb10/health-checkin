@@ -1945,7 +1945,7 @@ async function loadDashboard() {
     if (hasLocalJournal) {
       // Show PWA check-in data from localStorage
       if (localData.morning_saved) {
-        html += '<div class="dash-journal-section"><h3>&#127773; Morning Check-in</h3>';
+        html += '<div class="dash-journal-section"><h3>&#127773; Morning</h3>';
         const morningFields = [];
         if (localData.sleep_quality_subjective) morningFields.push(`Sleep: ${localData.sleep_quality_subjective}/10`);
         if (localData.energy_morning) morningFields.push(`Energy: ${localData.energy_morning}/10`);
@@ -1969,14 +1969,10 @@ async function loadDashboard() {
           html += `<div class="dash-journal-notes"><span class="grat-label">Today I will:</span> ${localData.make_today_great}</div>`;
         }
         if (localData.affirmation) html += `<div class="dash-journal-aff">"${localData.affirmation}"</div>`;
-        if (localData.morning_supplements && localData.morning_supplements.length > 0) {
-          const suppNames = localData.morning_supplements.map(s => typeof s === 'string' ? s : s.name).join(', ');
-          html += `<div class="dash-journal-supps">&#128138; ${suppNames}</div>`;
-        }
         html += '</div>';
       }
       if (localData.evening_saved) {
-        html += '<div class="dash-journal-section"><h3>&#127769; Evening Check-in</h3>';
+        html += '<div class="dash-journal-section"><h3>&#127769; Evening</h3>';
         const eveningFields = [];
         if (localData.energy_afternoon) eveningFields.push(`Energy PM: ${localData.energy_afternoon}/10`);
         if (localData.energy_evening) eveningFields.push(`Energy Eve: ${localData.energy_evening}/10`);
@@ -1993,11 +1989,24 @@ async function loadDashboard() {
         if (localData.could_be_better) {
           html += `<div class="dash-journal-notes"><span class="grat-label">Could be better:</span> ${localData.could_be_better}</div>`;
         }
-        if (localData.evening_supplements && localData.evening_supplements.length > 0) {
-          const suppNames = localData.evening_supplements.map(s => typeof s === 'string' ? s : s.name).join(', ');
-          html += `<div class="dash-journal-supps">&#128138; ${suppNames}</div>`;
-        }
         if (localData.evening_notes) html += `<div class="dash-journal-notes">${localData.evening_notes}</div>`;
+        html += '</div>';
+      }
+      // Combined supplements section
+      const mSupps = (localData.morning_supplements || []).map(s => {
+        const name = typeof s === 'string' ? s : s.name;
+        const dose = s.dose ? ` ${s.dose} ${s.unit||''}`.trim() : '';
+        return name + dose;
+      });
+      const eSupps = (localData.evening_supplements || []).map(s => {
+        const name = typeof s === 'string' ? s : s.name;
+        const dose = s.dose ? ` ${s.dose} ${s.unit||''}`.trim() : '';
+        return name + dose;
+      });
+      if (mSupps.length || eSupps.length) {
+        html += '<div class="dash-journal-section"><h3>&#128138; Supplements</h3>';
+        if (mSupps.length) html += `<div class="dash-journal-notes"><span class="grat-label">Morning:</span> ${mSupps.join(', ')}</div>`;
+        if (eSupps.length) html += `<div class="dash-journal-notes"><span class="grat-label">Evening:</span> ${eSupps.join(', ')}</div>`;
         html += '</div>';
       }
     }
