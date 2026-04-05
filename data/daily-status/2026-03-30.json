@@ -1,6 +1,6 @@
 {
   "date": "2026-03-30",
-  "generated_at": "2026-04-05T18:51:34.105057",
+  "generated_at": "2026-04-05T18:53:14.833642",
   "whoop": {
     "imported": true,
     "recovery": 91.0,
@@ -50,7 +50,16 @@
     "mood": 8,
     "energy": null,
     "sleep_quality": null,
-    "supplements": 5
+    "supplements": 5,
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Magnesium Glycinate",
+      "Telfast",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 7
   },
   "zoe": {
     "imported": true,
