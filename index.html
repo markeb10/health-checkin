@@ -1183,13 +1183,7 @@ async function retryQueue() {
 
 // ==================== ZOE SYNC ====================
 async function triggerZoeSync() {
-  const s = getSettings();
   const st = document.getElementById('zoe-status');
-  if (!s.token || !s.repo) {
-    st.textContent = 'Set up GitHub token in settings first';
-    st.className = 'zoe-status fail';
-    return;
-  }
   st.textContent = 'Requesting Zoe sync...';
   st.className = 'zoe-status pending';
   const triggerData = {
@@ -1197,31 +1191,49 @@ async function triggerZoeSync() {
     date: fmt(currentDate),
     requested_at: new Date().toISOString()
   };
-  const path = `${s.path || 'data/checkins'}/zoe-trigger.json`;
-  const content = btoa(unescape(encodeURIComponent(JSON.stringify(triggerData, null, 2))));
+  // Write trigger to same-origin path (picked up by Mac watcher)
   try {
-    let sha = null;
-    try {
-      const existing = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
-        headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'}
-      });
-      if (existing.ok) { sha = (await existing.json()).sha; }
-    } catch {}
-    const body = {message: `zoe sync request ${fmt(currentDate)}`, content, committer: {name: 'Health Check-in', email: 'checkin@local'}};
-    if (sha) body.sha = sha;
-    const r = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
-      method: 'PUT',
-      headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json'},
-      body: JSON.stringify(body)
-    });
-    if (r.ok) {
-      st.textContent = 'Sync requested! Mac will process shortly.';
-      st.className = 'zoe-status done';
-    } else {
-      const txt = await r.text();
-      st.textContent = 'Failed: ' + r.status + ' ' + txt.slice(0,100);
-      st.className = 'zoe-status fail';
+    const r = await fetch('./data/zoe-trigger.json', { cache: 'no-cache' });
+    // Can't write to GitHub Pages from browser - write trigger to localStorage
+    // and signal via a lightweight ping
+    localStorage.setItem('zoe-sync-trigger', JSON.stringify(triggerData));
+    // Try GitHub API as fallback (may be blocked by Brave Shields)
+    const s = getSettings();
+    if (s.token && s.repo) {
+      const path = 'data/checkins/zoe-trigger.json';
+      const content = btoa(unescape(encodeURIComponent(JSON.stringify(triggerData, null, 2))));
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 5000);
+      try {
+        let sha = null;
+        try {
+          const existing = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
+            headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'},
+            signal: controller.signal
+          });
+          if (existing.ok) { sha = (await existing.json()).sha; }
+        } catch {}
+        const body = {message: `zoe sync request ${fmt(currentDate)}`, content, committer: {name: 'Health Check-in', email: 'checkin@local'}};
+        if (sha) body.sha = sha;
+        const resp = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
+          method: 'PUT',
+          headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json'},
+          body: JSON.stringify(body),
+          signal: controller.signal
+        });
+        clearTimeout(timeout);
+        if (resp.ok) {
+          st.textContent = 'Sync requested! Mac will process shortly.';
+          st.className = 'zoe-status done';
+          return;
+        }
+      } catch (e) {
+        clearTimeout(timeout);
+      }
     }
+    // If GitHub API failed/blocked, show manual instruction
+    st.innerHTML = 'Sync saved locally. Run on Mac:<br><code style="font-size:11px;color:var(--gold)">python3 ~/health_centre/ingest/scrape_zoe.py</code>';
+    st.className = 'zoe-status done';
   } catch (e) {
     st.textContent = 'Error: ' + e.message;
     st.className = 'zoe-status fail';
