@@ -113,6 +113,24 @@ input[type=number]{width:70px;text-align:center}
 .submit-btn.evening{background:linear-gradient(135deg,#6366f1,#4f46e5);color:#fff}
 .submit-btn:active{transform:scale(.97);opacity:.9}
 
+/* Delete entry button */
+.delete-entry-btn{width:100%;padding:12px;border:1px solid rgba(248,113,113,.25);border-radius:12px;
+  font-size:13px;font-weight:600;cursor:pointer;background:transparent;color:var(--red);
+  margin-top:8px;transition:all .15s;opacity:.6}
+.delete-entry-btn:hover,.delete-entry-btn:active{opacity:1;background:rgba(248,113,113,.1)}
+
+/* Confirm dialog */
+.confirm-overlay{position:fixed;inset:0;background:rgba(0,0,0,.7);z-index:200;display:none;
+  align-items:center;justify-content:center}
+.confirm-overlay.show{display:flex}
+.confirm-box{background:var(--card);border-radius:20px;padding:24px;width:calc(100% - 48px);max-width:340px;text-align:center}
+.confirm-box h3{color:var(--red);font-size:16px;margin-bottom:8px}
+.confirm-box p{color:var(--text2);font-size:13px;margin-bottom:20px}
+.confirm-btns{display:flex;gap:10px}
+.confirm-btns button{flex:1;padding:12px;border-radius:12px;font-size:14px;font-weight:700;cursor:pointer;border:none}
+.confirm-cancel{background:var(--card2);color:var(--text)}
+.confirm-delete{background:var(--red);color:#fff}
+
 /* Status */
 .status{text-align:center;padding:12px;font-size:13px;color:var(--green);opacity:0;transition:opacity .3s}
 .status.show{opacity:1}
@@ -448,6 +466,7 @@ input[type=number]{width:70px;text-align:center}
 
       <div class="validation-msg" id="morning-validation"></div>
       <button class="submit-btn morning" id="morning-save-btn" onclick="saveMorning()">Save Morning Check-in</button>
+      <button class="delete-entry-btn" onclick="deleteEntry('morning')">Delete Morning Entry</button>
       <div class="status" id="morning-status"></div>
     </div>
 
@@ -531,6 +550,7 @@ input[type=number]{width:70px;text-align:center}
 
       <div class="validation-msg" id="evening-validation"></div>
       <button class="submit-btn evening" id="evening-save-btn" onclick="saveEvening()">Save Evening Check-in</button>
+      <button class="delete-entry-btn" onclick="deleteEntry('evening')">Delete Evening Entry</button>
       <div class="status" id="evening-status"></div>
     </div>
   </div>
@@ -565,6 +585,18 @@ input[type=number]{width:70px;text-align:center}
     <h3 id="dayDetailTitle">Sunday, 5 April</h3>
     <div id="dayDetailContent"><div class="day-detail-loading">Loading...</div></div>
     <button class="cal-close" onclick="closeDayDetail()" style="margin-top:14px">Close</button>
+  </div>
+</div>
+
+<!-- Confirm delete dialog -->
+<div class="confirm-overlay" id="confirmOverlay" onclick="if(event.target===this)closeConfirm()">
+  <div class="confirm-box">
+    <h3 id="confirmTitle">Delete entry?</h3>
+    <p id="confirmMsg">This will remove the morning check-in for today. This cannot be undone.</p>
+    <div class="confirm-btns">
+      <button class="confirm-cancel" onclick="closeConfirm()">Cancel</button>
+      <button class="confirm-delete" id="confirmDeleteBtn">Delete</button>
+    </div>
   </div>
 </div>
 
@@ -1191,6 +1223,70 @@ function showToast(msg, isEvening, type) {
   if (type === 'warn') cls += ' warn-toast';
   t.className = cls;
   setTimeout(() => t.className = 'toast', 2500);
+}
+
+// ==================== DELETE ENTRY ====================
+let pendingDeleteSection = null;
+
+function deleteEntry(section) {
+  const data = getData();
+  const key = section + '_saved';
+  if (!data[key]) {
+    showToast('No ' + section + ' entry to delete', false, 'warn');
+    return;
+  }
+  pendingDeleteSection = section;
+  const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  const months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+  const dayName = days[currentDate.getDay()] + ', ' + currentDate.getDate() + ' ' + months[currentDate.getMonth()];
+  document.getElementById('confirmTitle').textContent = 'Delete ' + section + ' entry?';
+  document.getElementById('confirmMsg').textContent = 'Remove the ' + section + ' check-in for ' + dayName + '. This cannot be undone.';
+  document.getElementById('confirmDeleteBtn').onclick = confirmDelete;
+  document.getElementById('confirmOverlay').classList.add('show');
+}
+
+function closeConfirm() {
+  document.getElementById('confirmOverlay').classList.remove('show');
+  pendingDeleteSection = null;
+}
+
+async function confirmDelete() {
+  const section = pendingDeleteSection;
+  if (!section) return;
+  closeConfirm();
+
+  const data = getData();
+
+  if (section === 'morning') {
+    // Remove morning fields
+    const morningFields = ['sleep_quality_subjective','mood_score','energy_morning','pain_score',
+      'anxiety_score','sleep_notes','gratitude_raw','make_today_great','affirmation','morning_supplements'];
+    morningFields.forEach(f => delete data[f]);
+    delete data.morning_saved;
+    delete data.morning_saved_at;
+  } else {
+    // Remove evening fields
+    const eveningFields = ['energy_afternoon','energy_evening','mood_evening','pain_evening',
+      'bloating_score','acidity_score','last_meal_time','amazing_raw','could_be_better',
+      'screen_off_time','evening_notes','evening_supplements'];
+    eveningFields.forEach(f => delete data[f]);
+    delete data.evening_saved;
+    delete data.evening_saved_at;
+  }
+
+  // If both are gone, remove the entire entry
+  if (!data.morning_saved && !data.evening_saved) {
+    localStorage.removeItem(getKey());
+  } else {
+    setData(data);
+  }
+
+  // Sync deletion to GitHub
+  await syncToGitHub(data.morning_saved || data.evening_saved ? data : {date: fmt(currentDate), deleted: section});
+
+  loadFields();
+  updateStreak();
+  showToast('Deleted ' + section + ' entry', section === 'evening', 'check');
 }
 
 // ==================== STREAK ====================

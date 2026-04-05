@@ -1,4 +1,4 @@
-const CACHE_NAME = 'health-checkin-v2';
+const CACHE_NAME = 'health-checkin-v3';
 const ASSETS = ['./index.html'];
 
 self.addEventListener('install', e => {
@@ -14,16 +14,14 @@ self.addEventListener('activate', e => {
 });
 
 self.addEventListener('fetch', e => {
+  // Network-first strategy: try network, fall back to cache
   e.respondWith(
-    caches.match(e.request).then(r => {
-      const fetchPromise = fetch(e.request).then(res => {
-        if (res.ok) {
-          const clone = res.clone();
-          caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
-        }
-        return res;
-      }).catch(() => r);
-      return r || fetchPromise;
-    })
+    fetch(e.request).then(res => {
+      if (res.ok) {
+        const clone = res.clone();
+        caches.open(CACHE_NAME).then(c => c.put(e.request, clone));
+      }
+      return res;
+    }).catch(() => caches.match(e.request))
   );
 });
