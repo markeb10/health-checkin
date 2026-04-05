@@ -1,0 +1,79 @@
+{
+  "date": "2026-03-26",
+  "generated_at": "2026-04-05T18:53:33.162156",
+  "whoop": {
+    "imported": true,
+    "recovery": 56.0,
+    "hrv": 34.5,
+    "rhr": 48.0,
+    "sleep_perf": 74.0,
+    "strain": 10.0,
+    "sleep_hrs": 5.5,
+    "spo2": 95.8,
+    "skin_temp": 34.0,
+    "sleep_efficiency": 96.5,
+    "sleep_consistency": 91.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 2.3,
+    "deep_sleep_hrs": 1.7,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 5,
+    "disturbances": 1,
+    "sleep_needed_hrs": 9.7,
+    "sleep_debt_hrs": 2.1,
+    "calories": 1871,
+    "avg_hr": 63,
+    "max_hr": 168,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 362,
+        "avg_hr": 116,
+        "max_hr": 168
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11376,
+    "resting_hr": 50.5,
+    "hrv": 65.73,
+    "sleep_hrs": 5.5,
+    "spo2": 97.45,
+    "respiratory_rate": 13.54,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 4,
+    "journal": "I'm feeling tired most of the day. Five hours just are not cutting it and it's been several days with the bad stuff. I'll definitely try to get more sleep today. Been sleeping the whole day. It took quite a bit to see so let's see how this will affect. I'll take the telfast as well.\nFeeling burn in the morning and the afternoon. \n\nTo group route in the morning - half of it. and took it before the bed half of it",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut",
+      "Telfast",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 4,
+    "meal_names": [
+      "Basil",
+      "Breaded Patties with Mashed Potatoes and Side Salad",
+      "Creamy Vegetable Soup with Balsamic Glaze and Parsley",
+      "Fried Eggs with Bread and Cheese"
+    ],
+    "avg_score": 75.7,
+    "calories": 1266.0,
+    "protein_g": 112.9,
+    "fat_g": 68.6,
+    "carbs_g": 52.1,
+    "fibre_g": 8.1
+  }
+}
