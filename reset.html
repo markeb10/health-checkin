@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reset Cache</title>
+<style>
+body{background:#0f0f1a;color:#e0e0e0;font-family:-apple-system,system-ui,sans-serif;
+  display:flex;align-items:center;justify-content:center;min-height:100vh;margin:0;text-align:center}
+.box{padding:30px}
+h1{color:#d4a853;font-size:20px}
+p{color:#888;font-size:14px;margin:10px 0}
+.status{color:#4ade80;font-size:16px;font-weight:700;margin-top:20px}
+</style>
+</head>
+<body>
+<div class="box">
+<h1>Clearing cache...</h1>
+<p>Removing old service worker and cached files</p>
+<div class="status" id="status"></div>
+</div>
+<script>
+async function reset() {
+  const el = document.getElementById('status');
+  let steps = [];
+
+  // Unregister all service workers
+  if ('serviceWorker' in navigator) {
+    const regs = await navigator.serviceWorker.getRegistrations();
+    for (const reg of regs) {
+      await reg.unregister();
+      steps.push('Service worker removed');
+    }
+  }
+
+  // Clear all caches
+  if ('caches' in window) {
+    const keys = await caches.keys();
+    for (const key of keys) {
+      await caches.delete(key);
+      steps.push('Cache "' + key + '" deleted');
+    }
+  }
+
+  if (steps.length === 0) steps.push('Nothing to clear');
+
+  el.innerHTML = steps.join('<br>') + '<br><br>Redirecting to app...';
+
+  // Redirect to main app after 2 seconds
+  setTimeout(() => {
+    window.location.href = './index.html?' + Date.now();
+  }, 2000);
+}
+reset();
+</script>
+</body>
+</html>
