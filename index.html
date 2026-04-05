@@ -477,24 +477,28 @@ function getCustomSupps() {
 
 function addCustomSupp(section) {
   const input = document.getElementById(`add-${section}-supp`);
-  const name = input.value.trim();
-  if (!name) return;
+  const raw = input.value.trim();
+  if (!raw) return;
+  // Support comma-separated batch entry
+  const names = raw.split(',').map(s => s.trim()).filter(s => s.length > 0);
   const customs = getCustomSupps();
-  const id = 'custom_' + name.toLowerCase().replace(/\s+/g, '_');
-  if (!customs.find(c => c.id === id)) {
-    customs.push({id, name, section});
-    localStorage.setItem('custom-supps', JSON.stringify(customs));
-  }
-  input.value = '';
-  // Add to grid and auto-check it
   const grid = document.getElementById(`${section}-supps`);
-  const div = document.createElement('div');
-  div.className = 'supp-item checked';
-  div.dataset.id = id;
-  div.dataset.name = name;
-  div.onclick = function(){ toggleSupp(this); };
-  div.innerHTML = `<div class="supp-check">&#10003;</div><span class="supp-name">${name}</span>`;
-  grid.appendChild(div);
+  for (const name of names) {
+    const id = 'custom_' + name.toLowerCase().replace(/\s+/g, '_');
+    if (!customs.find(c => c.id === id)) {
+      customs.push({id, name, section});
+    }
+    // Add to grid and auto-check
+    const div = document.createElement('div');
+    div.className = 'supp-item checked';
+    div.dataset.id = id;
+    div.dataset.name = name;
+    div.onclick = function(){ toggleSupp(this); };
+    div.innerHTML = `<div class="supp-check">&#10003;</div><span class="supp-name">${name}</span>`;
+    grid.appendChild(div);
+  }
+  localStorage.setItem('custom-supps', JSON.stringify(customs));
+  input.value = '';
   autoSave();
 }
 
