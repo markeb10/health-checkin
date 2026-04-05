@@ -1,6 +1,6 @@
 {
   "date": "2026-03-31",
-  "generated_at": "2026-04-05T18:53:14.833559",
+  "generated_at": "2026-04-05T18:57:33.991080",
   "whoop": {
     "imported": true,
     "recovery": 72.0,
@@ -38,7 +38,19 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": null,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling good and relaxed. Slept 7 hours finally. Can handle stress well, maybe too calm, slightly lower dopamine. Brain pretty good.\nPhysical: HRV 38, lower resting HR. Played ping pong. Motion Lab exercises. More pain in pelvic/coccyx area. Also pelvic exercises.\nEmotional: Feeling good, calm. Finally 7 hours sleep. Bloating 5/10. Bowel 1x level 3. Glycine seems to be working. Waking with lower back pain around 5AM, goes away during day.\nGut: No tightness today. No acidity. Maybe a little sleep",
+    "supplements_list": [
+      "Vitamin C",
+      "Magnesium Glycinate",
+      "Glycine",
+      "Telfast"
+    ],
+    "bloating": 5
   },
   "zoe": {
     "imported": true,

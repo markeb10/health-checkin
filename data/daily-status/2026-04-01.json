@@ -1,6 +1,6 @@
 {
   "date": "2026-04-01",
-  "generated_at": "2026-04-05T18:53:14.833220",
+  "generated_at": "2026-04-05T18:57:33.990455",
   "whoop": {
     "imported": true,
     "recovery": 48.0,
@@ -44,7 +44,20 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": null,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Pain when laying on side. Hip hurts. Didn't have issues playing ping pong but felt pelvic floor.\nPhysical: HRV 34, lower. Pelvic pain and hip super elevated, worst in long time. Due to Motion Lab doing leg extension/flexion to exhaustion, sit ups, 30kg hip thrusts day before.\nEmotional: Relatively okay but sleepy during day. Ate cacao for energy. Blue light blocking glasses in evening. Bloating 7/10. Bowel 1x level 3. Breathing exercises before sleep.\nGut: Super bloated today, polenta. Bloating ",
+    "supplements_list": [
+      "Telfast",
+      "Vitamin C",
+      "Enterosgel",
+      "Glycine",
+      "Magnesium Glycinate 100mg"
+    ],
+    "bloating": 7
   },
   "zoe": {
     "imported": true,

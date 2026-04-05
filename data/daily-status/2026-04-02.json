@@ -1,6 +1,6 @@
 {
   "date": "2026-04-02",
-  "generated_at": "2026-04-05T18:53:14.832987",
+  "generated_at": "2026-04-05T18:57:33.989666",
   "whoop": {
     "imported": true,
     "recovery": 42.0,
@@ -44,7 +44,20 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": null,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling sleepy but not whole day. Took Amitriptyline for first time. Dermatology procedure, removed thing on head.\nPhysical: Pelvic floor bit better than yesterday. Massage at Motion Lab, worked on hip. Can move better in padel, Achilles pain less. Left hip moves with bigger ease.\nEmotional: Very bloated 6/10. Bowel 2x (level 3 OK, level 4 floating). Sleep not good, only until 5AM, 5 hours. Feeling sleepy, hoping to sleep better.\nGut: Bloating strong 6/10. Acidity seems fine for now.\nExercise: P",
+    "supplements_list": [
+      "Amitriptyline 2.5mg",
+      "Enterosgel",
+      "Vitamin C",
+      "Magnesium Glycinate",
+      "Glycine"
+    ],
+    "bloating": 6
   },
   "zoe": {
     "imported": true,

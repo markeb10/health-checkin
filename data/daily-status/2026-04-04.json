@@ -1,6 +1,6 @@
 {
   "date": "2026-04-04",
-  "generated_at": "2026-04-05T18:53:14.831803",
+  "generated_at": "2026-04-05T18:57:33.988168",
   "whoop": {
     "imported": true,
     "recovery": 89.0,
@@ -50,7 +50,20 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": null,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling a bit weird in the morning, felt not exactly myself. Worrying what amitriptyline is doing. Need to detox from devices in evening.\nPhysical: Paddle ping pong, burned 2200 calories. Pain elevated, at night already elevated. Bloating 5/10. Bowel movement 1x level 3.\nEmotional: Felt emotionally funny today. The pill is affecting me somehow, making head different. Slowly getting used to it. Brain feels foggy and slow. Sleep not good, only 6 hours.\nGut: Bloating 5/10. Stopped probiotic today t",
+    "supplements_list": [
+      "Amitriptyline 2.5mg",
+      "Telfast",
+      "Magnesium Glycinate",
+      "Glycine",
+      "Vitamin C"
+    ],
+    "bloating": 5
   },
   "zoe": {
     "imported": true,

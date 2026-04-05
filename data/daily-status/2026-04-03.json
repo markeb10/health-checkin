@@ -1,6 +1,6 @@
 {
   "date": "2026-04-03",
-  "generated_at": "2026-04-05T18:53:14.832504",
+  "generated_at": "2026-04-05T18:57:33.988957",
   "whoop": {
     "imported": true,
     "recovery": 52.0,
@@ -38,7 +38,16 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": null,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling groggy first half of day. In general okay, feels good to sleep more. Vocal cords okay but tight muscles around them.\nPhysical: Vocal cords okay but tight muscles around them, need logoped. Pelvic floor a little better. Petra treatment. Ping pong. Less pain in general.\nEmotional: Feeling bloated 5/10. Slept 8 hours. Feel sleepy in evening, Amitriptyline works. Stopped Enterosgel, maybe why acidity returned.\nGut: Bloating 5/10. Acidity higher, took Ruporut 1/2. Stopped Enterosgel, maybe th",
+    "supplements_list": [
+      "Flore Probiotic"
+    ],
+    "bloating": 5
   },
   "zoe": {
     "imported": true,
