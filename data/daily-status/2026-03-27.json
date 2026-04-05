@@ -1,0 +1,91 @@
+{
+  "date": "2026-03-27",
+  "generated_at": "2026-04-05T18:53:35.249284",
+  "whoop": {
+    "imported": true,
+    "recovery": 72.0,
+    "hrv": 36.9,
+    "rhr": 47.0,
+    "sleep_perf": 78.0,
+    "strain": 16.5,
+    "sleep_hrs": 6.0,
+    "spo2": 97.1,
+    "skin_temp": 33.5,
+    "sleep_efficiency": 88.3,
+    "sleep_consistency": 89.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 2.4,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.3,
+    "awake_hrs": 0.8,
+    "sleep_cycles": 6,
+    "disturbances": 5,
+    "sleep_needed_hrs": 9.8,
+    "sleep_debt_hrs": 2.1,
+    "calories": 2890,
+    "avg_hr": 71,
+    "max_hr": 173,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 407,
+        "avg_hr": 119,
+        "max_hr": 152
+      },
+      {
+        "sport": "Activity",
+        "calories": 383,
+        "avg_hr": 121,
+        "max_hr": 159
+      },
+      {
+        "sport": "Activity",
+        "calories": 654,
+        "avg_hr": 134,
+        "max_hr": 173
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25007,
+    "resting_hr": 49.0,
+    "hrv": 39.07,
+    "sleep_hrs": 6.0,
+    "daylight_mins": 15.0,
+    "spo2": 97.39,
+    "respiratory_rate": 13.3,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 4,
+    "journal": "Feeling really good today, lots of stuff done, basically lots of sport. It was a proper sport day:\nbattleping pongmotion lab exercisesping pong with Cosita - walkie\n\nGood energy but still couldn't sleep really long. \nThinking what could contribute to this and I think, yeah, maybe screen time definitely wasn't acidic this morning. I did take the Telfast so maybe it's also that but I don't think it's histamine. I don't think it's acidity. Maybe it's nerves.\nToday I didn't feel any acidity after lu",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut",
+      "Telfast",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 2
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 3,
+    "meal_names": [
+      "Roasted Chicken and Potato Wedges with Side Salad and Boiled Egg",
+      "Carrot and Ginger Soup with Croutons and Balsamic Glaze",
+      "Avocado Toast with Fried Eggs and Papaya"
+    ],
+    "avg_score": 83.3,
+    "calories": 1006.0,
+    "protein_g": 84.0,
+    "fat_g": 51.7,
+    "carbs_g": 49.1,
+    "fibre_g": 14.5
+  }
+}
