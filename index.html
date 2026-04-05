@@ -627,22 +627,29 @@ async function syncToGitHub(data) {
 }
 
 async function testSync() {
-  const s = getSettings();
+  // Force save first
+  saveSettings();
+  const token = document.getElementById('ghToken').value.trim();
+  const repo = document.getElementById('ghRepo').value.trim();
   const st = document.getElementById('syncStatus');
-  if (!s.token) { st.textContent = 'Enter a token first'; st.className = 'sync-status fail'; return; }
+  st.textContent = 'Testing...';
+  st.className = 'sync-status pending';
+  if (!token) { st.textContent = 'Enter a token first'; st.className = 'sync-status fail'; return; }
+  if (!repo) { st.textContent = 'Enter a repo first'; st.className = 'sync-status fail'; return; }
   try {
-    const r = await fetch(`https://api.github.com/repos/${s.repo}`, {
-      headers: {'Authorization': `Bearer ${s.token}`}
+    const r = await fetch('https://api.github.com/repos/' + repo, {
+      headers: {'Authorization': 'Bearer ' + token, 'Accept': 'application/vnd.github.v3+json'}
     });
     if (r.ok) {
       st.textContent = 'Connected! Sync is working.';
       st.className = 'sync-status ok';
     } else {
-      st.textContent = `Failed: ${r.status}`;
+      const txt = await r.text();
+      st.textContent = 'Failed: ' + r.status + ' ' + txt.slice(0,80);
       st.className = 'sync-status fail';
     }
   } catch (e) {
-    st.textContent = 'Network error';
+    st.textContent = 'Network error: ' + e.message;
     st.className = 'sync-status fail';
   }
 }
