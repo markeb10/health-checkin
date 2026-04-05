@@ -1,0 +1,75 @@
+{
+  "generated_at": "2026-04-05T19:46:26.467384",
+  "cron_active": true,
+  "jobs": [
+    {
+      "id": "whoop_daily",
+      "name": "WHOOP Daily Import",
+      "schedule": "Every day at 8:00 AM",
+      "status": "ok",
+      "status_text": "[2026-04-05 08:26:22] Done: 30 days saved",
+      "last_run": "2026-04-05 08:26:22",
+      "log_mtime": "2026-04-05T08:26:22.346442",
+      "recent_log": [
+        "[2026-04-05 08:26:22]   2026-03-13: Recovery=47% HRV=34.1ms Sleep=405.9min Strain=164.6",
+        "[2026-04-05 08:26:22]   2026-03-12: Recovery=75% HRV=42.1ms Sleep=342.8min Strain=260.1",
+        "[2026-04-05 08:26:22]   2026-03-11: Recovery=85% HRV=46.3ms Sleep=425.1min Strain=181.2",
+        "[2026-04-05 08:26:22]   2026-03-10: Recovery=67% HRV=38.8ms Sleep=366.8min Strain=252.8",
+        "[2026-04-05 08:26:22]   2026-03-09: Recovery=65% HRV=38.7ms Sleep=417.8min Strain=260.0",
+        "[2026-04-05 08:26:22]   2026-03-08: Recovery=62% HRV=37.7ms Sleep=440.4min Strain=317.9",
+        "[2026-04-05 08:26:22]   2026-03-07: Recovery=86% HRV=43.7ms Sleep=381.0min Strain=222.7",
+        "[2026-04-05 08:26:22] Done: 30 days saved"
+      ]
+    },
+    {
+      "id": "checkin_morning",
+      "name": "Check-in Ingestion (AM)",
+      "schedule": "Every day at 10:30 AM",
+      "status": "unknown",
+      "status_text": "No log file found",
+      "last_run": null,
+      "log_mtime": null,
+      "recent_log": []
+    },
+    {
+      "id": "checkin_evening",
+      "name": "Check-in Ingestion (PM)",
+      "schedule": "Every day at 11:00 PM",
+      "status": "unknown",
+      "status_text": "No log file found",
+      "last_run": null,
+      "log_mtime": null,
+      "recent_log": []
+    },
+    {
+      "id": "status_update",
+      "name": "Daily Status JSON Update",
+      "schedule": "Every day at 11:05 PM",
+      "status": "unknown",
+      "status_text": "No log file found",
+      "last_run": null,
+      "log_mtime": null,
+      "recent_log": []
+    },
+    {
+      "id": "zoe_watcher",
+      "name": "Zoe Sync Watcher",
+      "schedule": "Every minute",
+      "status": "ok",
+      "status_text": "[2026-04-05 19:46:01] No pending Zoe sync trigger",
+      "last_run": "2026-04-05 19:46:01",
+      "log_mtime": "2026-04-05T19:46:01.825295",
+      "recent_log": [
+        "[2026-04-05 19:39:01] No pending Zoe sync trigger",
+        "[2026-04-05 19:40:01] No pending Zoe sync trigger",
+        "[2026-04-05 19:41:01] No pending Zoe sync trigger",
+        "[2026-04-05 19:42:02] No pending Zoe sync trigger",
+        "[2026-04-05 19:43:01] No pending Zoe sync trigger",
+        "[2026-04-05 19:44:01] No pending Zoe sync trigger",
+        "[2026-04-05 19:45:01] No pending Zoe sync trigger",
+        "[2026-04-05 19:46:01] No pending Zoe sync trigger"
+      ]
+    }
+  ],
+  "overall": "unknown"
+}

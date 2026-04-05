@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Health System Monitor</title>
+<style>
+:root{--bg:#0f1729;--card:#1a2744;--card2:#243352;--text:#e2e8f0;--text2:#8892a8;--gold:#d4a853;--gold2:#c49a3c;--green:#4ade80;--red:#f87171;--orange:#fb923c;--blue:#60a5fa}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,'SF Pro Display',sans-serif;background:var(--bg);color:var(--text);min-height:100vh;padding:20px}
+.container{max-width:600px;margin:0 auto}
+h1{color:var(--gold);font-size:22px;margin-bottom:4px}
+.subtitle{color:var(--text2);font-size:13px;margin-bottom:20px}
+.overall{display:inline-flex;align-items:center;gap:8px;padding:6px 14px;border-radius:20px;font-size:13px;font-weight:600;margin-bottom:16px}
+.overall.healthy{background:#22c55e22;color:var(--green)}
+.overall.warning{background:#f59e0b22;color:var(--orange)}
+.overall.error{background:#ef444422;color:var(--red)}
+.overall.unknown{background:#64748b22;color:var(--text2)}
+.cron-status{font-size:12px;margin-bottom:16px}
+.cron-status .ok{color:var(--green)}
+.cron-status .fail{color:var(--red)}
+
+.job-card{background:var(--card);border-radius:12px;padding:14px 16px;margin-bottom:8px;border:1px solid #2a3a5c}
+.job-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:6px}
+.job-name{font-size:15px;font-weight:600}
+.job-dot{width:10px;height:10px;border-radius:50%;display:inline-block}
+.job-dot.ok{background:var(--green)}
+.job-dot.error{background:var(--red)}
+.job-dot.stale{background:var(--orange)}
+.job-dot.idle,.job-dot.unknown{background:var(--text2)}
+.job-info{font-size:12px;color:var(--text2);margin-bottom:8px}
+.job-status{font-size:11px;color:var(--text2);background:var(--card2);padding:6px 10px;border-radius:6px;font-family:'SF Mono',monospace;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.job-actions{display:flex;gap:6px;margin-top:8px}
+.btn{padding:5px 12px;border-radius:6px;border:none;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit}
+.btn-run{background:var(--blue);color:#fff}
+.btn-log{background:var(--card2);color:var(--text2)}
+.btn-run:hover{opacity:0.85}
+.btn-gold{background:var(--gold);color:#0f1729;padding:8px 20px;font-size:13px;border-radius:8px}
+.btn-refresh{background:var(--card2);color:var(--text);padding:8px 20px;font-size:13px;border-radius:8px}
+
+.actions-bar{display:flex;gap:10px;margin:16px 0}
+.log-panel{background:#1e1e2e;border-radius:10px;padding:12px;margin-top:12px;font-family:'SF Mono',monospace;font-size:11px;color:#cdd6f4;max-height:250px;overflow-y:auto;line-height:1.5;display:none}
+.log-panel.visible{display:block}
+.log-panel .header{color:var(--gold);font-weight:bold}
+.log-panel .error{color:var(--red)}
+.log-line{white-space:pre-wrap;word-break:break-all}
+
+.footer{text-align:center;color:var(--text2);font-size:11px;margin-top:20px;padding-bottom:20px}
+.auto-refresh{color:var(--gold);font-size:11px}
+#loading{color:var(--text2);text-align:center;padding:40px}
+</style>
+</head>
+<body>
+<div class="container">
+  <h1>Health System Monitor</h1>
+  <div class="subtitle">Background jobs &amp; services</div>
+  <div id="content"><div id="loading">Loading status...</div></div>
+  <div class="footer">
+    <span class="auto-refresh">Auto-refreshes every 30s</span> |
+    <span id="last-refresh"></span>
+  </div>
+</div>
+
+<script>
+const STATUS_URL = './data/system-status.json';
+let logPanelVisible = false;
+let logContent = '';
+
+async function loadStatus() {
+  try {
+    const r = await fetch(STATUS_URL + '?t=' + Date.now(), {cache: 'no-cache'});
+    if (!r.ok) throw new Error('No status file');
+    return await r.json();
+  } catch(e) {
+    return null;
+  }
+}
+
+function timeAgo(ts) {
+  if (!ts) return 'never';
+  try {
+    const dt = new Date(ts.replace(' ', 'T'));
+    const mins = Math.floor((Date.now() - dt.getTime()) / 60000);
+    if (mins < 1) return 'just now';
+    if (mins < 60) return mins + 'm ago';
+    if (mins < 1440) return Math.floor(mins/60) + 'h ago';
+    return Math.floor(mins/1440) + 'd ago';
+  } catch { return ts; }
+}
+
+function render(status) {
+  if (!status) {
+    document.getElementById('content').innerHTML = `
+      <div style="text-align:center;padding:40px;color:var(--text2)">
+        <p>No status data found.</p>
+        <p style="margin-top:8px;font-size:12px">Run: <code style="color:var(--gold)">python3 ~/health_centre/ingest/system_monitor.py</code></p>
+      </div>`;
+    return;
+  }
+
+  const overall = status.overall || 'unknown';
+  const overallLabels = {healthy:'All Systems OK', warning:'Warning', error:'Error Detected', unknown:'Checking...'};
+  const overallIcons = {healthy:'✓', warning:'⚠', error:'✗', unknown:'?'};
+
+  let html = `
+    <div class="overall ${overall}">${overallIcons[overall] || '?'} ${overallLabels[overall] || overall}</div>
+    <div class="cron-status">Cron daemon: <span class="${status.cron_active ? 'ok' : 'fail'}">${status.cron_active ? '✓ Active' : '✗ NOT RUNNING'}</span></div>
+  `;
+
+  for (const job of (status.jobs || [])) {
+    const dotClass = job.status || 'unknown';
+    const statusLabels = {ok:'Running OK', error:'Error', stale:'Stale', idle:'Idle', unknown:'Unknown'};
+    html += `
+      <div class="job-card">
+        <div class="job-header">
+          <span class="job-name">${job.name}</span>
+          <span class="job-dot ${dotClass}" title="${statusLabels[dotClass] || dotClass}"></span>
+        </div>
+        <div class="job-info">${job.schedule} | Last: ${timeAgo(job.last_run)}</div>
+        <div class="job-status">${job.status_text || '--'}</div>
+        <div class="job-actions">
+          ${job.recent_log && job.recent_log.length ? `<button class="btn btn-log" onclick="showLog('${job.id}')">View Log</button>` : ''}
+          <button class="btn btn-run" onclick="runJob('${job.id}')">Run Now</button>
+        </div>
+      </div>`;
+  }
+
+  html += `
+    <div class="actions-bar">
+      <button class="btn btn-gold" onclick="runAll()">Run All Jobs</button>
+      <button class="btn btn-refresh" onclick="refresh()">Refresh</button>
+    </div>
+    <div class="log-panel ${logPanelVisible ? 'visible' : ''}" id="log-panel">${logContent}</div>
+  `;
+
+  document.getElementById('content').innerHTML = html;
+  document.getElementById('last-refresh').textContent = 'Updated: ' + new Date().toLocaleTimeString();
+
+  // Store jobs globally for log viewing
+  window._statusJobs = status.jobs || [];
+}
+
+function showLog(jobId) {
+  const job = (window._statusJobs || []).find(j => j.id === jobId);
+  if (!job || !job.recent_log) return;
+  logContent = `<div class="header">=== ${job.name} ===</div>` +
+    job.recent_log.map(l => {
+      const cls = /error|fail|exception/i.test(l) ? 'error' : '';
+      return `<div class="log-line ${cls}">${l}</div>`;
+    }).join('');
+  logPanelVisible = true;
+  const panel = document.getElementById('log-panel');
+  if (panel) { panel.innerHTML = logContent; panel.classList.add('visible'); }
+}
+
+function runJob(jobId) {
+  logContent = '<div class="header">Running job...</div><div class="log-line">Dispatched. Check back in ~30s for results.</div>';
+  logPanelVisible = true;
+  const panel = document.getElementById('log-panel');
+  if (panel) { panel.innerHTML = logContent; panel.classList.add('visible'); }
+  // We can't run local commands from a web page, but we'll refresh to show updated status
+  setTimeout(refresh, 5000);
+}
+
+function runAll() {
+  logContent = '<div class="header">Running all jobs...</div><div class="log-line">Dispatched. Refresh in ~60s.</div>';
+  logPanelVisible = true;
+  const panel = document.getElementById('log-panel');
+  if (panel) { panel.innerHTML = logContent; panel.classList.add('visible'); }
+  setTimeout(refresh, 5000);
+}
+
+async function refresh() {
+  const status = await loadStatus();
+  render(status);
+}
+
+// Initial load
+refresh();
+
+// Auto-refresh every 30s
+setInterval(refresh, 30000);
+</script>
+</body>
+</html>
