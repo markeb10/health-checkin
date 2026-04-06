@@ -2094,24 +2094,27 @@ async function triggerZoeSync() {
   const targetDate = fmt(currentDate);
 
   // Strategy 1: Direct HTTP to local monitor server (instant, no git needed)
-  try {
-    const controller = new AbortController();
-    const timeout = setTimeout(() => controller.abort(), 3000);
-    const resp = await fetch(`http://127.0.0.1:8787/trigger/zoe?date=${targetDate}`, {
-      method: 'POST',
-      signal: controller.signal
-    });
-    clearTimeout(timeout);
-    if (resp.ok) {
-      const data = await resp.json();
-      st.textContent = `Zoe sync started for ${data.date}! Scraping now...`;
-      st.className = 'zoe-status done';
-      // Poll for completion
-      pollZoeStatus(st);
-      return;
+  // Try localhost first (Mac browser), then LAN IP (phone on same WiFi)
+  const monitorHosts = ['http://127.0.0.1:8787', 'http://192.168.30.124:8787'];
+  for (const host of monitorHosts) {
+    try {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 3000);
+      const resp = await fetch(`${host}/trigger/zoe?date=${targetDate}`, {
+        method: 'POST',
+        signal: controller.signal
+      });
+      clearTimeout(timeout);
+      if (resp.ok) {
+        const data = await resp.json();
+        st.textContent = `Zoe sync started for ${data.date}! Scraping now...`;
+        st.className = 'zoe-status done';
+        pollZoeStatus(st, host);
+        return;
+      }
+    } catch (e) {
+      console.log(`Monitor at ${host} unavailable:`, e.message);
     }
-  } catch (e) {
-    console.log('Local trigger unavailable, falling back to GitHub API:', e.message);
   }
 
   // Strategy 2: GitHub API (for when on phone / away from Mac)
@@ -2155,14 +2158,14 @@ async function triggerZoeSync() {
   st.className = 'zoe-status fail';
 }
 
-function pollZoeStatus(st) {
+function pollZoeStatus(st, host) {
   let polls = 0;
   const maxPolls = 60; // 2 minutes
   const iv = setInterval(async () => {
     polls++;
     if (polls > maxPolls) { clearInterval(iv); return; }
     try {
-      const resp = await fetch('http://127.0.0.1:8787/job-status');
+      const resp = await fetch(host + '/job-status');
       if (!resp.ok) return;
       const jobs = await resp.json();
       const zoe = jobs.zoe_sync;
