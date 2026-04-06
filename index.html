@@ -1788,7 +1788,7 @@ async function syncToGitHub(data) {
   }
 }
 
-async function pullFromGitHub(dateStr) {
+async function pullDayFromGitHub(dateStr) {
   const s = getSettings();
   if (!s.token || !s.repo) return null;
   const path = `${s.path || 'data/checkins'}/${dateStr}.json`;
@@ -1815,7 +1815,7 @@ async function syncPull() {
   const dateStr = fmt(currentDate);
   const key = getKey();
   const local = getData();
-  const remote = await pullFromGitHub(dateStr);
+  const remote = await pullDayFromGitHub(dateStr);
   if (!remote) return;
   if (!remote.morning_saved && !remote.evening_saved) return;
   // Pull if: no local data, OR remote is newer than local
