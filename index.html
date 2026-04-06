@@ -2047,58 +2047,96 @@ async function triggerZoeSync() {
   const st = document.getElementById('zoe-status');
   st.textContent = 'Requesting Zoe sync...';
   st.className = 'zoe-status pending';
-  const triggerData = {
-    action: 'sync_zoe',
-    date: fmt(currentDate),
-    requested_at: new Date().toISOString()
-  };
-  // Write trigger to same-origin path (picked up by Mac watcher)
+  const targetDate = fmt(currentDate);
+
+  // Strategy 1: Direct HTTP to local monitor server (instant, no git needed)
   try {
-    const r = await fetch('./data/zoe-trigger.json', { cache: 'no-cache' });
-    // Can't write to GitHub Pages from browser - write trigger to localStorage
-    // and signal via a lightweight ping
-    localStorage.setItem('zoe-sync-trigger', JSON.stringify(triggerData));
-    // Try GitHub API as fallback (may be blocked by Brave Shields)
-    const s = getSettings();
-    if (s.token && s.repo) {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 3000);
+    const resp = await fetch(`http://127.0.0.1:8787/trigger/zoe?date=${targetDate}`, {
+      method: 'POST',
+      signal: controller.signal
+    });
+    clearTimeout(timeout);
+    if (resp.ok) {
+      const data = await resp.json();
+      st.textContent = `Zoe sync started for ${data.date}! Scraping now...`;
+      st.className = 'zoe-status done';
+      // Poll for completion
+      pollZoeStatus(st);
+      return;
+    }
+  } catch (e) {
+    console.log('Local trigger unavailable, falling back to GitHub API:', e.message);
+  }
+
+  // Strategy 2: GitHub API (for when on phone / away from Mac)
+  const triggerData = { action: 'sync_zoe', date: targetDate, requested_at: new Date().toISOString() };
+  const s = getSettings();
+  if (s.token && s.repo) {
+    try {
       const path = 'data/checkins/zoe-trigger.json';
       const content = btoa(unescape(encodeURIComponent(JSON.stringify(triggerData, null, 2))));
       const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), 5000);
+      const timeout = setTimeout(() => controller.abort(), 8000);
+      let sha = null;
       try {
-        let sha = null;
-        try {
-          const existing = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
-            headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'},
-            signal: controller.signal
-          });
-          if (existing.ok) { sha = (await existing.json()).sha; }
-        } catch {}
-        const body = {message: `zoe sync request ${fmt(currentDate)}`, content, committer: {name: 'Health Check-in', email: 'checkin@local'}};
-        if (sha) body.sha = sha;
-        const resp = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
-          method: 'PUT',
-          headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json'},
-          body: JSON.stringify(body),
+        const existing = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
+          headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'},
           signal: controller.signal
         });
-        clearTimeout(timeout);
-        if (resp.ok) {
-          st.textContent = 'Sync requested! Mac will process shortly.';
-          st.className = 'zoe-status done';
-          return;
-        }
-      } catch (e) {
-        clearTimeout(timeout);
+        if (existing.ok) { sha = (await existing.json()).sha; }
+      } catch {}
+      const body = {message: `zoe sync request ${targetDate}`, content, committer: {name: 'Health Check-in', email: 'checkin@local'}};
+      if (sha) body.sha = sha;
+      const resp = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
+        method: 'PUT',
+        headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json'},
+        body: JSON.stringify(body),
+        signal: controller.signal
+      });
+      clearTimeout(timeout);
+      if (resp.ok) {
+        st.textContent = 'Sync requested via GitHub. Mac watcher will pick it up within a few minutes.';
+        st.className = 'zoe-status done';
+        return;
       }
+    } catch (e) {
+      console.log('GitHub API trigger failed:', e.message);
     }
-    // If GitHub API failed/blocked, show manual instruction
-    st.innerHTML = 'Sync saved locally. Run on Mac:<br><code style="font-size:11px;color:var(--gold)">python3 ~/health_centre/ingest/scrape_zoe.py</code>';
-    st.className = 'zoe-status done';
-  } catch (e) {
-    st.textContent = 'Error: ' + e.message;
-    st.className = 'zoe-status fail';
   }
+
+  // Strategy 3: Manual fallback
+  st.innerHTML = 'Could not trigger sync automatically.<br><code style="font-size:11px;color:var(--gold)">python3 ~/health_centre/ingest/scrape_zoe.py --date ' + targetDate + '</code>';
+  st.className = 'zoe-status fail';
+}
+
+function pollZoeStatus(st) {
+  let polls = 0;
+  const maxPolls = 60; // 2 minutes
+  const iv = setInterval(async () => {
+    polls++;
+    if (polls > maxPolls) { clearInterval(iv); return; }
+    try {
+      const resp = await fetch('http://127.0.0.1:8787/job-status');
+      if (!resp.ok) return;
+      const jobs = await resp.json();
+      const zoe = jobs.zoe_sync;
+      if (!zoe) return;
+      if (zoe.status === 'running') {
+        st.textContent = 'Zoe scraper running... (' + polls * 2 + 's)';
+      } else if (zoe.status === 'ok') {
+        const meals = (zoe.output.match(/Found (\d+) meals/)||[])[1] || '?';
+        st.textContent = 'Zoe sync done! ' + meals + ' meals imported.';
+        st.className = 'zoe-status done';
+        clearInterval(iv);
+      } else if (zoe.status === 'error') {
+        st.textContent = 'Zoe sync failed: ' + (zoe.output||'').slice(-100);
+        st.className = 'zoe-status fail';
+        clearInterval(iv);
+      }
+    } catch {}
+  }, 2000);
 }
 
 // ==================== TOAST ====================
