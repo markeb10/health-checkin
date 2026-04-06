@@ -1,13 +1,13 @@
 {
   "date": "2026-04-06",
-  "generated_at": "2026-04-06T08:37:43.968553",
+  "generated_at": "2026-04-06T21:45:14.125041",
   "whoop": {
     "imported": true,
     "recovery": 93.0,
     "hrv": 44.7,
     "rhr": 46.0,
     "sleep_perf": 82.0,
-    "strain": 0.1,
+    "strain": 10.3,
     "sleep_hrs": 7.7,
     "spo2": 97.1,
     "skin_temp": 33.2,
@@ -22,10 +22,17 @@
     "disturbances": 9,
     "sleep_needed_hrs": 9.7,
     "sleep_debt_hrs": 2.1,
-    "calories": 582,
-    "avg_hr": 46,
-    "max_hr": 87,
-    "workouts": []
+    "calories": 1864,
+    "avg_hr": 62,
+    "max_hr": 146,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 142,
+        "avg_hr": 100,
+        "max_hr": 130
+      }
+    ]
   },
   "apple_health": {
     "imported": false
@@ -54,6 +61,21 @@
     "anxiety": 1
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 6,
+    "meal_names": [
+      "Clear Broth Soup with Noodles, Carrots, and Cheese",
+      "Fried Eggs with Toast and Almond Butter",
+      "Mixed Vegetable Salad with Tofu",
+      "Roast Chicken with Salad, Potato Gratin, and Bread Rolls",
+      "Sausage and Cured Meat Platter with Hard-Boiled Eggs",
+      "Tiramisu"
+    ],
+    "avg_score": 58.0,
+    "calories": 2947.0,
+    "protein_g": 193.79999999999998,
+    "fat_g": 178.4,
+    "carbs_g": 147.8,
+    "fibre_g": 15.2
   }
 }
