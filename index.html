@@ -1815,19 +1815,22 @@ async function syncPull() {
   const dateStr = fmt(currentDate);
   const key = getKey();
   const local = getData();
-  // Only pull if local has no saved data for this day
-  const hasLocal = local.morning_saved || local.evening_saved;
-  if (hasLocal) return;
   const remote = await pullFromGitHub(dateStr);
   if (!remote) return;
   if (!remote.morning_saved && !remote.evening_saved) return;
+  // Pull if: no local data, OR remote is newer than local
+  const hasLocal = local.morning_saved || local.evening_saved;
+  const localTime = local.updated_at ? new Date(local.updated_at).getTime() : 0;
+  const remoteTime = remote.updated_at ? new Date(remote.updated_at).getTime() : 0;
+  if (hasLocal && remoteTime <= localTime) return; // local is same or newer
   // Merge remote into localStorage
   _loadingFields = true;
   localStorage.setItem(key, JSON.stringify(remote));
   loadFields();
   updateStreak();
-  showToast('Synced from cloud ☁️', false, 'sync');
-  console.log('Pulled remote data for', dateStr);
+  const what = !hasLocal ? 'Synced from cloud ☁️' : 'Updated from cloud ☁️';
+  showToast(what, false, 'sync');
+  console.log('Pulled remote data for', dateStr, hasLocal ? '(newer)' : '(new)');
 }
 
 async function syncMediaToGitHub(data, s) {
