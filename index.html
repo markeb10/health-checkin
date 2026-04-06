@@ -892,7 +892,9 @@ function onSlider(el) {
   autoSave();
 }
 
+let _loadingFields = false; // guard to prevent autoSave during loadFields
 function autoSave() {
+  if (_loadingFields) return;
   clearTimeout(saveTimer);
   saveTimer = setTimeout(() => {
     const data = getData();
@@ -1458,6 +1460,7 @@ function switchTab(tab) {
 
 // ==================== LOAD DATA ====================
 function loadFields() {
+  _loadingFields = true; // block autoSave during field population
   const data = getData();
   document.querySelectorAll('.section.active [data-field]').forEach(el => {
     const f = el.dataset.field;
@@ -1478,6 +1481,8 @@ function loadFields() {
   updateDot(data.synced ? 'synced' : (data.updated_at ? 'saved' : 'unsaved'));
   // Auto-grow textareas after populating values
   setTimeout(autoGrowAll, 50);
+  // Unblock autoSave after a tick (after any queued input events fire)
+  setTimeout(() => { _loadingFields = false; }, 100);
   // Reset touched fields when loading a new day
   touchedFields.clear();
   // If data was previously saved, mark required fields as touched
