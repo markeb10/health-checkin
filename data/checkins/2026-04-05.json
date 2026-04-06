@@ -1,0 +1,56 @@
+{
+  "sleep_quality_subjective": 5,
+  "mood_score": 6,
+  "energy_morning": 5,
+  "pain_score": 5,
+  "anxiety_score": 2,
+  "sleep_notes": "Woke at 4:30 am with gut grumbling, fell back asleep. Total about 6 hours.",
+  "gratitude_raw": "Being alive, cosita family and friends ❤️❤️❤️ , New ideas. Being alive and well. ",
+  "make_today_great": "If I relax, do some coding with Claude, and learn some spanish spend some quality time with cosita",
+  "affirmation": "I trust my body to heal and I am getting stronger every day",
+  "morning_supplements": [
+    {
+      "name": "Telfast",
+      "time": "20:35"
+    },
+    {
+      "name": "Vitamin C (1)",
+      "time": "20:35"
+    },
+    {
+      "name": "Enterosgel",
+      "time": "20:35"
+    }
+  ],
+  "updated_at": "2026-04-06T06:02:21.502Z",
+  "date": "2026-04-05",
+  "morning_saved": true,
+  "morning_saved_at": "2026-04-05T18:35:55.133Z",
+  "synced": true,
+  "synced_at": "2026-04-06T06:02:21.502Z",
+  "energy_afternoon": 6,
+  "energy_evening": 5,
+  "mood_evening": 6,
+  "pain_evening": 6,
+  "bloating_score": 3,
+  "acidity_score": 6,
+  "last_meal_time": "07:00",
+  "done_today": "1. Duolingo,  massive two-hour session. \n2. meditation 30 min was able to concentrate pretty well\n3. I did a massive claude session in evening and afternoon\n4. breakfast\n5 rožnik trip with cosita was nice and relaxing the weather is so nice 21 degrees and blue skies everything is blooming\n6. was programing my journal that I am using for first time now\n7. Duo lingo\n8. dinner just a handful of blueberries\n",
+  "amazing_raw": "1. Amazing walk to nature, to Rožnik. Super nice. \n2. I did finally my diary app lets see how many bugs I will find\n",
+  "could_be_better": "That I wouldn't watch my screen in the evening so late until 9:30",
+  "screen_off_time": "21:30",
+  "evening_notes": "This is my first entry ",
+  "evening_supplements": [
+    {
+      "name": "Vitamin C (2)",
+      "time": "08:02"
+    },
+    {
+      "name": "Amitriptyline",
+      "time": "08:02"
+    }
+  ],
+  "evening_saved": true,
+  "evening_saved_at": "2026-04-06T06:02:20.442Z",
+  "media": []
+}
