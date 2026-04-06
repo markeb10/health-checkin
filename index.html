@@ -1554,6 +1554,8 @@ function loadDay() {
     dashBanner.classList.add('not-today');
   }
   loadFields();
+  // Pull from GitHub if no local data (cross-device sync)
+  syncPull();
 }
 
 function updateDashDateDisplay() {
@@ -1784,6 +1786,48 @@ async function syncToGitHub(data) {
     localStorage.setItem('sync-queue', JSON.stringify([...new Set(queue)]));
     return false;
   }
+}
+
+async function pullFromGitHub(dateStr) {
+  const s = getSettings();
+  if (!s.token || !s.repo) return null;
+  const path = `${s.path || 'data/checkins'}/${dateStr}.json`;
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 5000);
+    const resp = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
+      headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'},
+      signal: controller.signal
+    });
+    clearTimeout(timeout);
+    if (!resp.ok) return null;
+    const json = await resp.json();
+    const content = decodeURIComponent(escape(atob(json.content.replace(/\n/g, ''))));
+    const remote = JSON.parse(content);
+    return remote;
+  } catch (e) {
+    console.log('Pull from GitHub failed:', e.message);
+    return null;
+  }
+}
+
+async function syncPull() {
+  const dateStr = fmt(currentDate);
+  const key = getKey();
+  const local = getData();
+  // Only pull if local has no saved data for this day
+  const hasLocal = local.morning_saved || local.evening_saved;
+  if (hasLocal) return;
+  const remote = await pullFromGitHub(dateStr);
+  if (!remote) return;
+  if (!remote.morning_saved && !remote.evening_saved) return;
+  // Merge remote into localStorage
+  _loadingFields = true;
+  localStorage.setItem(key, JSON.stringify(remote));
+  loadFields();
+  updateStreak();
+  showToast('Synced from cloud ☁️', false, 'sync');
+  console.log('Pulled remote data for', dateStr);
 }
 
 async function syncMediaToGitHub(data, s) {
