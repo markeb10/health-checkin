@@ -1594,6 +1594,7 @@ async function saveMorning() {
   setData(data);
   // Verify the save landed in the right key
   const key = getKey();
+  const dateStr = fmt(currentDate);
   const verify = JSON.parse(localStorage.getItem(key) || '{}');
   if (!verify.morning_saved) {
     console.error('Save verification failed! Key:', key);
@@ -1601,15 +1602,16 @@ async function saveMorning() {
     return;
   }
   const synced = await syncToGitHub(data);
+  const dateLabel = friendlyDate(currentDate);
   if (synced) {
-    showToast('Saved & synced', false, 'check');
+    showToast('Saved & synced (' + dateLabel + ')', false, 'check');
   } else {
-    showToast('Saved locally', false, 'warn');
+    showToast('Saved locally (' + dateLabel + ')', false, 'warn');
     showSyncPending(true);
   }
   updateStreak();
   refreshDashboard();
-  showStatus('morning-status', 'Morning check-in saved!');
+  showStatus('morning-status', 'Morning check-in saved for ' + dateLabel + '!');
 }
 
 async function saveEvening() {
@@ -1622,6 +1624,7 @@ async function saveEvening() {
   setData(data);
   // Verify the save landed in the right key
   const key = getKey();
+  const dateStr = fmt(currentDate);
   const verify = JSON.parse(localStorage.getItem(key) || '{}');
   if (!verify.evening_saved) {
     console.error('Save verification failed! Key:', key);
@@ -1629,15 +1632,16 @@ async function saveEvening() {
     return;
   }
   const synced = await syncToGitHub(data);
+  const dateLabel = friendlyDate(currentDate);
   if (synced) {
-    showToast('Saved & synced', true, 'check');
+    showToast('Saved & synced (' + dateLabel + ')', true, 'check');
   } else {
-    showToast('Saved locally', true, 'warn');
+    showToast('Saved locally (' + dateLabel + ')', true, 'warn');
     showSyncPending(true);
   }
   updateStreak();
   refreshDashboard();
-  showStatus('evening-status', 'Evening check-in saved!');
+  showStatus('evening-status', 'Evening check-in saved for ' + dateLabel + '!');
 }
 
 function refreshDashboard() {
