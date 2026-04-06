@@ -1,0 +1,31 @@
+{
+  "sleep_quality_subjective": 8,
+  "mood_score": 7,
+  "energy_morning": 7,
+  "pain_score": 3,
+  "anxiety_score": 1,
+  "sleep_notes": "Woke up at 4:30 and managed to fall back asleep again. In general, the least wakings up that I felt in a long time. Didn't take glycine and magnesium glycinate, but also I was very sleepy from the day before. I do feel quite groggy, but it was nice to get seven hours and 42 minutes of sleep. ",
+  "gratitude_raw": "1. Grateful for being on this planet. \n2. Cosita family friends ❤️❤️❤️ \n3. Long sleep. \n4. My health. ",
+  "make_today_great": "- Connecting with my family\n- Being with myself\n- Having some ping pong, some sport activities\n- Making deeper connections\n- Just being me myself",
+  "affirmation": "All I need is within me now. ",
+  "morning_supplements": [
+    {
+      "name": "Vitamin C (1)",
+      "time": "08:33",
+      "dose": "",
+      "unit": ""
+    },
+    {
+      "name": "Enterosgel",
+      "time": "08:33",
+      "dose": "",
+      "unit": ""
+    }
+  ],
+  "updated_at": "2026-04-06T06:33:37.210Z",
+  "date": "2026-04-06",
+  "morning_saved": true,
+  "morning_saved_at": "2026-04-06T06:33:36.388Z",
+  "synced": true,
+  "synced_at": "2026-04-06T06:33:37.210Z"
+}
