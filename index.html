@@ -1721,10 +1721,14 @@ function saveSettings() {
 
 async function syncToGitHub(data) {
   const s = getSettings();
-  if (!s.token || !s.repo) return false;
+  if (!s.token || !s.repo) {
+    console.warn('Sync skipped: no GitHub token or repo configured');
+    return false;
+  }
   const path = `${s.path || 'data/checkins'}/${data.date}.json`;
   const content = btoa(unescape(encodeURIComponent(JSON.stringify(data, null, 2))));
   try {
+    // Get existing file SHA if it exists (needed for updates)
     let sha = null;
     try {
       const existing = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
@@ -1735,6 +1739,7 @@ async function syncToGitHub(data) {
         sha = j.sha;
       }
     } catch {}
+    // PUT the file
     const body = {
       message: `checkin ${data.date}`,
       content: content,
@@ -1750,19 +1755,28 @@ async function syncToGitHub(data) {
       },
       body: JSON.stringify(body)
     });
-    if (r.ok) {
-      data.synced = true;
-      data.synced_at = new Date().toISOString();
-      setData(data);
-      updateDot('synced');
-      showSyncPending(false);
-      // Sync photos to GitHub (background, non-blocking)
-      syncMediaToGitHub(data, s).catch(e => console.error('Media sync error:', e));
-      return true;
-    } else {
-      console.error('Sync failed:', r.status, await r.text());
+    if (!r.ok) {
+      const errText = await r.text();
+      console.error('Sync PUT failed:', r.status, errText);
       return false;
     }
+    // Verify: read it back to confirm it landed
+    const verify = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
+      headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'}
+    });
+    if (!verify.ok) {
+      console.error('Sync verification failed: file not found after PUT');
+      return false;
+    }
+    // Confirmed on GitHub
+    data.synced = true;
+    data.synced_at = new Date().toISOString();
+    setData(data);
+    updateDot('synced');
+    showSyncPending(false);
+    // Sync photos to GitHub (background, non-blocking)
+    syncMediaToGitHub(data, s).catch(e => console.error('Media sync error:', e));
+    return true;
   } catch (e) {
     console.error('Sync error:', e);
     const queue = JSON.parse(localStorage.getItem('sync-queue') || '[]');
