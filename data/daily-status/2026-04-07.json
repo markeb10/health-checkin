@@ -1,6 +1,6 @@
 {
   "date": "2026-04-07",
-  "generated_at": "2026-04-07T11:58:44.424588",
+  "generated_at": "2026-04-07T21:20:18.858196",
   "whoop": {
     "imported": true,
     "recovery": 72.0,
@@ -22,8 +22,8 @@
     "disturbances": 7,
     "sleep_needed_hrs": 8.9,
     "sleep_debt_hrs": 1.2,
-    "calories": 1319,
-    "avg_hr": 62,
+    "calories": 1361,
+    "avg_hr": 63,
     "max_hr": 160,
     "workouts": [
       {
@@ -41,6 +41,21 @@
     "imported": false
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 6,
+    "meal_names": [
+      "Butternut Squash Soup with Balsamic Glaze and Parsley",
+      "Chicken Breast with Rice",
+      "Fried Eggs with Toast and Blueberries",
+      "Fusilli with Bolognese Sauce and Side Salad",
+      "Toast with Almond Butter",
+      "Toast with Almond Butter and Blueberries"
+    ],
+    "avg_score": 64.0,
+    "calories": 2210.0,
+    "protein_g": 137.4,
+    "fat_g": 103.2,
+    "carbs_g": 187.3,
+    "fibre_g": 18.2
   }
 }
