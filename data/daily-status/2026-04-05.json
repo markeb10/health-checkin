@@ -1,6 +1,6 @@
 {
   "date": "2026-04-05",
-  "generated_at": "2026-04-05T21:26:15.388691",
+  "generated_at": "2026-04-07T21:22:43.399991",
   "whoop": {
     "imported": true,
     "recovery": 26.0,
@@ -11,7 +11,7 @@
     "sleep_hrs": 5.9,
     "spo2": 94.8,
     "skin_temp": 33.4,
-    "sleep_efficiency": 95.8,
+    "sleep_efficiency": 95.81528,
     "sleep_consistency": 76.0,
     "respiratory_rate": 13.8,
     "light_sleep_hrs": 2.7,
@@ -22,16 +22,50 @@
     "disturbances": 6,
     "sleep_needed_hrs": 10.3,
     "sleep_debt_hrs": 1.8,
-    "calories": 1470,
-    "avg_hr": 60,
+    "calories": 1566,
+    "avg_hr": 59,
     "max_hr": 123,
-    "workouts": []
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
   },
   "apple_health": {
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 6,
+    "energy": 5,
+    "sleep_quality": 5,
+    "supplements": 4,
+    "journal": "Grateful for: Being alive, cosita family, friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, New ideas, Being alive, well\nToday great: If I relax, do some coding with Claude, and learn some spanish spend some quality time with cosita\nAffirmation: I trust my body to heal and I am getting stronger every day\nAmazing things: Amazing walk to nature, to Ro\u017enik, Super nice, I did finally my diary app lets see how many bugs I will find\nBetter: That I wouldn't watch my screen in the evening so late until 9:30",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "20:35"
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "20:35"
+      },
+      {
+        "name": "Enterosgel",
+        "time": "20:35"
+      },
+      {
+        "name": "Amitriptyline",
+        "time": "20:44"
+      }
+    ],
+    "energy_afternoon": 6,
+    "energy_evening": 5,
+    "anxiety": 2,
+    "bloating": 3
   },
   "zoe": {
     "imported": true,
