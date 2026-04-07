@@ -1,6 +1,6 @@
 {
   "date": "2026-04-06",
-  "generated_at": "2026-04-06T21:45:14.125041",
+  "generated_at": "2026-04-07T21:22:45.767955",
   "whoop": {
     "imported": true,
     "recovery": 93.0,
@@ -11,7 +11,7 @@
     "sleep_hrs": 7.7,
     "spo2": 97.1,
     "skin_temp": 33.2,
-    "sleep_efficiency": 92.6,
+    "sleep_efficiency": 92.584595,
     "sleep_consistency": 73.0,
     "respiratory_rate": 13.5,
     "light_sleep_hrs": 3.9,
@@ -22,7 +22,7 @@
     "disturbances": 9,
     "sleep_needed_hrs": 9.7,
     "sleep_debt_hrs": 2.1,
-    "calories": 1864,
+    "calories": 1938,
     "avg_hr": 62,
     "max_hr": 146,
     "workouts": [
@@ -42,23 +42,44 @@
     "mood": 7,
     "energy": 7,
     "sleep_quality": 8,
-    "supplements": 2,
-    "journal": "Grateful for: Grateful for being on this planet, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Long sleep, My health\nToday great: - Connecting with my family\n- Being with myself\n- Having some ping pong, some sport activities\n- Making deeper connections\n- Just being me myself\nAffirmation: All I need is within me now. ",
+    "supplements": 5,
+    "journal": "Grateful for: Grateful for being on this planet, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Long sleep, My health\nToday great: - Connecting with my family\n- Being with myself\n- Having some ping pong, some sport activities\n- Making deeper connections\n- Just being me myself\nAffirmation: All I need is within me now. \nAmazing things: Lots of sleep 7:42h, Spent some good time with family, Pet the cat bobi\nBetter: Checking twice before putting my card details anywhere",
     "supplements_list": [
       {
+        "name": "Telfast",
+        "time": "09:53",
+        "dose": "",
+        "unit": ""
+      },
+      {
         "name": "Vitamin C (1)",
-        "time": "08:33",
+        "time": "09:53",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Enterosgel",
-        "time": "08:33",
+        "time": "09:53",
         "dose": "",
         "unit": ""
+      },
+      {
+        "name": "roibos vanilla tae",
+        "time": "09:53",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Amitriptyline",
+        "time": "21:11",
+        "dose": "2.5",
+        "unit": "mg"
       }
     ],
-    "anxiety": 1
+    "energy_afternoon": 6,
+    "energy_evening": 5,
+    "anxiety": 1,
+    "bloating": 4
   },
   "zoe": {
     "imported": true,
