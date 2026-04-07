@@ -419,11 +419,24 @@ input[type=number]{width:70px;text-align:center}
 .dash-journal-aff{font-family:var(--serif);font-size:15px;color:var(--gold2);font-style:italic;margin-top:10px;line-height:1.5}
 .dash-journal-supps{font-size:12px;color:var(--text2);margin-top:10px;font-weight:500}
 .dash-journal-notes{font-size:13px;color:var(--text);margin-top:10px;padding:12px 14px;background:var(--bg);border-radius:10px;line-height:1.5;border:1px solid var(--border)}
+.dash-list{margin:6px 0 0 0;padding-left:22px;list-style:decimal}.dash-list li{margin:3px 0;line-height:1.5}
 .meals-list{background:var(--card);border-radius:16px;padding:20px;margin-bottom:16px;box-shadow:var(--shadow)}
 .meals-list h3{font-family:var(--serif);font-size:15px;color:var(--text);font-weight:600;margin-bottom:12px}
-.meal-item{display:flex;align-items:center;justify-content:space-between;padding:10px 0;
+.meals-total{display:flex;gap:12px;flex-wrap:wrap;padding:10px 0;margin-bottom:8px;border-bottom:1px solid var(--border);font-size:12px;color:var(--muted)}
+.meals-total span{font-weight:600;color:var(--text)}
+.meal-item{display:flex;align-items:center;justify-content:space-between;padding:10px 0;cursor:pointer;
   border-bottom:1px solid var(--border)}
 .meal-item:last-child{border-bottom:none}
+.meal-score{font-size:13px;font-weight:600;min-width:42px;text-align:right}
+.meal-macros{font-size:11px;color:var(--muted);margin-left:8px;white-space:nowrap}
+.meal-detail{display:none;padding:6px 0 12px;font-size:12px;color:var(--muted)}
+.meal-detail.open{display:block}
+.meal-detail .ing-row{display:flex;justify-content:space-between;padding:3px 8px;border-radius:6px}
+.meal-detail .ing-row:nth-child(odd){background:rgba(255,255,255,.03)}
+.meal-detail .ing-name{flex:1}.meal-detail .ing-qty{color:var(--text);margin:0 8px;font-size:11px}
+.meal-detail .ing-score{min-width:28px;text-align:right;font-weight:600}
+.meal-detail .macro-summary{display:flex;gap:10px;flex-wrap:wrap;padding:8px 0 4px;font-size:12px;border-bottom:1px solid var(--border);margin-bottom:6px}
+.meal-detail .macro-summary span{color:var(--text);font-weight:500}
 .meal-name{font-size:14px;color:var(--text)}
 .meal-score{font-size:14px;font-weight:700;min-width:32px;text-align:right}
 
@@ -645,6 +658,21 @@ input[type=number]{width:70px;text-align:center}
       </div>
 
       <div class="card">
+        <h2>Gut</h2>
+        <div class="slider-row">
+          <span class="slider-label">Bowel movements</span>
+          <div class="slider-wrap"><input type="range" min="0" max="6" value="0" data-field="bowel_movements" oninput="onSlider(this)"></div>
+          <span class="slider-val">0</span>
+        </div>
+        <div class="slider-row">
+          <span class="slider-label">Stool type (Bristol)</span>
+          <div class="slider-wrap"><input type="range" min="1" max="7" value="4" data-field="stool_type" oninput="onSlider(this)"></div>
+          <span class="slider-val">4</span>
+        </div>
+        <div style="font-size:11px;color:var(--muted);padding:4px 0 0 2px">1 hard lumps - 4 smooth - 7 liquid</div>
+      </div>
+
+      <div class="card">
         <h2>Intake</h2>
         <div class="time-row">
           <label>Last meal time</label>
@@ -665,6 +693,12 @@ input[type=number]{width:70px;text-align:center}
         <h2>Amazing things today</h2>
         <textarea data-field="amazing_raw" placeholder="Just say what was great..." style="min-height:80px" oninput="autoSave()"></textarea>
         <div class="parsed-items" id="amazing-parsed"></div>
+      </div>
+
+      <div class="card">
+        <h2>Ideas</h2>
+        <textarea data-field="ideas_raw" placeholder="1. Build a dashboard for...&#10;2. Try morning cold shower..." style="min-height:80px" oninput="autoSave()"></textarea>
+        <div class="parsed-items" id="ideas-parsed"></div>
       </div>
 
       <div class="card">
@@ -946,6 +980,7 @@ function autoSave() {
     // Update parsed previews
     showParsed('gratitude_raw', 'gratitude-parsed');
     showParsed('amazing_raw', 'amazing-parsed');
+    showParsed('ideas_raw', 'ideas-parsed');
   }, 300);
 }
 
@@ -1021,6 +1056,15 @@ function parseItems(text) {
     .split(/[,\n]+/)
     .map(s => s.trim())
     .filter(s => s.length > 0);
+}
+
+function formatListItems(text) {
+  if (!text) return '';
+  const items = parseItems(text);
+  if (items.length > 1) {
+    return '<ol class="dash-list">' + items.map(it => `<li>${it}</li>`).join('') + '</ol>';
+  }
+  return ' ' + text;
 }
 
 function showParsed(fieldName, containerId) {
@@ -2244,7 +2288,8 @@ async function confirmDelete() {
   } else {
     // Remove evening fields
     const eveningFields = ['energy_afternoon','energy_evening','mood_evening','pain_evening',
-      'bloating_score','acidity_score','last_meal_time','amazing_raw','could_be_better',
+      'bloating_score','acidity_score','bowel_movements','stool_type','last_meal_time',
+      'amazing_raw','ideas_raw','could_be_better',
       'screen_off_time','evening_notes','evening_supplements','done_today'];
     eveningFields.forEach(f => delete data[f]);
     delete data.evening_saved;
@@ -2749,15 +2794,20 @@ async function loadDashboard() {
         if (localData.mood_evening) eveningFields.push(`Mood: ${localData.mood_evening}/10`);
         if (localData.bloating_score) eveningFields.push(`Bloating: ${localData.bloating_score}/10`);
         if (localData.acidity_score) eveningFields.push(`Acidity: ${localData.acidity_score}/10`);
+        if (localData.bowel_movements) eveningFields.push(`Bowel: ${localData.bowel_movements}x`);
+        if (localData.stool_type) eveningFields.push(`Bristol: ${localData.stool_type}/7`);
         if (eveningFields.length) html += `<div class="dash-journal-metrics">${eveningFields.join(' | ')}</div>`;
         if (localData.done_today) {
-          html += `<div class="dash-journal-notes"><span class="grat-label">What I did:</span> ${localData.done_today}</div>`;
+          html += `<div class="dash-journal-notes"><span class="grat-label">What I did:</span>${formatListItems(localData.done_today)}</div>`;
         }
         if (localData.amazing_raw) {
-          html += `<div class="dash-journal-notes"><span class="grat-label">Amazing things:</span> ${localData.amazing_raw}</div>`;
+          html += `<div class="dash-journal-notes"><span class="grat-label">Amazing things:</span>${formatListItems(localData.amazing_raw)}</div>`;
+        }
+        if (localData.ideas_raw) {
+          html += `<div class="dash-journal-notes"><span class="grat-label">Ideas:</span>${formatListItems(localData.ideas_raw)}</div>`;
         }
         if (localData.could_be_better) {
-          html += `<div class="dash-journal-notes"><span class="grat-label">Could be better:</span> ${localData.could_be_better}</div>`;
+          html += `<div class="dash-journal-notes"><span class="grat-label">Could be better:</span>${formatListItems(localData.could_be_better)}</div>`;
         }
         if (localData.evening_notes) html += `<div class="dash-journal-notes">${localData.evening_notes}</div>`;
         html += '</div>';
@@ -2822,10 +2872,40 @@ async function loadDashboard() {
     html += '</div>';
   }
 
-  // Meals list
-  if (z.imported && z.meal_names && z.meal_names.length > 0) {
+  // Meals list with expandable detail
+  if (z.imported && z.meal_details && z.meal_details.length > 0) {
     html += '<div class="meals-list"><h3>Meals</h3>';
-    z.meal_names.forEach((name, i) => {
+    // Total macros row
+    const totCal = Math.round(z.meal_details.reduce((s,m) => s + (m.calories||0), 0));
+    const totProt = Math.round(z.meal_details.reduce((s,m) => s + (m.protein_g||0), 0));
+    const totFat = Math.round(z.meal_details.reduce((s,m) => s + (m.fat_g||0), 0));
+    const totCarbs = Math.round(z.meal_details.reduce((s,m) => s + (m.carbs_g||0), 0));
+    const totFibre = Math.round(z.meal_details.reduce((s,m) => s + (m.fibre_g||0), 0));
+    html += `<div class="meals-total"><span>${totCal} cal</span> P: ${totProt}g | F: ${totFat}g | C: ${totCarbs}g | Fibre: ${totFibre}g</div>`;
+    z.meal_details.forEach((meal, i) => {
+      const scoreColor = meal.score >= 70 ? '#4ade80' : meal.score >= 50 ? '#f59e0b' : '#f87171';
+      html += `<div class="meal-item" onclick="document.getElementById('meal-det-${i}').classList.toggle('open')">`;
+      html += `<span class="meal-name">${meal.name}</span>`;
+      html += `<span class="meal-macros">${Math.round(meal.calories||0)} cal</span>`;
+      html += `<span class="meal-score" style="color:${scoreColor}">${meal.score||'-'}</span>`;
+      html += `</div>`;
+      html += `<div class="meal-detail" id="meal-det-${i}">`;
+      html += `<div class="macro-summary"><span>${Math.round(meal.calories||0)} cal</span> P: ${Math.round(meal.protein_g||0)}g | F: ${Math.round(meal.fat_g||0)}g | C: ${Math.round(meal.carbs_g||0)}g | Fibre: ${Math.round(meal.fibre_g||0)}g</div>`;
+      if (meal.ingredients && meal.ingredients.length > 0) {
+        meal.ingredients.forEach(ing => {
+          const iColor = ing.score >= 70 ? '#4ade80' : ing.score >= 50 ? '#f59e0b' : (ing.score != null ? '#f87171' : 'var(--muted)');
+          html += `<div class="ing-row"><span class="ing-name">${ing.name}</span>`;
+          if (ing.qty) html += `<span class="ing-qty">${ing.qty}</span>`;
+          html += `<span class="ing-score" style="color:${iColor}">${ing.score != null ? ing.score : '-'}</span></div>`;
+        });
+      }
+      html += '</div>';
+    });
+    html += '</div>';
+  } else if (z.imported && z.meal_names && z.meal_names.length > 0) {
+    // Fallback: just names (no detail data)
+    html += '<div class="meals-list"><h3>Meals</h3>';
+    z.meal_names.forEach((name) => {
       html += `<div class="meal-item"><span class="meal-name">${name}</span></div>`;
     });
     html += '</div>';
