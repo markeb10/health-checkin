@@ -1,6 +1,6 @@
 {
   "date": "2026-04-07",
-  "generated_at": "2026-04-07T21:22:47.743447",
+  "generated_at": "2026-04-07T21:42:34.219667",
   "whoop": {
     "imported": true,
     "recovery": 72.0,
@@ -62,12 +62,185 @@
     "imported": true,
     "meals": 6,
     "meal_names": [
-      "Butternut Squash Soup with Balsamic Glaze and Parsley",
+      "Toast with Almond Butter and Blueberries",
       "Chicken Breast with Rice",
-      "Fried Eggs with Toast and Blueberries",
       "Fusilli with Bolognese Sauce and Side Salad",
+      "Butternut Squash Soup with Balsamic Glaze and Parsley",
       "Toast with Almond Butter",
-      "Toast with Almond Butter and Blueberries"
+      "Fried Eggs with Toast and Blueberries"
+    ],
+    "meal_details": [
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 70,
+        "calories": 293.0,
+        "protein_g": 11.0,
+        "fat_g": 17.5,
+        "carbs_g": 23.2,
+        "fibre_g": 5.4,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "10 \u00d7 berry",
+            "score": 73
+          },
+          {
+            "name": "Bread, brown, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 27
+          }
+        ]
+      },
+      {
+        "name": "Chicken Breast with Rice",
+        "score": 57,
+        "calories": 416.0,
+        "protein_g": 51.6,
+        "fat_g": 8.9,
+        "carbs_g": 34.5,
+        "fibre_g": 0.8,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 65
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Rice, white, basmati",
+            "qty": "1 \u00d7 small serving",
+            "score": 42
+          }
+        ]
+      },
+      {
+        "name": "Fusilli with Bolognese Sauce and Side Salad",
+        "score": 46,
+        "calories": 845.0,
+        "protein_g": 41.9,
+        "fat_g": 39.1,
+        "carbs_g": 81.2,
+        "fibre_g": 4.4,
+        "ingredients": [
+          {
+            "name": "Bolognese meat sauce, homemade",
+            "qty": "1 \u00d7 serving",
+            "score": 41
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Parmesan cheese",
+            "qty": "3 \u00d7 tbsp grated",
+            "score": 65
+          },
+          {
+            "name": "Pasta, gluten free fusilli, cooked",
+            "qty": "1 \u00d7 serving",
+            "score": 43
+          },
+          {
+            "name": "Pepper, black, \u00bd g",
+            "qty": null,
+            "score": 70
+          },
+          {
+            "name": "Radishes, red",
+            "qty": "3 \u00d7 radish",
+            "score": 90
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": "6 \u00d7 handful of leaves",
+            "score": 94
+          }
+        ]
+      },
+      {
+        "name": "Butternut Squash Soup with Balsamic Glaze and Parsley",
+        "score": 100,
+        "calories": 27.0,
+        "protein_g": 1.3,
+        "fat_g": 1.4,
+        "carbs_g": 2.4,
+        "fibre_g": 1.9,
+        "ingredients": [
+          {
+            "name": "Leeks",
+            "qty": "1 \u00d7 serving",
+            "score": 97
+          },
+          {
+            "name": "Lidl Pumpkin Oil",
+            "qty": "1 g",
+            "score": 78
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 81
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter",
+        "score": 65,
+        "calories": 285.0,
+        "protein_g": 10.7,
+        "fat_g": 17.3,
+        "carbs_g": 22.1,
+        "fibre_g": 4.3,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 90
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 18
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast and Blueberries",
+        "score": 49,
+        "calories": 344.0,
+        "protein_g": 20.9,
+        "fat_g": 19.0,
+        "carbs_g": 23.9,
+        "fibre_g": 1.4,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 18
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 medium",
+            "score": 69
+          }
+        ]
+      }
     ],
     "avg_score": 64.0,
     "calories": 2210.0,
