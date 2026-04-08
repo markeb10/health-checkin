@@ -1,6 +1,6 @@
 {
   "date": "2026-04-08",
-  "generated_at": "2026-04-08T20:25:59.339222",
+  "generated_at": "2026-04-08T21:24:45.780565",
   "whoop": {
     "imported": true,
     "recovery": 93.0,
@@ -115,6 +115,7 @@
         "fat_g": 9.0,
         "carbs_g": 23.9,
         "fibre_g": 3.0,
+        "meal_time": "6:31 PM",
         "ingredients": [
           {
             "name": "Almond butter, crunchy",
@@ -141,6 +142,7 @@
         "fat_g": 13.6,
         "carbs_g": 20.7,
         "fibre_g": 3.9,
+        "meal_time": "6:27 PM",
         "ingredients": [
           {
             "name": "Almond butter, crunchy",
@@ -167,6 +169,7 @@
         "fat_g": 16.0,
         "carbs_g": 1.8,
         "fibre_g": 1.4,
+        "meal_time": "1:51 PM",
         "ingredients": [
           {
             "name": "Eggs, boiled",
@@ -208,6 +211,7 @@
         "fat_g": 16.2,
         "carbs_g": 25.2,
         "fibre_g": 2.4,
+        "meal_time": "1:48 PM",
         "ingredients": [
           {
             "name": "Asparagus",
@@ -244,6 +248,7 @@
         "fat_g": 8.2,
         "carbs_g": 65.5,
         "fibre_g": 21.8,
+        "meal_time": "1:28 PM",
         "ingredients": [
           {
             "name": "Carrots",
@@ -315,6 +320,7 @@
         "fat_g": 39.0,
         "carbs_g": 36.1,
         "fibre_g": 5.8,
+        "meal_time": "9:08 AM",
         "ingredients": [
           {
             "name": "Almond butter, crunchy",
@@ -344,6 +350,7 @@
     "protein_g": 137.5,
     "fat_g": 102.0,
     "carbs_g": 173.2,
-    "fibre_g": 38.3
+    "fibre_g": 38.3,
+    "last_meal_time": "18:31"
   }
 }
