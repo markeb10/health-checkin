@@ -1,6 +1,6 @@
 {
   "date": "2026-04-08",
-  "generated_at": "2026-04-08T09:56:34.438453",
+  "generated_at": "2026-04-08T18:23:56.269192",
   "whoop": {
     "imported": true,
     "recovery": 93.0,
@@ -37,8 +37,46 @@
   "apple_health": {
     "imported": false
   },
+  "apple_watch": {
+    "imported": true,
+    "steps": 7105,
+    "active_calories": 394.0,
+    "exercise_minutes": 34.0,
+    "stand_hours": 10.0,
+    "daylight_mins": 28.0,
+    "noise_db": 62.9,
+    "distance_km": 5.35,
+    "flights_climbed": 7,
+    "vo2max": 39.64
+  },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 7,
+    "sleep_quality": 7,
+    "supplements": 3,
+    "journal": "Grateful for: New day, Being healthy, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Sunny day, Being alive\nToday great: Today will be great to have a good conversation with the new family GP doctor, Ziga Hladnik, and to remove my pain in my hip. Today somehow everything feels a bit more painful for some reason . To those things that are waiting for me in Telegram, start writing the speech. Check a bit of things with David. If things are under control for SEO and marketing \nAffirmation: I love you Marko",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "08:46",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "08:46",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "08:46",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 3
   },
   "zoe": {
     "imported": false

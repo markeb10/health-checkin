@@ -1,6 +1,6 @@
 {
   "date": "2026-04-03",
-  "generated_at": "2026-04-05T18:57:33.988957",
+  "generated_at": "2026-04-08T18:23:56.277620",
   "whoop": {
     "imported": true,
     "recovery": 52.0,
@@ -37,6 +37,18 @@
   "apple_health": {
     "imported": false
   },
+  "apple_watch": {
+    "imported": true,
+    "steps": 9441,
+    "active_calories": 450.0,
+    "exercise_minutes": 39.0,
+    "stand_hours": 16.0,
+    "daylight_mins": 4.0,
+    "noise_db": 65.2,
+    "mindful_minutes": 10.0,
+    "distance_km": 6.64,
+    "flights_climbed": 5
+  },
   "checkin": {
     "imported": true,
     "mood": null,
@@ -53,11 +65,198 @@
     "imported": true,
     "meals": 5,
     "meal_names": [
-      "Fried Eggs with Avocado Toast and Cheese",
-      "Pan-Seared Chicken with Asparagus and Greens",
-      "Toast with Nut Butter and Banana Slices",
       "Toast with Nut Butter and Blueberries",
-      "Vegetable Soup with Croutons and Parsley"
+      "Pan-Seared Chicken with Asparagus and Greens",
+      "Vegetable Soup with Croutons and Parsley",
+      "Toast with Nut Butter and Banana Slices",
+      "Fried Eggs with Avocado Toast and Cheese"
+    ],
+    "meal_details": [
+      {
+        "name": "Toast with Nut Butter and Blueberries",
+        "score": 75,
+        "calories": 191.0,
+        "protein_g": 7.3,
+        "fat_g": 9.1,
+        "carbs_g": 19.2,
+        "fibre_g": 3.9,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Blueberries",
+            "qty": "25 g",
+            "score": 73
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Pan-Seared Chicken with Asparagus and Greens",
+        "score": 81,
+        "calories": 439.0,
+        "protein_g": 56.1,
+        "fat_g": 15.4,
+        "carbs_g": 20.6,
+        "fibre_g": 6.9,
+        "ingredients": [
+          {
+            "name": "Asparagus",
+            "qty": "1 \u00d7 portion",
+            "score": 100
+          },
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 65
+          },
+          {
+            "name": "Garlic",
+            "qty": "2 g",
+            "score": 79
+          },
+          {
+            "name": "Lemon juice",
+            "qty": "5 ml",
+            "score": 34
+          },
+          {
+            "name": "Lidl Pumpkin Oil",
+            "qty": "1 g",
+            "score": 78
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Pak choi, bok choy",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Pepper, black",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Potatoes",
+            "qty": "75 g",
+            "score": 43
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Spinach",
+            "qty": "1 \u00d7 serving",
+            "score": 93
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Vegetable Soup with Croutons and Parsley",
+        "score": 81,
+        "calories": 16.0,
+        "protein_g": 0.9,
+        "fat_g": 0.5,
+        "carbs_g": 1.9,
+        "fibre_g": 0.6,
+        "ingredients": [
+          {
+            "name": "Broccoli",
+            "qty": "1 \u00d7 floret",
+            "score": 100
+          },
+          {
+            "name": "Croutons",
+            "qty": "2 g",
+            "score": 34
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Toast with Nut Butter and Banana Slices",
+        "score": 74,
+        "calories": 267.0,
+        "protein_g": 9.9,
+        "fat_g": 12.1,
+        "carbs_g": 29.0,
+        "fibre_g": 5.2,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Banana",
+            "qty": "50 g",
+            "score": 60
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Avocado Toast and Cheese",
+        "score": 77,
+        "calories": 622.0,
+        "protein_g": 31.3,
+        "fat_g": 45.0,
+        "carbs_g": 22.9,
+        "fibre_g": 5.2,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "1 \u00d7 medium",
+            "score": 100
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Cheese, Cheddar",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": null,
+            "score": null
+          }
+        ]
+      }
     ],
     "avg_score": 78.0,
     "calories": 1535.0,

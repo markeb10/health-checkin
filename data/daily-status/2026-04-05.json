@@ -1,6 +1,6 @@
 {
   "date": "2026-04-05",
-  "generated_at": "2026-04-07T21:22:43.399991",
+  "generated_at": "2026-04-08T18:23:56.276291",
   "whoop": {
     "imported": true,
     "recovery": 26.0,
@@ -37,13 +37,25 @@
   "apple_health": {
     "imported": false
   },
+  "apple_watch": {
+    "imported": true,
+    "steps": 14304,
+    "active_calories": 694.0,
+    "exercise_minutes": 69.0,
+    "stand_hours": 12.0,
+    "daylight_mins": 113.0,
+    "noise_db": 61.5,
+    "mindful_minutes": 20.0,
+    "distance_km": 9.36,
+    "flights_climbed": 5
+  },
   "checkin": {
     "imported": true,
     "mood": 6,
     "energy": 5,
     "sleep_quality": 5,
     "supplements": 4,
-    "journal": "Grateful for: Being alive, cosita family, friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, New ideas, Being alive, well\nToday great: If I relax, do some coding with Claude, and learn some spanish spend some quality time with cosita\nAffirmation: I trust my body to heal and I am getting stronger every day\nAmazing things: Amazing walk to nature, to Ro\u017enik, Super nice, I did finally my diary app lets see how many bugs I will find\nBetter: That I wouldn't watch my screen in the evening so late until 9:30",
+    "journal": "Grateful for: Being alive, cosita family, friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, New ideas, Being alive, well\nToday great: If I relax, do some coding with Claude, and learn some spanish spend some quality time with cosita\nAffirmation: I trust my body to heal and I am getting stronger every day\nAmazing things: Amazing walk to nature, to Ro\u017enik, Super nice, I did finally my diary app lets see how many bugs I will find\nBetter: That I wouldn't watch my screen in the evening so late until 9:30\nDid today: 1. Duolingo,  mass",
     "supplements_list": [
       {
         "name": "Telfast",
@@ -71,8 +83,82 @@
     "imported": true,
     "meals": 2,
     "meal_names": [
-      "Fried Eggs with Toast",
-      "Roasted Fish with Mixed Vegetables"
+      "Roasted Fish with Mixed Vegetables",
+      "Fried Eggs with Toast"
+    ],
+    "meal_details": [
+      {
+        "name": "Roasted Fish with Mixed Vegetables",
+        "score": 78,
+        "calories": 463.0,
+        "protein_g": 48.7,
+        "fat_g": 19.3,
+        "carbs_g": 21.6,
+        "fibre_g": 2.1,
+        "ingredients": [
+          {
+            "name": "Aubergine",
+            "qty": "30 g",
+            "score": 93
+          },
+          {
+            "name": "Courgette",
+            "qty": "30 g",
+            "score": 100
+          },
+          {
+            "name": "Fish, yellowtail, weighed raw",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Peppers, yellow",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Potatoes, roasted in oil",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast",
+        "score": 44,
+        "calories": 664.0,
+        "protein_g": 39.3,
+        "fat_g": 33.9,
+        "carbs_g": 54.0,
+        "fibre_g": 2.2,
+        "ingredients": [
+          {
+            "name": "Carbs, 75.5, g",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Fat, 53.3, g",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Fibre, 4.3, g",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Protein, 88, g",
+            "qty": null,
+            "score": null
+          }
+        ]
+      }
     ],
     "avg_score": 61.0,
     "calories": 1127.0,

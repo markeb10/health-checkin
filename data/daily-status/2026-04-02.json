@@ -1,6 +1,6 @@
 {
   "date": "2026-04-02",
-  "generated_at": "2026-04-05T18:57:33.989666",
+  "generated_at": "2026-04-08T18:23:56.280293",
   "whoop": {
     "imported": true,
     "recovery": 42.0,
@@ -43,6 +43,19 @@
   "apple_health": {
     "imported": false
   },
+  "apple_watch": {
+    "imported": true,
+    "steps": 14097,
+    "active_calories": 669.0,
+    "exercise_minutes": 86.0,
+    "stand_hours": 16.0,
+    "daylight_mins": 71.0,
+    "noise_db": 61.9,
+    "mindful_minutes": 20.0,
+    "distance_km": 10.99,
+    "flights_climbed": 2,
+    "vo2max": 39.73
+  },
   "checkin": {
     "imported": true,
     "mood": null,
@@ -63,12 +76,235 @@
     "imported": true,
     "meals": 6,
     "meal_names": [
-      "Breaded beef polpeta with Potato Salad and Side Salad",
-      "Fried Eggs with Avocado Toast and Cheese",
-      "Hearty Vegetable and Lentil Soup",
       "Toast with Nut Butter",
-      "Toast with Nut Butter and Banana Slices",
-      "Toast with Nut Butter, Blueberries and Coconut Yogurt"
+      "Toast with Nut Butter, Blueberries and Coconut Yogurt",
+      "Breaded beef polpeta with Potato Salad and Side Salad",
+      "Hearty Vegetable and Lentil Soup",
+      "Fried Eggs with Avocado Toast and Cheese",
+      "Toast with Nut Butter and Banana Slices"
+    ],
+    "meal_details": [
+      {
+        "name": "Toast with Nut Butter",
+        "score": 75,
+        "calories": 241.0,
+        "protein_g": 9.5,
+        "fat_g": 12.1,
+        "carbs_g": 22.6,
+        "fibre_g": 4.7,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Toast with Nut Butter, Blueberries and Coconut Yogurt",
+        "score": 75,
+        "calories": 254.0,
+        "protein_g": 9.8,
+        "fat_g": 12.2,
+        "carbs_g": 25.4,
+        "fibre_g": 5.2,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Alpro Coconut Natural Yogurt",
+            "qty": "1 g",
+            "score": 75
+          },
+          {
+            "name": "Blueberries",
+            "qty": "30 g",
+            "score": 73
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Breaded beef polpeta with Potato Salad and Side Salad",
+        "score": 70,
+        "calories": 400.0,
+        "protein_g": 48.5,
+        "fat_g": 15.1,
+        "carbs_g": 15.0,
+        "fibre_g": 9.5,
+        "ingredients": [
+          {
+            "name": "Chives, fresh",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Cream cheese, low fat",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Eggs, boiled",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Lidl Meat Free Mince",
+            "qty": "1 \u00d7 125g",
+            "score": 60
+          },
+          {
+            "name": "Potatoes, new and salad",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Radishes, red",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Rocket",
+            "qty": "3 \u00d7 handful of leaves",
+            "score": 100
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Hearty Vegetable and Lentil Soup",
+        "score": 96,
+        "calories": 396.0,
+        "protein_g": 18.9,
+        "fat_g": 6.6,
+        "carbs_g": 69.5,
+        "fibre_g": 19.8,
+        "ingredients": [
+          {
+            "name": "Carrots",
+            "qty": "40 g",
+            "score": 81
+          },
+          {
+            "name": "Celery",
+            "qty": "5 \u00d7 small piece",
+            "score": 78
+          },
+          {
+            "name": "Chives, fresh",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Garlic",
+            "qty": "2 \u00d7 clove",
+            "score": 79
+          },
+          {
+            "name": "Lentils, green, brown, puy, weighed uncooked",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Pearl barley, weighed uncooked",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Potatoes",
+            "qty": "1 \u00d7 potato",
+            "score": 43
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Avocado Toast and Cheese",
+        "score": 78,
+        "calories": 530.0,
+        "protein_g": 26.1,
+        "fat_g": 36.7,
+        "carbs_g": 23.8,
+        "fibre_g": 5.2,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "1 \u00d7 medium",
+            "score": 100
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Cottage cheese",
+            "qty": "30 g",
+            "score": 57
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Toast with Nut Butter and Banana Slices",
+        "score": 79,
+        "calories": 196.0,
+        "protein_g": 7.4,
+        "fat_g": 11.6,
+        "carbs_g": 14.9,
+        "fibre_g": 3.8,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Banana",
+            "qty": "20 g",
+            "score": 60
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          }
+        ]
+      }
     ],
     "avg_score": 79.0,
     "calories": 2017.0,
