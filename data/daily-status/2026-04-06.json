@@ -1,6 +1,6 @@
 {
   "date": "2026-04-06",
-  "generated_at": "2026-04-07T21:22:45.767955",
+  "generated_at": "2026-04-08T09:55:26.773940",
   "whoop": {
     "imported": true,
     "recovery": 93.0,
@@ -43,7 +43,7 @@
     "energy": 7,
     "sleep_quality": 8,
     "supplements": 5,
-    "journal": "Grateful for: Grateful for being on this planet, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Long sleep, My health\nToday great: - Connecting with my family\n- Being with myself\n- Having some ping pong, some sport activities\n- Making deeper connections\n- Just being me myself\nAffirmation: All I need is within me now. \nAmazing things: Lots of sleep 7:42h, Spent some good time with family, Pet the cat bobi\nBetter: Checking twice before putting my card details anywhere",
+    "journal": "Grateful for: Grateful for being on this planet, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Long sleep, My health\nToday great: - Connecting with my family\n- Being with myself\n- Having some ping pong, some sport activities\n- Making deeper connections\n- Just being me myself\nAffirmation: All I need is within me now. \nAmazing things: Lots of sleep 7:42h, Spent some good time with family, Pet the cat bobi\nBetter: Checking twice before putting my card details anywhere\nDid today: 1. Duolingo\n2. slept long until 7:2",
     "supplements_list": [
       {
         "name": "Telfast",
@@ -71,7 +71,7 @@
       },
       {
         "name": "Amitriptyline",
-        "time": "21:11",
+        "time": "22:40",
         "dose": "2.5",
         "unit": "mg"
       }
@@ -85,12 +85,225 @@
     "imported": true,
     "meals": 6,
     "meal_names": [
-      "Clear Broth Soup with Noodles, Carrots, and Cheese",
-      "Fried Eggs with Toast and Almond Butter",
+      "Tiramisu",
       "Mixed Vegetable Salad with Tofu",
       "Roast Chicken with Salad, Potato Gratin, and Bread Rolls",
+      "Clear Broth Soup with Noodles, Carrots, and Cheese",
       "Sausage and Cured Meat Platter with Hard-Boiled Eggs",
-      "Tiramisu"
+      "Fried Eggs with Toast and Almond Butter"
+    ],
+    "meal_details": [
+      {
+        "name": "Tiramisu",
+        "score": 41,
+        "calories": 703.0,
+        "protein_g": 15.0,
+        "fat_g": 55.8,
+        "carbs_g": 37.5,
+        "fibre_g": 1.3,
+        "ingredients": [
+          {
+            "name": "Biscuits, short, sweet",
+            "qty": "3 \u00d7 biscuit",
+            "score": 18
+          },
+          {
+            "name": "Cheese, Mascarpone",
+            "qty": "3 \u00d7 portion",
+            "score": 50
+          },
+          {
+            "name": "Cocoa powder",
+            "qty": "8 \u00d7 pinch (1/8tsp)",
+            "score": 74
+          },
+          {
+            "name": "Coffee, espresso",
+            "qty": "50 ml",
+            "score": 71
+          },
+          {
+            "name": "Eggs",
+            "qty": "1 \u00d7 medium",
+            "score": 71
+          }
+        ]
+      },
+      {
+        "name": "Mixed Vegetable Salad with Tofu",
+        "score": 81,
+        "calories": 199.0,
+        "protein_g": 7.1,
+        "fat_g": 16.1,
+        "carbs_g": 7.0,
+        "fibre_g": 2.0,
+        "ingredients": [
+          {
+            "name": "Cheese, Feta",
+            "qty": "1 \u00d7 portion",
+            "score": 47
+          },
+          {
+            "name": "Chives, fresh",
+            "qty": "3 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Courgette",
+            "qty": "50 g",
+            "score": 100
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "10 ml",
+            "score": 90
+          },
+          {
+            "name": "Pepper, black, \u2155 g",
+            "qty": null,
+            "score": 70
+          },
+          {
+            "name": "Peppers, yellow",
+            "qty": "30 g",
+            "score": 87
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 dash",
+            "score": 20
+          },
+          {
+            "name": "Sweetcorn",
+            "qty": "20 g",
+            "score": 92
+          },
+          {
+            "name": "Tomatoes",
+            "qty": "1 \u00d7 medium",
+            "score": 84
+          }
+        ]
+      },
+      {
+        "name": "Roast Chicken with Salad, Potato Gratin, and Bread Rolls",
+        "score": 48,
+        "calories": 547.0,
+        "protein_g": 65.3,
+        "fat_g": 23.5,
+        "carbs_g": 18.1,
+        "fibre_g": 3.0,
+        "ingredients": [
+          {
+            "name": "Chicken, roast, light meat",
+            "qty": "1 \u00d7 large serving",
+            "score": 61
+          },
+          {
+            "name": "Lettuce",
+            "qty": "7 \u00d7 large leaf",
+            "score": 97
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Potato dauphinoise, retail",
+            "qty": "150 g",
+            "score": 25
+          }
+        ]
+      },
+      {
+        "name": "Clear Broth Soup with Noodles, Carrots, and Cheese",
+        "score": 55,
+        "calories": 300.0,
+        "protein_g": 17.4,
+        "fat_g": 7.9,
+        "carbs_g": 42.2,
+        "fibre_g": 3.8,
+        "ingredients": [
+          {
+            "name": "Carrots",
+            "qty": "1 \u00d7 carrot",
+            "score": 81
+          },
+          {
+            "name": "Cheese, hard, average",
+            "qty": "15 g",
+            "score": 60
+          },
+          {
+            "name": "Pasta, egg, dried, weighed uncooked",
+            "qty": "50 g",
+            "score": 46
+          },
+          {
+            "name": "Stock, chicken",
+            "qty": "300 ml",
+            "score": 49
+          }
+        ]
+      },
+      {
+        "name": "Sausage and Cured Meat Platter with Hard-Boiled Eggs",
+        "score": 66,
+        "calories": 544.0,
+        "protein_g": 54.9,
+        "fat_g": 35.8,
+        "carbs_g": 0.6,
+        "fibre_g": 0.0,
+        "ingredients": [
+          {
+            "name": "Cheese, Mozzarella",
+            "qty": "1 \u00d7 slice",
+            "score": 63
+          },
+          {
+            "name": "Eggs, boiled",
+            "qty": "4 \u00d7 large",
+            "score": 73
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 g",
+            "score": 70
+          },
+          {
+            "name": "Pork leg joint, roast, lean and fat",
+            "qty": "1 \u00d7 slice",
+            "score": 43
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast and Almond Butter",
+        "score": 56,
+        "calories": 654.0,
+        "protein_g": 34.1,
+        "fat_g": 39.3,
+        "carbs_g": 42.4,
+        "fibre_g": 5.1,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 90
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "2 \u00d7 medium slice",
+            "score": 18
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          }
+        ]
+      }
     ],
     "avg_score": 58.0,
     "calories": 2947.0,
