@@ -398,6 +398,10 @@ input[type=number]{width:70px;text-align:center}
 .kpi-unit{font-size:14px;font-weight:500;color:var(--text2)}
 .kpi-card.no-data{opacity:.35}
 .kpi-card.no-data .kpi-value{color:var(--text2)}
+.kpi-delta{font-size:11px;font-weight:600;margin-left:6px;display:inline-block;vertical-align:middle}
+.kpi-delta.up{color:#34d399}
+.kpi-delta.down{color:#f87171}
+.kpi-delta.flat{color:var(--text2)}
 
 /* KPI colors - single warm tone for all values */
 .kpi-green,.kpi-yellow,.kpi-red,.kpi-blue{color:var(--gold2)}
@@ -2660,6 +2664,28 @@ async function loadDashboard() {
   const dateStr = fmt(currentDate);
   const data = await fetchStatusData(dateStr);
 
+  // Fetch previous day for delta comparison
+  const prevDate = new Date(currentDate);
+  prevDate.setDate(prevDate.getDate() - 1);
+  const prevData = await fetchStatusData(fmt(prevDate));
+  const pw = prevData.whoop || {};
+  const pa = prevData.apple_health || {};
+  const pc = prevData.checkin || {};
+  const pz = prevData.zoe || {};
+
+  // Delta helper: returns HTML span with arrow + value
+  // higherIsBetter: true = green for up, false = green for down
+  function delta(current, previous, higherIsBetter = true, isPercent = false, decimals = 1) {
+    if (current == null || previous == null || previous === 0) return '';
+    const diff = current - previous;
+    if (Math.abs(diff) < 0.05) return '<span class="kpi-delta flat">=</span>';
+    const pct = Math.round((diff / Math.abs(previous)) * 100);
+    const arrow = diff > 0 ? '&#9650;' : '&#9660;';
+    const cls = (diff > 0) === higherIsBetter ? 'up' : 'down';
+    const label = isPercent ? (diff > 0 ? '+' : '') + pct + '%' : (diff > 0 ? '+' : '') + diff.toFixed(decimals);
+    return `<span class="kpi-delta ${cls}">${arrow} ${label}</span>`;
+  }
+
   const todayCheck = new Date(); todayCheck.setHours(0,0,0,0);
   const selCheck = new Date(currentDate); selCheck.setHours(0,0,0,0);
   const dayLabel = todayCheck.getTime() === selCheck.getTime() ? 'Today' : friendlyDate(currentDate);
@@ -2678,8 +2704,8 @@ async function loadDashboard() {
   const recColor = rec != null ? (rec >= 67 ? 'kpi-green' : rec >= 34 ? 'kpi-yellow' : 'kpi-red') : '';
   html += `<div class="kpi-card ${rec==null?'no-data':''}" onclick="openKpiSheet('whoop')">
     <div class="kpi-label">WHOOP Recovery</div>
-    <div class="kpi-value ${recColor}">${rec != null ? rec + '<span class="kpi-unit">%</span>' : '--'}</div>
-    <div class="kpi-sub">${w.imported ? `HRV ${w.hrv}ms | RHR ${w.rhr} | SpO2 ${w.spo2||'--'}%` : 'No data'}</div>
+    <div class="kpi-value ${recColor}">${rec != null ? rec + '<span class="kpi-unit">%</span>' + delta(rec, pw.recovery, true, false, 0) : '--'}</div>
+    <div class="kpi-sub">${w.imported ? `HRV ${w.hrv}ms${delta(w.hrv, pw.hrv, true, false, 0)} | RHR ${w.rhr}${delta(w.rhr, pw.rhr, false, false, 0)}` : 'No data'}</div>
   </div>`;
 
   // 2. Sleep
@@ -2690,8 +2716,8 @@ async function loadDashboard() {
   const sleepColor = sleepPerf != null ? (sleepPerf >= 85 ? 'kpi-green' : sleepPerf >= 70 ? 'kpi-blue' : 'kpi-yellow') : 'kpi-blue';
   html += `<div class="kpi-card ${sleepHrs==null?'no-data':''}" onclick="openKpiSheet('sleep')">
     <div class="kpi-label">Sleep</div>
-    <div class="kpi-value ${sleepColor}">${sleepHrs != null ? sleepHrs + '<span class="kpi-unit">h</span>' : '--'}</div>
-    <div class="kpi-sub">${sleepPerf != null ? sleepPerf + '% perf | ' + (restorativeHrs != null ? restorativeHrs + 'h restorative' : 'debt ' + (w.sleep_debt_hrs||'--') + 'h') : 'No data'}</div>
+    <div class="kpi-value ${sleepColor}">${sleepHrs != null ? sleepHrs + '<span class="kpi-unit">h</span>' + delta(sleepHrs, pw.sleep_hrs, true) : '--'}</div>
+    <div class="kpi-sub">${sleepPerf != null ? sleepPerf + '% perf' + delta(sleepPerf, pw.sleep_perf, true, false, 0) + ' | ' + (restorativeHrs != null ? restorativeHrs + 'h restorative' : 'debt ' + (w.sleep_debt_hrs||'--') + 'h') : 'No data'}</div>
   </div>`;
 
   // 3. Zoe Score
@@ -2699,8 +2725,8 @@ async function loadDashboard() {
   const zoeColor = zoeScore != null ? (zoeScore >= 70 ? 'kpi-green' : zoeScore >= 50 ? 'kpi-yellow' : 'kpi-red') : '';
   html += `<div class="kpi-card ${zoeScore==null?'no-data':''}" onclick="openKpiSheet('zoe')">
     <div class="kpi-label">Zoe Score</div>
-    <div class="kpi-value ${zoeColor}">${zoeScore != null ? zoeScore : '--'}</div>
-    <div class="kpi-sub">${z.imported ? `${z.meals} meals | ${z.calories||'--'} cal | P${z.protein_g||'--'}g` : 'No data'}</div>
+    <div class="kpi-value ${zoeColor}">${zoeScore != null ? zoeScore + delta(zoeScore, pz.avg_score, true, false, 0) : '--'}</div>
+    <div class="kpi-sub">${z.imported ? `${z.meals} meals | ${z.calories||'--'} cal${delta(z.calories, pz.calories, false, false, 0)} | P${z.protein_g||'--'}g` : 'No data'}</div>
   </div>`;
 
   // 4. Activity
@@ -2716,8 +2742,8 @@ async function loadDashboard() {
   if (aCals) actSubs.push(Math.round(aCals) + ' active cal');
   html += `<div class="kpi-card ${steps==null&&strain==null?'no-data':''}" onclick="openKpiSheet('activity')">
     <div class="kpi-label">Activity</div>
-    <div class="kpi-value ${strainColor}">${strain != null ? strain + '<span class="kpi-unit">/21</span>' : '--'}</div>
-    <div class="kpi-sub">${actSubs.join(' | ') || 'No data'}</div>
+    <div class="kpi-value ${strainColor}">${strain != null ? strain + '<span class="kpi-unit">/21</span>' + delta(strain, pw.strain, true) : '--'}</div>
+    <div class="kpi-sub">${actSubs.join(' | ') || 'No data'}${steps ? delta(steps, pa.steps, true, true, 0) : ''}</div>
   </div>`;
 
   // 5. Mood/Energy
@@ -2726,16 +2752,16 @@ async function loadDashboard() {
   const moodColor = mood != null ? (mood >= 7 ? 'kpi-green' : mood >= 4 ? 'kpi-yellow' : 'kpi-red') : '';
   html += `<div class="kpi-card ${mood==null?'no-data':''}" onclick="openKpiSheet('mood')">
     <div class="kpi-label">Mood / Energy</div>
-    <div class="kpi-value ${moodColor}">${mood != null ? mood + '<span class="kpi-unit">/10</span>' : '--'}</div>
-    <div class="kpi-sub">${energy != null ? 'Energy ' + energy + '/10' : 'No data'}</div>
+    <div class="kpi-value ${moodColor}">${mood != null ? mood + '<span class="kpi-unit">/10</span>' + delta(mood, pc.mood, true, false, 0) : '--'}</div>
+    <div class="kpi-sub">${energy != null ? 'Energy ' + energy + '/10' + delta(energy, pc.energy, true, false, 0) : 'No data'}</div>
   </div>`;
 
   // 6. Weight
   const weight = a.imported && a.weight_kg ? a.weight_kg : null;
   html += `<div class="kpi-card ${weight==null?'no-data':''}" onclick="openKpiSheet('weight')">
     <div class="kpi-label">Weight</div>
-    <div class="kpi-value kpi-blue">${weight != null ? weight + '<span class="kpi-unit">kg</span>' : '--'}</div>
-    <div class="kpi-sub">${a.imported && a.daylight_mins ? a.daylight_mins + ' min daylight' : ''}</div>
+    <div class="kpi-value kpi-blue">${weight != null ? weight + '<span class="kpi-unit">kg</span>' + delta(weight, pa.weight_kg, false) : '--'}</div>
+    <div class="kpi-sub">${a.imported && a.daylight_mins ? a.daylight_mins + ' min daylight' + delta(a.daylight_mins, pa.daylight_mins, true, false, 0) : ''}</div>
   </div>`;
 
   html += '</div>'; // close kpi-grid
