@@ -1,6 +1,6 @@
 {
   "date": "2026-04-03",
-  "generated_at": "2026-04-08T18:23:56.277620",
+  "generated_at": "2026-04-08T18:37:23.489982",
   "whoop": {
     "imported": true,
     "recovery": 52.0,
@@ -35,7 +35,18 @@
     ]
   },
   "apple_health": {
-    "imported": false
+    "imported": true,
+    "steps": 9441,
+    "active_calories": 450.0,
+    "exercise_minutes": 39.0,
+    "stand_hours": 16.0,
+    "daylight_mins": 4.0,
+    "noise_db": 65.2,
+    "mindful_minutes": 10.0,
+    "distance_km": 6.64,
+    "flights_climbed": 5,
+    "spo2": 96.74,
+    "resting_hr": 51.0
   },
   "apple_watch": {
     "imported": true,
