@@ -1,6 +1,6 @@
 {
   "date": "2026-04-07",
-  "generated_at": "2026-04-07T21:42:34.219667",
+  "generated_at": "2026-04-08T09:55:29.371083",
   "whoop": {
     "imported": true,
     "recovery": 72.0,
@@ -22,10 +22,16 @@
     "disturbances": 7,
     "sleep_needed_hrs": 8.9,
     "sleep_debt_hrs": 1.2,
-    "calories": 2135,
-    "avg_hr": 67,
+    "calories": 2219,
+    "avg_hr": 66,
     "max_hr": 163,
     "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
       {
         "sport": "HIIT",
         "calories": 57,
@@ -56,7 +62,48 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 6,
+    "sleep_quality": 7,
+    "supplements": 5,
+    "journal": "Grateful for: I'm grateful for my life, for my health, for my sleep as well, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, New ideas being able to perform, Being alive\nToday great: - Being super efficient at meetings\n- Being creative, come up with new things\n- Don't stress too much\n- Don't take everything personal\n- Take it as a game\nAffirmation: I love myself. I love my body. \nAmazing things: Actually wasn't tired after paddle, table tennis which is surprising, Managed to sleep seven, a half hours\nBetter: I co",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "10:44",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "10:44",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "10:44",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (2)",
+        "time": "21:34",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Amitriptyline",
+        "time": "21:34",
+        "dose": "2.5",
+        "unit": "mg"
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 8,
+    "anxiety": 2,
+    "bloating": 9
   },
   "zoe": {
     "imported": true,
