@@ -2707,12 +2707,13 @@ async function loadDashboard() {
   const steps = a.imported ? a.steps : null;
   const strain = w.imported ? w.strain : null;
   const wCals = w.imported ? w.calories : null;
-  const km = steps ? Math.round(steps * 0.00075 * 10) / 10 : null;
+  const aCals = a.imported ? a.active_calories : null;
+  const km = a.imported && a.distance_km ? a.distance_km : (steps ? Math.round(steps * 0.00075 * 10) / 10 : null);
   const strainColor = strain != null ? (strain >= 14 ? 'kpi-green' : strain >= 8 ? 'kpi-blue' : 'kpi-yellow') : 'kpi-green';
   const actSubs = [];
   if (km) actSubs.push(km + ' km');
   if (steps) actSubs.push((steps >= 1000 ? Math.round(steps/1000) + 'k' : steps) + ' steps');
-  if (wCals) actSubs.push(wCals.toLocaleString() + ' cal');
+  if (aCals) actSubs.push(Math.round(aCals) + ' active cal');
   html += `<div class="kpi-card ${steps==null&&strain==null?'no-data':''}" onclick="openKpiSheet('activity')">
     <div class="kpi-label">Activity</div>
     <div class="kpi-value ${strainColor}">${strain != null ? strain + '<span class="kpi-unit">/21</span>' : '--'}</div>
@@ -3074,7 +3075,8 @@ function openKpiSheet(type) {
         + sheetRow('Respiratory Rate', w.respiratory_rate ? w.respiratory_rate + '/min' : '--')
         + sheetSection('Strain & Activity')
         + sheetRow('Day Strain', w.strain + '/21')
-        + sheetRow('Calories', w.calories ? w.calories.toLocaleString() + ' kcal' : '--')
+        + sheetRow('Total Calories (WHOOP)', w.calories ? w.calories.toLocaleString() + ' kcal' : '--')
+        + sheetRow('Active Calories (Watch)', a.imported && a.active_calories ? Math.round(a.active_calories) + ' kcal' : '--')
         + sheetRow('Avg HR', w.avg_hr ? w.avg_hr + ' bpm' : '--')
         + sheetRow('Max HR', w.max_hr ? w.max_hr + ' bpm' : '--');
       if (w.workouts && w.workouts.length > 0) {
@@ -3160,7 +3162,13 @@ function openKpiSheet(type) {
       + sheetRow('Distance', actKm ? actKm + ' km' : '--')
       + sheetRow('Steps', a.imported && a.steps ? a.steps.toLocaleString() : '--')
       + sheetRow('WHOOP Strain', w.imported ? w.strain + '/21' : '--')
-      + sheetRow('Calories Burned', w.imported && w.calories ? w.calories.toLocaleString() + ' kcal' : '--')
+      + sheetRow('Total Calories (WHOOP)', w.imported && w.calories ? w.calories.toLocaleString() + ' kcal' : '--')
+      + sheetRow('Active Calories (Watch)', a.imported && a.active_calories ? Math.round(a.active_calories) + ' kcal' : '--')
+      + sheetRow('Exercise', a.imported && a.exercise_minutes ? Math.round(a.exercise_minutes) + ' min' : '--')
+      + sheetRow('Stand Hours', a.imported && a.stand_hours ? Math.round(a.stand_hours) + ' hrs' : '--')
+      + sheetRow('Flights Climbed', a.imported && a.flights_climbed ? a.flights_climbed : '--')
+      + sheetRow('Daylight', a.imported && a.daylight_mins ? Math.round(a.daylight_mins) + ' min' : '--')
+      + sheetRow('VO2 Max', a.imported && a.vo2max ? a.vo2max + ' ml/kg/min' : '--')
       + sheetRow('Avg HR', w.imported && w.avg_hr ? w.avg_hr + ' bpm' : '--')
       + sheetRow('Max HR', w.imported && w.max_hr ? w.max_hr + ' bpm' : '--')
       + sheetRow('Daylight', a.imported && a.daylight_mins ? a.daylight_mins + ' min' : '--');
