@@ -1,6 +1,6 @@
 {
   "date": "2026-04-07",
-  "generated_at": "2026-04-08T20:03:37.791600",
+  "generated_at": "2026-04-08T20:16:40.719840",
   "whoop": {
     "imported": true,
     "recovery": 72.0,
@@ -60,31 +60,31 @@
   },
   "apple_health": {
     "imported": true,
-    "steps": 16673,
-    "active_calories": 741.0,
-    "exercise_minutes": 126.0,
-    "stand_hours": 14.0,
+    "steps": 17025,
+    "active_calories": 3102.0,
+    "exercise_minutes": 170.0,
+    "stand_hours": 252.0,
     "daylight_mins": 49.0,
     "noise_db": 63.5,
     "mindful_minutes": 11.0,
-    "distance_km": 12.28,
-    "flights_climbed": 15,
-    "vo2max": 39.58,
+    "distance_km": 12.58,
+    "flights_climbed": 14,
+    "vo2max": 39.6,
     "spo2": 97.26,
     "resting_hr": 50.0
   },
   "apple_watch": {
     "imported": true,
-    "steps": 16673,
-    "active_calories": 741.0,
-    "exercise_minutes": 126.0,
-    "stand_hours": 14.0,
+    "steps": 17025,
+    "active_calories": 3102.0,
+    "exercise_minutes": 170.0,
+    "stand_hours": 252.0,
     "daylight_mins": 49.0,
     "noise_db": 63.5,
     "mindful_minutes": 11.0,
-    "distance_km": 12.28,
-    "flights_climbed": 15,
-    "vo2max": 39.58
+    "distance_km": 12.58,
+    "flights_climbed": 14,
+    "vo2max": 39.6
   },
   "checkin": {
     "imported": true,
