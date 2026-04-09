@@ -1,6 +1,6 @@
 {
   "date": "2026-04-07",
-  "generated_at": "2026-04-08T20:25:57.799539",
+  "generated_at": "2026-04-09T08:00:03.266705",
   "whoop": {
     "imported": true,
     "recovery": 72.0,
@@ -150,6 +150,7 @@
         "fat_g": 17.5,
         "carbs_g": 23.2,
         "fibre_g": 5.4,
+        "meal_time": "5:33 PM",
         "ingredients": [
           {
             "name": "Almond butter, crunchy",
@@ -176,6 +177,7 @@
         "fat_g": 8.9,
         "carbs_g": 34.5,
         "fibre_g": 0.8,
+        "meal_time": "5:10 PM",
         "ingredients": [
           {
             "name": "Chicken breast",
@@ -202,6 +204,7 @@
         "fat_g": 39.1,
         "carbs_g": 81.2,
         "fibre_g": 4.4,
+        "meal_time": "1:47 PM",
         "ingredients": [
           {
             "name": "Bolognese meat sauce, homemade",
@@ -248,6 +251,7 @@
         "fat_g": 1.4,
         "carbs_g": 2.4,
         "fibre_g": 1.9,
+        "meal_time": "1:36 PM",
         "ingredients": [
           {
             "name": "Leeks",
@@ -274,6 +278,7 @@
         "fat_g": 17.3,
         "carbs_g": 22.1,
         "fibre_g": 4.3,
+        "meal_time": "10:12 AM",
         "ingredients": [
           {
             "name": "Almond butter, crunchy",
@@ -295,6 +300,7 @@
         "fat_g": 19.0,
         "carbs_g": 23.9,
         "fibre_g": 1.4,
+        "meal_time": "9:57 AM",
         "ingredients": [
           {
             "name": "Blueberries",
@@ -319,6 +325,7 @@
     "protein_g": 137.4,
     "fat_g": 103.2,
     "carbs_g": 187.3,
-    "fibre_g": 18.2
+    "fibre_g": 18.2,
+    "last_meal_time": "17:33"
   }
 }
