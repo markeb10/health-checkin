@@ -1,6 +1,6 @@
 {
   "date": "2026-04-09",
-  "generated_at": "2026-04-09T12:27:03.840668",
+  "generated_at": "2026-04-09T22:22:33.190644",
   "whoop": {
     "imported": true,
     "recovery": 75.0,
@@ -44,6 +44,168 @@
     "imported": false
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Toast with Almond Butter and Blueberries",
+      "Pea Soup",
+      "Breaded Meat Patties with Potato Salad and Side Salad",
+      "Fried Eggs with Toast and Papaya",
+      "Toast with Almond Butter and Banana"
+    ],
+    "meal_details": [
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 67,
+        "calories": 301.0,
+        "protein_g": 11.0,
+        "fat_g": 17.3,
+        "carbs_g": 25.8,
+        "fibre_g": 4.9,
+        "meal_time": "5:29 PM",
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "20 \u00d7 berry",
+            "score": 73
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 18
+          }
+        ]
+      },
+      {
+        "name": "Pea Soup",
+        "score": 83,
+        "calories": 135.0,
+        "protein_g": 8.8,
+        "fat_g": 0.5,
+        "carbs_g": 24.3,
+        "fibre_g": 6.3,
+        "meal_time": "2:05 PM",
+        "ingredients": [
+          {
+            "name": "Simply Organic Yellow Split Pea Soup, \u00bd \u00d7 pot",
+            "qty": null,
+            "score": 83
+          }
+        ]
+      },
+      {
+        "name": "Breaded Meat Patties with Potato Salad and Side Salad",
+        "score": 68,
+        "calories": 248.0,
+        "protein_g": 29.4,
+        "fat_g": 13.7,
+        "carbs_g": 2.0,
+        "fibre_g": 1.0,
+        "meal_time": "1:51 PM",
+        "ingredients": [
+          {
+            "name": "Chicken mince",
+            "qty": "1 \u00d7 serving",
+            "score": 47
+          },
+          {
+            "name": "Chives, fresh",
+            "qty": "3 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Eggs, boiled",
+            "qty": "30 g",
+            "score": 73
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Radishes, red",
+            "qty": "5 g",
+            "score": 90
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": "6 \u00d7 handful of leaves",
+            "score": 94
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "2 \u00d7 cherry tomato",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast and Papaya",
+        "score": 58,
+        "calories": 365.0,
+        "protein_g": 22.7,
+        "fat_g": 21.9,
+        "carbs_g": 20.5,
+        "fibre_g": 2.3,
+        "meal_time": "10:28 AM",
+        "ingredients": [
+          {
+            "name": "Bread, white, toasted, \u00bd \u00d7 large slice",
+            "qty": null,
+            "score": 18
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Papaya",
+            "qty": "1 \u00d7 serving",
+            "score": 66
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter and Banana",
+        "score": 60,
+        "calories": 253.0,
+        "protein_g": 8.9,
+        "fat_g": 12.0,
+        "carbs_g": 28.4,
+        "fibre_g": 4.4,
+        "meal_time": "7:17 AM",
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 90
+          },
+          {
+            "name": "Banana",
+            "qty": "60 g",
+            "score": 60
+          },
+          {
+            "name": "Bread, brown, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 27
+          }
+        ]
+      }
+    ],
+    "avg_score": 67.0,
+    "calories": 1302.0,
+    "protein_g": 80.8,
+    "fat_g": 65.4,
+    "carbs_g": 101.0,
+    "fibre_g": 18.9,
+    "last_meal_time": "17:29"
   }
 }
