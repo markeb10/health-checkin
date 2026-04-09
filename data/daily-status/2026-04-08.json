@@ -1,6 +1,6 @@
 {
   "date": "2026-04-08",
-  "generated_at": "2026-04-09T22:24:48.757966",
+  "generated_at": "2026-04-09T22:29:32.087065",
   "whoop": {
     "imported": true,
     "recovery": 93.0,
@@ -54,6 +54,7 @@
     "stand_hours": 145.0,
     "daylight_mins": 28.0,
     "noise_db": 63.1,
+    "mindful_minutes": 10.0,
     "distance_km": 7.16,
     "flights_climbed": 7,
     "vo2max": 39.6,
@@ -68,6 +69,7 @@
     "stand_hours": 145.0,
     "daylight_mins": 28.0,
     "noise_db": 63.1,
+    "mindful_minutes": 10.0,
     "distance_km": 7.16,
     "flights_climbed": 7,
     "vo2max": 39.6
