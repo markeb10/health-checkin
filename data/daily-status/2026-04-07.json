@@ -1,6 +1,6 @@
 {
   "date": "2026-04-07",
-  "generated_at": "2026-04-09T22:24:10.390559",
+  "generated_at": "2026-04-09T22:24:46.796954",
   "whoop": {
     "imported": true,
     "recovery": 72.0,
@@ -63,7 +63,7 @@
     "steps": 17025,
     "active_calories": 3102.0,
     "exercise_minutes": 170.0,
-    "stand_hours": 252.0,
+    "stand_hours": 14.0,
     "daylight_mins": 49.0,
     "noise_db": 63.5,
     "mindful_minutes": 11.0,
@@ -78,7 +78,7 @@
     "steps": 17025,
     "active_calories": 3102.0,
     "exercise_minutes": 170.0,
-    "stand_hours": 252.0,
+    "stand_hours": 14.0,
     "daylight_mins": 49.0,
     "noise_db": 63.5,
     "mindful_minutes": 11.0,
