@@ -258,13 +258,33 @@ input[type=number]{width:70px;text-align:center}
 .saved-dot.unsaved{background:var(--red)}
 .saved-dot.synced{background:var(--blue)}
 
-/* Zoe sync button */
-.zoe-sync-btn{width:100%;padding:14px;border:none;border-radius:12px;font-size:14px;
-  font-weight:600;cursor:pointer;background:rgba(107,158,111,.08);color:var(--green);
-  border:1.5px solid rgba(107,158,111,.25);display:flex;align-items:center;justify-content:center;
-  gap:8px;margin-top:12px;transition:all .15s}
-.zoe-sync-btn:active{opacity:.7;transform:scale(.97)}
-.zoe-icon{font-size:18px}
+/* Sync buttons */
+.sync-row{display:flex;gap:8px;margin-top:12px}
+.sync-btn{flex:1;padding:12px 8px;border:none;border-radius:12px;font-size:13px;
+  font-weight:600;cursor:pointer;display:flex;align-items:center;justify-content:center;
+  gap:6px;transition:all .15s}
+.sync-btn:active{opacity:.7;transform:scale(.97)}
+.sync-btn.zoe{background:rgba(107,158,111,.08);color:var(--green);border:1.5px solid rgba(107,158,111,.25)}
+.sync-btn.whoop{background:rgba(68,160,207,.08);color:#44a0cf;border:1.5px solid rgba(68,160,207,.25)}
+.sync-btn.apple{background:rgba(255,100,100,.08);color:#ff6464;border:1.5px solid rgba(255,100,100,.25)}
+.sync-btn.all{width:100%;padding:14px;background:rgba(255,255,255,.04);color:var(--text);
+  border:1.5px solid rgba(255,255,255,.12);margin-top:8px;font-size:14px}
+.sync-btn .sync-icon{font-size:16px}
+.sync-btn:disabled{opacity:.4;cursor:default}
+/* Pipeline status */
+.sync-pipeline{margin-top:10px;display:none;border-radius:10px;background:rgba(255,255,255,.03);
+  padding:10px 12px;border:1px solid rgba(255,255,255,.06)}
+.sync-pipeline.active{display:block}
+.sync-step{display:flex;align-items:center;gap:8px;padding:4px 0;font-size:12px;color:var(--text-dim)}
+.sync-step .step-icon{width:18px;text-align:center;font-size:13px}
+.sync-step.running{color:var(--gold)}
+.sync-step.running .step-icon{animation:spin 1s linear infinite}
+.sync-step.done{color:var(--green)}
+.sync-step.error{color:var(--red)}
+.sync-step.waiting{opacity:.4}
+@keyframes spin{from{transform:rotate(0deg)}to{transform:rotate(360deg)}}
+/* Legacy compat */
+.zoe-sync-btn{display:none}
 .zoe-status{font-size:12px;text-align:center;margin-top:8px;min-height:16px}
 .zoe-status.pending{color:var(--gold)}
 .zoe-status.done{color:var(--green)}
@@ -682,9 +702,26 @@ input[type=number]{width:70px;text-align:center}
           <label>Last meal time</label>
           <input type="time" data-field="last_meal_time" oninput="autoSave()">
         </div>
-        <button class="zoe-sync-btn" onclick="triggerZoeSync()">
-          <span class="zoe-icon">&#129367;</span> Sync Zoe Food Diary
+        <div class="sync-row">
+          <button class="sync-btn zoe" onclick="triggerSyncAll('zoe')">
+            <span class="sync-icon">&#129367;</span> Zoe
+          </button>
+          <button class="sync-btn whoop" onclick="triggerSyncAll('whoop')">
+            <span class="sync-icon">&#9201;</span> WHOOP
+          </button>
+          <button class="sync-btn apple" onclick="triggerSyncAll('apple')">
+            <span class="sync-icon">&#127822;</span> Health
+          </button>
+        </div>
+        <button class="sync-btn all" onclick="triggerSyncAll('all')">
+          &#128260; Sync Everything
         </button>
+        <div class="sync-pipeline" id="sync-pipeline">
+          <div class="sync-step waiting" id="step-zoe"><span class="step-icon">&#129367;</span> <span class="step-label">Zoe Food Diary</span></div>
+          <div class="sync-step waiting" id="step-whoop"><span class="step-icon">&#9201;</span> <span class="step-label">WHOOP Recovery</span></div>
+          <div class="sync-step waiting" id="step-apple"><span class="step-icon">&#127822;</span> <span class="step-label">Apple Health Export</span></div>
+          <div class="sync-step waiting" id="step-status"><span class="step-icon">&#128202;</span> <span class="step-label">Update Dashboard</span></div>
+        </div>
         <div class="zoe-status" id="zoe-status"></div>
       </div>
 
@@ -1554,6 +1591,18 @@ function loadFields() {
   renderMediaGrid('morning');
   renderMediaGrid('evening');
   updateDot(data.synced ? 'synced' : (data.updated_at ? 'saved' : 'unsaved'));
+  // Auto-fill last_meal_time from Zoe if user hasn't entered one
+  if (section === 'evening' && !data.last_meal_time) {
+    fetchStatusData(fmt(currentDate)).then(st => {
+      if (st && st.zoe && st.zoe.last_meal_time) {
+        const el = document.querySelector('[data-field="last_meal_time"]');
+        if (el && !el.value) {
+          el.value = st.zoe.last_meal_time;
+          autoSave();
+        }
+      }
+    });
+  }
   // Auto-grow textareas after populating values
   setTimeout(autoGrowAll, 50);
   // Unblock autoSave after a tick (after any queued input events fire)
@@ -2138,80 +2187,151 @@ async function retryQueue() {
 }
 
 // ==================== ZOE SYNC ====================
-async function triggerZoeSync() {
-  const st = document.getElementById('zoe-status');
-  st.textContent = 'Requesting Zoe sync...';
-  st.className = 'zoe-status pending';
+// Legacy wrapper for old button (hidden now)
+async function triggerZoeSync() { triggerSyncAll('zoe'); }
+
+const MONITOR_HOSTS = ['http://127.0.0.1:8787', 'http://192.168.30.124:8787'];
+let _syncMonitorHost = null;
+
+async function findMonitorHost() {
+  if (_syncMonitorHost) return _syncMonitorHost;
+  for (const host of MONITOR_HOSTS) {
+    try {
+      const c = new AbortController();
+      const t = setTimeout(() => c.abort(), 2000);
+      const r = await fetch(host + '/pipeline-status', {signal: c.signal});
+      clearTimeout(t);
+      if (r.ok) { _syncMonitorHost = host; return host; }
+    } catch {}
+  }
+  return null;
+}
+
+async function triggerSyncAll(mode) {
+  const pipeline = document.getElementById('sync-pipeline');
+  const steps = {
+    zoe: document.getElementById('step-zoe'),
+    whoop: document.getElementById('step-whoop'),
+    apple: document.getElementById('step-apple'),
+    status: document.getElementById('step-status'),
+  };
+
+  // Determine which steps to run
+  let stepList;
+  if (mode === 'all') stepList = ['zoe','whoop','apple','status'];
+  else if (mode === 'zoe') stepList = ['zoe','status'];
+  else if (mode === 'whoop') stepList = ['whoop','status'];
+  else if (mode === 'apple') stepList = ['apple','status'];
+  else stepList = [mode, 'status'];
+
+  // Reset and show pipeline
+  Object.values(steps).forEach(el => { el.className = 'sync-step waiting'; });
+  stepList.forEach(s => { if (steps[s]) steps[s].className = 'sync-step waiting'; });
+  // Mark non-requested steps as skipped (dim them out)
+  ['zoe','whoop','apple','status'].filter(s => !stepList.includes(s)).forEach(s => {
+    steps[s].style.display = 'none';
+  });
+  stepList.forEach(s => { steps[s].style.display = ''; });
+  pipeline.classList.add('active');
+
+  // Disable buttons while running
+  document.querySelectorAll('.sync-btn').forEach(b => b.disabled = true);
+
   const targetDate = fmt(currentDate);
+  const host = await findMonitorHost();
 
-  // Strategy 1: Direct HTTP to local monitor server (instant, no git needed)
-  // Try localhost first (Mac browser), then LAN IP (phone on same WiFi)
-  const monitorHosts = ['http://127.0.0.1:8787', 'http://192.168.30.124:8787'];
-  for (const host of monitorHosts) {
+  if (host) {
     try {
-      const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), 3000);
-      const resp = await fetch(`${host}/trigger/zoe?date=${targetDate}`, {
-        method: 'POST',
-        signal: controller.signal
-      });
-      clearTimeout(timeout);
+      const resp = await fetch(`${host}/trigger/all?date=${targetDate}&steps=${stepList.join(',')}`, {method: 'POST'});
       if (resp.ok) {
-        const data = await resp.json();
-        st.textContent = `Zoe sync started for ${data.date}! Scraping now...`;
-        st.className = 'zoe-status done';
-        pollZoeStatus(st, host);
+        pollPipeline(host, steps, stepList, pipeline);
         return;
       }
     } catch (e) {
-      console.log(`Monitor at ${host} unavailable:`, e.message);
+      console.log('Monitor trigger failed:', e);
     }
   }
 
-  // Strategy 2: GitHub API (for when on phone / away from Mac)
-  const triggerData = { action: 'sync_zoe', date: targetDate, requested_at: new Date().toISOString() };
-  const s = getSettings();
-  if (s.token && s.repo) {
-    try {
-      const path = 'data/checkins/zoe-trigger.json';
-      const content = btoa(unescape(encodeURIComponent(JSON.stringify(triggerData, null, 2))));
-      const controller = new AbortController();
-      const timeout = setTimeout(() => controller.abort(), 8000);
-      let sha = null;
+  // Fallback: GitHub trigger for Zoe only
+  if (stepList.includes('zoe')) {
+    const triggerData = { action: 'sync_zoe', date: targetDate, requested_at: new Date().toISOString() };
+    const s = getSettings();
+    if (s.token && s.repo) {
       try {
-        const existing = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
-          headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'},
-          signal: controller.signal
+        const path = 'data/checkins/zoe-trigger.json';
+        const content = btoa(unescape(encodeURIComponent(JSON.stringify(triggerData, null, 2))));
+        let sha = null;
+        try {
+          const existing = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
+            headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'}
+          });
+          if (existing.ok) sha = (await existing.json()).sha;
+        } catch {}
+        const body = {message: `sync request ${targetDate}`, content, committer: {name: 'Health Check-in', email: 'checkin@local'}};
+        if (sha) body.sha = sha;
+        await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
+          method: 'PUT',
+          headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json'},
+          body: JSON.stringify(body)
         });
-        if (existing.ok) { sha = (await existing.json()).sha; }
+        steps.zoe.className = 'sync-step done';
+        steps.zoe.querySelector('.step-label').textContent = 'Zoe - requested via GitHub (watcher will pick up)';
       } catch {}
-      const body = {message: `zoe sync request ${targetDate}`, content, committer: {name: 'Health Check-in', email: 'checkin@local'}};
-      if (sha) body.sha = sha;
-      const resp = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
-        method: 'PUT',
-        headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json'},
-        body: JSON.stringify(body),
-        signal: controller.signal
-      });
-      clearTimeout(timeout);
-      if (resp.ok) {
-        st.textContent = 'Sync requested via GitHub. Mac watcher will pick it up within a few minutes.';
-        st.className = 'zoe-status done';
-        return;
-      }
-    } catch (e) {
-      console.log('GitHub API trigger failed:', e.message);
     }
   }
 
-  // Strategy 3: Manual fallback
-  st.innerHTML = 'Could not trigger sync automatically.<br><code style="font-size:11px;color:var(--gold)">python3 ~/health_centre/ingest/scrape_zoe.py --date ' + targetDate + '</code>';
+  // Can't reach monitor - show fallback
+  document.querySelectorAll('.sync-btn').forEach(b => b.disabled = false);
+  const st = document.getElementById('zoe-status');
+  st.innerHTML = 'Could not reach monitor server.<br><code style="font-size:11px;color:var(--gold)">python3 ~/health_centre/ingest/scrape_zoe.py --date ' + targetDate + '</code>';
   st.className = 'zoe-status fail';
 }
 
+function pollPipeline(host, steps, stepList, pipeline) {
+  const icons = {waiting: '&#9711;', running: '&#10227;', done: '&#10004;', error: '&#10008;', skipped: '&#8211;'};
+  let polls = 0;
+  const maxPolls = 150; // 5 minutes
+  const iv = setInterval(async () => {
+    polls++;
+    if (polls > maxPolls) {
+      clearInterval(iv);
+      document.querySelectorAll('.sync-btn').forEach(b => b.disabled = false);
+      return;
+    }
+    try {
+      const resp = await fetch(host + '/pipeline-status');
+      if (!resp.ok) return;
+      const data = await resp.json();
+      const s = data.steps || {};
+
+      stepList.forEach(key => {
+        const el = steps[key];
+        if (!el || !s[key]) return;
+        const state = s[key];
+        el.className = 'sync-step ' + state;
+        el.querySelector('.step-icon').innerHTML = icons[state] || icons.waiting;
+      });
+
+      // Check if all done
+      const allDone = stepList.every(k => s[k] === 'done' || s[k] === 'error' || s[k] === 'skipped');
+      if (allDone && !data.active) {
+        clearInterval(iv);
+        document.querySelectorAll('.sync-btn').forEach(b => b.disabled = false);
+        // Auto-hide pipeline after 5s
+        setTimeout(() => {
+          pipeline.classList.remove('active');
+          // Reload dashboard if on that tab
+          if (typeof loadDashboard === 'function') loadDashboard();
+        }, 5000);
+      }
+    } catch {}
+  }, 2000);
+}
+
+// Legacy poll compat
 function pollZoeStatus(st, host) {
   let polls = 0;
-  const maxPolls = 60; // 2 minutes
+  const maxPolls = 60;
   const iv = setInterval(async () => {
     polls++;
     if (polls > maxPolls) { clearInterval(iv); return; }
