@@ -467,11 +467,22 @@ input[type=number]{width:70px;text-align:center}
 /* Sparklines */
 .sparklines-card{background:var(--card);border-radius:16px;padding:20px;margin-bottom:16px;box-shadow:var(--shadow)}
 .sparklines-card h3{font-family:var(--serif);font-size:15px;color:var(--text);font-weight:600;margin-bottom:14px}
-.sparkline-row{display:flex;align-items:center;gap:12px;margin-bottom:12px}
-.sparkline-row:last-child{margin-bottom:0}
-.sparkline-label{font-size:12px;color:var(--text2);width:64px;flex-shrink:0;font-weight:500}
-.sparkline-svg{flex:1;height:30px}
-.sparkline-val{font-size:13px;font-weight:700;width:40px;text-align:right;flex-shrink:0}
+.trend-chart{margin-bottom:18px;position:relative}
+.trend-chart:last-child{margin-bottom:0}
+.trend-header{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:6px}
+.trend-title{font-size:13px;font-weight:600;color:var(--text)}
+.trend-current{font-size:14px;font-weight:700;color:var(--gold2)}
+.trend-chart-wrap{position:relative;height:80px;border-radius:10px;background:rgba(255,255,255,.02);border:1px solid rgba(255,255,255,.05);overflow:hidden}
+.trend-chart-svg{width:100%;height:100%}
+.trend-scale{position:absolute;right:6px;top:0;bottom:0;display:flex;flex-direction:column;justify-content:space-between;pointer-events:none;padding:4px 0}
+.trend-scale span{font-size:9px;color:var(--text2);opacity:.6}
+.trend-days{display:flex;justify-content:space-between;padding:3px 8px 0;opacity:.5}
+.trend-days span{font-size:9px;color:var(--text2)}
+/* Legacy sparkline compat */
+.sparkline-row{display:none}
+.sparkline-label{display:none}
+.sparkline-svg{display:none}
+.sparkline-val{display:none}
 
 /* Dashboard loading */
 .dash-loading{text-align:center;padding:48px 20px;color:var(--text2);font-size:14px}
@@ -3100,100 +3111,120 @@ async function renderSparklines(currentDateStr) {
 
   let html = '<div class="sparklines-card"><h3>7-Day Trends</h3>';
 
-  const sparkColor = '#C4956A';
-  const sparkValStyle = 'color:var(--gold2)';
+  // Day labels for x-axis
+  const dayLabels = dates.map(ds => {
+    const dd = new Date(ds + 'T12:00:00');
+    return ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][dd.getDay()];
+  });
 
-  if (hasRecovery) {
-    html += `<div class="sparkline-row">
-      <span class="sparkline-label">Recovery</span>
-      <div class="sparkline-svg">${buildSparklineSVG(recoveryVals, 0, 100, sparkColor)}</div>
-      <span class="sparkline-val" style="${sparkValStyle}">${recoveryVals[6] != null ? recoveryVals[6] + '%' : '--'}</span>
-    </div>`;
-  }
-
-  if (hasSleep) {
-    html += `<div class="sparkline-row">
-      <span class="sparkline-label">Sleep</span>
-      <div class="sparkline-svg">${buildSparklineSVG(sleepVals, 4, 10, sparkColor)}</div>
-      <span class="sparkline-val" style="${sparkValStyle}">${sleepVals[6] != null ? sleepVals[6] + 'h' : '--'}</span>
-    </div>`;
-  }
-
-  if (hasHrv) {
-    html += `<div class="sparkline-row">
-      <span class="sparkline-label">HRV</span>
-      <div class="sparkline-svg">${buildSparklineSVG(hrvVals, 0, null, sparkColor)}</div>
-      <span class="sparkline-val" style="${sparkValStyle}">${hrvVals[6] != null ? hrvVals[6] + 'ms' : '--'}</span>
-    </div>`;
-  }
-
-  if (hasStrain) {
-    html += `<div class="sparkline-row">
-      <span class="sparkline-label">Strain</span>
-      <div class="sparkline-svg">${buildSparklineSVG(strainVals, 0, 21, sparkColor)}</div>
-      <span class="sparkline-val" style="${sparkValStyle}">${strainVals[6] != null ? strainVals[6] : '--'}</span>
-    </div>`;
-  }
-
-  if (hasZoe) {
-    html += `<div class="sparkline-row">
-      <span class="sparkline-label">Zoe Score</span>
-      <div class="sparkline-svg">${buildSparklineSVG(zoeVals, 0, 100, sparkColor)}</div>
-      <span class="sparkline-val" style="${sparkValStyle}">${zoeVals[6] != null ? zoeVals[6] : '--'}</span>
-    </div>`;
-  }
-
+  const charts = [];
+  if (hasRecovery) charts.push({label:'Recovery', vals:recoveryVals, min:0, max:100, unit:'%', color:'#4ade80', fmt:v=>v+'%'});
+  if (hasSleep) charts.push({label:'Sleep', vals:sleepVals, min:null, max:null, unit:'h', color:'#818cf8', fmt:v=>v+'h'});
+  if (hasHrv) charts.push({label:'HRV', vals:hrvVals, min:null, max:null, unit:'ms', color:'#38bdf8', fmt:v=>v+'ms'});
+  if (hasStrain) charts.push({label:'Strain', vals:strainVals, min:0, max:21, unit:'', color:'#fb923c', fmt:v=>v.toFixed(1)});
+  if (hasZoe) charts.push({label:'Zoe Score', vals:zoeVals, min:0, max:100, unit:'', color:'#6b9e6f', fmt:v=>v});
   if (hasSteps) {
-    const kmVals = stepVals.map(s => s != null ? Math.round(s * 0.00075 * 10) / 10 : null);
-    html += `<div class="sparkline-row">
-      <span class="sparkline-label">Distance</span>
-      <div class="sparkline-svg">${buildSparklineSVG(kmVals, 0, null, sparkColor)}</div>
-      <span class="sparkline-val" style="${sparkValStyle}">${kmVals[6] != null ? kmVals[6] + ' km' : '--'}</span>
-    </div>`;
-    html += `<div class="sparkline-row">
-      <span class="sparkline-label">Steps</span>
-      <div class="sparkline-svg">${buildSparklineSVG(stepVals, 0, null, sparkColor)}</div>
-      <span class="sparkline-val" style="${sparkValStyle}">${stepVals[6] != null ? Math.round(stepVals[6]/1000) + 'k' : '--'}</span>
-    </div>`;
+    charts.push({label:'Steps', vals:stepVals, min:0, max:null, unit:'k', color:'#C4956A', fmt:v=>Math.round(v/1000)+'k'});
   }
+
+  charts.forEach(c => {
+    html += buildTrendChart(c, dayLabels);
+  });
 
   html += '</div>';
   return html;
 }
 
-function buildSparklineSVG(values, minVal, maxVal, color) {
-  const width = 200;
-  const height = 28;
-  const padding = 2;
-
-  // Filter non-null for range calculation
-  const valid = values.filter(v => v != null);
+function buildTrendChart(cfg, dayLabels) {
+  const {label, vals, unit, color, fmt: fmtVal} = cfg;
+  const valid = vals.filter(v => v != null);
   if (valid.length < 2) return '';
 
-  const dataMin = minVal != null ? minVal : Math.min(...valid);
-  const dataMax = maxVal != null ? maxVal : Math.max(...valid);
+  const currentVal = vals[vals.length - 1];
+  const currentStr = currentVal != null ? fmtVal(currentVal) : '--';
+
+  // Auto-scale with 10% padding
+  let dataMin = cfg.min != null ? cfg.min : Math.min(...valid);
+  let dataMax = cfg.max != null ? cfg.max : Math.max(...valid);
+  // If auto-range, add padding so line isn't flat against edges
+  if (cfg.min == null) { const pad = (dataMax - dataMin) * 0.15 || 2; dataMin = Math.max(0, dataMin - pad); }
+  if (cfg.max == null) { const pad = (dataMax - dataMin) * 0.15 || 2; dataMax = dataMax + pad; }
   const range = dataMax - dataMin || 1;
 
-  const points = [];
-  const dots = [];
-  const stepX = (width - padding * 2) / (values.length - 1);
+  // SVG dimensions
+  const W = 300, H = 70, padL = 4, padR = 4, padT = 6, padB = 6;
+  const chartW = W - padL - padR;
+  const chartH = H - padT - padB;
+  const stepX = chartW / (vals.length - 1);
 
-  values.forEach((v, i) => {
-    if (v == null) return;
-    const x = padding + i * stepX;
-    const y = height - padding - ((v - dataMin) / range) * (height - padding * 2);
-    points.push(`${x},${y}`);
-    if (i === values.length - 1) {
-      dots.push(`<circle cx="${x}" cy="${y}" r="3" fill="${color}"/>`);
-    }
+  // Gridlines (3 horizontal)
+  const gridLines = [0, 0.5, 1].map(frac => {
+    const y = padT + chartH * (1 - frac);
+    const val = dataMin + range * frac;
+    return {y, val};
   });
 
-  if (points.length < 2) return '';
+  let svg = `<svg viewBox="0 0 ${W} ${H}" class="trend-chart-svg" preserveAspectRatio="none">`;
 
-  return `<svg viewBox="0 0 ${width} ${height}" preserveAspectRatio="none" style="width:100%;height:100%">
-    <polyline points="${points.join(' ')}" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" opacity="0.8"/>
-    ${dots.join('')}
-  </svg>`;
+  // Grid lines
+  gridLines.forEach(g => {
+    svg += `<line x1="${padL}" y1="${g.y}" x2="${W-padR}" y2="${g.y}" stroke="rgba(255,255,255,.06)" stroke-width="0.5"/>`;
+  });
+
+  // Area fill + line
+  const points = [];
+  const allDots = [];
+  vals.forEach((v, i) => {
+    if (v == null) return;
+    const x = padL + i * stepX;
+    const y = padT + chartH - ((v - dataMin) / range) * chartH;
+    points.push({x, y, v, i});
+  });
+
+  if (points.length >= 2) {
+    // Gradient fill under line
+    const areaPoints = points.map(p => `${p.x},${p.y}`).join(' ');
+    const firstX = points[0].x, lastX = points[points.length-1].x;
+    const gradId = 'g' + label.replace(/\s/g,'');
+    svg += `<defs><linearGradient id="${gradId}" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="${color}" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="${color}" stop-opacity="0"/>
+    </linearGradient></defs>`;
+    svg += `<polygon points="${firstX},${H-padB} ${areaPoints} ${lastX},${H-padB}" fill="url(#${gradId})"/>`;
+    svg += `<polyline points="${areaPoints}" fill="none" stroke="${color}" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>`;
+
+    // Dots with value labels
+    points.forEach((p, idx) => {
+      const isLast = idx === points.length - 1;
+      const r = isLast ? 3.5 : 2;
+      svg += `<circle cx="${p.x}" cy="${p.y}" r="${r}" fill="${isLast ? color : 'rgba(255,255,255,.4)'}" stroke="${isLast ? '#fff' : 'none'}" stroke-width="${isLast ? 1 : 0}"/>`;
+      // Value label on each dot
+      svg += `<text x="${p.x}" y="${p.y - 6}" text-anchor="middle" font-size="7" fill="rgba(255,255,255,.55)" font-weight="${isLast ? '700' : '400'}" font-family="system-ui">${fmtVal(p.v)}</text>`;
+    });
+  }
+
+  svg += '</svg>';
+
+  // Scale labels
+  const scaleHigh = cfg.max != null ? Math.round(cfg.max) : Math.round(Math.max(...valid));
+  const scaleMid = Math.round((dataMin + dataMax) / 2);
+  const scaleLow = cfg.min != null ? Math.round(cfg.min) : Math.round(Math.min(...valid));
+
+  return `<div class="trend-chart">
+    <div class="trend-header">
+      <span class="trend-title">${label}</span>
+      <span class="trend-current">${currentStr}</span>
+    </div>
+    <div class="trend-chart-wrap">
+      ${svg}
+      <div class="trend-scale">
+        <span>${scaleHigh}</span>
+        <span>${scaleMid}</span>
+        <span>${scaleLow}</span>
+      </div>
+    </div>
+    <div class="trend-days">${dayLabels.map(d => `<span>${d}</span>`).join('')}</div>
+  </div>`;
 }
 
 // ==================== KPI DRILL-DOWN SHEET ====================
