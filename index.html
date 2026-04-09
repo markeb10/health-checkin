@@ -3124,7 +3124,8 @@ async function renderSparklines(currentDateStr) {
   if (hasStrain) charts.push({label:'Strain', vals:strainVals, min:0, max:21, unit:'', color:'#fb923c', fmt:v=>v.toFixed(1)});
   if (hasZoe) charts.push({label:'Zoe Score', vals:zoeVals, min:0, max:100, unit:'', color:'#6b9e6f', fmt:v=>v});
   if (hasSteps) {
-    charts.push({label:'Steps', vals:stepVals, min:0, max:null, unit:'k', color:'#C4956A', fmt:v=>Math.round(v/1000)+'k'});
+    const kmVals = stepVals.map(s => s != null ? Math.round(s * 0.00075 * 10) / 10 : null);
+    charts.push({label:'Distance', vals:kmVals, min:0, max:null, unit:'km', color:'#C4956A', fmt:v=>v+' km'});
   }
 
   charts.forEach(c => {
