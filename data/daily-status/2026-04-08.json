@@ -1,6 +1,6 @@
 {
   "date": "2026-04-08",
-  "generated_at": "2026-04-08T21:24:45.780565",
+  "generated_at": "2026-04-09T08:00:05.430952",
   "whoop": {
     "imported": true,
     "recovery": 93.0,
@@ -22,10 +22,16 @@
     "disturbances": 8,
     "sleep_needed_hrs": 9.0,
     "sleep_debt_hrs": 1.0,
-    "calories": 1658,
+    "calories": 1838,
     "avg_hr": 60,
     "max_hr": 155,
     "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
       {
         "sport": "Functional Fitness",
         "calories": 313,
