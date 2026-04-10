@@ -1,13 +1,13 @@
 {
   "date": "2026-04-10",
-  "generated_at": "2026-04-10T08:00:07.959426",
+  "generated_at": "2026-04-10T10:30:14.017233",
   "whoop": {
     "imported": true,
     "recovery": 48.0,
     "hrv": 34.3,
     "rhr": 47.0,
     "sleep_perf": 82.0,
-    "strain": 0.3,
+    "strain": 4.2,
     "sleep_hrs": 6.2,
     "spo2": 96.5,
     "skin_temp": 34.0,
@@ -22,16 +22,49 @@
     "disturbances": 8,
     "sleep_needed_hrs": 9.5,
     "sleep_debt_hrs": 1.6,
-    "calories": 571,
-    "avg_hr": 49,
-    "max_hr": 96,
-    "workouts": []
+    "calories": 741,
+    "avg_hr": 53,
+    "max_hr": 113,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 29,
+        "avg_hr": 90,
+        "max_hr": 113
+      }
+    ]
   },
   "apple_health": {
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 6,
+    "energy": 5,
+    "sleep_quality": 6,
+    "supplements": 3,
+    "journal": "Grateful for: Claude so that I can make my own tools, cosita family friend \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, being calm, well, healthy, i cant get hard but its okey, my health\nToday great: Connecting with Tamara, ping pong session, duo lingo, making a plan for new things, no therapy day , yeey, do petra osmice and cross leg exercise\nAffirmation: All I need is within me now\nDid today: Did the blood test we were planning from last conversation. Results pending, will add values once they come back.",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "06:06",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "06:06",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "06:06",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 2
   },
   "zoe": {
     "imported": false
