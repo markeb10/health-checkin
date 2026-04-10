@@ -432,6 +432,14 @@ input[type=number]{width:70px;text-align:center}
   display:flex;align-items:center;gap:10px;font-weight:500}
 .missing-banner .missing-icon{font-size:16px;flex-shrink:0}
 
+/* Wake-up risk banner */
+.wake-risk-banner{background:linear-gradient(135deg,rgba(220,80,80,.12),rgba(220,80,80,.04));
+  border:1.5px solid rgba(220,80,80,.35);border-radius:14px;padding:14px 18px;margin:8px 0 16px;
+  display:flex;align-items:flex-start;gap:12px}
+.wake-risk-icon{font-size:22px;flex-shrink:0;color:#dc5050}
+.wake-risk-title{font-size:14px;font-weight:700;color:#dc5050;margin-bottom:3px}
+.wake-risk-sub{font-size:12.5px;color:var(--text-dim);line-height:1.45}
+
 /* Dashboard journal */
 .dash-journal{margin-bottom:16px}
 .dash-journal-section{background:var(--card);border-radius:16px;padding:20px;margin-bottom:10px;box-shadow:var(--shadow)}
@@ -2826,6 +2834,7 @@ async function loadDashboard() {
   const a = data.apple_health || {};
   const c = data.checkin || {};
   const z = data.zoe || {};
+  const localData = JSON.parse(localStorage.getItem('checkin-' + dateStr) || 'null');
 
   // KPI grid
   html += '<div class="kpi-grid">';
@@ -2895,7 +2904,63 @@ async function loadDashboard() {
     <div class="kpi-sub">${a.imported && a.daylight_mins ? a.daylight_mins + ' min daylight' + delta(a.daylight_mins, pa.daylight_mins, true, false, 0) : ''}</div>
   </div>`;
 
+  // 7. Fuel Balance (calories in vs out + BMR)
+  const BMR = 1700; // Marko, 44yo male, ~75kg
+  const calsIn = z.imported ? (z.calories || null) : null;
+  const activeCals = a.imported ? (a.active_calories || null) : null;
+  // Fall back to WHOOP calories if Apple Health active not available
+  const burnTotal = activeCals != null ? (activeCals + BMR) : (wCals != null ? wCals : null);
+  let fuelNet = null, fuelColor = '', fuelLabel = '--', fuelSub = 'No data';
+  if (calsIn != null && burnTotal != null) {
+    fuelNet = calsIn - burnTotal;
+    if (fuelNet <= -2000) fuelColor = 'kpi-red';
+    else if (fuelNet <= -1000) fuelColor = 'kpi-yellow';
+    else if (fuelNet >= 500) fuelColor = 'kpi-blue';
+    else fuelColor = 'kpi-green';
+    const sign = fuelNet >= 0 ? '+' : '';
+    fuelLabel = sign + Math.round(fuelNet) + '<span class="kpi-unit">cal</span>';
+    fuelSub = `${calsIn} in / ${Math.round(burnTotal)} out`;
+  } else if (calsIn != null) {
+    fuelLabel = calsIn + '<span class="kpi-unit">in</span>';
+    fuelSub = 'no burn data yet';
+  }
+  html += `<div class="kpi-card ${fuelNet==null&&calsIn==null?'no-data':''}" onclick="openKpiSheet('fuel')">
+    <div class="kpi-label">Fuel Balance</div>
+    <div class="kpi-value ${fuelColor}">${fuelLabel}</div>
+    <div class="kpi-sub">${fuelSub}</div>
+  </div>`;
+
   html += '</div>'; // close kpi-grid
+
+  // 5am Wake-Up Risk Alert
+  // Triggers when: big calorie deficit + late activity + early/no last meal
+  const lastMealStr = (typeof localData !== 'undefined' && localData) ? localData.last_meal_time : null;
+  let wakeRisk = false, wakeReasons = [];
+  if (fuelNet != null && fuelNet <= -1500) {
+    wakeRisk = true;
+    wakeReasons.push(`${Math.abs(Math.round(fuelNet))} cal deficit`);
+  }
+  if (lastMealStr) {
+    const [lh, lm] = lastMealStr.split(':').map(Number);
+    const lastMealHr = lh + (lm||0)/60;
+    if (lastMealHr < 18 && (activeCals == null || activeCals > 800)) {
+      wakeRisk = true;
+      wakeReasons.push(`last meal ${lastMealStr}`);
+    }
+  }
+  if (activeCals != null && activeCals > 2000 && (calsIn == null || calsIn < burnTotal * 0.6)) {
+    wakeRisk = true;
+    if (!wakeReasons.some(r => r.includes('deficit'))) wakeReasons.push('high burn, low fuel');
+  }
+  if (wakeRisk && todayCheck.getTime() === selCheck.getTime()) {
+    html += `<div class="wake-risk-banner">
+      <span class="wake-risk-icon">&#9888;</span>
+      <div>
+        <div class="wake-risk-title">5am wake-up risk tonight</div>
+        <div class="wake-risk-sub">${wakeReasons.join(' &middot; ')}. Eat a real dinner with carbs around 7pm to blunt the cortisol spike.</div>
+      </div>
+    </div>`;
+  }
 
   // Missing data banner
   const missing = [];
@@ -2908,7 +2973,6 @@ async function loadDashboard() {
   }
 
   // Journal entries section - from localStorage (today) OR from status file (historical)
-  const localData = JSON.parse(localStorage.getItem('checkin-' + dateStr) || 'null');
   const hasLocalJournal = localData && (localData.morning_saved || localData.evening_saved);
   const hasRemoteJournal = c.imported && (c.journal || c.supplements_list);
 
@@ -3372,6 +3436,31 @@ function openKpiSheet(type) {
     html = sheetRow('Weight', a.imported && a.weight_kg ? a.weight_kg + ' kg' : '--')
       + sheetRow('Daylight', a.imported && a.daylight_mins ? a.daylight_mins + ' min' : '--')
       + sheetRow('Steps', a.imported ? a.steps?.toLocaleString() : '--');
+  } else if (type === 'fuel') {
+    const z = data.zoe || {};
+    const a = data.apple_health || {};
+    const w = data.whoop || {};
+    const BMR = 1700;
+    const calsIn = z.imported ? (z.calories || null) : null;
+    const activeCals = a.imported ? (a.active_calories || null) : null;
+    const burnTotal = activeCals != null ? (activeCals + BMR) : (w.calories || null);
+    const net = (calsIn != null && burnTotal != null) ? calsIn - burnTotal : null;
+    title.textContent = 'Fuel Balance';
+    html = sheetSection('In')
+      + sheetRow('Calories (Zoe)', calsIn != null ? calsIn + ' kcal' : '--')
+      + sheetRow('Protein', z.protein_g ? z.protein_g + ' g' : '--')
+      + sheetRow('Fat', z.fat_g ? z.fat_g + ' g' : '--')
+      + sheetRow('Carbs', z.carbs_g ? z.carbs_g + ' g' : '--')
+      + sheetRow('Fibre', z.fibre_g ? z.fibre_g + ' g' : '--')
+      + sheetSection('Out')
+      + sheetRow('BMR (est.)', BMR + ' kcal')
+      + sheetRow('Active (Watch)', activeCals != null ? Math.round(activeCals) + ' kcal' : '--')
+      + sheetRow('Total Burn', burnTotal != null ? Math.round(burnTotal) + ' kcal' : '--')
+      + sheetSection('Balance')
+      + sheetRow('Net', net != null ? (net >= 0 ? '+' : '') + Math.round(net) + ' kcal' : '--',
+          net != null ? (net <= -2000 ? '#f87171' : net <= -1000 ? '#f59e0b' : '#4ade80') : null)
+      + (net != null && net <= -1500 ?
+        '<div style="margin-top:14px;padding:12px;background:rgba(220,80,80,.08);border-radius:10px;font-size:12.5px;color:var(--text-dim);line-height:1.5">Big deficit raises 5am wake-up risk via cortisol spike + empty stomach. Eat carbs at dinner around 7pm.</div>' : '');
   }
 
   content.innerHTML = html;
