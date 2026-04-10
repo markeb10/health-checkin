@@ -1,6 +1,6 @@
 {
   "date": "2026-04-09",
-  "generated_at": "2026-04-09T22:29:33.847044",
+  "generated_at": "2026-04-10T07:56:35.897273",
   "whoop": {
     "imported": true,
     "recovery": 75.0,
@@ -22,10 +22,16 @@
     "disturbances": 4,
     "sleep_needed_hrs": 9.0,
     "sleep_debt_hrs": 1.4,
-    "calories": 2131,
+    "calories": 2173,
     "avg_hr": 65,
     "max_hr": 176,
     "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
       {
         "sport": "Walking",
         "calories": 487,
@@ -35,28 +41,7 @@
     ]
   },
   "apple_health": {
-    "imported": true,
-    "steps": 18384,
-    "active_calories": 3758.0,
-    "exercise_minutes": 98.0,
-    "stand_hours": 225.0,
-    "daylight_mins": 24.0,
-    "noise_db": 63.6,
-    "distance_km": 21.35,
-    "flights_climbed": 3,
-    "vo2max": 39.6
-  },
-  "apple_watch": {
-    "imported": true,
-    "steps": 18384,
-    "active_calories": 3758.0,
-    "exercise_minutes": 98.0,
-    "stand_hours": 225.0,
-    "daylight_mins": 24.0,
-    "noise_db": 63.6,
-    "distance_km": 21.35,
-    "flights_climbed": 3,
-    "vo2max": 39.6
+    "imported": false
   },
   "checkin": {
     "imported": false
@@ -80,7 +65,6 @@
         "fat_g": 17.3,
         "carbs_g": 25.8,
         "fibre_g": 4.9,
-        "meal_time": "5:29 PM",
         "ingredients": [
           {
             "name": "Almond butter, crunchy",
@@ -107,7 +91,6 @@
         "fat_g": 0.5,
         "carbs_g": 24.3,
         "fibre_g": 6.3,
-        "meal_time": "2:05 PM",
         "ingredients": [
           {
             "name": "Simply Organic Yellow Split Pea Soup, \u00bd \u00d7 pot",
@@ -124,7 +107,6 @@
         "fat_g": 13.7,
         "carbs_g": 2.0,
         "fibre_g": 1.0,
-        "meal_time": "1:51 PM",
         "ingredients": [
           {
             "name": "Chicken mince",
@@ -171,7 +153,6 @@
         "fat_g": 21.9,
         "carbs_g": 20.5,
         "fibre_g": 2.3,
-        "meal_time": "10:28 AM",
         "ingredients": [
           {
             "name": "Bread, white, toasted, \u00bd \u00d7 large slice",
@@ -198,7 +179,6 @@
         "fat_g": 12.0,
         "carbs_g": 28.4,
         "fibre_g": 4.4,
-        "meal_time": "7:17 AM",
         "ingredients": [
           {
             "name": "Almond butter, crunchy",
@@ -218,12 +198,11 @@
         ]
       }
     ],
-    "avg_score": 67.0,
-    "calories": 1302.0,
-    "protein_g": 80.8,
-    "fat_g": 65.4,
-    "carbs_g": 101.0,
-    "fibre_g": 18.9,
-    "last_meal_time": "17:29"
+    "avg_score": null,
+    "calories": null,
+    "protein_g": null,
+    "fat_g": null,
+    "carbs_g": null,
+    "fibre_g": null
   }
 }
