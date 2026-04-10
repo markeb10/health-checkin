@@ -493,6 +493,21 @@ input[type=number]{width:70px;text-align:center}
 .mind-distortion b{color:var(--text);text-transform:capitalize}
 .mind-distortion-hint{display:block;margin-left:18px;font-style:italic;color:var(--muted);font-size:11px}
 
+/* Morning reflection card */
+.reflection-card{background:linear-gradient(180deg,rgba(196,149,86,.10),rgba(196,149,86,.02));
+  border:1px solid rgba(196,149,86,.3);border-radius:18px;padding:20px 22px;margin-bottom:20px;
+  box-shadow:0 2px 10px rgba(0,0,0,.04)}
+.reflection-header{display:flex;align-items:center;gap:8px;margin-bottom:12px}
+.reflection-icon{font-size:20px;color:#C4956A}
+.reflection-title{font-size:14px;font-weight:700;color:#C4956A;letter-spacing:.3px;text-transform:uppercase}
+.reflection-date{font-size:11px;color:var(--muted);font-style:italic}
+.reflection-body{font-family:var(--serif,Georgia,serif);font-size:15px;line-height:1.65;color:var(--text);margin-bottom:14px}
+.reflection-body p{margin:0 0 10px}
+.reflection-body p:last-child{margin-bottom:0}
+.reflection-focus{display:flex;flex-direction:column;gap:3px;padding:12px 14px;background:rgba(196,149,86,.10);border-radius:10px;border-left:3px solid #C4956A}
+.reflection-focus-label{font-size:10px;color:#C4956A;text-transform:uppercase;letter-spacing:.6px;font-weight:600}
+.reflection-focus-text{font-size:13.5px;color:var(--text);font-weight:500}
+
 /* Dashboard journal */
 .dash-journal{margin-bottom:16px}
 .dash-journal-section{background:var(--card);border-radius:16px;padding:20px;margin-bottom:10px;box-shadow:var(--shadow)}
@@ -2639,9 +2654,37 @@ async function confirmDelete() {
 }
 
 // ==================== STREAK ====================
+const remoteCompleteDays = new Set();
+async function prefetchRemoteStreakDays() {
+  // Pull last 90 days of daily-status, mark days complete if checkin block
+  // has both morning fields (sleep_quality/mood) and evening fields (energy_afternoon/evening/bloating)
+  const today = new Date(); today.setHours(0,0,0,0);
+  const fetches = [];
+  for (let i = 0; i < 90; i++) {
+    const d = new Date(today); d.setDate(d.getDate() - i);
+    const ds = fmt(d);
+    fetches.push(fetch(`./data/daily-status/${ds}.json`, { cache: 'no-cache' })
+      .then(r => r.ok ? r.json() : null)
+      .then(j => {
+        if (!j || !j.checkin || !j.checkin.imported) return;
+        const c = j.checkin;
+        const hasMorning = c.mood != null || c.sleep_quality != null;
+        const hasEvening = c.energy_afternoon != null || c.energy_evening != null || c.bloating != null;
+        if (hasMorning && hasEvening) remoteCompleteDays.add(ds);
+      })
+      .catch(() => {}));
+  }
+  await Promise.all(fetches);
+  // Refresh streak display once remote data is in
+  if (typeof updateStreak === 'function') updateStreak();
+}
+
 function isDayComplete(key) {
   const data = JSON.parse(localStorage.getItem(key) || 'null');
-  return data && data.morning_saved && data.evening_saved;
+  if (data && data.morning_saved && data.evening_saved) return true;
+  // Fallback: check remote daily-status data
+  const ds = key.replace('checkin-', '');
+  return remoteCompleteDays.has(ds);
 }
 
 function calcStreak() {
@@ -2889,6 +2932,20 @@ async function fetchStatusData(dateStr) {
   }
 
   statusCache[dateStr] = { data, fetchedAt: Date.now() };
+  return data;
+}
+
+const reflectionCache = {};
+async function fetchReflection(dateStr) {
+  if (reflectionCache[dateStr] && (Date.now() - reflectionCache[dateStr].fetchedAt < 60000)) {
+    return reflectionCache[dateStr].data;
+  }
+  let data = null;
+  try {
+    const r = await fetch(`./data/reflections/${dateStr}.json`, { cache: 'no-cache' });
+    if (r.ok) data = await r.json();
+  } catch {}
+  reflectionCache[dateStr] = { data, fetchedAt: Date.now() };
   return data;
 }
 
@@ -3173,8 +3230,32 @@ async function loadDashboard() {
 
   const todayCheck = new Date(); todayCheck.setHours(0,0,0,0);
   const selCheck = new Date(currentDate); selCheck.setHours(0,0,0,0);
-  const dayLabel = todayCheck.getTime() === selCheck.getTime() ? 'Today' : friendlyDate(currentDate);
-  let html = `<div class="dash-section-title">${dayLabel} at a Glance</div>`;
+  const isToday = todayCheck.getTime() === selCheck.getTime();
+  const dayLabel = isToday ? 'Today' : friendlyDate(currentDate);
+
+  let html = '';
+
+  // Morning therapist reflection (top of dashboard)
+  const reflection = await fetchReflection(dateStr);
+  if (reflection && reflection.reflection) {
+    const reflectionHtml = reflection.reflection
+      .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+      .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+      .replace(/\*(.+?)\*/g, '<i>$1</i>')
+      .replace(/\n\n/g, '</p><p>')
+      .replace(/\n/g, '<br>');
+    html += `<div class="reflection-card">
+      <div class="reflection-header">
+        <span class="reflection-icon">&#9728;</span>
+        <span class="reflection-title">Morning reflection</span>
+        <span class="reflection-date">on yesterday</span>
+      </div>
+      <div class="reflection-body"><p>${reflectionHtml}</p></div>
+      ${reflection.focus_for_today ? `<div class="reflection-focus"><span class="reflection-focus-label">One thing for today</span><span class="reflection-focus-text">${reflection.focus_for_today}</span></div>` : ''}
+    </div>`;
+  }
+
+  html += `<div class="dash-section-title">${dayLabel} at a Glance</div>`;
 
   const w = data.whoop || {};
   const a = data.apple_health || {};
@@ -3832,6 +3913,7 @@ function closeSheet() {
 // Set initial view
 switchView(currentView);
 updateStreak();
+prefetchRemoteStreakDays();
 loadDay();
 if (currentView === 'dashboard') loadDashboard();
 if ('serviceWorker' in navigator) {
