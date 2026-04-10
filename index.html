@@ -440,6 +440,59 @@ input[type=number]{width:70px;text-align:center}
 .wake-risk-title{font-size:14px;font-weight:700;color:#dc5050;margin-bottom:3px}
 .wake-risk-sub{font-size:12.5px;color:var(--text-dim);line-height:1.45}
 
+/* Mind / CBT card */
+.mind-card{border:1px solid rgba(139,123,175,.25);background:linear-gradient(180deg,rgba(139,123,175,.04),transparent)}
+.mind-card h2{color:#8B7BAF}
+.mind-hint{font-size:12px;color:var(--muted);margin:-4px 0 12px;font-style:italic}
+.mind-section{margin-top:18px;padding-top:16px;border-top:1px solid rgba(139,123,175,.15)}
+.mind-section:first-of-type{margin-top:8px;padding-top:0;border-top:none}
+.mind-section-title{font-size:14px;font-weight:600;color:var(--text);margin-bottom:4px}
+.mind-sub{font-size:12px;color:var(--muted);margin-bottom:8px;line-height:1.4}
+.mind-row{display:flex;align-items:center;gap:12px;margin-top:8px}
+.mind-timer-btn{background:rgba(139,123,175,.12);border:1px solid rgba(139,123,175,.35);color:#8B7BAF;
+  padding:8px 14px;border-radius:10px;font-size:13px;font-weight:500;cursor:pointer}
+.mind-timer-btn:active{transform:scale(.97)}
+.mind-timer-display{font-size:14px;font-weight:600;color:#8B7BAF;font-variant-numeric:tabular-nums}
+.mind-park{margin-top:10px;padding:10px 12px;background:rgba(139,123,175,.08);border-radius:10px;
+  font-size:12.5px;color:#8B7BAF;font-style:italic;text-align:center}
+.mind-toggle-btn{width:100%;background:transparent;border:1px dashed rgba(139,123,175,.35);
+  color:#8B7BAF;padding:12px 14px;border-radius:10px;font-size:13.5px;font-weight:500;
+  cursor:pointer;display:flex;justify-content:space-between;align-items:center}
+.mind-toggle-btn .toggle-arrow{transition:transform .2s}
+.mind-toggle-btn.open .toggle-arrow{transform:rotate(180deg)}
+.mind-thought-record{margin-top:12px;padding:12px;background:rgba(139,123,175,.04);border-radius:10px}
+.mind-label{display:block;font-size:12px;font-weight:600;color:var(--text-dim);margin:10px 0 4px}
+.winddown-row{display:flex;flex-direction:column;gap:8px;margin-top:8px}
+.winddown-item{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--text);cursor:pointer}
+.winddown-item input[type="checkbox"]{width:18px;height:18px;accent-color:#8B7BAF;flex-shrink:0}
+
+/* Mind & Sleep dashboard panel */
+.mind-sleep-panel{background:linear-gradient(180deg,rgba(139,123,175,.06),rgba(139,123,175,.02));
+  border:1px solid rgba(139,123,175,.2);border-radius:16px;padding:18px;margin:8px 0 16px}
+.mind-sleep-title{font-size:15px;font-weight:600;color:#8B7BAF;margin-bottom:14px;letter-spacing:-.2px}
+.mind-row-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:14px}
+.mind-stat{background:rgba(255,255,255,.4);border-radius:12px;padding:12px}
+.mind-stat-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.mind-stat-value{font-size:22px;font-weight:700;font-variant-numeric:tabular-nums;line-height:1.1}
+.mind-stat-sub{font-size:11px;color:var(--text-dim);margin-top:3px}
+.mind-correlation{background:rgba(139,123,175,.06);border-radius:10px;padding:10px 12px;margin-bottom:12px;font-size:12.5px;color:var(--text-dim)}
+.mind-corr-label{font-weight:600;color:var(--text);display:inline-block;margin-right:6px}
+.mind-corr-insight{margin-top:6px;font-size:12px;color:#8B7BAF;font-style:italic}
+.mind-progress{display:flex;flex-direction:column;gap:6px;margin-bottom:12px;background:rgba(255,255,255,.3);border-radius:10px;padding:10px 12px}
+.mind-progress-item{font-size:13px;color:var(--text-dim);display:flex;align-items:center;gap:8px}
+.mind-progress-item.done{color:var(--text)}
+.mind-check{display:inline-block;width:16px;color:#8B7BAF;font-size:13px}
+.mind-delta-good{background:rgba(74,222,128,.15);color:#22a560;padding:2px 6px;border-radius:6px;font-size:11px;font-weight:600;margin-left:6px}
+.mind-themes{margin-bottom:12px}
+.mind-themes-label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+.mind-cloud{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline}
+.mind-cloud-word{color:#8B7BAF;font-weight:500}
+.mind-distortions{background:rgba(245,158,11,.06);border-left:3px solid #f59e0b;border-radius:8px;padding:10px 12px}
+.mind-distortions-label{font-size:11px;color:#f59e0b;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;font-weight:600}
+.mind-distortion{font-size:12px;color:var(--text-dim);margin-bottom:4px;line-height:1.4}
+.mind-distortion b{color:var(--text);text-transform:capitalize}
+.mind-distortion-hint{display:block;margin-left:18px;font-style:italic;color:var(--muted);font-size:11px}
+
 /* Dashboard journal */
 .dash-journal{margin-bottom:16px}
 .dash-journal-section{background:var(--card);border-radius:16px;padding:20px;margin-bottom:10px;box-shadow:var(--shadow)}
@@ -626,6 +679,12 @@ input[type=number]{width:70px;text-align:center}
         <textarea data-field="sleep_notes" placeholder="Woke at 4am, gut grumbling..." oninput="autoSave()"></textarea>
       </div>
 
+      <div class="card mind-card">
+        <h2>&#129504; First thought catch</h2>
+        <div class="mind-hint">10 seconds. What's the first worry your brain handed you when you woke up?</div>
+        <textarea data-field="first_worry" placeholder="The thing my brain went to..." style="min-height:60px" oninput="autoSave()"></textarea>
+      </div>
+
       <div class="card">
         <h2>I am grateful for...</h2>
         <textarea data-field="gratitude_raw" placeholder="1. My health, the sunshine today..." style="min-height:80px" oninput="autoSave()"></textarea>
@@ -764,6 +823,83 @@ input[type=number]{width:70px;text-align:center}
       <div class="card">
         <h2>How could today have been better?</h2>
         <textarea data-field="could_be_better" placeholder="Just talk..." style="min-height:60px" oninput="autoSave()"></textarea>
+      </div>
+
+      <div class="card mind-card">
+        <h2>&#129504; Mind</h2>
+        <div class="mind-hint">CBT tools. Use what you need, skip what you don't.</div>
+
+        <div class="mind-section">
+          <div class="mind-section-title">&#128168; Worry Dump</div>
+          <div class="mind-sub">Brain, dump everything you're carrying. 5 min max, then park it.</div>
+          <textarea data-field="worry_dump" placeholder="Everything that's swirling around..." style="min-height:100px" oninput="autoSave()"></textarea>
+          <div class="mind-row">
+            <button class="mind-timer-btn" onclick="startWorryTimer()" id="worry-timer-btn">Start 5 min timer</button>
+            <span class="mind-timer-display" id="worry-timer-display"></span>
+          </div>
+          <div class="mind-park" id="worry-park" style="display:none">Park it. It will still be here tomorrow if it matters.</div>
+        </div>
+
+        <div class="mind-section">
+          <button class="mind-toggle-btn" onclick="toggleThoughtRecord()" id="thought-toggle-btn">
+            &#128221; Did something hit you today? <span class="toggle-arrow">&#9662;</span>
+          </button>
+          <div class="mind-thought-record" id="thought-record" style="display:none">
+            <div class="mind-sub">Thought record. Catch the spiral, find the truer version.</div>
+            <label class="mind-label">Trigger - what happened?</label>
+            <textarea data-field="cbt_trigger" placeholder="The meeting went sideways..." style="min-height:50px" oninput="autoSave()"></textarea>
+
+            <label class="mind-label">Thought - what did your brain say?</label>
+            <textarea data-field="cbt_thought" placeholder="I'll fail this..." style="min-height:50px" oninput="autoSave()"></textarea>
+
+            <label class="mind-label">Feeling + intensity</label>
+            <input type="text" data-field="cbt_feeling" placeholder="anxious" oninput="autoSave()" style="width:100%;margin-bottom:8px">
+            <div class="slider-row">
+              <span class="slider-label">Intensity</span>
+              <div class="slider-wrap"><input type="range" min="0" max="10" value="5" data-field="cbt_intensity_before" oninput="onSlider(this)"></div>
+              <span class="slider-val">5</span>
+            </div>
+
+            <label class="mind-label">Evidence - is it 100% true? counter-evidence?</label>
+            <textarea data-field="cbt_evidence" placeholder="Times this didn't happen..." style="min-height:50px" oninput="autoSave()"></textarea>
+
+            <label class="mind-label">Reframe - balanced version</label>
+            <textarea data-field="cbt_reframe" placeholder="A more accurate way to see it..." style="min-height:50px" oninput="autoSave()"></textarea>
+
+            <div class="slider-row">
+              <span class="slider-label">New intensity</span>
+              <div class="slider-wrap"><input type="range" min="0" max="10" value="5" data-field="cbt_intensity_after" oninput="onSlider(this)"></div>
+              <span class="slider-val">5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="mind-section">
+          <div class="mind-section-title">&#128164; Sleep window (CBT-I)</div>
+          <div class="mind-sub">Stimulus control. Same bedtime, only sleep in bed.</div>
+          <div class="time-row">
+            <label>Target bedtime</label>
+            <input type="time" data-field="target_bedtime" oninput="autoSave()">
+          </div>
+          <div class="winddown-row">
+            <label class="winddown-item">
+              <input type="checkbox" data-field="wd_screens" oninput="autoSave()">
+              <span>Screens off 30 min before</span>
+            </label>
+            <label class="winddown-item">
+              <input type="checkbox" data-field="wd_breath" oninput="autoSave()">
+              <span>Breathwork or pelvic floor</span>
+            </label>
+            <label class="winddown-item">
+              <input type="checkbox" data-field="wd_lights" oninput="autoSave()">
+              <span>Lights low / red light</span>
+            </label>
+          </div>
+          <label class="winddown-item" style="margin-top:8px">
+            <input type="checkbox" data-field="got_out_of_bed" oninput="autoSave()">
+            <span>Got out of bed during night (stimulus control)</span>
+          </label>
+        </div>
       </div>
 
       <div class="card">
@@ -1023,6 +1159,8 @@ function autoSave() {
       const f = el.dataset.field;
       if (el.type === 'range' || el.type === 'number') {
         data[f] = el.value ? Number(el.value) : null;
+      } else if (el.type === 'checkbox') {
+        data[f] = el.checked;
       } else {
         data[f] = el.value || null;
       }
@@ -1599,6 +1737,8 @@ function loadFields() {
     if (el.type === 'range') {
       el.value = v != null ? v : (el.min === '0' ? 0 : 5);
       el.parentElement.nextElementSibling.textContent = el.value;
+    } else if (el.type === 'checkbox') {
+      el.checked = !!v;
     } else if (v != null) {
       el.value = v;
     } else {
@@ -2376,6 +2516,47 @@ function pollZoeStatus(st, host) {
   }, 2000);
 }
 
+// ==================== MIND / CBT ====================
+let _worryTimerInterval = null;
+function startWorryTimer() {
+  const btn = document.getElementById('worry-timer-btn');
+  const display = document.getElementById('worry-timer-display');
+  const park = document.getElementById('worry-park');
+  if (_worryTimerInterval) {
+    clearInterval(_worryTimerInterval);
+    _worryTimerInterval = null;
+    btn.textContent = 'Start 5 min timer';
+    display.textContent = '';
+    return;
+  }
+  let secs = 5 * 60;
+  btn.textContent = 'Stop';
+  park.style.display = 'none';
+  display.textContent = '5:00';
+  _worryTimerInterval = setInterval(() => {
+    secs--;
+    const m = Math.floor(secs / 60);
+    const s = secs % 60;
+    display.textContent = m + ':' + (s < 10 ? '0' : '') + s;
+    if (secs <= 0) {
+      clearInterval(_worryTimerInterval);
+      _worryTimerInterval = null;
+      btn.textContent = 'Done';
+      display.textContent = '';
+      park.style.display = 'block';
+      try { navigator.vibrate && navigator.vibrate([200,100,200]); } catch {}
+    }
+  }, 1000);
+}
+
+function toggleThoughtRecord() {
+  const tr = document.getElementById('thought-record');
+  const btn = document.getElementById('thought-toggle-btn');
+  const open = tr.style.display === 'none' || !tr.style.display;
+  tr.style.display = open ? 'block' : 'none';
+  btn.classList.toggle('open', open);
+}
+
 // ==================== TOAST ====================
 function showToast(msg, isEvening, type) {
   const t = document.getElementById('saveToast');
@@ -2424,7 +2605,7 @@ async function confirmDelete() {
   if (section === 'morning') {
     // Remove morning fields
     const morningFields = ['sleep_quality_subjective','mood_score','energy_morning','pain_score',
-      'anxiety_score','sleep_notes','gratitude_raw','make_today_great','affirmation','morning_supplements'];
+      'anxiety_score','sleep_notes','first_worry','gratitude_raw','make_today_great','affirmation','morning_supplements'];
     morningFields.forEach(f => delete data[f]);
     delete data.morning_saved;
     delete data.morning_saved_at;
@@ -2433,7 +2614,10 @@ async function confirmDelete() {
     const eveningFields = ['energy_afternoon','energy_evening','mood_evening','pain_evening',
       'bloating_score','acidity_score','bowel_movements','stool_type','last_meal_time',
       'amazing_raw','ideas_raw','could_be_better',
-      'screen_off_time','evening_notes','evening_supplements','done_today'];
+      'screen_off_time','evening_notes','evening_supplements','done_today',
+      'worry_dump','cbt_trigger','cbt_thought','cbt_feeling','cbt_intensity_before',
+      'cbt_evidence','cbt_reframe','cbt_intensity_after',
+      'target_bedtime','wd_screens','wd_breath','wd_lights','got_out_of_bed'];
     eveningFields.forEach(f => delete data[f]);
     delete data.evening_saved;
     delete data.evening_saved_at;
@@ -2795,6 +2979,168 @@ function renderDayStatus(data) {
   return html;
 }
 
+// ==================== MIND & SLEEP PANEL ====================
+const COGNITIVE_PATTERNS = {
+  'all-or-nothing': /\b(always|never|everyone|nobody|nothing|everything|completely|totally|entirely)\b/gi,
+  'catastrophizing': /\b(disaster|terrible|awful|horrible|the worst|ruined|doomed|catastrophe|nightmare)\b/gi,
+  'mind-reading': /\b(they think|he thinks|she thinks|they hate|they don't like|they're judging|knows i)\b/gi,
+  'fortune-telling': /\b(will fail|won't work|going to|will never|will always|i'll lose|i'll be)\b/gi,
+  'should-statements': /\b(should|must|have to|ought to|supposed to)\b/gi,
+  'personalization': /\b(my fault|because of me|i caused|i made them)\b/gi,
+};
+
+function detectDistortions(text) {
+  if (!text) return [];
+  const found = [];
+  for (const [name, regex] of Object.entries(COGNITIVE_PATTERNS)) {
+    const matches = text.match(regex);
+    if (matches && matches.length > 0) {
+      found.push({ name, count: matches.length });
+    }
+  }
+  return found.sort((a,b) => b.count - a.count);
+}
+
+async function buildMindSleepPanel(date, w, localData, pw) {
+  // Pull last 7 days of checkins from localStorage for trends
+  const days = [];
+  for (let i = 6; i >= 0; i--) {
+    const d = new Date(date);
+    d.setDate(d.getDate() - i);
+    const ds = fmt(d);
+    const ld = JSON.parse(localStorage.getItem('checkin-' + ds) || 'null');
+    const sd = await fetchStatusData(ds);
+    days.push({ date: ds, local: ld, status: sd });
+  }
+
+  // Sleep efficiency (CBT-I core metric) from WHOOP
+  const sleepEff = w.imported && w.sleep_efficiency ? w.sleep_efficiency : null;
+  const effColor = sleepEff != null ? (sleepEff >= 85 ? '#4ade80' : sleepEff >= 75 ? '#f59e0b' : '#f87171') : 'var(--text-dim)';
+
+  // Bedtime variance over 7 days
+  const bedtimes = [];
+  days.forEach(d => {
+    const tb = d.local && d.local.target_bedtime;
+    if (tb) {
+      const [h,m] = tb.split(':').map(Number);
+      bedtimes.push(h * 60 + m);
+    }
+  });
+  let bedtimeVarianceMin = null;
+  if (bedtimes.length >= 3) {
+    const max = Math.max(...bedtimes);
+    const min = Math.min(...bedtimes);
+    bedtimeVarianceMin = max - min;
+  }
+
+  // Anxiety vs HRV correlation (simple: avg HRV on high-anxiety vs low-anxiety days)
+  const hiAnxHRVs = [], loAnxHRVs = [];
+  days.forEach(d => {
+    const anx = d.local && d.local.anxiety_score;
+    const hrv = d.status && d.status.whoop && d.status.whoop.hrv;
+    if (anx != null && hrv != null) {
+      if (anx >= 5) hiAnxHRVs.push(hrv);
+      else loAnxHRVs.push(hrv);
+    }
+  });
+  const hiAvg = hiAnxHRVs.length ? Math.round(hiAnxHRVs.reduce((a,b)=>a+b,0) / hiAnxHRVs.length) : null;
+  const loAvg = loAnxHRVs.length ? Math.round(loAnxHRVs.reduce((a,b)=>a+b,0) / loAnxHRVs.length) : null;
+  const anxHrvDelta = (hiAvg != null && loAvg != null) ? (loAvg - hiAvg) : null;
+
+  // Worry themes - aggregate first_worry + worry_dump from past 7 days
+  const allWorryText = days
+    .map(d => [(d.local && d.local.first_worry) || '', (d.local && d.local.worry_dump) || ''].join(' '))
+    .join(' ')
+    .toLowerCase();
+
+  // Top words (simple frequency, filter stopwords)
+  const STOPWORDS = new Set(['the','a','an','and','or','but','if','i','me','my','to','of','in','on','for','with','at','is','it','that','this','was','be','am','have','has','had','will','would','can','do','does','did','not','no','so','as','about','from','what','which','when','why','how','then','than','too','very','just','more','also','only','really']);
+  const words = allWorryText.match(/\b[a-z]{4,}\b/g) || [];
+  const freq = {};
+  words.forEach(w => { if (!STOPWORDS.has(w)) freq[w] = (freq[w] || 0) + 1; });
+  const topWords = Object.entries(freq).filter(([,n]) => n >= 2).sort((a,b)=>b[1]-a[1]).slice(0,8);
+
+  // Cognitive distortions in today's CBT thought + worry dump
+  const todayCBTText = [(localData && localData.cbt_thought) || '', (localData && localData.worry_dump) || '', (localData && localData.first_worry) || ''].join(' ');
+  const distortions = detectDistortions(todayCBTText);
+
+  // Today's CBT progress
+  const hasFirstWorry = localData && localData.first_worry;
+  const hasWorryDump = localData && localData.worry_dump;
+  const hasThoughtRecord = localData && localData.cbt_reframe;
+  const intensityDelta = (localData && localData.cbt_intensity_before != null && localData.cbt_intensity_after != null) ?
+    (localData.cbt_intensity_before - localData.cbt_intensity_after) : null;
+
+  let h = '<div class="mind-sleep-panel">';
+  h += '<div class="mind-sleep-title">&#129504; Mind &amp; Sleep</div>';
+
+  // Top row: Sleep Efficiency + Bedtime Variance
+  h += '<div class="mind-row-grid">';
+  h += `<div class="mind-stat">
+    <div class="mind-stat-label">Sleep Efficiency</div>
+    <div class="mind-stat-value" style="color:${effColor}">${sleepEff != null ? sleepEff + '%' : '--'}</div>
+    <div class="mind-stat-sub">CBT-I core. Target &gt;85%</div>
+  </div>`;
+  h += `<div class="mind-stat">
+    <div class="mind-stat-label">Bedtime Variance (7d)</div>
+    <div class="mind-stat-value" style="color:${bedtimeVarianceMin != null && bedtimeVarianceMin > 60 ? '#f59e0b' : '#4ade80'}">${bedtimeVarianceMin != null ? bedtimeVarianceMin + 'm' : '--'}</div>
+    <div class="mind-stat-sub">${bedtimeVarianceMin == null ? 'log target bedtime' : bedtimeVarianceMin > 60 ? 'circadian drift' : 'consistent'}</div>
+  </div>`;
+  h += '</div>';
+
+  // Anxiety vs HRV correlation
+  if (anxHrvDelta != null) {
+    const sign = anxHrvDelta > 0 ? '-' : '+';
+    h += `<div class="mind-correlation">
+      <span class="mind-corr-label">Anxiety vs HRV (7d):</span>
+      High-anxiety days: <b>${hiAvg}ms</b> &middot; Low-anxiety: <b>${loAvg}ms</b>
+      ${Math.abs(anxHrvDelta) >= 5 ? `<div class="mind-corr-insight">Your nervous system reacts. ${Math.abs(anxHrvDelta)}ms HRV ${anxHrvDelta > 0 ? 'drop' : 'gain'} when anxious. CBT works directly on this.</div>` : ''}
+    </div>`;
+  }
+
+  // Today's CBT progress
+  h += '<div class="mind-progress">';
+  h += `<div class="mind-progress-item ${hasFirstWorry ? 'done' : ''}"><span class="mind-check">${hasFirstWorry ? '&#10004;' : '&#9711;'}</span> First thought catch</div>`;
+  h += `<div class="mind-progress-item ${hasWorryDump ? 'done' : ''}"><span class="mind-check">${hasWorryDump ? '&#10004;' : '&#9711;'}</span> Worry dump</div>`;
+  h += `<div class="mind-progress-item ${hasThoughtRecord ? 'done' : ''}"><span class="mind-check">${hasThoughtRecord ? '&#10004;' : '&#9711;'}</span> Thought record${intensityDelta != null && intensityDelta > 0 ? ` <span class="mind-delta-good">-${intensityDelta} intensity</span>` : ''}</div>`;
+  h += '</div>';
+
+  // Worry themes word cloud
+  if (topWords.length > 0) {
+    h += '<div class="mind-themes"><div class="mind-themes-label">Recurring themes (7d):</div><div class="mind-cloud">';
+    const maxCount = topWords[0][1];
+    topWords.forEach(([word, count]) => {
+      const size = 11 + Math.round((count / maxCount) * 8);
+      h += `<span class="mind-cloud-word" style="font-size:${size}px;opacity:${0.5 + (count/maxCount)*0.5}">${word}</span>`;
+    });
+    h += '</div></div>';
+  }
+
+  // Cognitive distortion detector
+  if (distortions.length > 0) {
+    h += '<div class="mind-distortions"><div class="mind-distortions-label">Patterns spotted in today\'s thoughts:</div>';
+    distortions.slice(0,3).forEach(d => {
+      h += `<div class="mind-distortion">&#9888; <b>${d.name}</b> (${d.count}x) <span class="mind-distortion-hint">${distortionHint(d.name)}</span></div>`;
+    });
+    h += '</div>';
+  }
+
+  h += '</div>';
+  return h;
+}
+
+function distortionHint(name) {
+  const hints = {
+    'all-or-nothing': 'always/never thinking. Find the middle.',
+    'catastrophizing': 'worst-case framing. What is the realistic case?',
+    'mind-reading': 'assuming you know what others think. Ask for evidence.',
+    'fortune-telling': 'predicting failure. You do not know yet.',
+    'should-statements': 'rigid rules. Replace "should" with "would prefer".',
+    'personalization': 'taking blame for things not in your control.',
+  };
+  return hints[name] || '';
+}
+
 // ==================== DASHBOARD ====================
 async function loadDashboard() {
   const el = document.getElementById('dashContent');
@@ -2971,6 +3317,9 @@ async function loadDashboard() {
   if (missing.length > 0) {
     html += `<div class="missing-banner"><span class="missing-icon">&#9888;</span> Missing: ${missing.join(', ')}</div>`;
   }
+
+  // ========== MIND & SLEEP PANEL ==========
+  html += await buildMindSleepPanel(currentDate, w, localData, pw);
 
   // Journal entries section - from localStorage (today) OR from status file (historical)
   const hasLocalJournal = localData && (localData.morning_saved || localData.evening_saved);
