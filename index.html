@@ -772,6 +772,16 @@ input[type=number]{width:70px;text-align:center}
           <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="acidity_score" oninput="onSlider(this)"></div>
           <span class="slider-val">0</span>
         </div>
+        <div class="slider-row">
+          <span class="slider-label">Throat tightness</span>
+          <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="throat_tightness" oninput="onSlider(this)"></div>
+          <span class="slider-val">0</span>
+        </div>
+        <div class="slider-row">
+          <span class="slider-label">Voice fatigue</span>
+          <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="voice_fatigue" oninput="onSlider(this)"></div>
+          <span class="slider-val">0</span>
+        </div>
       </div>
 
       <div class="card">
@@ -2627,7 +2637,7 @@ async function confirmDelete() {
   } else {
     // Remove evening fields
     const eveningFields = ['energy_afternoon','energy_evening','mood_evening','pain_evening',
-      'bloating_score','acidity_score','bowel_movements','stool_type','last_meal_time',
+      'bloating_score','acidity_score','throat_tightness','voice_fatigue','bowel_movements','stool_type','last_meal_time',
       'amazing_raw','ideas_raw','could_be_better',
       'screen_off_time','evening_notes','evening_supplements','done_today',
       'worry_dump','cbt_trigger','cbt_thought','cbt_feeling','cbt_intensity_before',
