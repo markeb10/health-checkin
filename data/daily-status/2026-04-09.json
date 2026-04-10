@@ -1,6 +1,6 @@
 {
   "date": "2026-04-09",
-  "generated_at": "2026-04-10T08:00:05.866561",
+  "generated_at": "2026-04-10T10:30:12.198447",
   "whoop": {
     "imported": true,
     "recovery": 75.0,
@@ -44,7 +44,54 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 6,
+    "energy": 6,
+    "sleep_quality": 6,
+    "supplements": 6,
+    "journal": "Grateful for: Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Being alive, a little less pain in hip - did much less movement yest, being calm\nToday great: Meeting Anu will be fun. Playing Pell. Enjoying I wanna be super productive when working \nAffirmation: All I need is within me now \nAmazing things: It's amazing that I was able to get some good advice with Claude on email deliverability, what Google actually is looking at, I love pedal session, In the end it really took out the devil in me I get that attacking",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "06:20",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "06:20",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "06:20",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (2)",
+        "time": "22:14",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Amitriptyline",
+        "time": "22:14",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Ruporut",
+        "time": "22:14",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 8,
+    "energy_evening": 3,
+    "anxiety": 1,
+    "bloating": 7
   },
   "zoe": {
     "imported": true,
