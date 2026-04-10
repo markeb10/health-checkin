@@ -1,6 +1,6 @@
 {
   "date": "2026-04-08",
-  "generated_at": "2026-04-10T08:00:03.271016",
+  "generated_at": "2026-04-10T10:30:10.287459",
   "whoop": {
     "imported": true,
     "recovery": 93.0,
@@ -50,7 +50,48 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 7,
+    "sleep_quality": 7,
+    "supplements": 5,
+    "journal": "Grateful for: New day, Being healthy, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Sunny day, Being alive\nToday great: Today will be great to have a good conversation with the new family GP doctor, Ziga Hladnik, and to remove my pain in my hip. Today somehow everything feels a bit more painful for some reason . To those things that are waiting for me in Telegram, start writing the speech. Check a bit of things with David. If things are under control for SEO and marketing \nAffirmation: I love you Marko\nAmazing ",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "08:46",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "08:46",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "08:46",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (2)",
+        "time": "21:28",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Amitriptyline",
+        "time": "21:28",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 5,
+    "anxiety": 3,
+    "bloating": 5
   },
   "zoe": {
     "imported": true,
