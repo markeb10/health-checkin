@@ -1,6 +1,6 @@
 {
   "date": "2026-04-11",
-  "generated_at": "2026-04-11T22:52:20.070103",
+  "generated_at": "2026-04-11T23:00:21.378614",
   "whoop": {
     "imported": true,
     "recovery": 49.0,
@@ -56,29 +56,38 @@
     "mood": 6,
     "energy": 6,
     "sleep_quality": 6,
-    "supplements": 3,
+    "supplements": 4,
     "journal": "Grateful for: Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Seven hours of sleep, That was good, I think it did help that I was eating in the evening, I love you marko, Grateful for this place for being who I am, who I became\nToday great: Do Duolingo to do most of the important stuff for work and then be able to play really good battle with the guys and just have fun, eat an amazing lunch, and just be really, really in flow and happy. Do some big punk as well with the guys \nAffirmation: I love myself. I love my",
     "supplements_list": [
       {
         "name": "Telfast",
-        "time": "07:14",
+        "time": "07:23",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C (1)",
-        "time": "07:14",
+        "time": "07:23",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Enterosgel",
-        "time": "07:14",
+        "time": "07:23",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Amitriptyline",
+        "time": "22:30",
         "dose": "",
         "unit": ""
       }
     ],
-    "anxiety": 2
+    "energy_afternoon": 7,
+    "energy_evening": 6,
+    "anxiety": 2,
+    "bloating": 3
   },
   "zoe": {
     "imported": true,
