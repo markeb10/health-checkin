@@ -1,6 +1,6 @@
 {
   "date": "2026-04-09",
-  "generated_at": "2026-04-11T22:49:32.737160",
+  "generated_at": "2026-04-11T22:52:17.432892",
   "whoop": {
     "imported": true,
     "recovery": 75.0,
@@ -42,7 +42,7 @@
   },
   "apple_health": {
     "imported": true,
-    "steps": 18200,
+    "steps": 17595,
     "resting_hr": 50.0,
     "hrv": 52.3,
     "sleep_hrs": 6.5,
