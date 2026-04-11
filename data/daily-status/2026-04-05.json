@@ -1,17 +1,17 @@
 {
   "date": "2026-04-05",
-  "generated_at": "2026-04-08T18:37:23.488712",
+  "generated_at": "2026-04-11T22:52:12.262615",
   "whoop": {
     "imported": true,
     "recovery": 26.0,
     "hrv": 24.8,
     "rhr": 54.0,
     "sleep_perf": 71.0,
-    "strain": 4.3,
+    "strain": 0.6,
     "sleep_hrs": 5.9,
     "spo2": 94.8,
     "skin_temp": 33.4,
-    "sleep_efficiency": 95.81528,
+    "sleep_efficiency": 95.8,
     "sleep_consistency": 76.0,
     "respiratory_rate": 13.8,
     "light_sleep_hrs": 2.7,
@@ -22,43 +22,21 @@
     "disturbances": 6,
     "sleep_needed_hrs": 10.3,
     "sleep_debt_hrs": 1.8,
-    "calories": 1566,
-    "avg_hr": 59,
-    "max_hr": 123,
-    "workouts": [
-      {
-        "sport": "Sport 70",
-        "calories": null,
-        "avg_hr": null,
-        "max_hr": null
-      }
-    ]
+    "calories": 635,
+    "avg_hr": 54,
+    "max_hr": 94,
+    "workouts": []
   },
   "apple_health": {
     "imported": true,
     "steps": 14304,
-    "active_calories": 694.0,
-    "exercise_minutes": 69.0,
-    "stand_hours": 12.0,
+    "resting_hr": 51.5,
+    "hrv": 80.4,
+    "sleep_hrs": 5.9,
     "daylight_mins": 113.0,
-    "noise_db": 61.5,
-    "mindful_minutes": 20.0,
-    "distance_km": 9.36,
-    "flights_climbed": 5,
-    "spo2": 96.54,
-    "resting_hr": 51.5
-  },
-  "apple_watch": {
-    "imported": true,
-    "steps": 14304,
-    "active_calories": 694.0,
-    "exercise_minutes": 69.0,
-    "stand_hours": 12.0,
-    "daylight_mins": 113.0,
-    "noise_db": 61.5,
-    "mindful_minutes": 20.0,
-    "distance_km": 9.36,
-    "flights_climbed": 5
+    "spo2": 96.5,
+    "respiratory_rate": 13.8,
+    "sleep_awake_hrs": 0.3
   },
   "checkin": {
     "imported": true,
@@ -176,6 +154,6 @@
     "protein_g": 88.0,
     "fat_g": 53.2,
     "carbs_g": 75.6,
-    "fibre_g": 4.300000000000001
+    "fibre_g": 4.3
   }
 }
