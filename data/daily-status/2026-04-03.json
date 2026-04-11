@@ -1,6 +1,6 @@
 {
   "date": "2026-04-03",
-  "generated_at": "2026-04-08T18:37:23.489982",
+  "generated_at": "2026-04-11T22:52:09.601886",
   "whoop": {
     "imported": true,
     "recovery": 52.0,
@@ -37,40 +37,16 @@
   "apple_health": {
     "imported": true,
     "steps": 9441,
-    "active_calories": 450.0,
-    "exercise_minutes": 39.0,
-    "stand_hours": 16.0,
+    "resting_hr": 51.0,
+    "hrv": 59.1,
+    "sleep_hrs": 8.5,
     "daylight_mins": 4.0,
-    "noise_db": 65.2,
-    "mindful_minutes": 10.0,
-    "distance_km": 6.64,
-    "flights_climbed": 5,
-    "spo2": 96.74,
-    "resting_hr": 51.0
-  },
-  "apple_watch": {
-    "imported": true,
-    "steps": 9441,
-    "active_calories": 450.0,
-    "exercise_minutes": 39.0,
-    "stand_hours": 16.0,
-    "daylight_mins": 4.0,
-    "noise_db": 65.2,
-    "mindful_minutes": 10.0,
-    "distance_km": 6.64,
-    "flights_climbed": 5
+    "spo2": 96.7,
+    "respiratory_rate": 13.8,
+    "sleep_awake_hrs": 0.4
   },
   "checkin": {
-    "imported": true,
-    "mood": null,
-    "energy": null,
-    "sleep_quality": null,
-    "supplements": 1,
-    "journal": "Feeling groggy first half of day. In general okay, feels good to sleep more. Vocal cords okay but tight muscles around them.\nPhysical: Vocal cords okay but tight muscles around them, need logoped. Pelvic floor a little better. Petra treatment. Ping pong. Less pain in general.\nEmotional: Feeling bloated 5/10. Slept 8 hours. Feel sleepy in evening, Amitriptyline works. Stopped Enterosgel, maybe why acidity returned.\nGut: Bloating 5/10. Acidity higher, took Ruporut 1/2. Stopped Enterosgel, maybe th",
-    "supplements_list": [
-      "Flore Probiotic"
-    ],
-    "bloating": 5
+    "imported": false
   },
   "zoe": {
     "imported": true,
