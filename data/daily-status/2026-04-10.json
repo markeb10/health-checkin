@@ -1,6 +1,6 @@
 {
   "date": "2026-04-10",
-  "generated_at": "2026-04-11T07:45:04.465556",
+  "generated_at": "2026-04-11T08:00:05.256868",
   "whoop": {
     "imported": true,
     "recovery": 48.0,
@@ -22,10 +22,16 @@
     "disturbances": 8,
     "sleep_needed_hrs": 9.5,
     "sleep_debt_hrs": 1.6,
-    "calories": 1752,
-    "avg_hr": 64,
+    "calories": 1858,
+    "avg_hr": 63,
     "max_hr": 159,
     "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
       {
         "sport": "HIIT",
         "calories": 15,
