@@ -1,6 +1,6 @@
 {
   "date": "2026-04-02",
-  "generated_at": "2026-04-08T18:37:23.490350",
+  "generated_at": "2026-04-11T22:52:08.312022",
   "whoop": {
     "imported": true,
     "recovery": 42.0,
@@ -43,46 +43,17 @@
   "apple_health": {
     "imported": true,
     "steps": 14097,
-    "active_calories": 669.0,
-    "exercise_minutes": 86.0,
-    "stand_hours": 16.0,
+    "resting_hr": 51.5,
+    "hrv": 63.1,
+    "sleep_hrs": 5.3,
     "daylight_mins": 71.0,
-    "noise_db": 61.9,
-    "mindful_minutes": 20.0,
-    "distance_km": 10.99,
-    "flights_climbed": 2,
-    "vo2max": 39.73,
-    "spo2": 96.55,
-    "resting_hr": 51.5
-  },
-  "apple_watch": {
-    "imported": true,
-    "steps": 14097,
-    "active_calories": 669.0,
-    "exercise_minutes": 86.0,
-    "stand_hours": 16.0,
-    "daylight_mins": 71.0,
-    "noise_db": 61.9,
-    "mindful_minutes": 20.0,
-    "distance_km": 10.99,
-    "flights_climbed": 2,
-    "vo2max": 39.73
+    "vo2max": 39.7,
+    "spo2": 96.5,
+    "respiratory_rate": 13.4,
+    "sleep_awake_hrs": 0.2
   },
   "checkin": {
-    "imported": true,
-    "mood": null,
-    "energy": null,
-    "sleep_quality": null,
-    "supplements": 5,
-    "journal": "Feeling sleepy but not whole day. Took Amitriptyline for first time. Dermatology procedure, removed thing on head.\nPhysical: Pelvic floor bit better than yesterday. Massage at Motion Lab, worked on hip. Can move better in padel, Achilles pain less. Left hip moves with bigger ease.\nEmotional: Very bloated 6/10. Bowel 2x (level 3 OK, level 4 floating). Sleep not good, only until 5AM, 5 hours. Feeling sleepy, hoping to sleep better.\nGut: Bloating strong 6/10. Acidity seems fine for now.\nExercise: P",
-    "supplements_list": [
-      "Amitriptyline 2.5mg",
-      "Enterosgel",
-      "Vitamin C",
-      "Magnesium Glycinate",
-      "Glycine"
-    ],
-    "bloating": 6
+    "imported": false
   },
   "zoe": {
     "imported": true,
