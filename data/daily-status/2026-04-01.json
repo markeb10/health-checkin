@@ -1,6 +1,6 @@
 {
   "date": "2026-04-01",
-  "generated_at": "2026-04-05T18:57:33.990455",
+  "generated_at": "2026-04-11T22:52:06.996100",
   "whoop": {
     "imported": true,
     "recovery": 48.0,
@@ -41,39 +41,212 @@
     ]
   },
   "apple_health": {
-    "imported": false
+    "imported": true,
+    "steps": 12287,
+    "resting_hr": 49.5,
+    "hrv": 71.0,
+    "sleep_hrs": 6.4,
+    "daylight_mins": 50.0,
+    "spo2": 97.2,
+    "respiratory_rate": 13.4,
+    "sleep_awake_hrs": 0.3
   },
   "checkin": {
-    "imported": true,
-    "mood": null,
-    "energy": null,
-    "sleep_quality": null,
-    "supplements": 5,
-    "journal": "Pain when laying on side. Hip hurts. Didn't have issues playing ping pong but felt pelvic floor.\nPhysical: HRV 34, lower. Pelvic pain and hip super elevated, worst in long time. Due to Motion Lab doing leg extension/flexion to exhaustion, sit ups, 30kg hip thrusts day before.\nEmotional: Relatively okay but sleepy during day. Ate cacao for energy. Blue light blocking glasses in evening. Bloating 7/10. Bowel 1x level 3. Breathing exercises before sleep.\nGut: Super bloated today, polenta. Bloating ",
-    "supplements_list": [
-      "Telfast",
-      "Vitamin C",
-      "Enterosgel",
-      "Glycine",
-      "Magnesium Glycinate 100mg"
-    ],
-    "bloating": 7
+    "imported": false
   },
   "zoe": {
     "imported": true,
     "meals": 6,
     "meal_names": [
+      "Toast with Nut Butter and Blueberries with Coconut Yogurt",
       "Beef Stew with Polenta and Side Salad",
-      "Cantaloupe melon",
       "Carrot and Ginger Soup with Chives",
       "Fried Eggs with Avocado Toast",
-      "Toast with Nut Butter and Blueberries",
-      "Toast with Nut Butter and Blueberries with Coconut Yogurt"
+      "Cantaloupe melon",
+      "Toast with Nut Butter and Blueberries"
+    ],
+    "meal_details": [
+      {
+        "name": "Toast with Nut Butter and Blueberries with Coconut Yogurt",
+        "score": 76,
+        "calories": 368.0,
+        "protein_g": 10.9,
+        "fat_g": 19.9,
+        "carbs_g": 35.3,
+        "fibre_g": 5.9,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Blueberries",
+            "qty": "2 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "My Love My Life Kokos Natur Coconut Plain Yoghurt",
+            "qty": "100 g",
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Beef Stew with Polenta and Side Salad",
+        "score": 47,
+        "calories": 314.0,
+        "protein_g": 34.1,
+        "fat_g": 8.7,
+        "carbs_g": 26.3,
+        "fibre_g": 3.6,
+        "ingredients": [
+          {
+            "name": "Chives, fresh",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Sainsbury's Polenta",
+            "qty": "1 \u00d7 serving",
+            "score": 40
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Stew, beef, made with lean beef, homemade",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Carrot and Ginger Soup with Chives",
+        "score": 88,
+        "calories": 161.0,
+        "protein_g": 3.7,
+        "fat_g": 7.2,
+        "carbs_g": 22.6,
+        "fibre_g": 8.9,
+        "ingredients": [
+          {
+            "name": "Carrots",
+            "qty": "3 \u00d7 serving",
+            "score": 81
+          },
+          {
+            "name": "Chives, fresh",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Garlic",
+            "qty": "2 \u00d7 clove",
+            "score": 79
+          },
+          {
+            "name": "Ginger, fresh",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Avocado Toast",
+        "score": 79,
+        "calories": 499.0,
+        "protein_g": 23.3,
+        "fat_g": 34.9,
+        "carbs_g": 22.9,
+        "fibre_g": 5.2,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "1 \u00d7 medium",
+            "score": 100
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Cantaloupe melon",
+        "score": 66,
+        "calories": 29.0,
+        "protein_g": 0.4,
+        "fat_g": 0.1,
+        "carbs_g": 7.0,
+        "fibre_g": 1.8,
+        "ingredients": [
+          {
+            "name": "Papaya",
+            "qty": "1 \u00d7 serving",
+            "score": 66
+          }
+        ]
+      },
+      {
+        "name": "Toast with Nut Butter and Blueberries",
+        "score": 76,
+        "calories": 368.0,
+        "protein_g": 10.9,
+        "fat_g": 19.9,
+        "carbs_g": 35.3,
+        "fibre_g": 5.9,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Blueberries",
+            "qty": "2 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "My Love My Life Kokos Natur Coconut Plain Yoghurt",
+            "qty": "100 g",
+            "score": null
+          }
+        ]
+      }
     ],
     "avg_score": 72.0,
     "calories": 1739.0,
     "protein_g": 83.3,
-    "fat_g": 90.69999999999999,
+    "fat_g": 90.7,
     "carbs_g": 149.4,
     "fibre_g": 31.3
   }
