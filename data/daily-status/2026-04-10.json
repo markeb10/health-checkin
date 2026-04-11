@@ -1,6 +1,6 @@
 {
   "date": "2026-04-10",
-  "generated_at": "2026-04-11T10:15:04.707890",
+  "generated_at": "2026-04-11T10:30:04.982595",
   "whoop": {
     "imported": true,
     "recovery": 48.0,
@@ -69,8 +69,8 @@
     "mood": 6,
     "energy": 5,
     "sleep_quality": 6,
-    "supplements": 3,
-    "journal": "Grateful for: Claude so that I can make my own tools, cosita family friend \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, being calm, well, healthy, i cant get hard but its okey, my health\nToday great: Connecting with Tamara, ping pong session, duo lingo, making a plan for new things, no therapy day , yeey, do petra osmice and cross leg exercise\nAffirmation: All I need is within me now\nDid today: Did the blood test we were planning from last conversation. Results pending, will add values once they come back. Also added the ENT visit ",
+    "supplements": 5,
+    "journal": "Grateful for: Claude so that I can make my own tools, cosita family friend \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, being calm, well, healthy, i cant get hard but its okey, my health\nToday great: Connecting with Tamara, ping pong session, duo lingo, making a plan for new things, no therapy day , yeey, do petra osmice and cross leg exercise\nAffirmation: All I need is within me now\nAmazing things: Ping pong was really good, Really liked it, I didn't like that I was a bit unproductive, I didn't sleep, But overall, solid day, Good ",
     "supplements_list": [
       {
         "name": "Telfast",
@@ -89,9 +89,24 @@
         "time": "06:06",
         "dose": "",
         "unit": ""
+      },
+      {
+        "name": "Amitriptyline",
+        "time": "21:56",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Glycine 3g",
+        "time": "21:56",
+        "dose": "",
+        "unit": ""
       }
     ],
-    "anxiety": 2
+    "energy_afternoon": 7,
+    "energy_evening": 6,
+    "anxiety": 2,
+    "bloating": 5
   },
   "zoe": {
     "imported": true,
