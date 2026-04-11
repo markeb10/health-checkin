@@ -1,6 +1,6 @@
 {
   "date": "2026-04-11",
-  "generated_at": "2026-04-11T22:35:02.337722",
+  "generated_at": "2026-04-11T22:46:56.175054",
   "whoop": {
     "imported": true,
     "recovery": 49.0,
@@ -73,6 +73,251 @@
     "anxiety": 2
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 7,
+    "meal_names": [
+      "Pan-Fried Chicken Breast with Boiled Potatoes",
+      "Toast with Almond Butter and Blueberries",
+      "Toast with Almond Butter and Banana",
+      "Papaya",
+      "Glazed Salmon with Roasted Vegetables",
+      "Assorted Sushi and Sashimi Platter",
+      "Fried Eggs with Toast, Avocado and Almond Butter"
+    ],
+    "meal_details": [
+      {
+        "name": "Pan-Fried Chicken Breast with Boiled Potatoes",
+        "score": 49,
+        "calories": 272.0,
+        "protein_g": 32.4,
+        "fat_g": 4.8,
+        "carbs_g": 26.3,
+        "fibre_g": 2.4,
+        "ingredients": [
+          {
+            "name": "Chicken breast strips for stirfry",
+            "qty": "1 \u00d7 medium serving",
+            "score": 59
+          },
+          {
+            "name": "Potatoes, boiled",
+            "qty": "1 \u00d7 serving",
+            "score": 42
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 75,
+        "calories": 257.0,
+        "protein_g": 9.8,
+        "fat_g": 12.2,
+        "carbs_g": 26.3,
+        "fibre_g": 5.3,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": "1 \u00d7 large slice",
+            "score": 47
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter and Banana",
+        "score": 81,
+        "calories": 282.0,
+        "protein_g": 10.1,
+        "fat_g": 17.1,
+        "carbs_g": 21.3,
+        "fibre_g": 5.3,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 90
+          },
+          {
+            "name": "Banana, \u00bd \u00d7 medium",
+            "qty": null,
+            "score": 60
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": "1 \u00d7 small slice",
+            "score": 47
+          }
+        ]
+      },
+      {
+        "name": "Papaya",
+        "score": 66,
+        "calories": 58.0,
+        "protein_g": 0.8,
+        "fat_g": 0.2,
+        "carbs_g": 14.1,
+        "fibre_g": 3.5,
+        "ingredients": [
+          {
+            "name": "Papaya",
+            "qty": "2 \u00d7 serving",
+            "score": 66
+          }
+        ]
+      },
+      {
+        "name": "Glazed Salmon with Roasted Vegetables",
+        "score": 82,
+        "calories": 506.0,
+        "protein_g": 38.1,
+        "fat_g": 27.4,
+        "carbs_g": 23.0,
+        "fibre_g": 5.9,
+        "ingredients": [
+          {
+            "name": "Aubergine",
+            "qty": "1 \u00d7 portion",
+            "score": 93
+          },
+          {
+            "name": "Mushrooms, shiitake",
+            "qty": "50 g",
+            "score": 91
+          },
+          {
+            "name": "Oil, sesame",
+            "qty": "5 ml",
+            "score": 78
+          },
+          {
+            "name": "Rice wine, mirin",
+            "qty": "10 ml",
+            "score": 20
+          },
+          {
+            "name": "Salmon",
+            "qty": "1 \u00d7 medium fillet",
+            "score": 86
+          },
+          {
+            "name": "Soy sauce",
+            "qty": "2 \u00d7 individual packet",
+            "score": 0
+          },
+          {
+            "name": "Sweet potato",
+            "qty": "75 g",
+            "score": 58
+          }
+        ]
+      },
+      {
+        "name": "Assorted Sushi and Sashimi Platter",
+        "score": 68,
+        "calories": 718.0,
+        "protein_g": 53.3,
+        "fat_g": 23.8,
+        "carbs_g": 75.7,
+        "fibre_g": 6.9,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "45 g",
+            "score": 100
+          },
+          {
+            "name": "Cucumber",
+            "qty": "30 g",
+            "score": 100
+          },
+          {
+            "name": "Rice, white, 1\u00bd \u00d7 small serving",
+            "qty": null,
+            "score": 19
+          },
+          {
+            "name": "Salmon",
+            "qty": "75 g",
+            "score": 86
+          },
+          {
+            "name": "Seaweed, nori, dried",
+            "qty": "3 \u00d7 sheet",
+            "score": 100
+          },
+          {
+            "name": "Soy sauce, 4\u00bd \u00d7 individual packet",
+            "qty": null,
+            "score": 0
+          },
+          {
+            "name": "Sushi ginger, pickled, gari",
+            "qty": "30 g",
+            "score": 79
+          },
+          {
+            "name": "Tuna, fresh",
+            "qty": "75 g",
+            "score": 89
+          },
+          {
+            "name": "Wasabi paste",
+            "qty": "15 g",
+            "score": 21
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast, Avocado and Almond Butter",
+        "score": 84,
+        "calories": 715.0,
+        "protein_g": 30.9,
+        "fat_g": 58.7,
+        "carbs_g": 14.5,
+        "fibre_g": 7.4,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 90
+          },
+          {
+            "name": "Avocado, Hass",
+            "qty": "1 \u00d7 medium",
+            "score": 100
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": "1 \u00d7 small slice",
+            "score": 47
+          },
+          {
+            "name": "Costa D'oro Extra Virgin Olive Oil L'extra",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          }
+        ]
+      }
+    ],
+    "avg_score": 72.0,
+    "calories": 2808.0,
+    "protein_g": 175.4,
+    "fat_g": 144.2,
+    "carbs_g": 201.20000000000002,
+    "fibre_g": 36.7
   }
 }
