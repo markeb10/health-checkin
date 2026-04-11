@@ -1,13 +1,13 @@
 {
   "date": "2026-04-11",
-  "generated_at": "2026-04-11T08:00:07.126496",
+  "generated_at": "2026-04-11T16:59:02.355313",
   "whoop": {
     "imported": true,
     "recovery": 49.0,
     "hrv": 34.3,
     "rhr": 49.0,
     "sleep_perf": 85.0,
-    "strain": 0.4,
+    "strain": 18.4,
     "sleep_hrs": 7.2,
     "spo2": 95.4,
     "skin_temp": 33.7,
@@ -22,16 +22,55 @@
     "disturbances": 14,
     "sleep_needed_hrs": 9.8,
     "sleep_debt_hrs": 2.1,
-    "calories": 561,
-    "avg_hr": 50,
-    "max_hr": 95,
-    "workouts": []
+    "calories": 3160,
+    "avg_hr": 77,
+    "max_hr": 162,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 1202,
+        "avg_hr": 129,
+        "max_hr": 162
+      },
+      {
+        "sport": "Walking",
+        "calories": 1024,
+        "avg_hr": 121,
+        "max_hr": 154
+      }
+    ]
   },
   "apple_health": {
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 6,
+    "energy": 6,
+    "sleep_quality": 6,
+    "supplements": 3,
+    "journal": "Grateful for: Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Seven hours of sleep, That was good, I think it did help that I was eating in the evening, I love you marko, Grateful for this place for being who I am, who I became\nToday great: Do Duolingo to do most of the important stuff for work and then be able to play really good battle with the guys and just have fun, eat an amazing lunch, and just be really, really in flow and happy. Do some big punk as well with the guys \nAffirmation: I love myself. I love my",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "07:14",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "07:14",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "07:14",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 2
   },
   "zoe": {
     "imported": false
