@@ -1,6 +1,6 @@
 {
   "date": "2026-04-04",
-  "generated_at": "2026-04-08T18:37:23.489222",
+  "generated_at": "2026-04-11T22:52:10.923754",
   "whoop": {
     "imported": true,
     "recovery": 89.0,
@@ -27,6 +27,12 @@
     "max_hr": 167,
     "workouts": [
       {
+        "sport": "Activity",
+        "calories": 589,
+        "avg_hr": 139,
+        "max_hr": 167
+      },
+      {
         "sport": "Functional Fitness",
         "calories": 1037,
         "avg_hr": 118,
@@ -37,58 +43,23 @@
         "calories": 195,
         "avg_hr": 121,
         "max_hr": 144
-      },
-      {
-        "sport": "Activity",
-        "calories": 589,
-        "avg_hr": 139,
-        "max_hr": 167
       }
     ]
   },
   "apple_health": {
     "imported": true,
     "steps": 21414,
-    "active_calories": 984.0,
-    "exercise_minutes": 173.0,
-    "stand_hours": 15.0,
+    "resting_hr": 51.5,
+    "hrv": 52.3,
+    "sleep_hrs": 5.8,
     "daylight_mins": 208.0,
-    "noise_db": 67.4,
-    "mindful_minutes": 20.0,
-    "distance_km": 15.75,
-    "flights_climbed": 5,
-    "vo2max": 39.62,
-    "spo2": 96.92,
-    "resting_hr": 51.5
-  },
-  "apple_watch": {
-    "imported": true,
-    "steps": 21414,
-    "active_calories": 984.0,
-    "exercise_minutes": 173.0,
-    "stand_hours": 15.0,
-    "daylight_mins": 208.0,
-    "noise_db": 67.4,
-    "mindful_minutes": 20.0,
-    "distance_km": 15.75,
-    "flights_climbed": 5,
-    "vo2max": 39.62
+    "vo2max": 39.6,
+    "spo2": 96.9,
+    "respiratory_rate": 13.2,
+    "sleep_awake_hrs": 0.4
   },
   "checkin": {
-    "imported": true,
-    "mood": null,
-    "energy": null,
-    "sleep_quality": null,
-    "supplements": 5,
-    "journal": "Feeling a bit weird in the morning, felt not exactly myself. Worrying what amitriptyline is doing. Need to detox from devices in evening.\nPhysical: Paddle ping pong, burned 2200 calories. Pain elevated, at night already elevated. Bloating 5/10. Bowel movement 1x level 3.\nEmotional: Felt emotionally funny today. The pill is affecting me somehow, making head different. Slowly getting used to it. Brain feels foggy and slow. Sleep not good, only 6 hours.\nGut: Bloating 5/10. Stopped probiotic today t",
-    "supplements_list": [
-      "Amitriptyline 2.5mg",
-      "Telfast",
-      "Magnesium Glycinate",
-      "Glycine",
-      "Vitamin C"
-    ],
-    "bloating": 5
+    "imported": false
   },
   "zoe": {
     "imported": true,
