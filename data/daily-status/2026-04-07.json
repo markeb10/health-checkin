@@ -1,90 +1,20 @@
 {
   "date": "2026-04-07",
-  "generated_at": "2026-04-09T22:29:30.310298",
+  "generated_at": "2026-04-11T22:52:14.840561",
   "whoop": {
-    "imported": true,
-    "recovery": 72.0,
-    "hrv": 37.4,
-    "rhr": 47.0,
-    "sleep_perf": 86.0,
-    "strain": 13.6,
-    "sleep_hrs": 7.3,
-    "spo2": 92.8,
-    "skin_temp": 34.1,
-    "sleep_efficiency": 92.9313,
-    "sleep_consistency": 83.0,
-    "respiratory_rate": 13.3,
-    "light_sleep_hrs": 3.2,
-    "deep_sleep_hrs": 2.4,
-    "rem_sleep_hrs": 1.8,
-    "awake_hrs": 0.6,
-    "sleep_cycles": 4,
-    "disturbances": 7,
-    "sleep_needed_hrs": 8.9,
-    "sleep_debt_hrs": 1.2,
-    "calories": 2219,
-    "avg_hr": 66,
-    "max_hr": 163,
-    "workouts": [
-      {
-        "sport": "Sport 70",
-        "calories": null,
-        "avg_hr": null,
-        "max_hr": null
-      },
-      {
-        "sport": "HIIT",
-        "calories": 57,
-        "avg_hr": 88,
-        "max_hr": 100
-      },
-      {
-        "sport": "Activity",
-        "calories": 85,
-        "avg_hr": 101,
-        "max_hr": 138
-      },
-      {
-        "sport": "Activity",
-        "calories": 143,
-        "avg_hr": 128,
-        "max_hr": 163
-      },
-      {
-        "sport": "Activity",
-        "calories": 534,
-        "avg_hr": 126,
-        "max_hr": 160
-      }
-    ]
+    "imported": false
   },
   "apple_health": {
     "imported": true,
-    "steps": 17025,
-    "active_calories": 3102.0,
-    "exercise_minutes": 170.0,
-    "stand_hours": 14.0,
+    "steps": 16673,
+    "resting_hr": 50.0,
+    "hrv": 73.2,
+    "sleep_hrs": 7.3,
     "daylight_mins": 49.0,
-    "noise_db": 63.5,
-    "mindful_minutes": 11.0,
-    "distance_km": 12.58,
-    "flights_climbed": 14,
     "vo2max": 39.6,
-    "spo2": 97.26,
-    "resting_hr": 50.0
-  },
-  "apple_watch": {
-    "imported": true,
-    "steps": 17025,
-    "active_calories": 3102.0,
-    "exercise_minutes": 170.0,
-    "stand_hours": 14.0,
-    "daylight_mins": 49.0,
-    "noise_db": 63.5,
-    "mindful_minutes": 11.0,
-    "distance_km": 12.58,
-    "flights_climbed": 14,
-    "vo2max": 39.6
+    "spo2": 97.3,
+    "respiratory_rate": 13.3,
+    "sleep_awake_hrs": 0.6
   },
   "checkin": {
     "imported": true,
@@ -150,7 +80,6 @@
         "fat_g": 17.5,
         "carbs_g": 23.2,
         "fibre_g": 5.4,
-        "meal_time": "5:33 PM",
         "ingredients": [
           {
             "name": "Almond butter, crunchy",
@@ -177,7 +106,6 @@
         "fat_g": 8.9,
         "carbs_g": 34.5,
         "fibre_g": 0.8,
-        "meal_time": "5:10 PM",
         "ingredients": [
           {
             "name": "Chicken breast",
@@ -204,7 +132,6 @@
         "fat_g": 39.1,
         "carbs_g": 81.2,
         "fibre_g": 4.4,
-        "meal_time": "1:47 PM",
         "ingredients": [
           {
             "name": "Bolognese meat sauce, homemade",
@@ -251,7 +178,6 @@
         "fat_g": 1.4,
         "carbs_g": 2.4,
         "fibre_g": 1.9,
-        "meal_time": "1:36 PM",
         "ingredients": [
           {
             "name": "Leeks",
@@ -278,7 +204,6 @@
         "fat_g": 17.3,
         "carbs_g": 22.1,
         "fibre_g": 4.3,
-        "meal_time": "10:12 AM",
         "ingredients": [
           {
             "name": "Almond butter, crunchy",
@@ -300,7 +225,6 @@
         "fat_g": 19.0,
         "carbs_g": 23.9,
         "fibre_g": 1.4,
-        "meal_time": "9:57 AM",
         "ingredients": [
           {
             "name": "Blueberries",
@@ -325,7 +249,6 @@
     "protein_g": 137.4,
     "fat_g": 103.2,
     "carbs_g": 187.3,
-    "fibre_g": 18.2,
-    "last_meal_time": "17:33"
+    "fibre_g": 18.2
   }
 }
