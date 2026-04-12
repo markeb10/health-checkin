@@ -1,6 +1,6 @@
 {
   "date": "2026-04-12",
-  "generated_at": "2026-04-12T08:00:06.830866",
+  "generated_at": "2026-04-12T23:12:18.991835",
   "whoop": {
     "imported": true,
     "recovery": 62.0,
@@ -31,7 +31,42 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 6,
+    "energy": 6,
+    "sleep_quality": 7,
+    "supplements": 4,
+    "journal": "Grateful for: New ideas being Sunday, beautiful spring day, Cosita family, friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Eating healthy, clean food, Being alive, well\nToday great: I mean today will be nice to have just relax. Don't do too much; enjoy the day, do some work, do some fun projects, and that's it. Eat good food in the restaurant, some good fish \nAffirmation: I'm full of love. I'm worthy of love and I love myself \nAmazing things: I love creating things with Claude, Today let's make flash cards in Duolingo style, w",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "22:06",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "22:06",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "22:06",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Amitriptyline",
+        "time": "22:14",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 1,
+    "bloating": 3
   },
   "zoe": {
     "imported": false
