@@ -1,6 +1,6 @@
 {
   "date": "2026-04-12",
-  "generated_at": "2026-04-12T23:12:18.991835",
+  "generated_at": "2026-04-12T23:14:31.448369",
   "whoop": {
     "imported": true,
     "recovery": 62.0,
@@ -69,6 +69,140 @@
     "bloating": 3
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 4,
+    "meal_names": [
+      "Toast with Almond Butter and Blueberries",
+      "Roasted Fish with Potatoes and Courgettes",
+      "Fried Eggs with Avocado Toast",
+      "Toast with Almond Butter and Blueberries"
+    ],
+    "meal_details": [
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 78,
+        "calories": 317.0,
+        "protein_g": 12.1,
+        "fat_g": 17.6,
+        "carbs_g": 26.0,
+        "fibre_g": 6.3,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "30 g",
+            "score": 73
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": "1 \u00d7 large slice",
+            "score": 47
+          }
+        ]
+      },
+      {
+        "name": "Roasted Fish with Potatoes and Courgettes",
+        "score": 79,
+        "calories": 300.0,
+        "protein_g": 20.2,
+        "fat_g": 12.4,
+        "carbs_g": 28.7,
+        "fibre_g": 4.1,
+        "ingredients": [
+          {
+            "name": "Broccoli",
+            "qty": "30 g",
+            "score": 100
+          },
+          {
+            "name": "Courgette",
+            "qty": "1 \u00d7 portion",
+            "score": 100
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "10 ml",
+            "score": 90
+          },
+          {
+            "name": "Potatoes, boiled",
+            "qty": "1 \u00d7 serving",
+            "score": 42
+          },
+          {
+            "name": "Sea bream",
+            "qty": "1 \u00d7 small fillet",
+            "score": 85
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Avocado Toast",
+        "score": 79,
+        "calories": 429.0,
+        "protein_g": 20.5,
+        "fat_g": 33.2,
+        "carbs_g": 12.1,
+        "fibre_g": 3.0,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "50 g",
+            "score": 100
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": "1 \u00d7 small slice",
+            "score": 47
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 medium",
+            "score": 69
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 75,
+        "calories": 257.0,
+        "protein_g": 9.8,
+        "fat_g": 12.2,
+        "carbs_g": 26.3,
+        "fibre_g": 5.3,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": "1 \u00d7 large slice",
+            "score": 47
+          }
+        ]
+      }
+    ],
+    "avg_score": 78.0,
+    "calories": 1303.0,
+    "protein_g": 62.6,
+    "fat_g": 75.4,
+    "carbs_g": 93.1,
+    "fibre_g": 18.7
   }
 }
