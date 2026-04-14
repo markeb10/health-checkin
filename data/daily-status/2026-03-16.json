@@ -1,0 +1,93 @@
+{
+  "date": "2026-03-16",
+  "generated_at": "2026-04-14T20:37:05.712581",
+  "whoop": {
+    "imported": true,
+    "recovery": null,
+    "hrv": null,
+    "rhr": null,
+    "sleep_perf": null,
+    "strain": 14.4,
+    "sleep_hrs": null,
+    "spo2": null,
+    "skin_temp": null,
+    "sleep_efficiency": null,
+    "sleep_consistency": null,
+    "respiratory_rate": null,
+    "light_sleep_hrs": null,
+    "deep_sleep_hrs": null,
+    "rem_sleep_hrs": null,
+    "awake_hrs": null,
+    "sleep_cycles": null,
+    "disturbances": null,
+    "sleep_needed_hrs": null,
+    "sleep_debt_hrs": null,
+    "calories": 2396,
+    "avg_hr": 70,
+    "max_hr": 169,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 37,
+        "avg_hr": 93,
+        "max_hr": 133
+      },
+      {
+        "sport": "Walking",
+        "calories": 567,
+        "avg_hr": 128,
+        "max_hr": 169
+      },
+      {
+        "sport": "Activity",
+        "calories": 310,
+        "avg_hr": 105,
+        "max_hr": 155
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13784,
+    "resting_hr": 56.0,
+    "hrv": 63.2,
+    "daylight_mins": 63.0,
+    "vo2max": 40.3,
+    "spo2": 97.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 4,
+    "journal": "Feeling hard to breathe not so hard but still feling some tension, some very shallow breathing weird one. Was better when I was having pillow up, Might be acidity, I took half of ruporut, today I played with clawdbot and I really hate our BI team a bit- today was just bad / something is off\nacidity in the morning observing some weird symptoms, I am just up up, need to tell sandi to order the new mattress",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic",
+      "Ruporut",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 6,
+    "meal_names": [
+      "Seeded Bread with Cheese and Cashew Nuts",
+      "Green Chicken Curry with Rice and Side Salad",
+      "Creamy Carrot Soup with Herb Oil and Croutons",
+      "Open-faced Toast with Nut Butter",
+      "Probiotik Shot",
+      "Open-faced Avocado and Cheese Toast with Fried Egg"
+    ],
+    "meal_details": [],
+    "avg_score": 70.4,
+    "calories": 1341.0,
+    "protein_g": 74.0,
+    "fat_g": 70.9,
+    "carbs_g": 102.9,
+    "fibre_g": 21.4
+  }
+}
