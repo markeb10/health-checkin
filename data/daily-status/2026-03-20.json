@@ -1,0 +1,96 @@
+{
+  "date": "2026-03-20",
+  "generated_at": "2026-04-14T20:37:12.205944",
+  "whoop": {
+    "imported": true,
+    "recovery": 38.0,
+    "hrv": 33.3,
+    "rhr": 50.0,
+    "sleep_perf": 58.0,
+    "strain": 10.9,
+    "sleep_hrs": 4.9,
+    "spo2": 95.7,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 94.1,
+    "sleep_consistency": 78.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 1.4,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.5,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 5,
+    "disturbances": 5,
+    "sleep_needed_hrs": 10.3,
+    "sleep_debt_hrs": 2.1,
+    "calories": 1952,
+    "avg_hr": 68,
+    "max_hr": 158,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 51,
+        "avg_hr": 91,
+        "max_hr": 104
+      },
+      {
+        "sport": "Sport 230",
+        "calories": 238,
+        "avg_hr": 112,
+        "max_hr": 158
+      },
+      {
+        "sport": "Activity",
+        "calories": 261,
+        "avg_hr": 110,
+        "max_hr": 146
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18811,
+    "resting_hr": 52.5,
+    "hrv": 60.0,
+    "sleep_hrs": 4.9,
+    "daylight_mins": 57.0,
+    "spo2": 97.7,
+    "respiratory_rate": 13.5,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 4,
+    "journal": "Feeling better after the therapy from Jaka Paulic, MotionLab, also Petra sessionw as tough my knee hurts a bit, ping poing today was not good turns out if you take ltheaning you become a bit soft\n\nafter the chest massage from Jaka my chest was easier to breathe - this issue definitely went away to some extend and I can do longer brathes again, maybe I was over reacting with breathing idk\nfeeling better but still not perfect , I shoudlnt have eaten raw onion in takos that was a pretty bad idea as",
+    "supplements_list": [
+      "Enterosgel",
+      "L-Theanine",
+      "Maalox",
+      "Reflustat"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 8,
+    "meal_names": [
+      "Tortilla Chips with Guacamole and Salsa",
+      "Pulled Pork Tacos with Pickled Onions and Coriander",
+      "Fried Fish with Potato Salad and Mixed Greens",
+      "Hearty Vegetable and Lentil Soup",
+      "Mushroom and Herb Omelette on Flatbread with Red Pepper Spread",
+      "Papaya",
+      "Fried Egg and Tomato Toast with Ricotta",
+      "Almond Butter and Banana Toast"
+    ],
+    "meal_details": [],
+    "avg_score": 76.8,
+    "calories": 2451.0,
+    "protein_g": 133.9,
+    "fat_g": 101.9,
+    "carbs_g": 254.3,
+    "fibre_g": 51.0
+  }
+}
