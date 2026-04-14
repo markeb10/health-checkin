@@ -1,0 +1,87 @@
+{
+  "date": "2026-03-23",
+  "generated_at": "2026-04-14T20:37:16.701083",
+  "whoop": {
+    "imported": true,
+    "recovery": 80.0,
+    "hrv": 39.4,
+    "rhr": 49.0,
+    "sleep_perf": 80.0,
+    "strain": 13.0,
+    "sleep_hrs": 6.4,
+    "spo2": 96.1,
+    "skin_temp": 33.5,
+    "sleep_efficiency": 93.2,
+    "sleep_consistency": 84.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 3.0,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.2,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 6,
+    "disturbances": 6,
+    "sleep_needed_hrs": 9.8,
+    "sleep_debt_hrs": 2.1,
+    "calories": 2115,
+    "avg_hr": 65,
+    "max_hr": 172,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 58,
+        "avg_hr": 89,
+        "max_hr": 105
+      },
+      {
+        "sport": "Walking",
+        "calories": 558,
+        "avg_hr": 129,
+        "max_hr": 172
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15419,
+    "resting_hr": 50.5,
+    "hrv": 51.2,
+    "sleep_hrs": 6.4,
+    "daylight_mins": 50.0,
+    "vo2max": 40.4,
+    "spo2": 98.3,
+    "respiratory_rate": 13.5,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 1,
+    "journal": "Feeling wired in the morning like I sleept way too much kinda when you are jetlagged situation, but stuper weird that its happening at 6 am\n\nwas standing by the screen too long and my body is a bit tired\n\noverall walked plenty today so maybe I should actually complete the walking challenge\nno acidity problems today, was interstingly calm and uneventful, perhaps really if we eat old bread or very toasted its good for me\n\nbloating 3/10 and I ate peas soap",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 6,
+    "meal_names": [
+      "Toast with Nut Butter",
+      "Chicken and Pickle Pastry with Coleslaw",
+      "Mixed Salad with Radishes and Boiled Egg",
+      "Mixed Salad with Radishes and Boiled Egg",
+      "Pea and Mint Soup with Croutons",
+      "Avocado Toast with Fried Eggs"
+    ],
+    "meal_details": [],
+    "avg_score": 88.2,
+    "calories": 1532.0,
+    "protein_g": 103.8,
+    "fat_g": 87.2,
+    "carbs_g": 83.8,
+    "fibre_g": 23.2
+  }
+}
