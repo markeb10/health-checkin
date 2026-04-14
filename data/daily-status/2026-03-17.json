@@ -1,0 +1,93 @@
+{
+  "date": "2026-03-17",
+  "generated_at": "2026-04-14T20:37:07.185259",
+  "whoop": {
+    "imported": true,
+    "recovery": 70.0,
+    "hrv": 41.6,
+    "rhr": 50.0,
+    "sleep_perf": 66.0,
+    "strain": 12.7,
+    "sleep_hrs": 5.0,
+    "spo2": 97.5,
+    "skin_temp": 33.6,
+    "sleep_efficiency": 91.5,
+    "sleep_consistency": 73.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 2.2,
+    "deep_sleep_hrs": 1.8,
+    "rem_sleep_hrs": 0.9,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 2,
+    "disturbances": 6,
+    "sleep_needed_hrs": 9.2,
+    "sleep_debt_hrs": 1.2,
+    "calories": 2156,
+    "avg_hr": 69,
+    "max_hr": 156,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 231,
+        "avg_hr": 93,
+        "max_hr": 131
+      },
+      {
+        "sport": "HIIT",
+        "calories": 189,
+        "avg_hr": 105,
+        "max_hr": 156
+      },
+      {
+        "sport": "Activity",
+        "calories": 393,
+        "avg_hr": 114,
+        "max_hr": 152
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16143,
+    "resting_hr": 52.5,
+    "hrv": 81.1,
+    "sleep_hrs": 5.0,
+    "daylight_mins": 137.0,
+    "vo2max": 40.5,
+    "spo2": 97.3,
+    "respiratory_rate": 13.4,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 2,
+    "journal": "Feeling super anxious in the morning, I was really freaking out but then found a reframing \u201c this is not a porn movie, not a performance test\u201d so it was pretty cool. I was still pretty nervous but somehow the worst effect has died off by evening. I feel the chi granola didnt help I felt super tight after that one.\nstomach feels okey just like a cement from fear",
+    "supplements_list": [
+      "Probiotic",
+      "Sirotka (Whey)"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 6,
+    "meal_names": [
+      "Seeded Bread with Cheese",
+      "Duck Breast with Potato Wedges and Side Salad",
+      "Creamy Carrot Soup with Herb Oil and Croutons",
+      "Fried Egg with Avocado and Mushroom Flatbread",
+      "Passion Fruit",
+      "Yogurt with Coconut and Seeds"
+    ],
+    "meal_details": [],
+    "avg_score": 77.2,
+    "calories": 1592.0,
+    "protein_g": 56.2,
+    "fat_g": 108.4,
+    "carbs_g": 90.9,
+    "fibre_g": 28.2
+  }
+}
