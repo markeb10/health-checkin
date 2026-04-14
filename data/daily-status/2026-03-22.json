@@ -1,0 +1,84 @@
+{
+  "date": "2026-03-22",
+  "generated_at": "2026-04-14T20:37:15.227044",
+  "whoop": {
+    "imported": true,
+    "recovery": 46.0,
+    "hrv": 33.7,
+    "rhr": 52.0,
+    "sleep_perf": 77.0,
+    "strain": 10.5,
+    "sleep_hrs": 6.2,
+    "spo2": 95.7,
+    "skin_temp": 34.3,
+    "sleep_efficiency": 94.8,
+    "sleep_consistency": 80.0,
+    "respiratory_rate": 13.7,
+    "light_sleep_hrs": 2.6,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 4,
+    "disturbances": 7,
+    "sleep_needed_hrs": 9.9,
+    "sleep_debt_hrs": 1.8,
+    "calories": 1898,
+    "avg_hr": 64,
+    "max_hr": 172,
+    "workouts": [
+      {
+        "sport": "Functional Fitness",
+        "calories": 112,
+        "avg_hr": 119,
+        "max_hr": 152
+      },
+      {
+        "sport": "Walking",
+        "calories": 208,
+        "avg_hr": 124,
+        "max_hr": 172
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10362,
+    "resting_hr": 52.0,
+    "hrv": 56.9,
+    "sleep_hrs": 6.2,
+    "daylight_mins": 22.0,
+    "spo2": 98.0,
+    "respiratory_rate": 13.7,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 1,
+    "journal": "Feeling emotionlly a bit distant but in general okey in good spirit very relaxed like with the Theaning interesting, in general I was talking to AI a lot today about the problems and how to solve it I feel it could be a bit less though\nFeeling that tension still, especially if I sti down on the chair and solve duolingo i have hard time of speaking, so ned to be more upstraight,\n\nDuo lingo is possible to solve with the claude to some extend haha",
+    "supplements_list": [
+      "L-Theanine"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 4,
+    "meal_names": [
+      "Toast with Nut Butter and Banana",
+      "Whole Roasted Fish with Roasted Vegetables",
+      "Toast with Nut Butter",
+      "Avocado Toast"
+    ],
+    "meal_details": [],
+    "avg_score": 90.2,
+    "calories": 1531.0,
+    "protein_g": 121.0,
+    "fat_g": 83.0,
+    "carbs_g": 72.1,
+    "fibre_g": 17.0
+  }
+}
