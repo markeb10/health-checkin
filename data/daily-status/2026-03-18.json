@@ -1,0 +1,79 @@
+{
+  "date": "2026-03-18",
+  "generated_at": "2026-04-14T20:37:09.045629",
+  "whoop": {
+    "imported": true,
+    "recovery": 61.0,
+    "hrv": 34.0,
+    "rhr": 50.0,
+    "sleep_perf": 75.0,
+    "strain": 8.7,
+    "sleep_hrs": 6.4,
+    "spo2": 96.3,
+    "skin_temp": 33.6,
+    "sleep_efficiency": 98.6,
+    "sleep_consistency": 64.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 2.9,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.2,
+    "awake_hrs": 0.1,
+    "sleep_cycles": 6,
+    "disturbances": 6,
+    "sleep_needed_hrs": 10.0,
+    "sleep_debt_hrs": 2.1,
+    "calories": 1756,
+    "avg_hr": 64,
+    "max_hr": 173,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 184,
+        "avg_hr": 116,
+        "max_hr": 173
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 6522,
+    "resting_hr": 51.0,
+    "hrv": 59.1,
+    "sleep_hrs": 6.4,
+    "spo2": 97.5,
+    "respiratory_rate": 12.8,
+    "sleep_awake_hrs": 0.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 3,
+    "journal": "Feeling super anxious in the morning this time some different thingy on my mind, breakup with cosita, was getting worried how life without her would look like, but I got a good advise to start doing some steps in the right direction\n\nbloating high, ate quite intersting food\nFeeling still tight a bit and feeling harder to exhale but something has changed and there is some calmness behind me and I am much more patient so thats good",
+    "supplements_list": [
+      "Enterosgel",
+      "Telfast",
+      "Vitamin C"
+    ],
+    "anxiety": 8,
+    "bloating": 6
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 4,
+    "meal_names": [
+      "Seeded Bread with Hard Cheese",
+      "Hearty Beef Stew with Side Salad",
+      "Creamy Pea Soup with Herb Oil and Balsamic Glaze",
+      "Fried Egg with Avocado and Tomato Toast"
+    ],
+    "meal_details": [],
+    "avg_score": 75.8,
+    "calories": 1431.0,
+    "protein_g": 105.8,
+    "fat_g": 84.8,
+    "carbs_g": 63.7,
+    "fibre_g": 12.5
+  }
+}
