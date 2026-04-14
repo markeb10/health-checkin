@@ -1,6 +1,6 @@
 {
   "date": "2026-03-29",
-  "generated_at": "2026-04-05T18:53:39.209012",
+  "generated_at": "2026-04-14T20:37:25.952588",
   "whoop": {
     "imported": true,
     "recovery": 29.0,
@@ -29,13 +29,13 @@
   },
   "apple_health": {
     "imported": true,
-    "steps": 23069,
+    "steps": 11856,
     "resting_hr": 51.0,
-    "hrv": 48.89,
+    "hrv": 48.9,
     "sleep_hrs": 6.7,
     "daylight_mins": 48.0,
-    "spo2": 96.91,
-    "respiratory_rate": 13.58,
+    "spo2": 96.9,
+    "respiratory_rate": 13.6,
     "sleep_awake_hrs": 0.2
   },
   "checkin": {
@@ -59,15 +59,105 @@
     "imported": true,
     "meals": 3,
     "meal_names": [
-      "Roasted Chicken and Potato Wedges with Side Salad and Boiled Egg",
-      "Carrot and Ginger Soup with Croutons and Balsamic Glaze",
-      "Avocado Toast with Fried Eggs and Papaya"
+      "Chicken and Pork Tacos with Guacamole",
+      "Grilled Chicken Breast with Potato Wedges and Pea Shoots",
+      "Fried Eggs with Avocado, Cheese and Bread"
     ],
-    "avg_score": 64.0,
-    "calories": 1516.0,
-    "protein_g": 140.1,
-    "fat_g": 70.8,
-    "carbs_g": 80.4,
-    "fibre_g": 12.100000000000001
+    "meal_details": [
+      {
+        "name": "Chicken and Pork Tacos with Guacamole",
+        "score": 54,
+        "calories": 552.0,
+        "protein_g": 57.1,
+        "fat_g": 20.9,
+        "carbs_g": 36.3,
+        "fibre_g": 3.2,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "75 g",
+            "score": 65
+          },
+          {
+            "name": "Guacamole",
+            "qty": "80 g",
+            "score": 88
+          },
+          {
+            "name": "Pork, diced, lean",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Tortilla wraps",
+            "qty": "1 \u00d7 large wrap",
+            "score": 39
+          }
+        ]
+      },
+      {
+        "name": "Grilled Chicken Breast with Potato Wedges and Pea Shoots",
+        "score": 63,
+        "calories": 284.0,
+        "protein_g": 49.9,
+        "fat_g": 4.2,
+        "carbs_g": 10.5,
+        "fibre_g": 2.5,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 65
+          },
+          {
+            "name": "Morrisons Potato Wedges",
+            "qty": "1 \u00d7 portion",
+            "score": 51
+          },
+          {
+            "name": "Pea shoots",
+            "qty": "5 g",
+            "score": 100
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Avocado, Cheese and Bread",
+        "score": 75,
+        "calories": 680.0,
+        "protein_g": 33.1,
+        "fat_g": 45.7,
+        "carbs_g": 33.6,
+        "fibre_g": 6.4,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "1 \u00d7 medium",
+            "score": 100
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Cheese, hard, average",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": null,
+            "score": null
+          }
+        ]
+      }
+    ],
+    "avg_score": 83.3,
+    "calories": 1006.0,
+    "protein_g": 84.0,
+    "fat_g": 51.7,
+    "carbs_g": 49.1,
+    "fibre_g": 14.5
   }
 }
