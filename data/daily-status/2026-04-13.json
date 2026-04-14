@@ -1,13 +1,13 @@
 {
   "date": "2026-04-13",
-  "generated_at": "2026-04-13T08:00:07.623035",
+  "generated_at": "2026-04-14T08:06:08.579875",
   "whoop": {
     "imported": true,
     "recovery": 75.0,
     "hrv": 40.2,
     "rhr": 46.0,
     "sleep_perf": 82.0,
-    "strain": 2.1,
+    "strain": 11.7,
     "sleep_hrs": 6.3,
     "spo2": 94.5,
     "skin_temp": 34.1,
@@ -22,16 +22,70 @@
     "disturbances": 7,
     "sleep_needed_hrs": 9.5,
     "sleep_debt_hrs": 2.0,
-    "calories": 551,
-    "avg_hr": 50,
-    "max_hr": 107,
-    "workouts": []
+    "calories": 2059,
+    "avg_hr": 62,
+    "max_hr": 153,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 533,
+        "avg_hr": 123,
+        "max_hr": 153
+      }
+    ]
   },
   "apple_health": {
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 7,
+    "sleep_quality": 7,
+    "supplements": 6,
+    "journal": "Grateful for: This life, being alive, being healthy, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, New ideas, being innovative, having Claude to help me do things, being in this apartment, achieving all these things, it's amazing\nToday great: A good battle session will set me up or at least give me those good feelings:\n- a good session with Filip bio resonance with Renata\n- and then just being there, meeting with the content guys in the afternoon, some lunch, some refuelling\n\n\nI need to be careful with these sy",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "06:40",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "06:40",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "06:40",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Amitriptyline",
+        "time": "21:38",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Glycine 3g",
+        "time": "21:38",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Digestive Enzymes",
+        "time": "21:38",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 6,
+    "anxiety": 2,
+    "bloating": 8
   },
   "zoe": {
     "imported": false
