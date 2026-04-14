@@ -1,6 +1,6 @@
 {
   "date": "2026-03-30",
-  "generated_at": "2026-04-05T18:57:33.991366",
+  "generated_at": "2026-04-14T20:37:27.527969",
   "whoop": {
     "imported": true,
     "recovery": 91.0,
@@ -36,13 +36,13 @@
   },
   "apple_health": {
     "imported": true,
-    "steps": 14220,
-    "resting_hr": 50.0,
-    "hrv": 71.26,
-    "sleep_hrs": 6.3,
+    "steps": 10089,
+    "resting_hr": 49.5,
+    "hrv": 66.1,
+    "sleep_hrs": 6.2,
     "daylight_mins": 4.0,
-    "spo2": 97.21,
-    "respiratory_rate": 11.04,
+    "spo2": 96.8,
+    "respiratory_rate": 11.0,
     "sleep_awake_hrs": 0.6
   },
   "checkin": {
@@ -63,17 +63,208 @@
   },
   "zoe": {
     "imported": true,
-    "meals": 3,
+    "meals": 6,
     "meal_names": [
-      "Roasted Chicken and Potato Wedges with Side Salad and Boiled Egg",
-      "Carrot and Ginger Soup with Croutons and Balsamic Glaze",
-      "Avocado Toast with Fried Eggs and Papaya"
+      "Chicken with Bacon and Rice",
+      "Steak with Roasted Sweet Potato and Asparagus Salad",
+      "Butternut Squash Soup with Parsley and Olive Oil",
+      "Blueberries",
+      "Avocado Toast with Fried Eggs",
+      "Toast with Nut Butter and Banana"
     ],
-    "avg_score": 64.0,
-    "calories": 2031.0,
-    "protein_g": 141.9,
-    "fat_g": 91.1,
-    "carbs_g": 158.9,
-    "fibre_g": 23.299999999999997
+    "meal_details": [
+      {
+        "name": "Chicken with Bacon and Rice",
+        "score": 49,
+        "calories": 574.0,
+        "protein_g": 57.5,
+        "fat_g": 15.9,
+        "carbs_g": 53.4,
+        "fibre_g": 5.1,
+        "ingredients": [
+          {
+            "name": "Bacon, \u2152 \u00d7 streaky rasher",
+            "qty": null,
+            "score": 4
+          },
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 65
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Peas",
+            "qty": "30 g",
+            "score": 100
+          },
+          {
+            "name": "Rice, plain, ready-cooked",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Sauce, traditional cook in, white sauce based",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Steak with Roasted Sweet Potato and Asparagus Salad",
+        "score": 58,
+        "calories": 361.0,
+        "protein_g": 42.0,
+        "fat_g": 16.5,
+        "carbs_g": 11.9,
+        "fibre_g": 2.8,
+        "ingredients": [
+          {
+            "name": "Asparagus",
+            "qty": "1 \u00d7 portion",
+            "score": 100
+          },
+          {
+            "name": "Beef, sirloin steak, lean, medium rare",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Potatoes",
+            "qty": "1 \u00d7 potato",
+            "score": 43
+          },
+          {
+            "name": "Radishes, red",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Butternut Squash Soup with Parsley and Olive Oil",
+        "score": 53,
+        "calories": 266.0,
+        "protein_g": 6.1,
+        "fat_g": 13.5,
+        "carbs_g": 24.9,
+        "fibre_g": 3.3,
+        "ingredients": [
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Soup, potato and leek",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Blueberries",
+        "score": 73,
+        "calories": 32.0,
+        "protein_g": 0.7,
+        "fat_g": 0.2,
+        "carbs_g": 7.3,
+        "fibre_g": 1.2,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "2 \u00d7 handful",
+            "score": 73
+          }
+        ]
+      },
+      {
+        "name": "Avocado Toast with Fried Eggs",
+        "score": 75,
+        "calories": 536.0,
+        "protein_g": 25.8,
+        "fat_g": 32.9,
+        "carbs_g": 33.7,
+        "fibre_g": 5.8,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "60 g",
+            "score": 100
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Cashew nuts, plain",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Toast with Nut Butter and Banana",
+        "score": 74,
+        "calories": 262.0,
+        "protein_g": 9.8,
+        "fat_g": 12.1,
+        "carbs_g": 27.7,
+        "fibre_g": 5.1,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Banana",
+            "qty": "40 g",
+            "score": 60
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          }
+        ]
+      }
+    ],
+    "avg_score": 83.3,
+    "calories": 1006.0,
+    "protein_g": 84.0,
+    "fat_g": 51.7,
+    "carbs_g": 49.1,
+    "fibre_g": 14.5
   }
 }
