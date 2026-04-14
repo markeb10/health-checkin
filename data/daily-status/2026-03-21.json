@@ -1,0 +1,89 @@
+{
+  "date": "2026-03-21",
+  "generated_at": "2026-04-14T20:37:13.763087",
+  "whoop": {
+    "imported": true,
+    "recovery": 67.0,
+    "hrv": 37.1,
+    "rhr": 51.0,
+    "sleep_perf": 73.0,
+    "strain": 15.4,
+    "sleep_hrs": 6.3,
+    "spo2": 95.8,
+    "skin_temp": 32.9,
+    "sleep_efficiency": 86.2,
+    "sleep_consistency": 68.0,
+    "respiratory_rate": 13.7,
+    "light_sleep_hrs": 1.9,
+    "deep_sleep_hrs": 2.5,
+    "rem_sleep_hrs": 1.9,
+    "awake_hrs": 1.0,
+    "sleep_cycles": 7,
+    "disturbances": 3,
+    "sleep_needed_hrs": 9.9,
+    "sleep_debt_hrs": 2.1,
+    "calories": 2694,
+    "avg_hr": 71,
+    "max_hr": 162,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 594,
+        "avg_hr": 130,
+        "max_hr": 162
+      },
+      {
+        "sport": "Walking",
+        "calories": 575,
+        "avg_hr": 116,
+        "max_hr": 148
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14919,
+    "resting_hr": 52.0,
+    "hrv": 54.3,
+    "sleep_hrs": 6.3,
+    "daylight_mins": 108.0,
+    "vo2max": 40.3,
+    "spo2": 96.8,
+    "respiratory_rate": 13.7,
+    "sleep_awake_hrs": 1.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 1,
+    "journal": "Feeling joy, estatic\u2026 I feel amazing after padel, better than after playing ping pong, ping pong is a bit nervous game and I really rake up my nervous state there apart form the pyhsical, was super estatic at lunch, food coma haha\nAll is well but, I did get chest squeeze after the cake interesting enough, gemine says its a reflux problem i think so too",
+    "supplements_list": [
+      "L-Theanine"
+    ],
+    "anxiety": 8,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 8,
+    "meal_names": [
+      "Chocolate Raspberry Mousse Cake Slice",
+      "Seared Salmon with Baby Corn and Balsamic Glaze",
+      "Seared Steak with Roasted Vegetables",
+      "Assorted Sushi and Sashimi Platter",
+      "Miso Soup with Edamame",
+      "Edamame",
+      "Papaya",
+      "Scrambled Eggs with Avocado and Ricotta Toast"
+    ],
+    "meal_details": [],
+    "avg_score": 82.0,
+    "calories": 1776.0,
+    "protein_g": 142.2,
+    "fat_g": 82.0,
+    "carbs_g": 107.0,
+    "fibre_g": 32.7
+  }
+}
