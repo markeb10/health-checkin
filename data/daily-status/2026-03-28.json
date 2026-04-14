@@ -1,6 +1,6 @@
 {
   "date": "2026-03-28",
-  "generated_at": "2026-04-05T18:53:37.260598",
+  "generated_at": "2026-04-14T20:37:24.390499",
   "whoop": {
     "imported": true,
     "recovery": 65.0,
@@ -48,13 +48,13 @@
   },
   "apple_health": {
     "imported": true,
-    "steps": 31635,
+    "steps": 20275,
     "resting_hr": 52.0,
-    "hrv": 69.53,
+    "hrv": 69.5,
     "sleep_hrs": 6.0,
     "daylight_mins": 170.0,
-    "spo2": 96.04,
-    "respiratory_rate": 13.36,
+    "spo2": 96.0,
+    "respiratory_rate": 13.4,
     "sleep_awake_hrs": 1.0
   },
   "checkin": {
@@ -79,13 +79,128 @@
     "meal_names": [
       "Toast with Nut Butter and Banana",
       "Roasted Fish with Mixed Vegetables and Potatoes",
-      "Fried Eggs with Avocado"
+      "Fried Eggs with Avocado, Cheese, Bread and Blackberries"
     ],
-    "avg_score": 76.0,
-    "calories": 1502.0,
-    "protein_g": 81.5,
-    "fat_g": 89.2,
-    "carbs_g": 95.19999999999999,
-    "fibre_g": 16.5
+    "meal_details": [
+      {
+        "name": "Toast with Nut Butter and Banana",
+        "score": 74,
+        "calories": 264.0,
+        "protein_g": 9.8,
+        "fat_g": 12.1,
+        "carbs_g": 28.4,
+        "fibre_g": 5.1,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Banana",
+            "qty": "45 g",
+            "score": 60
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Roasted Fish with Mixed Vegetables and Potatoes",
+        "score": 75,
+        "calories": 605.0,
+        "protein_g": 40.6,
+        "fat_g": 31.8,
+        "carbs_g": 41.8,
+        "fibre_g": 5.0,
+        "ingredients": [
+          {
+            "name": "Broccoli",
+            "qty": "1 \u00d7 portion",
+            "score": 100
+          },
+          {
+            "name": "Cauliflower",
+            "qty": "50 g",
+            "score": 97
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Pepper, black",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Peppers, red",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Potatoes, roasted in oil",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Sea bass",
+            "qty": "1 \u00d7 medium fillet",
+            "score": 86
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Avocado, Cheese, Bread and Blackberries",
+        "score": 78,
+        "calories": 633.0,
+        "protein_g": 31.1,
+        "fat_g": 45.3,
+        "carbs_g": 25.0,
+        "fibre_g": 6.4,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "1 \u00d7 medium",
+            "score": 100
+          },
+          {
+            "name": "Blackberries",
+            "qty": "1 \u00d7 handful",
+            "score": 89
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Cheese, hard, average",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": null,
+            "score": null
+          }
+        ]
+      }
+    ],
+    "avg_score": 85.5,
+    "calories": 1238.0,
+    "protein_g": 71.7,
+    "fat_g": 77.1,
+    "carbs_g": 66.8,
+    "fibre_g": 11.4
   }
 }
