@@ -1,6 +1,6 @@
 {
   "date": "2026-04-14",
-  "generated_at": "2026-04-14T22:46:02.102201",
+  "generated_at": "2026-04-14T23:01:11.274300",
   "whoop": {
     "imported": true,
     "recovery": 65.0,
@@ -46,7 +46,33 @@
     "sleep_awake_hrs": 0.4
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 4,
+    "energy": 4,
+    "sleep_quality": 4,
+    "supplements": 3,
+    "journal": "Grateful for: My family my friends, being calm, still alive - one day closer to the solution, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Somehow I stay calm even though it's a weird situation\nToday great: Go into nature, enjoy change, food. Don't take digestive enzymes, don't take Google, whatever bullshit. Go back. I need to get back to a good sleep. Most likely nothing that she did to me but yeah I need to get back to the relaxed mode to not be in the squeezing chest mode \nAffirmation: I am who I want to b",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "06:16",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "06:16",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "06:16",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 3
   },
   "zoe": {
     "imported": true,
