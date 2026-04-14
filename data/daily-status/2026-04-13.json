@@ -1,6 +1,6 @@
 {
   "date": "2026-04-13",
-  "generated_at": "2026-04-14T17:15:20.607753",
+  "generated_at": "2026-04-14T17:15:55.014809",
   "whoop": {
     "imported": true,
     "recovery": 75.0,
@@ -95,6 +95,135 @@
     "bloating": 8
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 4,
+    "meal_names": [
+      "Toast with Almond Butter and Blueberries",
+      "Pan-Fried Chicken Breast with Potatoes and Green Beans",
+      "Fried Eggs with Avocado Toast",
+      "Toast with Almond Butter and Banana"
+    ],
+    "meal_details": [
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 78,
+        "calories": 321.0,
+        "protein_g": 12.2,
+        "fat_g": 17.7,
+        "carbs_g": 26.9,
+        "fibre_g": 6.5,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": "1 \u00d7 large slice",
+            "score": 47
+          }
+        ]
+      },
+      {
+        "name": "Pan-Fried Chicken Breast with Potatoes and Green Beans",
+        "score": 72,
+        "calories": 385.0,
+        "protein_g": 52.4,
+        "fat_g": 8.4,
+        "carbs_g": 24.8,
+        "fibre_g": 4.7,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 65
+          },
+          {
+            "name": "Green beans",
+            "qty": "1 \u00d7 portion",
+            "score": 99
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Potatoes, new/salad, boiled, skin on",
+            "qty": "1 \u00d7 portion",
+            "score": 48
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Avocado Toast",
+        "score": 75,
+        "calories": 582.0,
+        "protein_g": 28.0,
+        "fat_g": 37.3,
+        "carbs_g": 33.0,
+        "fibre_g": 5.4,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "50 g",
+            "score": 100
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": "2 \u00d7 medium slice",
+            "score": 47
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter and Banana",
+        "score": 78,
+        "calories": 212.0,
+        "protein_g": 7.6,
+        "fat_g": 11.6,
+        "carbs_g": 18.8,
+        "fibre_g": 4.0,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 90
+          },
+          {
+            "name": "Banana",
+            "qty": "50 g",
+            "score": 60
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": "1 \u00d7 small slice",
+            "score": 47
+          }
+        ]
+      }
+    ],
+    "avg_score": 76.0,
+    "calories": 1500.0,
+    "protein_g": 100.2,
+    "fat_g": 75.0,
+    "carbs_g": 103.5,
+    "fibre_g": 20.6
   }
 }
