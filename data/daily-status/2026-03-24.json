@@ -1,0 +1,98 @@
+{
+  "date": "2026-03-24",
+  "generated_at": "2026-04-14T20:37:18.218584",
+  "whoop": {
+    "imported": true,
+    "recovery": 52.0,
+    "hrv": 32.6,
+    "rhr": 49.0,
+    "sleep_perf": 81.0,
+    "strain": 13.1,
+    "sleep_hrs": 6.5,
+    "spo2": 95.2,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 91.9,
+    "sleep_consistency": 88.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 2.6,
+    "deep_sleep_hrs": 2.3,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 4,
+    "disturbances": 3,
+    "sleep_needed_hrs": 10.0,
+    "sleep_debt_hrs": 2.1,
+    "calories": 2249,
+    "avg_hr": 68,
+    "max_hr": 159,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 93,
+        "avg_hr": 117,
+        "max_hr": 135
+      },
+      {
+        "sport": "HIIT",
+        "calories": 131,
+        "avg_hr": 102,
+        "max_hr": 120
+      },
+      {
+        "sport": "HIIT",
+        "calories": 119,
+        "avg_hr": 93,
+        "max_hr": 119
+      },
+      {
+        "sport": "Walking",
+        "calories": 459,
+        "avg_hr": 124,
+        "max_hr": 159
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21984,
+    "resting_hr": 51.0,
+    "hrv": 73.4,
+    "sleep_hrs": 6.5,
+    "daylight_mins": 121.0,
+    "vo2max": 40.4,
+    "spo2": 97.2,
+    "respiratory_rate": 13.2,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 1,
+    "journal": "Feeling wired in the morning, even in the middle of the night, kinda weird feeling that I only have in the morning for some reason not sure whats happening\nFeeling a bit acidity in evening, i am assuming this is the issue of the stake",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Steak with Potato Wedges",
+      "Carrot and Ginger Soup with Croutons and Balsamic Glaze",
+      "Papaya",
+      "Avocado Toast with Fried Egg",
+      "Toast with almond butter Spread and Banana"
+    ],
+    "meal_details": [],
+    "avg_score": 84.5,
+    "calories": 1427.0,
+    "protein_g": 83.5,
+    "fat_g": 66.9,
+    "carbs_g": 124.2,
+    "fibre_g": 26.6
+  }
+}
