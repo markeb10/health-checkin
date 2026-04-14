@@ -1,6 +1,6 @@
 {
   "date": "2026-03-27",
-  "generated_at": "2026-04-05T18:53:35.249284",
+  "generated_at": "2026-04-14T20:37:22.807884",
   "whoop": {
     "imported": true,
     "recovery": 72.0,
@@ -48,12 +48,12 @@
   },
   "apple_health": {
     "imported": true,
-    "steps": 25007,
+    "steps": 17504,
     "resting_hr": 49.0,
-    "hrv": 39.07,
+    "hrv": 39.1,
     "sleep_hrs": 6.0,
     "daylight_mins": 15.0,
-    "spo2": 97.39,
+    "spo2": 97.4,
     "respiratory_rate": 13.3,
     "sleep_awake_hrs": 0.8
   },
@@ -75,11 +75,57 @@
   },
   "zoe": {
     "imported": true,
-    "meals": 3,
+    "meals": 1,
     "meal_names": [
-      "Roasted Chicken and Potato Wedges with Side Salad and Boiled Egg",
-      "Carrot and Ginger Soup with Croutons and Balsamic Glaze",
-      "Avocado Toast with Fried Eggs and Papaya"
+      "Roasted Chicken and Potato Wedges with Side Salad and Boiled Egg"
+    ],
+    "meal_details": [
+      {
+        "name": "Roasted Chicken and Potato Wedges with Side Salad and Boiled Egg",
+        "score": 84,
+        "calories": 352.0,
+        "protein_g": 53.6,
+        "fat_g": 12.2,
+        "carbs_g": 6.4,
+        "fibre_g": 2.1,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 72
+          },
+          {
+            "name": "Eggs, boiled",
+            "qty": "30 g",
+            "score": 81
+          },
+          {
+            "name": "M&S Roasting Potatoes",
+            "qty": "1 \u00d7 roast potato",
+            "score": 49
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 98
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 89
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": "9 \u00d7 handful of leaves",
+            "score": 98
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "1 \u00d7 cherry tomato",
+            "score": 96
+          }
+        ]
+      }
     ],
     "avg_score": 83.3,
     "calories": 1006.0,
