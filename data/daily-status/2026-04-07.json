@@ -1,8 +1,62 @@
 {
   "date": "2026-04-07",
-  "generated_at": "2026-04-14T20:38:32.167616",
+  "generated_at": "2026-04-14T20:40:26.196333",
   "whoop": {
-    "imported": false
+    "imported": true,
+    "recovery": 72.0,
+    "hrv": 37.4,
+    "rhr": 47.0,
+    "sleep_perf": 86.0,
+    "strain": 13.6,
+    "sleep_hrs": 7.3,
+    "spo2": 92.8,
+    "skin_temp": 34.1,
+    "sleep_efficiency": 92.9313,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 3.2,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.8,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 4,
+    "disturbances": 7,
+    "sleep_needed_hrs": 8.9,
+    "sleep_debt_hrs": 1.2,
+    "calories": 2219,
+    "avg_hr": 66,
+    "max_hr": 163,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "HIIT",
+        "calories": 57,
+        "avg_hr": 88,
+        "max_hr": 100
+      },
+      {
+        "sport": "Activity",
+        "calories": 85,
+        "avg_hr": 101,
+        "max_hr": 138
+      },
+      {
+        "sport": "Activity",
+        "calories": 143,
+        "avg_hr": 128,
+        "max_hr": 163
+      },
+      {
+        "sport": "Activity",
+        "calories": 534,
+        "avg_hr": 126,
+        "max_hr": 160
+      }
+    ]
   },
   "apple_health": {
     "imported": true,
