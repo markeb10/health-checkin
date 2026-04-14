@@ -1,6 +1,6 @@
 {
   "date": "2026-03-31",
-  "generated_at": "2026-04-05T18:57:33.991080",
+  "generated_at": "2026-04-14T20:37:29.104768",
   "whoop": {
     "imported": true,
     "recovery": 72.0,
@@ -35,36 +35,186 @@
     ]
   },
   "apple_health": {
-    "imported": false
+    "imported": true,
+    "steps": 9811,
+    "resting_hr": 49.0,
+    "hrv": 63.3,
+    "sleep_hrs": 7.2,
+    "daylight_mins": 29.0,
+    "spo2": 95.9,
+    "respiratory_rate": 13.5,
+    "sleep_awake_hrs": 0.8
   },
   "checkin": {
-    "imported": true,
-    "mood": null,
-    "energy": null,
-    "sleep_quality": null,
-    "supplements": 4,
-    "journal": "Feeling good and relaxed. Slept 7 hours finally. Can handle stress well, maybe too calm, slightly lower dopamine. Brain pretty good.\nPhysical: HRV 38, lower resting HR. Played ping pong. Motion Lab exercises. More pain in pelvic/coccyx area. Also pelvic exercises.\nEmotional: Feeling good, calm. Finally 7 hours sleep. Bloating 5/10. Bowel 1x level 3. Glycine seems to be working. Waking with lower back pain around 5AM, goes away during day.\nGut: No tightness today. No acidity. Maybe a little sleep",
-    "supplements_list": [
-      "Vitamin C",
-      "Magnesium Glycinate",
-      "Glycine",
-      "Telfast"
-    ],
-    "bloating": 5
+    "imported": false
   },
   "zoe": {
     "imported": true,
-    "meals": 3,
+    "meals": 5,
     "meal_names": [
-      "Toast with Nut Butter and Banana",
-      "Roasted Fish with Mixed Vegetables and Potatoes",
-      "Fried Eggs with Avocado"
+      "Toast with Nut Butter and Blueberries",
+      "Pork Tenderloin with Green Beans, Potatoes, and Salad",
+      "Leek and Potato Soup with Parsley and Olive Oil Drizzle",
+      "Toast with Nut Butter and Blueberries",
+      "Fried Eggs with Avocado Toast and Chopped Nuts"
     ],
-    "avg_score": 78.0,
-    "calories": 1433.0,
-    "protein_g": 87.7,
-    "fat_g": 75.4,
-    "carbs_g": 98.8,
-    "fibre_g": 23.5
+    "meal_details": [
+      {
+        "name": "Toast with Nut Butter and Blueberries",
+        "score": 75,
+        "calories": 257.0,
+        "protein_g": 9.8,
+        "fat_g": 12.2,
+        "carbs_g": 26.3,
+        "fibre_g": 5.3,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Pork Tenderloin with Green Beans, Potatoes, and Salad",
+        "score": 59,
+        "calories": 256.0,
+        "protein_g": 37.7,
+        "fat_g": 5.3,
+        "carbs_g": 13.4,
+        "fibre_g": 3.7,
+        "ingredients": [
+          {
+            "name": "Green beans",
+            "qty": "1 \u00d7 portion",
+            "score": 99
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Pork tenderloin",
+            "qty": "4 \u00d7 slice",
+            "score": 44
+          },
+          {
+            "name": "Potatoes",
+            "qty": "1 \u00d7 potato",
+            "score": 43
+          },
+          {
+            "name": "Radishes, red",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Leek and Potato Soup with Parsley and Olive Oil Drizzle",
+        "score": 100,
+        "calories": 106.0,
+        "protein_g": 5.4,
+        "fat_g": 6.0,
+        "carbs_g": 8.1,
+        "fibre_g": 3.7,
+        "ingredients": [
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Peas",
+            "qty": "1 \u00d7 serving",
+            "score": 100
+          }
+        ]
+      },
+      {
+        "name": "Toast with Nut Butter and Blueberries",
+        "score": 75,
+        "calories": 257.0,
+        "protein_g": 9.8,
+        "fat_g": 12.2,
+        "carbs_g": 26.3,
+        "fibre_g": 5.3,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Avocado Toast and Chopped Nuts",
+        "score": 80,
+        "calories": 557.0,
+        "protein_g": 25.0,
+        "fat_g": 39.7,
+        "carbs_g": 24.7,
+        "fibre_g": 5.5,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "1 \u00d7 medium",
+            "score": 100
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Cashew nuts, plain",
+            "qty": null,
+            "score": null
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": null,
+            "score": null
+          }
+        ]
+      }
+    ],
+    "avg_score": 85.5,
+    "calories": 1238.0,
+    "protein_g": 71.7,
+    "fat_g": 77.1,
+    "carbs_g": 66.8,
+    "fibre_g": 11.4
   }
 }
