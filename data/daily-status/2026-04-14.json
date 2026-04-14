@@ -1,6 +1,6 @@
 {
   "date": "2026-04-14",
-  "generated_at": "2026-04-14T16:52:48.942609",
+  "generated_at": "2026-04-14T16:56:52.203322",
   "whoop": {
     "imported": true,
     "recovery": 65.0,
@@ -41,6 +41,108 @@
     "imported": false
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 3,
+    "meal_names": [
+      "Roast Pork with Potatoes and Side Salad",
+      "Broccoli Soup with Herb Oil",
+      "Almond butter Spread Rice Cakes"
+    ],
+    "meal_details": [
+      {
+        "name": "Roast Pork with Potatoes and Side Salad",
+        "score": 40,
+        "calories": 1.0,
+        "protein_g": 40.9,
+        "fat_g": 57.7,
+        "carbs_g": 98.4,
+        "fibre_g": 5.9,
+        "ingredients": [
+          {
+            "name": "Asda Roast Potato Seasoning",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 51
+          },
+          {
+            "name": "COOK Slow Roasted Belly of Pork",
+            "qty": "1 \u00d7 1 serving",
+            "score": 46
+          },
+          {
+            "name": "Gravy granules",
+            "qty": "50 ml",
+            "score": 4
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "1 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Radishes, red",
+            "qty": "1 \u00d7 radish",
+            "score": 90
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": "4 \u00d7 handful of leaves",
+            "score": 94
+          }
+        ]
+      },
+      {
+        "name": "Broccoli Soup with Herb Oil",
+        "score": 81,
+        "calories": 92.0,
+        "protein_g": 0.7,
+        "fat_g": 9.6,
+        "carbs_g": 0.6,
+        "fibre_g": 0.6,
+        "ingredients": [
+          {
+            "name": "Broccoli",
+            "qty": "1 \u00d7 floret",
+            "score": 100
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Vegetable oil",
+            "qty": "10 ml",
+            "score": 78
+          }
+        ]
+      },
+      {
+        "name": "Almond butter Spread Rice Cakes",
+        "score": 89,
+        "calories": 129.0,
+        "protein_g": 4.8,
+        "fat_g": 11.0,
+        "carbs_g": 1.8,
+        "fibre_g": 2.3,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 90
+          },
+          {
+            "name": "Oppa Tteok Rice Cake",
+            "qty": "1 g",
+            "score": 43
+          }
+        ]
+      }
+    ],
+    "avg_score": 70.0,
+    "calories": 222.0,
+    "protein_g": 46.4,
+    "fat_g": 78.3,
+    "carbs_g": 100.80000000000001,
+    "fibre_g": 8.8
   }
 }
