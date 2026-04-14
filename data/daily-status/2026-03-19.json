@@ -1,0 +1,98 @@
+{
+  "date": "2026-03-19",
+  "generated_at": "2026-04-14T20:37:10.570462",
+  "whoop": {
+    "imported": true,
+    "recovery": 48.0,
+    "hrv": 34.4,
+    "rhr": 50.0,
+    "sleep_perf": 68.0,
+    "strain": 15.3,
+    "sleep_hrs": 5.2,
+    "spo2": 96.7,
+    "skin_temp": 33.4,
+    "sleep_efficiency": 99.4,
+    "sleep_consistency": 73.0,
+    "respiratory_rate": 13.7,
+    "light_sleep_hrs": 2.0,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.2,
+    "awake_hrs": 0.0,
+    "sleep_cycles": 3,
+    "disturbances": 3,
+    "sleep_needed_hrs": 9.4,
+    "sleep_debt_hrs": 1.8,
+    "calories": 2643,
+    "avg_hr": 71,
+    "max_hr": 172,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 669,
+        "avg_hr": 132,
+        "max_hr": 172
+      },
+      {
+        "sport": "HIIT",
+        "calories": 160,
+        "avg_hr": 98,
+        "max_hr": 121
+      },
+      {
+        "sport": "Activity",
+        "calories": 205,
+        "avg_hr": 124,
+        "max_hr": 153
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12481,
+    "resting_hr": 54.0,
+    "hrv": 54.8,
+    "sleep_hrs": 5.2,
+    "daylight_mins": 45.0,
+    "vo2max": 40.4,
+    "spo2": 97.6,
+    "respiratory_rate": 13.6,
+    "sleep_awake_hrs": 0.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 5,
+    "journal": "in general feeling okey, but just not sleepy, my mind is wondering a lot there but I am controling myself, the antiallergy pill and the ruporut helps, will try magnezium today and lets see what we will get, \n\nFeeling a bit more pain in the pelvic floor\nFeeling okey, \n\nbloating levels 4/10\n\nin general less tightness in the the throat",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Ruporut",
+      "Telfast",
+      "Vitamin C"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 8,
+    "meal_names": [
+      "Vegetable Quiche Slice",
+      "Rustic Bread with Hard Cheese and Soft Cheese Spread",
+      "Breaded Cutlets with Mashed Potatoes and Side Salad",
+      "Carrot Soup with Croutons and Herb Garnish",
+      "Fried Egg and Tomato Toast with Ricotta",
+      "Papaya",
+      "Granadillas",
+      "Almond butter and Banana Toast"
+    ],
+    "meal_details": [],
+    "avg_score": 67.3,
+    "calories": 1961.0,
+    "protein_g": 97.6,
+    "fat_g": 109.8,
+    "carbs_g": 149.7,
+    "fibre_g": 27.5
+  }
+}
