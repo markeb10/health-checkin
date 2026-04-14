@@ -1,6 +1,6 @@
 {
   "date": "2026-04-14",
-  "generated_at": "2026-04-14T20:08:02.670678",
+  "generated_at": "2026-04-14T20:08:47.687641",
   "whoop": {
     "imported": true,
     "recovery": 65.0,
@@ -49,13 +49,188 @@
   },
   "zoe": {
     "imported": true,
-    "meals": 3,
+    "meals": 8,
     "meal_names": [
+      "Creamy Blueberry Soup with Orange Zest",
+      "Poached White Fish with Creamy Sauce and Herb Oil",
+      "Creamy Soup with Orange, Salmon Roe, and Almonds",
+      "Bread with Herb Dressing",
+      "Poached Pear with Vanilla Ice Cream and Pine Nuts",
       "Roast Pork with Potatoes and Side Salad",
       "Broccoli Soup with Herb Oil",
       "Almond butter Spread Rice Cakes"
     ],
     "meal_details": [
+      {
+        "name": "Creamy Blueberry Soup with Orange Zest",
+        "score": 50,
+        "calories": 101.0,
+        "protein_g": 1.3,
+        "fat_g": 5.8,
+        "carbs_g": 11.5,
+        "fibre_g": 1.9,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "3 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Cream, double",
+            "qty": "10 ml",
+            "score": 31
+          },
+          {
+            "name": "Orange zest",
+            "qty": "2 g",
+            "score": 96
+          }
+        ]
+      },
+      {
+        "name": "Poached White Fish with Creamy Sauce and Herb Oil",
+        "score": 66,
+        "calories": 322.0,
+        "protein_g": 31.4,
+        "fat_g": 11.9,
+        "carbs_g": 24.0,
+        "fibre_g": 0.6,
+        "ingredients": [
+          {
+            "name": "Breadcrumbs",
+            "qty": "15 g",
+            "score": 24
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Thyme, fresh",
+            "qty": "3 \u00d7 sprig",
+            "score": 79
+          },
+          {
+            "name": "White sauce, sweet, homemade with semi-skimmed milk",
+            "qty": "80 ml",
+            "score": 44
+          },
+          {
+            "name": "Whiting, weighed raw",
+            "qty": "1 \u00d7 medium fillet",
+            "score": 87
+          }
+        ]
+      },
+      {
+        "name": "Creamy Soup with Orange, Salmon Roe, and Almonds",
+        "score": 100,
+        "calories": 118.0,
+        "protein_g": 3.1,
+        "fat_g": 9.9,
+        "carbs_g": 4.4,
+        "fibre_g": 3.7,
+        "ingredients": [
+          {
+            "name": "Almonds",
+            "qty": "10 \u00d7 nut",
+            "score": 100
+          },
+          {
+            "name": "Dill, fresh",
+            "qty": "1 g",
+            "score": 81
+          },
+          {
+            "name": "Fennel",
+            "qty": "1 \u00d7 serving",
+            "score": 92
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Oranges, weighed without peel/pips",
+            "qty": "30 g",
+            "score": 84
+          }
+        ]
+      },
+      {
+        "name": "Bread with Herb Dressing",
+        "score": 83,
+        "calories": 363.0,
+        "protein_g": 10.3,
+        "fat_g": 27.6,
+        "carbs_g": 19.6,
+        "fibre_g": 3.3,
+        "ingredients": [
+          {
+            "name": "Bread, wholemeal",
+            "qty": "1 \u00d7 medium slice",
+            "score": 33
+          },
+          {
+            "name": "Garlic",
+            "qty": "1 g",
+            "score": 79
+          },
+          {
+            "name": "Lemon juice",
+            "qty": "2 ml",
+            "score": 34
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "15 ml",
+            "score": 90
+          },
+          {
+            "name": "Pepper, black, \u2152 g",
+            "qty": null,
+            "score": 70
+          },
+          {
+            "name": "Pumpkin seeds",
+            "qty": "1 \u00d7 handful",
+            "score": 97
+          },
+          {
+            "name": "Salt, \u2155 g",
+            "qty": null,
+            "score": 20
+          }
+        ]
+      },
+      {
+        "name": "Poached Pear with Vanilla Ice Cream and Pine Nuts",
+        "score": 86,
+        "calories": 244.0,
+        "protein_g": 14.4,
+        "fat_g": 12.1,
+        "carbs_g": 20.6,
+        "fibre_g": 2.7,
+        "ingredients": [
+          {
+            "name": "Cottage cheese, low fat",
+            "qty": "1 \u00d7 small pot",
+            "score": 63
+          },
+          {
+            "name": "Pears",
+            "qty": "150 g",
+            "score": 83
+          },
+          {
+            "name": "Pine nuts",
+            "qty": "15 g",
+            "score": 96
+          }
+        ]
+      },
       {
         "name": "Roast Pork with Potatoes and Side Salad",
         "score": 40,
@@ -145,11 +320,11 @@
         ]
       }
     ],
-    "avg_score": 70.0,
-    "calories": 222.0,
-    "protein_g": 46.4,
-    "fat_g": 78.3,
-    "carbs_g": 100.80000000000001,
-    "fibre_g": 8.8
+    "avg_score": 74.0,
+    "calories": 1370.0,
+    "protein_g": 106.89999999999999,
+    "fat_g": 145.6,
+    "carbs_g": 180.9,
+    "fibre_g": 21.0
   }
 }
