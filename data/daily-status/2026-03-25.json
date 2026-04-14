@@ -1,6 +1,6 @@
 {
   "date": "2026-03-25",
-  "generated_at": "2026-04-05T18:53:30.022014",
+  "generated_at": "2026-04-14T20:37:19.782736",
   "whoop": {
     "imported": true,
     "recovery": 52.0,
@@ -36,14 +36,14 @@
   },
   "apple_health": {
     "imported": true,
-    "steps": 19874,
+    "steps": 10597,
     "resting_hr": 51.5,
-    "hrv": 75.44,
+    "hrv": 75.4,
     "sleep_hrs": 6.1,
     "daylight_mins": 42.0,
-    "vo2max": 40.51,
-    "spo2": 97.27,
-    "respiratory_rate": 15.55,
+    "vo2max": 40.5,
+    "spo2": 97.3,
+    "respiratory_rate": 15.6,
     "sleep_awake_hrs": 0.4
   },
   "checkin": {
@@ -70,6 +70,7 @@
       "Toast with Nut Butter",
       "Avocado Toast with Fried Egg"
     ],
+    "meal_details": [],
     "avg_score": 79.4,
     "calories": 1811.0,
     "protein_g": 85.0,
