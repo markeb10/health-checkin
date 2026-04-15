@@ -1,6 +1,6 @@
 {
   "date": "2026-04-14",
-  "generated_at": "2026-04-15T10:16:11.269647",
+  "generated_at": "2026-04-15T10:31:10.734660",
   "whoop": {
     "imported": true,
     "recovery": 65.0,
@@ -47,32 +47,29 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 4,
-    "energy": 4,
-    "sleep_quality": 4,
-    "supplements": 3,
-    "journal": "Grateful for: My family my friends, being calm, still alive - one day closer to the solution, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Somehow I stay calm even though it's a weird situation\nToday great: Go into nature, enjoy change, food. Don't take digestive enzymes, don't take Google, whatever bullshit. Go back. I need to get back to a good sleep. Most likely nothing that she did to me but yeah I need to get back to the relaxed mode to not be in the squeezing chest mode \nAffirmation: I am who I want to b",
+    "mood": 5,
+    "energy": 5,
+    "sleep_quality": 5,
+    "supplements": 2,
+    "journal": "Amazing things: Amazing walkie in nature, Ping pong\nBetter: Even less laptop use\nIdeas: 1. Hard stop with screens at 9 \n2. no laptop use after 6 pm\n3. do flash cards for spanish\nDid today: 1. Zoe\n2. ping pong\n3. shower\n4. packing\n5. petra\n6. lunch\n7. drive to Zg Jezersko Vila Planinka\n8. walkie\n9. dinner\n10. duo lingo",
     "supplements_list": [
       {
-        "name": "Telfast",
-        "time": "06:16",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Vitamin C (1)",
-        "time": "06:16",
-        "dose": "",
-        "unit": ""
-      },
-      {
         "name": "Enterosgel",
-        "time": "06:16",
+        "time": "20:54",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "1/2 ruporut",
+        "time": "20:54",
         "dose": "",
         "unit": ""
       }
     ],
-    "anxiety": 3
+    "energy_afternoon": 2,
+    "energy_evening": 3,
+    "anxiety": 0,
+    "bloating": 4
   },
   "zoe": {
     "imported": true,
