@@ -1,13 +1,13 @@
 {
   "date": "2026-04-15",
-  "generated_at": "2026-04-15T09:01:56.917577",
+  "generated_at": "2026-04-15T21:50:32.769689",
   "whoop": {
     "imported": true,
     "recovery": 83.0,
     "hrv": 41.3,
     "rhr": 48.0,
     "sleep_perf": 83.0,
-    "strain": 4.1,
+    "strain": 4.8,
     "sleep_hrs": 8.6,
     "spo2": 95.2,
     "skin_temp": 34.1,
@@ -22,16 +22,37 @@
     "disturbances": 10,
     "sleep_needed_hrs": 9.4,
     "sleep_debt_hrs": 1.8,
-    "calories": 711,
-    "avg_hr": 51,
-    "max_hr": 104,
-    "workouts": []
+    "calories": 1534,
+    "avg_hr": 60,
+    "max_hr": 134,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 23,
+        "avg_hr": 84,
+        "max_hr": 102
+      }
+    ]
   },
   "apple_health": {
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 7,
+    "sleep_quality": 8,
+    "supplements": 1,
+    "journal": "Grateful for: Jezersko area being so beautiful, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, being surrounded by nature, good sleep finally starter early\nToday great: Connecting with nature, my girl friend\nAffirmation: I direct my own life nobody else, no pill, no vitamin, energy goes where attention flows",
+    "supplements_list": [
+      {
+        "name": "Vitamin C (1)",
+        "time": "08:48",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 2
   },
   "zoe": {
     "imported": false
