@@ -1,6 +1,6 @@
 {
   "date": "2026-04-15",
-  "generated_at": "2026-04-15T22:01:06.601643",
+  "generated_at": "2026-04-15T22:03:35.885496",
   "whoop": {
     "imported": true,
     "recovery": 83.0,
@@ -63,6 +63,263 @@
     "anxiety": 2
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 8,
+    "meal_names": [
+      "Chocolate Mousse with Blueberries and Crumble",
+      "Truffle-Crusted Beef with Potato Pur\u00e9e and Raspberry Coulis",
+      "Fresh green herbs",
+      "Raw smoked Trout and Herbs",
+      "Spaghetti Carbonara",
+      "Beef and Vegetable Soup with Mince and Cheese",
+      "Fried Eggs with Bread",
+      "Smoked Salmon Crostini with Avocado Dip"
+    ],
+    "meal_details": [
+      {
+        "name": "Chocolate Mousse with Blueberries and Crumble",
+        "score": 32,
+        "calories": 341.0,
+        "protein_g": 4.4,
+        "fat_g": 29.9,
+        "carbs_g": 14.4,
+        "fibre_g": 0.4,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "30 g",
+            "score": 73
+          },
+          {
+            "name": "Cream, double",
+            "qty": "50 ml",
+            "score": 31
+          },
+          {
+            "name": "Mousse, chocolate, low fat",
+            "qty": "1 \u00d7 individual pot",
+            "score": 30
+          }
+        ]
+      },
+      {
+        "name": "Truffle-Crusted Beef with Potato Pur\u00e9e and Raspberry Coulis",
+        "score": 72,
+        "calories": 60.0,
+        "protein_g": 1.4,
+        "fat_g": 2.5,
+        "carbs_g": 8.7,
+        "fibre_g": 3.4,
+        "ingredients": [
+          {
+            "name": "Celery",
+            "qty": "1 \u00d7 small piece",
+            "score": 78
+          },
+          {
+            "name": "Chital, deer",
+            "qty": "1 g",
+            "score": 55
+          },
+          {
+            "name": "Cranberries",
+            "qty": "1 \u00d7 serving",
+            "score": 73
+          },
+          {
+            "name": "Popcorn, salted",
+            "qty": "1 \u00d7 handful",
+            "score": 40
+          }
+        ]
+      },
+      {
+        "name": "Fresh green herbs",
+        "score": 81,
+        "calories": 3.0,
+        "protein_g": 0.2,
+        "fat_g": 0.0,
+        "carbs_g": 0.2,
+        "fibre_g": 0.2,
+        "ingredients": [
+          {
+            "name": "Fresh green herbs",
+            "qty": "10 ml",
+            "score": 81
+          },
+          {
+            "name": "Stock, chicken",
+            "qty": "1 g",
+            "score": 49
+          }
+        ]
+      },
+      {
+        "name": "Raw smoked Trout and Herbs",
+        "score": 87,
+        "calories": 244.0,
+        "protein_g": 17.2,
+        "fat_g": 19.4,
+        "carbs_g": 0.2,
+        "fibre_g": 0.1,
+        "ingredients": [
+          {
+            "name": "Basil, fresh",
+            "qty": "3 \u00d7 pinch (1/8tsp)",
+            "score": 80
+          },
+          {
+            "name": "Hazelnuts",
+            "qty": "1 \u00d7 nut",
+            "score": 100
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "15 ml",
+            "score": 90
+          },
+          {
+            "name": "Trout",
+            "qty": "1 \u00d7 small fillet",
+            "score": 86
+          }
+        ]
+      },
+      {
+        "name": "Spaghetti Carbonara",
+        "score": 38,
+        "calories": 500.0,
+        "protein_g": 29.9,
+        "fat_g": 28.7,
+        "carbs_g": 32.4,
+        "fibre_g": 1.7,
+        "ingredients": [
+          {
+            "name": "Bacon lardons, pancetta",
+            "qty": "1 \u00d7 serving",
+            "score": 1
+          },
+          {
+            "name": "Eggs",
+            "qty": "1 \u00d7 medium",
+            "score": 71
+          },
+          {
+            "name": "Parmesan cheese",
+            "qty": "4 \u00d7 tbsp grated",
+            "score": 65
+          },
+          {
+            "name": "Pasta, spaghetti",
+            "qty": "100 g",
+            "score": 46
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 g",
+            "score": 70
+          }
+        ]
+      },
+      {
+        "name": "Beef and Vegetable Soup with Mince and Cheese",
+        "score": 56,
+        "calories": 455.0,
+        "protein_g": 54.2,
+        "fat_g": 19.7,
+        "carbs_g": 16.0,
+        "fibre_g": 3.6,
+        "ingredients": [
+          {
+            "name": "Beef, stewing steak, lean",
+            "qty": "1 \u00d7 medium serving",
+            "score": 48
+          },
+          {
+            "name": "Carrots",
+            "qty": "50 g",
+            "score": 81
+          },
+          {
+            "name": "Celery",
+            "qty": "8 \u00d7 small piece",
+            "score": 78
+          },
+          {
+            "name": "Cheese, Cheddar",
+            "qty": "1 \u00d7 slice",
+            "score": 59
+          },
+          {
+            "name": "Mixed herbs, dried",
+            "qty": "1 g",
+            "score": 77
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "30 g",
+            "score": 84
+          },
+          {
+            "name": "Potatoes",
+            "qty": "1 \u00d7 potato",
+            "score": 43
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Bread",
+        "score": 51,
+        "calories": 535.0,
+        "protein_g": 34.6,
+        "fat_g": 33.3,
+        "carbs_g": 25.8,
+        "fibre_g": 1.0,
+        "ingredients": [
+          {
+            "name": "Bread rolls, buns, baps, white",
+            "qty": "1 \u00d7 burger bun",
+            "score": 21
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "3 \u00d7 large",
+            "score": 69
+          }
+        ]
+      },
+      {
+        "name": "Smoked Salmon Crostini with Avocado Dip",
+        "score": 78,
+        "calories": 332.0,
+        "protein_g": 26.0,
+        "fat_g": 17.7,
+        "carbs_g": 18.3,
+        "fibre_g": 2.3,
+        "ingredients": [
+          {
+            "name": "Bread, white, baguette, french stick",
+            "qty": "1 \u00d7 small slice",
+            "score": 0
+          },
+          {
+            "name": "Pumpkin seeds",
+            "qty": "1 \u00d7 handful",
+            "score": 97
+          },
+          {
+            "name": "Trout",
+            "qty": "1 \u00d7 small fillet",
+            "score": 86
+          }
+        ]
+      }
+    ],
+    "avg_score": 62.0,
+    "calories": 2470.0,
+    "protein_g": 167.9,
+    "fat_g": 151.2,
+    "carbs_g": 116.0,
+    "fibre_g": 12.7
   }
 }
