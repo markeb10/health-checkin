@@ -1,6 +1,6 @@
 {
   "date": "2026-04-03",
-  "generated_at": "2026-04-16T08:00:35.712700",
+  "generated_at": "2026-04-16T08:15:32.599199",
   "whoop": {
     "imported": true,
     "recovery": 52.0,
@@ -245,7 +245,7 @@
         ]
       }
     ],
-    "avg_score": 78.0,
+    "avg_score": 77.6,
     "calories": 1535.0,
     "protein_g": 105.5,
     "fat_g": 82.1,
