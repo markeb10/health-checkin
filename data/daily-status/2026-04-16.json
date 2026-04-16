@@ -1,6 +1,6 @@
 {
   "date": "2026-04-16",
-  "generated_at": "2026-04-16T07:39:43.665319",
+  "generated_at": "2026-04-16T08:00:07.216869",
   "whoop": {
     "imported": true,
     "recovery": 49.0,
@@ -22,8 +22,8 @@
     "disturbances": 3,
     "sleep_needed_hrs": 8.1,
     "sleep_debt_hrs": 0.5,
-    "calories": 575,
-    "avg_hr": 50,
+    "calories": 596,
+    "avg_hr": 51,
     "max_hr": 92,
     "workouts": [
       {
@@ -38,7 +38,28 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 3,
+    "energy": 3,
+    "sleep_quality": 2,
+    "supplements": 0,
+    "journal": "Amitriptyline rebound day 2. Paused amitriptyline after 11 days as experiment. 36h off: severe ischial tuberosity pain, hip pain, perineal pain, groin achilles. Worst flare in years. Woke at 2am unable to sleep in any position. Pain consistent with central sensitization rebound - body was recalibrating downward on the drug, withdrawal caused overcorrection. Also stopped Telfast and Vitamin C simultaneously which removed entire histamine defense. Plan: restart Telfast+VitC+Enterosgel today, infra",
+    "journal_summary": "Severe amitriptyline rebound pain day 2. Ischial, hip, perineal flare. 4h sleep. Restarting histamine stack, IR sauna planned. Confirms central sensitization mechanism.",
+    "supplements_list": [
+      {
+        "name": "Telfast 120mg",
+        "time": "08:00",
+        "dose": "120mg",
+        "unit": "mg"
+      },
+      {
+        "name": "Vitamin C",
+        "time": "08:30",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 5
   },
   "zoe": {
     "imported": false
