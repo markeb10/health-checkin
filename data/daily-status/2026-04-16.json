@@ -1,6 +1,6 @@
 {
   "date": "2026-04-16",
-  "generated_at": "2026-04-16T08:00:07.216869",
+  "generated_at": "2026-04-16T20:15:01.981954",
   "whoop": {
     "imported": true,
     "recovery": 49.0,
@@ -42,26 +42,171 @@
     "mood": 3,
     "energy": 3,
     "sleep_quality": 2,
-    "supplements": 0,
+    "supplements": 2,
     "journal": "Amitriptyline rebound day 2. Paused amitriptyline after 11 days as experiment. 36h off: severe ischial tuberosity pain, hip pain, perineal pain, groin achilles. Worst flare in years. Woke at 2am unable to sleep in any position. Pain consistent with central sensitization rebound - body was recalibrating downward on the drug, withdrawal caused overcorrection. Also stopped Telfast and Vitamin C simultaneously which removed entire histamine defense. Plan: restart Telfast+VitC+Enterosgel today, infra",
     "journal_summary": "Severe amitriptyline rebound pain day 2. Ischial, hip, perineal flare. 4h sleep. Restarting histamine stack, IR sauna planned. Confirms central sensitization mechanism.",
     "supplements_list": [
       {
         "name": "Telfast 120mg",
-        "time": "08:00",
-        "dose": "120mg",
-        "unit": "mg"
+        "time": "08:00"
       },
       {
         "name": "Vitamin C",
-        "time": "08:30",
-        "dose": "",
-        "unit": ""
+        "time": "08:30"
       }
     ],
     "anxiety": 5
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 4,
+    "meal_names": [
+      "Chicken and Potato Stew",
+      "Breaded Pork Loin with Potato Salad and Boiled Eggs",
+      "Cauliflower Soup with Parsley and Olive Oil Drizzle",
+      "Fried Eggs with Bread"
+    ],
+    "meal_details": [
+      {
+        "name": "Chicken and Potato Stew",
+        "score": 50,
+        "calories": 468.0,
+        "protein_g": 53.7,
+        "fat_g": 3.6,
+        "carbs_g": 58.8,
+        "fibre_g": 6.0,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 65
+          },
+          {
+            "name": "Potatoes",
+            "qty": "2 \u00d7 serving",
+            "score": 43
+          }
+        ]
+      },
+      {
+        "name": "Breaded Pork Loin with Potato Salad and Boiled Eggs",
+        "score": 49,
+        "calories": 728.0,
+        "protein_g": 47.4,
+        "fat_g": 36.8,
+        "carbs_g": 54.9,
+        "fibre_g": 5.9,
+        "ingredients": [
+          {
+            "name": "Beef mince",
+            "qty": "1 \u00d7 serving",
+            "score": 31
+          },
+          {
+            "name": "Eggs, boiled",
+            "qty": "2 \u00d7 large",
+            "score": 73
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Pepper, black, \u00bd g",
+            "qty": null,
+            "score": 70
+          },
+          {
+            "name": "Potatoes, boiled",
+            "qty": "2 \u00d7 serving",
+            "score": 42
+          },
+          {
+            "name": "Radishes, red",
+            "qty": "1 \u00d7 radish",
+            "score": 90
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": "6 \u00d7 handful of leaves",
+            "score": 94
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "2 \u00d7 cherry tomato",
+            "score": 90
+          },
+          {
+            "name": "Vegetable oil",
+            "qty": "10 ml",
+            "score": 78
+          },
+          {
+            "name": "Vinegar, white wine",
+            "qty": "5 ml",
+            "score": 72
+          }
+        ]
+      },
+      {
+        "name": "Cauliflower Soup with Parsley and Olive Oil Drizzle",
+        "score": 91,
+        "calories": 66.0,
+        "protein_g": 1.6,
+        "fat_g": 5.4,
+        "carbs_g": 2.9,
+        "fibre_g": 1.4,
+        "ingredients": [
+          {
+            "name": "Cauliflower",
+            "qty": "1 \u00d7 serving",
+            "score": 97
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "3 \u00d7 sprig",
+            "score": 81
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Bread",
+        "score": 59,
+        "calories": 472.0,
+        "protein_g": 32.3,
+        "fat_g": 32.7,
+        "carbs_g": 12.9,
+        "fibre_g": 0.5,
+        "ingredients": [
+          {
+            "name": "Bread rolls, buns, baps, white, \u00bd \u00d7 burger bun",
+            "qty": null,
+            "score": 21
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "3 \u00d7 large",
+            "score": 69
+          }
+        ]
+      }
+    ],
+    "avg_score": 62.0,
+    "calories": 1734.0,
+    "protein_g": 135.0,
+    "fat_g": 78.5,
+    "carbs_g": 129.5,
+    "fibre_g": 13.8
   }
 }
