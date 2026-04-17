@@ -1,6 +1,6 @@
 {
   "date": "2026-04-17",
-  "generated_at": "2026-04-17T22:57:17.022792",
+  "generated_at": "2026-04-17T23:05:36.454034",
   "whoop": {
     "imported": true,
     "recovery": 62.0,
@@ -28,7 +28,14 @@
     "workouts": []
   },
   "apple_health": {
-    "imported": false
+    "imported": true,
+    "steps": 8880,
+    "resting_hr": 50.0,
+    "hrv": 68.1,
+    "sleep_hrs": 7.4,
+    "spo2": 96.3,
+    "respiratory_rate": 13.1,
+    "sleep_awake_hrs": 0.8
   },
   "checkin": {
     "imported": true,
@@ -36,6 +43,7 @@
     "energy": 7,
     "sleep_quality": 7,
     "supplements": 3,
+    "journal": "Grateful for: Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, being part of this nice world - being alive my voice, my hair, my body, Sunny day, cosita in a good mood\nToday great: Getting to London safe and comfortable, able to acomplish few things for work\nAffirmation: All I need is within me now",
     "supplements_list": [
       {
         "name": "Telfast",
