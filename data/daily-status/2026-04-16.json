@@ -1,6 +1,6 @@
 {
   "date": "2026-04-16",
-  "generated_at": "2026-04-17T19:08:54.038169",
+  "generated_at": "2026-04-17T22:30:50.411017",
   "whoop": {
     "imported": true,
     "recovery": 49.0,
@@ -48,23 +48,42 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 3,
+    "mood": 4,
     "energy": 3,
     "sleep_quality": 2,
-    "supplements": 2,
-    "journal": "Amitriptyline rebound day 2. Paused amitriptyline after 11 days as experiment. 36h off: severe ischial tuberosity pain, hip pain, perineal pain, groin achilles. Worst flare in years. Woke at 2am unable to sleep in any position. Pain consistent with central sensitization rebound - body was recalibrating downward on the drug, withdrawal caused overcorrection. Also stopped Telfast and Vitamin C simultaneously which removed entire histamine defense. Plan: restart Telfast+VitC+Enterosgel today, infra",
+    "supplements": 4,
+    "journal": "1. Woke up at 2:00 in the morning. \n2. Try to meditate, listen to yoga nidra several times. Listening Alakasita is not here \n3. Breakfast, feeling super weak \n4. Duolingo \n5. Infrared sauna 25 minutes \n6. Packing \n7. Travelling to Ljubljana \n8. Lunch at country club. \n9. Was working a little bit \n10. Massage with Kaya was really good \n11. Worked. A little bit packed for London dinner. Watched Madre Solo hay fos",
     "journal_summary": "Severe amitriptyline rebound pain day 2. Ischial, hip, perineal flare. 4h sleep. Restarting histamine stack, IR sauna planned. Confirms central sensitization mechanism.",
     "supplements_list": [
       {
-        "name": "Telfast 120mg",
-        "time": "08:00"
+        "name": "Telfast",
+        "time": "08:02",
+        "dose": "",
+        "unit": ""
       },
       {
-        "name": "Vitamin C",
-        "time": "08:30"
+        "name": "Vitamin C (1)",
+        "time": "08:02",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "08:02",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "21:32",
+        "dose": "",
+        "unit": ""
       }
     ],
-    "anxiety": 5
+    "energy_afternoon": 4,
+    "energy_evening": 4,
+    "anxiety": 6,
+    "bloating": 3
   },
   "zoe": {
     "imported": true,
