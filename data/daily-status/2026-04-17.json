@@ -1,0 +1,239 @@
+{
+  "date": "2026-04-17",
+  "generated_at": "2026-04-17T22:47:59.726594",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": 7,
+    "sleep_quality": 7,
+    "supplements": 3,
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "08:43",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "08:43",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "08:43",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 6,
+    "meal_names": [
+      "Roasted Chicken with Potatoes and Carrots",
+      "Spiced Chicken with Rice, Salad, and Green Beans",
+      "Open-faced Sandwiches with Ham, Egg, and Courgette",
+      "Papaya",
+      "Blueberries",
+      "Fried Eggs with Rice Cakes"
+    ],
+    "meal_details": [
+      {
+        "name": "Roasted Chicken with Potatoes and Carrots",
+        "score": 49,
+        "calories": 533.0,
+        "protein_g": 25.5,
+        "fat_g": 32.2,
+        "carbs_g": 37.6,
+        "fibre_g": 5.6,
+        "ingredients": [
+          {
+            "name": "Carrots",
+            "qty": "2 \u00d7 serving",
+            "score": 81
+          },
+          {
+            "name": "Chicken, whole, weighed raw, \u2152 \u00d7 small, whole",
+            "qty": null,
+            "score": 47
+          },
+          {
+            "name": "Pepper, black, \u00bd g",
+            "qty": null,
+            "score": 70
+          },
+          {
+            "name": "Potatoes, roasted in oil",
+            "qty": "3 \u00d7 roast potato",
+            "score": 29
+          },
+          {
+            "name": "Vegetable oil",
+            "qty": "10 ml",
+            "score": 78
+          }
+        ]
+      },
+      {
+        "name": "Spiced Chicken with Rice, Salad, and Green Beans",
+        "score": 59,
+        "calories": 718.0,
+        "protein_g": 55.9,
+        "fat_g": 36.0,
+        "carbs_g": 45.0,
+        "fibre_g": 5.7,
+        "ingredients": [
+          {
+            "name": "Chicken, whole, weighed raw",
+            "qty": "250 g",
+            "score": 47
+          },
+          {
+            "name": "Chilli peppers, chillies, red",
+            "qty": "5 g",
+            "score": 92
+          },
+          {
+            "name": "Garlic",
+            "qty": "3 \u00d7 clove",
+            "score": 79
+          },
+          {
+            "name": "Green beans",
+            "qty": "1 \u00d7 portion",
+            "score": 99
+          },
+          {
+            "name": "Lettuce",
+            "qty": "7 \u00d7 large leaf",
+            "score": 97
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "1 \u00d7 small",
+            "score": 84
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "5 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Rice, white, basmati",
+            "qty": "1 \u00d7 small serving",
+            "score": 42
+          }
+        ]
+      },
+      {
+        "name": "Open-faced Sandwiches with Ham, Egg, and Courgette",
+        "score": 43,
+        "calories": 907.0,
+        "protein_g": 45.2,
+        "fat_g": 61.9,
+        "carbs_g": 45.3,
+        "fibre_g": 6.5,
+        "ingredients": [
+          {
+            "name": "Bread, wholemeal",
+            "qty": "2 \u00d7 large slice",
+            "score": 33
+          },
+          {
+            "name": "Courgette",
+            "qty": "120 g",
+            "score": 100
+          },
+          {
+            "name": "Eggs, boiled",
+            "qty": "2 \u00d7 medium",
+            "score": 73
+          },
+          {
+            "name": "Ham",
+            "qty": "6 \u00d7 thin slice",
+            "score": 26
+          },
+          {
+            "name": "Lettuce",
+            "qty": "2 \u00d7 handful of leaves",
+            "score": 97
+          },
+          {
+            "name": "Mayonnaise",
+            "qty": "60 g",
+            "score": 48
+          }
+        ]
+      },
+      {
+        "name": "Papaya",
+        "score": 66,
+        "calories": 58.0,
+        "protein_g": 0.8,
+        "fat_g": 0.2,
+        "carbs_g": 14.1,
+        "fibre_g": 3.5,
+        "ingredients": [
+          {
+            "name": "Papaya",
+            "qty": "2 \u00d7 serving",
+            "score": 66
+          }
+        ]
+      },
+      {
+        "name": "Blueberries",
+        "score": 73,
+        "calories": 16.0,
+        "protein_g": 0.4,
+        "fat_g": 0.1,
+        "carbs_g": 3.6,
+        "fibre_g": 0.6,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Rice Cakes",
+        "score": 47,
+        "calories": 369.0,
+        "protein_g": 22.1,
+        "fat_g": 23.6,
+        "carbs_g": 19.9,
+        "fibre_g": 1.0,
+        "ingredients": [
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Rice cakes, lightly salted",
+            "qty": "1 \u00d7 individual bag",
+            "score": 6
+          }
+        ]
+      }
+    ],
+    "avg_score": 56.0,
+    "calories": 2601.0,
+    "protein_g": 149.9,
+    "fat_g": 154.0,
+    "carbs_g": 165.5,
+    "fibre_g": 22.9
+  }
+}
