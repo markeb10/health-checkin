@@ -1,13 +1,13 @@
 {
   "date": "2026-04-18",
-  "generated_at": "2026-04-18T08:00:06.652646",
+  "generated_at": "2026-04-18T23:11:15.252810",
   "whoop": {
     "imported": true,
     "recovery": 94.0,
     "hrv": 44.4,
     "rhr": 47.0,
     "sleep_perf": 84.0,
-    "strain": 0.2,
+    "strain": 4.3,
     "sleep_hrs": 7.0,
     "spo2": 94.2,
     "skin_temp": 34.1,
@@ -22,16 +22,48 @@
     "disturbances": 9,
     "sleep_needed_hrs": 8.1,
     "sleep_debt_hrs": 0.6,
-    "calories": 569,
-    "avg_hr": 48,
-    "max_hr": 85,
+    "calories": 1543,
+    "avg_hr": 57,
+    "max_hr": 128,
     "workouts": []
   },
   "apple_health": {
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 7,
+    "sleep_quality": 8,
+    "supplements": 4,
+    "journal": "Grateful for: being in this nice hotel, better sleep, Cosita Family Friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Feeling better emotionally\nToday great: Just decreasing my sitting bone pain, not too much walking, eating still health food, discovering some cool new things\nAffirmation: I love myself I love my body",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "09:55",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "09:55",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "09:55",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "09:55",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 0
   },
   "zoe": {
     "imported": false
