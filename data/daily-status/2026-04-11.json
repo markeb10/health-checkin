@@ -1,6 +1,6 @@
 {
   "date": "2026-04-11",
-  "generated_at": "2026-04-19T08:15:40.576621",
+  "generated_at": "2026-04-19T08:30:35.738541",
   "whoop": {
     "imported": true,
     "recovery": 49.0,
@@ -11,7 +11,7 @@
     "sleep_hrs": 7.2,
     "spo2": 95.4,
     "skin_temp": 33.7,
-    "sleep_efficiency": 92.883644,
+    "sleep_efficiency": 92.9,
     "sleep_consistency": 86.0,
     "respiratory_rate": 13.5,
     "light_sleep_hrs": 4.1,
