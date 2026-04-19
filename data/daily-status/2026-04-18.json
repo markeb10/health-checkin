@@ -1,6 +1,6 @@
 {
   "date": "2026-04-18",
-  "generated_at": "2026-04-19T21:37:33.208872",
+  "generated_at": "2026-04-19T22:15:34.982076",
   "whoop": {
     "imported": true,
     "recovery": 94.0,
@@ -69,6 +69,336 @@
     "bloating": 3
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 7,
+    "meal_names": [
+      "Crispy Tostada with Tomato Salsa and Fried Onions",
+      "Chicken Taco with Avocado and Red Onion",
+      "Chicken and Cheese Wrap with Salad and Sauce",
+      "Spiced Fish with Lime and Two Dips",
+      "Chicken Stew with Rice and Salad",
+      "Porridge with Berries and Blueberries",
+      "Fried Eggs with Toast, Tomato, and Microgreens"
+    ],
+    "meal_details": [
+      {
+        "name": "Crispy Tostada with Tomato Salsa and Fried Onions",
+        "score": 63,
+        "calories": 264.0,
+        "protein_g": 3.3,
+        "fat_g": 14.8,
+        "carbs_g": 28.6,
+        "fibre_g": 2.7,
+        "ingredients": [
+          {
+            "name": "Chilli flakes, \u00bd g",
+            "qty": null,
+            "score": 77
+          },
+          {
+            "name": "Coriander leaves, fresh",
+            "qty": "8 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Limes",
+            "qty": "2 \u00d7 slice",
+            "score": 81
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Onion rings, breaded/battered",
+            "qty": "20 g",
+            "score": 49
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "15 g",
+            "score": 84
+          },
+          {
+            "name": "Pepper, black, \u2155 g",
+            "qty": null,
+            "score": 70
+          },
+          {
+            "name": "Salt, \u2153 g",
+            "qty": null,
+            "score": 20
+          },
+          {
+            "name": "Taco shells, crunchy",
+            "qty": "1 \u00d7 shell",
+            "score": 43
+          },
+          {
+            "name": "Tomatoes",
+            "qty": "4 \u00d7 slice",
+            "score": 84
+          }
+        ]
+      },
+      {
+        "name": "Chicken Taco with Avocado and Red Onion",
+        "score": 53,
+        "calories": 277.0,
+        "protein_g": 35.5,
+        "fat_g": 4.6,
+        "carbs_g": 24.2,
+        "fibre_g": 1.1,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 medium",
+            "score": 65
+          },
+          {
+            "name": "Coriander leaves, fresh",
+            "qty": "3 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "15 g",
+            "score": 84
+          },
+          {
+            "name": "Salsa dip",
+            "qty": "20 g",
+            "score": 44
+          },
+          {
+            "name": "Tortilla wraps",
+            "qty": "1 \u00d7 wrap",
+            "score": 39
+          }
+        ]
+      },
+      {
+        "name": "Chicken and Cheese Wrap with Salad and Sauce",
+        "score": 51,
+        "calories": 519.0,
+        "protein_g": 48.6,
+        "fat_g": 21.4,
+        "carbs_g": 35.0,
+        "fibre_g": 1.7,
+        "ingredients": [
+          {
+            "name": "Cheese, hard, average",
+            "qty": "1 \u00d7 sandwich portion",
+            "score": 60
+          },
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 medium",
+            "score": 65
+          },
+          {
+            "name": "Lettuce",
+            "qty": "2 \u00d7 large leaf",
+            "score": 97
+          },
+          {
+            "name": "Tortilla wraps",
+            "qty": "1 \u00d7 large wrap",
+            "score": 39
+          }
+        ]
+      },
+      {
+        "name": "Spiced Fish with Lime and Two Dips",
+        "score": 79,
+        "calories": 231.0,
+        "protein_g": 38.6,
+        "fat_g": 2.1,
+        "carbs_g": 15.3,
+        "fibre_g": 2.9,
+        "ingredients": [
+          {
+            "name": "Capers",
+            "qty": "8 \u00d7 pinch (1/8tsp)",
+            "score": 76
+          },
+          {
+            "name": "Chilli sauce",
+            "qty": "50 g",
+            "score": 0
+          },
+          {
+            "name": "Limes",
+            "qty": "4 \u00d7 slice",
+            "score": 81
+          },
+          {
+            "name": "Mango",
+            "qty": "2 \u00d7 slice",
+            "score": 66
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Whiting, weighed raw",
+            "qty": "1 \u00d7 large fillet",
+            "score": 87
+          }
+        ]
+      },
+      {
+        "name": "Chicken Stew with Rice and Salad",
+        "score": 55,
+        "calories": 633.0,
+        "protein_g": 66.3,
+        "fat_g": 16.4,
+        "carbs_g": 58.9,
+        "fibre_g": 5.3,
+        "ingredients": [
+          {
+            "name": "Breadsticks, plain",
+            "qty": "1 \u00d7 breadstick",
+            "score": 19
+          },
+          {
+            "name": "Capers",
+            "qty": "10 g",
+            "score": 76
+          },
+          {
+            "name": "Cheese, Feta, \u00bd \u00d7 portion",
+            "qty": null,
+            "score": 47
+          },
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 65
+          },
+          {
+            "name": "Garlic",
+            "qty": "1 \u00d7 clove",
+            "score": 79
+          },
+          {
+            "name": "Lemons",
+            "qty": "10 g",
+            "score": 78
+          },
+          {
+            "name": "Olives, black, kalamata, in brine",
+            "qty": "1 \u00d7 handful",
+            "score": 84
+          },
+          {
+            "name": "Rice, plain, ready-cooked",
+            "qty": "1 \u00d7 small serving",
+            "score": 27
+          },
+          {
+            "name": "Rocket",
+            "qty": "6 \u00d7 handful of leaves",
+            "score": 100
+          },
+          {
+            "name": "Stock, chicken",
+            "qty": "200 ml",
+            "score": 49
+          },
+          {
+            "name": "Sweetcorn",
+            "qty": "50 g",
+            "score": 92
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "3 \u00d7 cherry tomato",
+            "score": 90
+          },
+          {
+            "name": "Tomatoes, sun-dried, in oil",
+            "qty": "2 \u00d7 piece",
+            "score": 80
+          }
+        ]
+      },
+      {
+        "name": "Porridge with Berries and Blueberries",
+        "score": 66,
+        "calories": 68.0,
+        "protein_g": 1.6,
+        "fat_g": 1.7,
+        "carbs_g": 12.3,
+        "fibre_g": 1.8,
+        "ingredients": [
+          {
+            "name": "Blackberries",
+            "qty": "3 \u00d7 blackberry",
+            "score": 89
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Coconut milk/drink",
+            "qty": "1 \u00d7 dash",
+            "score": 32
+          },
+          {
+            "name": "Porridge, made with water",
+            "qty": "60 g",
+            "score": 48
+          },
+          {
+            "name": "Strawberries",
+            "qty": "2 \u00d7 strawberry",
+            "score": 87
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast, Tomato, and Microgreens",
+        "score": 57,
+        "calories": 534.0,
+        "protein_g": 35.6,
+        "fat_g": 33.5,
+        "carbs_g": 24.1,
+        "fibre_g": 3.2,
+        "ingredients": [
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 33
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "3 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Microgreens",
+            "qty": "5 g",
+            "score": 100
+          },
+          {
+            "name": "Tomatoes",
+            "qty": "1 \u00d7 slice",
+            "score": 84
+          }
+        ]
+      }
+    ],
+    "avg_score": 61.0,
+    "calories": 2526.0,
+    "protein_g": 229.5,
+    "fat_g": 94.5,
+    "carbs_g": 198.4,
+    "fibre_g": 18.7
   }
 }
