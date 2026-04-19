@@ -1,6 +1,6 @@
 {
   "date": "2026-04-19",
-  "generated_at": "2026-04-19T21:59:10.029236",
+  "generated_at": "2026-04-19T22:10:30.994686",
   "whoop": {
     "imported": true,
     "recovery": 71.0,
@@ -65,6 +65,267 @@
     "anxiety": 0
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Chicken Skewers with Rice",
+      "Almonds",
+      "Assorted Dishes with Grilled Chicken, Risotto, and Broccoli",
+      "Seared Tuna with Mushrooms and Truffle, and Ceviche",
+      "Hearty Breakfast with Fried Eggs, Porridge, Berries, and Toast"
+    ],
+    "meal_details": [
+      {
+        "name": "Chicken Skewers with Rice",
+        "score": 44,
+        "calories": 434.0,
+        "protein_g": 51.6,
+        "fat_g": 8.5,
+        "carbs_g": 40.4,
+        "fibre_g": 0.0,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 65
+          },
+          {
+            "name": "Olive oil, not extra virgin",
+            "qty": "5 ml",
+            "score": 78
+          },
+          {
+            "name": "Rice, white",
+            "qty": "1 \u00d7 small serving",
+            "score": 19
+          }
+        ]
+      },
+      {
+        "name": "Almonds",
+        "score": 100,
+        "calories": 155.0,
+        "protein_g": 5.9,
+        "fat_g": 14.0,
+        "carbs_g": 1.5,
+        "fibre_g": 3.5,
+        "ingredients": [
+          {
+            "name": "Almonds",
+            "qty": "1 \u00d7 handful",
+            "score": 100
+          }
+        ]
+      },
+      {
+        "name": "Assorted Dishes with Grilled Chicken, Risotto, and Broccoli",
+        "score": 69,
+        "calories": 1.0,
+        "protein_g": 85.9,
+        "fat_g": 49.0,
+        "carbs_g": 77.0,
+        "fibre_g": 10.2,
+        "ingredients": [
+          {
+            "name": "Almonds",
+            "qty": "10 \u00d7 nut",
+            "score": 100
+          },
+          {
+            "name": "Avocado, weighed with skin and stone",
+            "qty": "1 \u00d7 medium",
+            "score": 100
+          },
+          {
+            "name": "Broccoli",
+            "qty": "2 \u00d7 portion",
+            "score": 100
+          },
+          {
+            "name": "Chicken, weighed raw",
+            "qty": "150 g",
+            "score": 61
+          },
+          {
+            "name": "Chives, fresh",
+            "qty": "3 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Nigella seeds",
+            "qty": "3 \u00d7 pinch (1/8tsp)",
+            "score": 80
+          },
+          {
+            "name": "Parmesan cheese",
+            "qty": "1 \u00d7 tbsp grated",
+            "score": 65
+          },
+          {
+            "name": "Pea shoots",
+            "qty": "5 g",
+            "score": 100
+          },
+          {
+            "name": "Rice, white",
+            "qty": "1 \u00d7 serving",
+            "score": 19
+          },
+          {
+            "name": "Sauce, duck a l'orange",
+            "qty": "30 ml",
+            "score": 11
+          },
+          {
+            "name": "Sauce, traditional cook in, white sauce based",
+            "qty": "30 ml",
+            "score": 49
+          },
+          {
+            "name": "Sesame seeds",
+            "qty": "2 g",
+            "score": 100
+          },
+          {
+            "name": "Tesco Finest Seabass Fillets with King Prawns &amp; Champagne Sauce",
+            "qty": "1 \u00d7 1/2 pack",
+            "score": 79
+          },
+          {
+            "name": "White sauce, homemade with semi-skimmed milk",
+            "qty": "30 ml",
+            "score": 48
+          }
+        ]
+      },
+      {
+        "name": "Seared Tuna with Mushrooms and Truffle, and Ceviche",
+        "score": 79,
+        "calories": 574.0,
+        "protein_g": 65.7,
+        "fat_g": 25.6,
+        "carbs_g": 21.4,
+        "fibre_g": 3.0,
+        "ingredients": [
+          {
+            "name": "Bacha fish, basa",
+            "qty": "1 \u00d7 small fillet",
+            "score": 88
+          },
+          {
+            "name": "Carrots",
+            "qty": "20 g",
+            "score": 81
+          },
+          {
+            "name": "Chives, fresh",
+            "qty": "3 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Coconut milk/cream, tinned",
+            "qty": "50 ml",
+            "score": 46
+          },
+          {
+            "name": "Coriander leaves, fresh",
+            "qty": "8 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Corn snacks",
+            "qty": "15 g",
+            "score": 34
+          },
+          {
+            "name": "Lime juice",
+            "qty": "30 ml",
+            "score": 40
+          },
+          {
+            "name": "Mushrooms",
+            "qty": "30 g",
+            "score": 100
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "10 g",
+            "score": 84
+          },
+          {
+            "name": "Sweetcorn",
+            "qty": "30 g",
+            "score": 92
+          },
+          {
+            "name": "Sweetcorn, canned, drained",
+            "qty": "40 g",
+            "score": 85
+          },
+          {
+            "name": "Truffle oil, average",
+            "qty": "5 g",
+            "score": 78
+          },
+          {
+            "name": "Tuna, fresh",
+            "qty": "1 \u00d7 medium fillet",
+            "score": 89
+          }
+        ]
+      },
+      {
+        "name": "Hearty Breakfast with Fried Eggs, Porridge, Berries, and Toast",
+        "score": 52,
+        "calories": 713.0,
+        "protein_g": 42.4,
+        "fat_g": 36.4,
+        "carbs_g": 57.5,
+        "fibre_g": 7.9,
+        "ingredients": [
+          {
+            "name": "Blackberries",
+            "qty": "2 \u00d7 blackberry",
+            "score": 89
+          },
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "2 \u00d7 large slice",
+            "score": 33
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "3 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Porridge, made up with oat milk and water, \u00bd \u00d7 small bowl",
+            "qty": null,
+            "score": 50
+          },
+          {
+            "name": "Raspberries",
+            "qty": "5 \u00d7 raspberry",
+            "score": 88
+          },
+          {
+            "name": "Strawberries",
+            "qty": "3 \u00d7 strawberry",
+            "score": 87
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "1 \u00d7 cherry tomato",
+            "score": 90
+          }
+        ]
+      }
+    ],
+    "avg_score": 69.0,
+    "calories": 1877.0,
+    "protein_g": 251.5,
+    "fat_g": 133.5,
+    "carbs_g": 197.8,
+    "fibre_g": 24.6
   }
 }
