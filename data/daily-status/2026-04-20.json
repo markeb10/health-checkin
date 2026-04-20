@@ -1,6 +1,6 @@
 {
   "date": "2026-04-20",
-  "generated_at": "2026-04-20T08:00:06.398377",
+  "generated_at": "2026-04-20T23:23:43.842232",
   "whoop": {
     "imported": true,
     "recovery": 54.0,
@@ -34,6 +34,170 @@
     "imported": false
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 4,
+    "meal_names": [
+      "Corn Cakes with Almond Butter",
+      "Chicken Pieces with Rice and Sesame-Coated Item",
+      "Fattoush Salad",
+      "Fried Eggs with Toast"
+    ],
+    "meal_details": [
+      {
+        "name": "Corn Cakes with Almond Butter",
+        "score": 81,
+        "calories": 194.0,
+        "protein_g": 5.4,
+        "fat_g": 8.6,
+        "carbs_g": 5.3,
+        "fibre_g": 2.2,
+        "ingredients": [
+          {
+            "name": "Exki Corn Cakes",
+            "qty": "1 \u00d7 individual bag",
+            "score": 70
+          },
+          {
+            "name": "Meridian Almond Butter",
+            "qty": "15 g",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Chicken Pieces with Rice and Sesame-Coated Item",
+        "score": 47,
+        "calories": 275.0,
+        "protein_g": 33.8,
+        "fat_g": 7.1,
+        "carbs_g": 20.2,
+        "fibre_g": 0.0,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 medium",
+            "score": 65
+          },
+          {
+            "name": "Olive oil, not extra virgin",
+            "qty": "5 ml",
+            "score": 78
+          },
+          {
+            "name": "Rice, white, \u00bd \u00d7 small serving",
+            "qty": null,
+            "score": 19
+          }
+        ]
+      },
+      {
+        "name": "Fattoush Salad",
+        "score": 81,
+        "calories": 226.0,
+        "protein_g": 4.3,
+        "fat_g": 14.9,
+        "carbs_g": 19.5,
+        "fibre_g": 3.9,
+        "ingredients": [
+          {
+            "name": "Bread, pitta, white",
+            "qty": "20 g",
+            "score": 25
+          },
+          {
+            "name": "Cucumber",
+            "qty": "40 g",
+            "score": 100
+          },
+          {
+            "name": "Lemon juice",
+            "qty": "10 ml",
+            "score": 34
+          },
+          {
+            "name": "Lettuce",
+            "qty": "5 \u00d7 large leaf",
+            "score": 97
+          },
+          {
+            "name": "Mint, fresh",
+            "qty": "8 \u00d7 pinch (1/8tsp)",
+            "score": 80
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "15 ml",
+            "score": 90
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "15 g",
+            "score": 84
+          },
+          {
+            "name": "Pepper, black, \u00bd g",
+            "qty": null,
+            "score": 70
+          },
+          {
+            "name": "Peppers, yellow",
+            "qty": "30 g",
+            "score": 87
+          },
+          {
+            "name": "Pomegranates",
+            "qty": "15 g",
+            "score": 60
+          },
+          {
+            "name": "Radishes, red",
+            "qty": "1 \u00d7 radish",
+            "score": 90
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 dash",
+            "score": 20
+          },
+          {
+            "name": "Sumac",
+            "qty": "1 g",
+            "score": 77
+          },
+          {
+            "name": "Tomatoes",
+            "qty": "3 \u00d7 slice",
+            "score": 84
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast",
+        "score": 55,
+        "calories": 364.0,
+        "protein_g": 24.0,
+        "fat_g": 22.4,
+        "carbs_g": 17.7,
+        "fibre_g": 2.1,
+        "ingredients": [
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 33
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          }
+        ]
+      }
+    ],
+    "avg_score": 66.0,
+    "calories": 1059.0,
+    "protein_g": 67.5,
+    "fat_g": 53.0,
+    "carbs_g": 62.699999999999996,
+    "fibre_g": 8.2
   }
 }
