@@ -1,13 +1,13 @@
 {
   "date": "2026-04-20",
-  "generated_at": "2026-04-20T23:23:43.842232",
+  "generated_at": "2026-04-20T23:23:50.522354",
   "whoop": {
     "imported": true,
     "recovery": 54.0,
     "hrv": 35.9,
     "rhr": 48.0,
     "sleep_perf": 90.0,
-    "strain": 0.2,
+    "strain": 4.0,
     "sleep_hrs": 7.2,
     "spo2": 96.8,
     "skin_temp": 34.3,
@@ -22,9 +22,9 @@
     "disturbances": 8,
     "sleep_needed_hrs": 8.1,
     "sleep_debt_hrs": 0.6,
-    "calories": 550,
-    "avg_hr": 49,
-    "max_hr": 86,
+    "calories": 1519,
+    "avg_hr": 57,
+    "max_hr": 110,
     "workouts": []
   },
   "apple_health": {
