@@ -1,6 +1,6 @@
 {
   "date": "2026-04-20",
-  "generated_at": "2026-04-20T23:26:39.603489",
+  "generated_at": "2026-04-21T08:00:04.213149",
   "whoop": {
     "imported": true,
     "recovery": 54.0,
@@ -22,7 +22,7 @@
     "disturbances": 8,
     "sleep_needed_hrs": 8.1,
     "sleep_debt_hrs": 0.6,
-    "calories": 1519,
+    "calories": 1569,
     "avg_hr": 57,
     "max_hr": 110,
     "workouts": []
@@ -31,7 +31,38 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 5,
+    "energy": 5,
+    "sleep_quality": 5,
+    "supplements": 4,
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "23:28",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "23:28",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "23:28",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "23:28",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 0
   },
   "zoe": {
     "imported": true,
@@ -197,7 +228,7 @@
     "calories": 1059.0,
     "protein_g": 67.5,
     "fat_g": 53.0,
-    "carbs_g": 62.699999999999996,
+    "carbs_g": 62.7,
     "fibre_g": 8.2
   }
 }
