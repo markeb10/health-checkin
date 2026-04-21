@@ -1,6 +1,6 @@
 {
   "date": "2026-04-20",
-  "generated_at": "2026-04-21T08:00:04.213149",
+  "generated_at": "2026-04-21T08:33:54.616135",
   "whoop": {
     "imported": true,
     "recovery": 54.0,
@@ -32,32 +32,32 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
-    "energy": 5,
-    "sleep_quality": 5,
+    "mood": 7,
+    "energy": 6,
+    "sleep_quality": 8,
     "supplements": 4,
     "supplements_list": [
       {
         "name": "Telfast",
-        "time": "23:28",
+        "time": "08:23",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C (1)",
-        "time": "23:28",
+        "time": "08:23",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Enterosgel",
-        "time": "23:28",
+        "time": "08:23",
         "dose": "",
         "unit": ""
       },
       {
         "name": "roibos vanilla tea",
-        "time": "23:28",
+        "time": "08:23",
         "dose": "",
         "unit": ""
       }
