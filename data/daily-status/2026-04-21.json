@@ -1,6 +1,6 @@
 {
   "date": "2026-04-21",
-  "generated_at": "2026-04-22T08:00:05.070591",
+  "generated_at": "2026-04-22T08:26:55.137007",
   "whoop": {
     "imported": true,
     "recovery": 75.0,
@@ -79,6 +79,281 @@
     "anxiety": 0
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 7,
+    "meal_names": [
+      "Roast Chicken with Egg Fried Rice",
+      "Spiced Grilled chicken with Tomato Sauce and Herb Garnish",
+      "Grilled Fish with Coriander and Avocado",
+      "Beef and Cheese Quesadilla on Blue Corn Tortilla",
+      "Tostadas with Shredded Crab and Microgreens",
+      "Hearty Breakfast with Fried Eggs, Porridge, Toast, and Fresh Berries",
+      "Chia Seed Pudding with Mango, Raspberry, and Toasted Coconut with Fresh Berry Mix"
+    ],
+    "meal_details": [
+      {
+        "name": "Roast Chicken with Egg Fried Rice",
+        "score": 46,
+        "calories": 272.0,
+        "protein_g": 37.6,
+        "fat_g": 5.2,
+        "carbs_g": 20.2,
+        "fibre_g": 0.0,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 medium",
+            "score": 65
+          },
+          {
+            "name": "Eggs",
+            "qty": "30 g",
+            "score": 71
+          },
+          {
+            "name": "Rice, white, \u00bd \u00d7 small serving",
+            "qty": null,
+            "score": 19
+          }
+        ]
+      },
+      {
+        "name": "Spiced Grilled chicken with Tomato Sauce and Herb Garnish",
+        "score": 70,
+        "calories": 204.0,
+        "protein_g": 33.7,
+        "fat_g": 5.2,
+        "carbs_g": 5.9,
+        "fibre_g": 1.6,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 medium",
+            "score": 65
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "10 g",
+            "score": 84
+          },
+          {
+            "name": "Paprika",
+            "qty": "3 \u00d7 pinch (1/8tsp)",
+            "score": 79
+          },
+          {
+            "name": "Pea shoots",
+            "qty": "5 g",
+            "score": 100
+          },
+          {
+            "name": "Sauce, tomato based, homemade",
+            "qty": "60 g",
+            "score": 71
+          },
+          {
+            "name": "Tomatoes, chopped, tinned",
+            "qty": "20 g",
+            "score": 86
+          }
+        ]
+      },
+      {
+        "name": "Grilled Fish with Coriander and Avocado",
+        "score": 85,
+        "calories": 273.0,
+        "protein_g": 34.2,
+        "fat_g": 13.4,
+        "carbs_g": 1.7,
+        "fibre_g": 1.3,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "30 g",
+            "score": 100
+          },
+          {
+            "name": "Coriander leaves, fresh",
+            "qty": "15 g",
+            "score": 81
+          },
+          {
+            "name": "Fish, yellowtail, weighed raw",
+            "qty": "1 \u00d7 medium fillet",
+            "score": 88
+          },
+          {
+            "name": "Garlic",
+            "qty": "2 \u00d7 clove",
+            "score": 79
+          }
+        ]
+      },
+      {
+        "name": "Beef and Cheese Quesadilla on Blue Corn Tortilla",
+        "score": 66,
+        "calories": 713.0,
+        "protein_g": 33.5,
+        "fat_g": 25.0,
+        "carbs_g": 19.0,
+        "fibre_g": 1.8,
+        "ingredients": [
+          {
+            "name": "Beef, lean, weighed raw",
+            "qty": "70 g",
+            "score": 48
+          },
+          {
+            "name": "Cheese, Cheddar",
+            "qty": "2 \u00d7 slice",
+            "score": 59
+          },
+          {
+            "name": "Jalapenos, in brine",
+            "qty": "5 g",
+            "score": 85
+          },
+          {
+            "name": "Limes",
+            "qty": "1 \u00d7 slice",
+            "score": 81
+          },
+          {
+            "name": "Mexican Mama Nixtamalized Corn Tortilla",
+            "qty": "1 \u00d7 wrap",
+            "score": 75
+          }
+        ]
+      },
+      {
+        "name": "Tostadas with Shredded Crab and Microgreens",
+        "score": 44,
+        "calories": 388.0,
+        "protein_g": 19.1,
+        "fat_g": 21.9,
+        "carbs_g": 30.4,
+        "fibre_g": 0.9,
+        "ingredients": [
+          {
+            "name": "Coriander leaves, fresh",
+            "qty": "3 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Corn snacks",
+            "qty": "2 \u00d7 individual bag",
+            "score": 34
+          },
+          {
+            "name": "Crab, brown meat",
+            "qty": "1 \u00d7 serving",
+            "score": 70
+          },
+          {
+            "name": "Microgreens",
+            "qty": "5 g",
+            "score": 100
+          }
+        ]
+      },
+      {
+        "name": "Hearty Breakfast with Fried Eggs, Porridge, Toast, and Fresh Berries",
+        "score": 49,
+        "calories": 897.0,
+        "protein_g": 47.7,
+        "fat_g": 34.4,
+        "carbs_g": 101.4,
+        "fibre_g": 14.1,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "3 \u00d7 large slice",
+            "score": 33
+          },
+          {
+            "name": "Butter, unsalted",
+            "qty": "1 \u00d7 portion, spread",
+            "score": 49
+          },
+          {
+            "name": "Eggs",
+            "qty": "3 \u00d7 large",
+            "score": 71
+          },
+          {
+            "name": "Microgreens",
+            "qty": "5 g",
+            "score": 100
+          },
+          {
+            "name": "Mixed berries, fresh or frozen",
+            "qty": "50 g",
+            "score": 84
+          },
+          {
+            "name": "Mornflake Gluten Free Porridge Oats",
+            "qty": "1 \u00d7 portion",
+            "score": 65
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "1 \u00d7 cherry tomato",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Chia Seed Pudding with Mango, Raspberry, and Toasted Coconut with Fresh Berry Mix",
+        "score": 97,
+        "calories": 187.0,
+        "protein_g": 4.8,
+        "fat_g": 11.1,
+        "carbs_g": 11.2,
+        "fibre_g": 10.3,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Chia seeds",
+            "qty": "20 g",
+            "score": 100
+          },
+          {
+            "name": "Coconut, desiccated",
+            "qty": "5 g",
+            "score": 75
+          },
+          {
+            "name": "Mango",
+            "qty": "15 g",
+            "score": 66
+          },
+          {
+            "name": "Oat milk, unsweetened",
+            "qty": "60 ml",
+            "score": 55
+          },
+          {
+            "name": "Raspberries",
+            "qty": "10 \u00d7 raspberry",
+            "score": 88
+          }
+        ]
+      }
+    ],
+    "avg_score": 65.0,
+    "calories": 2934.0,
+    "protein_g": 210.60000000000002,
+    "fat_g": 116.2,
+    "carbs_g": 189.8,
+    "fibre_g": 30.0
   }
 }
