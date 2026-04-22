@@ -1,6 +1,6 @@
 {
   "date": "2026-04-22",
-  "generated_at": "2026-04-22T09:15:55.261406",
+  "generated_at": "2026-04-22T09:30:50.070716",
   "whoop": {
     "imported": true,
     "recovery": 39.0,
@@ -37,7 +37,32 @@
     "sleep_awake_hrs": 0.8
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 7,
+    "sleep_quality": 7,
+    "supplements": 3,
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "09:20",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "09:20",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "09:20",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 0
   },
   "zoe": {
     "imported": false
