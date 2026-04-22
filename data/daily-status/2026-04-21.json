@@ -1,13 +1,13 @@
 {
   "date": "2026-04-21",
-  "generated_at": "2026-04-21T08:33:57.166487",
+  "generated_at": "2026-04-22T08:00:05.070591",
   "whoop": {
     "imported": true,
     "recovery": 75.0,
     "hrv": 39.3,
     "rhr": 47.0,
     "sleep_perf": 90.0,
-    "strain": 0.2,
+    "strain": 7.7,
     "sleep_hrs": 7.5,
     "spo2": 97.4,
     "skin_temp": 33.7,
@@ -22,16 +22,61 @@
     "disturbances": 11,
     "sleep_needed_hrs": 8.1,
     "sleep_debt_hrs": 0.6,
-    "calories": 550,
-    "avg_hr": 47,
-    "max_hr": 88,
-    "workouts": []
+    "calories": 1708,
+    "avg_hr": 63,
+    "max_hr": 119,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 215,
+        "avg_hr": 76,
+        "max_hr": 114
+      },
+      {
+        "sport": "HIIT",
+        "calories": 40,
+        "avg_hr": 96,
+        "max_hr": 106
+      },
+      {
+        "sport": "HIIT",
+        "calories": 56,
+        "avg_hr": 94,
+        "max_hr": 107
+      }
+    ]
   },
   "apple_health": {
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 8,
+    "energy": 5,
+    "sleep_quality": 8,
+    "supplements": 3,
+    "journal": "Grateful for: my life, my health, being alive, to have access to this great healers, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\nToday great: A great padel session not too hard just enough, and then an amazing luncha nd followed by lorenzo meeting\nAffirmation: I am closer to find my solution than i ever was",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "09:18",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "09:18",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "09:18",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 0
   },
   "zoe": {
     "imported": false
