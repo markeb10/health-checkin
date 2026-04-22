@@ -1,6 +1,6 @@
 {
   "date": "2026-04-22",
-  "generated_at": "2026-04-22T08:30:57.355139",
+  "generated_at": "2026-04-22T08:45:52.792275",
   "whoop": {
     "imported": true,
     "recovery": 39.0,
@@ -29,6 +29,7 @@
   },
   "apple_health": {
     "imported": true,
+    "steps": 12,
     "resting_hr": 50.0,
     "sleep_hrs": 6.5,
     "spo2": 95.8,
