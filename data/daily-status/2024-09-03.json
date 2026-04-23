@@ -1,0 +1,32 @@
+{
+  "date": "2024-09-03",
+  "generated_at": "2026-04-23T23:11:03.388448",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 39405,
+    "resting_hr": 54.0,
+    "hrv": 52.25,
+    "daylight_mins": 107.0,
+    "vo2max": 43.05,
+    "spo2": 95.8,
+    "respiratory_rate": 8.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 1,
+    "journal": "Very tired and sleepy for most of the day\nWaa a bit too hungry in the morning but otherwise was good",
+    "supplements_list": [
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
