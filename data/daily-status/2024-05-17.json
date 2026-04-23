@@ -1,0 +1,37 @@
+{
+  "date": "2024-05-17",
+  "generated_at": "2026-04-23T23:08:42.264967",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12195,
+    "resting_hr": 59.0,
+    "hrv": 55.49,
+    "sleep_hrs": 5.3,
+    "daylight_mins": 22.0,
+    "spo2": 96.5,
+    "respiratory_rate": 13.5,
+    "sleep_deep_hrs": 1.0,
+    "sleep_rem_hrs": 1.1,
+    "sleep_core_hrs": 3.2,
+    "sleep_awake_hrs": 1.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 2,
+    "journal": "After lunch everything is fine. Had 2 back to back 2 hour calls feeling tired now. more meetings to come\n\ncoccyx pain and hip pain after sitting at Etiennes place - i am upsetting some nerves (maybe coz i was crossing legs, I sat alot the whole day, could be planking exercise)\nDid yoga nidra meditation. No sleep after 4:40 am. C vitamin seemed to make it even worse my wokness or it was the meetings that influenced\nMorning: Everything is ok\n\nevening: everything is fine",
+    "supplements_list": [
+      "Vitamin C",
+      "PEA"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
