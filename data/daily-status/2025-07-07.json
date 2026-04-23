@@ -1,0 +1,33 @@
+{
+  "date": "2025-07-07",
+  "generated_at": "2026-04-23T23:17:28.239904",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17089,
+    "resting_hr": 55.0,
+    "hrv": 52.26,
+    "daylight_mins": 43.0,
+    "spo2": 98.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Felt pretty good the whole day I was doing some meditation in the morning with the breathing exercises and it was a great day , feeling hot in evening - ate too late to bed time\nFeeling okey but bloated - medium level not surprise what i ate",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
