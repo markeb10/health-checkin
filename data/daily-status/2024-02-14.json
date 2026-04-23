@@ -1,0 +1,27 @@
+{
+  "date": "2024-02-14",
+  "generated_at": "2026-04-23T23:06:43.881293",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10721,
+    "resting_hr": 53.0,
+    "hrv": 55.04,
+    "daylight_mins": 25.0,
+    "spo2": 97.0,
+    "respiratory_rate": 14.44
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Cool day, slept until 8\nExercise\nBreakfast\nWorking on our ideas\nJpm meetingn\nAccount managers meeting\nLearned drumming thanks to Olle\nWe went to Marina for dinner and cake was too much jesus need to stop eating in evening\nTetris with Alex he is getting really good\nBad idea to eat so late, was too much up\nInspired by: drumming is so cool\nDidnt like: interview with crm manager not great\nIdea: make a huge party when btc reaches 100k\n\n[Google Sheet]\nCool day, slept until 8\nExercise\nBreakfast\nWorking"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
