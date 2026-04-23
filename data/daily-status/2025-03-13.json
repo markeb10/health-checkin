@@ -1,0 +1,34 @@
+{
+  "date": "2025-03-13",
+  "generated_at": "2026-04-23T23:15:04.099309",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29439,
+    "resting_hr": 58.0,
+    "hrv": 56.6,
+    "vo2max": 41.61,
+    "spo2": 94.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 5,
+    "journal": "Short of breath, can sleep on left side, huge issues with falling back to sleep or getting relaxed,today in evening is a bit better \n\npilates helped to relax a bit as well\nFelt super big bloating in morning but then got bettee, - medium to low bloating in afternoon",
+    "supplements_list": [
+      "Ashwagandha",
+      "Berberine",
+      "DAO",
+      "Enterosgel",
+      "Ginger"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
