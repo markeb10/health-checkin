@@ -1,0 +1,24 @@
+{
+  "date": "2023-07-08",
+  "generated_at": "2026-04-23T23:02:05.593587",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30339,
+    "resting_hr": 57.0,
+    "hrv": 75.17
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Digestion was better today, felt better in the morning but much more feverish in evening - will wrap myself - hard to concentrate my head really hurts\nSleep unti 8:30 \ud83d\udd63 \nSlowly booting up canceling any meeting\nWent to doctor \ud83d\udc68\u200d\u2695\ufe0f but she didnt find anything - blood was fine\nTraining medicofit and therapy\nBioresonance HD - I am not sure what this lady is doing but lets hope she is not smoking something - either-way its worth a try to lower candida\nLunchy cosita made a soupy \nSpoke to Richard\nWent"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
