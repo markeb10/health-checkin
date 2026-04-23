@@ -1,0 +1,34 @@
+{
+  "date": "2025-04-12",
+  "generated_at": "2026-04-23T23:15:40.499950",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19873,
+    "resting_hr": 55.0,
+    "hrv": 57.05,
+    "daylight_mins": 83.0,
+    "spo2": 97.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 5,
+    "journal": "Feeling good, my fingers are a bit swollen in evening but otherwise okey, bloating is there but not too crqzy\nShower before bed\nLow bloating, sleep 6 hours felt stimulated",
+    "supplements_list": [
+      "Ashwagandha",
+      "DAO",
+      "Enterosgel",
+      "Vitamin C",
+      "Zinc Carnosine"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
