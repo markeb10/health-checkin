@@ -1,0 +1,37 @@
+{
+  "date": "2025-08-05",
+  "generated_at": "2026-04-23T23:18:05.011847",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16783,
+    "resting_hr": 56.0,
+    "hrv": 60.06,
+    "daylight_mins": 59.0,
+    "vo2max": 40.59,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 7,
+    "journal": "Feeling good in general. My brain is quite okay today, I feel confident, I feel in flow. Maybe it was also creatine, but it was already before I took creatine. The only thing that is a problem is the bloating still 5/10.\n5/10 bloating, maybe its the fiber not sure or the rice",
+    "supplements_list": [
+      "Collagen",
+      "Creatine",
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
