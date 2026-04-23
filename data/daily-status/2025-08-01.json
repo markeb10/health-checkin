@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-01",
+  "generated_at": "2026-04-23T23:17:59.133698",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12636,
+    "resting_hr": 54.0,
+    "hrv": 59.94,
+    "daylight_mins": 56.0,
+    "vo2max": 41.64,
+    "spo2": 95.71
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 6,
+    "journal": "Cool day, we had a really cool breakfast, um sausage so it was really good. Um I did have some bloating but it wasn't out of proportions also considering what I ate, um kaiser hits and everything. Yeah it was bloating late afternoon but I was still okay. Overall a good day managed to pay the providers happy happy August crypto prices went down.\nBloating was mostly from 5 to 8, yeah, I guess lunch or breakfast around 4 out of 10.",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
