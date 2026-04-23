@@ -1,0 +1,26 @@
+{
+  "date": "2024-03-02",
+  "generated_at": "2026-04-23T23:07:05.720356",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16412,
+    "hrv": 72.72,
+    "daylight_mins": 14.0,
+    "spo2": 95.2,
+    "respiratory_rate": 14.23
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Woke up at 5:40 could not sleep more - went to pack, really having issues with Sleeping in Dubai, lets see how london will go haha\nPacking time\nSome exercises\nDrive to airport - ate at hardrock - didnt like the wings too oily and unhealthy - didnt feel well afterwards\nFlight to London - watched 2.5 movies Blackberry and Air (I prefer Air) Blackberry was too harsh for me\nCoccyx was hurting but streching hamstrings seems to be helping, just need to make sure I am stretching them now every day to k"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
