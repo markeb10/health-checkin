@@ -1,0 +1,36 @@
+{
+  "date": "2025-05-22",
+  "generated_at": "2026-04-23T23:16:29.745597",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27121,
+    "resting_hr": 61.0,
+    "hrv": 49.58,
+    "daylight_mins": 89.0,
+    "vo2max": 42.31,
+    "spo2": 97.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 6,
+    "journal": "Feeling sleepy but also too wired, too nervous - and my chest felt tight - now it could be from me talking or better another allergy or some stress response\nVery low but inhave throat tightness",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Ruporut",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
