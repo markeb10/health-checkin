@@ -1,0 +1,34 @@
+{
+  "date": "2024-10-15",
+  "generated_at": "2026-04-23T23:11:55.927987",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 32095,
+    "resting_hr": 55.0,
+    "hrv": 59.23,
+    "daylight_mins": 124.0,
+    "vo2max": 41.47,
+    "spo2": 97.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling good after morning with my dad around, some really good things I brought from Brot\nHurts my coccyx more today, had the beyound massage yesterday so could be that\nAll is well , maybe a little acidity due to eating crossaints in evening",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
