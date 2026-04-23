@@ -1,0 +1,32 @@
+{
+  "date": "2024-12-18",
+  "generated_at": "2026-04-23T23:13:17.193869",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24796,
+    "resting_hr": 64.0,
+    "hrv": 75.21,
+    "daylight_mins": 59.0,
+    "vo2max": 41.24,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good, socializing in a nice setting feels very nice. Also being in snow place. The air is not too cold. Its sunny day - just perfect. Even got a nice hike with Filip in.\nFeeling bit bloated, consideting what I ate no wonder",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
