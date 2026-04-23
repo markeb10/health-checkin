@@ -1,0 +1,31 @@
+{
+  "date": "2025-03-22",
+  "generated_at": "2026-04-23T23:15:15.153084",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31773,
+    "resting_hr": 56.0,
+    "hrv": 59.53,
+    "vo2max": 41.46,
+    "spo2": 97.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 2,
+    "journal": "Feeling relatively stable , was some weird moments when they are asking me for too muvu but in general was good with guys\n\nloves that they are willing to help on challenge\n\nslept only until 5 - cacao issue\nMedium bloating - but a bit lower than day before",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}

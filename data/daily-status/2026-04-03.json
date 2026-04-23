@@ -1,6 +1,6 @@
 {
   "date": "2026-04-03",
-  "generated_at": "2026-04-23T23:00:18.013447",
+  "generated_at": "2026-04-23T23:15:15.449929",
   "whoop": {
     "imported": true,
     "recovery": 52.0,
@@ -26,6 +26,12 @@
     "avg_hr": 60,
     "max_hr": 138,
     "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
       {
         "sport": "Walking",
         "calories": 178,
