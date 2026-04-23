@@ -1,0 +1,84 @@
+{
+  "date": "2025-11-06",
+  "generated_at": "2026-04-23T23:19:57.705884",
+  "whoop": {
+    "imported": true,
+    "recovery": 76.0,
+    "hrv": 36.0,
+    "rhr": 49.0,
+    "sleep_perf": 89.0,
+    "strain": 16.7,
+    "sleep_hrs": 7.1,
+    "spo2": 96.6,
+    "skin_temp": 33.7,
+    "sleep_efficiency": 91.8,
+    "sleep_consistency": 92.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 3.5,
+    "deep_sleep_hrs": 2.3,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.7,
+    "sleep_cycles": 7,
+    "disturbances": 7,
+    "sleep_needed_hrs": 8.9,
+    "sleep_debt_hrs": 1.3,
+    "calories": 3037,
+    "avg_hr": 72,
+    "max_hr": 157,
+    "workouts": [
+      {
+        "sport": "Functional Fitness",
+        "calories": 373,
+        "avg_hr": 116,
+        "max_hr": 145
+      },
+      {
+        "sport": "HIIT",
+        "calories": 66,
+        "avg_hr": 99,
+        "max_hr": 135
+      },
+      {
+        "sport": "HIIT",
+        "calories": 82,
+        "avg_hr": 109,
+        "max_hr": 136
+      },
+      {
+        "sport": "Walking",
+        "calories": 518,
+        "avg_hr": 119,
+        "max_hr": 157
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28567,
+    "resting_hr": 55.0,
+    "hrv": 63.12,
+    "sleep_hrs": 7.1,
+    "daylight_mins": 26.0,
+    "vo2max": 40.73,
+    "spo2": 97.6,
+    "respiratory_rate": 13.24,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling great, a bit unsure in the morning but was okey, my mouth is a bit dry in the middle of the night and also again in the evening - kinda weird and I been drinking more\u2026 i was thinking it was burek but not so sure its that, played with dad ping pong now elevated pressure and heart rate but worth it\u2026 also had rado treatment and Mitja massage so it could be from there too and I did a nap today as well sooo kinda maybe not so sleepy, overall good day, balanced on relaxation but also on sport ",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
