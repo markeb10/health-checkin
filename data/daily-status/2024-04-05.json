@@ -1,0 +1,28 @@
+{
+  "date": "2024-04-05",
+  "generated_at": "2026-04-23T23:07:48.687994",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 41847,
+    "resting_hr": 57.0,
+    "hrv": 61.49,
+    "daylight_mins": 127.0,
+    "vo2max": 41.7,
+    "spo2": 98.5,
+    "respiratory_rate": 15.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept almost 8h, was super good I was sleepy in morning\nBreakfast\nTai chi\nWas about to exercise but I didn\u2019t \nKapka came I was putting together history of all my medical procedures in 2022 2023 and 2024 and bigger medical issues\nWe had lunch with caro - chicken and sweet potatoes\nWalkie and listened to podcast - the navy seal guy the storty teller\nWatched the series the gut\nMatheus gave me a book \nWe had flooding Kapka and me were panicking\nOrdered mikrobiom test flore and viome\nWas a good day b"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
