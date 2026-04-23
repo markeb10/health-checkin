@@ -1,0 +1,36 @@
+{
+  "date": "2025-12-12",
+  "generated_at": "2026-04-23T23:20:42.623568",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34022,
+    "resting_hr": 52.5,
+    "hrv": 51.76,
+    "sleep_hrs": 6.9,
+    "daylight_mins": 56.0,
+    "vo2max": 39.88,
+    "spo2": 96.21,
+    "respiratory_rate": 13.07,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "feeling upset and to the max annoyed by most people today, I need to do better, its really annoying also I dont like Tamara telling me what to say and what not to say, we gotta be careful here\n\nI think this is less damaging than it sounds like\nbloating level was 4/10 , was better regardless that I was eating way worse food, maybe its really enterosgel and vitamins that making it worse, tomorrow should take the C for sure",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 8,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
