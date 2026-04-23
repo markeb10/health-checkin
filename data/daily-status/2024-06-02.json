@@ -1,0 +1,37 @@
+{
+  "date": "2024-06-02",
+  "generated_at": "2026-04-23T23:09:02.434567",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29340,
+    "resting_hr": 60.0,
+    "hrv": 59.13,
+    "sleep_hrs": 5.0,
+    "daylight_mins": 43.0,
+    "spo2": 97.17,
+    "respiratory_rate": 11.75,
+    "sleep_deep_hrs": 0.6,
+    "sleep_rem_hrs": 1.5,
+    "sleep_core_hrs": 3.0,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 2,
+    "journal": "Nervous before the trip, woke up a bit like that, was packing in the morning which\nOmmm mediation seems to calm me down well\n\nBubbles on hand are back :( maybe allergy from yesterday??\n\nAfter I arrived to Turkey it was much better\n\ndid massage with Adam he says some things are tight but its fixable - really liked his approach - to some extend it works\nStill residuals from bloating and gassy",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole"
+    ],
+    "anxiety": 7
+  },
+  "zoe": {
+    "imported": false
+  }
+}
