@@ -1,0 +1,25 @@
+{
+  "date": "2023-09-12",
+  "generated_at": "2026-04-23T23:03:27.716563",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30860,
+    "resting_hr": 57.0,
+    "hrv": 58.15,
+    "vo2max": 39.68
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept longer today, this patch makes me a bit drowsy but its not in a bad way - kinda like it though my head kinda wants to hurt too\nTai chi\nWorking a bit\nJpm meeting\nWorked a bit more - too much social media consumption\nSciacca grill steak was amazing as always - we then walked a hit there\nLooking for restaurants in Dubai \nPlanning a bit activities when in Dubai\nTai chi in evening\nWas very tired a litle blaming it on the patch - interesring how my tiredness came back but in a way is good\nNeck d"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
