@@ -1,0 +1,32 @@
+{
+  "date": "2025-03-24",
+  "generated_at": "2026-04-23T23:15:17.686053",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 41619,
+    "resting_hr": 57.0,
+    "hrv": 61.63,
+    "daylight_mins": 200.0,
+    "vo2max": 41.13,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 2,
+    "journal": "Feeling well during day but then in evening lost momentum hehe\nFeeling relatively okey",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
