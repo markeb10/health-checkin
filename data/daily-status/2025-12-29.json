@@ -1,0 +1,80 @@
+{
+  "date": "2025-12-29",
+  "generated_at": "2026-04-23T23:21:03.341002",
+  "whoop": {
+    "imported": true,
+    "recovery": 44.0,
+    "hrv": 28.1,
+    "rhr": 51.0,
+    "sleep_perf": 86.0,
+    "strain": 7.7,
+    "sleep_hrs": 7.3,
+    "spo2": 95.2,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 93.6,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 13.9,
+    "light_sleep_hrs": 3.5,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 6,
+    "disturbances": 5,
+    "sleep_needed_hrs": 8.9,
+    "sleep_debt_hrs": 0.9,
+    "calories": 1691,
+    "avg_hr": 62,
+    "max_hr": 155,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 50,
+        "avg_hr": 91,
+        "max_hr": 153
+      },
+      {
+        "sport": "Activity",
+        "calories": 93,
+        "avg_hr": 117,
+        "max_hr": 155
+      },
+      {
+        "sport": "Activity",
+        "calories": 82,
+        "avg_hr": 111,
+        "max_hr": 152
+      },
+      {
+        "sport": "Activity",
+        "calories": 94,
+        "avg_hr": 103,
+        "max_hr": 159
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27770,
+    "resting_hr": 53.0,
+    "hrv": 67.88,
+    "sleep_hrs": 7.3,
+    "daylight_mins": 124.0,
+    "vo2max": 38.75,
+    "spo2": 96.06,
+    "respiratory_rate": 13.95,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was a cool day , I had it for myself, spent some time chatn but ended up being more upset than ever and doubting what the heck is going on here. Need to move on and seriously stop this locura. \n\nOtherwise felt a bit lonely and vulnerable, so was nice to have everyone back by evening.\nbloating 4/10",
+    "anxiety": 5,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
