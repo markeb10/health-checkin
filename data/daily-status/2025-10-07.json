@@ -1,0 +1,62 @@
+{
+  "date": "2025-10-07",
+  "generated_at": "2026-04-23T23:19:21.622432",
+  "whoop": {
+    "imported": true,
+    "recovery": 69.0,
+    "hrv": 32.8,
+    "rhr": 50.0,
+    "sleep_perf": 83.0,
+    "strain": 10.2,
+    "sleep_hrs": 7.0,
+    "spo2": 96.4,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 93.9,
+    "sleep_consistency": 78.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 3.5,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 7,
+    "disturbances": 2,
+    "sleep_needed_hrs": 9.0,
+    "sleep_debt_hrs": 1.3,
+    "calories": 1789,
+    "avg_hr": 61,
+    "max_hr": 197,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13987,
+    "resting_hr": 52.0,
+    "hrv": 46.16,
+    "sleep_hrs": 7.1,
+    "daylight_mins": 15.0,
+    "vo2max": 40.27,
+    "spo2": 97.36,
+    "respiratory_rate": 13.36,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling good in general, I have been having a couple of meetings, still not properly motivated for work but I feel this personal project of having my body fixed is occupying me haha\n\ni did 30 min of balance training in the morning\nbloating 5/10",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Lutein",
+      "Vitamin C",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
