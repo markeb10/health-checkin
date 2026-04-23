@@ -1,0 +1,31 @@
+{
+  "date": "2024-09-02",
+  "generated_at": "2026-04-23T23:11:02.088086",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13985,
+    "resting_hr": 53.0,
+    "hrv": 49.32,
+    "daylight_mins": 17.0,
+    "spo2": 96.61,
+    "respiratory_rate": 13.95
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 1,
+    "journal": "Feeling tired but not super tired, had 5 sleep on plane as advised per ChatGPT to fight the hangover best - we shall see\nI was bloated mostly coz I had that red velvet cake before flight - fter not eating anything for 12 hours it got better. Today I took it as a good diet day. To do a little reset from all the goodie food and ice cream:) also no vitamins today - i was again heavily bloated on the plane really weird that the plane exarbate my sympthoms even more",
+    "supplements_list": [
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
