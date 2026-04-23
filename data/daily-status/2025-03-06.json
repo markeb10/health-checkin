@@ -1,0 +1,31 @@
+{
+  "date": "2025-03-06",
+  "generated_at": "2026-04-23T23:14:55.528066",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12935,
+    "resting_hr": 58.0,
+    "hrv": 59.76,
+    "spo2": 98.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling tired and kinda not okey in the morning - its getting progressively weird - i cant understand whats affecting me- is it meetings lights - talking or just missing massage or some pla\nLow bloating in general",
+    "supplements_list": [
+      "Enterosgel",
+      "Ginger",
+      "Vitamin C"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
