@@ -1,0 +1,33 @@
+{
+  "date": "2024-10-16",
+  "generated_at": "2026-04-23T23:11:57.192043",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9630,
+    "resting_hr": 56.0,
+    "hrv": 61.84,
+    "daylight_mins": 15.0,
+    "spo2": 96.0,
+    "respiratory_rate": 13.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 3,
+    "journal": "Felt relatively good, bit sleepy in morning but with move meditation it worked, did also fitback exercises was cool\nNothing special to report here",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
