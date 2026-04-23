@@ -1,0 +1,78 @@
+{
+  "date": "2026-02-22",
+  "generated_at": "2026-04-23T23:22:11.913372",
+  "whoop": {
+    "imported": true,
+    "recovery": 87.0,
+    "hrv": 41.1,
+    "rhr": 51.0,
+    "sleep_perf": 85.0,
+    "strain": 14.5,
+    "sleep_hrs": 7.2,
+    "spo2": 95.2,
+    "skin_temp": 33.6,
+    "sleep_efficiency": 96.7,
+    "sleep_consistency": 89.0,
+    "respiratory_rate": 14.0,
+    "light_sleep_hrs": 3.4,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 6,
+    "disturbances": 5,
+    "sleep_needed_hrs": 10.2,
+    "sleep_debt_hrs": 2.1,
+    "calories": 2481,
+    "avg_hr": 69,
+    "max_hr": 172,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "Activity",
+        "calories": 782,
+        "avg_hr": 127,
+        "max_hr": 158
+      },
+      {
+        "sport": "Activity",
+        "calories": 106,
+        "avg_hr": 111,
+        "max_hr": 142
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14034,
+    "resting_hr": 53.0,
+    "hrv": 68.21,
+    "sleep_hrs": 4.5,
+    "daylight_mins": 21.0,
+    "spo2": 97.87,
+    "respiratory_rate": 14.02,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 3,
+    "journal": "Feeling good, slept good, but I do have bigger pain in my buttock which extends to that region that bugs me a lot, overall good day, lots of ping ping fast movement, I love it, when i get into the zone and also its about me trying to really push myself psychologically, I fucking need this, \u2026. this is the stuff I was getting before in school and other places is the psychological stress that is not connected to work\nbloating 3/10 interstingly quite lo",
+    "supplements_list": [
+      "Enterosgel",
+      "Ginger",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
