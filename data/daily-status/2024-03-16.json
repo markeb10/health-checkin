@@ -1,0 +1,26 @@
+{
+  "date": "2024-03-16",
+  "generated_at": "2026-04-23T23:07:23.905115",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22695,
+    "resting_hr": 55.0,
+    "hrv": 63.67,
+    "vo2max": 40.56,
+    "spo2": 98.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Didnt sleep so long as I was having cacao in cake before sleep\n70 + 70 pushups + biceps curls + tai chi\nMassage by anja - was good I think she did a nice gentle job\nBreakfast for champions\nDrive to my dad\nVesna sandi and everyone were at the table dad alenka videk\nWe played ludo with videk and carolina\nSpoke to my dad and alenka about the moss stuff that alenka could make\nWe drove to Matjaz and Sherif - was okey they were a bit different today I guess a bit tired but still ok - we gave them vani"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
