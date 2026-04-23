@@ -1,0 +1,29 @@
+{
+  "date": "2023-04-26",
+  "generated_at": "2026-04-23T23:00:35.310704",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7534,
+    "resting_hr": 58.0,
+    "hrv": 71.96,
+    "weight_kg": 73.212,
+    "sleep_hrs": 8.9,
+    "body_fat_pct": 0.16,
+    "bmi": 25.04,
+    "respiratory_rate": 12.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept until 4 only then nothing, just having this pressure inside of me. I have taken allergy pills, lets see if its going to help. Ma accupunture should do the trick too\nI felt pressure already in the morning\nToday was a rest day - started researching different options \nI just couldn\u2019t concentrate\nAlso we were migrating the website omg \ud83d\ude31 6h downtime but it worked it fucking did\nMas clinic - the most horrible coccyx pain like I sweated like hell when he pushed the needle all the way into my cocc"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
