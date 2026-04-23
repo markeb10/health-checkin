@@ -1,0 +1,38 @@
+{
+  "date": "2024-05-19",
+  "generated_at": "2026-04-23T23:08:44.789228",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 55392,
+    "resting_hr": 62.0,
+    "hrv": 59.79,
+    "sleep_hrs": 7.2,
+    "daylight_mins": 245.0,
+    "vo2max": 42.05,
+    "spo2": 94.5,
+    "respiratory_rate": 13.62,
+    "sleep_deep_hrs": 1.2,
+    "sleep_rem_hrs": 1.9,
+    "sleep_core_hrs": 4.1,
+    "sleep_awake_hrs": 1.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 2,
+    "journal": "I felt my heart pounding, woke up made tea at 3am, i was sleepy but whatever is keeping me awake was even worser today - Fexofenadin probably - after tea managed to sleep\n\nfexofenadin has this relaxing effect but not necessarily making me sleep\n\ni managed to sleep in middle od the bed and got 3.5 hours more of sleep after chamamile also removed my ear plugs which usually makes fhe heart pounding noise worse\nNo stress during the day, slept more - better without carolina in bed for sure\n\nkapka was",
+    "supplements_list": [
+      "Vitamin C",
+      "Telfast"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
