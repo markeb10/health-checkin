@@ -1,0 +1,34 @@
+{
+  "date": "2024-04-30",
+  "generated_at": "2026-04-23T23:08:20.384792",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29798,
+    "resting_hr": 54.0,
+    "hrv": 51.24,
+    "daylight_mins": 137.0,
+    "vo2max": 42.0,
+    "spo2": 99.0,
+    "respiratory_rate": 10.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Good sleep, though felt I was a bit more up due to exercising day before\nDrive to st janes zeitun \nCt scan - showed diverticulis \nSaw a rooster and chickens\nSpoke to Olle and Alex regarding the quiz and awards for Turkey\nWent to st james to arrange for ultrasound for ball in neck\nSpoke to David for QA role I think Blaz was better\nLunchy cosita at home\nDid massage before that\nCall with boro and Jus dimitar for slot logic\nLaurence and Guven meeting for win project - its a tough one but yeah\nWalked",
+    "supplements_list": [
+      "Probiotic",
+      "Vitamin C",
+      "B Complex",
+      "Rifaximin"
+    ]
+  },
+  "zoe": {
+    "imported": false
+  }
+}
