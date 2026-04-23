@@ -1,0 +1,31 @@
+{
+  "date": "2025-01-06",
+  "generated_at": "2026-04-23T23:13:40.635300",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11738,
+    "resting_hr": 55.0,
+    "hrv": 64.63,
+    "daylight_mins": 129.0,
+    "respiratory_rate": 15.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 2,
+    "journal": "Feeling okey, but bloating still here, a bit lost, also first day back to work, probably this makes me a bit more dull feel\nStill bloated, not sure from what really - will need to be investigated further - tomorrow no fruits - definitely not the crqckers - i did take high protein intake today and still didnt help",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
