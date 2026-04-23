@@ -1,0 +1,25 @@
+{
+  "date": "2023-08-13",
+  "generated_at": "2026-04-23T23:02:50.089571",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26378,
+    "resting_hr": 61.0,
+    "hrv": 73.04,
+    "respiratory_rate": 14.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice day, working on place, trying to be useful - need to read manuals, but we moved and survived\nChecking for issues in apt\nPacking in urbana and moving into the new apt. Feels weird but ok - we will learn to love it\nAlex arrived early - showed him the place\nTalked with him - told me about his affair with Londi\nLunch in figovec\nCleaning session and doing laundry\nOlle arrived - showed him the house\nWe went for a burek\nWalked around town\nWe talked\nSaw shooting star \ud83d\udcab wished all best for my family"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
