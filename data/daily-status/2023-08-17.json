@@ -1,0 +1,24 @@
+{
+  "date": "2023-08-17",
+  "generated_at": "2026-04-23T23:02:55.040650",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26878,
+    "resting_hr": 54.0,
+    "hrv": 67.83
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice day, lots of things - was doing all ok, could have been a bit more light of a party i feel\nMeeting with Dmitry - we agreed on everything\nBrakfast\nCrm meeting \nPacking for velden\nKransjka gora jasna\nWe ate in Lacni Kekec\nDrove to Velden\nIce cream \ud83c\udf68 \nWe played casino \ud83c\udfb0 + more ice cream\nPizza but i didnt eat any of it - a bit sad but hey - diet is a diet - I am bloated too much anyways so this is probably my solution anyways\nFeeling super tired, my headache went away\nHumidity in room is 64%, s"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
