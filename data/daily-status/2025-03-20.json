@@ -1,0 +1,32 @@
+{
+  "date": "2025-03-20",
+  "generated_at": "2026-04-23T23:15:12.711825",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26120,
+    "resting_hr": 52.0,
+    "hrv": 71.26,
+    "vo2max": 41.35,
+    "spo2": 97.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 3,
+    "journal": "Feeling good apart from bloating, a bit slower with mind than previous days but I didnt sleep so good to be fair\n\ni am eating too much of this restaurant food. Its not good\nExtreme bloating, i dont poop enough i feeel",
+    "supplements_list": [
+      "Ashwagandha",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
