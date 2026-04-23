@@ -1,0 +1,37 @@
+{
+  "date": "2024-05-27",
+  "generated_at": "2026-04-23T23:08:54.679644",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 53221,
+    "resting_hr": 60.0,
+    "hrv": 50.71,
+    "sleep_hrs": 5.8,
+    "daylight_mins": 164.0,
+    "vo2max": 41.94,
+    "spo2": 97.8,
+    "respiratory_rate": 13.38,
+    "sleep_deep_hrs": 1.2,
+    "sleep_rem_hrs": 1.3,
+    "sleep_core_hrs": 3.3,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "- have a great feeling - feels like the digestion is better , I feel better and stronger, interesting, i benched today 100 kg for the first time I think\nMa told me not to do crunches - abs\n\nPlanking is fine he says\n\nma clinic he released my lower back and my abs then electricity, he also spiked them a bit that really hurted\nTension still there but nothing out of ordinary",
+    "supplements_list": [
+      "Multivitamin"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
