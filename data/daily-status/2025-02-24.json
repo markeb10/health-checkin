@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-24",
+  "generated_at": "2026-04-23T23:14:43.486515",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10667,
+    "resting_hr": 56.0,
+    "hrv": 49.37,
+    "spo2": 94.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good today was still bloated ib morning from yesterday. Definitely issues with me and Milk\nBloated in mornjng but after that was fine",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
