@@ -1,0 +1,38 @@
+{
+  "date": "2024-06-25",
+  "generated_at": "2026-04-23T23:09:32.979235",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 33939,
+    "resting_hr": 53.0,
+    "hrv": 46.04,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 79.0,
+    "spo2": 99.0,
+    "respiratory_rate": 13.12,
+    "sleep_deep_hrs": 1.8,
+    "sleep_rem_hrs": 1.8,
+    "sleep_core_hrs": 3.2,
+    "sleep_awake_hrs": 1.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling slow with my brain, not productive, procrastination, hungry in evening\nNo issues",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
