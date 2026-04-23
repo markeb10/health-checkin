@@ -1,0 +1,30 @@
+{
+  "date": "2024-04-25",
+  "generated_at": "2026-04-23T23:08:14.095038",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21923,
+    "resting_hr": 54.0,
+    "hrv": 65.93,
+    "weight_kg": 68.949,
+    "daylight_mins": 33.0,
+    "body_fat_pct": 0.2,
+    "bmi": 23.86,
+    "vo2max": 42.35,
+    "spo2": 97.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept so so, went to bed late night before , think light from laptop is no bueno, also ate stake, like today as well, tomorrow - chicken on the eating menu\nMeeting with filip dimitar and simon and rest of the gang we went trough things of Bonuz Mania\nMeeting with filip and dimitar whole day - we basically finished almost - just some final touches\nWent for breakfast\nLunch at Harrods steak was good and rice and chicken\nDid walkie in evening 5 km so I managed to do daily norm\nWas talking to anja an"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
