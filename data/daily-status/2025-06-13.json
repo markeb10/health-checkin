@@ -1,0 +1,33 @@
+{
+  "date": "2025-06-13",
+  "generated_at": "2026-04-23T23:16:57.442895",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11315,
+    "resting_hr": 64.0,
+    "hrv": 53.44,
+    "daylight_mins": 27.0,
+    "spo2": 94.75,
+    "respiratory_rate": 16.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "It was good day, brigita is still weird. We have been traveling with car today for 4 hours so that was tireing and plus i was hot all the time rrom wun. But seeing Luka in Valeta was time well spent\nvery low bloating",
+    "supplements_list": [
+      "Celecoxib",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
