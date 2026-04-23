@@ -1,0 +1,25 @@
+{
+  "date": "2023-06-25",
+  "generated_at": "2026-04-23T23:01:49.683471",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20917,
+    "resting_hr": 63.0,
+    "hrv": 53.82,
+    "sleep_awake_hrs": 0.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Great day, it was a spa day unplanned, NAD drip IV, yoga, theraphy with yogi, haircut, cool day, didnt spent much time with boys\nTalkn - super cool\nYoga \ud83e\uddd8\u200d\u2642\ufe0f \nWalkie around\nBooked theraphy for coccyx but guy didnt have any good idea\nLunchy at Italian\nNAD booster IV drip was good but when it was dripping fast i got. Nauseous\nHaircut and barber - he did very good job\nRussian guy with help of translator was discussing with me coccyx issue recommended shockwave theraphy - yeah I think thats the only"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
