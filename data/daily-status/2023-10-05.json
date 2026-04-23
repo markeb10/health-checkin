@@ -1,0 +1,26 @@
+{
+  "date": "2023-10-05",
+  "generated_at": "2026-04-23T23:03:56.619070",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19080,
+    "resting_hr": 58.0,
+    "hrv": 101.36,
+    "daylight_mins": 62.0,
+    "spo2": 90.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept not so so but at least i got to do morning meditation, my mind was a bit wondering around\nBreakfast in room\nMeeting with Boro working on 7s Jackpotz Mania\nMeeting with Steve and Boro - Gottya \nAcc managers meeting\nDemo meeting\nLunch in Buda Bar was good\nSecond session with Heiko Bornemann - he seemed a bit weird idk something was off with him today he gave me pain killer to get inflammation down and he massaged with Radial Shockwave Theraphy \nShopping in Galeria shopping mall\nWalking aroun"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
