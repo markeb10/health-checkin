@@ -1,0 +1,24 @@
+{
+  "date": "2023-08-15",
+  "generated_at": "2026-04-23T23:02:52.482721",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20721,
+    "resting_hr": 64.0,
+    "hrv": 61.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Great day, my head did hurt a bit but I enjoyed it, lots of activities with the guys\nGym in morning\nCosita made an omelet \ud83c\udf73 \nWorked a bit - dev meeting\nFiguring out how washing machine works\nTacos in El Patron was good but not like wow since I had the chicken one hehe - chips was very good\nWas super tired after lunch we were checking sumSub solution for verification \nThen we player Bomberman and CTR game was fun \ud83e\udd29 \nWine a bit and then walkie to Roznik and back\nI have helped cosita in kitchen its"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
