@@ -1,0 +1,33 @@
+{
+  "date": "2025-07-26",
+  "generated_at": "2026-04-23T23:17:51.818517",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25789,
+    "resting_hr": 57.0,
+    "hrv": 57.38,
+    "daylight_mins": 234.0,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "It was a good day that didnt start great anyways all turned out for better and the change of hotel was great - better than a marina hotel\n\nate lots of stuff I should not eat but yeah\nFeeling tight after the great food",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Vitamin C"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
