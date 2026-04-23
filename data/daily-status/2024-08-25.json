@@ -1,0 +1,31 @@
+{
+  "date": "2024-08-25",
+  "generated_at": "2026-04-23T23:10:52.043689",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23976,
+    "resting_hr": 53.0,
+    "hrv": 68.94,
+    "daylight_mins": 206.0,
+    "spo2": 97.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "In general okey, Love all the walkies like totally in love with it - so southing and making me calm its incredible\nFeeling some weird pain in my throat and on my tongue - will put more silkapur to my nose where it hurts as well from before\nsuper bloated after 6 pm almost 1-2 hours after lunch and it was really bad around 7-9 pm - blaming it on vinegar but hard to say - or salad",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
