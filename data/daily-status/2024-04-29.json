@@ -1,0 +1,31 @@
+{
+  "date": "2024-04-29",
+  "generated_at": "2026-04-23T23:08:19.125203",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30611,
+    "resting_hr": 58.0,
+    "hrv": 61.34,
+    "weight_kg": 70.236,
+    "daylight_mins": 109.0,
+    "body_fat_pct": 0.18,
+    "bmi": 24.3,
+    "vo2max": 42.06,
+    "spo2": 99.0,
+    "respiratory_rate": 12.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept until 8 was up for too long yesterday then got up at 3 could not sleep anymore felt my stomach was hurting\nBreakfast took last day of rifixamine - lets see how this will go haha\nBi meeting\nContent meeting\nGym time\nBread and butter - had lactose free bread\nMeeting with Dimitar and Filip\nLunchy was good\nMeeting with Jus and Boro and Dimitar was good we defined the paytable\nMeeting with Dimitar - was interesting he was explaining me about his side project\nMeeting with the Brazilian guys - is "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
