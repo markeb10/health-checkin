@@ -1,0 +1,39 @@
+{
+  "date": "2024-05-25",
+  "generated_at": "2026-04-23T23:08:52.283961",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 58277,
+    "resting_hr": 51.0,
+    "hrv": 53.62,
+    "sleep_hrs": 4.8,
+    "daylight_mins": 142.0,
+    "vo2max": 41.88,
+    "spo2": 94.0,
+    "respiratory_rate": 13.5,
+    "sleep_deep_hrs": 0.4,
+    "sleep_rem_hrs": 1.4,
+    "sleep_core_hrs": 3.0,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling tired, depressed but not a single yawning - how is this possible\n\nMy area around coccyx and colon feels even more irritated after gym - i feel pain when muscles strech when I am starting to pass the stool\n\n- horrible bloating was passing gas for 3 hours at least 40 times if not more - smelly\nSlight discomfort, feeling tightness on palpation left top stomach quadrant under ribs and going down to 2 cm from belly button. It feels the whole area is very tight",
+    "supplements_list": [
+      "Ginger",
+      "Toxaprevent",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
