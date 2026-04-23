@@ -1,0 +1,35 @@
+{
+  "date": "2025-03-26",
+  "generated_at": "2026-04-23T23:15:19.983550",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 37549,
+    "resting_hr": 56.0,
+    "hrv": 60.48,
+    "daylight_mins": 144.0,
+    "vo2max": 41.37,
+    "spo2": 96.86,
+    "respiratory_rate": 15.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling sad in trhe evening but over the course of day i felt good, needing to process the whole day, its my feelings and my mental health that needs some cleaning spring break\nFeeling okey, lowwr bloating - probably lowest so far",
+    "supplements_list": [
+      "Ashwagandha",
+      "Enterosgel",
+      "Omega-3",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
