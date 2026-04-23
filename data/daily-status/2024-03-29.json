@@ -1,0 +1,27 @@
+{
+  "date": "2024-03-29",
+  "generated_at": "2026-04-23T23:07:40.079125",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34986,
+    "resting_hr": 55.0,
+    "hrv": 66.33,
+    "daylight_mins": 105.0,
+    "vo2max": 41.36,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish, didnt need to go to toilet\nStart taking probiotics - day one they are spore based \nTai chi\nMeeting with Boro - jesus I am soo pumped to do this Piggy bank 2 - amazing idea about replacing wheel of fortune with Hold and Spin mechanic Bonuz Game\nSpoke to Jus regarding the Piggy 2.0 \nGym for 30 min - streching leg exercises - strenght - not exceeding pulse 140 - doing some abs muscles\nBreakfast\nMeeting with Friday Sync BI guys - I presented to them piggy bank 2.0 - no excitement as o"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
