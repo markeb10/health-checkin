@@ -1,0 +1,35 @@
+{
+  "date": "2025-02-08",
+  "generated_at": "2026-04-23T23:14:22.802704",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17474,
+    "resting_hr": 53.0,
+    "hrv": 69.48,
+    "daylight_mins": 35.0,
+    "vo2max": 41.08,
+    "spo2": 96.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "7 hours - finally - slept until 5 am\nBreakfast\nChecking and organizing myself for tomorrow for prep day\nDr Karim - i was pissed about their service - that lady cant nail my vain its getting ridiculous but it was the equipment that was malfunctioning \nFilip and I went to the shop to get the firm mattress - lets see how this latex will work might be fine actually who knows\nWe went for lunch to Georgian restaurant\nDr Strech\nWe went for a walk in JGE\nFelt a bit of brain fog and tired, was very relax",
+    "supplements_list": [
+      "Collagen",
+      "Multivitamin",
+      "Omega-3",
+      "Propolis",
+      "Vitamin C"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
