@@ -1,0 +1,31 @@
+{
+  "date": "2025-03-31",
+  "generated_at": "2026-04-23T23:15:26.539543",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23870,
+    "resting_hr": 60.0,
+    "hrv": 52.62,
+    "daylight_mins": 52.0,
+    "spo2": 98.5,
+    "respiratory_rate": 16.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 1,
+    "journal": "Feeling okeyish, after cacao heaterday i was feeling a bit more up, today I feel nicely sleepy in evening jnteresting enough at 9:30 felt mor sleepy than at 22:40\nFeeling okeyish, but medium bloating",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
