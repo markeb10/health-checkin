@@ -1,0 +1,32 @@
+{
+  "date": "2025-03-03",
+  "generated_at": "2026-04-23T23:14:51.906454",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14076,
+    "resting_hr": 57.0,
+    "hrv": 62.31,
+    "vo2max": 40.92,
+    "spo2": 97.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 3,
+    "journal": "Feeling bulletproof in the morning then the energy feel down a bit - bit regardless was okey\nLow/med bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Ginger",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
