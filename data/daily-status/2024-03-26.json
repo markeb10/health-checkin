@@ -1,0 +1,26 @@
+{
+  "date": "2024-03-26",
+  "generated_at": "2026-04-23T23:07:36.305854",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20696,
+    "resting_hr": 52.0,
+    "hrv": 52.35,
+    "daylight_mins": 53.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okey, was a bit short but fine still 7 hours, went to bed in mid night\nMeeting with boro about Piggy bank 2.0 - we want to make it bigger pot\nGym\nMansion time while in the gym andrew buy no 39\nFinished salaries, 100 little tasks\nCall with Dejan\nBreakfast\nDemo meeting\nExcellent lunchy ramen for first time at home was very good\nDidnt walk much - was dusty outside\nBoniko was hurting a bit more than usual\nWas talking to Sandi\nTalking to Boro and Steve\nChaslf\nFeeling good, lots of energy, no pr"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
