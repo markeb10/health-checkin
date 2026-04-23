@@ -1,0 +1,31 @@
+{
+  "date": "2024-08-21",
+  "generated_at": "2026-04-23T23:10:46.955376",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20100,
+    "resting_hr": 53.0,
+    "hrv": 55.44,
+    "daylight_mins": 135.0,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 2,
+    "journal": "Feeling good, a bit more distracted today but relatively okey.\ni felt dueing night some tightness whil breating, and pain around belly button - but didnt notice this latee",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
