@@ -1,0 +1,24 @@
+{
+  "date": "2023-05-13",
+  "generated_at": "2026-04-23T23:00:56.764237",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14098,
+    "resting_hr": 57.0,
+    "hrv": 52.52
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Day to fly back feeling great after the infusion yesterday, ate too much chocolate on plane so this will fire back\nPacking\nBreakfast\nFlight to malta\nWatched parallels series and finished \nAnd another cool french movie with black guy that played in Lupin\nUnpacking\nChecking results a bit from blood tests with chat gpt - funny how ones I did here in Malta showed different situation \nReminder always charge ipad before flying and download movies - its a great travel hack\nMy ass started to hurt again "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
