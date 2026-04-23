@@ -1,0 +1,27 @@
+{
+  "date": "2023-05-25",
+  "generated_at": "2026-04-23T23:01:12.259717",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23332,
+    "resting_hr": 55.0,
+    "hrv": 66.23,
+    "weight_kg": 75.664,
+    "bmi": 25.69,
+    "vo2max": 40.28
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was great morning, slept okeyish and was relaxed, was even told I use all abs mucles\nWorkout with Milka just stretching and breathing\nWalk around\nWas reading contract JVC for wild casino \nBeen working a bit\nPaid most of stuff that was to pay\nTook it easy\nSlobodan is joining us\nLunchy by cosita was good\nI should eat dinner I do need some food totally\nSpoke to Matjaz - was so so - i think he was busy spoke to my dad - all he said was about car - meh haha \nWatched one episode of Night Agent\nWatched"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
