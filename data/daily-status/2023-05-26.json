@@ -1,0 +1,27 @@
+{
+  "date": "2023-05-26",
+  "generated_at": "2026-04-23T23:01:13.493877",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25178,
+    "resting_hr": 61.0,
+    "hrv": 51.28,
+    "weight_kg": 74.528,
+    "bmi": 25.49,
+    "vo2max": 40.64
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Strange sleep, something waking me up in middle of the night, but managed somehow to sleep back\nNo gym today\nCatching up on paper work\nFiat crypto salaries providers\nHalman vella warehouse was great today\nSpoke to Ivan - he seems to be on the ball - promised we could have our own company\nNew ideas, smile more - more often\nShort exercise\nWalkie with Ralf \nMeeting with olle simona artur regarding Magnus\nWatched Night Agent\nWas productive day, signed the deal with Laurence and Vlad officially part "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
