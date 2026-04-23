@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-24",
+  "generated_at": "2026-04-23T23:04:20.445997",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26166,
+    "resting_hr": 51.0,
+    "hrv": 68.45,
+    "daylight_mins": 101.0,
+    "vo2max": 41.17,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "It was an okey day, a bit little sleep, and I fear today even less as I had more cacao, somehow my mood is not the best with cacao interesting\nBreakfast\nWorked a bit on things - backlog of emails payments, requests\nTheraphy with madliena\nWalkie in Hyde park weather was sunny \u2600\ufe0f amazing\nLunchy with Christopher and Angela - so so man this kid is really so annoying - ate too much hehe\nI went separately to walk a bit in park\nThen worked a bit meeting with sherkhan telling him specs for the rewarding"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
