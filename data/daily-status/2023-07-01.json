@@ -1,0 +1,19 @@
+{
+  "date": "2023-07-01",
+  "generated_at": "2026-04-23T23:01:57.004860",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17775,
+    "resting_hr": 60.0,
+    "hrv": 77.24
+  },
+  "checkin": {
+    "imported": false
+  },
+  "zoe": {
+    "imported": false
+  }
+}
