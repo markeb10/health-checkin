@@ -1,0 +1,61 @@
+{
+  "date": "2025-11-28",
+  "generated_at": "2026-04-23T23:20:25.219498",
+  "whoop": {
+    "imported": true,
+    "recovery": 78.0,
+    "hrv": 39.3,
+    "rhr": 48.0,
+    "sleep_perf": 86.0,
+    "strain": 11.4,
+    "sleep_hrs": 7.7,
+    "spo2": 95.2,
+    "skin_temp": 33.5,
+    "sleep_efficiency": 91.9,
+    "sleep_consistency": 82.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 3.8,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.7,
+    "sleep_cycles": 4,
+    "disturbances": 9,
+    "sleep_needed_hrs": 9.1,
+    "sleep_debt_hrs": 1.4,
+    "calories": 1898,
+    "avg_hr": 61,
+    "max_hr": 182,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 325,
+        "avg_hr": 128,
+        "max_hr": 182
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7917,
+    "resting_hr": 51.5,
+    "hrv": 62.55,
+    "sleep_hrs": 7.7,
+    "daylight_mins": 39.0,
+    "spo2": 98.02,
+    "respiratory_rate": 14.47,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Stopped with vitamins and instead took something to improve my peeing situation and it feels it is a bit better, i am going to toilet less i think haha, we shall see\nbloating 6/10 was pretty a lot so not a good sign, must be too much cake maybe coz i stopped eating supplements hard to say, but also white breat in the morning is not great, i am feeding something i shouldnt for sure",
+    "anxiety": 2,
+    "bloating": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
