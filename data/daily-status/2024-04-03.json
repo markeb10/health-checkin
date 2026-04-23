@@ -1,0 +1,26 @@
+{
+  "date": "2024-04-03",
+  "generated_at": "2026-04-23T23:07:46.169343",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 43980,
+    "resting_hr": 52.0,
+    "hrv": 71.65,
+    "daylight_mins": 140.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Cool day, productive and I was not nervous this was most important\nSaying good bye to our guys dad sister sandi\nGym + making an interview - was kinda successful we will make an offer\nJoint space - found a very painful spot on foot between finger 4 and 5 on right foot\nPhysioveda - was okeyish\nJpm meeting - launch was postponed to tomorrow\nLunchy was good\nWorked a bit\nChatn\nReading Filip contract\nMeeting with Filip - he introduced me his project - its cool but some details are still missing\nWe ate"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
