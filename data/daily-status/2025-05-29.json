@@ -1,0 +1,32 @@
+{
+  "date": "2025-05-29",
+  "generated_at": "2026-04-23T23:16:38.261986",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34743,
+    "resting_hr": 68.0,
+    "hrv": 51.41,
+    "daylight_mins": 33.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling amazing the party was just wow and to top it off it just ended in the best possible way untesponsible or better spontanues\nAll good low bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
