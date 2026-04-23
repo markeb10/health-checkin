@@ -1,0 +1,27 @@
+{
+  "date": "2024-03-04",
+  "generated_at": "2026-04-23T23:07:08.273165",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30589,
+    "resting_hr": 58.0,
+    "hrv": 47.71,
+    "daylight_mins": 55.0,
+    "vo2max": 40.06,
+    "spo2": 96.88
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept 7h was tired but was hard to stay asleep, boniko hurts on my back\nWas in a good mood, felt like a child on a christmas when they told me they will build spin and hold game for us, this is really going to be something special\nInspired by: scatterkings team, just happy they did it\nDidnt like: sandi - got some negative energy from there\nIdea: first piggy is defined by your first deposit 5x. Also question can you get him back? Maybe when it expires you can get him back quick by making another "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
