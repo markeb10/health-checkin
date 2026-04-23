@@ -1,0 +1,81 @@
+{
+  "date": "2026-03-09",
+  "generated_at": "2026-04-23T23:22:30.812361",
+  "whoop": {
+    "imported": true,
+    "recovery": 65.0,
+    "hrv": 38.7,
+    "rhr": 50.0,
+    "sleep_perf": 86.0,
+    "strain": 12.4,
+    "sleep_hrs": 7.0,
+    "spo2": 94.4,
+    "skin_temp": 34.0,
+    "sleep_efficiency": 93.7,
+    "sleep_consistency": 94.0,
+    "respiratory_rate": 13.6,
+    "light_sleep_hrs": 2.8,
+    "deep_sleep_hrs": 2.5,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 4,
+    "disturbances": 7,
+    "sleep_needed_hrs": 9.7,
+    "sleep_debt_hrs": 1.6,
+    "calories": 1883,
+    "avg_hr": 63,
+    "max_hr": 198,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 349,
+        "avg_hr": 132,
+        "max_hr": 198
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20740,
+    "resting_hr": 52.0,
+    "hrv": 73.96,
+    "sleep_hrs": 6.8,
+    "daylight_mins": 38.0,
+    "vo2max": 40.02,
+    "spo2": 96.6,
+    "respiratory_rate": 13.59,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling amazing in the morning after the food, it was perfect, also I was super nicely hyped up so was good, will try to repeat it tomorrow, the hour of power, I am blessed for having this part next to me, also good idea to do this exercises for my hipy .\u2014- was bugging me a little but not as much as you woudl imagine\nFeeling bloated and with a smelly fart, I think this is either potatoe now or the beans, could be and this is not far from truth that my body is not used to beans, but then why i do",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2,
+    "bloating": 6
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 6,
+    "meal_names": [
+      "Crab Stick Salad with Shredded Carrot and Tomato",
+      "Overnight Oats with Mixed Fruits (red felt not good right after next morning squeezing of the chest)",
+      "Two Whole Baked Trout with Potatoes and Salad",
+      "Creamy Carrot Soup with Croutons and Balsamic Glaze",
+      "Toast with Nut Butter",
+      "Fried Eggs with Avocado and Cheese Toast"
+    ],
+    "meal_details": [],
+    "avg_score": 79.6,
+    "calories": 2428.0,
+    "protein_g": 138.8,
+    "fat_g": 119.9,
+    "carbs_g": 203.4,
+    "fibre_g": 36.2
+  }
+}
