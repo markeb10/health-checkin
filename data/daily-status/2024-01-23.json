@@ -1,0 +1,27 @@
+{
+  "date": "2024-01-23",
+  "generated_at": "2026-04-23T23:06:14.584424",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23987,
+    "resting_hr": 53.0,
+    "hrv": 58.64,
+    "daylight_mins": 85.0,
+    "spo2": 96.33,
+    "respiratory_rate": 13.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Okeyish sleep woke up at 6 somehow too early was awake maybe due to lower back pain idk\nTai chi\nRolling with the ball on foot nect and on the back - scapula\nBreakfast\nCositas dad arrived was nice \nWent to Physioveda alam - went good - today was further small small improvement I felt \nLunchy \nJpm meeting\nReview call with Alex\nWent to coffee fair - World of Coffee Dubai\nWe walked to DIFC - stopped by Salt for a sandwich \nChilled on sofa outside the house\nPlayed POP - managed finally to make some p"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
