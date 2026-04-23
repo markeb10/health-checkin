@@ -1,0 +1,34 @@
+{
+  "date": "2025-01-19",
+  "generated_at": "2026-04-23T23:13:56.646823",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23095,
+    "resting_hr": 55.0,
+    "hrv": 66.67,
+    "daylight_mins": 86.0,
+    "spo2": 97.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling bloated in afternoon, will cut down on berries tomorrow, feeling relaxed almost too much\nVery bloated today",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Propolis",
+      "Vitamin C"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
