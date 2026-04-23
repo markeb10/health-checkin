@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-04",
+  "generated_at": "2026-04-23T23:05:12.990443",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22110,
+    "resting_hr": 53.0,
+    "hrv": 59.99,
+    "daylight_mins": 55.0,
+    "vo2max": 39.98,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept ok, turning a bit around but ok \ud83d\udc4c\nMilica training legs \ud83e\uddb5 \nWalkie 3 km\nMeeting with Scatter Kings guys\nSupervising piggy \nCall with Boro and Filip BS JP 3 hours call\nDenis arrived walkie with him - he returned from Japan resigned from Pokerstars\nSimpsons\nTalked with vlad - gotta fix those invoices \ud83e\uddfe csv for bank import\nI felt the endorphins from training, just enough - seeing some progress in my stamina to move and in muscles really happy to see that\nInspired by: my body adapting except the"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
