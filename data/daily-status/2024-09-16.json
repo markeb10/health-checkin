@@ -1,0 +1,32 @@
+{
+  "date": "2024-09-16",
+  "generated_at": "2026-04-23T23:11:19.517066",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11449,
+    "resting_hr": 56.0,
+    "hrv": 64.64,
+    "daylight_mins": 11.0,
+    "spo2": 96.38
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling a bit numb, sleepy, but okey mot stressed at least, second part of the day got worse no idea why - i did visit Ana therapist\nEverything ok, feeling a bit of acidity in evening",
+    "supplements_list": [
+      "Enterogerma",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
