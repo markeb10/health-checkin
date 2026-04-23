@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-03",
+  "generated_at": "2026-04-23T23:19:16.847539",
+  "whoop": {
+    "imported": true,
+    "recovery": 48.0,
+    "hrv": 29.9,
+    "rhr": 54.0,
+    "sleep_perf": 81.0,
+    "strain": 12.6,
+    "sleep_hrs": 6.4,
+    "spo2": 95.5,
+    "skin_temp": 33.5,
+    "sleep_efficiency": 87.5,
+    "sleep_consistency": 88.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 3.1,
+    "deep_sleep_hrs": 1.9,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 1.0,
+    "sleep_cycles": 6,
+    "disturbances": 8,
+    "sleep_needed_hrs": 9.3,
+    "sleep_debt_hrs": 1.3,
+    "calories": 2077,
+    "avg_hr": 69,
+    "max_hr": 186,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 297,
+        "avg_hr": 110,
+        "max_hr": 150
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27058,
+    "resting_hr": 55.0,
+    "hrv": 72.57,
+    "sleep_hrs": 6.0,
+    "daylight_mins": 38.0,
+    "vo2max": 40.36,
+    "spo2": 97.45,
+    "respiratory_rate": 13.27,
+    "sleep_awake_hrs": 1.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 4,
+    "journal": "Feeling in good spirits today eventhough didnt had that much sleep i guess coz it was early enough really helps to go to bed early just hard to stay asleep\nbloating 5/10 , feeling a bit of acidity in the evening, not sure what would be the best to do for the stomach, should i continue eating that mg or not",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
