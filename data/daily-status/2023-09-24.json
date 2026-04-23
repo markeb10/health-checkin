@@ -1,0 +1,25 @@
+{
+  "date": "2023-09-24",
+  "generated_at": "2026-04-23T23:03:43.053318",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9711,
+    "resting_hr": 61.0,
+    "hrv": 42.22,
+    "spo2": 97.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept until almost 8 - went to bed late yesterday was waking up a lot as my muscles were hurting - not the best idea to try new exercises in evening then alleviate heart rate\nWoke up at 8 \nDid exercises for back and for stretches for coccyx\nWe cooked lisicke for breakfast was really good secret is to fry them a bit at the end also the onion was professionally cut and garlic\nWas organizing trip to Dubai and ideas where to stay in Seychell - still not 100% sure but I think Lemuria will be okeyish\n"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
