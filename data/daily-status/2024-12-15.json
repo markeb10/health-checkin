@@ -1,0 +1,31 @@
+{
+  "date": "2024-12-15",
+  "generated_at": "2026-04-23T23:13:13.581539",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19167,
+    "resting_hr": 58.0,
+    "hrv": 61.16,
+    "daylight_mins": 34.0,
+    "spo2": 96.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling less pain than going to UK so thats a good sign for sure, my thinking is that apart from prp also what helped was that I got those exercises which speaking of which I will be doing them as well\nAll feeling well",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
