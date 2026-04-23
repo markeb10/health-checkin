@@ -1,0 +1,26 @@
+{
+  "date": "2023-06-17",
+  "generated_at": "2026-04-23T23:01:39.860234",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26491,
+    "resting_hr": 62.0,
+    "hrv": 57.3,
+    "sleep_hrs": 6.3,
+    "respiratory_rate": 15.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Great day considering how hangover i was hehe \ud83d\ude09 And also lost the voice\nGot back from concert -  properly tipsy\nWas happy - managed to fall asleep at 5 my hear was racing - got some sleep but yeah\nBrunch at 11 in the new place next to us Kulinaricni studio 2.0\nWe checked the apartment with Filip and Marusa - it was so so mixed bag mostly bugged with lights and other things\nMany things are not finished yet so its very hard to judge things\nWe ate lunch in Slovenska hisa\nWas playing alone \nWalkie a"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
