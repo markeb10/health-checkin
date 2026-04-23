@@ -1,0 +1,38 @@
+{
+  "date": "2024-06-26",
+  "generated_at": "2026-04-23T23:09:34.162507",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 39023,
+    "resting_hr": 59.0,
+    "hrv": 56.37,
+    "sleep_hrs": 7.0,
+    "daylight_mins": 286.0,
+    "spo2": 97.0,
+    "respiratory_rate": 13.38,
+    "sleep_deep_hrs": 1.7,
+    "sleep_rem_hrs": 1.8,
+    "sleep_core_hrs": 3.5,
+    "sleep_awake_hrs": 1.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Felt relatively easy , didnt think too much or suffer too much when talking - i think I have a bit solved ghat problem\nFelt ok even-though I made some core exercises today",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
