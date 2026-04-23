@@ -1,0 +1,78 @@
+{
+  "date": "2025-10-29",
+  "generated_at": "2026-04-23T23:19:47.991256",
+  "whoop": {
+    "imported": true,
+    "recovery": 96.0,
+    "hrv": 39.6,
+    "rhr": 48.0,
+    "sleep_perf": 89.0,
+    "strain": 10.8,
+    "sleep_hrs": 7.3,
+    "spo2": 96.2,
+    "skin_temp": 33.2,
+    "sleep_efficiency": 93.2,
+    "sleep_consistency": 89.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 4.1,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.0,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 4,
+    "disturbances": 7,
+    "sleep_needed_hrs": 8.9,
+    "sleep_debt_hrs": 1.3,
+    "calories": 1938,
+    "avg_hr": 63,
+    "max_hr": 156,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 105,
+        "avg_hr": 115,
+        "max_hr": 139
+      },
+      {
+        "sport": "HIIT",
+        "calories": 87,
+        "avg_hr": 101,
+        "max_hr": 121
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21805,
+    "resting_hr": 51.0,
+    "hrv": 59.82,
+    "sleep_hrs": 7.3,
+    "vo2max": 40.64,
+    "spo2": 97.42,
+    "respiratory_rate": 14.26,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 3,
+    "journal": "Feeling great today, also had good sleep, very calm didnt went to pee either in the middle of the night which is nice, overall good day, maybe didnt need to be so nice to people I dont know I dont get it, I hate this one - tough luck\u2026 but maybe it will come in handy in the future\nEverything was fine, after second lunch around 6 pm i was bloated so 3/10 but nothing before or after",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
