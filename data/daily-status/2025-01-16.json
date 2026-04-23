@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-16",
+  "generated_at": "2026-04-23T23:13:53.024659",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7859,
+    "resting_hr": 55.0,
+    "hrv": 62.76,
+    "daylight_mins": 34.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Good ones , i mean ollen was interesting to chat and in general fun, also from emotional side it was very relaxing. Lower acidity than yeaterday eventhough i skipped dinner. But one thing is good I think having something sweet my body was ceaving - we shall see - i was bloated quite a lot\nNo dinner feeling quite okeyish",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
