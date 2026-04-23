@@ -1,0 +1,33 @@
+{
+  "date": "2024-09-26",
+  "generated_at": "2026-04-23T23:11:31.901527",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20533,
+    "resting_hr": 58.0,
+    "hrv": 82.75,
+    "daylight_mins": 157.0,
+    "vo2max": 43.12,
+    "spo2": 96.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 3,
+    "journal": "Was a nice day, managed to do most of meetings I wanted to do, its really crazy that time runs so fast, managed to squeeze some time witj carolina as well so it was good\nEverything is ok",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
