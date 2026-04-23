@@ -1,0 +1,25 @@
+{
+  "date": "2023-08-23",
+  "generated_at": "2026-04-23T23:03:02.306938",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22024,
+    "resting_hr": 55.0,
+    "hrv": 70.95,
+    "vo2max": 39.94
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept not much only 6 hours, sleepy whole day need more beauty sleep - probably need to sleep with the thingy for eyes\nMorning gym + sun exposure\nSfn\nWoke up too early 5 am \nAccount managers meeting\nBreakfast\nScatter kings meeting\nRecruitment meeting\nLunchy in buddha bowl\nTreatment - today new theroy that the cracking thingy is the piece of cracked bone got injected much more lactic acid today\nWalkie around - reserved the electric boat\nResting and super sleepy early\nToday he injected more, I lik"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
