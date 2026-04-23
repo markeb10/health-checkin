@@ -1,0 +1,32 @@
+{
+  "date": "2025-01-10",
+  "generated_at": "2026-04-23T23:13:45.639486",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19874,
+    "resting_hr": 53.5,
+    "hrv": 63.68,
+    "vo2max": 41.78,
+    "spo2": 98.67,
+    "respiratory_rate": 17.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling a bit hurt due to caro fight - i am not sleeping in the room for sure.\nAcidity feel, this feeling of not being at ease. Will take ruporut tomorrow if it does not help",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
