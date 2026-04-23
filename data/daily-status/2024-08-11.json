@@ -1,0 +1,33 @@
+{
+  "date": "2024-08-11",
+  "generated_at": "2026-04-23T23:10:33.989198",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28565,
+    "resting_hr": 48.0,
+    "hrv": 59.47,
+    "daylight_mins": 138.0,
+    "vo2max": 43.67,
+    "spo2": 98.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling amazing, good food, feeling acomplished, idea from Bernarda look yourself in the eyes in mirror for 3 minutes\nNeed to repeaat breathing exercises every day\nEverything good",
+    "supplements_list": [
+      "Enterosgel",
+      "Immune Action",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
