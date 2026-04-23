@@ -1,0 +1,25 @@
+{
+  "date": "2023-09-20",
+  "generated_at": "2026-04-23T23:03:37.957982",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22876,
+    "resting_hr": 56.0,
+    "hrv": 76.31,
+    "vo2max": 39.87
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept relatively ok, like 7 hours but nothing special, was hurting a bit from day before theraphy, my coccyx is very sore and the part that was not hurting is hurting now,\nBreakfast\nJpm meeting \nTheraphy with Marek. He did Xray and figured out that one hip sits higher than the other one. Therfore he gave me 9 mm insoles for left foot to balance this. He also did some kiropraktik stuff but not too much I think - was ok \ud83d\udc4c lets see what he will do tomorrow, I also have Edward at 11:15\nWalked back i"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
