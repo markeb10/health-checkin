@@ -1,0 +1,65 @@
+{
+  "date": "2025-10-12",
+  "generated_at": "2026-04-23T23:19:27.676553",
+  "whoop": {
+    "imported": true,
+    "recovery": 65.0,
+    "hrv": 32.2,
+    "rhr": 50.0,
+    "sleep_perf": 99.0,
+    "strain": 8.9,
+    "sleep_hrs": 8.2,
+    "spo2": 93.2,
+    "skin_temp": 33.1,
+    "sleep_efficiency": 93.5,
+    "sleep_consistency": 90.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 4.6,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.2,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 4,
+    "disturbances": 12,
+    "sleep_needed_hrs": 8.3,
+    "sleep_debt_hrs": 0.6,
+    "calories": 1763,
+    "avg_hr": 64,
+    "max_hr": 154,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 83,
+        "avg_hr": 89,
+        "max_hr": 110
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22169,
+    "resting_hr": 51.0,
+    "hrv": 69.3,
+    "sleep_hrs": 7.3,
+    "daylight_mins": 56.0,
+    "vo2max": 40.5,
+    "spo2": 95.92,
+    "respiratory_rate": 13.18,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "New ideas, feeling good, I was doing only good thigns today and some new, like vacuuming the floor in almost whole apartment , petra really did a good job only she aggrevated my left side \u201chip\u201d pain\nbloating 5/10 .. almost same as day before maybe a bit higher, was eating pretty much much better but still results",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
