@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-27",
+  "generated_at": "2026-04-23T23:05:40.794703",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12376,
+    "resting_hr": 58.0,
+    "hrv": 66.0,
+    "daylight_mins": 361.0,
+    "spo2": 96.0,
+    "respiratory_rate": 17.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Great day, morning was tiring - I am feeling my body is a bit weak something is starting to hunt me down\nEarly breakfast\nFeeling tired\nWent to summerSalt beach club\nWas swimming and playing with ball\nWe had amazing lunch and also very very expensive\nWas laying on beach and trying not to expose myself too much to sun\nIn general was super nice - my throat was acting a bit funky but okey\nAte some chocolate again - really need to stop that\nPlayed uno with caro and guys\nPlayed uncharted game on ps5\nB"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
