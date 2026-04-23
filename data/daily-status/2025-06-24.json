@@ -1,0 +1,31 @@
+{
+  "date": "2025-06-24",
+  "generated_at": "2026-04-23T23:17:12.169567",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24457,
+    "resting_hr": 59.0,
+    "hrv": 61.53,
+    "daylight_mins": 60.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Weird feelings regarding this Bra stuff, also feeling acidity after taking mg maybe also coz i ate rio late pizza and fries lol, overall okey day\nBloated from yeaterday medium/high",
+    "supplements_list": [
+      "Vitamin C",
+      "Magnesium Glycinate"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
