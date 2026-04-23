@@ -1,0 +1,28 @@
+{
+  "date": "2025-04-04",
+  "generated_at": "2026-04-23T23:15:31.334971",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26685,
+    "resting_hr": 59.0,
+    "hrv": 58.53,
+    "daylight_mins": 81.0,
+    "vo2max": 40.45,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Hurts a bit when i am sittting i mean definitely feeling sore from the prp injection, \n\notherwise feeling weird feelings that this bra story wont fly :(\nFeeling fine, low bloating",
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
