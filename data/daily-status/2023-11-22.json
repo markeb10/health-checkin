@@ -1,0 +1,27 @@
+{
+  "date": "2023-11-22",
+  "generated_at": "2026-04-23T23:04:57.449919",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10112,
+    "resting_hr": 57.0,
+    "hrv": 59.82,
+    "daylight_mins": 45.0,
+    "spo2": 97.75,
+    "respiratory_rate": 16.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Good sleep, wasnt exactly super long but it was not bad. Still hurts neck if i sleep on right side kinda weird\nMorning planning - I love to put down some things first\nMilos training - was good some cool exercises - my leg is approaching the floor but some way to get there - he has 3 weeks more lets see\nBeeakfast\nJpm meeting\nChatbot meeting with guys - still needs lots of polishing but its getting there\nWe will delay jpm probably for another week for sure. But I think at least 10 more days for su"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
