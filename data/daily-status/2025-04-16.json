@@ -1,0 +1,37 @@
+{
+  "date": "2025-04-16",
+  "generated_at": "2026-04-23T23:15:45.250304",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7645,
+    "resting_hr": 57.0,
+    "hrv": 64.25,
+    "daylight_mins": 2.0,
+    "spo2": 97.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 8,
+    "journal": "Feeling okeyish, I feel like geoogy a bit sleepy during the day, maybe should start deinking cofee haha just kidding, but very relaxed\nVery low",
+    "supplements_list": [
+      "DAO",
+      "Electrolytes",
+      "Enterosgel",
+      "Ginger",
+      "Magnesium Glycinate",
+      "Omega-3",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
