@@ -1,0 +1,31 @@
+{
+  "date": "2024-09-29",
+  "generated_at": "2026-04-23T23:11:35.720882",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23110,
+    "resting_hr": 60.0,
+    "hrv": 57.72,
+    "daylight_mins": 7.0,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good and happy, was bowling relatively okeyish, could be better could be a little worse, was relatively ok at mini golf, carting would be more fun if it would go faster but could be more dangerous\nFelt relatively good, nothing new",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
