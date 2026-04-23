@@ -1,0 +1,27 @@
+{
+  "date": "2023-09-28",
+  "generated_at": "2026-04-23T23:03:47.969623",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17641,
+    "resting_hr": 55.0,
+    "hrv": 80.2,
+    "daylight_mins": 246.0,
+    "vo2max": 42.02,
+    "spo2": 98.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "It was short sleep, only until 4am then I was trying to fall asleep, just felt nervous really weird kinda like effect from probiotics\nActomy massage\nWoke up at 4 my nervous system was not good - too crazy so I tried the belly breathing but kinda worked but no\nJpm meeting\nGot a new chair from Actomy\nLunchy was good\nClearner Miljana came - now we have all clean\nWalkie to castle and back alone no distractions was nice\nInstalled Umbel box - server was cool - installing bitcoin and later bitcoin ligh"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
