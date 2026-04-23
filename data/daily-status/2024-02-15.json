@@ -1,0 +1,27 @@
+{
+  "date": "2024-02-15",
+  "generated_at": "2026-04-23T23:06:45.160411",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19933,
+    "hrv": 69.86,
+    "daylight_mins": 51.0,
+    "vo2max": 39.26,
+    "spo2": 100.0,
+    "respiratory_rate": 15.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice. Day but very tired, super weird night was not sleepy in evening or in the morning blaming it on something i ate yesterday\nQuick berry snack\nMask and light muscle trigger\nWent to german nero guy - jesus felt a bit so so but I guess I have it proven that I am fine neurologically\nDid some work - basically suspecting histamines - high histamines or MSG food accelerators based on food I ate yesterday and the spike I received\nCrm meeting\nBeing calm but tired and slow as didnt sleep more than 4 h"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
