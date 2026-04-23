@@ -1,0 +1,26 @@
+{
+  "date": "2023-07-17",
+  "generated_at": "2026-04-23T23:02:16.660193",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34152,
+    "resting_hr": 69.0,
+    "hrv": 43.95,
+    "vo2max": 40.75,
+    "respiratory_rate": 17.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice relaxing day, I feel like I didnt do much, but I am happy I ran again in the morning\nShowered snd went to bed at 1:30\nWoke up at 8\nGym fun interval 10 min +10 min walk\nWe fired Ville - its sad but yeah it was long coming - he is a ghost anyways\nContent meeting\nShopping in coin casa\nDrive to lj\nLunch in Cubo - fish was great but I felt some reflux like I normally do after fish good I didnt take tomatoe\nMeeting with boro and steve and steve we pick the graphics studios to help us\nWalkie and t"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
