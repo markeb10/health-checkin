@@ -1,0 +1,39 @@
+{
+  "date": "2024-07-22",
+  "generated_at": "2026-04-23T23:10:07.859926",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 39308,
+    "resting_hr": 59.0,
+    "hrv": 69.77,
+    "sleep_hrs": 7.7,
+    "daylight_mins": 136.0,
+    "vo2max": 42.9,
+    "spo2": 96.4,
+    "respiratory_rate": 13.62,
+    "sleep_deep_hrs": 2.0,
+    "sleep_rem_hrs": 1.9,
+    "sleep_core_hrs": 3.8,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "I feel ok, after lunch I felt tired, peobably I could use a short nap or maybe yoga nidra\nNo pain or",
+    "supplements_list": [
+      "Ashwagandha",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
