@@ -1,0 +1,32 @@
+{
+  "date": "2024-10-03",
+  "generated_at": "2026-04-23T23:11:40.752771",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12567,
+    "resting_hr": 66.0,
+    "hrv": 55.71,
+    "daylight_mins": 35.0,
+    "respiratory_rate": 17.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling like crap due to being sick sneezing and runny nose\nStomach seems kinda fine but I feel aome acidity so just in case took ruporut in evening",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
