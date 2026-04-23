@@ -1,0 +1,27 @@
+{
+  "date": "2023-11-27",
+  "generated_at": "2026-04-23T23:05:03.811639",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25589,
+    "resting_hr": 59.0,
+    "hrv": 58.4,
+    "daylight_mins": 50.0,
+    "vo2max": 40.52,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept relatively okeyish, but feeling not so great, maybe coz I ate shit yesterday at Dannys, we will see today\nGym with Milos was good we were stretching my hips \nBreakfast - went to buy some ingredients for pasta cosita was making for lunch for later\nJpm meeting\nTigne apartment meeting with Sean Sarah Marko Richard - it was tiring new date promised to be 1st of April (i bet they will miss the deadline haha)\nCame back to eat\nMa s clinic was okeyish gave me one simple exercise by the wall\nWalkie"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
