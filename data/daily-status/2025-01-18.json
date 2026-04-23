@@ -1,0 +1,31 @@
+{
+  "date": "2025-01-18",
+  "generated_at": "2026-04-23T23:13:55.453047",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 39063,
+    "resting_hr": 54.0,
+    "hrv": 72.31,
+    "daylight_mins": 64.0,
+    "spo2": 99.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling terribke this morning - like really painfyl hip, cheat pain , panic attacks - and other things - aomehow managed to turn it around - massage definitely helped\nterribke, feeling discomfort combing from stomach",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
