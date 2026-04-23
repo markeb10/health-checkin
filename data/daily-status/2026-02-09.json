@@ -1,0 +1,72 @@
+{
+  "date": "2026-02-09",
+  "generated_at": "2026-04-23T23:21:55.563747",
+  "whoop": {
+    "imported": true,
+    "recovery": 73.0,
+    "hrv": 36.8,
+    "rhr": 49.0,
+    "sleep_perf": 72.0,
+    "strain": 12.2,
+    "sleep_hrs": 5.6,
+    "spo2": 96.2,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 97.8,
+    "sleep_consistency": 78.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 2.5,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.2,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 5,
+    "disturbances": 4,
+    "sleep_needed_hrs": 9.7,
+    "sleep_debt_hrs": 2.0,
+    "calories": 2115,
+    "avg_hr": 65,
+    "max_hr": 185,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 185,
+        "avg_hr": 113,
+        "max_hr": 176
+      },
+      {
+        "sport": "Activity",
+        "calories": 141,
+        "avg_hr": 117,
+        "max_hr": 185
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13336,
+    "resting_hr": 51.0,
+    "hrv": 52.16,
+    "sleep_hrs": 2.8,
+    "daylight_mins": 34.0,
+    "spo2": 97.8,
+    "respiratory_rate": 13.36,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling better, no pressure today but i feel drowsy after telfast. I will take it one more day for sure just to see how it goes, pelvic pain is there, sitting pain, i guess my pelvic floor muscles are screaming a bit , got a kneeling chair, idk not super excited about it but maybe I can turn around and see what works better, standing, sitting, sitting different positions\ndidnt eat sweet stuff today first day, \n\nbloating 4/10",
+    "supplements_list": [
+      "Enterosgel",
+      "Kombucha",
+      "Telfast"
+    ],
+    "anxiety": 3,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
