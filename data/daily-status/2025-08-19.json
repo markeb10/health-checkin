@@ -1,0 +1,37 @@
+{
+  "date": "2025-08-19",
+  "generated_at": "2026-04-23T23:18:22.098614",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12721,
+    "resting_hr": 55.0,
+    "hrv": 68.77,
+    "daylight_mins": 61.0,
+    "spo2": 94.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 7,
+    "journal": "Feeling relatively okeyish, I had issues eith pain in sitting bones which is triggering pain on both sides . Right side still more\n\nnew ideas\nFeeling a bit better but not there just still feeling pins in ny stomach",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Glycine",
+      "L-Theanine",
+      "Lutein",
+      "Multivitamin",
+      "Zinc"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
