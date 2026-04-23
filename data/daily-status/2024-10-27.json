@@ -1,0 +1,33 @@
+{
+  "date": "2024-10-27",
+  "generated_at": "2026-04-23T23:12:12.412546",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17201,
+    "resting_hr": 55.0,
+    "hrv": 49.17,
+    "daylight_mins": 33.0,
+    "spo2": 97.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Was feeling a bit low due to injury but it got better during the day,\nSlight bloating - probably after cheese cake",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Probiotic",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
