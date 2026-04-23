@@ -1,0 +1,35 @@
+{
+  "date": "2025-02-02",
+  "generated_at": "2026-04-23T23:14:15.199779",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12760,
+    "resting_hr": 56.0,
+    "hrv": 57.01,
+    "daylight_mins": 16.0,
+    "spo2": 97.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 6,
+    "journal": "Feeling that my life has no purpose, feeling that my health is just deteriorating, and everything is going down the shit, feeling nostalgic knowing I was much happier and better before\nSlight to low bloating",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Omega-3",
+      "Propolis",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
