@@ -1,0 +1,25 @@
+{
+  "date": "2023-12-30",
+  "generated_at": "2026-04-23T23:05:44.409651",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10470,
+    "hrv": 60.25,
+    "daylight_mins": 46.0,
+    "spo2": 97.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "New day, was fun , eventhough I think we are missing some physical stuff to tire us up, too much games hehe, but I think its cool since I wont have the guys more\nBreakfast\nTai chi - one in one on sun on the roof\nPlaying uncharted we found the treasure and finished the game omg amazing - wouldnt be possible without david and domen - they really are good with shooting\nLunch at the souk - Ushna indian restaurant was a success as usual\nGot tickets for tomorrow\u2019s NY Party\nWe went to pool and played g"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
