@@ -1,0 +1,26 @@
+{
+  "date": "2024-02-17",
+  "generated_at": "2026-04-23T23:06:47.739032",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15590,
+    "resting_hr": 58.0,
+    "hrv": 63.1,
+    "daylight_mins": 191.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "It was a nice day, sleep was relatively good was super sleepy in morning but not during the day which is good\nBreakfast\nPhysioveda\nWorked and brainstormed with the guys \nKinoya\nSumersalt beach club was nice and sunny\nWe went to water and it was just perfect then nice sunset beach walk - just perfect\nWe drummed and said goodbye\nWe been out whole day and it was super nice. Physioveda aliam - actually the lady was working on my achilles and she did a really good job, then did some excercising - bal"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
