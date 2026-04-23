@@ -1,0 +1,24 @@
+{
+  "date": "2023-05-22",
+  "generated_at": "2026-04-23T23:01:08.620381",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24339,
+    "hrv": 48.45,
+    "respiratory_rate": 16.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Got 7 hours of sleep which is nice \ud83d\udc4d\nGym\nBraakfast \nOriginals meeting\nCrm meeting\nLunch\nChocolate workshop - was very fun\nAccupunture\nPoker tounrmanet\nIt was a good day lots of smiling, got to relax as well in accupunture - felt asleep during moxibustion\nInspired by: how good the combo of moxibustion and accupunture is, how fun the chocolate workshop is\nDidnt like: that I am still not friendly to people - as I want to ignore people wtf\nIdea: do another treatment tomorrow - the last one, strength"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
