@@ -1,0 +1,33 @@
+{
+  "date": "2025-05-19",
+  "generated_at": "2026-04-23T23:16:26.105685",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25620,
+    "resting_hr": 60.0,
+    "hrv": 63.26,
+    "daylight_mins": 90.0,
+    "vo2max": 42.17,
+    "spo2": 97.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Very good feeling, feeling energized, but not from dopamine i feel better in genral less bloating less all the issues fun fact\nUltra low bloating, normal food, feeling good",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Magnesium Glycinate"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
