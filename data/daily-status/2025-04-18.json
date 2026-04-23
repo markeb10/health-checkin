@@ -1,0 +1,36 @@
+{
+  "date": "2025-04-18",
+  "generated_at": "2026-04-23T23:15:47.575956",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17838,
+    "resting_hr": 55.0,
+    "hrv": 43.1,
+    "daylight_mins": 22.0,
+    "spo2": 96.86
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 7,
+    "journal": "Felt really good actually cant believe - I didnt feel so good in q while - my brain is on fire - bit tired but good - i feel I have developed it now with duo lingo exercises too\nLow to mid bloating at times, could it be coz I drank more water thqn usual",
+    "supplements_list": [
+      "DAO",
+      "Electrolytes",
+      "Enterosgel",
+      "Ginger",
+      "Magnesium Glycinate",
+      "Omega-3",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
