@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-02",
+  "generated_at": "2026-04-23T23:08:23.711065",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30222,
+    "resting_hr": 56.0,
+    "hrv": 58.61,
+    "daylight_mins": 63.0,
+    "vo2max": 41.98,
+    "spo2": 98.25,
+    "respiratory_rate": 13.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Its a good day except I feel super tense specifically after food, and also after walk which was after breakfast, and damn it was a nice breakfast\nMeditatio. 2x\nWorkout\nBreakfast\nWorked a bit\nWalkie - saw squirrel\nMeeting with Djorde explained him how we want to do the 10th anniversary of the company\nOrdered lunch and go\nNew ideas\nBeing happy eventhough my stomach problems came back today - lying in bed - I think this is mostly because of some irritation - maybe milk intolerance but it feel like "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
