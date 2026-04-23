@@ -1,0 +1,24 @@
+{
+  "date": "2023-06-30",
+  "generated_at": "2026-04-23T23:01:55.787216",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16941,
+    "resting_hr": 58.0,
+    "hrv": 77.84
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish - long enough\nSlept 7 hours finally\nYoga\nTheraphy with Satish - was okey - nothing much i think he is giving up\nOzone theraphy\nPress massage - was very nice\nLunchy we laughed. Alot\nChatn but inter finished l\nReiki was good\nSwimming in sea\nMeditation - bone hurted but I really relaxed a lot\nDinner in Mexican was good\nWatched a bit of show\nRelaxing day, canceled all meetings and decided to enjoy last 2 days in resort\nInspired by: meditation and reiki was sooo relaxed after\nDidnt like"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
