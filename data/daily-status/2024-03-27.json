@@ -1,0 +1,27 @@
+{
+  "date": "2024-03-27",
+  "generated_at": "2026-04-23T23:07:37.521123",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 37849,
+    "resting_hr": 55.0,
+    "hrv": 62.34,
+    "daylight_mins": 93.0,
+    "vo2max": 41.05,
+    "spo2": 100.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept not so much but it wasnt bad - i forgot to take antibiotic - ou well I guess it happens - 2 doses more tomorrow then I am done\nToo early woke up at 5:30\nWorked on some things\nDid tai chi\nDid some milos streching\nDid 14 km in total\nJom meeting\nRowing for 5 min\nBreakfast\nMeeting with scatterkings guys\nSean and Joe meeting with Sandi and Richard and Marko electrician - was ok\nIt was a dusty day - crazy how dusty it was\nMassage Mia - was not so good - not convinced at all\nPaid some stuff\nWatch"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
