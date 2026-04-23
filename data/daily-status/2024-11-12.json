@@ -1,0 +1,36 @@
+{
+  "date": "2024-11-12",
+  "generated_at": "2026-04-23T23:12:32.414971",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14350,
+    "resting_hr": 59.0,
+    "hrv": 60.11,
+    "daylight_mins": 48.0,
+    "vo2max": 41.85,
+    "spo2": 99.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 6,
+    "journal": "Felt okey half od the day but then feeling super weird and under the weather more and more yoward evening my throat is dry and my mouth - took propolis but not food idea i think\nFeeling acidity still building up - idk if I should take rupurutnor not",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic",
+      "Propolis",
+      "Ruporut"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
