@@ -1,0 +1,33 @@
+{
+  "date": "2025-12-13",
+  "generated_at": "2026-04-23T23:20:43.874950",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14930,
+    "resting_hr": 52.5,
+    "hrv": 65.42,
+    "sleep_hrs": 6.4,
+    "spo2": 96.94,
+    "respiratory_rate": 13.65,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling much better today, worked with Dimitar first and then alone and I feel I was alone a bit more productive but if I work with him I have an instant feedback. Pete Tong concert was amazing really cool\nbloating 5/10 definitely more due to the italian lunch haha, but did take 2 vitamin c",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
