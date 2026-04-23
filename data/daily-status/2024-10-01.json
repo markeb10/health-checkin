@@ -1,0 +1,32 @@
+{
+  "date": "2024-10-01",
+  "generated_at": "2026-04-23T23:11:38.264880",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18376,
+    "resting_hr": 59.0,
+    "hrv": 55.75,
+    "daylight_mins": 61.0,
+    "vo2max": 42.17,
+    "spo2": 97.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Felt good, was not tired or experiencing any mood swings or bigger pain,\nFelt a bit bloated on a scale it was 4/10 less than yesterday but still too much",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
