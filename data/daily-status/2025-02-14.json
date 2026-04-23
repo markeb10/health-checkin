@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-14",
+  "generated_at": "2026-04-23T23:14:30.244217",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19247,
+    "resting_hr": 58.0,
+    "hrv": 73.05
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeljng tired and sleepy, I feel this could be after eating this pills idk - its really weird its day two and its not good\nBloating mediuk - definitely increased",
+    "supplements_list": [
+      "DAO",
+      "Multivitamin",
+      "Zinc Carnosine"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
