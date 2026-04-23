@@ -1,0 +1,33 @@
+{
+  "date": "2024-11-17",
+  "generated_at": "2026-04-23T23:12:38.911722",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16324,
+    "resting_hr": 57.0,
+    "hrv": 68.03,
+    "daylight_mins": 81.0,
+    "vo2max": 42.16,
+    "spo2": 95.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good, not too shaby at all\nAcidity - took ruporut, sushi defijitely not good for this",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
