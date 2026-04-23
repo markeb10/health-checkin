@@ -1,0 +1,26 @@
+{
+  "date": "2024-04-23",
+  "generated_at": "2026-04-23T23:08:11.541013",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27489,
+    "resting_hr": 52.0,
+    "hrv": 52.63,
+    "daylight_mins": 50.0,
+    "spo2": 98.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept not that much and I wasnt that sleepy during day but got sleepy eventually\nLight exercise streching\nMeeting filip dimitar\nMadliena violation part 2 - was a bit less painful but still tough, doing some exercise before kinda helps me to be more tough zi feel\nWalkie and talkie to filip and dimitar\nProcessed Fiat salaries\nChatns\nLunchy Lebanese place was good - tomorrow I want to try some Nusret just to see difference - not sure about beef\nMore meetings with filip and Dimitar\nWalkie with cosit"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
