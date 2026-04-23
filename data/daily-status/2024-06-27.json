@@ -1,0 +1,38 @@
+{
+  "date": "2024-06-27",
+  "generated_at": "2026-04-23T23:09:35.369182",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29879,
+    "resting_hr": 56.0,
+    "hrv": 58.64,
+    "sleep_hrs": 7.2,
+    "daylight_mins": 171.0,
+    "spo2": 96.67,
+    "respiratory_rate": 12.75,
+    "sleep_deep_hrs": 2.1,
+    "sleep_rem_hrs": 1.5,
+    "sleep_core_hrs": 3.5,
+    "sleep_awake_hrs": 1.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "7 ur sleep, was bit of tossing and turning but ok, bed was hard\nMade some payments\nBreakfast\nMeeting Curifind\nBologna town walk around\nDrive to Castelfalfi\nWine with Vesna and Sandi\nWe swam\nDinner Oliviera\nWalkie around\nInteresting day discovering bologna and castelfalfi, bit annoyed with cosita but this is standard issue\nInspired by: this nice town, design and jn general what they did at this place is incredible\nDidnt like: that I am having small fights with cosita\nIdeas: break up\n\n[Google Shee",
+    "supplements_list": [
+      "Probiotic",
+      "Multivitamin",
+      "Omeprazole"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
