@@ -1,0 +1,82 @@
+{
+  "date": "2026-02-10",
+  "generated_at": "2026-04-23T23:21:56.769258",
+  "whoop": {
+    "imported": true,
+    "recovery": 86.0,
+    "hrv": 39.6,
+    "rhr": 49.0,
+    "sleep_perf": 76.0,
+    "strain": 14.0,
+    "sleep_hrs": 6.0,
+    "spo2": 96.3,
+    "skin_temp": 34.0,
+    "sleep_efficiency": 97.8,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 13.6,
+    "light_sleep_hrs": 2.2,
+    "deep_sleep_hrs": 1.7,
+    "rem_sleep_hrs": 2.0,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 5,
+    "disturbances": 7,
+    "sleep_needed_hrs": 9.8,
+    "sleep_debt_hrs": 2.0,
+    "calories": 2310,
+    "avg_hr": 68,
+    "max_hr": 159,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 83,
+        "avg_hr": 117,
+        "max_hr": 137
+      },
+      {
+        "sport": "Walking",
+        "calories": 571,
+        "avg_hr": 135,
+        "max_hr": 159
+      },
+      {
+        "sport": "Activity",
+        "calories": 149,
+        "avg_hr": 127,
+        "max_hr": 152
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10845,
+    "resting_hr": 52.0,
+    "hrv": 61.87,
+    "sleep_hrs": 6.0,
+    "spo2": 97.05,
+    "respiratory_rate": 13.59,
+    "sleep_awake_hrs": 0.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good during the day, had some stomach weird feeling during the day but overall was good got some training in some pilates easy exercises, feels like this could be good and work\nfelt some pain but in general okeyish, did have greek food was good, felt quality stuff",
+    "supplements_list": [
+      "Enterosgel",
+      "Telfast"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
