@@ -1,0 +1,31 @@
+{
+  "date": "2025-01-13",
+  "generated_at": "2026-04-23T23:13:49.321453",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 8040,
+    "resting_hr": 55.0,
+    "hrv": 47.14,
+    "daylight_mins": 46.0,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 2,
+    "journal": "Was worried something else was wrong, So everything is normal except that slightly elevated lymphocytes which can be considered normal after an nad injection\nI am cleaning the stomach, hopefully, it was an immune response hopefully all will be well soon",
+    "supplements_list": [
+      "Enterosgel",
+      "NAD+"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
