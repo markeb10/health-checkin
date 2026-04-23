@@ -1,0 +1,32 @@
+{
+  "date": "2025-06-25",
+  "generated_at": "2026-04-23T23:17:13.405734",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14676,
+    "resting_hr": 55.0,
+    "hrv": 62.97,
+    "daylight_mins": 37.0,
+    "vo2max": 40.85,
+    "spo2": 97.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feelingnfrustratednstressed happy,\n\namazing things have happened today and I coulnd be more happy\nLow bloating fun fact",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
