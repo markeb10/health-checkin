@@ -1,0 +1,30 @@
+{
+  "date": "2025-09-03",
+  "generated_at": "2026-04-23T23:18:40.427257",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12532,
+    "resting_hr": 53.0,
+    "hrv": 47.87,
+    "spo2": 95.57,
+    "respiratory_rate": 12.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling relatively okey until I came to Zurish then it was really weird episode of my blood glucose being low \u2014- not sure if thats what was happening but I was feeling very weak\nToday I almost dont feel any pain in my stomach interesting enough",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
