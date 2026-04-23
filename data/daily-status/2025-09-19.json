@@ -1,0 +1,80 @@
+{
+  "date": "2025-09-19",
+  "generated_at": "2026-04-23T23:18:59.688202",
+  "whoop": {
+    "imported": true,
+    "recovery": 84.0,
+    "hrv": 36.5,
+    "rhr": 49.0,
+    "sleep_perf": 88.0,
+    "strain": 8.0,
+    "sleep_hrs": 7.2,
+    "spo2": 97.2,
+    "skin_temp": 33.8,
+    "sleep_efficiency": 88.9,
+    "sleep_consistency": 91.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 3.7,
+    "deep_sleep_hrs": 1.8,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.9,
+    "sleep_cycles": 8,
+    "disturbances": 7,
+    "sleep_needed_hrs": 8.8,
+    "sleep_debt_hrs": 1.0,
+    "calories": 1764,
+    "avg_hr": 61,
+    "max_hr": 148,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 42,
+        "avg_hr": 93,
+        "max_hr": 106
+      },
+      {
+        "sport": "HIIT",
+        "calories": 61,
+        "avg_hr": 105,
+        "max_hr": 123
+      },
+      {
+        "sport": "HIIT",
+        "calories": 29,
+        "avg_hr": 97,
+        "max_hr": 115
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19612,
+    "resting_hr": 50.0,
+    "hrv": 61.62,
+    "sleep_hrs": 5.9,
+    "daylight_mins": 103.0,
+    "vo2max": 41.58,
+    "spo2": 97.72,
+    "respiratory_rate": 13.17,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling good, and in the morning I felt less pain in my sitting bonues but then it changed after I went to Sauna so yeah damn\u2026. last day with Branka I like her she is good\nbloating 5/10, was feeling relatively okey",
+    "supplements_list": [
+      "Glycine",
+      "Lutein",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
