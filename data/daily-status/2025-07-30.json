@@ -1,0 +1,35 @@
+{
+  "date": "2025-07-30",
+  "generated_at": "2026-04-23T23:17:56.814953",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31966,
+    "resting_hr": 53.0,
+    "hrv": 55.59,
+    "daylight_mins": 68.0,
+    "spo2": 97.57
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 6,
+    "journal": "My shoulder is a little bit numb, my sitting bones are quite painful, and I didn't sleep that well. Hence my Cosita being snoring a lot and moving. It was a really interesting day because of the museum and because of the nice walk in Z\u00fcrich. I also met Thomas the guy from the bank.\nBlog taking is somewhere 4 out of 10. Could be worse, could be better. Considering I ate a lot of stuff today, different kinds of things. A little bit, I think it's still fine.",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
