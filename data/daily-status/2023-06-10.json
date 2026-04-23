@@ -1,0 +1,27 @@
+{
+  "date": "2023-06-10",
+  "generated_at": "2026-04-23T23:01:31.314597",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11146,
+    "resting_hr": 55.0,
+    "hrv": 62.18,
+    "weight_kg": 74.931,
+    "body_fat_pct": 0.24,
+    "bmi": 25.63
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept well, 7h, neck pain still there kinda increasing that last hour in bed I should just get up straight away when my muscle tonus is getting back, even had some head pain but was better by evening - unless its this cream\nExercising streching\nMedicofit - she did my legs and my lower back to fix the issue with some nerve problem had a nerve shooting down\nJpm meeting\nBreakfast\nMeeting with Primoz - I am not convinced - okey they like money but are they able to pitch a good story - I have a feeli"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
