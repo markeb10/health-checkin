@@ -1,0 +1,87 @@
+{
+  "date": "2025-10-28",
+  "generated_at": "2026-04-23T23:19:46.795013",
+  "whoop": {
+    "imported": true,
+    "recovery": 82.0,
+    "hrv": 36.1,
+    "rhr": 50.0,
+    "sleep_perf": 85.0,
+    "strain": 8.1,
+    "sleep_hrs": 6.7,
+    "spo2": 96.1,
+    "skin_temp": 34.1,
+    "sleep_efficiency": 96.1,
+    "sleep_consistency": 94.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 2.3,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 2.0,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 6,
+    "disturbances": 10,
+    "sleep_needed_hrs": 9.4,
+    "sleep_debt_hrs": 1.4,
+    "calories": 1725,
+    "avg_hr": 64,
+    "max_hr": 143,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 25,
+        "avg_hr": 90,
+        "max_hr": 105
+      },
+      {
+        "sport": "HIIT",
+        "calories": 33,
+        "avg_hr": 93,
+        "max_hr": 106
+      },
+      {
+        "sport": "HIIT",
+        "calories": 174,
+        "avg_hr": 104,
+        "max_hr": 143
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26056,
+    "resting_hr": 52.0,
+    "hrv": 59.0,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 60.0,
+    "bp_systolic": 107.17,
+    "bp_diastolic": 68.5,
+    "vo2max": 40.72,
+    "spo2": 95.63,
+    "respiratory_rate": 14.84,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good today, did all my morning routine, red light, walkies, ping pong, everything\u2026 i feel like a kid, didnt even notice cosita was not there specially coz I still had the food haha, lets see tomorrow - maybe hitra \u017elica lets see\n\nnight was a bit painful due to Petra making sure I was sore\nOverall feeling good, pressure low in evening, read Psi book and my pressure is ready for the bed today",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
