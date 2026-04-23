@@ -1,0 +1,32 @@
+{
+  "date": "2024-12-28",
+  "generated_at": "2026-04-23T23:13:29.587490",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21080,
+    "resting_hr": 54.0,
+    "hrv": 53.23,
+    "daylight_mins": 71.0,
+    "vo2max": 40.53,
+    "spo2": 100.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "6.5 hours of sleep - grass cutters woke me up - was feeling a bit hyper and not sleepy in the morninf\nMassage\nFight with cosita for literally nothing so stupid\nBreakfast\nNew ideas \nGoing around with Sandi and talking about the house\nWe went to wellth and met the doctor for skin its a fairly new center and was really good - will do the therapy with indiba machine\nAte in Ushna restaurant - it was spicy but good, probably need to take one ruporut just in case\nWalked to spinnys and back with vesna s",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut",
+      "Probiotic"
+    ]
+  },
+  "zoe": {
+    "imported": false
+  }
+}
