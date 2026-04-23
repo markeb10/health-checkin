@@ -1,0 +1,27 @@
+{
+  "date": "2023-05-09",
+  "generated_at": "2026-04-23T23:00:51.759403",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30527,
+    "resting_hr": 61.0,
+    "hrv": 60.24,
+    "sleep_hrs": 8.0,
+    "vo2max": 39.98,
+    "respiratory_rate": 14.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was a bit weird day as I could not sleep, not sure what was the issue. Didnt eat anything stupid however i was bloated a bit from day eating broccoli and rice, still meditation and wc solved it\nWoke up super early at 4 then with help of meditation I managed to relax remove the headache and sleep more\nPrepared breakfast for later, made tea for me mint and also kopriva, then coffee for cosita\nReading\nBreakfast\nMeeting JPM was intense as we are not there where we should be\nMade 2 more meetings with"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
