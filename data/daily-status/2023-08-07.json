@@ -1,0 +1,28 @@
+{
+  "date": "2023-08-07",
+  "generated_at": "2026-04-23T23:02:42.605162",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20367,
+    "resting_hr": 62.0,
+    "hrv": 56.68,
+    "sleep_hrs": 8.1,
+    "vo2max": 38.82,
+    "respiratory_rate": 11.31,
+    "sleep_awake_hrs": 1.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Amazing morning start, need to do some meditation tomorrow, came today too, been happy and calm but a bit without energy\nChatn - felt good\nMade lots of drink\nWe went to town market\nBreakfast in Slovenska hisa\nFetiche deserts \nWent to Rutar and bought 2 mattresses\nCinema indiana jones was just ok\nSpoke to my sister and walkie - thinking about the acid in my stomach\nMet my friend from Fetiche, been super happy to try new things there, what a beautiful pastry shop damn,\nInspired by: fetiche desert "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
