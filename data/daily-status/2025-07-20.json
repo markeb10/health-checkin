@@ -1,0 +1,33 @@
+{
+  "date": "2025-07-20",
+  "generated_at": "2026-04-23T23:17:44.455793",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19483,
+    "resting_hr": 58.0,
+    "hrv": 67.92,
+    "daylight_mins": 188.0,
+    "spo2": 96.71
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "It was a cool day, playing at the lake , i feel sorry for not doing this already yeaterday with the guys - ita soo fun - really cool\nFeeling okeyish, coccyx pain is slightly less probably coz i am so relaxed",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein"
+    ],
+    "anxiety": 2,
+    "bloating": 7
+  },
+  "zoe": {
+    "imported": false
+  }
+}
