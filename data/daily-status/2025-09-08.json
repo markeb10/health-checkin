@@ -1,0 +1,67 @@
+{
+  "date": "2025-09-08",
+  "generated_at": "2026-04-23T23:18:46.537386",
+  "whoop": {
+    "imported": true,
+    "recovery": 58.0,
+    "hrv": 35.4,
+    "rhr": 50.0,
+    "sleep_perf": 87.0,
+    "strain": 10.9,
+    "sleep_hrs": 7.1,
+    "spo2": 95.2,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 97.6,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 3.4,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 3,
+    "disturbances": 8,
+    "sleep_needed_hrs": 8.5,
+    "sleep_debt_hrs": 0.9,
+    "calories": 1751,
+    "avg_hr": 62,
+    "max_hr": 184,
+    "workouts": [
+      {
+        "sport": "Sport 240",
+        "calories": 182,
+        "avg_hr": 139,
+        "max_hr": 184
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12974,
+    "resting_hr": 51.0,
+    "hrv": 45.66,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 38.0,
+    "vo2max": 41.98,
+    "spo2": 96.03,
+    "respiratory_rate": 13.46,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 3,
+    "journal": "Feeling very good, brain is faster and also slept 7 hours still have more time to recover but yeah getting there slowly\u2026 lets hope that today or this week that I am sleeping next to cosita it will go well as well.\nall okey \n\nbloating 2/10 very low",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C",
+      "Vitamin K2"
+    ],
+    "anxiety": 2,
+    "bloating": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
