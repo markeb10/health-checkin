@@ -1,0 +1,26 @@
+{
+  "date": "2024-03-05",
+  "generated_at": "2026-04-23T23:07:09.537072",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 3988,
+    "resting_hr": 58.5,
+    "hrv": 51.69,
+    "spo2": 96.8,
+    "respiratory_rate": 13.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept for 7 hours meditated and all slowly but much better today than before\nSlept in - meditated \nWalki and curifind meeting - was good we discussed many things\nMy condition is better\nBought ingridient for kompot was very good even though it made me bloated for some time it was crazy but then got better so I think if I eat it around morning time is still ok\nWatched Louis de Funes - Gerdarme Extraterrestrial - was funny but a bit less funny - missing old music and all\nWalkie in the evening liste"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
