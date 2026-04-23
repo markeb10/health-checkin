@@ -1,0 +1,32 @@
+{
+  "date": "2025-06-19",
+  "generated_at": "2026-04-23T23:17:05.990117",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21429,
+    "resting_hr": 61.0,
+    "hrv": 56.03,
+    "daylight_mins": 63.0,
+    "spo2": 98.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "It was amazingly painful in the morning and whole day my pelvic floor is sensitive jn general and so is my standard painful coccyx points. Really sad and bumped about it but it is whais\nNormal ate late though, fries",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
