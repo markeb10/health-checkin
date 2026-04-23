@@ -1,0 +1,32 @@
+{
+  "date": "2024-05-15",
+  "generated_at": "2026-04-23T23:08:39.802817",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 35102,
+    "resting_hr": 55.0,
+    "hrv": 66.28,
+    "sleep_hrs": 1.4,
+    "daylight_mins": 113.0,
+    "vo2max": 42.56,
+    "spo2": 100.0,
+    "sleep_deep_hrs": 0.9,
+    "sleep_core_hrs": 0.6,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 0,
+    "journal": "Gut is feeling ok except in the morning as lots of grouling. I feel mentally tired\nMorning Feeling ok no special \nevening ok",
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
