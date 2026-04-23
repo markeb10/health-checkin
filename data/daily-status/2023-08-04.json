@@ -1,0 +1,29 @@
+{
+  "date": "2023-08-04",
+  "generated_at": "2026-04-23T23:02:38.882152",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21122,
+    "resting_hr": 51.0,
+    "hrv": 57.34,
+    "weight_kg": 74.26,
+    "body_fat_pct": 0.27,
+    "bmi": 25.42,
+    "vo2max": 38.88,
+    "respiratory_rate": 16.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Been relaxed this morning although the pain from boniko was really getting me, it was a nice bed morning\nSleep in bed long\nMy coccyx was hurting as I was sleeping long\nThat stimulated me enough to start working on new ways to find solution\nFound this guy dr Marco Puzzillio super nice guy - really listened and he thinks I dont have coccydenia but Calcific Enthesitis which is quite interesting as it means i have calium on the edges where muscle is attached to the bone, he thinks the muscle Ischioc"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
