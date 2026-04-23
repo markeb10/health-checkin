@@ -1,0 +1,24 @@
+{
+  "date": "2023-08-21",
+  "generated_at": "2026-04-23T23:02:59.835540",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18451,
+    "resting_hr": 55.0,
+    "hrv": 71.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Relatively ok sleep, wasnt that super long, I do have feeling it will be better here in Luebeck,\nSaying goodbye to Olle\nHaving a moment in apartment appreciating its beauty and the fact that its finished \u2705 \nGym\nMeeting with Ivan and Livespins was \u201cokey\u201d asking for more money discussing evo deal\nFlight to Hamburg trip to Luebeck\nWent to super market\nAccidentally ate cuscus which is made from wheat - made me bloated \ud83e\udec3\nNot getting enough sleep, we watched Painkillers on plane, the pain was not too "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
