@@ -1,0 +1,38 @@
+{
+  "date": "2025-07-17",
+  "generated_at": "2026-04-23T23:17:40.746579",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16944,
+    "resting_hr": 53.0,
+    "hrv": 69.81,
+    "daylight_mins": 32.0,
+    "vo2max": 41.72,
+    "spo2": 97.14
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 7,
+    "journal": "Interesting day full of treatments didnt really worked that much but okey\n\nmet with curifind guys,\n4/10 bloating - decrease from yesterday",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Vitamin D3+K2",
+      "Zinc"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
