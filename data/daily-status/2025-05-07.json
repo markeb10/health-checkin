@@ -1,0 +1,34 @@
+{
+  "date": "2025-05-07",
+  "generated_at": "2026-04-23T23:16:10.795972",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14970,
+    "resting_hr": 58.0,
+    "hrv": 56.24,
+    "daylight_mins": 32.0,
+    "spo2": 96.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Super up whole day after vitamin c ruporut and ma clinic i was better more peacful etc\nFeeling weird, hungry at times , coukd be this was just an acid problem i would not be suprised",
+    "supplements_list": [
+      "Ashwagandha",
+      "Enterosgel",
+      "Ruporut",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
