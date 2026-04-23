@@ -1,0 +1,24 @@
+{
+  "date": "2023-07-25",
+  "generated_at": "2026-04-23T23:02:26.585431",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11854,
+    "resting_hr": 54.0,
+    "hrv": 77.41
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Long sleep until 7:20 was good, rain in morning was helping, i think its helping in general. Acidity seems to be my big problem.\nLong sleep again around 8 hours \ud83d\udd25\nPissed off on Tarique for not supervising as he should - he is paid for that\nBreakfast berries and coconut yoghurt and blackberries - love slovenia for berries its amazing \ud83e\udd29 \nSent reminders for salary \nBioresonanca HD - was quick but seemed pretty effective - interesting enough it showed a bit different results but it showed I am too a"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
