@@ -1,0 +1,32 @@
+{
+  "date": "2023-11-18",
+  "generated_at": "2026-04-23T23:04:52.560745",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30748,
+    "resting_hr": 52.0,
+    "hrv": 74.03,
+    "sleep_hrs": 7.8,
+    "daylight_mins": 23.0,
+    "spo2": 97.8,
+    "respiratory_rate": 14.12,
+    "sleep_deep_hrs": 1.0,
+    "sleep_rem_hrs": 1.3,
+    "sleep_core_hrs": 5.5,
+    "sleep_awake_hrs": 1.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept 8 hours, didnt get so much deep sleep but ok, i could tell my brain was not working\nExercising\nTalking to Sandi, Richard\nDjorde figured out big issue we had with JPM spins not activating\nBreakfast at dannys - was slow but it was good well dont order the chicken salad please\nWe went to Mercury towers shopping in Boss got bunch of clothes\nWatched a movie\nWalked and followed rocket launch from musk it exploded in the end\nPlayed the james bond game Cypher on tv\nInteresting day, cosita had coff"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
