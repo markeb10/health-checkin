@@ -1,0 +1,26 @@
+{
+  "date": "2023-12-24",
+  "generated_at": "2026-04-23T23:05:37.157794",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18432,
+    "resting_hr": 55.0,
+    "hrv": 59.67,
+    "daylight_mins": 33.0,
+    "spo2": 99.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Day before Christmas, was good, fam is well they arrived\nTai chi with music was nice\nBreakfast\nWelcome for my family they arrived jet lagged like I did as well\nWe went for lunch to Trove\nWe shopped in Dubai\nGot new sneakers\nWe watched a movie - Johny English 2011 version - was fun\nWe bought clothes for Domen and David\nVesna made popcorns\nWent to bed before 12 finally haha\nStill super sleepy in afternoon, lets hope cinema in evening didnt woke me up too much and killed my long sleep and killed my"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
