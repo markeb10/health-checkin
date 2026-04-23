@@ -1,0 +1,31 @@
+{
+  "date": "2025-01-14",
+  "generated_at": "2026-04-23T23:13:50.539110",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23134,
+    "resting_hr": 57.0,
+    "hrv": 62.79,
+    "daylight_mins": 2.0,
+    "vo2max": 41.89,
+    "spo2": 98.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Osteopat gave me some streching exercises but my worry is that its going to affect my hip which has been not so stable lately\nFeeling okey, not feeling constipated or anything - i think animal fat is the part that affects me the most - as long as food is low fat is fine",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
