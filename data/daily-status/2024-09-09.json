@@ -1,0 +1,33 @@
+{
+  "date": "2024-09-09",
+  "generated_at": "2026-04-23T23:11:10.719371",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30538,
+    "resting_hr": 52.0,
+    "hrv": 62.86,
+    "daylight_mins": 122.0,
+    "vo2max": 42.92,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 3,
+    "journal": "Today I feel like a new guy, much better after this sleep - I have completely focused on the discovery of this issue\nEverything is fine not even too much bloating - took ruporut before bed - lets see if this will result in better sleep and how is with bloating",
+    "supplements_list": [
+      "Enterogerma",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
