@@ -1,0 +1,24 @@
+{
+  "date": "2023-08-30",
+  "generated_at": "2026-04-23T23:03:11.328378",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10343,
+    "resting_hr": 55.0,
+    "hrv": 55.52
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Great ideas \ud83d\udca1 Loving the book, where awareness goes the energy flows.  Slept relatively ok, my neck is painful \ud83d\ude16 But got better after some massage\nGrooming\nReading the power of unwavering focus\nGym time\nAccount managers meeting\nBreakfast yoghurt and berries\nAcc managers meeting\nScatter kings games weekly update\nLunchy\nSome office stuff need to pay providers tomorrow\nMeeting with Andrej Fodor gave him 1000e\nMeeting with Filip, Marusa, Miha, Plant lady\nReading book\nRaining whole day\nSmsing with si"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
