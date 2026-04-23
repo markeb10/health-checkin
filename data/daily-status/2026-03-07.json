@@ -1,0 +1,84 @@
+{
+  "date": "2026-03-07",
+  "generated_at": "2026-04-23T23:22:28.345310",
+  "whoop": {
+    "imported": true,
+    "recovery": 86.0,
+    "hrv": 43.7,
+    "rhr": 48.0,
+    "sleep_perf": 83.0,
+    "strain": 10.6,
+    "sleep_hrs": 6.3,
+    "spo2": 93.9,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 92.9,
+    "sleep_consistency": 90.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 2.7,
+    "deep_sleep_hrs": 2.6,
+    "rem_sleep_hrs": 1.1,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 5,
+    "disturbances": 7,
+    "sleep_needed_hrs": 9.6,
+    "sleep_debt_hrs": 1.4,
+    "calories": 1924,
+    "avg_hr": 65,
+    "max_hr": 156,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 279,
+        "avg_hr": 114,
+        "max_hr": 145
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 43018,
+    "resting_hr": 50.5,
+    "hrv": 57.33,
+    "sleep_hrs": 6.4,
+    "daylight_mins": 140.0,
+    "vo2max": 39.91,
+    "spo2": 96.81,
+    "respiratory_rate": 13.24,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 2,
+    "journal": "Feeling good, slept 6.5 but kinda felt enough, need to keep myself longer asleep, maybe coz I watched tv and computer before bed hard to say, overall day flew by fast, we did some planning with cosita, trying to find airbnb , nice lunch in Kamin, i overate on the fish \u2026. still feeling stuffed, but overall cool day, got some good fuel in me, unfortunately I am feeling a bit stuffed so hopefully this clears up relatively fast\nfeeling a bit sick in the evening I feel this fish was very heavy on me ",
+    "supplements_list": [
+      "Vitamin C",
+      "Whey"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 8,
+    "meal_names": [
+      "Pan-Seared White Fish with Roasted Baby Potatoes and Saut\u00e9ed Vegetables",
+      "Fettuccine with Truffle",
+      "Scallops with Microgreens",
+      "Bread with hazelnut Butter",
+      "Strawberries",
+      "Blackberries",
+      "Banana",
+      "Avocado and Cheese Toast"
+    ],
+    "meal_details": [],
+    "avg_score": 75.1,
+    "calories": 1719.0,
+    "protein_g": 94.9,
+    "fat_g": 77.3,
+    "carbs_g": 154.7,
+    "fibre_g": 21.8
+  }
+}
