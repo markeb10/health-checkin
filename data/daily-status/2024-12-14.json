@@ -1,0 +1,32 @@
+{
+  "date": "2024-12-14",
+  "generated_at": "2026-04-23T23:13:12.390577",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31766,
+    "resting_hr": 59.0,
+    "hrv": 68.1,
+    "daylight_mins": 43.0,
+    "vo2max": 41.3,
+    "spo2": 95.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling slow in brain, could not think fast really, need to start training my brain , also alchocol in evening is a no no for me\nFeeling fine, no problems whatsoever",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
