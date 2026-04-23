@@ -1,0 +1,33 @@
+{
+  "date": "2025-04-06",
+  "generated_at": "2026-04-23T23:15:33.810017",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22334,
+    "resting_hr": 54.0,
+    "hrv": 64.4,
+    "daylight_mins": 98.0,
+    "vo2max": 40.38,
+    "spo2": 94.0,
+    "respiratory_rate": 14.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Felt weird whole day thought it was raxi problem but a bit nausious, then in evening i felt hot\nFeeling hot in the evening - classic pizza I guess - it shall pass but yeah - no junk food for me not in this shape and form at least\n\nmedoum bloating - it increased definitely",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
