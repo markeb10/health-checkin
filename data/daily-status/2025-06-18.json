@@ -1,0 +1,32 @@
+{
+  "date": "2025-06-18",
+  "generated_at": "2026-04-23T23:17:04.749248",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24282,
+    "resting_hr": 56.0,
+    "hrv": 79.71,
+    "daylight_mins": 64.0,
+    "vo2max": 41.12,
+    "spo2": 96.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "feeling weird, still not the best. Eventhough i met with my dad, but at least I managed to go into forest and smell the nature - today I was smelling really good for some reason which js kinda interesting\nLow/mid bloating - increased due to vinegar in salad or rasberries",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
