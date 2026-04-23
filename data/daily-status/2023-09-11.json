@@ -1,0 +1,24 @@
+{
+  "date": "2023-09-11",
+  "generated_at": "2026-04-23T23:03:26.466004",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23973,
+    "resting_hr": 52.0,
+    "hrv": 60.52
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Got more sleep, did meditation on top and the day started much better, my head was much clearer,\nMeditation helps me to be relaxed - today forgot to do Alex meditation but I should I did do the classic 30 min one was good\nMorning stretching with Tom\nMeeting with Staras they are production company in Turkey - they are expensive a bit idk feels weird\nJpm meeting\nFunimalz meeting - nothing new\nCosita made a good lunchy\nExercises at 2 was not a bad thing after lunch I used the energy instead sitting"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
