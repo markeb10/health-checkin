@@ -1,0 +1,31 @@
+{
+  "date": "2024-04-27",
+  "generated_at": "2026-04-23T23:08:16.669910",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29983,
+    "resting_hr": 54.0,
+    "hrv": 46.8,
+    "weight_kg": 69.754,
+    "daylight_mins": 73.0,
+    "body_fat_pct": 0.21,
+    "bmi": 24.14,
+    "vo2max": 42.32,
+    "spo2": 96.5,
+    "respiratory_rate": 16.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept not the best due to cacao but ok, woke up fine - boniko hurts\nWoke up today inly rifixamine \nMade coffee for cosita\nMeeting with bitstarz originals - was good we came up with new name - my idea Indyz Gold\nWalkie shopping for eggs\nBreakfast around 10\nReading and studying FMT - its an interesting shit\nChatns\nSpoke to my sister and walkie told her about FMT\nWatched germand St tropez loius de fonie - very funny\nWent to bed yesterday, super  late at almost 3, thanks to Cacao\nInspired by: this c"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
