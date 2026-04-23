@@ -1,0 +1,32 @@
+{
+  "date": "2024-08-04",
+  "generated_at": "2026-04-23T23:10:24.676006",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 32517,
+    "resting_hr": 54.0,
+    "hrv": 58.13,
+    "daylight_mins": 242.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Emotionally ok, lots of laughing, but feeling tired today and many parts on my hip and leg are hurting possibly due to this red spots zi got on mh lower back and and right asss chick\nGetting worried about this red dots\nFeeling a bit a pinching in the above bellybutton to the left but went away",
+    "supplements_list": [
+      "Enterosgel",
+      "Immune Action",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
