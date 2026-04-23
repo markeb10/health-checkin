@@ -1,0 +1,33 @@
+{
+  "date": "2023-11-16",
+  "generated_at": "2026-04-23T23:04:50.096789",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 79425,
+    "resting_hr": 53.0,
+    "hrv": 47.28,
+    "sleep_hrs": 6.3,
+    "daylight_mins": 130.0,
+    "vo2max": 40.82,
+    "spo2": 97.5,
+    "respiratory_rate": 13.88,
+    "sleep_deep_hrs": 1.3,
+    "sleep_rem_hrs": 1.1,
+    "sleep_core_hrs": 4.0,
+    "sleep_awake_hrs": 1.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept short only 6.5h according to my watch - was quite up in the morning I wonder why that is. Didnt eat hummus today and voila less farting - eventhough I ate rice and chicken\nMorning meditation\nFilip messages regarding the property\nNew ideas - being\nDoing Tom streching in the morning\nJpm meeting\nMeeting with Sedat and Murat the guy - event planner\nBreakfast\nNervous due to Filip pitching a deal with super high price and my mind is not happy with that its too much to start with\nLunchy\nMeeting w"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
