@@ -1,0 +1,33 @@
+{
+  "date": "2024-08-09",
+  "generated_at": "2026-04-23T23:10:31.438946",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 46526,
+    "resting_hr": 52.0,
+    "hrv": 56.1,
+    "daylight_mins": 187.0,
+    "vo2max": 43.63,
+    "spo2": 98.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "Feeling better overall, less pain on right side - rushes are drying slowly just started\nWoke up a bit weird, like I didnt rest properly\nEverything seems fine in this department",
+    "supplements_list": [
+      "Enterosgel",
+      "Immune Action",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
