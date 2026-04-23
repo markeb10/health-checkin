@@ -1,0 +1,31 @@
+{
+  "date": "2024-09-17",
+  "generated_at": "2026-04-23T23:11:20.715276",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22916,
+    "resting_hr": 54.0,
+    "hrv": 73.16,
+    "daylight_mins": 97.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 2,
+    "journal": "Tired, feeling sleepy as I didnt sleep properly again, otherwise I feel physically okeyish - I do nees to burn more calories I feel - need more gym time more strenght training\nRelatively okeyish",
+    "supplements_list": [
+      "Enterogerma",
+      "Probiotic"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
