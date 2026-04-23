@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-29",
+  "generated_at": "2026-04-23T23:05:43.214968",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19295,
+    "resting_hr": 55.5,
+    "hrv": 60.78,
+    "daylight_mins": 27.0,
+    "spo2": 97.17,
+    "respiratory_rate": 17.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Feels like fun day, was having a blast with my nephews, obviously cacao is helping me, its just so fun to get some playtime in\nTai chi\nBreakfast\nPlaying games\nPicked up boss suite - in dubi mall some suopping\nAte in Time out\nPampering in 1847 - was good treated all 3 guys as well\nDinner time pancakes\nWe played UNO - 6 people was super fun loved it\nWe played uncharted \nBeat vesna in tetris 2x and beat domen in pool 2x - lots of cacao so I was awake pretty much a lot - my brain works haha\nAmazing "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
