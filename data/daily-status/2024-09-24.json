@@ -1,0 +1,32 @@
+{
+  "date": "2024-09-24",
+  "generated_at": "2026-04-23T23:11:29.411474",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16397,
+    "resting_hr": 54.0,
+    "hrv": 57.81,
+    "daylight_mins": 175.0,
+    "spo2": 98.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 3,
+    "journal": "Feeling overwhelmed , a little and some weird news I just was on my toes all the time\nShould have not eaten all that sugar, definitely feeling the weight if those pastel de nata stuff I ate",
+    "supplements_list": [
+      "Enterogerma",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
