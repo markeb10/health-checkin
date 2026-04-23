@@ -1,0 +1,34 @@
+{
+  "date": "2025-05-03",
+  "generated_at": "2026-04-23T23:16:05.919892",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28724,
+    "resting_hr": 55.0,
+    "hrv": 53.65,
+    "daylight_mins": 105.0,
+    "vo2max": 42.08,
+    "spo2": 97.09
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling good in general but kinda a bit under pressure, this project was something i really wanted to achieve byt then in the end i did it but solution was too trivial - regardless I learned plenty so it was good.\nLow bloating - otherwise I am feeling find. - did some streching in the morning - I think i miss that",
+    "supplements_list": [
+      "Electrolytes",
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Zinc"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
