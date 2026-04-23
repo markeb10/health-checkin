@@ -1,0 +1,26 @@
+{
+  "date": "2023-10-07",
+  "generated_at": "2026-04-23T23:03:59.036493",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13632,
+    "resting_hr": 52.0,
+    "hrv": 98.83,
+    "daylight_mins": 42.0,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice day, was relaxing, i do need to take the whole chatn down a notch - getting a bit too much and boring\nMeditation woke up at 5:30 was up up\nBreakfast\nStats - bit of planning\nPhysio - went well\nWorked a bit - pretty not productive today\nLunch with dad and alenka and luka and videk - luke is becoming a real hacker which is pretty crazy \ud83d\ude1c he is doing exactly same as I was doing just many years later but he is actually smart enough to code \ud83d\udc68\u200d\ud83d\udcbb which is great plan with laptop works\nChatn\nDid paym"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
