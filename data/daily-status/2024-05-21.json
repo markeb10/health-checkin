@@ -1,0 +1,41 @@
+{
+  "date": "2024-05-21",
+  "generated_at": "2026-04-23T23:08:47.200816",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 56831,
+    "resting_hr": 56.0,
+    "hrv": 52.76,
+    "sleep_hrs": 7.6,
+    "daylight_mins": 235.0,
+    "vo2max": 42.08,
+    "spo2": 95.75,
+    "respiratory_rate": 13.47,
+    "sleep_deep_hrs": 1.8,
+    "sleep_rem_hrs": 0.9,
+    "sleep_core_hrs": 4.9,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 5,
+    "journal": "I was having issues mid night with peeing i think I just need an alarm and I will be fine .\n\nIn general I feel ok, a bit difussed feelings and not so relaxed but noting crazy\nEverythng is ok",
+    "supplements_list": [
+      "Creatine",
+      "Magnesium",
+      "Probiotic",
+      "Toxaprevent",
+      "Vitamin C"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
