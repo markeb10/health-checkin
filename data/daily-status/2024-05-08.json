@@ -1,0 +1,34 @@
+{
+  "date": "2024-05-08",
+  "generated_at": "2026-04-23T23:08:31.080007",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28994,
+    "resting_hr": 59.0,
+    "hrv": 45.5,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 108.0,
+    "vo2max": 42.24,
+    "spo2": 98.17,
+    "respiratory_rate": 13.62,
+    "sleep_deep_hrs": 1.8,
+    "sleep_rem_hrs": 1.2,
+    "sleep_core_hrs": 3.6,
+    "sleep_awake_hrs": 1.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Extremely bloated after 4 pm all the way to 9pm. Feeling tense a little I did have whole day of meetings. Is it possible that I am tense because of all this talking? I did wake up in morning already a bit more alert due to last might exercise - 20 min of cardio level 2 130 zone , also crunches\nSmall tension down there",
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
