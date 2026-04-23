@@ -1,0 +1,37 @@
+{
+  "date": "2024-07-20",
+  "generated_at": "2026-04-23T23:10:05.298434",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 51285,
+    "resting_hr": 54.0,
+    "hrv": 68.3,
+    "sleep_hrs": 4.7,
+    "daylight_mins": 116.0,
+    "spo2": 97.33,
+    "respiratory_rate": 13.25,
+    "sleep_deep_hrs": 1.0,
+    "sleep_rem_hrs": 1.1,
+    "sleep_core_hrs": 2.6,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "I felt sooo sleepy\nAll okey more or less",
+    "supplements_list": [
+      "Ashwagandha",
+      "Multivitamin"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
