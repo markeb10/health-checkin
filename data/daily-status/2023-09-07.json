@@ -1,0 +1,26 @@
+{
+  "date": "2023-09-07",
+  "generated_at": "2026-04-23T23:03:21.343274",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26313,
+    "resting_hr": 49.0,
+    "hrv": 61.64,
+    "vo2max": 39.88,
+    "respiratory_rate": 11.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "It was good morning, and evening and all on between\nWoke up at 5 \nChatnc\nWalked to castle - just felt better and more connected with nature - really nice \nBought bread\nMade lisicke breakfast - really enjoyed that and coffee for cosita\nPlayed nway back\nDropped off cosita at airport Ljubljana\nVesna and sandi drive to kranjska gora - Kekec food, bit too much bones hehe\nWe went to lake jasna but then walked in the forrest was super nice\nChatn 3\nI wasnt too tired, a little bit after walkie but not to"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
