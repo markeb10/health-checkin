@@ -1,0 +1,34 @@
+{
+  "date": "2025-07-29",
+  "generated_at": "2026-04-23T23:17:55.625310",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20967,
+    "resting_hr": 57.0,
+    "hrv": 63.36,
+    "daylight_mins": 37.0,
+    "spo2": 97.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Sitting bo es painful nut otheeise intersting to hear possouver theory about my problems\n\ndid some work as well mostly admin\n2/10 bloating - interesting wasnt more - could it be roibos tea after breakfast",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Zinc"
+    ],
+    "anxiety": 2,
+    "bloating": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
