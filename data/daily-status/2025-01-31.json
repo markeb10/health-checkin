@@ -1,0 +1,33 @@
+{
+  "date": "2025-01-31",
+  "generated_at": "2026-04-23T23:14:12.746444",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12339,
+    "resting_hr": 55.0,
+    "hrv": 50.44,
+    "daylight_mins": 66.0,
+    "spo2": 95.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 4,
+    "journal": "Feels like I am not sleeping enough, I am chronically tired, maybe I just sleep today in the room\nMedium/small bloating - in the evening is okeyish",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Omega-3"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
