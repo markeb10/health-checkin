@@ -1,0 +1,26 @@
+{
+  "date": "2023-10-28",
+  "generated_at": "2026-04-23T23:04:26.265881",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15765,
+    "resting_hr": 52.0,
+    "hrv": 57.73,
+    "daylight_mins": 69.0,
+    "spo2": 94.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept relatively okeyish but could be better as I was just not going to bed the right time, lots of screen time and cacao hehe\nMorning walkie\nWas working a bit\nWent for lunch to Aki was good then walkie around\nWas playing around with things a bit \nWas checking abu dhabi places to stay\nSolving sudoku\nSet up my electrum wallet and electrum server which I host\nIt was a nice ordinary weekend day in Malta, bit of Valletta then shopping mall, we had a bit of argument in the aki bit all was ok\nInspired"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
