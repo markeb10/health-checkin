@@ -1,0 +1,34 @@
+{
+  "date": "2024-12-29",
+  "generated_at": "2026-04-23T23:13:30.826937",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18265,
+    "resting_hr": 57.0,
+    "hrv": 52.37,
+    "daylight_mins": 65.0,
+    "spo2": 95.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 5,
+    "journal": "Felt good physically, but was sleepy whole day for some reason, will make it up today, didn get a good sleep in awhile\nLittle bloated but all okey\n\n\n28. 12.2024",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
