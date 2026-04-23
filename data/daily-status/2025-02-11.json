@@ -1,0 +1,33 @@
+{
+  "date": "2025-02-11",
+  "generated_at": "2026-04-23T23:14:26.585458",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22925,
+    "resting_hr": 59.0,
+    "hrv": 65.85,
+    "vo2max": 41.14,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling brain fog, weak, not healthy somehow - different\nSmaller bloating",
+    "supplements_list": [
+      "Collagen",
+      "DAO",
+      "Multivitamin",
+      "Omega-3"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
