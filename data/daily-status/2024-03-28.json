@@ -1,0 +1,27 @@
+{
+  "date": "2024-03-28",
+  "generated_at": "2026-04-23T23:07:38.793894",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31069,
+    "resting_hr": 52.0,
+    "hrv": 65.26,
+    "daylight_mins": 118.0,
+    "vo2max": 41.1,
+    "spo2": 98.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish, my mind memory was not the best this breaks in morning when I have to go to toilet are weird\nLast antibiotics today - 10 days of being in Malta\nMeeting at 8:30 with the guys Piggy bank 2.0 - shit didn\u2019t pay the providers - constructive arguments with Dimitar regarding why not doing loyalty at this moment\nCrm meeting\nWalkie around manoel island and back\nMeeting with Dejan and Matej - around bank account they lost its crappy situation\nDimitar call - persuading him to work on piggy b"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
