@@ -1,0 +1,81 @@
+{
+  "date": "2025-10-19",
+  "generated_at": "2026-04-23T23:19:36.024076",
+  "whoop": {
+    "imported": true,
+    "recovery": 94.0,
+    "hrv": 39.4,
+    "rhr": 50.0,
+    "sleep_perf": 87.0,
+    "strain": 13.3,
+    "sleep_hrs": 7.0,
+    "spo2": 95.8,
+    "skin_temp": 33.5,
+    "sleep_efficiency": 91.5,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 3.1,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.7,
+    "sleep_cycles": 6,
+    "disturbances": 9,
+    "sleep_needed_hrs": 8.2,
+    "sleep_debt_hrs": 0.6,
+    "calories": 2192,
+    "avg_hr": 68,
+    "max_hr": 187,
+    "workouts": [
+      {
+        "sport": "Tennis",
+        "calories": 196,
+        "avg_hr": 94,
+        "max_hr": 133
+      },
+      {
+        "sport": "HIIT",
+        "calories": 115,
+        "avg_hr": 106,
+        "max_hr": 133
+      },
+      {
+        "sport": "HIIT",
+        "calories": 145,
+        "avg_hr": 102,
+        "max_hr": 132
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 40264,
+    "resting_hr": 53.0,
+    "hrv": 49.81,
+    "sleep_hrs": 7.0,
+    "daylight_mins": 126.0,
+    "bp_systolic": 105.5,
+    "bp_diastolic": 71.5,
+    "vo2max": 40.98,
+    "spo2": 96.71,
+    "respiratory_rate": 13.36,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 3,
+    "journal": "Feeling amazing in the morning, having the energy something is going int he right place also got 7 hours of sleep and my heart seems to be having good HRV 39, good one, being calm , did lots of stuff I like to do, even got some ping pong game in, not padel but still\nfeeling good was pretty strongly bloated from 6pm - 9pm but still overall it was a 6/10",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
