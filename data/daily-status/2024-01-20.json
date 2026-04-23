@@ -1,0 +1,26 @@
+{
+  "date": "2024-01-20",
+  "generated_at": "2026-04-23T23:06:10.743713",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15574,
+    "resting_hr": 55.0,
+    "hrv": 57.05,
+    "daylight_mins": 123.0,
+    "spo2": 95.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept kinda short with breaking and waking up a lot in between\nTai chi\nBreakfast\nChatnself\nPhysioveda Alam and the lady was really good at massaging - they worked today on my upper back and again exercises for my legs to trigger correct muscles\nWent to shopping mall mercato\nThen to Lowe restaurant food was really good but we were soo full at the end is crazy - pri e wise was really good\nThen we walked around the Creek and also ate in reataurat there a pizza and a french toast with biscoff was re"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
