@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-26",
+  "generated_at": "2026-04-23T23:14:45.916112",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27214,
+    "resting_hr": 52.0,
+    "hrv": 50.37,
+    "spo2": 95.67,
+    "respiratory_rate": 14.64
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 1,
+    "journal": "Feeling relaxed, but sleepy but still okeyish, i like that I use my brain more - I think I should continue with my brain power training - learning new language and really being calm\nLow bloating",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
