@@ -1,0 +1,32 @@
+{
+  "date": "2024-06-12",
+  "generated_at": "2026-04-23T23:09:15.160720",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24978,
+    "resting_hr": 54.0,
+    "hrv": 53.96,
+    "sleep_hrs": 0.2,
+    "daylight_mins": 46.0,
+    "vo2max": 42.03,
+    "spo2": 97.11,
+    "respiratory_rate": 15.5,
+    "sleep_core_hrs": 0.2,
+    "sleep_awake_hrs": 0.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Felt okeyish but thise\nAll gooid",
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
