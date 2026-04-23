@@ -1,0 +1,34 @@
+{
+  "date": "2025-08-30",
+  "generated_at": "2026-04-23T23:18:35.517929",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17997,
+    "resting_hr": 55.0,
+    "hrv": 60.16,
+    "daylight_mins": 49.0,
+    "spo2": 97.45,
+    "respiratory_rate": 15.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "We had a fight in the morning stupid one due to the music - many times similar topic and yes it was bad i was pissed but then we somehow managed to put this under the rug and we had sex in the evening so kinda worked out\nbloating 4/10 - probably due to me eating the deserts",
+    "supplements_list": [
+      "Enterosgel",
+      "Multivitamin",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
