@@ -1,0 +1,27 @@
+{
+  "date": "2025-01-23",
+  "generated_at": "2026-04-23T23:14:01.632461",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27242,
+    "resting_hr": 55.0,
+    "hrv": 68.11,
+    "daylight_mins": 105.0,
+    "spo2": 94.14,
+    "respiratory_rate": 15.38
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "8 hours of sleep amazing, this bed is not so bad actually, i was also tired and properly wired from anythiny robbinson tapes and stuff hehe\nWoke up at 11:30 haha wowza \nPing pong\nWent to eat at Dubai Hills mall was pretty cool \nWe ate in Bosporus restaurant\nLooking for a perfect mattress - I think we have a good target\nPlayinf ping pong\nWorking meetings - dealing with David and google potencial solving problems of ours\nTesting mans cave ping pong table and darts pretty cool\nNew ideas\nTesting a b"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
