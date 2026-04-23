@@ -1,0 +1,25 @@
+{
+  "date": "2023-09-09",
+  "generated_at": "2026-04-23T23:03:23.924854",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31487,
+    "resting_hr": 55.0,
+    "hrv": 89.69,
+    "vo2max": 39.81
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept until 6:15 was okey, cosita was snoring but actually was my neck pain a problem, otherwise very social day\nSlept good, my head was good \ud83d\udc4d \nDid some kegel exercises - the things still not working as it should funny enough\nBreakfast\nAndrew came with news he will give me some money back - dont ask haha\nLaurence wants to sell his 30% jesus\nWalkie in Mb\nMet Denis\nTook Haircut with Manou \nLunch with Maja in City Terrasse - not worth the price jesus\nIce cream with matjaz livija and the little kid"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
