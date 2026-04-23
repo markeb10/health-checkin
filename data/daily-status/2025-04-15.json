@@ -1,0 +1,38 @@
+{
+  "date": "2025-04-15",
+  "generated_at": "2026-04-23T23:15:44.078545",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25755,
+    "resting_hr": 60.0,
+    "hrv": 81.13,
+    "daylight_mins": 106.0,
+    "vo2max": 40.7,
+    "spo2": 98.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 8,
+    "journal": "It was a crazy feeling today, I felt useless really - panic when apt got flooded - luckily we had a guy that fixed it - i dont know what we would do without JOE he is the live saver,\n\nat bitstarz we are seeing a massive decrease in ndps as well\nNeed some more fiber - i guess more fruits would work",
+    "supplements_list": [
+      "DAO",
+      "Electrolytes",
+      "Enterosgel",
+      "Ginger",
+      "Magnesium Glycinate",
+      "Omega-3",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
