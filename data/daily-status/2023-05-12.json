@@ -1,0 +1,26 @@
+{
+  "date": "2023-05-12",
+  "generated_at": "2026-04-23T23:00:55.562287",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30677,
+    "resting_hr": 58.0,
+    "hrv": 74.32,
+    "vo2max": 39.9,
+    "respiratory_rate": 15.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish, energy level was okey considering I gave a liter of blood today lol\nTai chi repeat\nBlood test\nWent with cosita to store\nBreakfast berry fest\nJpm meeting\nBtc grew to 43k today\nI was too estatic - seems like I am nervous about it - I really need to chill\nLunchy\nBanker pissed me off - bank risk I need to understand what exactly is going on\nNew ideas \nClapping meeting - today was no clapping - things dont seem to go the right way\nWe had junket project meeting with Princess group manag"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
