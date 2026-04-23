@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-25",
+  "generated_at": "2026-04-23T23:21:37.079360",
+  "whoop": {
+    "imported": true,
+    "recovery": 54.0,
+    "hrv": 31.9,
+    "rhr": 52.0,
+    "sleep_perf": 79.0,
+    "strain": 13.2,
+    "sleep_hrs": 6.7,
+    "spo2": 94.6,
+    "skin_temp": 33.6,
+    "sleep_efficiency": 95.5,
+    "sleep_consistency": 59.0,
+    "respiratory_rate": 13.7,
+    "light_sleep_hrs": 4.1,
+    "deep_sleep_hrs": 1.7,
+    "rem_sleep_hrs": 0.8,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 4,
+    "disturbances": 7,
+    "sleep_needed_hrs": 8.4,
+    "sleep_debt_hrs": 0.7,
+    "calories": 2175,
+    "avg_hr": 68,
+    "max_hr": 164,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 189,
+        "avg_hr": 133,
+        "max_hr": 164
+      },
+      {
+        "sport": "Activity",
+        "calories": 196,
+        "avg_hr": 124,
+        "max_hr": 147
+      },
+      {
+        "sport": "Walking",
+        "calories": 300,
+        "avg_hr": 105,
+        "max_hr": 155
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15577,
+    "resting_hr": 52.0,
+    "hrv": 67.96,
+    "sleep_hrs": 6.2,
+    "spo2": 97.12,
+    "respiratory_rate": 13.71,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling relatively very good, i feel the tempering in Sauna + cold plunge is taking things to another level, its pretty great I would say and temp is really good not too cold, perfect games day and sport activities with the boys\nbloating 5-6/10 just after launch was quite crazy but otherwise okey, I think sushi samba is an issue probably those sauses or the corn idk.",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
