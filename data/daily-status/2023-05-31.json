@@ -1,0 +1,27 @@
+{
+  "date": "2023-05-31",
+  "generated_at": "2026-04-23T23:01:19.331307",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25881,
+    "resting_hr": 60.0,
+    "hrv": 69.17,
+    "sleep_hrs": 7.7,
+    "vo2max": 40.32,
+    "respiratory_rate": 13.88
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Wowza, this was quite a day, play twice, was great, I love it getting better and better\nMorning a glory \nWalkie on sun\nTook detox diet thingy - somehow got super gassy I dont know why maybe I need to eat it before meal and it was too close\nConversion meeting\nMeeting with Luke trying to see whats up there\nMeeting with Russel\nCourtney was fired\nCheral will be banned and Meghan as well\nJaako meeting lets see what he will come up with\nB A anniversary\nCall a 2 hour\nPlay an evening  \nTalk to cosita\nTa"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
