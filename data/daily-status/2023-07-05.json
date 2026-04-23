@@ -1,0 +1,25 @@
+{
+  "date": "2023-07-05",
+  "generated_at": "2026-04-23T23:02:01.916795",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20871,
+    "resting_hr": 57.0,
+    "hrv": 81.33,
+    "vo2max": 41.23
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Considering how much I ate salt yesterday was okeyish, my nose was stuffed and I was having nightmares\nMeditation\nPacking for hamburg\nBreakfast\nFlight to Munich was super fast we watched a movie on plane \u2708\ufe0f - Jungle Cruise was cool\nThen lunch in Munich - we ate there got some medicine hehe \ud83d\ude1c \nThen flight to Hamburg - watched 3 Simpsons\nWe arrived to Fontenay hotel\nWalkie around lake m, blooming trees, ducks, fresh breeze, amazing connection with nature\nIt was a nice day, everything went smooth, "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
