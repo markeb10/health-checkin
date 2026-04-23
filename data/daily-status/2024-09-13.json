@@ -1,0 +1,32 @@
+{
+  "date": "2024-09-13",
+  "generated_at": "2026-04-23T23:11:15.752959",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22327,
+    "resting_hr": 56.0,
+    "hrv": 64.44,
+    "daylight_mins": 48.0,
+    "vo2max": 42.9,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feelign pumped after listening to green day and offspring - offspring just more powerful\neverything is fine and normal",
+    "supplements_list": [
+      "Enterogerma",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
