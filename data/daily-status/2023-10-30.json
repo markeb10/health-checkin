@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-30",
+  "generated_at": "2026-04-23T23:04:29.123502",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22773,
+    "resting_hr": 56.0,
+    "hrv": 71.37,
+    "daylight_mins": 45.0,
+    "vo2max": 41.82,
+    "spo2": 95.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept a bit less, I guess I must be sleeping more this is not the best, but it was not bad - i like early mornings too - can be in bed and dream about life and experiencing new things\nMorning exercise, streching\nBreakfast\nInterview \nJpm mania\nMore of it\nLunchy\nHair dresser\nPaid providers\nWalkie and talkie with my dad\nOffer to Green day and maybe we will do Offspring as well \nSudoku didnt go well - my brain wants something but its not working\nMentally better today, spoke to my dad he is good. We "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
