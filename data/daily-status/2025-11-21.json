@@ -1,0 +1,80 @@
+{
+  "date": "2025-11-21",
+  "generated_at": "2026-04-23T23:20:16.699802",
+  "whoop": {
+    "imported": true,
+    "recovery": 62.0,
+    "hrv": 34.5,
+    "rhr": 48.0,
+    "sleep_perf": 90.0,
+    "strain": 13.1,
+    "sleep_hrs": 7.3,
+    "spo2": 92.8,
+    "skin_temp": 33.8,
+    "sleep_efficiency": 89.4,
+    "sleep_consistency": 88.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 4.0,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.0,
+    "awake_hrs": 0.9,
+    "sleep_cycles": 5,
+    "disturbances": 9,
+    "sleep_needed_hrs": 8.3,
+    "sleep_debt_hrs": 0.5,
+    "calories": 2047,
+    "avg_hr": 64,
+    "max_hr": 193,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 226,
+        "avg_hr": 109,
+        "max_hr": 148
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "HIIT",
+        "calories": 332,
+        "avg_hr": 124,
+        "max_hr": 193
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19248,
+    "resting_hr": 51.0,
+    "hrv": 57.09,
+    "sleep_hrs": 7.3,
+    "daylight_mins": 83.0,
+    "vo2max": 41.11,
+    "spo2": 96.54,
+    "respiratory_rate": 13.36,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "was a slow, day didnt do shit, reacting to social media, chatns, and other procrastinating bullshit really dont like myself on this kind of days, but phasically i am in the drive just need to heal my hamstrings which are clearly giving me problems and pain when sitting as they are tight\nStarted taking enterosgel morning evening and also took Q10, \n\nBLOATING 3/10",
+    "supplements_list": [
+      "CoQ10",
+      "Curcumin",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
