@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-03",
+  "generated_at": "2026-04-23T23:13:37.039462",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9915,
+    "hrv": 51.55,
+    "daylight_mins": 10.0,
+    "spo2": 98.33,
+    "respiratory_rate": 17.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling good, a bit under mental stress from all the games and everything but otherwise its okey, well i am also feeling feverish - which is not w good thing - last time this happened I was then sick\nFeeling extra bloated - peobably turkish meze",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
