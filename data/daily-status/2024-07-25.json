@@ -1,0 +1,40 @@
+{
+  "date": "2024-07-25",
+  "generated_at": "2026-04-23T23:10:11.803510",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 57804,
+    "resting_hr": 54.0,
+    "hrv": 52.75,
+    "sleep_hrs": 6.0,
+    "daylight_mins": 278.0,
+    "vo2max": 42.78,
+    "spo2": 97.25,
+    "respiratory_rate": 14.06,
+    "sleep_deep_hrs": 1.3,
+    "sleep_rem_hrs": 1.6,
+    "sleep_core_hrs": 3.0,
+    "sleep_awake_hrs": 1.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 4,
+    "journal": "Feeling well, energized after the walk and in positive mood meeting with Mercin for whole afternoon\nAll seems to be fine.",
+    "supplements_list": [
+      "Ashwagandha",
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
