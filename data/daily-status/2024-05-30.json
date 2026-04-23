@@ -1,0 +1,39 @@
+{
+  "date": "2024-05-30",
+  "generated_at": "2026-04-23T23:08:58.574376",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 58615,
+    "resting_hr": 56.0,
+    "hrv": 61.76,
+    "sleep_hrs": 6.4,
+    "daylight_mins": 228.0,
+    "vo2max": 42.43,
+    "spo2": 98.5,
+    "respiratory_rate": 11.88,
+    "sleep_deep_hrs": 1.4,
+    "sleep_rem_hrs": 1.8,
+    "sleep_core_hrs": 3.1,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 3,
+    "journal": "- acidity in stomach\n- slept a bit better ashwaganda helped with calming down not normal still though but better\n\n- bloated after 5:30 pm until 10pm gas\n\n- acidity was better in evening after maalox antacid\n\n- less endorphins today - bit more inside looking and less positive and excited - probably due to day after ashwaganda\n- meditation in morning and evening\n- acid reflux",
+    "supplements_list": [
+      "Ashwagandha",
+      "Maalox",
+      "Omeprazole"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
