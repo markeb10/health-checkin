@@ -1,0 +1,32 @@
+{
+  "date": "2023-12-17",
+  "generated_at": "2026-04-23T23:05:28.538823",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12654,
+    "resting_hr": 56.5,
+    "hrv": 51.18,
+    "sleep_hrs": 10.9,
+    "daylight_mins": 9.0,
+    "spo2": 95.0,
+    "respiratory_rate": 17.25,
+    "sleep_deep_hrs": 2.5,
+    "sleep_rem_hrs": 1.6,
+    "sleep_core_hrs": 6.9,
+    "sleep_awake_hrs": 6.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Flight to Dubai, sleep was so so, woke up early super issues was soo hot and also feeling sick so was not good\nPacking\nWaiting at airport - plane was delayed\nMet Filip had some conversation with him - went well \nFlight to Dubai - we watched series Bodies was cool and kept us entertained\nLanded in Dubai got sim and all \nTarique waited for us wowza\nWas nice day easy flying and not too hectic\nInspired by: outside of the villa - was nice\nDidnt like: sheets feels humid as the gel got really cold\nIdea"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
