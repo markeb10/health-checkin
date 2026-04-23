@@ -1,0 +1,26 @@
+{
+  "date": "2024-02-03",
+  "generated_at": "2026-04-23T23:06:30.122614",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17274,
+    "resting_hr": 58.0,
+    "hrv": 43.64,
+    "daylight_mins": 177.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Cool day considering how little i slept - I managed to pull it trough the day without falling asleep, slept bit on plane and car\nArrived to Dubai\nSpoke to my dad over tea for hours - it was great\nPhysioveda\nLunch in Ushna was success\nWas soo tired sinceI didnt sleep\nWalkie with sis and dad\nPlayed pool with my dad\nLoved ushna lunch - biryani almond and lamb\nInspired by: talkie to my dad was nice\nDidnt like: that i was a but cranky not sleeping so much\nIdea: druveSlover.io\n\n[Google Sheet]\nCool day"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
