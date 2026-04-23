@@ -1,0 +1,38 @@
+{
+  "date": "2025-08-12",
+  "generated_at": "2026-04-23T23:18:13.619503",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28447,
+    "resting_hr": 57.0,
+    "hrv": 66.67,
+    "daylight_mins": 75.0,
+    "vo2max": 39.55,
+    "spo2": 97.83
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 8,
+    "journal": "Well, it was a good day. I did a hyperbaric chamber as well after the breakfast, and it was completely fine for an hour and two atmospheres. Might find something in California as well. It'll be really cool. I think I had more sitting bone pain which was kinda weird because I think it came up after I was pinching myself and testing in the morning a lot trying to find my pain, so I must have triggered something.\nProtein was 4 to 5 out of 10. It was mostly after 6 o'clock and until 11, but less tha",
+    "supplements_list": [
+      "Collagen",
+      "Glycine",
+      "Lutein",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K2",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
