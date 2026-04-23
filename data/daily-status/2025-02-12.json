@@ -1,0 +1,33 @@
+{
+  "date": "2025-02-12",
+  "generated_at": "2026-04-23T23:14:27.843292",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 8362,
+    "resting_hr": 53.0,
+    "hrv": 69.21,
+    "spo2": 97.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling much better apart from knee pain and constipation in evening\nFeeling constipated in evening - will wait until morning then step in action",
+    "supplements_list": [
+      "Collagen",
+      "DAO",
+      "Multivitamin",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
