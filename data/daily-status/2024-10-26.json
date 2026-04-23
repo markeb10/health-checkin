@@ -1,0 +1,33 @@
+{
+  "date": "2024-10-26",
+  "generated_at": "2026-04-23T23:12:11.203696",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34572,
+    "resting_hr": 62.0,
+    "hrv": 39.58,
+    "daylight_mins": 68.0,
+    "vo2max": 41.36
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling a bit shaken after that gocart crash and my ribs are still very sore\nMedium bloating but nothing crazy excessive eventhough I ate worst bready carby stuff",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
