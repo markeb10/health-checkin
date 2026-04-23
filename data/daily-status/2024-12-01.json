@@ -1,0 +1,31 @@
+{
+  "date": "2024-12-01",
+  "generated_at": "2026-04-23T23:12:56.190771",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30422,
+    "resting_hr": 59.0,
+    "hrv": 52.38,
+    "daylight_mins": 133.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 2,
+    "journal": "Feeling good, relaxed not trying to flex or anything just being myself\nEverything is fine, even less bloating although I ate different kinda of stuff - as long as I sleep seems I am tolerating all kinds of things :)",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
