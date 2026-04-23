@@ -1,0 +1,26 @@
+{
+  "date": "2023-07-28",
+  "generated_at": "2026-04-23T23:02:30.281054",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30805,
+    "resting_hr": 56.0,
+    "hrv": 83.94,
+    "vo2max": 39.0,
+    "respiratory_rate": 15.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept until 6:20 not bad \u2026 but still need to train more\nWalked to castle and back fast\nBreakfast berry fest was very good\nTook Spirulina a spoon, also singulair ate soup and later in evening vitamin C\nOriginals meeting\nBI meeting\nFeeling better\nInterviewing a guy - Connor which we ended up hiring\nTarique meeting\nMeeting open kitchen guys from Serbia - Wukasin, and others and Anja\nThen meeting marketing company Fusion\nThen meeting guys\nTherapy fizio\nSeeing apartment for first time , pretty crazy "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
