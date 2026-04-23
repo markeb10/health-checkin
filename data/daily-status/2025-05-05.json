@@ -1,0 +1,35 @@
+{
+  "date": "2025-05-05",
+  "generated_at": "2026-04-23T23:16:08.371334",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16233,
+    "resting_hr": 62.0,
+    "hrv": 58.95,
+    "daylight_mins": 176.0,
+    "spo2": 94.0,
+    "respiratory_rate": 17.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 5,
+    "journal": "Felt okeyish, no mayor complains my eyes though are suffering, really not good. My sinuses are getting squizeed in the morning - rhino spray made it much easier for me to sleep actually\nLow bloating",
+    "supplements_list": [
+      "DAO",
+      "Enterosgel",
+      "Omega-3",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
