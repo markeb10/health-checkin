@@ -1,0 +1,33 @@
+{
+  "date": "2025-07-08",
+  "generated_at": "2026-04-23T23:17:29.417122",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25627,
+    "resting_hr": 58.0,
+    "hrv": 59.07,
+    "daylight_mins": 73.0,
+    "vo2max": 40.92,
+    "spo2": 97.29
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling not great tired and a bit stressed after the massage, but overall i am trying yo stay afloat\nMedium bloating almost low but did mix a lot of things",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
