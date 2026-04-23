@@ -1,0 +1,37 @@
+{
+  "date": "2025-07-31",
+  "generated_at": "2026-04-23T23:17:57.992679",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 33048,
+    "resting_hr": 57.0,
+    "hrv": 54.96,
+    "daylight_mins": 146.0,
+    "vo2max": 41.83,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 6,
+    "journal": "Feeling good in general. I guess a little bit of cacao helps, but let's hope I don't get the acidity. \nIt was a long day with lots of meetings, but loved walking with my dad and listening to him.\nBloating 4/10",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Magnesium",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
