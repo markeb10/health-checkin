@@ -1,0 +1,33 @@
+{
+  "date": "2024-08-16",
+  "generated_at": "2026-04-23T23:10:40.451111",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25648,
+    "resting_hr": 61.0,
+    "hrv": 50.37,
+    "daylight_mins": 243.0,
+    "spo2": 100.0,
+    "respiratory_rate": 17.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling much better today, some positive alignement, meditation, actively looking for good things, some wine , some game time on playstation really helps\nWas having some pain after breakfast, then after chocolate I felt burning sensation - cacao is definitely a problem",
+    "supplements_list": [
+      "Enterosgel",
+      "Immune Action",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
