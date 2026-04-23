@@ -1,0 +1,28 @@
+{
+  "date": "2023-05-05",
+  "generated_at": "2026-04-23T23:00:46.948400",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13286,
+    "resting_hr": 57.0,
+    "hrv": 70.92,
+    "weight_kg": 72.178,
+    "body_fat_pct": 0.14,
+    "bmi": 24.68,
+    "respiratory_rate": 14.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept relatively ok, was waking up by morning trying to fall asleep, feels like Ice cream is not doing me good, getting this heart burns but also I took lemon juice which I remember was a problem in ljubljana giving me acidity so need to be careful with this one\nMeditation\nMilka - just stretching\nMeeting Cyprus to figure out contracts\nOriginals meeting\nBreakfast\nIronman - talking about bonus issuing\nMeeting tarique\nBoro presenting Jackpotz Mania \ud83c\udfb0 to whole team\nHaircut \ud83d\udc87\u200d\u2642\ufe0f \nI was hd - finally -"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
