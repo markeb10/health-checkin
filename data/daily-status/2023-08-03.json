@@ -1,0 +1,25 @@
+{
+  "date": "2023-08-03",
+  "generated_at": "2026-04-23T23:02:37.696528",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9578,
+    "resting_hr": 53.0,
+    "hrv": 73.35,
+    "respiratory_rate": 16.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice day, night was a bit turning but good thing nothing hurt me in morning hehe, except glueteus . But not my fingers\nLong walk in morning - we defined skill starz program\nServers were down - issues with connection to oracle database\nSwam in pool\nGood breakfast by cosita\nDidn\u2019t managed to do much \nNew ideas - thinking about piggy bank and defining it\nTesting 109/a layer domain - almost there I think\nAcc managers meeting\nCosita made meaty was good - super good lunch\nTalk with Eugene for cro stre"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
