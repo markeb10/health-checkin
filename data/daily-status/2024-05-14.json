@@ -1,0 +1,38 @@
+{
+  "date": "2024-05-14",
+  "generated_at": "2026-04-23T23:08:38.548310",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12241,
+    "resting_hr": 51.0,
+    "hrv": 49.76,
+    "sleep_hrs": 6.1,
+    "daylight_mins": 134.0,
+    "spo2": 96.0,
+    "respiratory_rate": 12.88,
+    "sleep_deep_hrs": 1.1,
+    "sleep_rem_hrs": 1.5,
+    "sleep_core_hrs": 3.5,
+    "sleep_awake_hrs": 1.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling muscle sorness more like burn in my but - auch\n\notheewise I had  positive nature\nStomach feelings are ok\nafter weird lunch incident they were not ok",
+    "supplements_list": [
+      "Magnesium",
+      "Probiotic",
+      "Toxaprevent"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
