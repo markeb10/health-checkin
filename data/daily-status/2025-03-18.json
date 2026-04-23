@@ -1,0 +1,33 @@
+{
+  "date": "2025-03-18",
+  "generated_at": "2026-04-23T23:15:10.324912",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31480,
+    "resting_hr": 60.0,
+    "hrv": 61.05,
+    "vo2max": 41.31,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 4,
+    "journal": "Feeling unwell, feeling hot at night for some reason I guess its the flare up, or somethjng, \n\nwas hot short of breath and higher pulse\npain , kinda feeling uncomfortable, irritated  after i eat anything",
+    "supplements_list": [
+      "Ashwagandha",
+      "DAO",
+      "Omega-3",
+      "Vitamin C"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
