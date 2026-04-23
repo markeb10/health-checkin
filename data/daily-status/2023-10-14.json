@@ -1,0 +1,26 @@
+{
+  "date": "2023-10-14",
+  "generated_at": "2026-04-23T23:04:08.032601",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12183,
+    "resting_hr": 55.0,
+    "hrv": 74.06,
+    "daylight_mins": 168.0,
+    "spo2": 94.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept a bit too little today only until 5 am , but overall feeling good. Today I ate too late\nMeditation 8 min shivana \nGetting ready for trip\nDrive to graveyard Sevnica to light a candle on my mums grave \u2764\ufe0f\ud83d\udd6f\ufe0f\nDrive to my cousin Matjaz - was really nice to see him just see all the spaces in Budna vas wowza\nVisited Dad and Alenka and Luke and Videk was very pleasant to see them all - amazing really - lunch and talk\nDrive back\nWent to pops pizza\nLovro checked my MRI and it was fine phew\nVery nice "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
