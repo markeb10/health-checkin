@@ -1,0 +1,33 @@
+{
+  "date": "2024-10-07",
+  "generated_at": "2026-04-23T23:11:45.740397",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12737,
+    "resting_hr": 56.0,
+    "hrv": 64.54,
+    "daylight_mins": 22.0,
+    "vo2max": 42.03,
+    "spo2": 96.0,
+    "respiratory_rate": 14.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling still sick but determined to get better soon, tomorrow morning will do the salt theraphy - i do feel I am coming up with a herpes - classic\nAll seems to be well in that region even bloating wasnt too crazy",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
