@@ -1,0 +1,32 @@
+{
+  "date": "2025-02-27",
+  "generated_at": "2026-04-23T23:14:47.063586",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23880,
+    "resting_hr": 58.0,
+    "hrv": 51.61,
+    "vo2max": 41.26,
+    "spo2": 95.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feleing relaxed and good, I feel like I need to keep it up this relaxed state\nFeeling less bloated - low definitely was eating good",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
