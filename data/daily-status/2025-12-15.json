@@ -1,0 +1,61 @@
+{
+  "date": "2025-12-15",
+  "generated_at": "2026-04-23T23:20:46.262757",
+  "whoop": {
+    "imported": true,
+    "recovery": 61.0,
+    "hrv": 33.3,
+    "rhr": 51.0,
+    "sleep_perf": 81.0,
+    "strain": 12.3,
+    "sleep_hrs": 7.2,
+    "spo2": 97.4,
+    "skin_temp": 33.6,
+    "sleep_efficiency": 93.8,
+    "sleep_consistency": 73.0,
+    "respiratory_rate": 13.8,
+    "light_sleep_hrs": 2.9,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.9,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 4,
+    "disturbances": 11,
+    "sleep_needed_hrs": 9.6,
+    "sleep_debt_hrs": 2.0,
+    "calories": 2041,
+    "avg_hr": 68,
+    "max_hr": 174,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 247,
+        "avg_hr": 122,
+        "max_hr": 174
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26635,
+    "resting_hr": 58.5,
+    "hrv": 51.85,
+    "sleep_hrs": 7.2,
+    "vo2max": 39.87,
+    "spo2": 97.87,
+    "respiratory_rate": 13.77,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 0,
+    "journal": "Was okey sleep too much scrolling in the bed but otherwise okeyish, also didnt went to pee in the middle of the night so that was good, ate some normal slovenian food so that was nice, played some ping pong that was fun\nfeeling bloatd probably due to the stuff I ate like white bread sarma, 5/10 started during 5pm and just continued until 9:00",
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
