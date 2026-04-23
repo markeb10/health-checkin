@@ -1,0 +1,37 @@
+{
+  "date": "2024-06-18",
+  "generated_at": "2026-04-23T23:09:23.970132",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 42929,
+    "resting_hr": 53.0,
+    "hrv": 55.63,
+    "sleep_hrs": 5.6,
+    "daylight_mins": 115.0,
+    "spo2": 97.8,
+    "respiratory_rate": 14.62,
+    "sleep_deep_hrs": 0.2,
+    "sleep_rem_hrs": 0.9,
+    "sleep_core_hrs": 4.6,
+    "sleep_awake_hrs": 1.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 2,
+    "journal": "- feeling annoyed easily , irritated\nStomach was relatively ok, i did experience some nausea while in transport probably glued to my phone too much",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
