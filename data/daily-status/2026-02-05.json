@@ -1,0 +1,78 @@
+{
+  "date": "2026-02-05",
+  "generated_at": "2026-04-23T23:21:50.765890",
+  "whoop": {
+    "imported": true,
+    "recovery": 52.0,
+    "hrv": 32.8,
+    "rhr": 51.0,
+    "sleep_perf": 59.0,
+    "strain": 11.8,
+    "sleep_hrs": 6.2,
+    "spo2": 96.2,
+    "skin_temp": 33.5,
+    "sleep_efficiency": 69.2,
+    "sleep_consistency": 64.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 2.8,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 2.8,
+    "sleep_cycles": 6,
+    "disturbances": 8,
+    "sleep_needed_hrs": 8.7,
+    "sleep_debt_hrs": 0.9,
+    "calories": 2025,
+    "avg_hr": 70,
+    "max_hr": 156,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "HIIT",
+        "calories": 94,
+        "avg_hr": 94,
+        "max_hr": 119
+      },
+      {
+        "sport": "Activity",
+        "calories": 487,
+        "avg_hr": 118,
+        "max_hr": 156
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21249,
+    "resting_hr": 54.0,
+    "hrv": 54.04,
+    "sleep_hrs": 8.1,
+    "daylight_mins": 28.0,
+    "vo2max": 40.96,
+    "spo2": 97.53,
+    "respiratory_rate": 13.48,
+    "sleep_awake_hrs": 2.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "been feeling very so so .. kinda up i mean I did play table tenis, so i had energy maybe I am just too excited haha because of something IDK its weird\n4/10 \u2026 more bloated maybe sourethough bread or banana breat that I ate a lot",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 8,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
