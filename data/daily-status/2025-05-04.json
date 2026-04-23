@@ -1,0 +1,33 @@
+{
+  "date": "2025-05-04",
+  "generated_at": "2026-04-23T23:16:07.092681",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 42646,
+    "resting_hr": 58.0,
+    "hrv": 60.45,
+    "daylight_mins": 246.0,
+    "vo2max": 41.75,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good feels nice to be with the guys, I do want to spend more time with them\nMedium bloating increase today probably due to sushi no idea",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
