@@ -1,0 +1,30 @@
+{
+  "date": "2024-12-20",
+  "generated_at": "2026-04-23T23:13:19.635407",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7410,
+    "resting_hr": 60.0,
+    "hrv": 63.33,
+    "spo2": 97.14
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "feeling good calm, and in flow, interesting, slighlty nervous but much less than previous days, also had to do a lot of things on dame day\nGot Paul Hariss fellow award woe\nNo problems but lets see how it will be after the fish so close to sleep",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
