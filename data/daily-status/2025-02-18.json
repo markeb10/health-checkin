@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-18",
+  "generated_at": "2026-04-23T23:14:35.131464",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13567,
+    "resting_hr": 56.0,
+    "hrv": 62.05,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Felt good, was super fast on my prayer, felt energized,\nFeeling okeyish, i did eat quite late so this maybe will be a problem",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
