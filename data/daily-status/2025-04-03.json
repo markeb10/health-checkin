@@ -1,0 +1,31 @@
+{
+  "date": "2025-04-03",
+  "generated_at": "2026-04-23T23:15:30.149844",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29406,
+    "resting_hr": 57.0,
+    "hrv": 54.73,
+    "daylight_mins": 245.0,
+    "vo2max": 40.5,
+    "spo2": 97.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling good but somehow slow, feeling some kind of allergy twitching of my eye, body was itching but it was probably because of some dust from my hair , yest was windy and cold\nFeeling fine, low bloating really fascinating",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
