@@ -1,0 +1,33 @@
+{
+  "date": "2025-06-06",
+  "generated_at": "2026-04-23T23:16:48.890531",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 39356,
+    "resting_hr": 55.0,
+    "hrv": 60.31,
+    "daylight_mins": 109.0,
+    "vo2max": 41.25,
+    "spo2": 94.71,
+    "respiratory_rate": 13.31
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling much better today, just glad inwas able to pee and things are starting to normalise\nDid 3 MRI was not fun and quite painful lying there for so long\nEverything seems okey",
+    "supplements_list": [
+      "Cefpodoxime",
+      "Celecoxib"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
