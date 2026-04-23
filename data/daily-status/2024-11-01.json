@@ -1,0 +1,32 @@
+{
+  "date": "2024-11-01",
+  "generated_at": "2026-04-23T23:12:18.603012",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27108,
+    "resting_hr": 52.0,
+    "hrv": 44.41,
+    "daylight_mins": 74.0,
+    "vo2max": 41.45,
+    "spo2": 98.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "feelinf okey, a bit sleepy and not so focused as usual, easily interrupted and not at peace 100%\nMitja was pushing my pressure points on the area - lets see\nBloated after the blueberry pie",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
