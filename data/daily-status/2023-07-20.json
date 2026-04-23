@@ -1,0 +1,24 @@
+{
+  "date": "2023-07-20",
+  "generated_at": "2026-04-23T23:02:20.499520",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15225,
+    "resting_hr": 56.0,
+    "hrv": 68.39
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 1,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Bad sleep pain in my small intenstinrs, without any will\nContent meeting\nBerries and yoghurt for breakfast - and some nuts\nCrm meeting\nSocial media meeting. - i was soo dead \ud83d\udc80 \nFeeling not good today - really tired just soo unwell - I have no idea who is draining my energy - what if its this magnet lol - i went trough si many things\nTook singulair, anti acid pill, soda bi carbona in the morning\nDad came - we had a long conversation about everything\nWalkie with cosita\nMeeting with Stripe - for so"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
