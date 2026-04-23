@@ -1,0 +1,34 @@
+{
+  "date": "2025-03-29",
+  "generated_at": "2026-04-23T23:15:23.780635",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9343,
+    "resting_hr": 56.0,
+    "hrv": 59.85,
+    "daylight_mins": 28.0,
+    "vo2max": 41.16,
+    "spo2": 96.5,
+    "respiratory_rate": 15.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Fewling hot inmorning , lowwr back hurting more, more sensitive coccyx, funny enough\nFeeling okey but super bloated and I feel I need to go to toilet, this coulr be the cause for my back pain too",
+    "supplements_list": [
+      "Ashwagandha",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
