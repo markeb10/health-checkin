@@ -1,0 +1,27 @@
+{
+  "date": "2024-03-14",
+  "generated_at": "2026-04-23T23:07:21.109394",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26509,
+    "resting_hr": 62.0,
+    "hrv": 88.22,
+    "daylight_mins": 176.0,
+    "vo2max": 40.26,
+    "spo2": 97.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Relatively good sleep but I spent too much time in evening on phone I did use blue blockers but not sure if it completely helps\n73 pushups 73 biceps curls strech\nBreakfast\nWriting about past for the movie script\nJpm meeting\nWas trying to work but didnt happen haha\nLunchy was good\nSpoke to Ziga regarding the KPIs\nDidnt really do that much really procrastinating this script\nMet with Jelen we went trough the 14.9. concert\nSpoke to Matjaz and to Denis, did some organizing for the event\nMy boniko sta"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
