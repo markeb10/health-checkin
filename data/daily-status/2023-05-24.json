@@ -1,0 +1,25 @@
+{
+  "date": "2023-05-24",
+  "generated_at": "2026-04-23T23:01:11.058430",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31430,
+    "hrv": 55.69,
+    "vo2max": 39.95,
+    "respiratory_rate": 18.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Amazing last hours in paradise, with olle alex talking about cheral - we will fire her\nGym\nPacking \nCheral debate and checking whats happening with her probably will fire her we spoke to Tatiana too\nGood bye to everyone\nFlight to istanbul and Malta with Malta team\nSpoke to my sister Vesna \nWalked \nSpoke to Cosita about the trip and how it was\nTraveling back was good to watch Netflix ipad on plane and the time really passed quickly - watched Night Agent\nInspired by: that people didnt get sick - t"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
