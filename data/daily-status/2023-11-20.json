@@ -1,0 +1,26 @@
+{
+  "date": "2023-11-20",
+  "generated_at": "2026-04-23T23:04:55.055567",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15242,
+    "resting_hr": 55.0,
+    "hrv": 79.49,
+    "daylight_mins": 63.0,
+    "spo2": 98.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept 6.8h was so so\u2026 nice but had to pee in the middle felt I was getting bloated and gassy - pretty sure its from Hummus\nMeditation\nMilos and gym\nJpm meeting \nBreakfast\nPaid several things - trying to scramble the funds for new acquisition\nBeen procrastinating a bit\nSpoke to Richard\nCosita made a good lunchy with potatoes and chicken\nMy kneee hurts but got better towards evening - I switched the chair - something about the chair thats not sitting well with me - mirra 2, but how was it good for"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
