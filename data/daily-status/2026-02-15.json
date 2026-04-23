@@ -1,0 +1,66 @@
+{
+  "date": "2026-02-15",
+  "generated_at": "2026-04-23T23:22:03.084031",
+  "whoop": {
+    "imported": true,
+    "recovery": 45.0,
+    "hrv": 34.3,
+    "rhr": 51.0,
+    "sleep_perf": 67.0,
+    "strain": 11.9,
+    "sleep_hrs": 5.3,
+    "spo2": 95.0,
+    "skin_temp": 33.7,
+    "sleep_efficiency": 95.8,
+    "sleep_consistency": 78.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 2.0,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.1,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 5,
+    "disturbances": 6,
+    "sleep_needed_hrs": 9.8,
+    "sleep_debt_hrs": 2.1,
+    "calories": 2018,
+    "avg_hr": 67,
+    "max_hr": 170,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 448,
+        "avg_hr": 117,
+        "max_hr": 170
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21493,
+    "resting_hr": 52.0,
+    "hrv": 63.78,
+    "sleep_hrs": 6.2,
+    "daylight_mins": 29.0,
+    "spo2": 97.14,
+    "respiratory_rate": 13.48,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "Feeling tired whole day, been meditating for 30 min on a chair zero gravity that was great, \u2026 new ideas , meeting Emma, and her husband that was cool\nbloated yes 5/10 i need more sleep and second i need to stop eating carbs a bit and cookies but overall okey, didnt have dinner, didnt need it at all",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
