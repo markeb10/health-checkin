@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-16",
+  "generated_at": "2026-04-23T23:18:18.500274",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23226,
+    "resting_hr": 54.0,
+    "hrv": 73.15,
+    "daylight_mins": 46.0,
+    "spo2": 97.29
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 6,
+    "journal": "Feeling good in the mornjng the stomach pressure is gone, what did I do yeaterday - iberogast, exercis\nIn general okeyish today much better than day before",
+    "supplements_list": [
+      "Creatine",
+      "Enterosgel",
+      "Glutamine",
+      "Glycine",
+      "Lutein",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
