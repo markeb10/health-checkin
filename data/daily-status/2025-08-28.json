@@ -1,0 +1,37 @@
+{
+  "date": "2025-08-28",
+  "generated_at": "2026-04-23T23:18:33.125803",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29358,
+    "resting_hr": 53.0,
+    "hrv": 58.65,
+    "daylight_mins": 49.0,
+    "spo2": 97.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 8,
+    "journal": "Tired, better than previous time after sauna but yeah something about not sleeping and resting well i think after the sauna\nfeeling okeyish, but generally bloating was the best so far as there was no ice cream but i did pay a bit for the cookies but it wasnt that long \n\nbloating today 3/10 I would say",
+    "supplements_list": [
+      "DAO",
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Magnesium",
+      "Vitamin C",
+      "Vitamin D",
+      "Zinc"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
