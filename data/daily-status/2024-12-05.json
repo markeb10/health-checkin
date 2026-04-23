@@ -1,0 +1,31 @@
+{
+  "date": "2024-12-05",
+  "generated_at": "2026-04-23T23:13:01.158119",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12249,
+    "resting_hr": 64.0,
+    "hrv": 54.97,
+    "daylight_mins": 3.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling great happiness, overwhelmed by all the feelings and happiness joy, gratitude and satisfaction - but physically in pain\nIshias promblems whole day\nFeeling okeyish for now, but definitely days like this are outliers",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
