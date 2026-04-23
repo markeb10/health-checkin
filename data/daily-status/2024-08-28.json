@@ -1,0 +1,31 @@
+{
+  "date": "2024-08-28",
+  "generated_at": "2026-04-23T23:10:55.766893",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24042,
+    "resting_hr": 52.0,
+    "hrv": 73.93,
+    "daylight_mins": 164.0,
+    "spo2": 98.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 2,
+    "journal": "Didnt sleep long 1h shorter as usualu due to cacao in ice cream day before, was able to trigger my brain a bit better or so it seemed. Otherwise feeling physically stronger somehow, maybe its the cold plunge as well helping or my body recovering from muscle pain\nBurning sensation in evening due to spicy food. Should not eat so much spicy food plus have ice cream on top :(",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
