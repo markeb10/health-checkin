@@ -1,0 +1,35 @@
+{
+  "date": "2025-03-15",
+  "generated_at": "2026-04-23T23:15:06.668867",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26425,
+    "resting_hr": 49.0,
+    "hrv": 50.8,
+    "spo2": 99.67,
+    "respiratory_rate": 15.17
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 6,
+    "journal": "Felt good, morning was a bit slow but then it picked up must have been a bit of coffee, just a sip and I was flying haha, not too much, had some other tee, was feeling productive but also i came up to idea wirh deal no deal concept\nCoccyx hirts more than usual,\n\nput some sesame oil on coccyx",
+    "supplements_list": [
+      "Berberine",
+      "DAO",
+      "Enterosgel",
+      "Omega-3",
+      "Vitamin C",
+      "Zinc Carnosine"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
