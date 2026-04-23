@@ -1,0 +1,29 @@
+{
+  "date": "2024-05-09",
+  "generated_at": "2026-04-23T23:08:32.295229",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24937,
+    "resting_hr": 54.0,
+    "hrv": 58.95,
+    "daylight_mins": 57.0,
+    "vo2max": 42.43,
+    "spo2": 97.0,
+    "respiratory_rate": 9.62
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "In the morning twitching muscles in the area of belly button 5 cm above to the stomach side\n\nHere's the translation of your text into English:",
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
