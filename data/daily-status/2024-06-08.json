@@ -1,0 +1,33 @@
+{
+  "date": "2024-06-08",
+  "generated_at": "2026-04-23T23:09:10.151877",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 58611,
+    "resting_hr": 58.0,
+    "hrv": 56.46,
+    "sleep_hrs": 3.9,
+    "daylight_mins": 120.0,
+    "spo2": 97.0,
+    "respiratory_rate": 14.25,
+    "sleep_deep_hrs": 0.7,
+    "sleep_rem_hrs": 0.9,
+    "sleep_core_hrs": 2.4,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Bit constipated otherwise feeling a bit hangover and slow\nTook one mor pisco sour\nEverything was fine",
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
