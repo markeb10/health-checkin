@@ -1,0 +1,71 @@
+{
+  "date": "2025-12-07",
+  "generated_at": "2026-04-23T23:20:36.327295",
+  "whoop": {
+    "imported": true,
+    "recovery": 48.0,
+    "hrv": 32.0,
+    "rhr": 50.0,
+    "sleep_perf": 91.0,
+    "strain": 6.3,
+    "sleep_hrs": 7.6,
+    "spo2": 93.3,
+    "skin_temp": 33.6,
+    "sleep_efficiency": 94.4,
+    "sleep_consistency": 90.0,
+    "respiratory_rate": 13.1,
+    "light_sleep_hrs": 3.7,
+    "deep_sleep_hrs": 2.3,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 6,
+    "disturbances": 6,
+    "sleep_needed_hrs": 8.6,
+    "sleep_debt_hrs": 1.0,
+    "calories": 1609,
+    "avg_hr": 62,
+    "max_hr": 117,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 76,
+        "avg_hr": 93,
+        "max_hr": 105
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 33954,
+    "resting_hr": 52.0,
+    "hrv": 55.68,
+    "sleep_hrs": 7.6,
+    "vo2max": 40.52,
+    "spo2": 96.75,
+    "respiratory_rate": 13.05,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling pain in that right spot in the morning was not great, did lucka was a bit better but feeling it in the evening as well. definitely feels a bit better if I wear jeans but its worse now that I am in the more loose trainer pants\n\notherwise the day was nice, did a good catchup with Anel - I have a good feeling they might crack something mindset is good and the topic is very hot and very high potencial\nbloating 4/10 definitely went higher i guess banana bread or something else, maybe salad ha",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 8,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
