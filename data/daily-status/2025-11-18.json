@@ -1,0 +1,65 @@
+{
+  "date": "2025-11-18",
+  "generated_at": "2026-04-23T23:20:13.040211",
+  "whoop": {
+    "imported": true,
+    "recovery": 67.0,
+    "hrv": 35.7,
+    "rhr": 49.0,
+    "sleep_perf": 92.0,
+    "strain": 13.7,
+    "sleep_hrs": 7.5,
+    "spo2": 96.6,
+    "skin_temp": 34.0,
+    "sleep_efficiency": 93.8,
+    "sleep_consistency": 86.0,
+    "respiratory_rate": 13.1,
+    "light_sleep_hrs": 4.1,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.1,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 7,
+    "disturbances": 12,
+    "sleep_needed_hrs": 8.2,
+    "sleep_debt_hrs": 0.4,
+    "calories": 2274,
+    "avg_hr": 67,
+    "max_hr": 181,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 481,
+        "avg_hr": 118,
+        "max_hr": 161
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13581,
+    "resting_hr": 53.0,
+    "hrv": 67.23,
+    "sleep_hrs": 7.5,
+    "daylight_mins": 47.0,
+    "spo2": 97.37,
+    "respiratory_rate": 13.07,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 2,
+    "journal": "Feeling tired, sleepy, my body is just dreaming, i need more explosivity but its just not there for some reason, otherwise long sleep just not really quality one, was tossing and turning a lot, my brain was slow but managed to survive the day\n4/10 bloating",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
