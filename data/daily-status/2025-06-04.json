@@ -1,0 +1,30 @@
+{
+  "date": "2025-06-04",
+  "generated_at": "2026-04-23T23:16:46.344363",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12053,
+    "resting_hr": 53.0,
+    "hrv": 59.5,
+    "daylight_mins": 5.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling slow, what i learned today that is much safer to have sex with condoms just for the prostate infection stuff - so what if \u2026 i got this \u2026 omfg\nFeeling okeyish but lets see",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
