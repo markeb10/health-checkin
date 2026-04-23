@@ -1,0 +1,34 @@
+{
+  "date": "2025-04-28",
+  "generated_at": "2026-04-23T23:15:59.768674",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13511,
+    "resting_hr": 56.0,
+    "hrv": 81.97,
+    "daylight_mins": 12.0,
+    "vo2max": 40.59,
+    "spo2": 97.12
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 4,
+    "journal": "Feeling scared in morning but also agry, stressed was a long day - need to make it shorter tomorrow\nVery low bloating - was a good day",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
