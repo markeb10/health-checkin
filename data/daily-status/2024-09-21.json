@@ -1,0 +1,33 @@
+{
+  "date": "2024-09-21",
+  "generated_at": "2026-04-23T23:11:25.754563",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17603,
+    "resting_hr": 54.0,
+    "hrv": 72.75,
+    "daylight_mins": 255.0,
+    "spo2": 94.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Was a nice day, positive, great emotions, feeling completed as we finished puzzle, socializing with Denis\nAll ok, but yeah bloating was a strong after sweets",
+    "supplements_list": [
+      "Collagen",
+      "Enterogerma",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
