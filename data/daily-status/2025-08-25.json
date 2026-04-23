@@ -1,0 +1,33 @@
+{
+  "date": "2025-08-25",
+  "generated_at": "2026-04-23T23:18:29.465144",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 39357,
+    "resting_hr": 55.0,
+    "hrv": 59.04,
+    "daylight_mins": 103.0,
+    "spo2": 96.43
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 4,
+    "journal": "Feeling okey but a little bit off today. cosita also not feeling well but she has a reason me, i was a bit off already in the morning - this alarm in the middle of the night didnt help my sleep was properly interrupted, overall still a solid day, discovered love for sauna and I think depending on my sleep might do it again.\n5/10 bloating, i think ice cream and bagels \u2026 need to stop both of them and see whats up",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
