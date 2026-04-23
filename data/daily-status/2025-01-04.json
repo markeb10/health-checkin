@@ -1,0 +1,32 @@
+{
+  "date": "2025-01-04",
+  "generated_at": "2026-04-23T23:13:38.273283",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12487,
+    "resting_hr": 58.0,
+    "hrv": 47.31,
+    "daylight_mins": 96.0,
+    "spo2": 98.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "I am fine, was better in morning in evening I feel I stared too much in screens before sleep, but also cosita is sicky so was weird day, in general I think now the biggest issue will be how to entertain myself and keep smiling - I need games and smiling - this keeps me going 100%\nBloating quite some - did eat normal pasta today and a bit of bread but still perhaps a bit still from day before",
+    "supplements_list": [
+      "Enterosgel",
+      "NAD+",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
