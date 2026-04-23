@@ -1,0 +1,38 @@
+{
+  "date": "2025-06-14",
+  "generated_at": "2026-04-23T23:16:58.729391",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12891,
+    "resting_hr": 56.0,
+    "hrv": 60.83,
+    "daylight_mins": 78.0,
+    "spo2": 97.25,
+    "respiratory_rate": 14.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 8,
+    "journal": "Feeling tired, i dont enjoy that much the company from denise and jure they are both a bit weird and they are okey when they are drunk probably but yeah. Feels denise is really strange. I feel like there is some kind of chemistry missing there.\nNo pain, today I didnt detected any issues",
+    "supplements_list": [
+      "Celecoxib",
+      "Enterosgel",
+      "Glycine",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K2",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
