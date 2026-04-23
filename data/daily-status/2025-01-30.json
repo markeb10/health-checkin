@@ -1,0 +1,33 @@
+{
+  "date": "2025-01-30",
+  "generated_at": "2026-04-23T23:14:11.539876",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21666,
+    "resting_hr": 54.0,
+    "hrv": 62.48,
+    "daylight_mins": 22.0,
+    "vo2max": 41.99,
+    "spo2": 97.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "feeling like i would be sick or something is trying to get me, I am quite physically active so maybe thats the issue not sure\n\nbeen also 3 days in a row unde the light - will try to do it a bit further from myselg\nBloating in evening - its due to sweets - should have not eated that seriously",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
