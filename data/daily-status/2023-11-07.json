@@ -1,0 +1,27 @@
+{
+  "date": "2023-11-07",
+  "generated_at": "2026-04-23T23:04:39.160456",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26186,
+    "resting_hr": 57.0,
+    "hrv": 64.15,
+    "daylight_mins": 49.0,
+    "vo2max": 41.05,
+    "spo2": 96.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice day, went according to the plan, nothing really new, I feel like we are missing an edge or what it is\u2026 we need new blood, new ideas\nPacking\nDriving with Sandi to Airport in zagreb\nFlight to amsterdam\nMeditating\nNwayback game stayed on 4 for 20 games record\nCame to amsterdam made a mistake took wrong luggage thanks guy noticed it fast\nMeeting for outliers\nMeeting srki\nWent for registration\nMet with Igor Amigo Games\nDinner with srki \nAlso lunch with srki\nWoke up with headache was super tired "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
