@@ -1,0 +1,64 @@
+{
+  "date": "2026-01-13",
+  "generated_at": "2026-04-23T23:21:21.620665",
+  "whoop": {
+    "imported": true,
+    "recovery": 78.0,
+    "hrv": 36.3,
+    "rhr": 49.0,
+    "sleep_perf": 82.0,
+    "strain": 11.0,
+    "sleep_hrs": 6.4,
+    "spo2": 96.8,
+    "skin_temp": 34.4,
+    "sleep_efficiency": 94.9,
+    "sleep_consistency": 81.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 3.0,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.3,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 3,
+    "disturbances": 8,
+    "sleep_needed_hrs": 9.1,
+    "sleep_debt_hrs": 1.3,
+    "calories": 2053,
+    "avg_hr": 66,
+    "max_hr": 146,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 164,
+        "avg_hr": 108,
+        "max_hr": 143
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13303,
+    "resting_hr": 54.0,
+    "hrv": 62.99,
+    "sleep_hrs": 6.4,
+    "spo2": 97.25,
+    "respiratory_rate": 13.18,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 2,
+    "journal": "I am feeling relatively good, sleep was low so not the best but still overall okey, a little decline over day before maybe due to taking the probiotik day prior i dont know, today i had plenty of meetings so it was quite busy but I managed and even got in 2.5h of ping pong how about that :D Tomorrow I will have 3 hours of ping pong for sure\nbloating 5/10 was a lot during the afternoon but calmed down late evening",
+    "supplements_list": [
+      "Electrolytes",
+      "Probiotic"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
