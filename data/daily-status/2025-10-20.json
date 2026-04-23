@@ -1,0 +1,70 @@
+{
+  "date": "2025-10-20",
+  "generated_at": "2026-04-23T23:19:37.207493",
+  "whoop": {
+    "imported": true,
+    "recovery": 95.0,
+    "hrv": 39.9,
+    "rhr": 49.0,
+    "sleep_perf": 91.0,
+    "strain": 12.2,
+    "sleep_hrs": 7.4,
+    "spo2": 95.3,
+    "skin_temp": 34.1,
+    "sleep_efficiency": 93.3,
+    "sleep_consistency": 90.0,
+    "respiratory_rate": 12.9,
+    "light_sleep_hrs": 3.5,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.8,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 6,
+    "disturbances": 7,
+    "sleep_needed_hrs": 8.7,
+    "sleep_debt_hrs": 0.8,
+    "calories": 2087,
+    "avg_hr": 66,
+    "max_hr": 156,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 408,
+        "avg_hr": 113,
+        "max_hr": 148
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13683,
+    "resting_hr": 52.5,
+    "hrv": 44.66,
+    "sleep_hrs": 7.4,
+    "daylight_mins": 10.0,
+    "bp_systolic": 105.0,
+    "bp_diastolic": 69.67,
+    "spo2": 97.66,
+    "respiratory_rate": 14.98,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling amazingly good, I can feel the energy flowing trough me - its almost a miracle whats happening I dont get it really - but I like it a lot havent felt this way in a very very long time and I dont get it what exactly is causing this which is kinda interesting, I even watch tv in th eevening \n\nI was in Maribor, the soup thingy, me giving away, i removed D3 and Lutein and taking curcimjung and C before breakfast so maybe they are actually getting better absorption\nbloating 4/10 was definitel",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Lutein",
+      "Vitamin C",
+      "Vitamin D"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
