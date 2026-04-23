@@ -1,0 +1,32 @@
+{
+  "date": "2025-01-28",
+  "generated_at": "2026-04-23T23:14:08.891049",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22910,
+    "hrv": 55.09,
+    "daylight_mins": 63.0,
+    "vo2max": 42.12
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling good in general, I feel that cold plunge is amazing and a life saver, something I really need - I should experiment to see if I can coold down for evening as well\nFeeling good second day in a row much less bloating and",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Omega-3"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
