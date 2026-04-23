@@ -1,0 +1,32 @@
+{
+  "date": "2024-12-23",
+  "generated_at": "2026-04-23T23:13:23.337685",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13724,
+    "hrv": 60.32,
+    "daylight_mins": 79.0,
+    "spo2": 96.5,
+    "respiratory_rate": 16.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Relaxed, happy,\nFeeling all okey",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
