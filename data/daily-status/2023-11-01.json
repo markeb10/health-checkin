@@ -1,0 +1,27 @@
+{
+  "date": "2023-11-01",
+  "generated_at": "2026-04-23T23:04:31.794879",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12238,
+    "resting_hr": 55.0,
+    "hrv": 57.84,
+    "daylight_mins": 23.0,
+    "spo2": 95.38,
+    "respiratory_rate": 13.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Felt I needed more sleep in morning, but alarm was for 7:00 tomorrow is going to be even earlier - lets see how this will go\nWent to practice golf with Tim - we did a class on driver shots. I still feel I suck big balls on that lol \ud83d\ude02 Not that I am particularly good at other shots. It was alright, could be worse i suppose haha\nMy hip hurt but I managed to get pain down, put a pillow under the table where I sit. I think my hip pain comes mostly from there\nBroke pinball record 59M Star wars \nSpoke "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
