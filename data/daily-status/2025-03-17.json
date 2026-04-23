@@ -1,0 +1,33 @@
+{
+  "date": "2025-03-17",
+  "generated_at": "2026-04-23T23:15:09.093030",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16385,
+    "resting_hr": 53.0,
+    "hrv": 49.84,
+    "vo2max": 40.91,
+    "spo2": 96.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling relaxed whole day, my brain has nice energy - and feeling good, maybe is theanine effect but also no crazy meetings is helping\nFeeling okey, a bit bloated - medium bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C",
+      "L-Theanine",
+      "Omega-3"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
