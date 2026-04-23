@@ -1,0 +1,65 @@
+{
+  "date": "2025-12-22",
+  "generated_at": "2026-04-23T23:20:54.719975",
+  "whoop": {
+    "imported": true,
+    "recovery": 54.0,
+    "hrv": 31.7,
+    "rhr": 52.0,
+    "sleep_perf": 73.0,
+    "strain": 8.2,
+    "sleep_hrs": 6.6,
+    "spo2": 97.9,
+    "skin_temp": 34.7,
+    "sleep_efficiency": 94.7,
+    "sleep_consistency": 39.0,
+    "respiratory_rate": 14.0,
+    "light_sleep_hrs": 3.2,
+    "deep_sleep_hrs": 1.9,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 4,
+    "disturbances": 5,
+    "sleep_needed_hrs": 9.3,
+    "sleep_debt_hrs": 1.7,
+    "calories": 1806,
+    "avg_hr": 63,
+    "max_hr": 200,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 109,
+        "avg_hr": 110,
+        "max_hr": 200
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9374,
+    "resting_hr": 53.0,
+    "hrv": 46.31,
+    "sleep_hrs": 6.6,
+    "daylight_mins": 13.0,
+    "spo2": 97.81,
+    "respiratory_rate": 16.5,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling tired whole day, especially in afternoon, i think I need some nap during the day there is no other way to solve this I feel haha, but yeah, might make the jetlag even worse \u2026. lots of problems with the page and conversion went down, its the first day after the launch so lets see but yeah.\nbloating 4/10 maybe even 3/10",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
