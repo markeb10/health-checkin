@@ -1,0 +1,24 @@
+{
+  "date": "2023-07-27",
+  "generated_at": "2026-04-23T23:02:29.042270",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24328,
+    "resting_hr": 52.0,
+    "hrv": 66.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Didnt sleep so much again only 6 hours a bit more, just felt cold - did meditation in morning\nGym break\nWriting with Gavin regarding LJ\nCrm meeting\nMade crypto payments - salaries\nWent to bioresonansa - she told me I have stuff from Korona and heavy metals need more vitamin B12, stop gluten and milk \ud83e\udd5b drink aloe vera, measure acidity of my stomach\nSpoke more to Filip my dad\nExcited about new apartment shaping up to be great\nBrought lunch to cosita from spar was actually very good - chickenito\nFu"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
