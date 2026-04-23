@@ -1,0 +1,27 @@
+{
+  "date": "2024-01-22",
+  "generated_at": "2026-04-23T23:06:13.267002",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18269,
+    "resting_hr": 53.0,
+    "hrv": 50.41,
+    "daylight_mins": 76.0,
+    "vo2max": 40.1,
+    "spo2": 94.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish, kinda stayed in bed too long almost missed my appointment,\nTai chi express\nKris checking my muscles and basically I gave him a hint where the problem is and he agreed hehe\nHelge did my shoulder - hurted less but yeah not great feeling after\nPysioveda - was ok not so amazing massage today but it was cool nevertheless\nLunchy at home with cosita \nWe hanged out outside by the pool\nAndrew came and presented new project - its tempting to take the apartment instead of house even-though i"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
