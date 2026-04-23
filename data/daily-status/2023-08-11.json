@@ -1,0 +1,24 @@
+{
+  "date": "2023-08-11",
+  "generated_at": "2026-04-23T23:02:47.635883",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28528,
+    "resting_hr": 56.0,
+    "hrv": 71.31
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Not a great day, feeling a bit like a zombie\nWoke up at 4 listened to meditation then fell asleep a bit until 8\nMorning streching by Tom video 10 min\nPhantom production company in Turkey meeting went ok\nJpm meeting\nWas dealing with this and that\nLunchy\nOffspring kinda unofficially  confirmed - green day didnt \nCall with Andreas - nothing new - same old song - got a vacuum cleaner sales pitch okey\nWas just fiddling around\nTrying to figure out whats happening, what if the issue is connected to mor"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
