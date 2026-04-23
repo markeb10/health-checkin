@@ -1,0 +1,35 @@
+{
+  "date": "2025-05-08",
+  "generated_at": "2026-04-23T23:16:12.063586",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23902,
+    "resting_hr": 59.0,
+    "hrv": 59.21,
+    "daylight_mins": 36.0,
+    "vo2max": 42.15,
+    "spo2": 97.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling relarively good, peaceful to what it was omg\nAll is good but my fingers are getting numb",
+    "supplements_list": [
+      "DAO",
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
