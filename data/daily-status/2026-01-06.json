@@ -1,0 +1,57 @@
+{
+  "date": "2026-01-06",
+  "generated_at": "2026-04-23T23:21:13.172791",
+  "whoop": {
+    "imported": true,
+    "recovery": 40.0,
+    "hrv": 30.4,
+    "rhr": 54.0,
+    "sleep_perf": 81.0,
+    "strain": 7.5,
+    "sleep_hrs": 7.1,
+    "spo2": 96.1,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 95.2,
+    "sleep_consistency": 67.0,
+    "respiratory_rate": 14.3,
+    "light_sleep_hrs": 3.5,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 7,
+    "disturbances": 7,
+    "sleep_needed_hrs": 8.7,
+    "sleep_debt_hrs": 0.8,
+    "calories": 1637,
+    "avg_hr": 67,
+    "max_hr": 143,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23168,
+    "resting_hr": 56.0,
+    "hrv": 47.84,
+    "sleep_hrs": 7.1,
+    "spo2": 96.22,
+    "respiratory_rate": 14.34,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling great, apart from my dhiarea, but hopefully tomorow will be better, i have ate completely wrong lunch but dinner was correct apart from chocolate which will not let me sleep haha, also affecting my acidity but okey lets hope all will be cool\nbloating 0/10 like the lowest ever which is great hehe",
+    "supplements_list": [
+      "Electrolytes",
+      "Enterosgel"
+    ],
+    "anxiety": 2,
+    "bloating": 0
+  },
+  "zoe": {
+    "imported": false
+  }
+}
