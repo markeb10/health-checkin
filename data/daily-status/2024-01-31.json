@@ -1,0 +1,27 @@
+{
+  "date": "2024-01-31",
+  "generated_at": "2026-04-23T23:06:26.324598",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 32325,
+    "resting_hr": 53.0,
+    "hrv": 46.63,
+    "daylight_mins": 28.0,
+    "vo2max": 40.02,
+    "spo2": 96.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "The day has been pretty much about me exercising and activating the muscles - I think this should be my goal\nTeramask \nExercises for stability, fingers, walking, swaying hips, wall squats\nBreqkfast\nJoint space - gave me new exercise plus theraphy to connect muscles better, stretching exercise for stretching and torsion of hamstring\nPhysioveda - massage of middle back, accupuncture, electricity\nJpm meeting\nCosita made good lunch\nPaid some stuff\nAccount managers meeting\nSnagging with Tarique\nFilip"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
