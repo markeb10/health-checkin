@@ -1,0 +1,25 @@
+{
+  "date": "2023-08-05",
+  "generated_at": "2026-04-23T23:02:40.122993",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11324,
+    "resting_hr": 56.0,
+    "hrv": 55.55,
+    "vo2max": 38.96
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept ok, surprisingly quite long too, and on the left side really not expected\nMorning meditation\nBreakfast in this beautiful hotel\nWorked a bit\nWalking in Hamburg city center checking the shopping malls\nMeeting with Murat and Claire alex polona for turkey 8 days remaining crazy\n1 day remaining to my first session - I choose to allow Heiko to discover my real reason for my issues\nWe traveled to Lurbeck \nOu we ate great food in Italian restaurant\nWe ate pizza in Luebeck\nI worked a bit - need to "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
