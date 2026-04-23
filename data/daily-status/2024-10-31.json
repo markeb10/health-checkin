@@ -1,0 +1,31 @@
+{
+  "date": "2024-10-31",
+  "generated_at": "2026-04-23T23:12:17.376150",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 8062,
+    "resting_hr": 55.0,
+    "hrv": 57.85,
+    "daylight_mins": 107.0,
+    "spo2": 97.83
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 2,
+    "journal": "Al good, feeling great in morning that moving hips and in general shake and wake is helping, also was moving hips and doing achilles strengthening - for my running times hehe\nMedium bloating slightly less than yeaterday",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
