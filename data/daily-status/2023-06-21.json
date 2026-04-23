@@ -1,0 +1,26 @@
+{
+  "date": "2023-06-21",
+  "generated_at": "2026-04-23T23:01:44.831929",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22773,
+    "resting_hr": 57.0,
+    "hrv": 65.77,
+    "vo2max": 41.26,
+    "respiratory_rate": 16.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "I blame it on salad yesterday, my digestion is weird smelly, its like that fresh fruits or salad was to be blamed almost i think the fresh fruits\n- also my coccyx issues are back with vengance which is kinda weird since well it was much better on Sunday but yesterday was weird after that soup my body went into some crqzy state took singular\nNot a good day, with little sleep my emotional state was not good, energy levels were low and almost getting a little sad\nInspired by: myself that I managed "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
