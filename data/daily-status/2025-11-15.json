@@ -1,0 +1,59 @@
+{
+  "date": "2025-11-15",
+  "generated_at": "2026-04-23T23:20:09.298436",
+  "whoop": {
+    "imported": true,
+    "recovery": 48.0,
+    "hrv": 34.4,
+    "rhr": 48.0,
+    "sleep_perf": 89.0,
+    "strain": 10.2,
+    "sleep_hrs": 7.3,
+    "spo2": 96.8,
+    "skin_temp": 33.4,
+    "sleep_efficiency": 92.5,
+    "sleep_consistency": 89.0,
+    "respiratory_rate": 12.9,
+    "light_sleep_hrs": 3.6,
+    "deep_sleep_hrs": 2.7,
+    "rem_sleep_hrs": 1.1,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 5,
+    "disturbances": 5,
+    "sleep_needed_hrs": 9.1,
+    "sleep_debt_hrs": 1.1,
+    "calories": 1769,
+    "avg_hr": 61,
+    "max_hr": 184,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18991,
+    "resting_hr": 50.0,
+    "hrv": 61.4,
+    "sleep_hrs": 7.3,
+    "daylight_mins": 82.0,
+    "vo2max": 41.01,
+    "spo2": 97.98,
+    "respiratory_rate": 12.89,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling a bit tired in the morning, as I was padeling yesterday in the afternoon but that kinda helped also with me being more relaxed or at least since i was not whole day stressed it just relaxed me more, \n\nOverall the day was a bit less active, started with Garry meeting the destiny wanted that I dont do exercising in the morning so I did it at 6pm in the evening, perhaps I shopuld be doing this 2x per day \u2026 not sure",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
