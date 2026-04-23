@@ -1,0 +1,35 @@
+{
+  "date": "2025-04-24",
+  "generated_at": "2026-04-23T23:15:54.895200",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9630,
+    "resting_hr": 59.0,
+    "hrv": 75.07,
+    "daylight_mins": 59.0,
+    "spo2": 96.67,
+    "respiratory_rate": 15.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 5,
+    "journal": "Feeling stressed i think it was somehow preparation for the turkey and food effect lol idk but also i didnt sleep so much\nFelt some cramps weirdly enough",
+    "supplements_list": [
+      "DAO",
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
