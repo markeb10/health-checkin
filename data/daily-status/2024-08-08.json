@@ -1,0 +1,39 @@
+{
+  "date": "2024-08-08",
+  "generated_at": "2026-04-23T23:10:30.166513",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21157,
+    "resting_hr": 54.0,
+    "hrv": 61.11,
+    "sleep_hrs": 4.4,
+    "daylight_mins": 92.0,
+    "vo2max": 43.67,
+    "spo2": 98.5,
+    "respiratory_rate": 14.75,
+    "sleep_deep_hrs": 1.1,
+    "sleep_rem_hrs": 0.5,
+    "sleep_core_hrs": 2.8,
+    "sleep_awake_hrs": 1.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Not feeling so positive, \n\nherpes or the things I have on my skin are still hurting and burning\nBioresonance: Renata - Biore\n- found the issue on sacrum - root chackra blockage,\nmy stomach is fine she was doing some therapies and it felt much better, she said my stomach is too neurologically wired, and hence the nervousness\nPainful in the morning but then got better later on after renata bioresonance",
+    "supplements_list": [
+      "Enterosgel",
+      "Immune Action",
+      "Probiotic"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
