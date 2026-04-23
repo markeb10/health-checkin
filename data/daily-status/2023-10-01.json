@@ -1,0 +1,26 @@
+{
+  "date": "2023-10-01",
+  "generated_at": "2026-04-23T23:03:51.604604",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 5993,
+    "resting_hr": 59.0,
+    "hrv": 70.06,
+    "daylight_mins": 300.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "I slept ok, was kinda deadiko but ok \ud83d\udc4d, everything hurts but also my hip somehow but very little however during the day my pain got much stronger :( so it was not good - but I am pretty sure it hurts from sitting the most\nCelery juice\nWent to Tilal al Gaf to check villa with cosita - looked nice - its interesting but not sure if I want to lock away so much money lol\nLunch at Foxy reataurant was good well very american hehe - but a good pub chicken wings were the best\nMeeting with Alex and Olle o"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
