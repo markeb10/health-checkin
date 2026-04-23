@@ -1,0 +1,33 @@
+{
+  "date": "2024-11-28",
+  "generated_at": "2026-04-23T23:12:52.459249",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12184,
+    "resting_hr": 58.0,
+    "hrv": 52.89,
+    "daylight_mins": 38.0,
+    "vo2max": 41.96,
+    "spo2": 97.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good, bit afraid for my personal safety as Tim got almost kidnapped\nSeemed ok, was feeling a bit werid after rice as in acidity but in the end was fine",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
