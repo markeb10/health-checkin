@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-04",
+  "generated_at": "2026-04-23T23:18:03.827743",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31761,
+    "resting_hr": 55.0,
+    "hrv": 77.2,
+    "daylight_mins": 107.0,
+    "vo2max": 41.07,
+    "spo2": 97.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 6,
+    "journal": "It was an easy day. I wasn't really being super productive, and he got the hyperbaric chamber. That was kinda cool. I also did the red light therapy, I went to the bioresonance, so I was trying to heal my body. But fun fact is that somehow in the process I got more pain in my area, so it could be haemorrhoids.\nBloating was on the level of 5 out of 10, outside maybe 4, but it was pretty noticeable from 6-9pm",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
