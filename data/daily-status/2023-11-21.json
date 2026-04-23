@@ -1,0 +1,26 @@
+{
+  "date": "2023-11-21",
+  "generated_at": "2026-04-23T23:04:56.263694",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34623,
+    "resting_hr": 54.0,
+    "hrv": 79.62,
+    "daylight_mins": 61.0,
+    "spo2": 100.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept good, until 7 very nice, neck pain is lower however I was not sleeping on the problematic side\nHow many strains have enterogermina junior\nI enjoyed the day with the boys, i really like to be a tourist guide for some reason\nInspired by: BI guys they are good\nDidn't like: that my knee was hurting but it got somehow better interesting enough\nIdea: do trivia night\n\n[Google Sheet]\nSlept good, until 7 very nice, neck pain is lower however I was not sleeping on the problematic side\nHow many strai"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
