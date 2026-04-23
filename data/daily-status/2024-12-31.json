@@ -1,0 +1,31 @@
+{
+  "date": "2024-12-31",
+  "generated_at": "2026-04-23T23:13:33.355067",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 33468,
+    "resting_hr": 57.0,
+    "hrv": 58.52,
+    "daylight_mins": 76.0,
+    "spo2": 94.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good whole day, Adem found some lead on the coccyx case - i choose to solve it but dont desire\nSuper bloated after dinner - even before - suspect butter \n\ndinner vinegar with oysters, bread, foi grass",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
