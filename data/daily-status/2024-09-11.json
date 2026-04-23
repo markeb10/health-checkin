@@ -1,0 +1,33 @@
+{
+  "date": "2024-09-11",
+  "generated_at": "2026-04-23T23:11:13.285727",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30420,
+    "resting_hr": 57.0,
+    "hrv": 58.6,
+    "daylight_mins": 193.0,
+    "vo2max": 43.33,
+    "spo2": 97.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 3,
+    "journal": "Feeling relatively good whole day, feeling a bit weird pain in throat hopefull not another herpes - was again a bit cold at night with open window\nSeems ok, bit more bloated - banana second day hits differently",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
