@@ -1,0 +1,82 @@
+{
+  "date": "2025-09-21",
+  "generated_at": "2026-04-23T23:19:02.246239",
+  "whoop": {
+    "imported": true,
+    "recovery": 94.0,
+    "hrv": 43.3,
+    "rhr": 48.0,
+    "sleep_perf": 83.0,
+    "strain": 10.4,
+    "sleep_hrs": 6.3,
+    "spo2": 95.9,
+    "skin_temp": 34.3,
+    "sleep_efficiency": 92.7,
+    "sleep_consistency": 82.0,
+    "respiratory_rate": 13.1,
+    "light_sleep_hrs": 2.2,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 3,
+    "disturbances": 5,
+    "sleep_needed_hrs": 8.6,
+    "sleep_debt_hrs": 1.0,
+    "calories": 1812,
+    "avg_hr": 66,
+    "max_hr": 178,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 53,
+        "avg_hr": 92,
+        "max_hr": 142
+      },
+      {
+        "sport": "Yoga",
+        "calories": 160,
+        "avg_hr": 114,
+        "max_hr": 178
+      },
+      {
+        "sport": "HIIT",
+        "calories": 83,
+        "avg_hr": 88,
+        "max_hr": 131
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30154,
+    "resting_hr": 52.0,
+    "hrv": 64.63,
+    "sleep_hrs": 6.3,
+    "daylight_mins": 195.0,
+    "vo2max": 41.4,
+    "spo2": 95.58,
+    "respiratory_rate": 13.07,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 6,
+    "journal": "Feeling good today, lots of stuff I like to do , walkie in the nature, beautiful weather, was amazing to walk around I am lucky guy, was a bit annoyed when cosita could not drive a bike but it is what it is.\n\nWe did went to Svetilnik and swam there and it was really nice. The shock with the domain was crazy. Note to myself check this next time first.\n4/10 considering what I ate I think this was great, maybe I can start eating more serious food, who knows",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
