@@ -1,0 +1,33 @@
+{
+  "date": "2023-11-24",
+  "generated_at": "2026-04-23T23:04:59.870815",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28069,
+    "resting_hr": 54.0,
+    "hrv": 69.94,
+    "sleep_hrs": 4.2,
+    "daylight_mins": 68.0,
+    "vo2max": 40.51,
+    "spo2": 97.33,
+    "respiratory_rate": 0.0,
+    "sleep_deep_hrs": 1.7,
+    "sleep_rem_hrs": 1.0,
+    "sleep_core_hrs": 1.5,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept ok, just going towards morning it feels I cant sleep more but then I turn around and its fine\nMilos workout\nTarique Sandi meeting\nBitstarz originals meeting\nJpm meeting\nBreakfast\nLunch with our BI guys in Dannys \nWent to hike in golden bay\nTea time in Raddison\nWent home with taxi\nWatched andreas Antenopolous talk - really need to talk to him more\nMorning meeting time, just making sure things are on the road, did some exploring as well, otherwise was great to spend time with the guys\nInspir"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
