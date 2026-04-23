@@ -1,0 +1,70 @@
+{
+  "date": "2025-12-18",
+  "generated_at": "2026-04-23T23:20:49.956797",
+  "whoop": {
+    "imported": true,
+    "recovery": 51.0,
+    "hrv": 30.8,
+    "rhr": 52.0,
+    "sleep_perf": 84.0,
+    "strain": 13.7,
+    "sleep_hrs": 6.5,
+    "spo2": 97.5,
+    "skin_temp": 34.3,
+    "sleep_efficiency": 94.4,
+    "sleep_consistency": 89.0,
+    "respiratory_rate": 13.9,
+    "light_sleep_hrs": 3.1,
+    "deep_sleep_hrs": 1.5,
+    "rem_sleep_hrs": 1.9,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 5,
+    "disturbances": 5,
+    "sleep_needed_hrs": 9.5,
+    "sleep_debt_hrs": 1.9,
+    "calories": 2274,
+    "avg_hr": 72,
+    "max_hr": 175,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 759,
+        "avg_hr": 114,
+        "max_hr": 175
+      },
+      {
+        "sport": "Activity",
+        "calories": 72,
+        "avg_hr": 103,
+        "max_hr": 149
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 36402,
+    "resting_hr": 56.5,
+    "hrv": 65.4,
+    "sleep_hrs": 6.5,
+    "vo2max": 39.93,
+    "spo2": 98.17,
+    "respiratory_rate": 13.89,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "tough day, did my duo lingo in the morning, was able to visit petra almost on time, got her a book, eros, paid enourmous amount for it crazy, but okey, Brazil project is dead - insolvent unfortunately. There is nothing left here to solve. , Will return to Ivan over 5 years.\nbloating level 5/10, pumpking soup, jufka and pistaccio, kinda weird but yeah not good.",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 8,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
