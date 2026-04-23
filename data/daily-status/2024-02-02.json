@@ -1,0 +1,26 @@
+{
+  "date": "2024-02-02",
+  "generated_at": "2026-04-23T23:06:28.745703",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12574,
+    "resting_hr": 56.0,
+    "hrv": 71.24,
+    "daylight_mins": 37.0,
+    "spo2": 97.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Sleep was so, my knee hurts and now in evening I feel super warm for some reason. I think fancy food is not for me. I need to stay away from this fancy food.\nTai chi\nMorning exercises for mobility\nBreakfast\nSpace joint - physioVeda\nMeeting for cureLink.io\nbo meeting\nWent with cosita to 3fils wowza\nMeeting - defining what the prize for 10 years anniversary should be 1M\nMandarin - carrot Cake\nPrince of persia - trying to win the boss - no luck\nInvestment in Meryln -250\nChatn s\nNot feeling that sle"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
