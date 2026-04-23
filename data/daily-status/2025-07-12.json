@@ -1,0 +1,32 @@
+{
+  "date": "2025-07-12",
+  "generated_at": "2026-04-23T23:17:34.630239",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17816,
+    "resting_hr": 54.0,
+    "hrv": 56.68,
+    "daylight_mins": 22.0,
+    "spo2": 97.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 3,
+    "journal": "Beeen an interesting day early morning noticed my concentractiin is bad my brain definitely seem to be lacking some energy sleep or regeneration\nMedium bloating/ somehow survived the concert",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
