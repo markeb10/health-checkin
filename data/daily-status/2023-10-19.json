@@ -1,0 +1,28 @@
+{
+  "date": "2023-10-19",
+  "generated_at": "2026-04-23T23:04:14.236235",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 8946,
+    "resting_hr": 51.0,
+    "hrv": 70.25,
+    "daylight_mins": 26.0,
+    "vo2max": 40.96,
+    "spo2": 97.0,
+    "respiratory_rate": 14.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was not sleeping well, my nose was stucko and my heart was beating fast but I managed somehow,\nLate woke up\nWorking on phone\nMade coffee for cosita\nCuddled the cat\nBreakfast\n3 hours of JPM meeting\nInvestigating inconsistencies in JPM reports\nFunimalz meeting is not exciting - I would recommend everyone to look for a job seriously - I need to tell them. \nLunchy punchy - cosita made a good meat\nMeeting with Primoz from tricky tribes, its okey - I am not blown away - its very risky to spend 1 mio p"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
