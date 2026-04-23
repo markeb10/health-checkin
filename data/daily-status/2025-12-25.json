@@ -1,0 +1,57 @@
+{
+  "date": "2025-12-25",
+  "generated_at": "2026-04-23T23:20:58.352468",
+  "whoop": {
+    "imported": true,
+    "recovery": 39.0,
+    "hrv": 33.6,
+    "rhr": 51.0,
+    "sleep_perf": 47.0,
+    "strain": 7.3,
+    "sleep_hrs": 3.8,
+    "spo2": 97.0,
+    "skin_temp": 33.6,
+    "sleep_efficiency": 98.1,
+    "sleep_consistency": 64.0,
+    "respiratory_rate": 13.9,
+    "light_sleep_hrs": 2.1,
+    "deep_sleep_hrs": 1.0,
+    "rem_sleep_hrs": 0.7,
+    "awake_hrs": 0.1,
+    "sleep_cycles": 2,
+    "disturbances": 5,
+    "sleep_needed_hrs": 8.7,
+    "sleep_debt_hrs": 1.2,
+    "calories": 1521,
+    "avg_hr": 65,
+    "max_hr": 164,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15004,
+    "resting_hr": 52.0,
+    "hrv": 48.12,
+    "sleep_hrs": 3.8,
+    "spo2": 97.0,
+    "respiratory_rate": 14.63,
+    "sleep_awake_hrs": 0.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Was great whole day actually apart from the fact that its hard to watch carolina organizing things and sorting them out while at the same time complaining about my family and certain individuals like cmon, just be patient next time, listened to many podcasts on the plane, building habbits James Clear was good still didnt finished it, getting used to Punta Cana still not aware where I am\n5/10 bloating",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
