@@ -1,0 +1,33 @@
+{
+  "date": "2025-05-30",
+  "generated_at": "2026-04-23T23:16:39.526263",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30022,
+    "resting_hr": 58.0,
+    "hrv": 45.38,
+    "daylight_mins": 47.0,
+    "spo2": 95.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling insecure like what if I said somebody something i shouldnt but it seems it was fine\nAll okeyish",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
