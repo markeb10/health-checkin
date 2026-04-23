@@ -1,0 +1,31 @@
+{
+  "date": "2024-06-14",
+  "generated_at": "2026-04-23T23:09:17.781231",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 51337,
+    "resting_hr": 55.0,
+    "hrv": 57.71,
+    "daylight_mins": 165.0,
+    "spo2": 98.0,
+    "respiratory_rate": 16.5,
+    "sleep_awake_hrs": 0.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Had some pain row on top\nPainfuk abit maybent",
+    "supplements_list": [
+      "Multivitamin"
+    ]
+  },
+  "zoe": {
+    "imported": false
+  }
+}
