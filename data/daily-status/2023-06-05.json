@@ -1,0 +1,28 @@
+{
+  "date": "2023-06-05",
+  "generated_at": "2026-04-23T23:01:25.407835",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9006,
+    "resting_hr": 58.0,
+    "hrv": 61.78,
+    "weight_kg": 72.624,
+    "sleep_hrs": 0.2,
+    "body_fat_pct": 0.13,
+    "bmi": 24.84
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Good sleep, just not that much as I wanted. But managed to nicely fall back asleep at 6:20 and sleep for 1 h. Something is waking me up in the middle of the night weird one.\nMeditation\nAlenka got hacked so I was helping her whole morning - it wqs frustrating I had to be super calm - Alenka is really on the verge of her nerves jesus \nLunch in AKI - dont order lobster dont order scrimp or chicken just no - sushi wqs very good though\nWatched Avengers (reeealy liked the movie with loads of popcorn \ud83c\udf7f"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
