@@ -1,0 +1,34 @@
+{
+  "date": "2024-12-07",
+  "generated_at": "2026-04-23T23:13:03.797094",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28210,
+    "resting_hr": 62.0,
+    "hrv": 74.05,
+    "daylight_mins": 100.0,
+    "vo2max": 41.9,
+    "spo2": 97.0,
+    "respiratory_rate": 17.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling great most of the day spending time with the guys\nI shaved down there so hopefull no hair pulling situation\nFeeling bloated a lot / after all this stuff -",
+    "supplements_list": [
+      "Enterosgel",
+      "Ginger",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
