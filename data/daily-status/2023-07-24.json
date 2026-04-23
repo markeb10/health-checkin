@@ -1,0 +1,26 @@
+{
+  "date": "2023-07-24",
+  "generated_at": "2026-04-23T23:02:25.389768",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30459,
+    "resting_hr": 56.0,
+    "hrv": 51.6,
+    "vo2max": 39.88,
+    "respiratory_rate": 16.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Depressed somehow in around noon -1 pm soo weird (was after shakey wheat grass and spirulina)\nSlept in long until 7:30 (went to bathroom at 3 am but managed to fall back asleep)\nRunning warm up via instagram influencer\nRunning interval 8 intervals of 1 min on and off - feeling a little bit of the pain - the physio guys are not recommending it saying I need to rest for a day\nBreakfast was blueberries and coconut cream\nTook medicine but also wheat grass and spirulina - it does not feel good in my "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
