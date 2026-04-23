@@ -1,0 +1,29 @@
+{
+  "date": "2025-02-20",
+  "generated_at": "2026-04-23T23:14:37.575254",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11569,
+    "resting_hr": 55.0,
+    "hrv": 55.66,
+    "spo2": 95.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling weird after massage had a fight with gf and then was in bad mood, overeating also didn't help - i was super full and I dont know why I had to eat so much, ate onion and cheese, so yeah not good\nDid the bath for my mucles to relax, also did massage today - was so so but i think it helped\nMassive bloating problem - worst is at safari when i cant expel the gasses",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
