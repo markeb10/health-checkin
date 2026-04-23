@@ -1,0 +1,32 @@
+{
+  "date": "2025-01-15",
+  "generated_at": "2026-04-23T23:13:51.751657",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12493,
+    "resting_hr": 59.0,
+    "hrv": 67.79,
+    "daylight_mins": 145.0,
+    "spo2": 97.2,
+    "respiratory_rate": 16.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling burning acid in morning after ruporut eveything is fine\nAcidity in morning - Ruporut to the rescue",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
