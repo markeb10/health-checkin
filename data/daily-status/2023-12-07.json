@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-07",
+  "generated_at": "2026-04-23T23:05:16.536054",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25109,
+    "resting_hr": 57.0,
+    "hrv": 51.09,
+    "vo2max": 40.08,
+    "spo2": 98.0,
+    "respiratory_rate": 15.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "It was okey day, started so so but managed to turn it around at least to some extend, bit annoying that I could not eat things I want and also that I am not happy with product we have, maybe we really need a new brand :(\nWoke up at 5\nTook tea from turksih works like a charm\nMeditation - nsdr nidra plus i am a mountain\nNway\nGym exercises for hips - same as we did with coach last time - no bigger side effect at least\nBreakfast\nIgb amsterdam Show - spoke to Softswiss\nMet megan - i dont like her omg"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
