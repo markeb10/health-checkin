@@ -1,0 +1,35 @@
+{
+  "date": "2025-08-10",
+  "generated_at": "2026-04-23T23:18:11.109034",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16074,
+    "resting_hr": 58.0,
+    "hrv": 49.52,
+    "daylight_mins": 145.0,
+    "vo2max": 39.95,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 4,
+    "journal": "Feeling good. I mean, in the morning, not that great, a bit numb from all the food and the bloating and the alcohol, but still relatively okay. \n\nThey have an amazing pillow here. I don't know why we can't freaking get the same pillow. Pillows from Twils brand.\nSupeer high bloating 9/10 during the morning and night but during day 4/10\n\ntoday didnt take enterosgel\n\nalso i brushed my teeth - need to scrap my tongue better imo",
+    "supplements_list": [
+      "Enterosgel",
+      "Lutein",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2,
+    "bloating": 9
+  },
+  "zoe": {
+    "imported": false
+  }
+}
