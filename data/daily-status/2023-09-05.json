@@ -1,0 +1,25 @@
+{
+  "date": "2023-09-05",
+  "generated_at": "2026-04-23T23:03:18.859330",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20840,
+    "resting_hr": 52.0,
+    "hrv": 66.39,
+    "vo2max": 39.93
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept so so was hot and bed felt hard\nMeditation\nSlept relatively ok\nBreakfast\nVisited Heiko Bornemann - he seemed ok professional and calm - seems to be set what the issue is - basically muscle tissue trigger point, lets see - I already had similar treatment so not sure if this will help but maybe , he did many other things which could contribute to this pain or be connected lets see overall I was very happy and did his homework\nI was stressed coz my white blood cells were low this was in the n"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
