@@ -1,0 +1,23 @@
+{
+  "date": "2024-01-11",
+  "generated_at": "2026-04-23T23:05:59.189174",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20025,
+    "resting_hr": 56.0,
+    "hrv": 86.62,
+    "daylight_mins": 45.0,
+    "vo2max": 41.07,
+    "spo2": 95.0,
+    "respiratory_rate": 16.0
+  },
+  "checkin": {
+    "imported": false
+  },
+  "zoe": {
+    "imported": false
+  }
+}
