@@ -1,0 +1,30 @@
+{
+  "date": "2023-04-22",
+  "generated_at": "2026-04-23T23:00:30.582554",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 32889,
+    "resting_hr": 56.0,
+    "hrv": 60.31,
+    "weight_kg": 72.793,
+    "sleep_hrs": 7.9,
+    "body_fat_pct": 0.13,
+    "bmi": 24.89,
+    "vo2max": 41.36,
+    "respiratory_rate": 13.12
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Great sleep - with earthquake and cosita waking me up in the mid of the night not sure if I would wake up by myself, was a little scary but was sleepy enough to fall back asleep\nBreakfast with bread was awesome \ud83e\udd29 loaded on some good carbs here\nHiking with alex peter and etienne \ud83d\udeb6\u200d\u2642\ufe0f \nLunch with cosita in Loa was not good experience at all due to them messing up with all food - started with fly in the wine\nWas exploring on my health what could be reason for my issue and one reason I found new one"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
