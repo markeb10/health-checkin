@@ -1,0 +1,38 @@
+{
+  "date": "2024-06-05",
+  "generated_at": "2026-04-23T23:09:06.280157",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31750,
+    "resting_hr": 58.0,
+    "hrv": 52.78,
+    "sleep_hrs": 4.0,
+    "daylight_mins": 14.0,
+    "spo2": 97.0,
+    "respiratory_rate": 14.75,
+    "sleep_deep_hrs": 0.6,
+    "sleep_rem_hrs": 0.6,
+    "sleep_core_hrs": 2.9,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Slept alone in bed and it was nice - no noise felt good no need go wear the plugs\nTrying to order something aha scale body comp or something - but it was only shipping from US not sure why its not available in EU I guess is coming - will wait - Malta is not on the list\nGuy for ac came to clean\nWalkie on the sun practicing fast walk - tomorrow I am rowing - lets aim for 20 min of cardio level 2 pulse around 108 - 127\nBi meeting\nResearching my issue with bloating with chatgpt\nBloating was in order",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole",
+      "Ashwagandha"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
