@@ -1,0 +1,37 @@
+{
+  "date": "2025-04-17",
+  "generated_at": "2026-04-23T23:15:46.444067",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20539,
+    "resting_hr": 56.0,
+    "hrv": 57.54,
+    "daylight_mins": 35.0,
+    "vo2max": 40.6,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 7,
+    "journal": "Feeling good, almost too powerful interesting enough, woke up too early so kinda weird one\nLow bloating",
+    "supplements_list": [
+      "DAO",
+      "Enterosgel",
+      "Ginger",
+      "Magnesium Glycinate",
+      "Omega-3",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
