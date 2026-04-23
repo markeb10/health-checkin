@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-25",
+  "generated_at": "2026-04-23T23:05:38.336704",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12473,
+    "resting_hr": 52.0,
+    "hrv": 52.36,
+    "daylight_mins": 162.0,
+    "spo2": 95.0,
+    "respiratory_rate": 12.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "It was a great day, no sports but still managed to pull in some play time - was fun to play uncharted - definitely brought in some excitement\nChristmas morning\nBreakfast time\nPlaying game Uncharted was really cool\nLa Mar - restaurant was super good - but music was just too loud - I prefer it to be quieter - otherwise it was top shit\n Went to carrefour with vesna and carolina\nPlayed with Dome. uncharted for 4 hours straight haha\nIt was a nice day, I hate though that when carolina drinks she get t"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
