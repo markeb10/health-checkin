@@ -1,0 +1,72 @@
+{
+  "date": "2026-02-26",
+  "generated_at": "2026-04-23T23:22:16.987130",
+  "whoop": {
+    "imported": true,
+    "recovery": 53.0,
+    "hrv": 35.0,
+    "rhr": 55.0,
+    "sleep_perf": 80.0,
+    "strain": 10.2,
+    "sleep_hrs": 7.1,
+    "spo2": 93.6,
+    "skin_temp": 34.5,
+    "sleep_efficiency": 91.8,
+    "sleep_consistency": 71.0,
+    "respiratory_rate": 14.1,
+    "light_sleep_hrs": 3.9,
+    "deep_sleep_hrs": 1.7,
+    "rem_sleep_hrs": 1.5,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 6,
+    "disturbances": 3,
+    "sleep_needed_hrs": 9.8,
+    "sleep_debt_hrs": 2.0,
+    "calories": 1938,
+    "avg_hr": 70,
+    "max_hr": 172,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 64,
+        "avg_hr": 107,
+        "max_hr": 136
+      },
+      {
+        "sport": "Functional Fitness",
+        "calories": 192,
+        "avg_hr": 105,
+        "max_hr": 128
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13320,
+    "resting_hr": 56.5,
+    "hrv": 68.28,
+    "sleep_hrs": 8.3,
+    "daylight_mins": 97.0,
+    "spo2": 95.96,
+    "respiratory_rate": 14.1,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling sick, sneezing, coughing, sore throat, runny nose, feeling like shit and a bit fiverish at times\nfeeling relatively okeyish",
+    "supplements_list": [
+      "Enterosgel",
+      "Ginger",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
