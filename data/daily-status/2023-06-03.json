@@ -1,0 +1,30 @@
+{
+  "date": "2023-06-03",
+  "generated_at": "2026-04-23T23:01:23.062958",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 35650,
+    "resting_hr": 57.0,
+    "hrv": 65.4,
+    "weight_kg": 71.523,
+    "sleep_hrs": 5.5,
+    "body_fat_pct": 0.15,
+    "bmi": 24.46,
+    "vo2max": 40.49,
+    "respiratory_rate": 14.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Sleep was relatively good, took today vitamin D, and also other pills, lots of exercise and also did some stuff for my head\nVictoria training\nPracticed a bit the driver swing - was going okeyish - better than before\nMeeting with guys\nJon came from kompass had to state my case\nContent meeting\nLunchy by cosita\nTraining with Alan was good he gave me some exercises for my glutes\nPiggy bank meeting \nAccupunture and moxi he put me on the sidee and did only left hand lets see how this will go\nSpoke to "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
