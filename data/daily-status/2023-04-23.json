@@ -1,0 +1,29 @@
+{
+  "date": "2023-04-23",
+  "generated_at": "2026-04-23T23:00:31.748928",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16063,
+    "resting_hr": 55.0,
+    "hrv": 84.04,
+    "weight_kg": 73.233,
+    "sleep_hrs": 6.9,
+    "body_fat_pct": 0.11,
+    "bmi": 25.04,
+    "respiratory_rate": 13.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Good sleep, maybe a bit short, I really need blackouts,\nMassage in the morning - self massage seems to be just aggravating the issue its better to press it and try to breathe in the air\nEmmas kitchen after kapka came\nWe walked back to sliema \nFight with cosita coz I told her that she is not arranging blackouts - ok wasnt the best timing or best executed judgement\nNo coffee cosita gets super grumpy and sleepy - omg she fall asleep in Cinema\nWe went to Aki \nWatched Super Mario - was ok I wasnt lik"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
