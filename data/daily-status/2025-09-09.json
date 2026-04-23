@@ -1,0 +1,74 @@
+{
+  "date": "2025-09-09",
+  "generated_at": "2026-04-23T23:18:47.751798",
+  "whoop": {
+    "imported": true,
+    "recovery": 67.0,
+    "hrv": 38.9,
+    "rhr": 49.0,
+    "sleep_perf": 87.0,
+    "strain": 9.2,
+    "sleep_hrs": 6.8,
+    "spo2": 94.7,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 95.3,
+    "sleep_consistency": 87.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 2.6,
+    "deep_sleep_hrs": 2.7,
+    "rem_sleep_hrs": 1.5,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 6,
+    "disturbances": 10,
+    "sleep_needed_hrs": 8.6,
+    "sleep_debt_hrs": 0.9,
+    "calories": 1821,
+    "avg_hr": 65,
+    "max_hr": 165,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 37,
+        "avg_hr": 88,
+        "max_hr": 165
+      },
+      {
+        "sport": "HIIT",
+        "calories": 72,
+        "avg_hr": 106,
+        "max_hr": 140
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31020,
+    "resting_hr": 50.5,
+    "hrv": 50.01,
+    "sleep_hrs": 6.9,
+    "daylight_mins": 71.0,
+    "vo2max": 42.0,
+    "spo2": 96.23,
+    "respiratory_rate": 13.3,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling relatively powerful, my mind is clear and I can think okey, and with a positive mind, still not exactly what I used to have but yeah\u2026. hehe we will get there\n\nHbot is helping bloating decreased as well regardless of eating the bread hehe\nbloating 2/10 even after pizza all seemed to be fine",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Vitamin C",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 2,
+    "bloating": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
