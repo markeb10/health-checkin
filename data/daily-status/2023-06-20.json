@@ -1,0 +1,24 @@
+{
+  "date": "2023-06-20",
+  "generated_at": "2026-04-23T23:01:43.576842",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15588,
+    "resting_hr": 60.0,
+    "hrv": 69.19
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Very nice day, was a bit tired but not a problem - i feel I need a lot of sleep\nWorkout with Milka gym time \ud83c\udfcb\ufe0f\u200d\u2640\ufe0f\nMeeting with Olle and \u017diga trying to figure out why the numbers are on the decline\nBreakfast\nTried to collect all the papers for MGA still missing one \u261d\ufe0f Its been almost a year haha omg \ud83d\ude31 \nMassage with Lucky Thai was good\nPopcorns\nSpoke to my dad about whole Alenka family situation - its not looking good unfortunately\nPlayed nway back\nWas a nice day, was talking to my dad deep conver"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
