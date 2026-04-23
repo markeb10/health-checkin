@@ -1,0 +1,26 @@
+{
+  "date": "2023-12-14",
+  "generated_at": "2026-04-23T23:05:24.935867",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12530,
+    "resting_hr": 56.0,
+    "hrv": 56.58,
+    "spo2": 99.5,
+    "respiratory_rate": 16.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was sleeping like a baby until zi got woken up by alarm from cosita, today I need to make it up. Went to bed at 1 am so yeah.\nJpm meeting\nBreakfast\nTai chi\nSaw the demo from the Book Bonanza - it was good but I think they can do better than this - I was not that excited\nBioresonance HD she said I am good only 20% zapacan but overall very good\nAnniversary lunch at Jaz - it was ok. Definitely not something I would go again\nManaged to calculate all gifts \nTai chi\nChatn Self\nWas a easy morning, I am"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
