@@ -1,0 +1,61 @@
+{
+  "date": "2025-10-21",
+  "generated_at": "2026-04-23T23:19:38.380718",
+  "whoop": {
+    "imported": true,
+    "recovery": 79.0,
+    "hrv": 36.6,
+    "rhr": 50.0,
+    "sleep_perf": 85.0,
+    "strain": 6.3,
+    "sleep_hrs": 6.9,
+    "spo2": 95.4,
+    "skin_temp": 33.6,
+    "sleep_efficiency": 87.4,
+    "sleep_consistency": 92.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 3.2,
+    "deep_sleep_hrs": 2.3,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 1.0,
+    "sleep_cycles": 6,
+    "disturbances": 8,
+    "sleep_needed_hrs": 8.6,
+    "sleep_debt_hrs": 0.8,
+    "calories": 1671,
+    "avg_hr": 61,
+    "max_hr": 149,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11007,
+    "resting_hr": 52.5,
+    "hrv": 72.76,
+    "sleep_hrs": 7.1,
+    "daylight_mins": 19.0,
+    "bp_systolic": 109.0,
+    "bp_diastolic": 68.5,
+    "spo2": 96.2,
+    "respiratory_rate": 13.24,
+    "sleep_awake_hrs": 1.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good, in general, its a rainy day but all in all is not too bad - high endorphines, relaxed\nOtherwise feeling good, fun fact was not that bloated - like 3/10",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 8,
+    "bloating": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
