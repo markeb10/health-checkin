@@ -1,0 +1,34 @@
+{
+  "date": "2024-11-18",
+  "generated_at": "2026-04-23T23:12:40.113698",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14961,
+    "resting_hr": 56.0,
+    "hrv": 60.86,
+    "daylight_mins": 9.0,
+    "vo2max": 41.95,
+    "spo2": 96.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 4,
+    "journal": "Feeling shitty, tired - over worked but I didnt really work had bad sleep j think - grumpy whole day\nStomach ok but coughing a lot",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
