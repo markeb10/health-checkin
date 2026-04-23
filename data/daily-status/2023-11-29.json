@@ -1,0 +1,27 @@
+{
+  "date": "2023-11-29",
+  "generated_at": "2026-04-23T23:05:06.445371",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27695,
+    "resting_hr": 57.0,
+    "hrv": 57.76,
+    "daylight_mins": 39.0,
+    "vo2max": 40.34,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Strange pain in the place where I had operation was present almost whole day, started when in bed, not good sleep only 6 hours\nMilos - we did something for shoulders today was very good\nTai chi in the morning - repeated the flow I learned the day before\nJpm meeting\nBerries more berries - I love this lady in vegetable truck\nMeeting with voodoo publishing guy\nGot air purifier airdog x8 (air is good)\nGot also starship rocket from x\nCosita made a great lunchy\nBefore lunch told to Artur and Simona wh"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
