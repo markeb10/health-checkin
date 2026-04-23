@@ -1,0 +1,73 @@
+{
+  "date": "2026-03-03",
+  "generated_at": "2026-04-23T23:22:23.283515",
+  "whoop": {
+    "imported": true,
+    "recovery": 80.0,
+    "hrv": 39.7,
+    "rhr": 49.0,
+    "sleep_perf": 69.0,
+    "strain": 8.1,
+    "sleep_hrs": 6.1,
+    "spo2": 97.7,
+    "skin_temp": 32.7,
+    "sleep_efficiency": 94.0,
+    "sleep_consistency": 33.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 2.2,
+    "deep_sleep_hrs": 2.7,
+    "rem_sleep_hrs": 1.2,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 6,
+    "disturbances": 7,
+    "sleep_needed_hrs": 9.3,
+    "sleep_debt_hrs": 1.7,
+    "calories": 1719,
+    "avg_hr": 63,
+    "max_hr": 153,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 61,
+        "avg_hr": 100,
+        "max_hr": 128
+      },
+      {
+        "sport": "HIIT",
+        "calories": 40,
+        "avg_hr": 96,
+        "max_hr": 115
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23011,
+    "resting_hr": 50.0,
+    "hrv": 70.09,
+    "sleep_hrs": 6.3,
+    "daylight_mins": 57.0,
+    "vo2max": 39.98,
+    "spo2": 97.73,
+    "respiratory_rate": 14.8,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 3,
+    "journal": "Feeling better today, got one hour more of sleep, maybe I need to eat more in the evening but overall it was good, I love the cheese and the cottage cheese diet and the kitchen we are getting from the CountryClub honestly the best guy in town, ping pong with Lara Opeka was top, really good\nwas having some weird pain after lunch, not sure if lunch is the problem, probably yes, was eating beans\n\nbloating 3/10 \n\nhad vinegar and those cacao chocolate balls - they are soooo good its kinda wrong haha ",
+    "supplements_list": [
+      "Creatine",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
