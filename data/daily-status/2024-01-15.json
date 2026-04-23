@@ -1,0 +1,27 @@
+{
+  "date": "2024-01-15",
+  "generated_at": "2026-04-23T23:06:04.348855",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19443,
+    "resting_hr": 52.0,
+    "hrv": 61.6,
+    "daylight_mins": 112.0,
+    "vo2max": 40.41,
+    "spo2": 100.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Almost one month in Dubai and loving it, really best possible weather ever, sleep was weird due to high pressure , but I managed to fall asleep and sleep well more or less\nTai chi 2x Han 1 x white crane\nBreakfast\nTalking to Olle we had a bit of a rough start day - but we came up with idea of Bitstarz Innovation\nMeeting Kris therapist from Joint Space - was interesting - I think the guy has a point its a transversal from left leg to the upper neck - we will do some therapies and then we will see "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
