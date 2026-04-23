@@ -1,0 +1,27 @@
+{
+  "date": "2023-11-03",
+  "generated_at": "2026-04-23T23:04:34.243270",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21534,
+    "resting_hr": 56.0,
+    "hrv": 67.59,
+    "daylight_mins": 77.0,
+    "vo2max": 41.9,
+    "spo2": 99.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Long sleep, was feeling relaxed after all the treatments yesterday\nBreakfast at bait Miryam - hands down the best eggs and hummus and eggplant thingy\nMeeting with Vlad we went trough how to use the new software he created for invoicing what a hero\nWe went to dubai hills mall ate lunch in leto\nGot haircut and my first pedicure and manicure interesting hehe\nRelaxed my ass hurted a lot in that position for so long\nFelt very sleepy whole day but in general in control, my brain was slow but otherwise"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
