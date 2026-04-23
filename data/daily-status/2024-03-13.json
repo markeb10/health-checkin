@@ -1,0 +1,26 @@
+{
+  "date": "2024-03-13",
+  "generated_at": "2026-04-23T23:07:19.861249",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31135,
+    "resting_hr": 64.0,
+    "hrv": 79.55,
+    "vo2max": 40.14,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish, but was too short, not sure whats waking me up. Maybe coz I was training yeaterday. Today i was having a break.\nTai chi, stretching\nActomy massage - was very nice and almost painless\nBtc ath 73\nJpm seems to be doing fine\nMy dad arrived we spoke and then I called Dejan so he told us what he is doing\nWe went for a quick walk\nSuppose to have interview - Olle missed it i guess coz it was at 1 am\nNew ideas discussing with Dimitar and Ziga trying to discuss kpi\nCurelink meeting was okey"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
