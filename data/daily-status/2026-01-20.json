@@ -1,0 +1,73 @@
+{
+  "date": "2026-01-20",
+  "generated_at": "2026-04-23T23:21:31.088247",
+  "whoop": {
+    "imported": true,
+    "recovery": 35.0,
+    "hrv": 26.6,
+    "rhr": 55.0,
+    "sleep_perf": 87.0,
+    "strain": 11.6,
+    "sleep_hrs": 6.7,
+    "spo2": 93.0,
+    "skin_temp": 33.7,
+    "sleep_efficiency": 98.5,
+    "sleep_consistency": 90.0,
+    "respiratory_rate": 14.7,
+    "light_sleep_hrs": 2.2,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 2.1,
+    "awake_hrs": 0.1,
+    "sleep_cycles": 4,
+    "disturbances": 11,
+    "sleep_needed_hrs": 8.9,
+    "sleep_debt_hrs": 1.2,
+    "calories": 1998,
+    "avg_hr": 69,
+    "max_hr": 181,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 198,
+        "avg_hr": 126,
+        "max_hr": 168
+      },
+      {
+        "sport": "HIIT",
+        "calories": 86,
+        "avg_hr": 111,
+        "max_hr": 141
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23083,
+    "resting_hr": 57.5,
+    "hrv": 58.19,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 67.0,
+    "vo2max": 42.66,
+    "spo2": 97.14,
+    "respiratory_rate": 14.71,
+    "sleep_awake_hrs": 0.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "6 hours of sleep not enough but okey was eating too much haha\nDuo lingo\nSome meditation\nBreakfast\nSetup booth\nMeetings \nMeeting softswiss\nMany others\nCoinspaid\nBugsy\nDinner\nScrolling\nDuo lingo\nWas relatively good day, trying to find new things but yeah, the energy is low by end of the day\nInspired by: the stands of some companies, the good spanish food, me not being nervous and calm\nDidnt like: that I ate too much again, i hate commiting to some crazy money by just losing some\nIdeas: do an emoti",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 5,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
