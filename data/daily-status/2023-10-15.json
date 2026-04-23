@@ -1,0 +1,26 @@
+{
+  "date": "2023-10-15",
+  "generated_at": "2026-04-23T23:04:09.278985",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11696,
+    "resting_hr": 52.0,
+    "hrv": 46.19,
+    "vo2max": 41.7,
+    "spo2": 97.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice cuddling morning, relaxing with laughing and in general in good mood\nBreakfast\nLazy morning - playing with the metal puzzle\nCosita made lunchy\nSelf chatn alone - nice response\nLunchy\nNappy 2 hours in bed lol could not get up\nWalkie in evening - in park was nice\nBrought malina cake to cosita\nStarted whatsapp group of my highschool classmates\nBig pain in coccyx, invited Matjaz dolinar to meet me, tomorrow will be a lot of sitting but ok\nInspired by: seeing all photos from my high school - wow"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
