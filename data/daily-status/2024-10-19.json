@@ -1,0 +1,32 @@
+{
+  "date": "2024-10-19",
+  "generated_at": "2026-04-23T23:12:01.219635",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 35728,
+    "resting_hr": 54.0,
+    "hrv": 79.64,
+    "daylight_mins": 36.0,
+    "vo2max": 40.52,
+    "spo2": 96.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "My skalp is really itching\nAll was good just a bit bloted",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
