@@ -1,0 +1,32 @@
+{
+  "date": "2025-07-01",
+  "generated_at": "2026-04-23T23:17:20.946008",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16641,
+    "resting_hr": 54.0,
+    "hrv": 46.7,
+    "daylight_mins": 101.0,
+    "vo2max": 41.09,
+    "spo2": 94.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Bit upset due to doctor mistake, seeing prostatitis where it was not bit okey, I guess this was a good school to not mess around too much but yeah - glad I managed to confirm I am all okeyish\nFeeling okeyish but still the food seems to stick in my belly too much - need to recover from this shock",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
