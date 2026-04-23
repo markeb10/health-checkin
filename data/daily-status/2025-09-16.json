@@ -1,0 +1,66 @@
+{
+  "date": "2025-09-16",
+  "generated_at": "2026-04-23T23:18:56.188730",
+  "whoop": {
+    "imported": true,
+    "recovery": 74.0,
+    "hrv": 35.1,
+    "rhr": 49.0,
+    "sleep_perf": 94.0,
+    "strain": 7.0,
+    "sleep_hrs": 7.7,
+    "spo2": 96.0,
+    "skin_temp": 34.0,
+    "sleep_efficiency": 94.5,
+    "sleep_consistency": 91.0,
+    "respiratory_rate": 12.9,
+    "light_sleep_hrs": 4.2,
+    "deep_sleep_hrs": 1.9,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 7,
+    "disturbances": 14,
+    "sleep_needed_hrs": 8.3,
+    "sleep_debt_hrs": 0.8,
+    "calories": 1697,
+    "avg_hr": 65,
+    "max_hr": 133,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 139,
+        "avg_hr": 114,
+        "max_hr": 133
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16959,
+    "resting_hr": 50.0,
+    "hrv": 55.94,
+    "sleep_hrs": 7.7,
+    "daylight_mins": 51.0,
+    "vo2max": 42.25,
+    "spo2": 97.66,
+    "respiratory_rate": 13.38,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling upset in the mornig, was dropping a bomb on scatter kings guys, and got upset due to their wow lets talk\u2026 i am like what the heck\n8/10 bloating, super bloated, blaming it on onion soup  i dont know why i ordered it but that was a terrible idea",
+    "supplements_list": [
+      "Lutein",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
