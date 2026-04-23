@@ -1,0 +1,24 @@
+{
+  "date": "2023-07-03",
+  "generated_at": "2026-04-23T23:01:59.420479",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 5728,
+    "resting_hr": 54.0,
+    "hrv": 62.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Sleep was a bit less, blaming it on high activity - victoria and alan yesterday but okey - my glutes are feeling this one for sure\nWarmed up in the morning for the swings with the ball\nClass with Tim - I was doing so- so worst than last time for sure\nWe had pool time\nThen we brainstormed questions for support guys\nThen we have brainstored the Passion Pursuit Program \nCosita made lunchy\nTarique came by - ric put some more humus on the ground so hopefully we get more grass\nWe had a good monthly ca"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
