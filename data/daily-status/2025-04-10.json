@@ -1,0 +1,35 @@
+{
+  "date": "2025-04-10",
+  "generated_at": "2026-04-23T23:15:38.623524",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16373,
+    "resting_hr": 56.0,
+    "hrv": 60.38,
+    "daylight_mins": 14.0,
+    "spo2": 97.67,
+    "respiratory_rate": 11.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 5,
+    "journal": "Feeling rainbow of feelings today, love but extreme anger, but somehow managing all this without the problem, feeling sleepy in the evening too which is always a plus\nShower before bed\nVery low bloating - likely due to zinc carnosine",
+    "supplements_list": [
+      "Enterosgel",
+      "Ginger",
+      "Glutamine",
+      "Vitamin C",
+      "Zinc Carnosine"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
