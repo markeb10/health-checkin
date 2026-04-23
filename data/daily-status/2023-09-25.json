@@ -1,0 +1,26 @@
+{
+  "date": "2023-09-25",
+  "generated_at": "2026-04-23T23:03:44.287872",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19549,
+    "resting_hr": 59.0,
+    "hrv": 60.4,
+    "daylight_mins": 94.0,
+    "spo2": 96.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Getting close to my birthday, was waking up in middle of night but managed to fall asleep back and also was super sleepy at 7 am hehe\nMedicofit - did laser on my sitting bones and worked a bit on my neck - exercises were good\nJPM meeting was 3 hours long wowza\nNew ideas\nSalaries - almost done - just crypto part missing - coming tomorrow\nMet Ziga Kramper\u0161ek interesting guy but was not impressed \nWalkie and talking with Filip talked about the Dubai project and Boris giving him a cal and hopefully "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
