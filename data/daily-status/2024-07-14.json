@@ -1,0 +1,37 @@
+{
+  "date": "2024-07-14",
+  "generated_at": "2026-04-23T23:09:56.672297",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 49215,
+    "resting_hr": 56.0,
+    "hrv": 79.4,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 184.0,
+    "spo2": 96.75,
+    "respiratory_rate": 15.12,
+    "sleep_deep_hrs": 1.5,
+    "sleep_rem_hrs": 0.9,
+    "sleep_core_hrs": 4.3,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Was feeling good, after we won I felt more peacful\nEverything is fine",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
