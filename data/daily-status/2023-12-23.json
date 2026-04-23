@@ -1,0 +1,25 @@
+{
+  "date": "2023-12-23",
+  "generated_at": "2026-04-23T23:05:35.922629",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14393,
+    "hrv": 65.75,
+    "daylight_mins": 97.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was not sleeping well, something is not letting me sleep. Maybe is this probiotic yoghurts and cultures , though I think  it was the pressure I had\nTai chi\nSlept not much\nBreakfast\nGetting ready\nDr Helge - interesting approach - he explained me what SI joint disfunction is and why it was hurting - that it could be this lets see - if he is right I should get much better after 1 month\nMott32 in address was good but not like wow wow wow\nWalkie to Dubai Marina shopping in supermarket\nPlayed pool ins"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
