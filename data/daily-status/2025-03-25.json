@@ -1,0 +1,34 @@
+{
+  "date": "2025-03-25",
+  "generated_at": "2026-04-23T23:15:18.879885",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17803,
+    "resting_hr": 57.0,
+    "hrv": 58.03,
+    "daylight_mins": 75.0,
+    "vo2max": 41.19,
+    "spo2": 96.57
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 4,
+    "journal": "Feeling tired, sad, depressed a little , definitely down much more, slept less and i think the quality was worse\nOne bowel movement in morning was okey, allergy reaction - not identified what but birch is bloomjng outside",
+    "supplements_list": [
+      "Ashwagandha",
+      "Enterosgel",
+      "Telfast",
+      "Vitamin C"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
