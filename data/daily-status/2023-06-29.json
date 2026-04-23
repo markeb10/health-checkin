@@ -1,0 +1,24 @@
+{
+  "date": "2023-06-29",
+  "generated_at": "2026-04-23T23:01:54.601711",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22040,
+    "resting_hr": 62.0,
+    "hrv": 39.99
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Woke up in a good mood - winning mood i still cant believe we won - damn it\nPacking\nWaking up early traveling back to Antalya\nSome fun in Belgrade airportn was really in the mood hehe\nFlight to ist and antalya\nMurat drove me to hotel\n150 NAD drip IV\nDinner rice soup and thats it\nConcert show was okeyish i am just super sleepy \ud83d\ude34\nThe morning was very spicy, first I drove with that russian chick that was successfuly pretending she does not know me, seems like she only knows me in transportation hah"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
