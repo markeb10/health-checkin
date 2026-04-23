@@ -1,0 +1,58 @@
+{
+  "date": "2025-12-21",
+  "generated_at": "2026-04-23T23:20:53.534036",
+  "whoop": {
+    "imported": true,
+    "recovery": 27.0,
+    "hrv": 26.6,
+    "rhr": 54.0,
+    "sleep_perf": 64.0,
+    "strain": 6.4,
+    "sleep_hrs": 5.5,
+    "spo2": 92.1,
+    "skin_temp": 34.4,
+    "sleep_efficiency": 93.9,
+    "sleep_consistency": 22.0,
+    "respiratory_rate": 14.4,
+    "light_sleep_hrs": 2.4,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.0,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 3,
+    "disturbances": 2,
+    "sleep_needed_hrs": 9.0,
+    "sleep_debt_hrs": 1.4,
+    "calories": 1632,
+    "avg_hr": 67,
+    "max_hr": 154,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15381,
+    "resting_hr": 56.0,
+    "hrv": 53.49,
+    "sleep_hrs": 5.5,
+    "spo2": 92.16,
+    "respiratory_rate": 14.36,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling jetlagged but its not so bad, just from 8 pm its getting really bad and hard to stay awake, i hope my jetlagg gets better tomorrow, but otherwise hrv was down HRH was up, temp was up, so hopefully all this was due to me being in Bogota\nbloating 5/10 was better",
+    "supplements_list": [
+      "Curcumin",
+      "Ruporut",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
