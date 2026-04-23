@@ -1,0 +1,39 @@
+{
+  "date": "2024-07-29",
+  "generated_at": "2026-04-23T23:10:16.961143",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 51975,
+    "resting_hr": 55.0,
+    "hrv": 66.65,
+    "sleep_hrs": 7.6,
+    "daylight_mins": 234.0,
+    "vo2max": 43.88,
+    "spo2": 96.75,
+    "respiratory_rate": 14.38,
+    "sleep_deep_hrs": 1.7,
+    "sleep_rem_hrs": 0.9,
+    "sleep_core_hrs": 5.0,
+    "sleep_awake_hrs": 1.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 3,
+    "journal": "Feeling tired end of the day, lots of talking that meeting with Dimitar really sucked my energy - I am not sure this is necessary every time K speak to him\nNothing to report - gasiness we t away - yeaterday was crazy - probably bread in morning",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
