@@ -1,0 +1,26 @@
+{
+  "date": "2024-02-05",
+  "generated_at": "2026-04-23T23:06:32.570772",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 38938,
+    "resting_hr": 60.0,
+    "hrv": 63.01,
+    "daylight_mins": 72.0,
+    "vo2max": 39.43
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept for 5 hours then trying with meditation main concern tension in center of belly button bit on left\nWoke up at 5 could not sleep more\nMade chamamile tea and went to meditate got some more shut eye and lost a bit but not like a proper sleep\nBreakfast - lemonade and fruit - maybe tomorrow I will stop with the lemonade and fresh fruite\nTalk with Lado about strategy he sent inquiry to many clinics\nWalkie\nShopping chicken and eggs\nLunchy\nWe watched Gendarme soo funny again - man this guy is just"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
