@@ -1,0 +1,31 @@
+{
+  "date": "2024-09-05",
+  "generated_at": "2026-04-23T23:11:05.898982",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15496,
+    "resting_hr": 53.0,
+    "hrv": 67.26,
+    "daylight_mins": 26.0,
+    "spo2": 97.17,
+    "respiratory_rate": 9.83
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 1,
+    "journal": "Feeling - ou no this thing again, massively depressed specially s its been almost 3 months since I been taking probiotics and still not much to show - important is to be patient\nPainful, on left side of belly button. Then it went to right, definitely something is flared up, drank vitamins and felt heart burn right after",
+    "supplements_list": [
+      "Probiotic"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
