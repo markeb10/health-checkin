@@ -1,0 +1,27 @@
+{
+  "date": "2023-06-12",
+  "generated_at": "2026-04-23T23:01:33.628531",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34008,
+    "resting_hr": 53.0,
+    "hrv": 55.42,
+    "sleep_hrs": 7.5,
+    "vo2max": 41.17,
+    "respiratory_rate": 13.38
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept less only until 5 or so, was too aggressive, even though I meditated - i was easily irritated - it was weird\nMorning tai chi\nMilos training\nFinally they finished Sliema ferries port 4 years in making amazing\nJpm meeting\nWas upset coz of the banks I definitely need to find alternative and see if swiss quote is better at paying this stuff\nWas super angry and annoyed today but mostly unhappy with myself - I need to do some spring cleaning on myself - Tai chi is the start for sure but there co"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
