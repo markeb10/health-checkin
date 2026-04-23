@@ -1,0 +1,31 @@
+{
+  "date": "2025-05-13",
+  "generated_at": "2026-04-23T23:16:18.606389",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 8291,
+    "resting_hr": 57.0,
+    "hrv": 62.98,
+    "spo2": 97.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling under oressure not super bad but today i felt pain in my guts and it was very weird, i still felt it while exercising and then it went away\nPainful around belly button , if I lay down it was above belly button,\n\nvery low bloating\n\nfelt acidiyy in evening - took ruporut",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut",
+      "Vitamin C"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
