@@ -1,0 +1,78 @@
+{
+  "date": "2025-11-19",
+  "generated_at": "2026-04-23T23:20:14.309657",
+  "whoop": {
+    "imported": true,
+    "recovery": 50.0,
+    "hrv": 32.9,
+    "rhr": 50.0,
+    "sleep_perf": 79.0,
+    "strain": 15.7,
+    "sleep_hrs": 6.1,
+    "spo2": 95.1,
+    "skin_temp": 34.0,
+    "sleep_efficiency": 81.1,
+    "sleep_consistency": 91.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 2.6,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.3,
+    "awake_hrs": 1.4,
+    "sleep_cycles": 6,
+    "disturbances": 5,
+    "sleep_needed_hrs": 8.4,
+    "sleep_debt_hrs": 0.4,
+    "calories": 2172,
+    "avg_hr": 65,
+    "max_hr": 206,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 120,
+        "avg_hr": 100,
+        "max_hr": 145
+      },
+      {
+        "sport": "HIIT",
+        "calories": 404,
+        "avg_hr": 141,
+        "max_hr": 194
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18211,
+    "resting_hr": 52.0,
+    "hrv": 74.11,
+    "sleep_hrs": 6.1,
+    "daylight_mins": 59.0,
+    "vo2max": 41.03,
+    "spo2": 97.45,
+    "respiratory_rate": 13.22,
+    "sleep_awake_hrs": 1.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 2,
+    "journal": "Feeling depressed in the morning, could not sleep, had this weird dreams and felt I need to cut mycontacts with A, I have minimised it already and I think its a great idea, I think it should stay like this, keeping it on mentoring helping side and thats it\n\nspeeko the speaking exercises actually helped as they opened up a special part of my brain interesting enough\n5/10 more bloated, need to change something probably rice in evening not a good idea and change the breat in the rmoning maybe to so",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 3,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
