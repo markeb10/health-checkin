@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-22",
+  "generated_at": "2026-04-23T23:18:25.841158",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 35415,
+    "resting_hr": 55.0,
+    "hrv": 49.94,
+    "daylight_mins": 160.0,
+    "vo2max": 39.98,
+    "spo2": 96.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "feeling good specially in the morning lots of energy, in general feeling healthy and good flow \u2026 was trying to fix some stuff at work but yeah overall okey, swimming and also spending some time at the beach for first time lol\nfeeling okeyish, bloating 3/10 mostly a bit smelly from the ice cream i think but overall i ate baguel in the morning and that semed to be fine",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Lutein",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
