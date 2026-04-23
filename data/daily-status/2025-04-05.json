@@ -1,0 +1,31 @@
+{
+  "date": "2025-04-05",
+  "generated_at": "2026-04-23T23:15:32.536691",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18783,
+    "resting_hr": 53.0,
+    "hrv": 58.73,
+    "daylight_mins": 140.0,
+    "vo2max": 40.43,
+    "spo2": 99.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Felt relatively good, no pains or aches, a bit less painful the spot where I got injected PRP I guess it will take a week to get it better there but its already positie\nlow bloating, fine which is interesting",
+    "supplements_list": [
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
