@@ -1,0 +1,32 @@
+{
+  "date": "2025-03-30",
+  "generated_at": "2026-04-23T23:15:25.217641",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30018,
+    "resting_hr": 56.0,
+    "hrv": 51.86,
+    "daylight_mins": 45.0,
+    "spo2": 96.67,
+    "respiratory_rate": 14.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling okey, a bit numb - hurts thingy on my finger - its annoying\n\nI have big pain on mu side of the foot its like a kurje oko and need a medical assistance to get it out properly\nMedium bloating - considering what i was eating was fine",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
