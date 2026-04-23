@@ -1,0 +1,32 @@
+{
+  "date": "2025-05-16",
+  "generated_at": "2026-04-23T23:16:22.247038",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 5800,
+    "resting_hr": 55.0,
+    "hrv": 50.88,
+    "daylight_mins": 19.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "Cant sleep since 5:30 am cosita snores like there is no tomorrow too but yeah ,took ruporit was better and was able to fall asleep after the meditation\nAcid burn morning, maybe takinf mg so late is not helping me either\n\nvery low bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut",
+      "Vitamin C"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
