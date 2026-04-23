@@ -1,0 +1,32 @@
+{
+  "date": "2024-10-08",
+  "generated_at": "2026-04-23T23:11:47.033905",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 2808,
+    "resting_hr": 58.0,
+    "hrv": 57.12,
+    "daylight_mins": 3.0,
+    "spo2": 95.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "All is good, I feel relaxed and any issue is settled by evening\nCoccyx was more painful than usual even when sleeping and also when sitting - definitely this massages are making things worse for now. I trullu cant see this getting better. But okey maybe there is a way.",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic",
+      "Zinc"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
