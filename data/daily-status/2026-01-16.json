@@ -1,0 +1,70 @@
+{
+  "date": "2026-01-16",
+  "generated_at": "2026-04-23T23:21:26.247168",
+  "whoop": {
+    "imported": true,
+    "recovery": 65.0,
+    "hrv": 33.8,
+    "rhr": 49.0,
+    "sleep_perf": 85.0,
+    "strain": 12.7,
+    "sleep_hrs": 6.3,
+    "spo2": 92.6,
+    "skin_temp": 33.7,
+    "sleep_efficiency": 95.7,
+    "sleep_consistency": 91.0,
+    "respiratory_rate": 13.8,
+    "light_sleep_hrs": 2.2,
+    "deep_sleep_hrs": 2.7,
+    "rem_sleep_hrs": 1.3,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 3,
+    "disturbances": 5,
+    "sleep_needed_hrs": 9.2,
+    "sleep_debt_hrs": 1.6,
+    "calories": 2115,
+    "avg_hr": 66,
+    "max_hr": 165,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 104,
+        "avg_hr": 117,
+        "max_hr": 159
+      },
+      {
+        "sport": "Walking",
+        "calories": 521,
+        "avg_hr": 121,
+        "max_hr": 165
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15997,
+    "resting_hr": 53.5,
+    "hrv": 57.88,
+    "sleep_hrs": 6.3,
+    "spo2": 95.64,
+    "respiratory_rate": 13.77,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 2,
+    "journal": "Felt not great, my boniko was hurting in bed much bigger pain during the night than in punta cana so weird, i guess coz its harder bet idk\u2026 or maybe coz i cant sleep that long on side then i turn and then bam\nsmall pain, otherwise okey bloating 4/10",
+    "supplements_list": [
+      "Ruporut",
+      "Vitamin C"
+    ],
+    "anxiety": 5,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
