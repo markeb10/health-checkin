@@ -1,0 +1,72 @@
+{
+  "date": "2026-02-12",
+  "generated_at": "2026-04-23T23:21:59.253169",
+  "whoop": {
+    "imported": true,
+    "recovery": 86.0,
+    "hrv": 43.9,
+    "rhr": 50.0,
+    "sleep_perf": 75.0,
+    "strain": 7.7,
+    "sleep_hrs": 6.2,
+    "spo2": 97.0,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 87.1,
+    "sleep_consistency": 86.0,
+    "respiratory_rate": 13.9,
+    "light_sleep_hrs": 2.4,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.3,
+    "awake_hrs": 0.9,
+    "sleep_cycles": 6,
+    "disturbances": 5,
+    "sleep_needed_hrs": 10.0,
+    "sleep_debt_hrs": 2.1,
+    "calories": 1709,
+    "avg_hr": 62,
+    "max_hr": 144,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "Activity",
+        "calories": 103,
+        "avg_hr": 124,
+        "max_hr": 144
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7242,
+    "resting_hr": 52.0,
+    "hrv": 70.08,
+    "sleep_hrs": 7.4,
+    "daylight_mins": 51.0,
+    "spo2": 97.51,
+    "respiratory_rate": 13.95,
+    "sleep_awake_hrs": 1.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "feeling tired, really too many meetings non stop of like whole day since 9 hmmm, didnt even realise,\nfeeling kinda okeyish, didnt eat in the evening, weird one lets hop it will be fine",
+    "supplements_list": [
+      "Enterosgel",
+      "Telfast",
+      "Vitamin C"
+    ],
+    "anxiety": 8,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
