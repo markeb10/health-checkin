@@ -1,0 +1,32 @@
+{
+  "date": "2025-04-27",
+  "generated_at": "2026-04-23T23:15:58.590767",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23206,
+    "resting_hr": 57.0,
+    "hrv": 61.36,
+    "daylight_mins": 75.0,
+    "vo2max": 40.48,
+    "spo2": 96.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good, but need to really do something about going to bed earlier cmon plng before diary before\nLow bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
