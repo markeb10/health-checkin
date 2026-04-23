@@ -1,0 +1,26 @@
+{
+  "date": "2023-12-05",
+  "generated_at": "2026-04-23T23:05:14.177987",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 8640,
+    "resting_hr": 55.0,
+    "hrv": 63.04,
+    "spo2": 95.2,
+    "respiratory_rate": 14.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Not great sleep, was snoring and cosita too, had dry mouth for some reason and felt almost like I was getting sick\nSlept okey but woke up at 5\nBeen meditating but could not properly focus\nBrakfast\nMeeting with Ivan and Marko BS originals \nLast day at bornemann clinic - blood came back and it was okey as in there was no bigger problem in blood as cancer or bone marrow problem - looks like my body is recovering after being attacked - i will follow up this because this is not from today - this has "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
