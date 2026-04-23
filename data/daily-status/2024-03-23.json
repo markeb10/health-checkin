@@ -1,0 +1,27 @@
+{
+  "date": "2024-03-23",
+  "generated_at": "2026-04-23T23:07:32.601541",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25773,
+    "resting_hr": 52.0,
+    "hrv": 60.35,
+    "daylight_mins": 62.0,
+    "vo2max": 41.24,
+    "spo2": 97.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was struggling to sleep longer but somehow made it to 6:30, i think coz of high pulse from before\nClearing my laptop - its probably distraction but yeah\nStarted with bullet points\nEnded up choosing a name Fig instead of Myhold (berry, kiwi are also options)\nPutting photos in bullet points\nCosita made breakfast\nWe went for a walk - super nice we talked laughed + shopping for lunch together \nMore bullet points\nLunchy was sooo good - we had tatziki USDA ribeye from welbies is top\nCosita gave me all"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
