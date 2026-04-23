@@ -1,0 +1,31 @@
+{
+  "date": "2025-02-15",
+  "generated_at": "2026-04-23T23:14:31.425755",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27445,
+    "resting_hr": 57.0,
+    "hrv": 68.0,
+    "spo2": 99.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 3,
+    "journal": "The night was horrible had that fever episode, racing heart beat, feeling hot, was really only better after 0.6L of water and then slowly the bodu cooled down and I was able to sleep\nLow bloating, was much more during the night, that pizza didnt land well either cheese or gluten or both or yeast",
+    "supplements_list": [
+      "Ashwagandha",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
