@@ -1,0 +1,31 @@
+{
+  "date": "2025-01-17",
+  "generated_at": "2026-04-23T23:13:54.214257",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24333,
+    "resting_hr": 53.0,
+    "hrv": 61.42,
+    "daylight_mins": 39.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good but tired, affer sitting long time whole day I feel my hip hurting\nFeeing acidity in evening - body is not comfortable eating so late - dont think will eat much on Sun",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
