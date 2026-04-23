@@ -1,6 +1,6 @@
 {
   "date": "2026-03-20",
-  "generated_at": "2026-04-19T23:15:59.810384",
+  "generated_at": "2026-04-23T23:22:44.507812",
   "whoop": {
     "imported": true,
     "recovery": 38.0,
@@ -27,22 +27,28 @@
     "max_hr": 158,
     "workouts": [
       {
-        "sport": "HIIT",
-        "calories": 51,
-        "avg_hr": 91,
-        "max_hr": 104
-      },
-      {
         "sport": "Sport 230",
         "calories": 238,
         "avg_hr": 112,
         "max_hr": 158
       },
       {
+        "sport": "HIIT",
+        "calories": 51,
+        "avg_hr": 91,
+        "max_hr": 104
+      },
+      {
         "sport": "Activity",
         "calories": 261,
         "avg_hr": 110,
         "max_hr": 146
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
       }
     ]
   },
