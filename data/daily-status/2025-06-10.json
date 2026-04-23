@@ -1,0 +1,30 @@
+{
+  "date": "2025-06-10",
+  "generated_at": "2026-04-23T23:16:53.755985",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 3659,
+    "resting_hr": 59.0,
+    "hrv": 38.68,
+    "daylight_mins": 10.0,
+    "spo2": 94.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 1,
+    "supplements": 1,
+    "journal": "Horrible nervous today, was scared to meet a big pain but I did it well - it was good\nFeels all okey",
+    "supplements_list": [
+      "Celecoxib"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
