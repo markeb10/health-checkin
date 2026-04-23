@@ -1,0 +1,57 @@
+{
+  "date": "2026-03-01",
+  "generated_at": "2026-04-23T23:22:20.699091",
+  "whoop": {
+    "imported": true,
+    "recovery": 55.0,
+    "hrv": 33.5,
+    "rhr": 53.0,
+    "sleep_perf": 77.0,
+    "strain": 4.5,
+    "sleep_hrs": 5.6,
+    "spo2": 96.1,
+    "skin_temp": 33.8,
+    "sleep_efficiency": 97.1,
+    "sleep_consistency": 58.0,
+    "respiratory_rate": 14.7,
+    "light_sleep_hrs": 2.7,
+    "deep_sleep_hrs": 1.8,
+    "rem_sleep_hrs": 1.1,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 4,
+    "disturbances": 6,
+    "sleep_needed_hrs": 7.7,
+    "sleep_debt_hrs": 1.9,
+    "calories": 1922,
+    "avg_hr": 59,
+    "max_hr": 124,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12609,
+    "resting_hr": 51.0,
+    "hrv": 58.49,
+    "sleep_hrs": 2.4,
+    "spo2": 96.17,
+    "respiratory_rate": 14.71,
+    "sleep_awake_hrs": 0.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling relaxed, my coughing has been decreaseing over the day but its also true I wasnt speaking much, slowly getting better its weird I had elevated heart beat\n\ntraveling back 20 hours in total phew, everything went smooth and very lucky to be here safe without any issues, watched 3 diaries of CEO\nbloating 5/10, considering the plane and all its normal \n\nSlovenia",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
