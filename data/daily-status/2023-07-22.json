@@ -1,0 +1,24 @@
+{
+  "date": "2023-07-22",
+  "generated_at": "2026-04-23T23:02:23.013690",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15746,
+    "resting_hr": 57.0,
+    "hrv": 48.98
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Not a good night sleep I mean I am missing sleep in morning I was dead asleep but just could not sleep I have no idea why, my boniko is a bit hurting but ok\nWoke up super early\nCould not sleep but did meditation but was not focused\nGym\nFeeling really depressed - this pills are not the best influence\nAfter pizza and ice cream - i was sleeping and got super hot in the morning no idea what was that\nBreakfast\nWe swam and did some supping\nThen laying outside was cold\nLunch time in the place was nice "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
