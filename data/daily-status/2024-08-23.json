@@ -1,0 +1,30 @@
+{
+  "date": "2024-08-23",
+  "generated_at": "2026-04-23T23:10:49.574411",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10162,
+    "resting_hr": 56.0,
+    "hrv": 55.63,
+    "daylight_mins": 72.0,
+    "spo2": 97.83
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "All ok\nKinda ok, lets see after all this funny food i ate in flor de mais",
+    "supplements_list": [
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
