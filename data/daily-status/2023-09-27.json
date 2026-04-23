@@ -1,0 +1,27 @@
+{
+  "date": "2023-09-27",
+  "generated_at": "2026-04-23T23:03:46.747876",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29984,
+    "resting_hr": 58.0,
+    "hrv": 78.07,
+    "daylight_mins": 198.0,
+    "vo2max": 42.43,
+    "spo2": 96.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept too little like 6.5 hours not more, my neck hurted in the morning - so weird\nMedicofit\nWoke up at 7:05 - sleep wasnt great as I was completely woken up by the concert and laud music\nBreakfast \nJpm meeting\nPaid a thing\nMeeting with Scatter Kings guys\n5th element - was Okeyish\nMeeting with Sandi\nMeeting with Filip simon Djorde\nPlayed with cat\nCosita made a good lunchy\nWalkie to the castle with cosita we went for horchata in Patron, read book\nImportant is to relax in the evening, and reading "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
