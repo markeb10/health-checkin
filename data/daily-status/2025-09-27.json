@@ -1,0 +1,64 @@
+{
+  "date": "2025-09-27",
+  "generated_at": "2026-04-23T23:19:09.705260",
+  "whoop": {
+    "imported": true,
+    "recovery": 65.0,
+    "hrv": 33.3,
+    "rhr": 52.0,
+    "sleep_perf": 88.0,
+    "strain": 14.9,
+    "sleep_hrs": 7.0,
+    "spo2": 95.7,
+    "skin_temp": 34.1,
+    "sleep_efficiency": 90.3,
+    "sleep_consistency": 93.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 2.2,
+    "deep_sleep_hrs": 2.5,
+    "rem_sleep_hrs": 2.3,
+    "awake_hrs": 0.8,
+    "sleep_cycles": 7,
+    "disturbances": 8,
+    "sleep_needed_hrs": 9.1,
+    "sleep_debt_hrs": 1.2,
+    "calories": 2391,
+    "avg_hr": 72,
+    "max_hr": 160,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 650,
+        "avg_hr": 123,
+        "max_hr": 160
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27189,
+    "resting_hr": 58.0,
+    "hrv": 60.82,
+    "sleep_hrs": 7.3,
+    "daylight_mins": 112.0,
+    "spo2": 96.12,
+    "respiratory_rate": 13.42,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Such a different morning from day before like wowza, was doing much better at paddle, feeling greatful for being here in this hotel its absolutely how a luxury hotel should look like this is insane. ll\nmy pain in lower bottom part still exists, and with ostepoat today he tried to release some stuff but lets see, I mean hip did go a bit better trough time, but tomorrow will exercise a bit more so we will see. Bloating 7/10 - ate like a kid haha",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2,
+    "bloating": 7
+  },
+  "zoe": {
+    "imported": false
+  }
+}
