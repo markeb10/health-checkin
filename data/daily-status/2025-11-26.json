@@ -1,0 +1,74 @@
+{
+  "date": "2025-11-26",
+  "generated_at": "2026-04-23T23:20:22.855867",
+  "whoop": {
+    "imported": true,
+    "recovery": 82.0,
+    "hrv": 42.8,
+    "rhr": 50.0,
+    "sleep_perf": 86.0,
+    "strain": 13.8,
+    "sleep_hrs": 6.8,
+    "spo2": 93.0,
+    "skin_temp": 33.8,
+    "sleep_efficiency": 90.4,
+    "sleep_consistency": 87.0,
+    "respiratory_rate": 13.6,
+    "light_sleep_hrs": 3.2,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.5,
+    "awake_hrs": 0.7,
+    "sleep_cycles": 7,
+    "disturbances": 7,
+    "sleep_needed_hrs": 8.9,
+    "sleep_debt_hrs": 0.9,
+    "calories": 2130,
+    "avg_hr": 66,
+    "max_hr": 190,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 97,
+        "avg_hr": 103,
+        "max_hr": 125
+      },
+      {
+        "sport": "HIIT",
+        "calories": 335,
+        "avg_hr": 131,
+        "max_hr": 181
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17589,
+    "resting_hr": 53.0,
+    "hrv": 61.15,
+    "sleep_hrs": 6.8,
+    "daylight_mins": 40.0,
+    "vo2max": 41.27,
+    "spo2": 96.0,
+    "respiratory_rate": 15.2,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 4,
+    "journal": "feeling good, in the morning very sharp, in general phyiscally good as well, slept a bit not so tight at least thats how I felt waking up a lot but overall okey, the effect wore down by evening and my body was sleepy\nbloating 4/10 (i blame it on the dry plums in the chocolate but it could be also a lot of pasta)",
+    "supplements_list": [
+      "CoQ10",
+      "Curcumin",
+      "Multivitamin",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
