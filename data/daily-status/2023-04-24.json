@@ -1,0 +1,30 @@
+{
+  "date": "2023-04-24",
+  "generated_at": "2026-04-23T23:00:32.961479",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29804,
+    "resting_hr": 60.0,
+    "hrv": 51.04,
+    "weight_kg": 73.518,
+    "sleep_hrs": 7.0,
+    "body_fat_pct": 0.15,
+    "bmi": 25.14,
+    "vo2max": 41.11,
+    "respiratory_rate": 13.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Really bad sleep my heart was pumping I could hear my heart beat, my leg was warm radiating the pain - not good\nMilica training - was okey considering I could barely normally walk - she stretched me as well which helped\nInterview with Brandon - was getting mixed messages but maybe is ok\nContent meeting\nMeeting with Filip and Artur we played Betfurry and it was interesting they have done something super smart 100 spins of value 0.4 eur. We could totally copy that. \nWas very slow whole day\nCosita "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
