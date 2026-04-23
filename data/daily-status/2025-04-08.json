@@ -1,0 +1,30 @@
+{
+  "date": "2025-04-08",
+  "generated_at": "2026-04-23T23:15:36.189361",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 3169,
+    "resting_hr": 57.0,
+    "hrv": 47.41,
+    "daylight_mins": 27.0,
+    "spo2": 96.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling relatively okey, i am really relaxed after not doing any sports, my body seems to be getting better for sure, been taking enteros gel\nLow bloating",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
