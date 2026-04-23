@@ -1,0 +1,57 @@
+{
+  "date": "2025-12-20",
+  "generated_at": "2026-04-23T23:20:52.321915",
+  "whoop": {
+    "imported": true,
+    "recovery": 74.0,
+    "hrv": 36.2,
+    "rhr": 50.0,
+    "sleep_perf": 72.0,
+    "strain": 6.0,
+    "sleep_hrs": 5.7,
+    "spo2": 97.2,
+    "skin_temp": 34.5,
+    "sleep_efficiency": 85.0,
+    "sleep_consistency": 62.0,
+    "respiratory_rate": 13.9,
+    "light_sleep_hrs": 2.6,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.0,
+    "awake_hrs": 1.0,
+    "sleep_cycles": 4,
+    "disturbances": 5,
+    "sleep_needed_hrs": 8.5,
+    "sleep_debt_hrs": 2.1,
+    "calories": 1886,
+    "avg_hr": 62,
+    "max_hr": 143,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 6819,
+    "resting_hr": 52.5,
+    "hrv": 55.7,
+    "sleep_hrs": 5.7,
+    "spo2": 97.02,
+    "respiratory_rate": 13.89,
+    "sleep_awake_hrs": 1.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Good day, payed our guys and some stuff around, breakfast, loong flight, super bad seat, listened to podcasts and watched 2 cartoons and a vide, was good, but damn this 11 hour flights are no joke, compression socks for sure helped\nbloating to the max on the plan 9/10, was quite annoying but otherwise it was okeyx1",
+    "supplements_list": [
+      "Ruporut",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 9
+  },
+  "zoe": {
+    "imported": false
+  }
+}
