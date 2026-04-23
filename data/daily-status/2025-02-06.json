@@ -1,0 +1,27 @@
+{
+  "date": "2025-02-06",
+  "generated_at": "2026-04-23T23:14:20.218170",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 8621,
+    "resting_hr": 61.0,
+    "hrv": 70.33,
+    "daylight_mins": 87.0,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 0,
+    "journal": "Fewling tired could not sleep more than 5am - consequence of quercentin\nMedium bloating, was not violent but it was spreaded out",
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
