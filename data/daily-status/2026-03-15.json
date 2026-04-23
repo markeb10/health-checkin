@@ -1,6 +1,6 @@
 {
   "date": "2026-03-15",
-  "generated_at": "2026-04-14T23:46:46.945250",
+  "generated_at": "2026-04-23T23:22:38.076536",
   "whoop": {
     "imported": true,
     "recovery": 64.0,
@@ -26,6 +26,12 @@
     "avg_hr": 65,
     "max_hr": 150,
     "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
       {
         "sport": "HIIT",
         "calories": 222,
