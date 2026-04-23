@@ -1,0 +1,28 @@
+{
+  "date": "2023-05-14",
+  "generated_at": "2026-04-23T23:00:57.964509",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19771,
+    "resting_hr": 58.0,
+    "hrv": 61.39,
+    "weight_kg": 74.431,
+    "body_fat_pct": 0.16,
+    "bmi": 25.52,
+    "vo2max": 40.03
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Not feeling good today, feeling a bit weird in my throat and lungs, didnt sleep properly as well, almost feels my body is adjusting to this\nWoke up at 3am panicking fear worry and no meditation helped\nDid streching exercises from Heiko\nBreakfast walkie\nWatched a movie Dungeons and Dragons \ud83d\udc09 \nSpent day in bed sweating and resting recovering \u2764\ufe0f\u200d\ud83e\ude79 \nTook two lemon balm pills\nRead book U\u010dbenik \u017eivljenja - it was on my night stand for some time now - i finished it reading i cant believe it - this book"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
