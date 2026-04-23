@@ -1,0 +1,31 @@
+{
+  "date": "2025-01-22",
+  "generated_at": "2026-04-23T23:14:00.347343",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17215,
+    "resting_hr": 59.0,
+    "hrv": 68.45,
+    "daylight_mins": 12.0,
+    "spo2": 98.2,
+    "respiratory_rate": 18.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Was okey in the morning and during the day but later got really sleep around 10. Super tired.\nBloated a lot in the evening",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
