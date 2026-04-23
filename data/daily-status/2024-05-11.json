@@ -1,0 +1,37 @@
+{
+  "date": "2024-05-11",
+  "generated_at": "2026-04-23T23:08:34.761829",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 53685,
+    "resting_hr": 51.0,
+    "hrv": 74.87,
+    "sleep_hrs": 7.3,
+    "daylight_mins": 131.0,
+    "vo2max": 42.34,
+    "spo2": 100.0,
+    "respiratory_rate": 12.75,
+    "sleep_deep_hrs": 2.1,
+    "sleep_rem_hrs": 1.3,
+    "sleep_core_hrs": 3.8,
+    "sleep_awake_hrs": 2.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling good, in a good mood, playful, laughing, serotonin levels 7/10\n\nfeeling constipated a little since I didnt go to the toilet at all\nAfter peanut butter there was some tension, but it went away\n\ni felt pulse in my bellybutton in bed\n\napart from that rest of day was fine",
+    "supplements_list": [
+      "Magnesium"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
