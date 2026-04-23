@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-18",
+  "generated_at": "2026-04-23T23:05:29.752603",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9102,
+    "resting_hr": 59.0,
+    "hrv": 49.09,
+    "daylight_mins": 18.0,
+    "spo2": 99.67,
+    "respiratory_rate": 14.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was an interesting day, really starting to hate how my day can be so easily prolonged, need to not be available more than 6-7 pm thats it. Slept very little.\nWent around the house with Ric\nTai chi in morning and evening\nBreakfast was half prepared by ric had celery juice and daamn I was shitting whole day haha - will not have it tomorrow\nWent around with Tarique and his fiancee\nLots of issues still open - mostly stuff from last year as well but lots of good stuff\nJpm meeting content meeting\nBeen"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
