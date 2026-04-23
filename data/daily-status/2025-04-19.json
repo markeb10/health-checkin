@@ -1,0 +1,36 @@
+{
+  "date": "2025-04-19",
+  "generated_at": "2026-04-23T23:15:48.814633",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21578,
+    "resting_hr": 58.0,
+    "hrv": 51.68,
+    "daylight_mins": 47.0,
+    "spo2": 97.36
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 7,
+    "journal": "Feeling really good, for first time I was able to make an app that I wanted wirhout breaking my head what a feeling this is - amazinf\nVery low bloating",
+    "supplements_list": [
+      "DAO",
+      "Electrolytes",
+      "Enterosgel",
+      "Ginger",
+      "Omega-3",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
