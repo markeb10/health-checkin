@@ -1,0 +1,65 @@
+{
+  "date": "2026-01-10",
+  "generated_at": "2026-04-23T23:21:17.944241",
+  "whoop": {
+    "imported": true,
+    "recovery": 61.0,
+    "hrv": 33.9,
+    "rhr": 49.0,
+    "sleep_perf": 90.0,
+    "strain": 11.7,
+    "sleep_hrs": 7.8,
+    "spo2": 94.6,
+    "skin_temp": 34.3,
+    "sleep_efficiency": 96.8,
+    "sleep_consistency": 85.0,
+    "respiratory_rate": 13.7,
+    "light_sleep_hrs": 3.3,
+    "deep_sleep_hrs": 2.3,
+    "rem_sleep_hrs": 2.2,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 8,
+    "disturbances": 2,
+    "sleep_needed_hrs": 8.8,
+    "sleep_debt_hrs": 0.9,
+    "calories": 1973,
+    "avg_hr": 63,
+    "max_hr": 183,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 164,
+        "avg_hr": 147,
+        "max_hr": 183
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11405,
+    "resting_hr": 50.5,
+    "hrv": 65.55,
+    "sleep_hrs": 7.8,
+    "spo2": 97.26,
+    "respiratory_rate": 13.65,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 3,
+    "journal": "Feeling really good, high energy in the morning slept good, surprisignly - went to bed relatively late but still\nbloating is 2/10",
+    "supplements_list": [
+      "Curcumin",
+      "Probiotic",
+      "Vitamin C"
+    ],
+    "anxiety": 8,
+    "bloating": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
