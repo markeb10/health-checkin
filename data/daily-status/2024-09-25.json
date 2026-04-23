@@ -1,0 +1,33 @@
+{
+  "date": "2024-09-25",
+  "generated_at": "2026-04-23T23:11:30.594817",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25194,
+    "resting_hr": 59.0,
+    "hrv": 54.89,
+    "daylight_mins": 271.0,
+    "spo2": 96.75,
+    "respiratory_rate": 16.07
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 3,
+    "journal": "Felt nervous, like too little sleep but also too nervous to fall back asleep, was definitely too alerted to rest - even today no yawning in evening which is really a bad sign - its like something alerts me and then I need to get sometjing to get me back\nWas ok, my gut was wowking and a bit bloated",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
