@@ -1,0 +1,27 @@
+{
+  "date": "2024-01-29",
+  "generated_at": "2026-04-23T23:06:23.677586",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21039,
+    "resting_hr": 53.0,
+    "hrv": 58.76,
+    "daylight_mins": 69.0,
+    "vo2max": 40.0,
+    "spo2": 100.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Good sleep, eventhough not too long, but good felt sleepy at night also felt sleepy in evening today\nTai chi\nWoke up at 6 and relaxed\nWent to Paul - he gave me bunch of exercises - interesting for fingers - he recorded on video\nKris - was good too not too much needling \nHelge - wasnt too painful - shockwave on the arms - will first fix my legs - building foundation - move like a manekeen move the hips more left and right\nDr Alam was good fall asleep was relaxing my lower back, i double checked e"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
