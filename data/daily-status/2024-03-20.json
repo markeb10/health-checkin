@@ -1,0 +1,27 @@
+{
+  "date": "2024-03-20",
+  "generated_at": "2026-04-23T23:07:28.910516",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 35474,
+    "resting_hr": 52.0,
+    "hrv": 62.25,
+    "daylight_mins": 116.0,
+    "vo2max": 41.11,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was waking up but managed to fall asleep, was sleeping long\nSlept long 7:30\nRowing 10 min tai chi meeting\nMore leg exercises \nMeeting account managers + breakfast (delayed to 12 like yesterday)\nScatter Kings \nLunch was good and not too much\nMeeting with Emma she seemed good\nWent for a walk\nBooked hotel for Miguel and the team\nSpoken to my dad\nUsed hypervolt massaging my neck from rowing hehe\nPhysically feeling good, its ok to have few kg too much but I think I will fix this and grow some muscles"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
