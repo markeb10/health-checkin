@@ -1,0 +1,65 @@
+{
+  "date": "2025-11-16",
+  "generated_at": "2026-04-23T23:20:10.576544",
+  "whoop": {
+    "imported": true,
+    "recovery": 49.0,
+    "hrv": 34.8,
+    "rhr": 50.0,
+    "sleep_perf": 91.0,
+    "strain": 12.8,
+    "sleep_hrs": 7.5,
+    "spo2": 95.0,
+    "skin_temp": 33.6,
+    "sleep_efficiency": 92.8,
+    "sleep_consistency": 92.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 3.8,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 8,
+    "disturbances": 5,
+    "sleep_needed_hrs": 8.8,
+    "sleep_debt_hrs": 1.1,
+    "calories": 2075,
+    "avg_hr": 68,
+    "max_hr": 178,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 114,
+        "avg_hr": 107,
+        "max_hr": 172
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13664,
+    "resting_hr": 56.0,
+    "hrv": 46.14,
+    "sleep_hrs": 7.5,
+    "daylight_mins": 54.0,
+    "spo2": 96.2,
+    "respiratory_rate": 13.44,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling great whole day, apart from the evening when i got too stressed for the game between jannik and carlos haha, need to not forget to breathe i think thats my problem - maybe I need some breath reminder, otherwise cool day swam in the sea and enjoyed the day easy sunday as we say\nall good , bloating 3/10",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
