@@ -1,0 +1,31 @@
+{
+  "date": "2024-08-22",
+  "generated_at": "2026-04-23T23:10:48.270104",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 36047,
+    "resting_hr": 52.0,
+    "hrv": 60.04,
+    "daylight_mins": 208.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 2,
+    "journal": "Felt amazing in morning but then after 2 started being super tired, otherwise was good\nSome pain here and there",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
