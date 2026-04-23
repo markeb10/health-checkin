@@ -1,0 +1,28 @@
+{
+  "date": "2023-10-09",
+  "generated_at": "2026-04-23T23:04:01.517167",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 44368,
+    "resting_hr": 53.0,
+    "hrv": 85.5,
+    "daylight_mins": 258.0,
+    "vo2max": 41.95,
+    "spo2": 94.0,
+    "respiratory_rate": 15.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept until 6:30 so another 7.5 hours day which is great, my mind was a bit jumping left and right, I need more willpower to keep it together\nSlept good, without cosita in bed she slept in another room, ideally this will happen in new apt too that I will be able to sleep in different room Easy posture exercises\nBreakfast\nWalk in park with cosita was super nice \ud83d\ude0a \nPacking to go back\nMet with Denis and also with Miran\nDrive back to Ljubljana\nWe went for lunch to Altroke - was very good - potatoes "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
