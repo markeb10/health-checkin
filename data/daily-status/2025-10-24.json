@@ -1,0 +1,73 @@
+{
+  "date": "2025-10-24",
+  "generated_at": "2026-04-23T23:19:41.948067",
+  "whoop": {
+    "imported": true,
+    "recovery": 67.0,
+    "hrv": 35.7,
+    "rhr": 50.0,
+    "sleep_perf": 87.0,
+    "strain": 9.2,
+    "sleep_hrs": 6.7,
+    "spo2": 96.4,
+    "skin_temp": 33.5,
+    "sleep_efficiency": 89.1,
+    "sleep_consistency": 94.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 3.7,
+    "deep_sleep_hrs": 1.9,
+    "rem_sleep_hrs": 1.1,
+    "awake_hrs": 0.8,
+    "sleep_cycles": 7,
+    "disturbances": 5,
+    "sleep_needed_hrs": 8.4,
+    "sleep_debt_hrs": 0.7,
+    "calories": 1839,
+    "avg_hr": 63,
+    "max_hr": 142,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 49,
+        "avg_hr": 98,
+        "max_hr": 113
+      },
+      {
+        "sport": "HIIT",
+        "calories": 171,
+        "avg_hr": 103,
+        "max_hr": 142
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20304,
+    "resting_hr": 51.0,
+    "hrv": 62.81,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 58.0,
+    "bp_systolic": 112.3,
+    "bp_diastolic": 70.4,
+    "vo2max": 40.86,
+    "spo2": 97.64,
+    "respiratory_rate": 13.4,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling good otherwise, was hiking and getting some day light was a nice day apart from that weird episode, a \u2026 i mean i dont know\u2026 we will probably need 100 years to get somewhere the way that things are going its so slow\n\napart from\n3/10 bloating wasnt too bad",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
