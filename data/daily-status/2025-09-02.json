@@ -1,0 +1,33 @@
+{
+  "date": "2025-09-02",
+  "generated_at": "2026-04-23T23:18:39.237122",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14963,
+    "resting_hr": 53.0,
+    "hrv": 50.64,
+    "daylight_mins": 174.0,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Pain in my right side of the stomach like sharp pain worse when j move or drive in a car\nnew pain unlocked, sementhicon or hibiscus kinda calmed it down until evening when i took another food\nBloating 2/10, was low",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Vitamin C"
+    ],
+    "anxiety": 8,
+    "bloating": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
