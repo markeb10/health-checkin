@@ -1,0 +1,39 @@
+{
+  "date": "2024-05-20",
+  "generated_at": "2026-04-23T23:08:46.015802",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 48668,
+    "resting_hr": 59.0,
+    "hrv": 59.5,
+    "sleep_hrs": 6.1,
+    "daylight_mins": 235.0,
+    "vo2max": 42.09,
+    "spo2": 95.75,
+    "respiratory_rate": 13.62,
+    "sleep_deep_hrs": 1.2,
+    "sleep_rem_hrs": 1.2,
+    "sleep_core_hrs": 3.7,
+    "sleep_awake_hrs": 1.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "In general feeling good, kinda weird I had 3 bowel movements today. \n\nfeeling a bit tired frobably Fixofenadin fault but the good news is I am sleepy in the evening so aim to fall asleep at 10. 9am is new 10am haha.\nBit worried about Toxaprevent - it cointains Magnezium Carobate 180 Mg and calcium carbonare on top of Manc (pulverised) + pills to swallow - also need to drink 0.6 l of liquid before bad might not be the best idea. I just hope it will let me sleep.\n- no changes all ok",
+    "supplements_list": [
+      "Toxaprevent",
+      "Vitamin C",
+      "Magnesium"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
