@@ -1,0 +1,69 @@
+{
+  "date": "2026-01-28",
+  "generated_at": "2026-04-23T23:21:40.788784",
+  "whoop": {
+    "imported": true,
+    "recovery": 59.0,
+    "hrv": 31.6,
+    "rhr": 51.0,
+    "sleep_perf": 84.0,
+    "strain": 10.7,
+    "sleep_hrs": 6.7,
+    "spo2": 92.4,
+    "skin_temp": 33.2,
+    "sleep_efficiency": 91.8,
+    "sleep_consistency": 85.0,
+    "respiratory_rate": 13.7,
+    "light_sleep_hrs": 3.2,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 5,
+    "disturbances": 6,
+    "sleep_needed_hrs": 9.3,
+    "sleep_debt_hrs": 1.4,
+    "calories": 1919,
+    "avg_hr": 65,
+    "max_hr": 157,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 238,
+        "avg_hr": 135,
+        "max_hr": 157
+      },
+      {
+        "sport": "Activity",
+        "calories": 120,
+        "avg_hr": 119,
+        "max_hr": 157
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11870,
+    "resting_hr": 52.5,
+    "hrv": 60.73,
+    "sleep_hrs": 8.2,
+    "spo2": 97.07,
+    "respiratory_rate": 13.71,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling a bit more under the weather I mean damn its been almost 5 days of sauna, its impressive how much I can take but also the cold plunges, today we got our energy burned with the meeting but we bounced back I feel, olle did the bread\nbloating 4/10 not too crazy eventhough I didnt had optimal lunch hehe",
+    "supplements_list": [
+      "Ruporut"
+    ],
+    "anxiety": 5,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
