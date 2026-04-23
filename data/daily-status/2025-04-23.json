@@ -1,0 +1,32 @@
+{
+  "date": "2025-04-23",
+  "generated_at": "2026-04-23T23:15:53.649678",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12083,
+    "resting_hr": 55.0,
+    "hrv": 78.71,
+    "daylight_mins": 92.0,
+    "spo2": 98.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling a bit under the stress but otherwise it was fine\nVery low bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
