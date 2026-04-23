@@ -1,0 +1,67 @@
+{
+  "date": "2026-01-07",
+  "generated_at": "2026-04-23T23:21:14.330830",
+  "whoop": {
+    "imported": true,
+    "recovery": 72.0,
+    "hrv": 36.0,
+    "rhr": 49.0,
+    "sleep_perf": 85.0,
+    "strain": 12.6,
+    "sleep_hrs": 7.7,
+    "spo2": 96.5,
+    "skin_temp": 34.3,
+    "sleep_efficiency": 93.1,
+    "sleep_consistency": 77.0,
+    "respiratory_rate": 13.8,
+    "light_sleep_hrs": 4.1,
+    "deep_sleep_hrs": 1.9,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 6,
+    "disturbances": 9,
+    "sleep_needed_hrs": 8.6,
+    "sleep_debt_hrs": 1.0,
+    "calories": 2190,
+    "avg_hr": 65,
+    "max_hr": 167,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 80,
+        "avg_hr": 115,
+        "max_hr": 140
+      },
+      {
+        "sport": "Activity",
+        "calories": 459,
+        "avg_hr": 123,
+        "max_hr": 167
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23009,
+    "resting_hr": 52.0,
+    "hrv": 65.86,
+    "sleep_hrs": 7.7,
+    "daylight_mins": 28.0,
+    "spo2": 97.08,
+    "respiratory_rate": 13.78,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Feeling good, late start but its okey, we will get there, need less scrolling also didnt help I had late meal but hey, dinner is dinner, I really liked the ping pong session today it was proper and I feel more alive after having cacao yesterday, might be my good drug haha, spoke to dobric as well\nfeeling some stomach cramps after eating, was weird - maybe coz i had lots. of vinegar who knows , bloating 1/10 but practically was 0. Still maintaining good level.",
+    "anxiety": 2,
+    "bloating": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
