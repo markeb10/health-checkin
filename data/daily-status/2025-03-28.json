@@ -1,0 +1,32 @@
+{
+  "date": "2025-03-28",
+  "generated_at": "2026-04-23T23:15:22.565184",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20325,
+    "resting_hr": 53.0,
+    "hrv": 58.21,
+    "daylight_mins": 38.0,
+    "spo2": 97.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling amazing after theraphy, so much more energy\nLow bloating, i dont feel thar bad actually but still after cake i was bloated",
+    "supplements_list": [
+      "Ashwagandha",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
