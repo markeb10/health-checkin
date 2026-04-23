@@ -1,0 +1,71 @@
+{
+  "date": "2025-11-14",
+  "generated_at": "2026-04-23T23:20:08.005812",
+  "whoop": {
+    "imported": true,
+    "recovery": 56.0,
+    "hrv": 37.4,
+    "rhr": 47.0,
+    "sleep_perf": 89.0,
+    "strain": 13.3,
+    "sleep_hrs": 6.9,
+    "spo2": 96.8,
+    "skin_temp": 33.7,
+    "sleep_efficiency": 95.5,
+    "sleep_consistency": 93.0,
+    "respiratory_rate": 12.7,
+    "light_sleep_hrs": 3.1,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 4,
+    "disturbances": 7,
+    "sleep_needed_hrs": 8.7,
+    "sleep_debt_hrs": 1.1,
+    "calories": 2160,
+    "avg_hr": 63,
+    "max_hr": 167,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 321,
+        "avg_hr": 120,
+        "max_hr": 165
+      },
+      {
+        "sport": "HIIT",
+        "calories": 232,
+        "avg_hr": 113,
+        "max_hr": 167
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14825,
+    "resting_hr": 50.0,
+    "hrv": 53.53,
+    "sleep_hrs": 6.9,
+    "daylight_mins": 35.0,
+    "spo2": 96.69,
+    "respiratory_rate": 12.66,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling weird, in the evening almost as I feel stuffed when sitting down like clogged, definitely started feeling this more after drinking this special drink need to ask chatgpt whats the heck is this, otherwise the day was great apart form minor pain in my knee, subtle but it was there\nso yeah feeling but feeling like i have some dull ache all the time almost as if I would have some ballon and if I sit down i feel it more, quite annoying - potencially problematic for something idk\u2026 lets monitor",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
