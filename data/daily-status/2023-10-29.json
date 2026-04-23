@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-29",
+  "generated_at": "2026-04-23T23:04:27.460305",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 35902,
+    "resting_hr": 54.0,
+    "hrv": 63.77,
+    "daylight_mins": 116.0,
+    "vo2max": 41.87,
+    "spo2": 97.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept good but woke up early - was a weird morning as clock moved - thats why I am sleepy in evening\nMorning walkie \nExercised - different exercises - my neck was a bit better today\nBreakfast dannys long time no dannys - was good\nWalkie from Spinola to Home - great temperature\nRead Headyway - subtle art of not giving a fuck\nSpoke to Sandi and told him about Malta apartment\nEvening walkie\nWas thinking about the party this year\nA bit melancholic due to being back to Malta I think partly due to war"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
