@@ -1,0 +1,28 @@
+{
+  "date": "2023-12-31",
+  "generated_at": "2026-04-23T23:05:45.658493",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34702,
+    "resting_hr": 63.5,
+    "hrv": 42.7,
+    "daylight_mins": 55.0,
+    "vo2max": 41.33,
+    "spo2": 96.0,
+    "respiratory_rate": 11.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Excellent end of the day, the start was a bit so so\nWoke up a bit cranky\nTai chi\nBreakfast\nPlayed pool and lost against domen, lost tetris against my sister - overall more games\nWe went with buggy to stores geant and spinneys we almost ran out of electricity\nCosita made a good lunch, was trying to resolve some issues\nWas in pool with kids \nNappy - felt a bit meditative\nGetting ready for party\nWe drove there with the driver\nDinner was really good - loved it \nMusic was amazing \nIt went relatively "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
