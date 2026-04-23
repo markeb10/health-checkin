@@ -1,0 +1,31 @@
+{
+  "date": "2025-03-19",
+  "generated_at": "2026-04-23T23:15:11.507377",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 32746,
+    "resting_hr": 62.0,
+    "hrv": 53.25,
+    "vo2max": 41.31,
+    "spo2": 96.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good during the day, feeling my body can enudre more\nEverything is okey more ornless",
+    "supplements_list": [
+      "Ashwagandha",
+      "Vitamin C"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
