@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-03",
+  "generated_at": "2026-04-23T23:18:01.560658",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27903,
+    "resting_hr": 53.0,
+    "hrv": 69.9,
+    "daylight_mins": 241.0,
+    "vo2max": 41.05,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 6,
+    "journal": "It was an amazing day, other wonderful, wonderful day spent in Isola. Just amazing walk from Belvedere to Isola, really enjoyed the whole coast and how big and spacious this space is, the views, the olive trees - it's mind-blowing. So I really liked. The highlight was meeting Bojan, who I haven't seen for like 30 years. For real.\nBloating is almost 6 or 7 out of 10, but it was mostly from 6 to 9 o'clock in the evening.",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Magnesium",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
