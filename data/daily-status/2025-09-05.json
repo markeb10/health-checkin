@@ -1,0 +1,82 @@
+{
+  "date": "2025-09-05",
+  "generated_at": "2026-04-23T23:18:42.891981",
+  "whoop": {
+    "imported": true,
+    "recovery": 48.0,
+    "hrv": 36.3,
+    "rhr": 52.0,
+    "sleep_perf": 91.0,
+    "strain": 7.9,
+    "sleep_hrs": 7.6,
+    "spo2": 93.9,
+    "skin_temp": 33.3,
+    "sleep_efficiency": 94.9,
+    "sleep_consistency": 0.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 3.6,
+    "deep_sleep_hrs": 2.5,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 5,
+    "disturbances": 8,
+    "sleep_needed_hrs": 8.1,
+    "sleep_debt_hrs": null,
+    "calories": 1719,
+    "avg_hr": 66,
+    "max_hr": 177,
+    "workouts": [
+      {
+        "sport": "Sport 243",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "HIIT",
+        "calories": 18,
+        "avg_hr": 91,
+        "max_hr": 103
+      },
+      {
+        "sport": "HIIT",
+        "calories": 163,
+        "avg_hr": 114,
+        "max_hr": 177
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28547,
+    "resting_hr": 54.0,
+    "hrv": 62.72,
+    "sleep_hrs": 7.4,
+    "daylight_mins": 114.0,
+    "vo2max": 41.6,
+    "spo2": 94.47,
+    "respiratory_rate": 13.53,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 6,
+    "journal": "Morning was pretty good due to ashwaganda and felt really at east. looks like this combo is working for relaxing for sure. Interesting how creatine is making my brain not being too sleepy which is good as I would get a bit of jittery effect after ashwa normally.\n\nin general the day has been quite relaxing and was good\nstomach was relatively okey unless i go into funny position like try to hug cosita - stomach is making some noises so we defintely have upseted it somehow.",
+    "supplements_list": [
+      "Ashwagandha",
+      "Creatine",
+      "Enterosgel",
+      "Glycine",
+      "Vitamin C",
+      "Vitamin K2"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
