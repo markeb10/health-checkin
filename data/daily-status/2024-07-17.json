@@ -1,0 +1,36 @@
+{
+  "date": "2024-07-17",
+  "generated_at": "2026-04-23T23:10:00.425366",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 57131,
+    "resting_hr": 59.0,
+    "hrv": 66.08,
+    "sleep_hrs": 6.4,
+    "daylight_mins": 214.0,
+    "spo2": 99.0,
+    "respiratory_rate": 13.38,
+    "sleep_deep_hrs": 1.7,
+    "sleep_rem_hrs": 1.4,
+    "sleep_core_hrs": 3.3,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "- felt ok after food, after protein shake i got bowel movement but it was like an hour or so later\nI feel more awake than yesterday and powerful . Maybe yesterday what made me super tired was a massage / who would know\nStomach seems to be making some noises and I felt full but so far ok",
+    "supplements_list": [
+      "Multivitamin"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
