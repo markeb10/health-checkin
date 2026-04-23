@@ -1,0 +1,82 @@
+{
+  "date": "2026-02-18",
+  "generated_at": "2026-04-23T23:22:06.882474",
+  "whoop": {
+    "imported": true,
+    "recovery": 39.0,
+    "hrv": 29.2,
+    "rhr": 54.0,
+    "sleep_perf": 83.0,
+    "strain": 15.3,
+    "sleep_hrs": 7.5,
+    "spo2": 91.8,
+    "skin_temp": 34.4,
+    "sleep_efficiency": 93.0,
+    "sleep_consistency": 80.0,
+    "respiratory_rate": 13.9,
+    "light_sleep_hrs": 4.2,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 6,
+    "disturbances": 6,
+    "sleep_needed_hrs": 9.7,
+    "sleep_debt_hrs": 1.6,
+    "calories": 2643,
+    "avg_hr": 73,
+    "max_hr": 162,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "Activity",
+        "calories": 468,
+        "avg_hr": 117,
+        "max_hr": 148
+      },
+      {
+        "sport": "Activity",
+        "calories": 486,
+        "avg_hr": 132,
+        "max_hr": 162
+      },
+      {
+        "sport": "Yoga",
+        "calories": 223,
+        "avg_hr": 116,
+        "max_hr": 162
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16044,
+    "resting_hr": 53.0,
+    "hrv": 62.06,
+    "sleep_hrs": 7.8,
+    "daylight_mins": 40.0,
+    "spo2": 95.3,
+    "respiratory_rate": 13.95,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling a bit depressed, and tired, i guess I had. abig stress yesterday and today as well, it was a physical stress but it was psychological as well when playing ping pong, but overall very cool, somehow managed to make it trouhg the day, biggest bugging was my leg ghot a bit better after the pool, so maybe just need to do some cooling in the pool, perhaps first thing in the morning throm myself in the pool haha, could kill day light and cooling in one go\nfeeling bloated, probably the food, spi",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
