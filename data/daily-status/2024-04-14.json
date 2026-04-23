@@ -1,0 +1,26 @@
+{
+  "date": "2024-04-14",
+  "generated_at": "2026-04-23T23:07:59.845546",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18076,
+    "resting_hr": 55.0,
+    "hrv": 64.44,
+    "daylight_mins": 184.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept for 4 hours, it was a rough day, tired zombi mostly as we had to catch an early flight\nEarly flight at 3am\nFlight to Franfurt\nWe watched 3 body problem\nIt took long time but we got eventually to Marrakech \nDid massage\nMy stomach was hurting\nRelatively relaxing day, was suffering a bit on plane but it was not too bad\nInspired by: marrocco seems like a nice country, very interesting\nDidn't like: that my stomach was hurting\nIdea: wait a little and potencially do treatment with anti acid pills"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
