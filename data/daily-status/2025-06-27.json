@@ -1,0 +1,32 @@
+{
+  "date": "2025-06-27",
+  "generated_at": "2026-04-23T23:17:15.897035",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20437,
+    "resting_hr": 60.0,
+    "hrv": 47.27,
+    "daylight_mins": 25.0,
+    "spo2": 96.89
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "It's an interesting day, so on one hand I have a lot of positive news, and on the other hand, there are some challenges. But in general, I was able to take on the day pretty well considering how poor my sleep was. I even had a little exercising session in the morning, and I feel like the morning walk (the half an hour without a phone) is also doing really good on my mental health. So keep on doing that.\nVery low bloating this is actually the most surprising. Today I had everything that I'm not s",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
