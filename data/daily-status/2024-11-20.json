@@ -1,0 +1,33 @@
+{
+  "date": "2024-11-20",
+  "generated_at": "2026-04-23T23:12:42.582582",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 41504,
+    "resting_hr": 64.0,
+    "hrv": 54.48,
+    "daylight_mins": 85.0,
+    "vo2max": 41.47,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling okey. Still coughing but taking honey, getting bit tummy aches not sure if its from this but yeah maybe\nHad pain, maybe honey or salmon and pasta to be blamed - had lots of farts right after lunch so that was weird one",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
