@@ -1,0 +1,32 @@
+{
+  "date": "2025-06-30",
+  "generated_at": "2026-04-23T23:17:19.661545",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 32252,
+    "resting_hr": 56.0,
+    "hrv": 54.02,
+    "daylight_mins": 157.0,
+    "vo2max": 40.51,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Super bloated, crazy one\u2026 i guess comvination of different meats and wverything and then that weird ice cream and all\nHuge bloatjng, was really not a joke",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
