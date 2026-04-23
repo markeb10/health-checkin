@@ -1,0 +1,74 @@
+{
+  "date": "2025-10-30",
+  "generated_at": "2026-04-23T23:19:49.201688",
+  "whoop": {
+    "imported": true,
+    "recovery": 68.0,
+    "hrv": 35.2,
+    "rhr": 50.0,
+    "sleep_perf": 88.0,
+    "strain": 9.1,
+    "sleep_hrs": 6.9,
+    "spo2": 96.5,
+    "skin_temp": 33.7,
+    "sleep_efficiency": 92.6,
+    "sleep_consistency": 93.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 3.4,
+    "deep_sleep_hrs": 2.5,
+    "rem_sleep_hrs": 1.0,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 6,
+    "disturbances": 15,
+    "sleep_needed_hrs": 8.8,
+    "sleep_debt_hrs": 1.1,
+    "calories": 1855,
+    "avg_hr": 63,
+    "max_hr": 171,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 100,
+        "avg_hr": 104,
+        "max_hr": 141
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20808,
+    "resting_hr": 51.0,
+    "hrv": 77.49,
+    "sleep_hrs": 6.9,
+    "daylight_mins": 26.0,
+    "vo2max": 40.64,
+    "spo2": 97.08,
+    "respiratory_rate": 14.73,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 4,
+    "journal": "Feeling nostalgic, but otherwise good, went down the rabbit hole with the phtoso form my old nokia, memories with matjaz simon,",
+    "supplements_list": [
+      "Curcumin",
+      "Electrolytes",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
