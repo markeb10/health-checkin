@@ -1,0 +1,37 @@
+{
+  "date": "2024-06-16",
+  "generated_at": "2026-04-23T23:09:20.313855",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 51559,
+    "resting_hr": 57.0,
+    "hrv": 57.03,
+    "sleep_hrs": 6.1,
+    "vo2max": 42.52,
+    "spo2": 98.0,
+    "respiratory_rate": 13.88,
+    "sleep_deep_hrs": 0.5,
+    "sleep_rem_hrs": 1.6,
+    "sleep_core_hrs": 4.0,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "- was tired whole day likely mayne also due to the hike\nDid a nice 1.5 hour hike with rep 230 m elevation\nI was feeling way too stuffed after watermelon - really didnt sit well with me - I am notsure if its really good for me - too much liquid, i felt some stuffiness but overall it was good, whole day I was craving sweets - need to overcome that",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
