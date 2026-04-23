@@ -1,0 +1,29 @@
+{
+  "date": "2024-06-10",
+  "generated_at": "2026-04-23T23:09:12.701588",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27089,
+    "resting_hr": 57.0,
+    "hrv": 57.99,
+    "daylight_mins": 178.0,
+    "vo2max": 41.98,
+    "spo2": 96.6,
+    "respiratory_rate": 17.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "A bit missing everyone and company. Kinda sucks\nAll good, little bloated in evening",
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
