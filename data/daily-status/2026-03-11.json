@@ -1,0 +1,81 @@
+{
+  "date": "2026-03-11",
+  "generated_at": "2026-04-23T23:22:33.259219",
+  "whoop": {
+    "imported": true,
+    "recovery": 85.0,
+    "hrv": 46.3,
+    "rhr": 51.0,
+    "sleep_perf": 85.0,
+    "strain": 8.6,
+    "sleep_hrs": 7.1,
+    "spo2": 96.7,
+    "skin_temp": 34.1,
+    "sleep_efficiency": 96.5,
+    "sleep_consistency": 90.0,
+    "respiratory_rate": 14.3,
+    "light_sleep_hrs": 2.5,
+    "deep_sleep_hrs": 2.6,
+    "rem_sleep_hrs": 1.9,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 5,
+    "disturbances": 13,
+    "sleep_needed_hrs": 9.9,
+    "sleep_debt_hrs": 2.1,
+    "calories": 1864,
+    "avg_hr": 65,
+    "max_hr": 146,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "Walking",
+        "calories": 267,
+        "avg_hr": 112,
+        "max_hr": 143
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14959,
+    "resting_hr": 53.5,
+    "hrv": 65.25,
+    "sleep_hrs": 6.8,
+    "spo2": 96.68,
+    "respiratory_rate": 14.3,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Feeling relatively okey but somehow slow, in the morning I felt under the weather my herpes is coming out in the nose, so thats not helping with my feel in the head, i guess its all connected\nFeeling a bit bloated but in general it was fine so 4/10",
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Open-faced Sardine and Cheese Sandwich with Ricotta",
+      "Bread with Ricotta Cheese and Cashew Nuts",
+      "Pork Chop with Grilled Radicchio and Mixed Salad",
+      "Cereal with Coconut",
+      "Fried Egg with Tomato and Cheese Open-Faced Sandwich"
+    ],
+    "meal_details": [],
+    "avg_score": 71.2,
+    "calories": 1726.0,
+    "protein_g": 105.7,
+    "fat_g": 101.2,
+    "carbs_g": 94.4,
+    "fibre_g": 22.0
+  }
+}
