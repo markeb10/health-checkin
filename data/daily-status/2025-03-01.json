@@ -1,0 +1,31 @@
+{
+  "date": "2025-03-01",
+  "generated_at": "2026-04-23T23:14:49.480051",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18171,
+    "resting_hr": 54.0,
+    "hrv": 50.74,
+    "vo2max": 41.36,
+    "spo2": 97.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Been really in positive spirit today, I feel I am slowly getting on right path, my mental health is good, I am getting good clarity, my mind is working and I am processing many things - peobably will need some meditation very soon but okey\nMedium bloating / low - consideting whar i ate is okeyish",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
