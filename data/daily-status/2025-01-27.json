@@ -1,0 +1,31 @@
+{
+  "date": "2025-01-27",
+  "generated_at": "2026-04-23T23:14:07.701829",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21661,
+    "resting_hr": 63.0,
+    "hrv": 76.41,
+    "daylight_mins": 20.0,
+    "spo2": 99.5,
+    "respiratory_rate": 17.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Its amazing after the protocol, will do it again just need to be careful with my right knee\n\nmental clarity was great, I was cooking today eventhough my brain power was not the best I was much more focused\nRed light theraphy joint protocol\n15 min 3 km run\ncold plunge\nActually was a bit problem in morning but later was good, maybe also helped I brushed my teeth after food",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
