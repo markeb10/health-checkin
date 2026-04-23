@@ -1,0 +1,59 @@
+{
+  "date": "2025-09-10",
+  "generated_at": "2026-04-23T23:18:48.960748",
+  "whoop": {
+    "imported": true,
+    "recovery": 68.0,
+    "hrv": 36.9,
+    "rhr": 50.0,
+    "sleep_perf": 88.0,
+    "strain": 9.1,
+    "sleep_hrs": 7.0,
+    "spo2": 97.9,
+    "skin_temp": 34.3,
+    "sleep_efficiency": 96.1,
+    "sleep_consistency": 92.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 3.2,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 7,
+    "disturbances": 10,
+    "sleep_needed_hrs": 8.8,
+    "sleep_debt_hrs": 1.2,
+    "calories": 1772,
+    "avg_hr": 63,
+    "max_hr": 181,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14060,
+    "resting_hr": 54.5,
+    "hrv": 52.96,
+    "sleep_hrs": 6.8,
+    "spo2": 99.22,
+    "respiratory_rate": 15.04,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling slow, my head hurts a lot in the morning, I feel its due to AC, my nose was blocked, something is off in this room seriously, and I think cosita has exactly the same problem, noticed that I am producing a lot of mucus after eating, didnt had this before, sauna is great love it, sitting in cankarjev dom is a nightmare for me, definitely not an enjoyable experience which I will have to skip probably\nFeeling all good, felt at some point pain around belly button it was gases probably \n\nBloat",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Vitamin C",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
