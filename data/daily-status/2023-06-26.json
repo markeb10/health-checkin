@@ -1,0 +1,27 @@
+{
+  "date": "2023-06-26",
+  "generated_at": "2026-04-23T23:01:50.904360",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16832,
+    "resting_hr": 65.0,
+    "hrv": 43.44,
+    "sleep_hrs": 14.3,
+    "respiratory_rate": 15.12,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Good day, less treatments more sea swimming and even going down in water, tried Access Bar theraphy for first time. satish\nMorning playn\nYoga\nTheraphy with Satish yoga master and healer\nSwim in the sea \ud83c\udf0a \nLunch in Turkish restaurant was great\nWe then had a siesta - and I had a access Bar therapy - I felt it was positive - she said there was a little gir 3-5 years that will bring me a lot of happiness - weird one \u261d\ufe0f \nWe swam\nDinner in steak house was great\nWatched the show it was really really go"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
