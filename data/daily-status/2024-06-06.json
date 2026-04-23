@@ -1,0 +1,38 @@
+{
+  "date": "2024-06-06",
+  "generated_at": "2026-04-23T23:09:07.563152",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 32848,
+    "resting_hr": 74.0,
+    "hrv": 52.48,
+    "sleep_hrs": 4.5,
+    "daylight_mins": 9.0,
+    "spo2": 98.0,
+    "respiratory_rate": 17.5,
+    "sleep_deep_hrs": 1.3,
+    "sleep_rem_hrs": 0.7,
+    "sleep_core_hrs": 2.5,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 3,
+    "journal": "Feeling pumped\nAcidity in my stomach when lying in bed in evening\nWas ok until i got acidity, water going tonbed late, maybe was propolis and water\n\n\n05.6.2024",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole",
+      "Propolis"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
