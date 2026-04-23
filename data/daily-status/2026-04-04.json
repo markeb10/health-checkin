@@ -1,6 +1,6 @@
 {
   "date": "2026-04-04",
-  "generated_at": "2026-04-23T23:00:19.621858",
+  "generated_at": "2026-04-23T23:15:16.818663",
   "whoop": {
     "imported": true,
     "recovery": 89.0,
@@ -43,6 +43,12 @@
         "calories": 195,
         "avg_hr": 121,
         "max_hr": 144
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
       }
     ]
   },

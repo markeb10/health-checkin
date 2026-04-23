@@ -1,0 +1,31 @@
+{
+  "date": "2025-03-23",
+  "generated_at": "2026-04-23T23:15:16.549991",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13175,
+    "resting_hr": 56.0,
+    "hrv": 68.43,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good energy whole day, interesting enough.\n\ncould be due to my regeneration or something else hard to say\nI ate a looot of sugar and didnt had problem with insane bloating just mid to low\nLow/medium bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Omega-3",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
