@@ -1,0 +1,27 @@
+{
+  "date": "2024-04-16",
+  "generated_at": "2026-04-23T23:08:02.604215",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30741,
+    "resting_hr": 60.0,
+    "hrv": 53.99,
+    "daylight_mins": 284.0,
+    "vo2max": 41.66,
+    "spo2": 95.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept for 7-8 hours was good\nWalkie\nGym exercises\nBreakfast\nMassage by famous masseuse Jimmy Jarnet was something else totally\nMeetings first for bms then for Brazilian project with Softswiss\nLunch was yummy  \nMeeting with Matheus and the guys and other guys Arthur and rest\nWalkie - made in total 12 km in a whole day\nReally cool day, totally had enough sleep, gym was easy since I have not been fo a while,\nInspired by: Jimmy Jaret\nDidnt like: that I are too much chicolate\nIdea: fully invest 12 M "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
