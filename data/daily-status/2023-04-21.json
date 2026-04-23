@@ -1,0 +1,26 @@
+{
+  "date": "2023-04-21",
+  "generated_at": "2026-04-23T23:00:29.371822",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20510,
+    "resting_hr": 61.0,
+    "hrv": 68.25,
+    "sleep_hrs": 7.5,
+    "respiratory_rate": 13.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Good sleep, was a bit short but ok. Bloating is a bit present but its not too bad. Second day of pills. Still taking carboEV as well. Massaging my pelvic area. Today seems to be more sensitive maybe coz I was sitting more also had legs which irritated that part more and she was pulling me.\nMilica workout \ud83c\udfcb\ufe0f\u200d\u2642\ufe0f legs day was challenging but not too bad - again part that suffered the most was my lower back\nWalkie talkie with bitstarz originals guys\nCall with polona\nMeeting with backend guys simon e"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
