@@ -1,0 +1,28 @@
+{
+  "date": "2023-06-04",
+  "generated_at": "2026-04-23T23:01:24.262401",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24265,
+    "resting_hr": 57.0,
+    "hrv": 60.47,
+    "weight_kg": 72.07,
+    "body_fat_pct": 0.13,
+    "bmi": 24.65,
+    "vo2max": 40.59
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Woke up at 6 again not sleeping good - i dont know what it is. My leg was twitching so I guess I am nervous or something but I dont sense it. Maybe coz I didnt use pillow to sleep with\nMilica gym \ud83c\udfcb\ufe0f\u200d\u2640\ufe0f\nWalkie 4 km\nCrm meeting\nCall with Tomi he has issues with depression - wanted to quit gave him some tips\nRed card for Damian\nSorting out changes for streamer launch \ud83d\ude80 Looks like they did not prepare some things properly\nPiggy bank functionality\nFunimalz\nMeeting MDO and he presented the quote omg 0"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
