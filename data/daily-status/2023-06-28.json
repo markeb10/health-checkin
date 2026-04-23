@@ -1,0 +1,26 @@
+{
+  "date": "2023-06-28",
+  "generated_at": "2026-04-23T23:01:53.381872",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27793,
+    "resting_hr": 62.0,
+    "hrv": 64.81,
+    "vo2max": 41.38,
+    "respiratory_rate": 15.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "What a day, started a bit weird I was not really feeling in the morning slept only until 6 was quite bad only 5 hours. But then ended with the best possible scenario\nSlept not much\nDecided to go on toast butter rice banana diet - fun fact I feel pretty good \ud83d\ude0a \nBreakfast with guys\nWorking together\nWalk to lunch\nMeeting devs in a Greek reataurant - \nWalk back\nOlle was shopping for suite\nTalkn\nCeremony AG awards - we freaking won \ud83e\udd47 \ud83e\udd2f\ud83e\udd2f\nEnded on a high note, was determined to fix things and to figure"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
