@@ -1,0 +1,70 @@
+{
+  "date": "2026-01-05",
+  "generated_at": "2026-04-23T23:21:11.859221",
+  "whoop": {
+    "imported": true,
+    "recovery": 43.0,
+    "hrv": 29.9,
+    "rhr": 50.0,
+    "sleep_perf": 75.0,
+    "strain": 12.9,
+    "sleep_hrs": 6.9,
+    "spo2": 95.0,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 95.7,
+    "sleep_consistency": 39.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 4.1,
+    "deep_sleep_hrs": 1.8,
+    "rem_sleep_hrs": 1.0,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 5,
+    "disturbances": 9,
+    "sleep_needed_hrs": 8.6,
+    "sleep_debt_hrs": 0.7,
+    "calories": 2238,
+    "avg_hr": 68,
+    "max_hr": 167,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 42,
+        "avg_hr": 100,
+        "max_hr": 118
+      },
+      {
+        "sport": "Activity",
+        "calories": 469,
+        "avg_hr": 124,
+        "max_hr": 167
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 33676,
+    "resting_hr": 51.0,
+    "hrv": 86.24,
+    "sleep_hrs": 6.9,
+    "daylight_mins": 14.0,
+    "vo2max": 41.65,
+    "spo2": 96.6,
+    "respiratory_rate": 13.48,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 1,
+    "journal": "Feeling amazing due to snow falling and everything seems to be falling into the place, lots of massages and social interaction and some sport as well so really nothing to complain about, just need to keep on doing exercises from Petra, the 4m guy lost most of it after 2 weeks this is some kind of miracle for sure\nGot some quick clearance of my gut after eating the lunch, it was either beef soup or the salad",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
