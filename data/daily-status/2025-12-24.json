@@ -1,0 +1,56 @@
+{
+  "date": "2025-12-24",
+  "generated_at": "2026-04-23T23:20:57.142927",
+  "whoop": {
+    "imported": true,
+    "recovery": 16.0,
+    "hrv": 26.7,
+    "rhr": 64.0,
+    "sleep_perf": 67.0,
+    "strain": 5.8,
+    "sleep_hrs": 7.0,
+    "spo2": 95.1,
+    "skin_temp": 35.2,
+    "sleep_efficiency": 92.7,
+    "sleep_consistency": 77.0,
+    "respiratory_rate": 16.1,
+    "light_sleep_hrs": 3.7,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 7,
+    "disturbances": 11,
+    "sleep_needed_hrs": 9.4,
+    "sleep_debt_hrs": 1.5,
+    "calories": 1847,
+    "avg_hr": 66,
+    "max_hr": 148,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 2477,
+    "resting_hr": 61.0,
+    "hrv": 47.73,
+    "sleep_hrs": 7.0,
+    "spo2": 95.51,
+    "respiratory_rate": 13.73,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 2,
+    "journal": "Was recovering from yesterday, chilling whole day in the room and not leaving or going anywhere. I mean thinking about it I always got some bug here for some reason lol.\n6/10 higher bloating, not sure why exactly maybe coz my body did a proper cleansing protocol yesterday hard to tell",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
