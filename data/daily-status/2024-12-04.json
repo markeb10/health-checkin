@@ -1,0 +1,32 @@
+{
+  "date": "2024-12-04",
+  "generated_at": "2026-04-23T23:12:59.870385",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9616,
+    "resting_hr": 57.0,
+    "hrv": 60.24,
+    "daylight_mins": 43.0,
+    "spo2": 95.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Slept until 5, then my stomach was going crazy - pulse was elevated\nGetting ready for the day\nFigured I want to first do another antibiotic cleansing and only then FMT\nShooting in Valletta with guys\nGot antibiotics from Malta doctor - god bless him\nShooting at the office\nWe traveled to Golden bay shot on the way in van\nWe then shot in Golden bay, and popped champaign and swam\nIts weird, pain moved up like now its in the stomach. Day was shooting time and it was great.\nInspired by: how easy the g",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic",
+      "Multivitamin",
+      "Collagen"
+    ]
+  },
+  "zoe": {
+    "imported": false
+  }
+}
