@@ -1,0 +1,61 @@
+{
+  "date": "2025-10-11",
+  "generated_at": "2026-04-23T23:19:26.433979",
+  "whoop": {
+    "imported": true,
+    "recovery": 78.0,
+    "hrv": 35.2,
+    "rhr": 49.0,
+    "sleep_perf": 91.0,
+    "strain": 10.5,
+    "sleep_hrs": 7.7,
+    "spo2": 94.8,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 92.3,
+    "sleep_consistency": 87.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 3.1,
+    "deep_sleep_hrs": 3.0,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.7,
+    "sleep_cycles": 7,
+    "disturbances": 14,
+    "sleep_needed_hrs": 8.7,
+    "sleep_debt_hrs": 1.0,
+    "calories": 1873,
+    "avg_hr": 64,
+    "max_hr": 158,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 59,
+        "avg_hr": 94,
+        "max_hr": 138
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 42544,
+    "resting_hr": 52.0,
+    "hrv": 64.78,
+    "sleep_hrs": 8.7,
+    "daylight_mins": 169.0,
+    "spo2": 94.42,
+    "respiratory_rate": 13.18,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Feeling good, just felt a bit pain in the morning when lashing out in text and dont like ignoring things but it feels like here I need to to cool down the situation for the better with chatn, \n\nLoving being in Izola, such a great place to come to and to hang out and just to be there and swim and soak up the sun.\nblaoting 4/10 \u2026 was surprisingly little bad effect considering I had ice cream, milky stuff but yeah I had them after big meals maybe that helped? i dont know could be, also breakfast, b",
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
