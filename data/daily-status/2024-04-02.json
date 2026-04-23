@@ -1,0 +1,27 @@
+{
+  "date": "2024-04-02",
+  "generated_at": "2026-04-23T23:07:44.965794",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34355,
+    "resting_hr": 52.0,
+    "hrv": 68.39,
+    "daylight_mins": 116.0,
+    "vo2max": 41.64,
+    "spo2": 96.17
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Jetlagged but otherwuse sleep was ok around 7 hours - trying to prolong a bit sleep today, had some cacao, chatn, fast paced walking with pulse over 120 for extended period of time\nEarly morning wake up 3:45 am jetlagged\nExercising stretching working with band and doing a mix of different exercises \n chatn for almost 1h\nBreakfast\nWalkie and talkie to my sister\nLunchy - Aubery was good sushi and wagyu are the stars\nWalkie and talkie to my Dad\nTried to work a bit - but always getting distracted my"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
