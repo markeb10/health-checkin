@@ -1,0 +1,32 @@
+{
+  "date": "2024-12-03",
+  "generated_at": "2026-04-23T23:12:58.688803",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20306,
+    "resting_hr": 59.0,
+    "hrv": 58.77,
+    "daylight_mins": 125.0,
+    "vo2max": 42.1,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling a bit empty at end of the day, lost a bit of energy, tomorrow I have the lymfatic massage and should refill again\n\nfeeling the relation with cosita not going the right direction we have a clash everytime when I work more\nFeeling ok, not super bloated",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
