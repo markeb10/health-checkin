@@ -1,0 +1,31 @@
+{
+  "date": "2023-12-16",
+  "generated_at": "2026-04-23T23:05:27.275928",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29317,
+    "resting_hr": 60.0,
+    "hrv": 64.71,
+    "sleep_hrs": 7.0,
+    "spo2": 97.0,
+    "respiratory_rate": 13.75,
+    "sleep_deep_hrs": 1.5,
+    "sleep_rem_hrs": 1.5,
+    "sleep_core_hrs": 4.0,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish, 7h, considering I went to bed super late this was good, lets see how it will be today since i ate lots of cacao, and sussage late\nTai chi\nFeticche and Brot shopping for my family\nDrive to Matjaz and Brigita\nBrigita made an amazing breakfast well done\nThen to my dad - Alenka cooked - but felt a bit rushed though still good\nGot a gift from Alenka the fan to heal my bone\nMy dad id good we spoke about different things, Vidko is super cute \nMe and dad went to Graveyard it was nice\nThen"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
