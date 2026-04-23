@@ -1,0 +1,31 @@
+{
+  "date": "2025-01-29",
+  "generated_at": "2026-04-23T23:14:10.230127",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25318,
+    "resting_hr": 59.0,
+    "hrv": 75.42,
+    "daylight_mins": 36.0,
+    "vo2max": 42.19,
+    "spo2": 98.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling good in general just in evening this bloating is weird. Started after eating ice cream then doing cold plunge pretty sure combo was not great\nFeeling bloating but only late evening",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
