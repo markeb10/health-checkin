@@ -1,0 +1,38 @@
+{
+  "date": "2024-07-16",
+  "generated_at": "2026-04-23T23:09:59.210319",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 44329,
+    "resting_hr": 55.0,
+    "hrv": 53.1,
+    "sleep_hrs": 6.8,
+    "daylight_mins": 90.0,
+    "vo2max": 44.1,
+    "spo2": 97.0,
+    "respiratory_rate": 14.31,
+    "sleep_deep_hrs": 1.0,
+    "sleep_rem_hrs": 1.8,
+    "sleep_core_hrs": 4.0,
+    "sleep_awake_hrs": 1.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good excited, after massage very relaxed, when Srki came almost sad we have nothing nice to talk about\nAll well except feeling a bit full still after eating so much food at 4:30 pm",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
