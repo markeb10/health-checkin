@@ -1,0 +1,33 @@
+{
+  "date": "2025-06-07",
+  "generated_at": "2026-04-23T23:16:50.161432",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13346,
+    "resting_hr": 53.0,
+    "hrv": 89.5,
+    "daylight_mins": 32.0,
+    "spo2": 94.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling relatively okeyish, super tired, i got very low pulse which maybe is kinda whats happening due to all the medications, and also this antibiotics , in genera good resting day\nLow / mid bloating",
+    "supplements_list": [
+      "Cefpodoxime",
+      "Celecoxib",
+      "Telfast",
+      "Vitamin C"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
