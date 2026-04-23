@@ -1,0 +1,56 @@
+{
+  "date": "2025-12-11",
+  "generated_at": "2026-04-23T23:20:41.307587",
+  "whoop": {
+    "imported": true,
+    "recovery": 29.0,
+    "hrv": 26.5,
+    "rhr": 53.0,
+    "sleep_perf": 75.0,
+    "strain": 9.2,
+    "sleep_hrs": 5.9,
+    "spo2": 97.2,
+    "skin_temp": 34.4,
+    "sleep_efficiency": 97.9,
+    "sleep_consistency": 77.0,
+    "respiratory_rate": 13.6,
+    "light_sleep_hrs": 3.4,
+    "deep_sleep_hrs": 1.7,
+    "rem_sleep_hrs": 0.9,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 4,
+    "disturbances": 4,
+    "sleep_needed_hrs": 9.7,
+    "sleep_debt_hrs": 1.1,
+    "calories": 1850,
+    "avg_hr": 66,
+    "max_hr": 151,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22152,
+    "resting_hr": 54.0,
+    "hrv": 62.69,
+    "sleep_hrs": 5.9,
+    "daylight_mins": 25.0,
+    "spo2": 95.91,
+    "respiratory_rate": 13.59,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 1,
+    "journal": "Really weird night, where I could not sleep more coz cosita was snoring but also at 5:30 there is something for me just cant sleep more, but my heart rate was super elevated, otherwise, the day was flowing fine, I got morning sun exposure which I felt was super imporatnt to get that super early on\nhuge blaoting on the plane had to go to toilet 3-4 times super gassy, but been noticing this in the last few days, dang \u2026 anyways so basically yeah 8/10 bloating\u2026 did get better after we landed though.",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
