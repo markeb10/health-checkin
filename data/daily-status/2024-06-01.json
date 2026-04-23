@@ -1,0 +1,40 @@
+{
+  "date": "2024-06-01",
+  "generated_at": "2026-04-23T23:09:01.099021",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 52313,
+    "resting_hr": 55.0,
+    "hrv": 50.65,
+    "sleep_hrs": 10.4,
+    "daylight_mins": 145.0,
+    "vo2max": 42.37,
+    "spo2": 90.0,
+    "respiratory_rate": 15.25,
+    "sleep_deep_hrs": 2.2,
+    "sleep_rem_hrs": 1.0,
+    "sleep_core_hrs": 7.1,
+    "sleep_awake_hrs": 2.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 4,
+    "journal": "Slept 6 h which was nice but my brain still tired\n\ngym was food overall feeling in  morning was good less pain in coccyx and slept more time on back\n\nstomach is fine\n\nin evning from 7pm-10pm experiencing masive bloating - potencial culprit maalox antacid making me bloated\nGenerally good workout day\nFelt not good after eating that spicy food - note to myself dont eat spicy at all",
+    "supplements_list": [
+      "Maalox",
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
