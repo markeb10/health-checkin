@@ -1,0 +1,27 @@
+{
+  "date": "2023-06-23",
+  "generated_at": "2026-04-23T23:01:47.234097",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20732,
+    "resting_hr": 58.0,
+    "hrv": 47.85,
+    "sleep_hrs": 6.8,
+    "vo2max": 41.29,
+    "respiratory_rate": 13.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Been sleeping okeyish, higher pillow was better for neck than super low one \u261d\ufe0f\nGym (didnt had time to meditate)\nSalaries time, reminders to all to post the invoice \ud83e\uddfe \nSpoke to both - too much haha\nMeeting with Filip and lawyer\nMeeting sean and joe for apartment at apartment\nWalkie in evening\nFinally paid everyone\nSushi lunch\nPacking time - summer migration is finally here - Joe and Sarah promised to do everything by end of October (my guess is 2-3 months delay), spoke to A clearly fear is losing"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
