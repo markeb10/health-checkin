@@ -1,0 +1,34 @@
+{
+  "date": "2024-10-13",
+  "generated_at": "2026-04-23T23:11:53.432681",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22638,
+    "resting_hr": 64.0,
+    "hrv": 50.55,
+    "daylight_mins": 82.0,
+    "spo2": 97.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Felt good, started in morning was in a good mood, loving free days like this, love spending time with my family and our guys\nBloating but I did eat some deserts",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
