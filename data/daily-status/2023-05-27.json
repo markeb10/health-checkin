@@ -1,0 +1,27 @@
+{
+  "date": "2023-05-27",
+  "generated_at": "2026-04-23T23:01:14.678675",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28482,
+    "resting_hr": 61.0,
+    "hrv": 67.23,
+    "weight_kg": 72.355,
+    "body_fat_pct": 0.16,
+    "bmi": 24.74
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was cool day, we walked from st julians, shopped there, I drank again the proteins was good, my hip hurts was putting ice, lets see if it will help\nLittle work in the morning\nDannys kitchen\nSent btc to JVC - lets get that party started\nWatched the night agent was good\nI have been researching concerts and finding agents to organize our concert - offspring\nWalkie - was in my mind replying to this new game - app - Senses - its got some cool ideas - feeling stronger down there\nWatched simpsons\nCosit"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
