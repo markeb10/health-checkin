@@ -1,0 +1,28 @@
+{
+  "date": "2023-05-29",
+  "generated_at": "2026-04-23T23:01:17.061415",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29656,
+    "resting_hr": 62.0,
+    "hrv": 48.93,
+    "weight_kg": 74.317,
+    "body_fat_pct": 0.18,
+    "bmi": 25.21,
+    "vo2max": 40.08
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "What an intense morning hehe\nMorning practice with senses \nGym was relatively easy - Milka is not good she really needs more sleep\nWas a bit nervous - talk with Cheral and sarah we still need to talk to Luke but this is quite crazy\nContent meeting\nHelping forming questions with chatgpt for survey\nChat with dad for new car EQS suv - zdravko will find it\nMassage - Thai lucky thai - lady was good\nWas st with A. Holy coz different postions standing is even better. \nWe got blackouts - yeey\nWas weird "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
