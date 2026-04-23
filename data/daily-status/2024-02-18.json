@@ -1,0 +1,26 @@
+{
+  "date": "2024-02-18",
+  "generated_at": "2026-04-23T23:06:48.932946",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30183,
+    "resting_hr": 54.0,
+    "hrv": 54.85,
+    "daylight_mins": 186.0,
+    "spo2": 96.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Really cool day, was enjoying the workout outside with cosita, lunch was also amazing was properly hungry therefore also properly ready for it.\nSaying goodbye from Olle - Alex left few hours earlier before him\nWorked a bit\nCosita and me had breakfast\nWe went around the house and showed to Ricardo some things he needs to take care of\nWas sleepy whole dsy\nWe exercised outside on the rug was cool, we brought weights and everything outside\nHillside - bosporous lunch was very good - we liked many thi"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
