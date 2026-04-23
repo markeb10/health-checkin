@@ -1,0 +1,27 @@
+{
+  "date": "2024-02-04",
+  "generated_at": "2026-04-23T23:06:31.331180",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 41079,
+    "resting_hr": 60.0,
+    "hrv": 59.63,
+    "daylight_mins": 167.0,
+    "vo2max": 39.56,
+    "spo2": 97.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept ok 8 h bit shallow at end\nWas sleeping for almost 8h\nTai chi\nExercised a hit with dumbbells m, worked on my balance\nWalk to manoel island and back\nRowing 5 min\nExercises from Milos this time on different leg so that left leg was triggering more the ball toward the leg\nBreakfast\nJoe came to check apartment water issue smelling\nPaying aed stuff  - plenty of it among others filip andrew\nInterview with bankea compliance\nWorked on new name for Myhold holdings - One click road or CastleRocket \nC"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
