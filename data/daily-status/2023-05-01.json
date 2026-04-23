@@ -1,0 +1,30 @@
+{
+  "date": "2023-05-01",
+  "generated_at": "2026-04-23T23:00:41.265726",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21556,
+    "resting_hr": 55.0,
+    "hrv": 53.73,
+    "weight_kg": 72.751,
+    "sleep_hrs": 8.2,
+    "body_fat_pct": 0.13,
+    "bmi": 24.88,
+    "vo2max": 40.55,
+    "respiratory_rate": 15.38
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Lots of excitement, cool day full of different activities\nWent to Abu Dhabi with private driver and big car - amc\nVisited the mosque was pretty cool place to see\nWent to ferrari world - we did some easy atteactions didnt go to nothing crazy\nWent in gocarting with guys we were pretty competetive and I won them all - kinda unexpected but ok\nWe did a little shoppign\nAte pizza\nDrive back\nPlayed Jenga uno stacko - was fun we all lost one time hehe\nSpied on neighbors doing some shady business\nPlayed p"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
