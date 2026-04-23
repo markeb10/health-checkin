@@ -1,0 +1,31 @@
+{
+  "date": "2025-07-04",
+  "generated_at": "2026-04-23T23:17:24.549444",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23125,
+    "resting_hr": 57.0,
+    "hrv": 60.72,
+    "daylight_mins": 138.0,
+    "spo2": 96.17
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "was a long day but I managed somehow, had a sugar crush or some problem stayinf awake around 5 pm after lunch, having pain in my sitting bones on plane, in general positive things are happening\nMorning high bloating - fine in evening - sticking to diet",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
