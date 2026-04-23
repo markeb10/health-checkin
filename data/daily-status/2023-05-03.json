@@ -1,0 +1,24 @@
+{
+  "date": "2023-05-03",
+  "generated_at": "2026-04-23T23:00:44.560109",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11941,
+    "resting_hr": 57.0,
+    "hrv": 70.27
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Sleep was relatively okeyish, lots of gasses again, not sure whats happening but probably need to stop with all intake of sugar\nStreched a bit\nWent to beach with guys and cosita ceasars palace\nWe got some sunbeds and swam, then lunch and swam more some drinks too\nWe went to practise golf a bit\nThen bomberman\nThen dubai mall - we seen fountain show was good andrea bocceli \nWe then ate pizza and waffle in timeout dubai\nPerfect Sunday - did lots of things and was quite nice, the only thing thats bo"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
