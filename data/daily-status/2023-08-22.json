@@ -1,0 +1,27 @@
+{
+  "date": "2023-08-22",
+  "generated_at": "2026-04-23T23:03:01.038147",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26951,
+    "resting_hr": 58.0,
+    "hrv": 54.4,
+    "weight_kg": 74.779,
+    "bmi": 25.57,
+    "vo2max": 39.31
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "I slept ok, was having some issues of sleeping on my back, was hurting but otherwise was nice AC was on so that was too cold\nGym\nBreakfast\nWorked a bit\nMeeting for new sign up \nLunchy at budha bowl was good Peanut stuff really good\nTreatment - Borneman apparently found a little hard element he stick the needle inside and it did crunch - he said it could be from ingrown hair\nBeen chatn only c\nSpoke to Sandi and Richard apparently all is ok, they have fixed fresh air supposedly I am still not sure"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
