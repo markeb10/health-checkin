@@ -1,0 +1,29 @@
+{
+  "date": "2024-11-07",
+  "generated_at": "2026-04-23T23:12:26.008711",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7153
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 4,
+    "journal": "Lots of meetings feeling nervous or better annoyed with some people, kinda weird - frustrated if they dont know some things - today I was in a mood to cut things from my life one of them was ann. Told her my help to her runs out in next 1 year.\nFeeling okey",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
