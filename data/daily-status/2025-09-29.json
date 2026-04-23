@@ -1,0 +1,65 @@
+{
+  "date": "2025-09-29",
+  "generated_at": "2026-04-23T23:19:12.117997",
+  "whoop": {
+    "imported": true,
+    "recovery": 63.0,
+    "hrv": 31.8,
+    "rhr": 54.0,
+    "sleep_perf": 85.0,
+    "strain": 15.0,
+    "sleep_hrs": 7.0,
+    "spo2": 96.9,
+    "skin_temp": 33.6,
+    "sleep_efficiency": 92.8,
+    "sleep_consistency": 85.0,
+    "respiratory_rate": 13.6,
+    "light_sleep_hrs": 3.0,
+    "deep_sleep_hrs": 2.3,
+    "rem_sleep_hrs": 1.8,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 7,
+    "disturbances": 8,
+    "sleep_needed_hrs": 9.3,
+    "sleep_debt_hrs": 0.9,
+    "calories": 2395,
+    "avg_hr": 72,
+    "max_hr": 179,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 719,
+        "avg_hr": 122,
+        "max_hr": 175
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21705,
+    "resting_hr": 57.0,
+    "hrv": 59.11,
+    "sleep_hrs": 6.4,
+    "daylight_mins": 151.0,
+    "spo2": 96.36,
+    "respiratory_rate": 13.63,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "feeling good, was a good day, the onyl thing that was stupid from me was eating so much cake, but okey it is what is its it bloated me super a lot\u2026 I was expecting baloons and nothing lol.",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
