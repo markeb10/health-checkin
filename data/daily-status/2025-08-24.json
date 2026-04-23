@@ -1,0 +1,34 @@
+{
+  "date": "2025-08-24",
+  "generated_at": "2026-04-23T23:18:28.200733",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 47366,
+    "resting_hr": 57.0,
+    "hrv": 61.41,
+    "daylight_mins": 209.0,
+    "vo2max": 40.35,
+    "spo2": 98.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling amazing in the morning, full of energy when walking on the beach with the sun risiing and warming me, this is like woooow next level.\n\nIn general a very nice sunday something that was sponteneous and pleasant.\nbloating 5/10 , bloating went up mostly after the bagel but mostly inand out burgher",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Lutein"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
