@@ -1,0 +1,33 @@
+{
+  "date": "2024-09-19",
+  "generated_at": "2026-04-23T23:11:23.203661",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26226,
+    "resting_hr": 57.0,
+    "hrv": 63.1,
+    "daylight_mins": 196.0,
+    "vo2max": 43.27,
+    "spo2": 98.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling a little bit stimulated whole day, didnt had issue with being tited after lunch, feels like great but jnsure what this means on 1 week period\nEverything ok except being gassy, expelling it a lot",
+    "supplements_list": [
+      "Collagen",
+      "Enterogerma",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
