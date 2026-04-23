@@ -1,0 +1,69 @@
+{
+  "date": "2026-01-09",
+  "generated_at": "2026-04-23T23:21:16.707289",
+  "whoop": {
+    "imported": true,
+    "recovery": 63.0,
+    "hrv": 34.6,
+    "rhr": 48.0,
+    "sleep_perf": 80.0,
+    "strain": 12.8,
+    "sleep_hrs": 6.2,
+    "spo2": 96.5,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 87.3,
+    "sleep_consistency": 75.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 2.9,
+    "deep_sleep_hrs": 2.3,
+    "rem_sleep_hrs": 1.0,
+    "awake_hrs": 0.9,
+    "sleep_cycles": 5,
+    "disturbances": 9,
+    "sleep_needed_hrs": 8.0,
+    "sleep_debt_hrs": 0.4,
+    "calories": 2287,
+    "avg_hr": 68,
+    "max_hr": 153,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 82,
+        "avg_hr": 116,
+        "max_hr": 141
+      },
+      {
+        "sport": "Walking",
+        "calories": 459,
+        "avg_hr": 113,
+        "max_hr": 144
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14935,
+    "resting_hr": 52.5,
+    "hrv": 60.43,
+    "sleep_hrs": 6.2,
+    "spo2": 96.47,
+    "respiratory_rate": 13.48,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling energetic after the session, truth to be told I was energetic coz I had cacao but still the session with matej and mateja went really good, really liked how they identified a potencial problem and how we channeled some of the stuff trought he head and then ended up in the stomach\nbloating in afeternoon 6/10 not sure what triggered this but yeah, could be the sandwich , but seems like dhiarea is still here.",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
