@@ -1,0 +1,32 @@
+{
+  "date": "2024-12-24",
+  "generated_at": "2026-04-23T23:13:24.543040",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13221,
+    "resting_hr": 63.0,
+    "hrv": 51.22,
+    "daylight_mins": 106.0,
+    "spo2": 97.0,
+    "respiratory_rate": 17.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling more pain i. Coccyx burns somehow even when i dont touch it thats definitely a problem\n\nnot sure if adem help here\nAll good actually",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
