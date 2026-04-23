@@ -1,0 +1,39 @@
+{
+  "date": "2024-07-02",
+  "generated_at": "2026-04-23T23:09:41.523859",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31993,
+    "resting_hr": 55.0,
+    "hrv": 48.8,
+    "sleep_hrs": 11.4,
+    "daylight_mins": 248.0,
+    "spo2": 98.4,
+    "respiratory_rate": 14.25,
+    "sleep_deep_hrs": 2.5,
+    "sleep_rem_hrs": 2.1,
+    "sleep_core_hrs": 6.7,
+    "sleep_awake_hrs": 2.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Been very slow on interactions, tired but somehow got better when we got back to Slo\n- still running hot on right side around 4-5 kinda weird\n- all is well",
+    "supplements_list": [
+      "Ashwagandha",
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
