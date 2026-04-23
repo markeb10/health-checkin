@@ -1,0 +1,33 @@
+{
+  "date": "2024-11-14",
+  "generated_at": "2026-04-23T23:12:35.048525",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18344,
+    "resting_hr": 59.0,
+    "hrv": 73.85,
+    "daylight_mins": 93.0,
+    "vo2max": 41.88,
+    "spo2": 95.5,
+    "respiratory_rate": 17.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Being healthier and fine, just feeling depressed a bit about my hair - seeing it thin in front but okey, I accept it\nFeeling surprisingly fine",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
