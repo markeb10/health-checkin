@@ -1,0 +1,77 @@
+{
+  "date": "2025-11-12",
+  "generated_at": "2026-04-23T23:20:05.420871",
+  "whoop": {
+    "imported": true,
+    "recovery": 90.0,
+    "hrv": 43.5,
+    "rhr": 48.0,
+    "sleep_perf": 89.0,
+    "strain": 8.5,
+    "sleep_hrs": 7.6,
+    "spo2": 95.1,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 89.9,
+    "sleep_consistency": 89.0,
+    "respiratory_rate": 12.9,
+    "light_sleep_hrs": 3.0,
+    "deep_sleep_hrs": 2.3,
+    "rem_sleep_hrs": 2.3,
+    "awake_hrs": 0.9,
+    "sleep_cycles": 8,
+    "disturbances": 5,
+    "sleep_needed_hrs": 9.2,
+    "sleep_debt_hrs": 1.3,
+    "calories": 1772,
+    "avg_hr": 62,
+    "max_hr": 166,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 26,
+        "avg_hr": 89,
+        "max_hr": 115
+      },
+      {
+        "sport": "HIIT",
+        "calories": 240,
+        "avg_hr": 108,
+        "max_hr": 166
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18897,
+    "resting_hr": 51.0,
+    "hrv": 74.62,
+    "sleep_hrs": 7.6,
+    "daylight_mins": 54.0,
+    "spo2": 97.19,
+    "respiratory_rate": 12.86,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good a bit like I have inflamed throat will brush my teethe today and need to stop picking my nose lol, otherwise good day, found my new chair I can sit in very comfortably and definitely its got something to it, also got a new racquet, interesting how the C and cucuming makes me feel good\nblaoting 3/10",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
