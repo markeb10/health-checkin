@@ -1,0 +1,31 @@
+{
+  "date": "2023-11-25",
+  "generated_at": "2026-04-23T23:05:01.079383",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25103,
+    "resting_hr": 53.0,
+    "hrv": 63.96,
+    "sleep_hrs": 2.5,
+    "daylight_mins": 45.0,
+    "vo2max": 40.51,
+    "spo2": 97.33,
+    "sleep_rem_hrs": 0.7,
+    "sleep_core_hrs": 1.8,
+    "sleep_awake_hrs": 1.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish but short as cacao was waking me up in the morning at 4 was forcing to sleep longer\nTai chi practise, brainstorming, grooming\nWent around the block was super windy and some rain\nBreakfast\nSalaries\nMeeting Bi guys sciacca - they liked it then again I am not sure \nSeen the church\nTested the wind\nWent home to complete salaries\nVisited Etienne, sad to see him go, but he gave me an amazing gift, back to the roots - mat alysha, and carolina was there we talked he showed me a bit what he "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
