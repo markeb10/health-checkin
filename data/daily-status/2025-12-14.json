@@ -1,0 +1,33 @@
+{
+  "date": "2025-12-14",
+  "generated_at": "2026-04-23T23:20:45.073072",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25575,
+    "resting_hr": 54.0,
+    "hrv": 48.35,
+    "sleep_hrs": 4.9,
+    "spo2": 95.95,
+    "respiratory_rate": 13.71,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Anniversary with cosita, was quite 17 years\u2026. like this is a lot one could even argue that this was too long, feeling painful in my boniko, had pains and aches when sittin on the plane for 2 hours, crazy bad\u2026 2 hours with easy jet is no bueno for sure, otherwise day went by well and we traveled smoothly\nBloating 3/10 was actually surprisingly low all considering\n\nBut the sitting pain was pretty big when in bed i felt it right on right spot and when sitting on left side. Its all connected so yeah",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
