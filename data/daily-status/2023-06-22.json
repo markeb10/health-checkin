@@ -1,0 +1,25 @@
+{
+  "date": "2023-06-22",
+  "generated_at": "2026-04-23T23:01:46.036906",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20269,
+    "resting_hr": 58.0,
+    "hrv": 52.04,
+    "vo2max": 41.11
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept until 6, was gassy a lot in morning ofc I was eating chicken wings before bed jesus haha \ud83d\ude02 but today after lunch practically nothing much much better but no detox today - perhaps giving it a break is not a bad thing\nWas not bloated anymore so much - funny didn\u2019t take any detox stuff\nDid take anti-allergy so I am pretty sure it must be connected somehow to inflammation or some food intolerance\nGym - was relatively easy\nMeeting with Ziga - not looking good - trying to find reasons for drop o"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
