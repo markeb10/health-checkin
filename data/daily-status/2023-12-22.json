@@ -1,0 +1,26 @@
+{
+  "date": "2023-12-22",
+  "generated_at": "2026-04-23T23:05:34.714779",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10687,
+    "resting_hr": 54.0,
+    "hrv": 89.69,
+    "daylight_mins": 59.0,
+    "spo2": 98.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Great day, productive - brought caro to tilal al gaf,\nTai chi morning\nSpent time with Richard breakfast\nWent to experience center Tilal Al was cool we picked one haha\nSetup the gifts\nJPM meeting\nWorking with Richard to setup the automation\nYearly end of the year call. I sent out the gifts to everyone. Was cool. People appreciated it. \nWorked more with richard setting up living room bedroom and the rest of rooms\nStomach was even better today, looks like I healed - I was bloated from obergine spre"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
