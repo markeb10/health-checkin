@@ -1,0 +1,32 @@
+{
+  "date": "2023-11-17",
+  "generated_at": "2026-04-23T23:04:51.389778",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 35516,
+    "resting_hr": 53.0,
+    "hrv": 69.31,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 82.0,
+    "spo2": 97.0,
+    "respiratory_rate": 14.88,
+    "sleep_deep_hrs": 1.4,
+    "sleep_rem_hrs": 1.4,
+    "sleep_core_hrs": 4.0,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept not so long only 6.5 hours - tomorrow morning will make some streching from Tom Morisson\nExercise - milos exercises\nBreakfast with Igor and Danil - they want to sell - lets see I have a feeling it will take time\nJpm meeting and on the sun\nMeeting with Tarique, Richard and Sandi\nMeeting with Bitstarz originals - I am pissed this is taking waay too long time\nPayments - trying to get some liquidity for Dubai\nCosita made a good lunchy meat and green goddess \nOrdered purifier but lets see maybe"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
