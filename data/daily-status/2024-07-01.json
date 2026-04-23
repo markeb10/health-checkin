@@ -1,0 +1,33 @@
+{
+  "date": "2024-07-01",
+  "generated_at": "2026-04-23T23:09:40.318953",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9323,
+    "resting_hr": 57.0,
+    "hrv": 62.57,
+    "daylight_mins": 155.0,
+    "spo2": 96.0,
+    "sleep_awake_hrs": 0.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 3,
+    "journal": "- bad sleep at night - waking up being hot - like something is not letting me sleep - probiotics probably \n- pain in lower back\n- did legs move outside\n- training only 1 hamstribg at the time\n- hanging 2x \n- was doing leg swings - my joints are making noise\nWas okey, but at night it feels like something is heating me - today I took probiotik a bit later so after exercise",
+    "supplements_list": [
+      "Probiotic",
+      "Multivitamin",
+      "Omeprazole"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
