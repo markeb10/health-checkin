@@ -1,0 +1,32 @@
+{
+  "date": "2024-07-06",
+  "generated_at": "2026-04-23T23:09:46.839491",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23796,
+    "resting_hr": 56.0,
+    "hrv": 57.18,
+    "daylight_mins": 227.0,
+    "vo2max": 44.39,
+    "spo2": 97.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 2,
+    "journal": "Feeling okey at first but then I felt tired no energy\nAll ok, I mean I am super bloated but its coming from the fruit",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
