@@ -1,0 +1,36 @@
+{
+  "date": "2025-07-10",
+  "generated_at": "2026-04-23T23:17:31.777171",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27866,
+    "resting_hr": 58.0,
+    "hrv": 59.25,
+    "daylight_mins": 100.0,
+    "vo2max": 41.46,
+    "spo2": 97.14
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 6,
+    "journal": "Feeling okeyish, sleepy in morning got up already at 6 could not sleep more , did delay the intake of D3 to be later in the day\nMedium/high bloating after lunch probably rice",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Vitamin D3+K2",
+      "Zinc"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
