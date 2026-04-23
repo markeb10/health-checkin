@@ -1,0 +1,38 @@
+{
+  "date": "2024-06-22",
+  "generated_at": "2026-04-23T23:09:29.246542",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30706,
+    "resting_hr": 53.0,
+    "hrv": 57.81,
+    "sleep_hrs": 6.4,
+    "daylight_mins": 186.0,
+    "spo2": 98.5,
+    "respiratory_rate": 13.0,
+    "sleep_deep_hrs": 1.1,
+    "sleep_rem_hrs": 1.3,
+    "sleep_core_hrs": 3.9,
+    "sleep_awake_hrs": 1.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "Not feeling super happynor excited, tired as ai didnt sleep that well\nTook aswaghanda",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
