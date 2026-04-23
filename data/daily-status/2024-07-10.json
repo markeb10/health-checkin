@@ -1,0 +1,38 @@
+{
+  "date": "2024-07-10",
+  "generated_at": "2026-04-23T23:09:51.746894",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 39148,
+    "resting_hr": 56.0,
+    "hrv": 54.39,
+    "sleep_hrs": 6.2,
+    "daylight_mins": 222.0,
+    "spo2": 97.0,
+    "respiratory_rate": 13.25,
+    "sleep_deep_hrs": 1.4,
+    "sleep_rem_hrs": 1.7,
+    "sleep_core_hrs": 3.1,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling bad knowing my docs and all could be potencially lost, on the other hand I can get my ID relatively fast and replace the cards as well - probably not the same number but ok - i would not change it\nI choose to receive the wallet back but not be emotionally attached or upset bout it\nEverything was ok today - no fruits and emoprazol",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
