@@ -1,0 +1,27 @@
+{
+  "date": "2024-04-19",
+  "generated_at": "2026-04-23T23:08:06.526994",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26757,
+    "resting_hr": 56.0,
+    "hrv": 75.05,
+    "daylight_mins": 358.0,
+    "vo2max": 41.96,
+    "spo2": 97.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept so so, had to pea like every night here in morocco, woke up and was trying to fall asleep\nWalkie and meeting with Filip and Dimitar working on figma BMS\nBreakfast with cosita - made this amazing desert with vanilla cream, little Nutella and pancake omg this shit is just out of this world\nMeeting further with bi guys and simon and frontend on BMS topic\nMeeting with filip and dimitar again we have been working more\nLunchy\nWorking wirh filip and dimitar more\nDinner time with cosita Lingling -"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
