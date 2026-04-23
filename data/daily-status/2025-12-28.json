@@ -1,0 +1,73 @@
+{
+  "date": "2025-12-28",
+  "generated_at": "2026-04-23T23:21:02.065582",
+  "whoop": {
+    "imported": true,
+    "recovery": 67.0,
+    "hrv": 34.8,
+    "rhr": 50.0,
+    "sleep_perf": 87.0,
+    "strain": 14.3,
+    "sleep_hrs": 7.5,
+    "spo2": 91.8,
+    "skin_temp": 34.1,
+    "sleep_efficiency": 94.7,
+    "sleep_consistency": 84.0,
+    "respiratory_rate": 13.9,
+    "light_sleep_hrs": 3.8,
+    "deep_sleep_hrs": 1.8,
+    "rem_sleep_hrs": 1.9,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 7,
+    "disturbances": 8,
+    "sleep_needed_hrs": 8.9,
+    "sleep_debt_hrs": 1.1,
+    "calories": 2445,
+    "avg_hr": 71,
+    "max_hr": 159,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 59,
+        "avg_hr": 101,
+        "max_hr": 146
+      },
+      {
+        "sport": "HIIT",
+        "calories": 337,
+        "avg_hr": 118,
+        "max_hr": 152
+      },
+      {
+        "sport": "Activity",
+        "calories": 344,
+        "avg_hr": 124,
+        "max_hr": 149
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31623,
+    "resting_hr": 52.5,
+    "hrv": 55.81,
+    "sleep_hrs": 7.5,
+    "daylight_mins": 94.0,
+    "spo2": 95.29,
+    "respiratory_rate": 13.92,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 0,
+    "journal": "Feeling good, slept well and tight, didnt need to visit the toilet in the middle of the night, hrv was so so but my sleep is finally under 1 hour (my sleep dept), was playing okey ping pong I feel could be better but thats fine, its always hard also with the wind but it goes both ways anyways. Cool rock concert\nbloating 4/10 - two proper ones but rest was fine, considering how much sweet I ate this is not that bad haha, lets see how this will go its a compounding effect",
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
