@@ -1,0 +1,29 @@
+{
+  "date": "2023-04-27",
+  "generated_at": "2026-04-23T23:00:36.485065",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28629,
+    "resting_hr": 58.0,
+    "hrv": 62.23,
+    "weight_kg": 72.984,
+    "sleep_hrs": 6.1,
+    "body_fat_pct": 0.13,
+    "bmi": 24.96,
+    "respiratory_rate": 13.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept until 4 looks like my magic number - lets see if I can improve this had chomamile tea and didnt take probiotics I am firm believer thats an issue\nWoke up at 4 \nMeditation all 3 haha\nSent email to London clinic for coccyx \nZiva training was easy we were doing hands today\nShort walkie\nMore emails to Germany for the clinic in L\u00fcbeck - they are checking when they will have time for me\nLondon couldn\u2019t open MRI but lets see\nCrm meeting\nFunimalz meeting\nCosita made fishy she was in a good mood to"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
