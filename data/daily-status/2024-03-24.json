@@ -1,0 +1,27 @@
+{
+  "date": "2024-03-24",
+  "generated_at": "2026-04-23T23:07:33.839172",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23337,
+    "resting_hr": 58.0,
+    "hrv": 60.13,
+    "daylight_mins": 32.0,
+    "vo2max": 40.84,
+    "spo2": 95.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was trying to prolong sleep, kinda worked, my heart was not too crazy\nFinally filled out the medical questionary for hair\nStretched a bit\nContract for tarique with help of Sandi\nPaid Richard\nTai chi\nRowing for 5 min \nDid some leg exercises - i hate that they dont have my machine\nBreakfast late around 12 almost\nWent to thaisty truck cosita got the tea - man the thai lady is soo simpatic - what a lucky guy that dude - \nWalkie and talked to my dad his neck is still not ok will go to doctor\nGreat we"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
