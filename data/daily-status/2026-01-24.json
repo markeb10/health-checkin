@@ -1,0 +1,61 @@
+{
+  "date": "2026-01-24",
+  "generated_at": "2026-04-23T23:21:35.834844",
+  "whoop": {
+    "imported": true,
+    "recovery": 66.0,
+    "hrv": 34.9,
+    "rhr": 50.0,
+    "sleep_perf": 79.0,
+    "strain": 10.0,
+    "sleep_hrs": 7.6,
+    "spo2": 96.3,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 97.7,
+    "sleep_consistency": 55.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 4.1,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.3,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 7,
+    "disturbances": 5,
+    "sleep_needed_hrs": 9.0,
+    "sleep_debt_hrs": 1.1,
+    "calories": 1912,
+    "avg_hr": 66,
+    "max_hr": 150,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 199,
+        "avg_hr": 122,
+        "max_hr": 150
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15307,
+    "resting_hr": 54.0,
+    "hrv": 55.07,
+    "sleep_hrs": 8.5,
+    "daylight_mins": 20.0,
+    "spo2": 97.43,
+    "respiratory_rate": 13.21,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Feeling relatively good in the morning apart from my hip hurting, so I needed to do something there some exercises some flossing lets see if it will get better , amazing day, games games games and good food, I am beyound greatful for this experience that I can spend time with my friends like this\nbloating level 4/10",
+    "anxiety": 5,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
