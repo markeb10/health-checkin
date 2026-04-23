@@ -1,0 +1,36 @@
+{
+  "date": "2024-07-03",
+  "generated_at": "2026-04-23T23:09:43.069544",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 45487,
+    "resting_hr": 55.0,
+    "hrv": 57.13,
+    "sleep_hrs": 0.8,
+    "daylight_mins": 133.0,
+    "spo2": 96.25,
+    "sleep_deep_hrs": 0.6,
+    "sleep_core_hrs": 0.2,
+    "sleep_awake_hrs": 0.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 3,
+    "journal": "- feeling tired\nBoniko feel was ok, I am doing some mammal exercises before sleep\nAll good",
+    "supplements_list": [
+      "Ashwagandha",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
