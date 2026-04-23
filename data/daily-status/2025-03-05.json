@@ -1,0 +1,31 @@
+{
+  "date": "2025-03-05",
+  "generated_at": "2026-04-23T23:14:54.361414",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13090,
+    "resting_hr": 55.0,
+    "hrv": 51.32,
+    "spo2": 98.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Felt really weird, bit gloomy - almost like I really have enough of everything - alergic to my work but yeah, its coming from inside really\nlow bloating",
+    "supplements_list": [
+      "Berberine",
+      "Ginger",
+      "Vitamin C"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
