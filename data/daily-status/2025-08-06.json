@@ -1,0 +1,35 @@
+{
+  "date": "2025-08-06",
+  "generated_at": "2026-04-23T23:18:06.255854",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15210,
+    "resting_hr": 59.0,
+    "hrv": 51.82,
+    "daylight_mins": 196.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 6,
+    "journal": "Today I'm feeling good, it was a bit weird at night, like I didn't feel that deep sleep. I guess might have been creatine that affected this. So today I didn't take creatine, but what's interesting is that my mind actually is faster, a little bit, and I feel more myself. Definitely creatine has some benefits, and in low doses it does have good use. \n\nI should definitely try it again, maybe tomorrow just to take a cram in the morning.\n4/10 bloating",
+    "supplements_list": [
+      "Collagen",
+      "Creatine",
+      "Enterosgel",
+      "Glycine",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
