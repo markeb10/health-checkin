@@ -1,0 +1,32 @@
+{
+  "date": "2024-08-18",
+  "generated_at": "2026-04-23T23:10:42.889065",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14616,
+    "resting_hr": 51.0,
+    "hrv": 55.93,
+    "daylight_mins": 78.0,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling ok in morning but later on was horrible, I was barely moving and super tired\nHardly looking / so sleepy\nEverything is ok with my stomach",
+    "supplements_list": [
+      "Enterosgel",
+      "Immune Action",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
