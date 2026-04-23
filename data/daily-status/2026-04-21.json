@@ -1,6 +1,6 @@
 {
   "date": "2026-04-21",
-  "generated_at": "2026-04-23T23:45:50.748306",
+  "generated_at": "2026-04-24T00:00:52.293819",
   "whoop": {
     "imported": true,
     "recovery": 75.0,
@@ -60,7 +60,7 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 8,
+    "mood": 5,
     "energy": 5,
     "sleep_quality": 8,
     "supplements": 3,
@@ -85,7 +85,10 @@
         "unit": ""
       }
     ],
-    "anxiety": 0
+    "energy_afternoon": 5,
+    "energy_evening": 5,
+    "anxiety": 1,
+    "bloating": 0
   },
   "zoe": {
     "imported": true,
