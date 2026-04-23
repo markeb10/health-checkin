@@ -1,0 +1,64 @@
+{
+  "date": "2026-01-11",
+  "generated_at": "2026-04-23T23:21:19.218012",
+  "whoop": {
+    "imported": true,
+    "recovery": 67.0,
+    "hrv": 35.7,
+    "rhr": 47.0,
+    "sleep_perf": 85.0,
+    "strain": 7.8,
+    "sleep_hrs": 6.4,
+    "spo2": 95.8,
+    "skin_temp": 34.3,
+    "sleep_efficiency": 95.9,
+    "sleep_consistency": 84.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 2.2,
+    "deep_sleep_hrs": 2.6,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 6,
+    "disturbances": 7,
+    "sleep_needed_hrs": 8.4,
+    "sleep_debt_hrs": 0.6,
+    "calories": 1665,
+    "avg_hr": 62,
+    "max_hr": 165,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 99,
+        "avg_hr": 103,
+        "max_hr": 165
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19224,
+    "resting_hr": 51.0,
+    "hrv": 68.04,
+    "sleep_hrs": 6.4,
+    "daylight_mins": 12.0,
+    "spo2": 97.79,
+    "respiratory_rate": 13.4,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 2,
+    "journal": "Was an amazing day, sun, snow, cosita, good spirits, being present , nice energy, just being cold but okey, spontanues trip to bled\u2026 love it\nwas bloated before during the day but after the bowl movement almost watery one I was not bloated anymore\n\n2/10",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
