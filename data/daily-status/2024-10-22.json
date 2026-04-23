@@ -1,0 +1,35 @@
+{
+  "date": "2024-10-22",
+  "generated_at": "2026-04-23T23:12:06.167602",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31178,
+    "resting_hr": 60.0,
+    "hrv": 65.95,
+    "daylight_mins": 64.0,
+    "vo2max": 41.32,
+    "spo2": 95.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "all is well, feeling bloated after sausage and bread and sauer craut\nTesting if I can eat sauer craut - was just a little\nEverything ok apart from bloating",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
