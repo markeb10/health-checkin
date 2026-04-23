@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-21",
+  "generated_at": "2026-04-23T23:04:16.714152",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27838,
+    "resting_hr": 51.0,
+    "hrv": 50.16,
+    "daylight_mins": 34.0,
+    "vo2max": 41.23,
+    "spo2": 97.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Sleeping good until 7 you can tell I am chronically missing some sleep, regeneration will be better too, the Uncle Lojze dream wow - what a thing I was crying like a baby\nEasy morning - was really vividly dreaming Na\u010deloma ne razlagam svojih sanj okoli ampak tole me je pa \u010dist sezul.Torej, v sanjah sm stal pred hi\u0161o v budni vasi in razmi\u0161ljal da je tolk veliko skor kuker vila v Dubaju. Gledal sem jo od zunaj in se je zdele ful velika. Da bi zmeril koliko m2 ima sm zmeril tko s koraki un del ob c"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
