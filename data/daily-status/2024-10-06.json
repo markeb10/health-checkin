@@ -1,0 +1,33 @@
+{
+  "date": "2024-10-06",
+  "generated_at": "2026-04-23T23:11:44.522989",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31341,
+    "resting_hr": 55.0,
+    "hrv": 62.84,
+    "daylight_mins": 179.0,
+    "vo2max": 42.12,
+    "spo2": 96.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "Felt really hot during night, cant understand whats happening - need to stop taking ruporut I think this is kot good\nHad some weird tension when i was walking and losing my breath",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
