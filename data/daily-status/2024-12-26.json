@@ -1,0 +1,31 @@
+{
+  "date": "2024-12-26",
+  "generated_at": "2026-04-23T23:13:26.930111",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9872,
+    "resting_hr": 58.0,
+    "hrv": 54.4,
+    "daylight_mins": 90.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling greatfulness for experiencing show and seeing it live and on vid but at the same time super eager to see it live\nNo problems",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
