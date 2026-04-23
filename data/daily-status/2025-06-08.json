@@ -1,0 +1,32 @@
+{
+  "date": "2025-06-08",
+  "generated_at": "2026-04-23T23:16:51.360772",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26473,
+    "resting_hr": 51.0,
+    "hrv": 65.51,
+    "daylight_mins": 76.0,
+    "spo2": 97.17
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling better, i was meditating in morning, doing health healing session, I am strong and healthy\u2026\n\nits definitely getting better, I feel my flow have regained strenght actually - or at least its recovering, seems like\n\nconsideing whar I ate today bloating is very low I feel, probably due to being on antibioticks and keeping general inflamations to low in my body\nAll good there",
+    "supplements_list": [
+      "Cefpodoxime",
+      "Celecoxib",
+      "Rifaximin"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
