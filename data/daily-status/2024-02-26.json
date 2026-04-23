@@ -1,0 +1,26 @@
+{
+  "date": "2024-02-26",
+  "generated_at": "2026-04-23T23:06:59.147196",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15893,
+    "resting_hr": 60.0,
+    "hrv": 60.27,
+    "daylight_mins": 6.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was relatively ok sleep but short, definitely you could tell I was a little nervous\nBreakfast \nPacking\nTravel to airport - off to Mahe\nThen Seychelles\nWatched Airplane! And Hot shots 1\nGot sim card from Cable and wire telecommunication company\nMy boniko hurt a lot dueing whole day and even now in bed is quite painful - not sure what spiked it so much\nWe got into presidential apt and it was out of this world the nature at Preislin is soo beautiful\nWe went for a dinner and the flavours were out of"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
