@@ -1,0 +1,26 @@
+{
+  "date": "2024-01-28",
+  "generated_at": "2026-04-23T23:06:21.226747",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24397,
+    "resting_hr": 59.0,
+    "hrv": 54.85,
+    "daylight_mins": 171.0,
+    "spo2": 94.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Too short sleep, did meditation in the morning - was a bit scattered with my mind\nTai chi\nWoke up at 6 after 6 hours of sleep - just couldn\u2019t sleep more\nBreakfast\nWe went with bugy and Alvaro Paro to fetch eggs\nWe played pool, I played prince of persia - trying to kill 2 sargon at the same tome of me its really difficult\nBeat caros dad in pool\nPlayed tetris \nWe went to souk we ate at Ushna - good as always\nWe walked around the proceed to Dubai Creek was nice no wind and nice sunset\nAte the frenc"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
