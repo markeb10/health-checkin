@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-15",
+  "generated_at": "2026-04-23T23:18:17.258203",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31032,
+    "resting_hr": 58.0,
+    "hrv": 81.94,
+    "daylight_mins": 140.0,
+    "vo2max": 39.53,
+    "spo2": 95.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 6,
+    "journal": "Feeling weird from morning, in the morning I felt being squeezed maybe its from ltheanin its hard to say but yeah\nbacked up, pain 5 cm from stomach a bit more up on left side. But also I feel pain and being backed up when i am eating a lot. Gotta be connected with the way I am digesting food. Took iberogast",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "L-Theanine",
+      "Lutein",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
