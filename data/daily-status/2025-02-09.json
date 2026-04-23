@@ -1,0 +1,31 @@
+{
+  "date": "2025-02-09",
+  "generated_at": "2026-04-23T23:14:24.009322",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7177,
+    "resting_hr": 50.0,
+    "hrv": 75.35,
+    "daylight_mins": 65.0,
+    "spo2": 99.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "8 hours of sleep, felt my brains a bit foggy\nBreakfast\nRed light\nWorked a bit\nEnjoyed outside a bit our pool area\nDid Pilates with Filip\nPreparation procedure for my colonoscopy\nWatched black dove\nPilates with Filip was interesting - I think he liked it - also prep for colonoscopy went okey no issues\nInspired by: my digestion system taking it very well the whole prep situation\nDidnt like: that my boniko was hurting today more than usual\nIdea: buy a cadillac solution of the pilates machine\n\n[Goog",
+    "supplements_list": [
+      "Electrolytes",
+      "Magnesium"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
