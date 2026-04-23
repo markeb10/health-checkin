@@ -1,0 +1,31 @@
+{
+  "date": "2025-04-02",
+  "generated_at": "2026-04-23T23:15:29.001235",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 42766,
+    "resting_hr": 56.0,
+    "hrv": 66.22,
+    "daylight_mins": 132.0,
+    "vo2max": 40.91,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling good, happy that there is speing in the air, i do ear chocolate every day haha, I dont eat olive oil or any d vitamin, interesting enough , could be i am just calm from herpes\nFeeling okey low bloating, pain when pooping",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
