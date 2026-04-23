@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-25",
+  "generated_at": "2026-04-23T23:14:05.150564",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14091,
+    "hrv": 54.52,
+    "daylight_mins": 87.0,
+    "spo2": 98.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "6 hours of sleep - kinda okey, but feeling tired whole day\nAchille exercises\nBreakfast\nWe spoke about improvements and cashy\nNew ideas\nBeing calm \nIndiba machine - was okey - got lots of tests - will do them all by next Saturday 100% \nTashcas lunch was very good\nWalkie - was a weird one but okey\nPlaying darts tetris\nResearching the Zinc Carnosine and omega - researching it properly and finding a good option for me triglycerides and enteric\nFeeling tired whole day, really need something else, may",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
