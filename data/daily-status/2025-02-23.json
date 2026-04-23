@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-23",
+  "generated_at": "2026-04-23T23:14:41.245341",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21668,
+    "resting_hr": 59.0,
+    "hrv": 65.09,
+    "spo2": 92.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling great today, specially after jumping in the cold water was fun, we had a family moment at the table playing Uno was really incredible\nFelt weird sensations but it was after milky stuff",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
