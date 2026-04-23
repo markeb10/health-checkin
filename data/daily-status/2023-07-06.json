@@ -1,0 +1,26 @@
+{
+  "date": "2023-07-06",
+  "generated_at": "2026-04-23T23:02:03.154450",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24951,
+    "resting_hr": 53.0,
+    "hrv": 66.77,
+    "vo2max": 41.25,
+    "respiratory_rate": 14.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was a very calm and productive day well at least a lot of meetings but also work on myself which is important, self discovery\nMeditation\nNway back\nMeeting with Nicholas and Richard (austrian guy for loxone) - intro meeting\nAlex meeting theraphy - we came to the point of fear - the fear is the one that is limiting me\nAccounting managers meeting\nScatter kings meeting\nLunchy by cosita, did several tasks of replying to slack and some emails\nMeeting with Strike was a bit underwhrlming i mean she has "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
