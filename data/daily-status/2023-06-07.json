@@ -1,0 +1,27 @@
+{
+  "date": "2023-06-07",
+  "generated_at": "2026-04-23T23:01:27.747900",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12813,
+    "resting_hr": 55.0,
+    "hrv": 55.24,
+    "sleep_hrs": 7.8,
+    "vo2max": 40.63,
+    "respiratory_rate": 15.38
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Better sleep, I managed to sleep longer on my back, but now with todays massage I erased a lot of good stuff - damn it\nChatn - no cm\nBrot goodies but only ate at 3\nCrm meeting\nInterview went good - girl seems to be great - tomorrow we need to give her an offer\nUltrasound didnt go trough - they were delayed too much\nMedicofit - Marko was great he measured me and all - my left leg is weaker in some movements\nLunchy home rice , my belly is better\nDidnt take allergy pill today\nShivani massage - was "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
