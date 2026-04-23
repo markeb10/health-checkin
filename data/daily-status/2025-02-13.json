@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-13",
+  "generated_at": "2026-04-23T23:14:29.071934",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10926,
+    "resting_hr": 57.0,
+    "hrv": 69.43,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 2,
+    "journal": "Feeling angry jealous in the mornjng Olle is the name , not sure whats happening.\nLow bloating - almoat none",
+    "supplements_list": [
+      "Multivitamin",
+      "Zinc Carnosine"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
