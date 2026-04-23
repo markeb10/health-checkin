@@ -1,0 +1,67 @@
+{
+  "date": "2025-10-18",
+  "generated_at": "2026-04-23T23:19:34.824732",
+  "whoop": {
+    "imported": true,
+    "recovery": 75.0,
+    "hrv": 33.5,
+    "rhr": 50.0,
+    "sleep_perf": 88.0,
+    "strain": 6.1,
+    "sleep_hrs": 7.6,
+    "spo2": 98.0,
+    "skin_temp": 34.5,
+    "sleep_efficiency": 91.9,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 13.6,
+    "light_sleep_hrs": 3.8,
+    "deep_sleep_hrs": 2.5,
+    "rem_sleep_hrs": 1.3,
+    "awake_hrs": 0.7,
+    "sleep_cycles": 8,
+    "disturbances": 5,
+    "sleep_needed_hrs": 8.6,
+    "sleep_debt_hrs": 1.0,
+    "calories": 1675,
+    "avg_hr": 62,
+    "max_hr": 126,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16116,
+    "resting_hr": 51.5,
+    "hrv": 70.91,
+    "sleep_hrs": 6.5,
+    "daylight_mins": 33.0,
+    "bp_systolic": 108.0,
+    "bp_diastolic": 65.5,
+    "spo2": 98.03,
+    "respiratory_rate": 13.59,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling very nice, its nice to be part of Rotary Lent,nice to know all this people, definitely great to do something good and also to donate for the right cause \nI am very excited to be part of this team. Emotionaly very good and stable. Played some tetris today, tomorrow some ping ping training haha\nbloating 7/10 was really bloated after those chestnuts but probably all the rest too haha",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 7
+  },
+  "zoe": {
+    "imported": false
+  }
+}
