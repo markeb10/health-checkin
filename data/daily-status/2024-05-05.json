@@ -1,0 +1,28 @@
+{
+  "date": "2024-05-05",
+  "generated_at": "2026-04-23T23:08:27.368306",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 40854,
+    "resting_hr": 48.0,
+    "hrv": 53.83,
+    "daylight_mins": 150.0,
+    "vo2max": 42.13,
+    "spo2": 98.0,
+    "respiratory_rate": 16.05
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slpet for like 7 hours mot bad but could be better\nBreakfast\nOrdered another GI map test Healthpath from UK\nSightseeing at Fort Manoel\nShopping in Greens and lunchy\nCooked pears made compot - got me bloated as well I think is worse if I take it in afternoon\nWatched Louis de Funes - Germandettes last part of the series\nBooked all hotels for whole summer kinda hehe\nSpoke to my dad\nMain complaint bloating relatively late in a day, probably from compot - maybe from potatoe cant tell hehe, but I dont"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
