@@ -1,0 +1,33 @@
+{
+  "date": "2024-09-22",
+  "generated_at": "2026-04-23T23:11:27.008273",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27034,
+    "resting_hr": 54.0,
+    "hrv": 63.39,
+    "daylight_mins": 154.0,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Felt great, still in a good mood whole morning and day, except evening got upset about this stupid mistake of mine feeling salty about it - heated whole house to 25 degrees\nSuper bloated and gassy / smelly ones duento sugar",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
