@@ -1,0 +1,25 @@
+{
+  "date": "2023-05-15",
+  "generated_at": "2026-04-23T23:00:59.145540",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20478,
+    "resting_hr": 58.0,
+    "hrv": 50.9,
+    "vo2max": 40.05
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Not feeling good, like really crappy, could not sleep whole night, cosita snoring like crazy , i mean it sucks but it is what it is\nNo sleep since 2:50am\nManaged to meditate a bit\nGym in the morning with Milka she is great\nBeen walking a bit - quick one \nBrought flowers to cosita \ud83d\udc90 \nTrying to get trough the day, lots of meetings\nBi content shareholder meeting with Vlad and Laurence about wild.i\nArtur filip meeting fomoing and trying to see new ideas what we could build\nMy nerve system is complet"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
