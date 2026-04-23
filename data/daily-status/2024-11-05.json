@@ -1,0 +1,30 @@
+{
+  "date": "2024-11-05",
+  "generated_at": "2026-04-23T23:12:23.536862",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19164
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 5,
+    "journal": "Feeling a bit grumpy in morning, did dancing meditation to feel better, was a little better, was nice seeing my dad\nMy ribs are slightly better\nWas not good something was off for sure",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
