@@ -1,0 +1,37 @@
+{
+  "date": "2024-05-12",
+  "generated_at": "2026-04-23T23:08:36.142003",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 56409,
+    "resting_hr": 51.0,
+    "hrv": 76.37,
+    "sleep_hrs": 5.7,
+    "daylight_mins": 203.0,
+    "vo2max": 42.41,
+    "spo2": 98.0,
+    "respiratory_rate": 13.38,
+    "sleep_deep_hrs": 1.3,
+    "sleep_rem_hrs": 1.4,
+    "sleep_core_hrs": 3.0,
+    "sleep_awake_hrs": 1.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 1,
+    "journal": "Hearing heart beating, just cant sleep. Its magnezium induced for sure as I recall having this usually after takng MG. I would wake up at 5am and could not sleep more. This is pretty classic me. \n\nTook OXY POWEDER 1 PILL \n\n350 mg magnzium oxide + magnezm hydroxide \n20 mg Citric Acid\n\nwas much better in afternoon I felt great. After lunch I kept being activr.\nstomach feeling ok\n\nall good in evening yoo",
+    "supplements_list": [
+      "Magnesium"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
