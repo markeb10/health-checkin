@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-03",
+  "generated_at": "2026-04-23T23:03:54.179199",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23276,
+    "resting_hr": 55.0,
+    "hrv": 53.78,
+    "daylight_mins": 176.0,
+    "vo2max": 41.52,
+    "spo2": 95.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice sleep, woke up with alarm at 6:50 hehe, we didn't press to sleep yesterday so light turned on\nSaying goodbye to Alex and Olle - sad to see them go\nVictoria training\nPlayed with Tim for first time - Its fun \ud83e\udd29 Didnt hit much but it doesnt matter. At least my driver wasnt complete shit\nBreakfast lunchy was very good\nTaxi game of 3 preordered taxis worked amazing\nHijama first and acupuncture was good and moxi\nThen Alan giving me some exercises to lift my chest and work on the back muscles was v"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
