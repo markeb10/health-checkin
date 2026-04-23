@@ -1,0 +1,28 @@
+{
+  "date": "2024-01-19",
+  "generated_at": "2026-04-23T23:06:09.428679",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19488,
+    "resting_hr": 55.0,
+    "hrv": 66.65,
+    "daylight_mins": 151.0,
+    "vo2max": 40.17,
+    "spo2": 96.0,
+    "respiratory_rate": 15.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept weird I blame it on prince of persia in evening, that boss fights are intense\nTai chi\nBreakfast\nWorked a bit\nMdo meeting went well they are happy we are happy ofc there are some details\nLunchy\nJpm meeting\nKris theraphy was so so - idk lets see - so far he is hurting me more than anything else - and this dry needling I really dont like\nPysioveda was good they did my feet tomorrow upper back - i mean lots of massage and figuring out what this could be - feels like they have a plan while Kris"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
