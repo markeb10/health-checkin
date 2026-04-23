@@ -1,0 +1,25 @@
+{
+  "date": "2023-07-13",
+  "generated_at": "2026-04-23T23:02:11.844595",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 35130,
+    "resting_hr": 60.0,
+    "hrv": 40.56,
+    "vo2max": 41.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Calm day, managed to do again my workout from physio and did some additional exercises, was hanging and also was doing situp by the wall - should ramp up lenthts for 100%\nMeditation\nWorked out \ud83d\udcaa got some cardio in / very little but yeah will start with a minute and 2 min of running\nBreakfast\nProductive session with Srki comparing flows of signups on different competitors - would be cool to record all signups and to be able to compare\nNew ideas\nMeeting ivan he told me he is working on longevity i"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
