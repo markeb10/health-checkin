@@ -1,0 +1,33 @@
+{
+  "date": "2025-05-01",
+  "generated_at": "2026-04-23T23:16:03.511404",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20504,
+    "resting_hr": 56.0,
+    "hrv": 47.22,
+    "daylight_mins": 66.0,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling good whole day actually, no complains really even mu prostate was behaving more after mastrubating yesterday\nBloating on plane was quite crqzy , but after very low, i guess all gas went out and then i was empties a bit",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
