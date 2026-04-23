@@ -1,0 +1,35 @@
+{
+  "date": "2025-05-20",
+  "generated_at": "2026-04-23T23:16:27.320848",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20028,
+    "resting_hr": 63.0,
+    "hrv": 55.84,
+    "daylight_mins": 42.0,
+    "vo2max": 42.09,
+    "spo2": 98.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling okeyish but bery tired in afternoon after the food after my appointment with soyguapa, otherwise okey day my vision is shit my eyes are tired\nAll okey, she did massage my stomach a lot so wont be surprised to have some dolores estomago tomorrow",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
