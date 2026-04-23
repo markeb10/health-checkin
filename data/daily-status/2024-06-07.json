@@ -1,0 +1,33 @@
+{
+  "date": "2024-06-07",
+  "generated_at": "2026-04-23T23:09:08.815028",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 58152,
+    "resting_hr": 62.0,
+    "hrv": 52.9,
+    "sleep_hrs": 7.1,
+    "daylight_mins": 9.0,
+    "spo2": 98.5,
+    "respiratory_rate": 14.5,
+    "sleep_deep_hrs": 1.8,
+    "sleep_rem_hrs": 1.1,
+    "sleep_core_hrs": 4.1,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "I was getting tired but also emotional, its been one of the most amazing events I have ever been to",
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
