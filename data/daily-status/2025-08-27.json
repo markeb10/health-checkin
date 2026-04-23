@@ -1,0 +1,34 @@
+{
+  "date": "2025-08-27",
+  "generated_at": "2026-04-23T23:18:31.874722",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25089,
+    "resting_hr": 55.0,
+    "hrv": 68.81,
+    "daylight_mins": 70.0,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 5,
+    "journal": "Did another session of sauna, was a bit stressful in the morning thinking about potencial consequences of what could happen but yeah. \n\nNew ideas how to run the business with a new brand but lets see its something we need to ask further and see. I feel at this point they know less than we do.\nwas bloated but after sementhicone 125 mg it completely stopped. Or it was about to stop by itself? Hard to say haha. I guess I will try it next time when it will be bad. I also feel like it helps to take t",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Multivitamin",
+      "Vitamin C"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
