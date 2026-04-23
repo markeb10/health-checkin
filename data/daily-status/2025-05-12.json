@@ -1,0 +1,34 @@
+{
+  "date": "2025-05-12",
+  "generated_at": "2026-04-23T23:16:17.400825",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15838,
+    "resting_hr": 62.0,
+    "hrv": 54.54,
+    "daylight_mins": 12.0,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling good in the mornjng, was doing some fast exercises movements and I thinj this is not the best , better to do slower and controlled\nVery low bloating (maybe coz no salad) also ate correctly dao and c and zinck",
+    "supplements_list": [
+      "DAO",
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
