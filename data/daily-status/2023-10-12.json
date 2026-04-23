@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-12",
+  "generated_at": "2026-04-23T23:04:05.630262",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21031,
+    "resting_hr": 54.0,
+    "hrv": 68.71,
+    "daylight_mins": 109.0,
+    "vo2max": 41.79,
+    "spo2": 95.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish, was groogy in the morning, slept a lot assuming due to the patch\nUpset due to neighbour winning\nDid tai chi outside was nice but too hot lol, i need a shade / march will be perfect probably haha\nJpm meeting\nPacking a bit\nAte the Thaisty food again was great\nRyanair to trieste \nMet Blaz driver he was okey , was explaining him the bitcoin\nApartment feels very cold but hopefully will get there\nMy boniko feels hurt - too much sitting although idk could be worse\nMaybe the patch - could"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
