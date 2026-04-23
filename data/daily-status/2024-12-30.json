@@ -1,0 +1,30 @@
+{
+  "date": "2024-12-30",
+  "generated_at": "2026-04-23T23:13:32.096464",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9530,
+    "resting_hr": 55.0,
+    "hrv": 64.39,
+    "daylight_mins": 20.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 2,
+    "journal": "Felt okeyish, was a bit weird day, didnt do much exercises, i think tomorrow I should do something - and in general do some power lifting but gentle strenght exercises - possibly for legs or something\nAll okeyishate relatively late",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
