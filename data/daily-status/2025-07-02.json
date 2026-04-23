@@ -1,0 +1,31 @@
+{
+  "date": "2025-07-02",
+  "generated_at": "2026-04-23T23:17:22.157831",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34638,
+    "resting_hr": 55.0,
+    "hrv": 60.82,
+    "daylight_mins": 96.0,
+    "vo2max": 40.94,
+    "spo2": 96.62
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feelign good but somehow cant shake the feeling we are not really doing enough, why the heck is srki even here if all he does is show up there with me without adding anything to anything\nMedium bloating got weird after that ice cream",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
