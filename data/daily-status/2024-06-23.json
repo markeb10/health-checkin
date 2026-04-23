@@ -1,0 +1,39 @@
+{
+  "date": "2024-06-23",
+  "generated_at": "2026-04-23T23:09:30.501854",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 42639,
+    "resting_hr": 52.0,
+    "hrv": 57.06,
+    "sleep_hrs": 6.8,
+    "daylight_mins": 162.0,
+    "spo2": 96.75,
+    "respiratory_rate": 13.75,
+    "sleep_deep_hrs": 0.7,
+    "sleep_rem_hrs": 1.9,
+    "sleep_core_hrs": 4.2,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "I felt very relaxed whole day interesting\nAll good, less coccyx pain, I am starting to blame bed for that. So less pain than yesterday",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
