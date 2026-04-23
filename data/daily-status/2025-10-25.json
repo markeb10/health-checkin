@@ -1,0 +1,69 @@
+{
+  "date": "2025-10-25",
+  "generated_at": "2026-04-23T23:19:43.140795",
+  "whoop": {
+    "imported": true,
+    "recovery": 54.0,
+    "hrv": 32.8,
+    "rhr": 50.0,
+    "sleep_perf": 83.0,
+    "strain": 7.5,
+    "sleep_hrs": 6.5,
+    "spo2": 95.4,
+    "skin_temp": 33.1,
+    "sleep_efficiency": 87.2,
+    "sleep_consistency": 94.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 2.2,
+    "deep_sleep_hrs": 2.9,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 1.0,
+    "sleep_cycles": 6,
+    "disturbances": 8,
+    "sleep_needed_hrs": 8.8,
+    "sleep_debt_hrs": 1.1,
+    "calories": 1738,
+    "avg_hr": 61,
+    "max_hr": 148,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 75,
+        "avg_hr": 104,
+        "max_hr": 123
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22489,
+    "resting_hr": 51.0,
+    "hrv": 60.83,
+    "sleep_hrs": 6.5,
+    "daylight_mins": 21.0,
+    "bp_systolic": 105.0,
+    "bp_diastolic": 65.4,
+    "vo2max": 40.9,
+    "spo2": 96.68,
+    "respiratory_rate": 13.47,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling stressed while playing tetris, somehow also not really focused, things takes longer and are more complicated, wasnt at my best A game, in evening feeling a bit sick - not sure if tired of sick or both\nFeeling okey bloating was 4/10",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
