@@ -1,0 +1,32 @@
+{
+  "date": "2024-12-27",
+  "generated_at": "2026-04-23T23:13:28.224897",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10045,
+    "resting_hr": 56.0,
+    "hrv": 61.57,
+    "daylight_mins": 74.0,
+    "spo2": 100.0,
+    "respiratory_rate": 16.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good in general, little bloating but considering what I mixed today is a miracle hehe, relqxed\nSome stomach pain but lets see how it will develop",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
