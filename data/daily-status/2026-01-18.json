@@ -1,0 +1,72 @@
+{
+  "date": "2026-01-18",
+  "generated_at": "2026-04-23T23:21:28.645446",
+  "whoop": {
+    "imported": true,
+    "recovery": 76.0,
+    "hrv": 34.4,
+    "rhr": 50.0,
+    "sleep_perf": 81.0,
+    "strain": 9.6,
+    "sleep_hrs": 7.3,
+    "spo2": 95.2,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 85.9,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 2.1,
+    "deep_sleep_hrs": 2.7,
+    "rem_sleep_hrs": 2.5,
+    "awake_hrs": 1.2,
+    "sleep_cycles": 6,
+    "disturbances": 1,
+    "sleep_needed_hrs": 9.2,
+    "sleep_debt_hrs": 1.5,
+    "calories": 1846,
+    "avg_hr": 64,
+    "max_hr": 196,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 48,
+        "avg_hr": 94,
+        "max_hr": 132
+      },
+      {
+        "sport": "Activity",
+        "calories": 117,
+        "avg_hr": 121,
+        "max_hr": 158
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11572,
+    "resting_hr": 53.5,
+    "hrv": 60.65,
+    "sleep_hrs": 7.3,
+    "daylight_mins": 10.0,
+    "spo2": 96.04,
+    "respiratory_rate": 13.26,
+    "sleep_awake_hrs": 1.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling pretty okey as in emotionally, cosita went to Dubai, I was able to spend some time with Boro, its actually nice to pass time with him, we had a fight yesterday, but today it was fine\nfeeling okey, a bit acid too ruporut\n\nate stupid shit and plane got 7/10 bloating not ideal - need to be better tomorrow",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut",
+      "Vitamin C"
+    ],
+    "anxiety": 5,
+    "bloating": 7
+  },
+  "zoe": {
+    "imported": false
+  }
+}
