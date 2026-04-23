@@ -1,0 +1,32 @@
+{
+  "date": "2025-03-27",
+  "generated_at": "2026-04-23T23:15:21.185954",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23689,
+    "resting_hr": 49.0,
+    "hrv": 51.81,
+    "daylight_mins": 65.0,
+    "spo2": 94.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling amazing after rheraphy - i honestly think this was one of rare therapies that brought some results\nFeeling okeyish, low bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Omega-3",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
