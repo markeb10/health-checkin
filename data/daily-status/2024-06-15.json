@@ -1,0 +1,37 @@
+{
+  "date": "2024-06-15",
+  "generated_at": "2026-04-23T23:09:18.986725",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 48313,
+    "resting_hr": 52.0,
+    "hrv": 54.19,
+    "sleep_hrs": 7.5,
+    "daylight_mins": 202.0,
+    "spo2": 97.33,
+    "respiratory_rate": 14.75,
+    "sleep_deep_hrs": 1.1,
+    "sleep_rem_hrs": 0.8,
+    "sleep_core_hrs": 5.6,
+    "sleep_awake_hrs": 1.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "It was fine\nEverything is ok eventhough Inate all those stuff",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
