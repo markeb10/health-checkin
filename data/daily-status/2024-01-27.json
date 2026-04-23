@@ -1,0 +1,26 @@
+{
+  "date": "2024-01-27",
+  "generated_at": "2026-04-23T23:06:19.982750",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9809,
+    "resting_hr": 55.0,
+    "hrv": 59.16,
+    "daylight_mins": 36.0,
+    "spo2": 97.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Not good sleep at all , woke up at 4, could not sleep more. I am blaming it on probiotics in the Kefir from coconut - will stop it for a week to see what happens\nTai chi\nDidn\u2019t sleep since 4\nI feel calmer today - no prince , much more tired I think\nBreakfast\nTheraphy physioveda - Neck traps scapula - not chandra - she was even better I felt\nLunch ar Zou zou was great\nBought mouse and speaker on desk - now I am fully equipped.\nWrote a bit about curelink.io\nChatn after long time\nWatched tetris mov"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
