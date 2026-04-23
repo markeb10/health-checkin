@@ -1,0 +1,32 @@
+{
+  "date": "2025-06-09",
+  "generated_at": "2026-04-23T23:16:52.581552",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25484,
+    "resting_hr": 54.0,
+    "hrv": 51.4,
+    "daylight_mins": 42.0,
+    "spo2": 97.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling weird, hurting more due to stopping antiinflamatory painkiller thingy, so i guess i might need 2-3 more days of this idk - will ask tomorrow\nLow bloating",
+    "supplements_list": [
+      "Celecoxib",
+      "Probiotic",
+      "Telfast"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
