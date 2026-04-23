@@ -1,0 +1,32 @@
+{
+  "date": "2024-08-03",
+  "generated_at": "2026-04-23T23:10:23.444064",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20236,
+    "resting_hr": 55.0,
+    "hrv": 54.44,
+    "daylight_mins": 216.0,
+    "spo2": 96.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good actually, lots of laughing and jokes\nCool day, not driving too much 2 hours is ok, \n\nallergic reaction in lower back - no idea maybe its from bite but I have painful whole area around\nEverything okey",
+    "supplements_list": [
+      "Enterosgel",
+      "Immune Action",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
