@@ -1,0 +1,26 @@
+{
+  "date": "2024-01-01",
+  "generated_at": "2026-04-23T23:05:46.933791",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9235,
+    "hrv": 71.75,
+    "daylight_mins": 1.0,
+    "spo2": 100.0,
+    "respiratory_rate": 14.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was a after party day, tired but loved it.\nWoke up late 8:00 \nTalked to my dad was his bd and congratulated him for NY\nBeen super tired whole day of course\nBreakfast played pool with domen david\nWe watched the Houting in venice poirot detective\nWe played UNO\nWe ate hamburgers in Eleven Green omg soo good - we were very happy with it\nWe went with buggy in the hood - we went to spinnys to get some food\nWe spied on neighbours a bit\nWas cool coz we were all a bit tired\nInspired by: the burger joint "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
