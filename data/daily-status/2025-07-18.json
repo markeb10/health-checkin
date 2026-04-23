@@ -1,0 +1,36 @@
+{
+  "date": "2025-07-18",
+  "generated_at": "2026-04-23T23:17:41.988422",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21533,
+    "resting_hr": 59.0,
+    "hrv": 61.21,
+    "daylight_mins": 15.0,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 6,
+    "journal": "Feeling good in general, also having good energy and enough of it, was a cool day",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Vitamin D3+K2",
+      "Zinc"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
