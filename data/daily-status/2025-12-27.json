@@ -1,0 +1,73 @@
+{
+  "date": "2025-12-27",
+  "generated_at": "2026-04-23T23:21:00.830436",
+  "whoop": {
+    "imported": true,
+    "recovery": 86.0,
+    "hrv": 41.4,
+    "rhr": 48.0,
+    "sleep_perf": 83.0,
+    "strain": 10.8,
+    "sleep_hrs": 7.2,
+    "spo2": 90.3,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 92.0,
+    "sleep_consistency": 76.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 3.6,
+    "deep_sleep_hrs": 2.5,
+    "rem_sleep_hrs": 1.1,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 7,
+    "disturbances": 8,
+    "sleep_needed_hrs": 9.0,
+    "sleep_debt_hrs": 1.1,
+    "calories": 1932,
+    "avg_hr": 64,
+    "max_hr": 205,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 182,
+        "avg_hr": 111,
+        "max_hr": 132
+      },
+      {
+        "sport": "HIIT",
+        "calories": 131,
+        "avg_hr": 120,
+        "max_hr": 164
+      },
+      {
+        "sport": "Activity",
+        "calories": 90,
+        "avg_hr": 98,
+        "max_hr": 205
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29625,
+    "resting_hr": 50.0,
+    "hrv": 62.62,
+    "sleep_hrs": 7.2,
+    "daylight_mins": 25.0,
+    "spo2": 96.27,
+    "respiratory_rate": 13.48,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Feeling okey, had 2 arguments with cosita, just annyoing, one old one where she gets knowcked over if she smells that I dont want her to take photos and the other one where she does not want to confess that she si wrong about the way, of course this reflects me int his too, overall was a very good session with ping pong\n3/10 bloating, wasnt bad but today I ate a lot of sweet stuff and in the evening so thats not going to be good for tomorrow",
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
