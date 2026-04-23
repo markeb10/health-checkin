@@ -1,0 +1,77 @@
+{
+  "date": "2026-03-14",
+  "generated_at": "2026-04-23T23:22:36.895976",
+  "whoop": {
+    "imported": true,
+    "recovery": 51.0,
+    "hrv": 34.0,
+    "rhr": 51.0,
+    "sleep_perf": 85.0,
+    "strain": 6.9,
+    "sleep_hrs": 7.2,
+    "spo2": 95.6,
+    "skin_temp": 33.5,
+    "sleep_efficiency": 89.8,
+    "sleep_consistency": 84.0,
+    "respiratory_rate": 13.8,
+    "light_sleep_hrs": 2.9,
+    "deep_sleep_hrs": 2.8,
+    "rem_sleep_hrs": 1.5,
+    "awake_hrs": 0.9,
+    "sleep_cycles": 8,
+    "disturbances": 7,
+    "sleep_needed_hrs": 9.5,
+    "sleep_debt_hrs": 1.9,
+    "calories": 1671,
+    "avg_hr": 63,
+    "max_hr": 121,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20360,
+    "resting_hr": 52.0,
+    "hrv": 47.04,
+    "sleep_hrs": 7.2,
+    "daylight_mins": 55.0,
+    "vo2max": 40.03,
+    "spo2": 97.95,
+    "respiratory_rate": 13.8,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 2,
+    "journal": "Feeling restless in the morning - was starzting to chat with Claude ended up spending 2 hours and didnt really get much out of it but I saw. thesituation a bit cleared and the fact is that we need to get out asap as this bubble is about to burst spectacularly\nate too many things again haha, lets see if my stomach can adapt I will drink goat whey before sleep, lets see how that will affect sleep",
+    "supplements_list": [
+      "Enterosgel",
+      "Whey"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 9,
+    "meal_names": [
+      "Open-faced Sandwich with Smoked Salmon P\u00e2t\u00e9",
+      "Individual Banana Pudding",
+      "Slice of Chocolate Cake with Coconut",
+      "Grilled Chicken Platter with Roasted Peppers",
+      "Slice of Quiche with Ham",
+      "Strawberry and Blackberry Smoothie",
+      "Strawberry and Blackberry Medley",
+      "Open-faced Sandwich with Avocado",
+      "Cereal with Coconut"
+    ],
+    "meal_details": [],
+    "avg_score": 70.6,
+    "calories": 3238.0,
+    "protein_g": 132.6,
+    "fat_g": 231.3,
+    "carbs_g": 156.2,
+    "fibre_g": 31.8
+  }
+}
