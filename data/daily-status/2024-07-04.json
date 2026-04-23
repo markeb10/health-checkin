@@ -1,0 +1,38 @@
+{
+  "date": "2024-07-04",
+  "generated_at": "2026-04-23T23:09:44.309156",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 55952,
+    "resting_hr": 50.0,
+    "hrv": 51.95,
+    "sleep_hrs": 5.7,
+    "daylight_mins": 141.0,
+    "spo2": 94.5,
+    "respiratory_rate": 11.56,
+    "sleep_deep_hrs": 0.6,
+    "sleep_rem_hrs": 1.9,
+    "sleep_core_hrs": 3.2,
+    "sleep_awake_hrs": 1.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 3,
+    "journal": "- feeling a bit tired but better than day before\nBoniko was same same kinda - hurting in morning more\nAll well here.",
+    "supplements_list": [
+      "Ashwagandha",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
