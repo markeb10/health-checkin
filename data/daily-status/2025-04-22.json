@@ -1,0 +1,34 @@
+{
+  "date": "2025-04-22",
+  "generated_at": "2026-04-23T23:15:52.344253",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16851,
+    "resting_hr": 61.0,
+    "hrv": 49.82,
+    "daylight_mins": 20.0,
+    "spo2": 97.67,
+    "respiratory_rate": 15.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Its interesting that the only way to detect this histamine is trough not yawning and not being tired\u2026 today was super stressful morning, shasika dropped a bomb\nWhat a day\nFeeling okey, antihistamine pills made my body aches bigger",
+    "supplements_list": [
+      "DAO",
+      "Enterosgel",
+      "Omega-3",
+      "Vitamin C"
+    ],
+    "anxiety": 7
+  },
+  "zoe": {
+    "imported": false
+  }
+}
