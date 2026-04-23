@@ -1,0 +1,31 @@
+{
+  "date": "2025-02-05",
+  "generated_at": "2026-04-23T23:14:19.010253",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20662,
+    "resting_hr": 52.0,
+    "hrv": 51.59,
+    "daylight_mins": 108.0,
+    "spo2": 95.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling still up and feeling effects of quercetin + bromlain from yest. Hopefully will sleep. Took Zinc - Carnostine today lets see.\nWas feeling bloated after lunch omg that was crazy - i think the sugar is my culprit to be. Fair - not even milk but sugar",
+    "supplements_list": [
+      "Zinc",
+      "Quercetin"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
