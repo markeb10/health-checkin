@@ -1,0 +1,32 @@
+{
+  "date": "2023-11-12",
+  "generated_at": "2026-04-23T23:04:45.239066",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 33493,
+    "resting_hr": 52.0,
+    "hrv": 68.76,
+    "sleep_hrs": 7.8,
+    "daylight_mins": 156.0,
+    "vo2max": 40.62,
+    "respiratory_rate": 14.0,
+    "sleep_deep_hrs": 2.1,
+    "sleep_rem_hrs": 2.3,
+    "sleep_core_hrs": 3.4,
+    "sleep_awake_hrs": 1.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept so so, my nose was cold but otherwise kinda worked, also cosita was snoring and boniko pain was higher than usual due to the pain, did tai chi 2 x today\nI was just frozen crazy but managed to sleep to some extend\nJpm meeting\nWas getting worked up for completely wrong things\nWas super depressed - what really helped me was the meetup with our guys - damn they are so nice and such an amazing energy\nWas trying to run up and down stairs my coccyx would hurt more and my heart rate went crazy in "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
