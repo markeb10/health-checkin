@@ -1,0 +1,30 @@
+{
+  "date": "2025-07-05",
+  "generated_at": "2026-04-23T23:17:25.795399",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26532,
+    "resting_hr": 54.0,
+    "hrv": 53.82,
+    "daylight_mins": 168.0,
+    "spo2": 96.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "All is goinf well but my pain in sitting area is much stronger today than it was before, really need that treatments back from Rado\nFeels okey but I need to poop",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
