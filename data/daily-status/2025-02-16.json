@@ -1,0 +1,33 @@
+{
+  "date": "2025-02-16",
+  "generated_at": "2026-04-23T23:14:32.675015",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19445,
+    "resting_hr": 56.0,
+    "hrv": 64.48,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling good in general whole day and relaxed . Feeling super calm . Evening a bit on low energy but thats fine. I do feel hotter in evening probably due to eating spicy food - hopefully no episodes during the night\nFeeling medium bloated / due to meal I had but also in general I was a bit more bloated today even before meal but just a bit more",
+    "supplements_list": [
+      "Ashwagandha",
+      "DAO",
+      "Enterosgel",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
