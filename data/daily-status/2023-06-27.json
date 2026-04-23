@@ -1,0 +1,25 @@
+{
+  "date": "2023-06-27",
+  "generated_at": "2026-04-23T23:01:52.186475",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22132,
+    "resting_hr": 61.0,
+    "hrv": 61.1,
+    "respiratory_rate": 17.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Been interesting day, my stomach problems were bad, all coming from too much food day before, something is up with my intestines or stomach no idea but definitely we need ultrasound\nCar drive with murat to airport\nFlight to istanbul\nTouletn in istanbul business lounge\nFeeling pain in my stomach - that unease whenever I eat something - regardless of what it is\nDrank relaxing tea and chamomile tea to relax my stomach was eating very little to make sure I heal\nMet with olle and srki - olles luggage"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
