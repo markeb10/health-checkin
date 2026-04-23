@@ -1,0 +1,26 @@
+{
+  "date": "2024-02-22",
+  "generated_at": "2026-04-23T23:06:54.072536",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13256,
+    "resting_hr": 56.0,
+    "hrv": 49.24,
+    "daylight_mins": 46.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "It was an ok dat, still feeling stressed, morning was gloomy of me being very depressed about it but then it got better I feel, eating well from cosita helped, i also have drank that juice, but I do feel more pain in my coccyx - probably from him pushing those buttons more or activity exercises - i guess time will tell\nExercise\nBreakfast cosita made eggs\nPhysioveda\nHaircut\nBought the mattress for cosita\nJpm meeting\nDrumming - tried to learn my second song but damn its hard - feels like I need no"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
