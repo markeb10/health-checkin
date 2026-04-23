@@ -1,0 +1,24 @@
+{
+  "date": "2023-07-23",
+  "generated_at": "2026-04-23T23:02:24.195429",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24470,
+    "resting_hr": 61.0,
+    "hrv": 36.93
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Again not much sleep but psychological I was better than day before. I ate waay to much today, I dont know what I was doing some crazy test or what hehe\nWoke up early again\nGym time - interval running 1 min on 1 min walking - i can probably do something similar in real life roo\nBreakfast\nPacking\nBeach swimming and supping was good\nLunch time\nIce cream in Moro its just soo good damn it\nWe checked land at Golovec but its so-so\nIce cream testing - Vigo ice cream was not really good :( not even caca"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
