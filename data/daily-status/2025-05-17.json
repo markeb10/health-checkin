@@ -1,0 +1,36 @@
+{
+  "date": "2025-05-17",
+  "generated_at": "2026-04-23T23:16:23.586318",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16269,
+    "resting_hr": 60.0,
+    "hrv": 43.34,
+    "daylight_mins": 107.0,
+    "vo2max": 42.42,
+    "spo2": 96.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 6,
+    "journal": "Was able to get 7 hours, was cool dribking some coffee, hopefully this is not whata giving me acidity lets see otherwise ruporut here I come\nMy hands are better as soon as its colder interesting",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Ruporut",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
