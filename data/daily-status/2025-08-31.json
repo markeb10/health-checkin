@@ -1,0 +1,34 @@
+{
+  "date": "2025-08-31",
+  "generated_at": "2026-04-23T23:18:36.825155",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24843,
+    "resting_hr": 54.0,
+    "hrv": 67.52,
+    "daylight_mins": 186.0,
+    "vo2max": 40.88,
+    "spo2": 97.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Was a great day, was doing a nice walkie in the morning, was super relaxed whole day and museum day, looking forward tomorrow\n3/10 bloating \u2026 relatively good, surprinsingly after sushi i am fine",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
