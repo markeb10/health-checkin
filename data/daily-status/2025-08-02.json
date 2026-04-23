@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-02",
+  "generated_at": "2026-04-23T23:18:00.331348",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28858,
+    "resting_hr": 53.0,
+    "hrv": 52.47,
+    "daylight_mins": 119.0,
+    "vo2max": 41.07,
+    "spo2": 96.43
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Was really cool day, relaxed walking with cosita, enjoying the day in Izola amazing food good weather in evening, tomorrow we will swim as well\n5/10 bloating",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Lutein",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
