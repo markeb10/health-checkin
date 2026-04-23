@@ -1,0 +1,25 @@
+{
+  "date": "2023-07-09",
+  "generated_at": "2026-04-23T23:02:06.802747",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34888,
+    "resting_hr": 61.0,
+    "hrv": 55.87,
+    "vo2max": 41.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Strange feeling in the morning was like always, this feeling of being awake and no ability to focus and neck pain\nMorning shenaningans with tea and meditation \nRead article about Singulair side effects - there is no way I am taking this medicine ever again - I will be burning it forever\nCRM meeting\nAlex hypnosis was good - I trust my body to heal\nSeen the doctor \ud83d\udc69\u200d\u2695\ufe0f she didnt believe me about the sideeffects at first but then she kinda did when she looked at the website\nFunimalz meeting\nLunchy "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
