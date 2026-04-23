@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-21",
+  "generated_at": "2026-04-23T23:13:59.089053",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21295,
+    "resting_hr": 61.0,
+    "hrv": 59.97,
+    "daylight_mins": 15.0,
+    "spo2": 100.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 1,
+    "journal": "Its okey, been less worried in evening, feeling a bit not so super excited\nBloating in afternoon and evening",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
