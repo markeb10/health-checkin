@@ -1,0 +1,25 @@
+{
+  "date": "2023-09-21",
+  "generated_at": "2026-04-23T23:03:39.167273",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19375,
+    "resting_hr": 53.0,
+    "hrv": 60.52,
+    "vo2max": 39.78
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept long - was a bit tossing but alright - was kinda cold but nothing too bad. 22 is a good temp to sleep actually. Boniko was slightly better than yesterday\nBreakfast\nBig wins - stress \nJpm meeting I passed over stress there\nNew ideas how to handle some things\nEdward - ED well he did show me exercises and what to do. Lets see I can surely try to follow that - just want to go back to drills and eunning - he claims I have left leg longer than the other marek said right - it feels right leg some"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
