@@ -1,0 +1,37 @@
+{
+  "date": "2024-05-22",
+  "generated_at": "2026-04-23T23:08:48.450584",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 38763,
+    "resting_hr": 64.0,
+    "hrv": 58.38,
+    "sleep_hrs": 9.6,
+    "daylight_mins": 231.0,
+    "vo2max": 42.17,
+    "spo2": 94.33,
+    "respiratory_rate": 13.25,
+    "sleep_deep_hrs": 2.8,
+    "sleep_rem_hrs": 1.9,
+    "sleep_core_hrs": 4.9,
+    "sleep_awake_hrs": 2.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "I feel more pain when sitting, my sitting bones or pelvic bone is more sensitive than before maybe coz of the gym - clamps with my legs on machine - idk\nWas ok day\n\ntoday I received FoodMarble to identify Methan and Hydrogen in my exhaled air. See reaction on. Food. So far no reaction on the peanutbutter and coconut butter and cracker\nAll ok, nothing standing out",
+    "supplements_list": [
+      "Toxaprevent"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
