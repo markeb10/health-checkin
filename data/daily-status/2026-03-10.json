@@ -1,0 +1,96 @@
+{
+  "date": "2026-03-10",
+  "generated_at": "2026-04-23T23:22:32.063202",
+  "whoop": {
+    "imported": true,
+    "recovery": 67.0,
+    "hrv": 38.8,
+    "rhr": 49.0,
+    "sleep_perf": 81.0,
+    "strain": 12.0,
+    "sleep_hrs": 6.1,
+    "spo2": 93.4,
+    "skin_temp": 33.8,
+    "sleep_efficiency": 90.4,
+    "sleep_consistency": 91.0,
+    "respiratory_rate": 13.7,
+    "light_sleep_hrs": 1.9,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.8,
+    "awake_hrs": 0.7,
+    "sleep_cycles": 6,
+    "disturbances": 4,
+    "sleep_needed_hrs": 9.6,
+    "sleep_debt_hrs": 1.8,
+    "calories": 2036,
+    "avg_hr": 68,
+    "max_hr": 174,
+    "workouts": [
+      {
+        "sport": "Functional Fitness",
+        "calories": 74,
+        "avg_hr": 110,
+        "max_hr": 144
+      },
+      {
+        "sport": "HIIT",
+        "calories": 286,
+        "avg_hr": 107,
+        "max_hr": 145
+      },
+      {
+        "sport": "HIIT",
+        "calories": 234,
+        "avg_hr": 113,
+        "max_hr": 149
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31595,
+    "resting_hr": 52.5,
+    "hrv": 58.29,
+    "sleep_hrs": 6.4,
+    "daylight_mins": 77.0,
+    "vo2max": 40.0,
+    "spo2": 96.84,
+    "respiratory_rate": 13.71,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling a bit like shit, like tired and my chest and everything is tight\n\nI took ruporut and will observe tomorrow what will happen\nBloating : 4/10 was a good day, but hopefully I get some seelp",
+    "supplements_list": [
+      "Ruporut",
+      "Sirotka (Whey)"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 8,
+    "meal_names": [
+      "Open-faced Sardine and Tomato Sandwich",
+      "Open-faced Sandwiches with Fruit",
+      "Granadillas",
+      "Roast Chicken Leg Quarter with Couscous",
+      "Creamy Carrot Soup with Balsamic Glaze",
+      "Broad Bean and Lamb's Lettuce Salad with Soft-Boiled Egg",
+      "Chia Pudding with Mango",
+      "Fried Egg with Avocado and Cheese Toast"
+    ],
+    "meal_details": [],
+    "avg_score": 79.8,
+    "calories": 3179.0,
+    "protein_g": 175.6,
+    "fat_g": 163.0,
+    "carbs_g": 245.1,
+    "fibre_g": 49.3
+  }
+}
