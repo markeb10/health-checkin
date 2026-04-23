@@ -1,0 +1,61 @@
+{
+  "date": "2025-10-13",
+  "generated_at": "2026-04-23T23:19:28.850115",
+  "whoop": {
+    "imported": true,
+    "recovery": 74.0,
+    "hrv": 33.2,
+    "rhr": 49.0,
+    "sleep_perf": 94.0,
+    "strain": 6.6,
+    "sleep_hrs": 7.3,
+    "spo2": 94.2,
+    "skin_temp": 33.1,
+    "sleep_efficiency": 95.3,
+    "sleep_consistency": 87.0,
+    "respiratory_rate": 12.9,
+    "light_sleep_hrs": 3.7,
+    "deep_sleep_hrs": 1.9,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 7,
+    "disturbances": 10,
+    "sleep_needed_hrs": 7.7,
+    "sleep_debt_hrs": 0.1,
+    "calories": 1375,
+    "avg_hr": 60,
+    "max_hr": 145,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18982,
+    "resting_hr": 49.0,
+    "hrv": 37.25,
+    "sleep_hrs": 7.3,
+    "daylight_mins": 85.0,
+    "vo2max": 40.49,
+    "spo2": 97.81,
+    "respiratory_rate": 12.89,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 4,
+    "journal": "Relatively good day, good flow of events, i mean it was a spa day 3 massages back to back haha, I am relaxed as it gets hopefully notjhing fires back but they all dealt with certain part of body and addressed an important part \n\nMight be good to stay more impressed with Petra and her work, she is very good at what she does and she cracked a bit the coccyx or i would say moved it\u2026 i mean its hard to say if it will stay there but okey\n\nsleep was good and i plan to repeat it\nbloating 5/10 was not r",
+    "supplements_list": [
+      "Enterosgel",
+      "Lutein",
+      "Vitamin C",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
