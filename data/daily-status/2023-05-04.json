@@ -1,0 +1,27 @@
+{
+  "date": "2023-05-04",
+  "generated_at": "2026-04-23T23:00:45.779040",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10734,
+    "resting_hr": 53.0,
+    "hrv": 92.0,
+    "weight_kg": 71.911,
+    "body_fat_pct": 0.16,
+    "bmi": 24.59
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "It was not so productive day, more managing, I need something that I do and feel productive - some good stress\nSun \u2600\ufe0f \nWalkie\nCall for piggy bank\nCall account managers\nCall for Tigne with guys \nCosita made fishy lunch was very good\nPaid some stuff in general procrastinating - around 3-5 is horrible need something there maybe take a cold shower would help\nDid compex on my coccyx for almost 30 min and lucka - lets see if this helps\nWalked and listened to huberman\nSimpson\nTook both oils\nCould not s"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
