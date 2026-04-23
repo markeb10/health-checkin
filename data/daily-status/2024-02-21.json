@@ -1,0 +1,27 @@
+{
+  "date": "2024-02-21",
+  "generated_at": "2026-04-23T23:06:52.803624",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26965,
+    "resting_hr": 53.0,
+    "hrv": 62.23,
+    "daylight_mins": 123.0,
+    "spo2": 98.0,
+    "respiratory_rate": 12.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was a cool day, lots of meeting, did my appointments for physio\nMask\nWorkout by physioveda and a bit according to Kris\nBreakfast\nKris - showed me the balance exercise, did the push downs on machine\nPhysio veda - do eexercises - got massage of achilles and calf \nJpm meeting\nLunchy ponchy\nAccount managers meeting\nRecruitment meeting\nScatterkings meeting\nDrumming sessions whole day in betweeen, did one very load and it was very cool - i really got gose bumps when you feel the musix\nWalkie\nDinner\nTa"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
