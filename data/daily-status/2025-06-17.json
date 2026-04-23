@@ -1,0 +1,36 @@
+{
+  "date": "2025-06-17",
+  "generated_at": "2026-04-23T23:17:03.496802",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20036,
+    "resting_hr": 56.0,
+    "hrv": 61.92,
+    "daylight_mins": 39.0,
+    "vo2max": 41.48,
+    "spo2": 96.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 6,
+    "journal": "Feelinf super tired in morning kinda weird. And also could not sleep, feelinf pain in my coccyx and in general wverywhere, I need to breakout from all of this, its crazy\nRelatively okey - very low bloating",
+    "supplements_list": [
+      "Ashwagandha",
+      "Enterosgel",
+      "L-Theanine",
+      "Omega-3",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
