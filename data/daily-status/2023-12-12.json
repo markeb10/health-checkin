@@ -1,0 +1,26 @@
+{
+  "date": "2023-12-12",
+  "generated_at": "2026-04-23T23:05:22.484773",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12346,
+    "resting_hr": 59.0,
+    "hrv": 49.16,
+    "spo2": 98.0,
+    "respiratory_rate": 17.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish but not enough, went to ned at midnight not good\nWoke up okeyish - head slow due to going to bed late\nTai chi\nGoing to the bakery to get pastry for the guys\nVisiting our guys in the office was nice\nMeeting Polona\nMeeting with Murat regarding the organization - he is a bit of a nightmare when it comes to this - his ideas are not great\nDid some work \nLunchy\nWent to woop with the BI guys - was fun we cheated hacked some stuff but overall was good\nFeeling burned out for some reason so "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
