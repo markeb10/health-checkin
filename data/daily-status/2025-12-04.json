@@ -1,0 +1,64 @@
+{
+  "date": "2025-12-04",
+  "generated_at": "2026-04-23T23:20:32.728224",
+  "whoop": {
+    "imported": true,
+    "recovery": 59.0,
+    "hrv": 33.0,
+    "rhr": 49.0,
+    "sleep_perf": 84.0,
+    "strain": 7.9,
+    "sleep_hrs": 6.7,
+    "spo2": 95.1,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 90.8,
+    "sleep_consistency": 84.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 3.6,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 0.8,
+    "awake_hrs": 0.7,
+    "sleep_cycles": 2,
+    "disturbances": 8,
+    "sleep_needed_hrs": 9.2,
+    "sleep_debt_hrs": 1.6,
+    "calories": 1708,
+    "avg_hr": 60,
+    "max_hr": 172,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 129,
+        "avg_hr": 124,
+        "max_hr": 172
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 8301,
+    "resting_hr": 51.0,
+    "hrv": 62.33,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 44.0,
+    "spo2": 97.69,
+    "respiratory_rate": 13.18,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 1,
+    "journal": "Sleep was a bit so so, hip hurting and a bit lower back i dont know why maybe its also from this chair or still from padel, definitely more relaxed muscled in evening and morning due to taurin so will continue with this for a bit\nbloating was higher 5/10 due to vegetable probably",
+    "supplements_list": [
+      "Taurine"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
