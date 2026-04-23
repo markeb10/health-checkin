@@ -1,0 +1,36 @@
+{
+  "date": "2024-07-18",
+  "generated_at": "2026-04-23T23:10:01.663687",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 83472,
+    "resting_hr": 61.0,
+    "hrv": 63.07,
+    "sleep_hrs": 5.7,
+    "daylight_mins": 360.0,
+    "vo2max": 42.44,
+    "respiratory_rate": 13.38,
+    "sleep_deep_hrs": 1.3,
+    "sleep_rem_hrs": 1.1,
+    "sleep_core_hrs": 3.3,
+    "sleep_awake_hrs": 1.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 1,
+    "journal": "Experiencing symptoms like I did before. Elevated heart rate, cant fall asleep, waking up early morning with elevated heart rate, gasy and feeling something is cooking in my stomach. I blame it on peanutbutter protein shake I had yeaterday. Apart from that I didnt do anything else different.\nHaving reflux in evening\nFeeling growling and my stomach seems to be warm snd some noises",
+    "supplements_list": [
+      "Multivitamin"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
