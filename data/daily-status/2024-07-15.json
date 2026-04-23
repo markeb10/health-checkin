@@ -1,0 +1,37 @@
+{
+  "date": "2024-07-15",
+  "generated_at": "2026-04-23T23:09:57.970196",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 57121,
+    "resting_hr": 59.0,
+    "hrv": 56.39,
+    "sleep_hrs": 4.2,
+    "daylight_mins": 253.0,
+    "spo2": 95.33,
+    "respiratory_rate": 15.19,
+    "sleep_deep_hrs": 0.9,
+    "sleep_rem_hrs": 0.6,
+    "sleep_core_hrs": 2.8,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 2,
+    "journal": "Feeling a bit tired and grumpy especially learning that I forgot my probiotic in Berlin again",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
