@@ -1,0 +1,38 @@
+{
+  "date": "2025-08-26",
+  "generated_at": "2026-04-23T23:18:30.699580",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26685,
+    "resting_hr": 54.0,
+    "hrv": 50.76,
+    "daylight_mins": 50.0,
+    "vo2max": 40.51,
+    "spo2": 96.86
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 7,
+    "journal": "Having a bit of sauna hangover, slight elevetad pulse, feeling tired, its like maybe doing some intense cardio activity day before \u2026 so I didnt do it today again, should perhaps try it tomorrow again and not overstay 10 min which was mistake.\nbloating was 3/10 wasnt too bad and much lower than yesterday although I had ice cream and other things - could be sauna yesterday or the collagen peptides i did take them a bit more",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Multivitamin",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
