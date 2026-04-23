@@ -1,0 +1,34 @@
+{
+  "date": "2025-01-05",
+  "generated_at": "2026-04-23T23:13:39.453933",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 44320,
+    "resting_hr": 56.0,
+    "hrv": 58.27,
+    "daylight_mins": 82.0,
+    "vo2max": 40.85,
+    "spo2": 89.0,
+    "respiratory_rate": 28.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good in general, I managed to do many exercises, mask peotocol achilles etc,\nSuper bloated again / eventhough therr is no reason",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
