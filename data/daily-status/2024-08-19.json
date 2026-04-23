@@ -1,0 +1,31 @@
+{
+  "date": "2024-08-19",
+  "generated_at": "2026-04-23T23:10:44.372563",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9776,
+    "resting_hr": 49.0,
+    "hrv": 53.68,
+    "daylight_mins": 103.0,
+    "spo2": 94.71
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 2,
+    "journal": "Big issues with gas - feeling super gasy on plane - like extremely\nExtremely gassy",
+    "supplements_list": [
+      "Multivitamin",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
