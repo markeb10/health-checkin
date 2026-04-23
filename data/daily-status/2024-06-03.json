@@ -1,0 +1,35 @@
+{
+  "date": "2024-06-03",
+  "generated_at": "2026-04-23T23:09:03.678832",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30978,
+    "hrv": 44.28,
+    "sleep_hrs": 5.0,
+    "daylight_mins": 32.0,
+    "spo2": 97.0,
+    "respiratory_rate": 13.75,
+    "sleep_deep_hrs": 1.9,
+    "sleep_rem_hrs": 1.0,
+    "sleep_core_hrs": 2.1,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "After massage feeling tired and sleepy I think the guy adam unlocked me today, he was saying I have tight where abs attach to pubic bone then feet, also he said I have glute that its super tight\nSuprisingly good considering I ate lots of shit but I qte chocolqte qnd apprikots",
+    "supplements_list": [
+      "Omeprazole"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
