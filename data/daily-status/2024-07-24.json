@@ -1,0 +1,38 @@
+{
+  "date": "2024-07-24",
+  "generated_at": "2026-04-23T23:10:10.480944",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 46040,
+    "resting_hr": 53.0,
+    "hrv": 56.49,
+    "sleep_hrs": 13.5,
+    "daylight_mins": 241.0,
+    "spo2": 99.0,
+    "respiratory_rate": 13.38,
+    "sleep_deep_hrs": 3.3,
+    "sleep_rem_hrs": 2.7,
+    "sleep_core_hrs": 7.5,
+    "sleep_awake_hrs": 3.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling relaxed, focused, not super playful but ok. A little bit stressed but mostly just tired.\nFeeling all ok",
+    "supplements_list": [
+      "Ashwagandha",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
