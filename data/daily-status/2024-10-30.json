@@ -1,0 +1,32 @@
+{
+  "date": "2024-10-30",
+  "generated_at": "2026-04-23T23:12:16.139264",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30610,
+    "resting_hr": 59.0,
+    "hrv": 59.87,
+    "daylight_mins": 141.0,
+    "vo2max": 41.51,
+    "spo2": 98.0,
+    "respiratory_rate": 14.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "everything is good, really like the day in general, and lots of piggy master calls making me happy and excited\nFelt a little bloated but less than previous time when I also ate rhe sausage - I thinj it was the ajvar that was to blame",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
