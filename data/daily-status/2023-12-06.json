@@ -1,0 +1,26 @@
+{
+  "date": "2023-12-06",
+  "generated_at": "2026-04-23T23:05:15.381865",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 8365,
+    "resting_hr": 54.0,
+    "hrv": 59.68,
+    "daylight_mins": 22.0,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was relatively good sleep \ud83d\udecc, woke up to sun but today I will be smart and take the anti light thingy\nMeditation\nBreakfast\nMedizin zentrum - Heiko with no Heiko :(\nWork meeting with Robin Ivan - Livespins - really dont believe in the product\nLunch in budha bowl\nWalkie around and visited Dom church \u26ea\ufe0f \nThai massage was okey - i felt asleep a bit she massaged my hip points\nWalked around then went to apartment worked a bit\nWe went for a walkie around the town\nWas a cool day, nice walkie to Theraphy,"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
