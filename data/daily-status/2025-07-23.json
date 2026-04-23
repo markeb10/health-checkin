@@ -1,0 +1,36 @@
+{
+  "date": "2025-07-23",
+  "generated_at": "2026-04-23T23:17:48.048382",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10745,
+    "resting_hr": 53.0,
+    "hrv": 53.77,
+    "daylight_mins": 30.0,
+    "spo2": 94.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 7,
+    "journal": "Feeling very stressed the whole day. Kinda in motion and in control It feels good. But at the same time it's kind of killing me. I did feel a little bit of cough in the morning and a lot of acidity with tomatoes. Funny enough that kinda felt like I didn't I wasn't like bloated for some reason and I think it happened the same last time that whenever I have tomato that makes me less bloated. That doesn't make sense or what?\nFeeling a bit of acidity which is not helping me but bloating is 3/10",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K2"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
