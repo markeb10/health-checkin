@@ -1,0 +1,31 @@
+{
+  "date": "2024-08-26",
+  "generated_at": "2026-04-23T23:10:53.319437",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24050,
+    "resting_hr": 52.0,
+    "hrv": 65.1,
+    "daylight_mins": 71.0,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 2,
+    "journal": "Felt not focused, weak in morning, skipped the meditatiin part though did the rest, afternoon felt much mote confident\nFelt under the waather i. Morning and now fot bubbles in hands\nEverything was fine - bloating came from 5-8 but wasnt crazy bad as yesterday - i feel yesterday either the apple cider vinegar or the efervecent multivitamin pill spiked it",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
