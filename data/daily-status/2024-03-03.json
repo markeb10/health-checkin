@@ -1,0 +1,27 @@
+{
+  "date": "2024-03-03",
+  "generated_at": "2026-04-23T23:07:06.950583",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30788,
+    "resting_hr": 58.0,
+    "hrv": 57.38,
+    "daylight_mins": 248.0,
+    "vo2max": 40.06,
+    "spo2": 99.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice day, woke up early chatn , really like this mattress\nHelping mowing thr grass by watching sandi and being able to check whats happening - my dad was also there - we really mowed the grass nicely\nBreakfast\nMore grass stuff\nTarique cane and we went around to check what has to be done - was good - no facepalms for now\nSushi samba lunch was a total hammer - like wowza sooo good everyone liked it\nShopping / bought the property chess - is cool\nWalkie with Vesna and Oci\nTaka maka time - we have be"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
