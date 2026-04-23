@@ -1,0 +1,26 @@
+{
+  "date": "2023-10-27",
+  "generated_at": "2026-04-23T23:04:25.059944",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13141,
+    "resting_hr": 55.0,
+    "hrv": 63.05,
+    "daylight_mins": 33.0,
+    "spo2": 96.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish, managed to pull it trough to make 7h, but was quite restless in the morning\nMade btc salaries\nBreakfast\nJpm meeting\nMadliena coccyx moving she was very thorough today - Romanian power iiit was painful\nHad Marek was good he seemed to do some good adjustments I was flying\nLunch in Humo\nPacking\nFlight back to Malta\nGood day, managed to do everything - change of environment - omg Malta is so hot, last theraphy was good - I truly believe we are on a good way to get there just need to d"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
