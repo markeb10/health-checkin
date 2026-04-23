@@ -1,0 +1,39 @@
+{
+  "date": "2024-05-26",
+  "generated_at": "2026-04-23T23:08:53.472742",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30884,
+    "resting_hr": 52.0,
+    "hrv": 59.8,
+    "sleep_hrs": 6.1,
+    "daylight_mins": 183.0,
+    "vo2max": 41.88,
+    "spo2": 97.5,
+    "respiratory_rate": 13.62,
+    "sleep_deep_hrs": 1.4,
+    "sleep_rem_hrs": 1.4,
+    "sleep_core_hrs": 3.3,
+    "sleep_awake_hrs": 3.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling better, after food feeling too full and bloated and feeling discomfort in my belly. \n\ni have pain when i squeze on left side from my bellybutton even if its just the skin not even pressing in\n\nsame pain still there in the evening goes a bit away if I am streching alba and other skin there\nThe strange coccyx pain is a bit more prominent\n\nnow I am thinking if its from the new chair \ud83d\ude31\nBefore breakfast ok, after breakfast mg and c vitamin and 0.5 l of warm water feeling too full and thats gi",
+    "supplements_list": [
+      "Ashwagandha",
+      "Magnesium",
+      "Vitamin C"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
