@@ -1,0 +1,32 @@
+{
+  "date": "2024-11-30",
+  "generated_at": "2026-04-23T23:12:54.965420",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 32826,
+    "resting_hr": 57.0,
+    "hrv": 62.96,
+    "daylight_mins": 161.0,
+    "vo2max": 42.15,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good, laughing a lot and it just felt good to be with them and to have a great time\nFelt good though i was bloated pizza and ice cream I guess did its own things",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
