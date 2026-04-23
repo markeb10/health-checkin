@@ -1,0 +1,36 @@
+{
+  "date": "2025-08-07",
+  "generated_at": "2026-04-23T23:18:07.457941",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12015,
+    "resting_hr": 60.0,
+    "hrv": 70.41,
+    "daylight_mins": 230.0,
+    "spo2": 97.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 6,
+    "journal": "The start of the day was really weird. I was feeling funky, couldn't sleep, my chest was compressed, and I was going crazy a little bit because my nostrils were compressed. I managed to get rid of these symptoms during the day, but still worried that they're gonna come back. I took some relaxant, let's see\nFloating on a scale of 6 out of 10.",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 7,
+    "bloating": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
