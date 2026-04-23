@@ -1,0 +1,31 @@
+{
+  "date": "2025-01-11",
+  "generated_at": "2026-04-23T23:13:46.860033",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10148,
+    "hrv": 70.0,
+    "daylight_mins": 162.0,
+    "spo2": 98.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "I feel good after NAD more energy and in general better - indiba theraphy also went well\nFeeling acid in morning after ruporut it was good, then in the evening since I didn't eat for long time and I did eat a bit peppery stake I again have acidity - less fhan yesterday but yeah",
+    "supplements_list": [
+      "Enterosgel",
+      "NAD+",
+      "Ruporut"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
