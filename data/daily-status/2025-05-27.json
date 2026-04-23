@@ -1,0 +1,34 @@
+{
+  "date": "2025-05-27",
+  "generated_at": "2026-04-23T23:16:35.780596",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26666,
+    "resting_hr": 63.0,
+    "hrv": 46.95,
+    "daylight_mins": 66.0,
+    "vo2max": 41.63,
+    "spo2": 95.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling super nervous before speech but somehow trusted in the innrr energy and myself and it worked - be spontaneous genuine - just go with the flow\nFeeling okey, low bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
