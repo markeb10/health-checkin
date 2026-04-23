@@ -1,0 +1,33 @@
+{
+  "date": "2024-08-13",
+  "generated_at": "2026-04-23T23:10:36.593091",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26223,
+    "resting_hr": 54.0,
+    "hrv": 59.95,
+    "daylight_mins": 268.0,
+    "vo2max": 43.69,
+    "spo2": 99.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling not really social, dont likr really the world around me that much, many things are bothering me - need to ease into\nFeeling a bit of reflux or spahovanje",
+    "supplements_list": [
+      "Enterosgel",
+      "Immune Action",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
