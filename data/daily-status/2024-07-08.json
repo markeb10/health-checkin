@@ -1,0 +1,33 @@
+{
+  "date": "2024-07-08",
+  "generated_at": "2026-04-23T23:09:49.294821",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 47507,
+    "resting_hr": 57.0,
+    "hrv": 66.26,
+    "daylight_mins": 252.0,
+    "vo2max": 44.44,
+    "spo2": 96.5,
+    "respiratory_rate": 15.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling annoyed by twitching right gluteus was doing some exercises today / some special ones for kegel for mn\nThis special exercises might have exhausted my gluteus\n- was weird after dinner but upper part - got some gas right after was fine",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
