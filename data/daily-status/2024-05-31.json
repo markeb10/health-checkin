@@ -1,0 +1,38 @@
+{
+  "date": "2024-05-31",
+  "generated_at": "2026-04-23T23:08:59.883972",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 55069,
+    "resting_hr": 54.0,
+    "hrv": 47.33,
+    "sleep_hrs": 7.3,
+    "daylight_mins": 149.0,
+    "vo2max": 42.72,
+    "spo2": 98.33,
+    "respiratory_rate": 13.38,
+    "sleep_deep_hrs": 2.2,
+    "sleep_rem_hrs": 1.1,
+    "sleep_core_hrs": 4.0,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "No special issue except bloating, gas / less fhab yesterday\nSaw matthee physio- he things that thr issue is piriformis tight but other structures arohnd tight hip flexor and quads.\nFeeling fine apartnm from bloating, no acid reflux in evening - this ie imorocemtn",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
