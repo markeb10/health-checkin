@@ -1,0 +1,37 @@
+{
+  "date": "2024-06-04",
+  "generated_at": "2026-04-23T23:09:04.951339",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30151,
+    "resting_hr": 58.5,
+    "hrv": 51.59,
+    "sleep_hrs": 4.9,
+    "daylight_mins": 16.0,
+    "spo2": 96.17,
+    "respiratory_rate": 17.16,
+    "sleep_deep_hrs": 0.6,
+    "sleep_rem_hrs": 1.1,
+    "sleep_core_hrs": 3.3,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Felt good in mornjng after massage tired and lazy haha\nGood day, ruined my ears on karaoke night a little bit and voice too\nAll was well just again bloating in afternoon evening",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
