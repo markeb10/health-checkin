@@ -1,0 +1,30 @@
+{
+  "date": "2025-03-08",
+  "generated_at": "2026-04-23T23:14:57.922061",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15831,
+    "hrv": 63.09,
+    "vo2max": 41.94,
+    "spo2": 94.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "I felt good after dinner yeaterday, feels nice to laugh with filip and nasti, to have some friends\nWas medium bloated so wasnt that good",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
