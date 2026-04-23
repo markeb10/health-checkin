@@ -1,0 +1,67 @@
+{
+  "date": "2026-03-02",
+  "generated_at": "2026-04-23T23:22:21.961718",
+  "whoop": {
+    "imported": true,
+    "recovery": 85.0,
+    "hrv": 43.8,
+    "rhr": 49.0,
+    "sleep_perf": 58.0,
+    "strain": 5.5,
+    "sleep_hrs": 5.2,
+    "spo2": 96.5,
+    "skin_temp": 33.4,
+    "sleep_efficiency": 87.0,
+    "sleep_consistency": 11.0,
+    "respiratory_rate": 13.6,
+    "light_sleep_hrs": 1.2,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.9,
+    "awake_hrs": 0.8,
+    "sleep_cycles": 5,
+    "disturbances": 6,
+    "sleep_needed_hrs": 8.6,
+    "sleep_debt_hrs": 1.1,
+    "calories": 1502,
+    "avg_hr": 65,
+    "max_hr": 145,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 14,
+        "avg_hr": 87,
+        "max_hr": 101
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 44233,
+    "resting_hr": 53.0,
+    "hrv": 60.48,
+    "sleep_hrs": 5.2,
+    "daylight_mins": 53.0,
+    "vo2max": 39.57,
+    "spo2": 97.31,
+    "respiratory_rate": 13.59,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 3,
+    "journal": "Feeling sleepy, a big crisis around 12 and in the evening around 9pm every time when i play duo i guess I am super tired, my vision is down, did anthomny robbins felt much better, but I do need sleep like a lot\nbloating 3/10, funny bloating quite low,\n\nSlovenia",
+    "supplements_list": [
+      "Creatine",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
