@@ -1,0 +1,28 @@
+{
+  "date": "2023-11-30",
+  "generated_at": "2026-04-23T23:05:07.713670",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14417,
+    "resting_hr": 52.0,
+    "hrv": 67.29,
+    "daylight_mins": 13.0,
+    "vo2max": 40.19,
+    "spo2": 97.5,
+    "respiratory_rate": 15.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was strangely having high pulse in morning, fhen woke up and took some water and went down for 30 beats like whaat\nPlanning, brainstorming - solving things\nTai chi repeat 2 x\nBreakfast - cosita bought maaany berries\nJpm meeting\nJust punching replies on several things from issues in casino to cleaning apartment in lj to sounds system to many other things\nNew ideas - didn\u2019t do the the main thing - tomorrow is the day really need to do it if its the last thing - I need inspiration\nWalkie and talkie"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
