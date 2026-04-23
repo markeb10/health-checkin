@@ -1,0 +1,26 @@
+{
+  "date": "2023-10-13",
+  "generated_at": "2026-04-23T23:04:06.831929",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10707,
+    "resting_hr": 56.0,
+    "hrv": 66.51,
+    "daylight_mins": 172.0,
+    "spo2": 98.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept relatively ok until 6:40 - waking up in middle but was good sleep. Today wont be as good as my ass hurts - got some proper hits from the radial shockwaves theraphy plus got some MRI radiation\nPlanning trip for next 6 months done\nBreakfast\nMeeting with Ziga - unprofitable players - I cant believe nothing better is put in place jesus\nBitstarz originals - Pachinko looking interesting and explorer coming along well too - if they launch this 2 games before end of year I would be amazed haha but"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
