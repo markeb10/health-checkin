@@ -1,0 +1,32 @@
+{
+  "date": "2024-09-15",
+  "generated_at": "2026-04-23T23:11:18.275280",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19272,
+    "resting_hr": 54.0,
+    "hrv": 90.12,
+    "daylight_mins": 23.0,
+    "spo2": 96.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling a bit numb but not so bad, just slowand tired\nHad sex 2x lol one time - didnt happen in a year which is interesting\nAcidity galore after lunch and even before it - ruporut helps but yeah kinda weird why my acidity goes so high",
+    "supplements_list": [
+      "Enterogerma",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
