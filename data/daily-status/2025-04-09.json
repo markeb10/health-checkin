@@ -1,0 +1,32 @@
+{
+  "date": "2025-04-09",
+  "generated_at": "2026-04-23T23:15:37.400840",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21867,
+    "resting_hr": 54.0,
+    "hrv": 51.54,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 4,
+    "journal": "Terrible hehe, well flare up during the night - 3 am woke up hot, completely alerted - didnt eat anything insanely wrong i think - maybe tomato de arbolo or fruits - will keep away or bread\nShower before bed\nFeeling hurt from limfatic massage, could be potencial issue for this flare up coz otherwise i dont understand what else could it be",
+    "supplements_list": [
+      "Ashwagandha",
+      "Enterosgel",
+      "Ginger",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
