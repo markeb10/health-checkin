@@ -1,0 +1,24 @@
+{
+  "date": "2023-05-23",
+  "generated_at": "2026-04-23T23:01:09.830434",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31554,
+    "resting_hr": 64.0,
+    "hrv": 60.37
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "It was a nice day, didnt get super a lot of sleep but was fine - was playing in morning a bit training muscles\nGym time\nBreakfast\nLast meeting\nDeveloper meetup\nCornhole tournament - placed 13th /16 teams haha\nAccupunture last one and moxi\nSushi place - sat down with BI team\nGot the gift it was very nice\nWe were in green bar was cool with Slovenia team and rest\nT came to visit we spoke but didnt allow anything more - turned down a kiss - need to be very clear with this girls god damn it\nNice endi"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
