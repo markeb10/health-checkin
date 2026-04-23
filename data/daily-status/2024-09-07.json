@@ -1,0 +1,31 @@
+{
+  "date": "2024-09-07",
+  "generated_at": "2026-04-23T23:11:08.246392",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14730,
+    "resting_hr": 52.0,
+    "hrv": 58.48,
+    "daylight_mins": 168.0,
+    "spo2": 97.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 2,
+    "journal": "Feeling super tired and no energy after 12:30 - really strange - it was after taking Gluthation and echinacea and shuller salts. I was then knocked out with fever. I only recovered after some sleep and then we went home.\nIn general was okey, pressure was still there partly but a bit better",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
