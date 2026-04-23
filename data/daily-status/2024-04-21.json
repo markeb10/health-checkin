@@ -1,0 +1,28 @@
+{
+  "date": "2024-04-21",
+  "generated_at": "2026-04-23T23:08:09.024198",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27377,
+    "resting_hr": 55.0,
+    "hrv": 59.57,
+    "weight_kg": 68.542,
+    "daylight_mins": 48.0,
+    "bmi": 23.72,
+    "spo2": 94.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept good, it was very tight and I was still sleepy in the morning interesting\nGood sleep - no tv, was nicely sleepy before\nPacking\nLast breakfast in morocco\nFlight to London\nFinished 3 body problem\nDrive to Hotel Mandarin \nAte at Leto\nWalkie in Hyde park\nWe watched the anatomy of the fall\nOverall a good day, we traveled well, no problems. Was a relaxing Sunday.\nInspired by: how nice is hyde Park in spring - no allergy so far not even slightest - interesting I guess nature is not far enough yet"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
