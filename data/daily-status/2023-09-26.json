@@ -1,0 +1,28 @@
+{
+  "date": "2023-09-26",
+  "generated_at": "2026-04-23T23:03:45.516082",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 44310,
+    "resting_hr": 53.0,
+    "hrv": 68.33,
+    "daylight_mins": 238.0,
+    "vo2max": 49.51,
+    "spo2": 96.0,
+    "respiratory_rate": 16.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept alright but woke up several times\nDidnt have actomy\nFinished paymnets in crypto and some providers\nJpm meeting\nCosita lunch was really good\nPlayed with a cat\nMeeting Primoz Strajnar\nMeeting mitja Rep - he gave me funds\nConcert or Al Bano - he blew us away\nLots of social interaction, was so nice to see everyone as well and concert was a bomb\nInspired by: Albano - the concert was moved to now - he is soo good\nDidnt like: that I went to bed so early\nIdea: genera more prototype games to find t"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
