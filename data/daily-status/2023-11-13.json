@@ -1,0 +1,32 @@
+{
+  "date": "2023-11-13",
+  "generated_at": "2026-04-23T23:04:46.463996",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29325,
+    "resting_hr": 57.0,
+    "hrv": 61.37,
+    "sleep_hrs": 7.7,
+    "daylight_mins": 35.0,
+    "spo2": 98.25,
+    "respiratory_rate": 14.5,
+    "sleep_deep_hrs": 1.9,
+    "sleep_rem_hrs": 1.5,
+    "sleep_core_hrs": 4.3,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept good, eventhough I had cacao the day before, I think it helped that I hiked, in general my brain was better and my body as well. I think I do need cacao\nGood sleep\nMilos training was not hard today - I think this weekend was one of the best relaxations I could ask for\nGot some coffee for cosita and berries\nMade breakfast\nJpm\nTalked to Dmitry \nSpoke to Ivan \nQuickly ate lunch\nWent to Ma\u2019s clinic to get treated for mu next pains\nSpoke to my dad\nDid translations of EQE car manual for him\nUplo"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
