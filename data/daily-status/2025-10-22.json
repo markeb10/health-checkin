@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-22",
+  "generated_at": "2026-04-23T23:19:39.519639",
+  "whoop": {
+    "imported": true,
+    "recovery": 61.0,
+    "hrv": 33.0,
+    "rhr": 50.0,
+    "sleep_perf": 86.0,
+    "strain": 6.4,
+    "sleep_hrs": 6.7,
+    "spo2": 97.8,
+    "skin_temp": 34.0,
+    "sleep_efficiency": 88.0,
+    "sleep_consistency": 93.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 3.0,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.2,
+    "awake_hrs": 0.9,
+    "sleep_cycles": 7,
+    "disturbances": 4,
+    "sleep_needed_hrs": 8.4,
+    "sleep_debt_hrs": 0.9,
+    "calories": 1600,
+    "avg_hr": 62,
+    "max_hr": 125,
+    "workouts": [
+      {
+        "sport": "Sport 243",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12699,
+    "resting_hr": 52.0,
+    "hrv": 55.12,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 19.0,
+    "bp_systolic": 107.33,
+    "bp_diastolic": 69.5,
+    "vo2max": 40.79,
+    "spo2": 96.46,
+    "respiratory_rate": 13.54,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 3,
+    "journal": "Feeling relatively okey in th emorning it was worse as days before as sleep was shit as my nervous system sympatetic one was too awake and aroused, also had a big fight with cosita - over some stupid thing, just jeaous\nall good, bloating low 3/10",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
