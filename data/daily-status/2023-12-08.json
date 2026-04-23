@@ -1,0 +1,28 @@
+{
+  "date": "2023-12-08",
+  "generated_at": "2026-04-23T23:05:17.697079",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25558,
+    "resting_hr": 56.0,
+    "hrv": 55.86,
+    "daylight_mins": 47.0,
+    "vo2max": 40.15,
+    "spo2": 96.6,
+    "respiratory_rate": 13.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Been super interesting day, but I was relaxed and even though things didn't go my way I was more relaxed and didnt care\nWoke up in new morning  in sunny Croatia\nGym time - did some balancing exercises\nSwimming - swam 2 lenghts was veery nice\nBraakfast time \nDrive back home was long as there was tons of traffic 4 hours almost\nShopping in Mueler and spar\nWe ate in Slovenska hisa\nShopping in Mueler\nWe unpacked everything - took some time but we did it\nMy mental health was good, my fizio was good\nIn"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
