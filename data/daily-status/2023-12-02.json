@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-02",
+  "generated_at": "2026-04-23T23:05:10.534207",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19628,
+    "resting_hr": 55.0,
+    "hrv": 66.04,
+    "daylight_mins": 30.0,
+    "vo2max": 40.05,
+    "spo2": 97.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Been nice day,\nSlept in long\nGolf with caro and her dad practicing\nListened to Marc Andreassen interview\nSushi samba lunch was very good\nWe checked Atlantis Royal hotel super nice we spent there 2 hours\nWatched a netflix movie, said goodbye to Caros family\nWas a nice relaxing day, lots of good vibes, some golf good food cant complain\nInspired by: the new hotel\nDidnt like: that I didnt go to bed earlier\nIdea: be the most interesting guy in the room tomorrow\n\n[Google Sheet]\nBeen nice day,\nSlept in"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
