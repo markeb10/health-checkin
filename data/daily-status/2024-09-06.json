@@ -1,0 +1,31 @@
+{
+  "date": "2024-09-06",
+  "generated_at": "2026-04-23T23:11:07.090339",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9513,
+    "resting_hr": 55.0,
+    "hrv": 56.59,
+    "daylight_mins": 39.0,
+    "spo2": 95.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 2,
+    "journal": "Feeling was not so good in the morning but is much better after workout and during day and evening - feeling ready for bed and sleepy\nDhiarea 1x otherwise solid - no pun intended",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
