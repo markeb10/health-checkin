@@ -1,0 +1,30 @@
+{
+  "date": "2023-04-30",
+  "generated_at": "2026-04-23T23:00:40.062981",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29409,
+    "resting_hr": 60.0,
+    "hrv": 65.16,
+    "weight_kg": 72.414,
+    "sleep_hrs": 6.9,
+    "body_fat_pct": 0.13,
+    "bmi": 24.76,
+    "vo2max": 40.66,
+    "respiratory_rate": 13.38
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept so so , I thinj that chocolate mouse was not great for my sleep hehe\nWas doing some streching\nThinkering about the name Jacpotz Mania came with the z myself\nWent down the memory lane and was checking all events in 2017 - now how much I exercised and how much I consumed what pills and when I started feeling the pain\nEmmas kitchen breakfast was very very good\nWalkie and stopped at turkish reataurant bought kebab but could not eat while just half\nWrote whole 15 questions answers about my medi"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
