@@ -1,0 +1,74 @@
+{
+  "date": "2025-11-02",
+  "generated_at": "2026-04-23T23:19:52.902638",
+  "whoop": {
+    "imported": true,
+    "recovery": 47.0,
+    "hrv": 31.2,
+    "rhr": 53.0,
+    "sleep_perf": 86.0,
+    "strain": 13.1,
+    "sleep_hrs": 7.2,
+    "spo2": 96.5,
+    "skin_temp": 33.1,
+    "sleep_efficiency": 92.6,
+    "sleep_consistency": 88.0,
+    "respiratory_rate": 13.7,
+    "light_sleep_hrs": 3.1,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 2.0,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 4,
+    "disturbances": 8,
+    "sleep_needed_hrs": 9.3,
+    "sleep_debt_hrs": 1.1,
+    "calories": 2066,
+    "avg_hr": 65,
+    "max_hr": 176,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 226,
+        "avg_hr": 110,
+        "max_hr": 172
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19651,
+    "resting_hr": 54.5,
+    "hrv": 71.19,
+    "sleep_hrs": 7.2,
+    "daylight_mins": 48.0,
+    "vo2max": 40.74,
+    "spo2": 97.06,
+    "respiratory_rate": 15.77,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 4,
+    "journal": "Feeling a bit tired in the morning, lots of bowl movements haha, no idea i think that ginger energy booster at 6 pm was not a great idea but also that tiramisu was a booomb, that mascarpone is not sitting well with me\n4/10 bloating",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Ginger",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
