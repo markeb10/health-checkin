@@ -1,0 +1,25 @@
+{
+  "date": "2023-10-02",
+  "generated_at": "2026-04-23T23:03:52.933593",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22078,
+    "resting_hr": 60.0,
+    "hrv": 74.76,
+    "spo2": 95.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Finally slept 7.5 hours , was last day I was full of energy\nLast day at stand\nOriginals meeting\nSlept good\nSome meetings\nFood in the american restaurant\nWalkie with guys\nMorning energy was good\nInspired by: how good opinion about us some people have , the reputation we have built over the years\nDidnt like: long talks with the guy izraeli\nIdea: go to sotfswiss party\n\n[Google Sheet]\nFinally slept 7.5 hours , was last day I was full of energy\nLast day at stand\nOriginals meeting\nSlept good\nSome meet"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
