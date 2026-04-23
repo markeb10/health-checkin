@@ -1,0 +1,32 @@
+{
+  "date": "2024-06-09",
+  "generated_at": "2026-04-23T23:09:11.412722",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 38688,
+    "hrv": 49.92,
+    "sleep_hrs": 5.6,
+    "daylight_mins": 44.0,
+    "spo2": 95.67,
+    "respiratory_rate": 15.0,
+    "sleep_deep_hrs": 1.7,
+    "sleep_rem_hrs": 1.5,
+    "sleep_core_hrs": 2.4,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "I feel truly grateful\nWas feeling swollen from the flightmy coccyx was hurting - i was swollen\nBloated quite a lot",
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
