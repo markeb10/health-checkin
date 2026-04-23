@@ -1,0 +1,60 @@
+{
+  "date": "2025-09-13",
+  "generated_at": "2026-04-23T23:18:52.597953",
+  "whoop": {
+    "imported": true,
+    "recovery": 82.0,
+    "hrv": 36.5,
+    "rhr": 49.0,
+    "sleep_perf": 90.0,
+    "strain": 9.3,
+    "sleep_hrs": 7.7,
+    "spo2": 97.2,
+    "skin_temp": 33.5,
+    "sleep_efficiency": 94.9,
+    "sleep_consistency": 87.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 3.7,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.9,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 7,
+    "disturbances": 10,
+    "sleep_needed_hrs": 8.7,
+    "sleep_debt_hrs": 1.1,
+    "calories": 1771,
+    "avg_hr": 63,
+    "max_hr": 149,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 39676,
+    "resting_hr": 49.5,
+    "hrv": 68.65,
+    "sleep_hrs": 8.9,
+    "daylight_mins": 281.0,
+    "spo2": 97.04,
+    "respiratory_rate": 13.36,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Cold shower, was good, feeling healthier, also HBOT, and in general everything seems to be good, but my bloating is still off charts - gotta fix my gut stuff\n\nGreat day otherwise, was amazing to walk in izola, really liking this town and place and so much to discover\nbloating 6/10, very smelly like yesterday but oddly enough didnt eat any sweets today or fresh fruits",
+    "supplements_list": [
+      "Enterosgel",
+      "Lutein",
+      "Vitamin C",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 2,
+    "bloating": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
