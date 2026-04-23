@@ -1,0 +1,85 @@
+{
+  "date": "2026-02-24",
+  "generated_at": "2026-04-23T23:22:14.431634",
+  "whoop": {
+    "imported": true,
+    "recovery": 86.0,
+    "hrv": 41.6,
+    "rhr": 51.0,
+    "sleep_perf": 80.0,
+    "strain": 13.7,
+    "sleep_hrs": 7.2,
+    "spo2": 93.9,
+    "skin_temp": 34.0,
+    "sleep_efficiency": 94.2,
+    "sleep_consistency": 69.0,
+    "respiratory_rate": 14.0,
+    "light_sleep_hrs": 3.5,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 4,
+    "disturbances": 7,
+    "sleep_needed_hrs": 9.7,
+    "sleep_debt_hrs": 2.1,
+    "calories": 2299,
+    "avg_hr": 69,
+    "max_hr": 184,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "Yoga",
+        "calories": 107,
+        "avg_hr": 102,
+        "max_hr": 138
+      },
+      {
+        "sport": "Yoga",
+        "calories": 62,
+        "avg_hr": 97,
+        "max_hr": 150
+      },
+      {
+        "sport": "Activity",
+        "calories": 159,
+        "avg_hr": 122,
+        "max_hr": 184
+      },
+      {
+        "sport": "Activity",
+        "calories": 257,
+        "avg_hr": 123,
+        "max_hr": 147
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14826,
+    "resting_hr": 57.67,
+    "hrv": 46.65,
+    "sleep_hrs": 7.0,
+    "daylight_mins": 237.0,
+    "spo2": 95.55,
+    "respiratory_rate": 14.03,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 0,
+    "journal": "Feeling depressed, cured it with ice cream and snorkelling was a bit better, my throat got sore in the evening after snorkeling, i guess it wasnt that great for me",
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
