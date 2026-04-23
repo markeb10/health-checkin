@@ -1,0 +1,72 @@
+{
+  "date": "2025-11-29",
+  "generated_at": "2026-04-23T23:20:26.498590",
+  "whoop": {
+    "imported": true,
+    "recovery": 39.0,
+    "hrv": 30.0,
+    "rhr": 49.0,
+    "sleep_perf": 80.0,
+    "strain": 6.5,
+    "sleep_hrs": 5.4,
+    "spo2": 96.6,
+    "skin_temp": 33.7,
+    "sleep_efficiency": 90.1,
+    "sleep_consistency": 86.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 2.5,
+    "deep_sleep_hrs": 1.8,
+    "rem_sleep_hrs": 1.1,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 6,
+    "disturbances": 8,
+    "sleep_needed_hrs": 8.5,
+    "sleep_debt_hrs": 0.7,
+    "calories": 1662,
+    "avg_hr": 61,
+    "max_hr": 162,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 79,
+        "avg_hr": 95,
+        "max_hr": 151
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11811,
+    "resting_hr": 51.5,
+    "hrv": 62.14,
+    "sleep_hrs": 5.4,
+    "daylight_mins": 23.0,
+    "spo2": 97.77,
+    "respiratory_rate": 14.4,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "Feeling sleepy and slower than usual, wired in the morning like cortisol spike is waking me up at 5am already, something is off, while in evening everything seems fine. Maybe some side effect from what I was taking day before this dmanosio\nfeeling a bit of acidity in the morning\n\nbloating terrible 7/10 mostly in the afternoon",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 7
+  },
+  "zoe": {
+    "imported": false
+  }
+}
