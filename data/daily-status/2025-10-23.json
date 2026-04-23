@@ -1,0 +1,67 @@
+{
+  "date": "2025-10-23",
+  "generated_at": "2026-04-23T23:19:40.704504",
+  "whoop": {
+    "imported": true,
+    "recovery": 85.0,
+    "hrv": 37.2,
+    "rhr": 49.0,
+    "sleep_perf": 92.0,
+    "strain": 11.4,
+    "sleep_hrs": 7.4,
+    "spo2": 97.3,
+    "skin_temp": 34.0,
+    "sleep_efficiency": 94.7,
+    "sleep_consistency": 95.0,
+    "respiratory_rate": 13.7,
+    "light_sleep_hrs": 3.1,
+    "deep_sleep_hrs": 2.6,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 7,
+    "disturbances": 10,
+    "sleep_needed_hrs": 8.4,
+    "sleep_debt_hrs": 0.9,
+    "calories": 2019,
+    "avg_hr": 65,
+    "max_hr": 156,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 416,
+        "avg_hr": 115,
+        "max_hr": 148
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12210,
+    "resting_hr": 52.0,
+    "hrv": 52.07,
+    "sleep_hrs": 7.2,
+    "bp_systolic": 107.5,
+    "bp_diastolic": 62.5,
+    "spo2": 98.67,
+    "respiratory_rate": 13.67,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good, energy was there. Was somehow able to get regenerated after my padel game was great to finally do some sports and get some cardio level 2 exercising in\nkinda okey, bloating 3/10 almost 2/10, i am noticing that when I get this violent blop afer lunch then I dont have bloating issues, interesting, so maybe the bloating I am experiencing is actually caused by eggs, could be I am really sensitive to them maybe maybe",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
