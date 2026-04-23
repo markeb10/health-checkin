@@ -1,0 +1,72 @@
+{
+  "date": "2025-12-01",
+  "generated_at": "2026-04-23T23:20:29.068669",
+  "whoop": {
+    "imported": true,
+    "recovery": 56.0,
+    "hrv": 34.2,
+    "rhr": 49.0,
+    "sleep_perf": 81.0,
+    "strain": 12.0,
+    "sleep_hrs": 5.7,
+    "spo2": 96.9,
+    "skin_temp": 33.6,
+    "sleep_efficiency": 96.3,
+    "sleep_consistency": 78.0,
+    "respiratory_rate": 13.1,
+    "light_sleep_hrs": 2.3,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.3,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 3,
+    "disturbances": 9,
+    "sleep_needed_hrs": 8.3,
+    "sleep_debt_hrs": 0.5,
+    "calories": 1981,
+    "avg_hr": 65,
+    "max_hr": 182,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 342,
+        "avg_hr": 119,
+        "max_hr": 182
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29966,
+    "resting_hr": 52.0,
+    "hrv": 65.53,
+    "sleep_hrs": 5.7,
+    "daylight_mins": 146.0,
+    "vo2max": 41.18,
+    "spo2": 96.65,
+    "respiratory_rate": 13.07,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 2,
+    "journal": "I am okey so so, bit wired nervous, and not super sleepy in the evening but I think in th emorning I will be up again my sympatetic nervous system is up - I think the only way to get it down is to tire down the body and that we are doing tomorrow\nfeeling nervous in the morning - cortisol is high\nbloating good 3/10 still keeping relatively okeyish",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 5,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
