@@ -1,0 +1,31 @@
+{
+  "date": "2025-03-11",
+  "generated_at": "2026-04-23T23:15:01.518957",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 32315,
+    "resting_hr": 60.0,
+    "hrv": 44.87,
+    "vo2max": 42.21,
+    "spo2": 95.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling a bit off bit not crazy off. My muscles are tired and my mind feels slow and missing some dopamine\nFeeling okey, but bloating after 4 pm was very strong -",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
