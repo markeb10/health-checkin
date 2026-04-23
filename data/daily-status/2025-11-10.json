@@ -1,0 +1,78 @@
+{
+  "date": "2025-11-10",
+  "generated_at": "2026-04-23T23:20:02.812173",
+  "whoop": {
+    "imported": true,
+    "recovery": 92.0,
+    "hrv": 43.4,
+    "rhr": 49.0,
+    "sleep_perf": 85.0,
+    "strain": 14.2,
+    "sleep_hrs": 7.7,
+    "spo2": 96.9,
+    "skin_temp": 34.4,
+    "sleep_efficiency": 91.6,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 13.1,
+    "light_sleep_hrs": 2.7,
+    "deep_sleep_hrs": 2.6,
+    "rem_sleep_hrs": 2.3,
+    "awake_hrs": 0.7,
+    "sleep_cycles": 8,
+    "disturbances": 10,
+    "sleep_needed_hrs": 9.7,
+    "sleep_debt_hrs": 1.8,
+    "calories": 2260,
+    "avg_hr": 65,
+    "max_hr": 186,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 46,
+        "avg_hr": 94,
+        "max_hr": 115
+      },
+      {
+        "sport": "HIIT",
+        "calories": 232,
+        "avg_hr": 116,
+        "max_hr": 174
+      },
+      {
+        "sport": "Activity",
+        "calories": 249,
+        "avg_hr": 105,
+        "max_hr": 148
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23907,
+    "resting_hr": 52.0,
+    "hrv": 82.09,
+    "sleep_hrs": 7.7,
+    "daylight_mins": 56.0,
+    "vo2max": 40.85,
+    "spo2": 97.77,
+    "respiratory_rate": 13.12,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 2,
+    "journal": "Feeling better in terms of the pelvic pain but got my back a bit tight so I think I need to be careful with this, I was smashing a lot today, but overall relaxing day, did duolingo, ate good food and in general did all the cool stuff, even had social interaction with Boro so that was good",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
