@@ -1,0 +1,40 @@
+{
+  "date": "2024-07-23",
+  "generated_at": "2026-04-23T23:10:09.159279",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 37907,
+    "resting_hr": 53.0,
+    "hrv": 58.97,
+    "sleep_hrs": 7.1,
+    "daylight_mins": 134.0,
+    "vo2max": 42.93,
+    "spo2": 96.33,
+    "respiratory_rate": 13.5,
+    "sleep_deep_hrs": 0.9,
+    "sleep_rem_hrs": 1.4,
+    "sleep_core_hrs": 4.8,
+    "sleep_awake_hrs": 1.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling ok, a bit weird visiting the office - feels off seeing Jus leaving. Otherwise was feeling okey whole day. No slump after gym as it was not too hard as I had core.\nEverything seems to be fine except feeling bloated, - maybe due to the 2 cakes I ate today and some banana bread",
+    "supplements_list": [
+      "Ashwagandha",
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
