@@ -1,0 +1,26 @@
+{
+  "date": "2024-03-15",
+  "generated_at": "2026-04-23T23:07:22.629543",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24683,
+    "resting_hr": 57.0,
+    "hrv": 71.92,
+    "daylight_mins": 60.0,
+    "spo2": 98.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Good day, bit weird vibes with this Idle Duck but hey, the guys deserve a chance. I think they have 20% chance for moonshot but lets try. I might learn something.\nMornjng exercise for legs + tai chi\nInterview didnt go well for crm was walking outside on pourch in sun\nJpm meeting\nNotary signing to establishing a new company Idle Duck with Primoz - I am still not convinced I should have invested here - but lets see - 2M for a shot\nLunch with Primoz - the Lamb was not good - he is annoying guy aski"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
