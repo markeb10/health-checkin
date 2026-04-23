@@ -1,0 +1,32 @@
+{
+  "date": "2024-10-23",
+  "generated_at": "2026-04-23T23:12:07.426489",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27880,
+    "resting_hr": 54.0,
+    "hrv": 69.08,
+    "daylight_mins": 78.0,
+    "vo2max": 41.6,
+    "spo2": 98.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 2,
+    "journal": "All went well today, was a nice almost 1h and something walk with Filip. We had a great conversation and always nice to hear his reports and how he is doing.\nNo problems at all",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
