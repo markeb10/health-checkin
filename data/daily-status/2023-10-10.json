@@ -1,0 +1,26 @@
+{
+  "date": "2023-10-10",
+  "generated_at": "2026-04-23T23:04:03.131989",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17988,
+    "resting_hr": 54.0,
+    "hrv": 61.44,
+    "daylight_mins": 42.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept kinda 7 hours, definitely sleeping after pizza in evening and even just a half of it is too much and it was gluten free :(\nMorning grooming - woke up 7:30\nWas having tough time sleeping was hot - air was horrible\nStreching\nBreakfast\nJpm meeting its tough\nPacking\nDrive back to Ljubljana\nFish in Cubo restaurant - fish was really good\nWorked a bit - still MGA omg I kinda hate this process but then again its ok\nWalkie - went to new apt everything seems to be under control and fine\nWas a bit sa"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
