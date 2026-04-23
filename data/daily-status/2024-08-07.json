@@ -1,0 +1,37 @@
+{
+  "date": "2024-08-07",
+  "generated_at": "2026-04-23T23:10:28.928004",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25136,
+    "resting_hr": 57.0,
+    "hrv": 71.31,
+    "sleep_hrs": 7.7,
+    "daylight_mins": 170.0,
+    "spo2": 96.75,
+    "respiratory_rate": 15.62,
+    "sleep_deep_hrs": 1.6,
+    "sleep_rem_hrs": 1.3,
+    "sleep_core_hrs": 4.8,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "7.5 - slept very good\nIgor workout - pull day\nCalm morning - trying to do one thing at the time\nBeing calm - breakfast shopping chicken and onions\nSpeaking to Dimitar\nListening criticism to Roulette \nMeeting with vlad and matej regarding telegram\nMeeting with scatterkings guys - seems like they have stuff ready but still took them 5 months to release new game and lets not forget its not out yet - but sure they believe it will be much faster to get the next one - i believe them coz its in the pip",
+    "supplements_list": [
+      "Enterosgel",
+      "Immune Action",
+      "Probiotic"
+    ]
+  },
+  "zoe": {
+    "imported": false
+  }
+}
