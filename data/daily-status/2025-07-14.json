@@ -1,0 +1,37 @@
+{
+  "date": "2025-07-14",
+  "generated_at": "2026-04-23T23:17:37.014336",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26713,
+    "resting_hr": 55.0,
+    "hrv": 55.82,
+    "daylight_mins": 64.0,
+    "vo2max": 41.65,
+    "spo2": 97.57
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 7,
+    "journal": "Was a good day, relaxed some meeting but in general not too stressful\nHigh bloating between 6 and 9:30 pm",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K2",
+      "Magnesium Glycinate",
+      "Zinc",
+      "Glycine"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
