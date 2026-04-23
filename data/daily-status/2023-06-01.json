@@ -1,0 +1,27 @@
+{
+  "date": "2023-06-01",
+  "generated_at": "2026-04-23T23:01:20.647649",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30963,
+    "resting_hr": 60.0,
+    "hrv": 61.34,
+    "sleep_hrs": 6.7,
+    "vo2max": 40.35,
+    "respiratory_rate": 15.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Last day of my family being here - it feels like we did so many things and I already miss them but they are gone for 30 min - it was sooo fun\nWoke up full of energy - didn\u2019t sleep so much but I think I did like 7 hours\nCelery juice\nGolf training with Tim and whole family was nice we all did much better - Domen is doing really good\nThen some pinball\nThen ride to Dubai Mall - we ate in a great restaurant The Trove. Also very expensive but it was worth it.\nThen shopping got 2 more Boss t-shirts\nWe "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
