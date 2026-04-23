@@ -1,0 +1,30 @@
+{
+  "date": "2024-11-27",
+  "generated_at": "2026-04-23T23:12:51.232125",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14568,
+    "resting_hr": 55.0,
+    "hrv": 72.98,
+    "vo2max": 42.21,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling annoyed by Steve and his british humor - beating around the bush - really stupidly instead od playing it more smart\nLimfatic drainage hurt a bit but it wasnt too bad , what did hurt was that guy using his force on me with every little thing he could found (Stefan and a most painful massage every)",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
