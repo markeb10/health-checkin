@@ -1,0 +1,31 @@
+{
+  "date": "2024-09-23",
+  "generated_at": "2026-04-23T23:11:28.193493",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11456,
+    "resting_hr": 64.0,
+    "hrv": 39.78,
+    "daylight_mins": 112.0,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 2,
+    "journal": "Was good except didnt like the rush with packing which was accompanied with sra\u010dka :) was lasting for few hours and then it was better. Kinda weird one .\n\notherwise feeling stable - I do like sleeping a lot\nStomach felt weird and kinda almost feeling sick but afterwards it passed, its really strange why I got this",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
