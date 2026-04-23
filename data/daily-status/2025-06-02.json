@@ -1,0 +1,30 @@
+{
+  "date": "2025-06-02",
+  "generated_at": "2026-04-23T23:16:43.823211",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12918,
+    "hrv": 59.17,
+    "spo2": 96.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling a bit sad for leaving but at the same time happy that I am starting my remont, hopefully getting closer to the solution of my problems\nWas bad felt acidity, was feverish had symptoms - but avoided taking the ruporut - i feel i disrupt sokething with it but maybe no",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut",
+      "Telfast"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
