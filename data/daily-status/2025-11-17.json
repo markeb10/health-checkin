@@ -1,0 +1,64 @@
+{
+  "date": "2025-11-17",
+  "generated_at": "2026-04-23T23:20:11.829947",
+  "whoop": {
+    "imported": true,
+    "recovery": 57.0,
+    "hrv": 33.9,
+    "rhr": 50.0,
+    "sleep_perf": 89.0,
+    "strain": 11.7,
+    "sleep_hrs": 8.1,
+    "spo2": 94.5,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 94.9,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 3.5,
+    "deep_sleep_hrs": 3.0,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 8,
+    "disturbances": 13,
+    "sleep_needed_hrs": 8.7,
+    "sleep_debt_hrs": 0.9,
+    "calories": 1828,
+    "avg_hr": 64,
+    "max_hr": 187,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 179,
+        "avg_hr": 118,
+        "max_hr": 183
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9621,
+    "resting_hr": 52.5,
+    "hrv": 50.5,
+    "sleep_hrs": 8.1,
+    "daylight_mins": 34.0,
+    "spo2": 97.39,
+    "respiratory_rate": 13.39,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling great, I think bitcoin falling down is also deloading me from responsibilities and it kinda feels great, less pressure, I like the way to look at this , otherwise I did hurt a bit the achilles today while performing lymfatic exercise, lets see how it will be tomorrow in the morning - but need to start performing my lifts again\n3/10 bloating maybe even less",
+    "supplements_list": [
+      "Curcumin"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
