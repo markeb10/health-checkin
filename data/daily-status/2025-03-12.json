@@ -1,0 +1,31 @@
+{
+  "date": "2025-03-12",
+  "generated_at": "2026-04-23T23:15:02.804050",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19360,
+    "resting_hr": 54.0,
+    "hrv": 60.29,
+    "spo2": 95.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 3,
+    "journal": "Super off, having lactobacillus symptoms, shortness of breath, not beeing sleepy in morning, also not being sleepy now in evening - i am crazy tired but didnt had signle yawning\nhad max bloating, was continuation from",
+    "supplements_list": [
+      "Ashwagandha",
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
