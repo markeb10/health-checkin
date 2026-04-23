@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-06",
+  "generated_at": "2026-04-23T23:03:57.846160",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15833,
+    "resting_hr": 53.0,
+    "hrv": 61.2,
+    "daylight_mins": 103.0,
+    "vo2max": 42.05,
+    "spo2": 93.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Sleeping part was fine, was really sleepy in morning. But at least I meditated\nMeditation\nBreakfast in dannys\nChoosing the mattress with Julian in Form Hastens testing\nLunchy in Aki\nMassage in Lucky thai - was so so but at least they didnt hurt anything hehe \ud83d\ude1c\nWas exploring the options for check my trip app and found flighty - super excited about the app\nWas cooling a bit my bum\nDidnt take the allergy pill again - second day\nKapka cleaned\nRelaxing day, I was not doing much not closing rings, eat"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
