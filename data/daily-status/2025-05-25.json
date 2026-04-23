@@ -1,0 +1,33 @@
+{
+  "date": "2025-05-25",
+  "generated_at": "2026-04-23T23:16:33.334320",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14498,
+    "resting_hr": 58.0,
+    "hrv": 47.86,
+    "daylight_mins": 5.0,
+    "spo2": 97.0,
+    "respiratory_rate": 12.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling in pain on times with sitting but its been a long one so no wonder, will just try to push it trough\nLow bloating, otherwise all good",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
