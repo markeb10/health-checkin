@@ -1,0 +1,30 @@
+{
+  "date": "2024-12-25",
+  "generated_at": "2026-04-23T23:13:25.758504",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9522,
+    "hrv": 69.6,
+    "daylight_mins": 159.0,
+    "spo2": 95.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling pain in achilles in evening damn, i will rest all my achilles stuff tomorrow\n\nothwrwide super on fire as stuff eith mae and ann is happenign between them\nNo problem - some bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
