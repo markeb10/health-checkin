@@ -1,0 +1,62 @@
+{
+  "date": "2026-02-06",
+  "generated_at": "2026-04-23T23:21:51.943181",
+  "whoop": {
+    "imported": true,
+    "recovery": 42.0,
+    "hrv": 29.1,
+    "rhr": 53.0,
+    "sleep_perf": 80.0,
+    "strain": 8.3,
+    "sleep_hrs": 6.3,
+    "spo2": 93.9,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 97.7,
+    "sleep_consistency": 74.0,
+    "respiratory_rate": 13.8,
+    "light_sleep_hrs": 2.8,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.5,
+    "awake_hrs": 0.1,
+    "sleep_cycles": 2,
+    "disturbances": 11,
+    "sleep_needed_hrs": 9.1,
+    "sleep_debt_hrs": 1.3,
+    "calories": 1723,
+    "avg_hr": 68,
+    "max_hr": 145,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 68,
+        "avg_hr": 96,
+        "max_hr": 113
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20991,
+    "resting_hr": 56.5,
+    "hrv": 68.91,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 17.0,
+    "vo2max": 40.75,
+    "spo2": 96.26,
+    "respiratory_rate": 13.8,
+    "sleep_awake_hrs": 0.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 0,
+    "journal": "Been super interesting day, the padel was chatn and it was quite an experience, intense on moments, really cool, was nervous and completely had issues with sleeping in the morning, but overall went well\nfeeling okeyish, bloating 3/10, overall good",
+    "anxiety": 5,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
