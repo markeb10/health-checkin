@@ -1,0 +1,35 @@
+{
+  "date": "2025-07-21",
+  "generated_at": "2026-04-23T23:17:45.615785",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20323,
+    "resting_hr": 53.0,
+    "hrv": 60.11,
+    "daylight_mins": 55.0,
+    "vo2max": 41.73,
+    "spo2": 98.43
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 4,
+    "journal": "Feeling good, new ideas, being calm but also very happy once the procedure was over , hopefully this is the beginning of something great\n4/10 was actually nicely surprised that I was better",
+    "supplements_list": [
+      "Enterosgel",
+      "Lutein",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
