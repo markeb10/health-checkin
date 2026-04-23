@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-25",
+  "generated_at": "2026-04-23T23:14:44.751192",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11185,
+    "resting_hr": 62.0,
+    "hrv": 54.26,
+    "spo2": 96.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good but unsure why I cant connect to my family - like what the heck I mean why is my mind somehwere else all the tome - next time pick something to have some alone talk time with everyone\nFeeling a little acisity in evening after eating lots of fries",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
