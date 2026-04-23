@@ -1,0 +1,66 @@
+{
+  "date": "2026-01-27",
+  "generated_at": "2026-04-23T23:21:39.551097",
+  "whoop": {
+    "imported": true,
+    "recovery": 72.0,
+    "hrv": 34.3,
+    "rhr": 50.0,
+    "sleep_perf": 81.0,
+    "strain": 12.6,
+    "sleep_hrs": 6.7,
+    "spo2": 95.8,
+    "skin_temp": 34.4,
+    "sleep_efficiency": 91.1,
+    "sleep_consistency": 73.0,
+    "respiratory_rate": 13.9,
+    "light_sleep_hrs": 2.8,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.7,
+    "sleep_cycles": 7,
+    "disturbances": 4,
+    "sleep_needed_hrs": 8.9,
+    "sleep_debt_hrs": 0.7,
+    "calories": 2119,
+    "avg_hr": 65,
+    "max_hr": 157,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 235,
+        "avg_hr": 138,
+        "max_hr": 157
+      },
+      {
+        "sport": "Activity",
+        "calories": 270,
+        "avg_hr": 125,
+        "max_hr": 149
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14898,
+    "resting_hr": 53.0,
+    "hrv": 42.04,
+    "sleep_hrs": 5.4,
+    "spo2": 96.88,
+    "respiratory_rate": 13.89,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Feeling okeyish but a bit in pain due to my pain close to hip, not sure what exactly it is but its not great, will try to go to UPANDRUNNING here in Jumeira Golf Estates\nbloating 6/10 got really bad during few hours after lunch, but overall was good.",
+    "anxiety": 5,
+    "bloating": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
