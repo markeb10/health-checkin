@@ -1,0 +1,25 @@
+{
+  "date": "2023-05-06",
+  "generated_at": "2026-04-23T23:00:48.143996",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11769,
+    "resting_hr": 56.0,
+    "hrv": 67.76,
+    "sleep_hrs": 0.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "New day, rainy but I like low pressure I think I will sleep good. But today I didnt sleep good was waking up a lot at 2 at 5 but ok\nDid senses exercises \nNway back\nMeditation / that actually quite helped me\nTook Singulair in evening just felt squeezing in my chest\nWorking on Social media strategy\nMeeting Sarah and Joe and Sean working on details\nAte pizza \ud83c\udf55 in Pinsa Romana mmm carbonara\nPaid providers\nCosita made great lunchy\nWatched apple event apple Vision was released today historical\nTried t"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
