@@ -1,0 +1,33 @@
+{
+  "date": "2023-12-15",
+  "generated_at": "2026-04-23T23:05:26.105871",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 52196,
+    "resting_hr": 58.0,
+    "hrv": 65.34,
+    "sleep_hrs": 7.3,
+    "daylight_mins": 39.0,
+    "vo2max": 40.3,
+    "spo2": 95.0,
+    "respiratory_rate": 15.0,
+    "sleep_deep_hrs": 1.2,
+    "sleep_rem_hrs": 1.4,
+    "sleep_core_hrs": 4.7,
+    "sleep_awake_hrs": 1.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept good and relatively long, nice, my boniko pain really coming out with a vengeance after walk today and also sitting at alex place, there must be something with me using some muscles to increase the pain and make this area more sensitive\nTai chi\nJpm meeting\nBerry breakfast was good \nWent to brot for cosita she is sick\nOriginals meeting - Pacchinko not doing so well\nTesting with Vlad for gifts\nSpoke to Simon\nBrought lunch chicken and salad\nBoniko hurts - irritated it by walking a lot and fas"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
