@@ -1,0 +1,41 @@
+{
+  "date": "2024-07-30",
+  "generated_at": "2026-04-23T23:10:18.280052",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 49181,
+    "resting_hr": 51.0,
+    "hrv": 66.45,
+    "sleep_hrs": 5.4,
+    "daylight_mins": 178.0,
+    "vo2max": 43.81,
+    "spo2": 97.0,
+    "respiratory_rate": 14.22,
+    "sleep_deep_hrs": 0.7,
+    "sleep_rem_hrs": 0.9,
+    "sleep_core_hrs": 3.8,
+    "sleep_awake_hrs": 1.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling tired, have everything enough, is weird is like vitamins are not helping me anymore - got some from Renata - lets see\nFeeling all okey",
+    "supplements_list": [
+      "Collagen",
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic",
+      "Schussler Salt"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
