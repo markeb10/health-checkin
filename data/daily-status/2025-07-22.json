@@ -1,0 +1,33 @@
+{
+  "date": "2025-07-22",
+  "generated_at": "2026-04-23T23:17:46.794456",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28456,
+    "resting_hr": 52.0,
+    "hrv": 51.11,
+    "daylight_mins": 33.0,
+    "spo2": 95.43
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 4,
+    "journal": "Feeling sleepy, wired but cant sleep, hopefully I will be able to eat lots of stuff soon, also that this block will help actually, or that we find the source of the problem\n5/10 - was a bit more than yest",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Magnesium Glycinate"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
