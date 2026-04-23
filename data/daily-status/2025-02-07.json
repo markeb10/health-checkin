@@ -1,0 +1,27 @@
+{
+  "date": "2025-02-07",
+  "generated_at": "2026-04-23T23:14:21.486613",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17622,
+    "resting_hr": 63.0,
+    "hrv": 52.29,
+    "daylight_mins": 196.0,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 0,
+    "journal": "Felt a bit brain fog in the morning - funny I woke up like it was morning - something is not letting me sleep super weird -\nFeeling okeyish",
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
