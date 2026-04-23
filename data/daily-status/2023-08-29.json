@@ -1,0 +1,25 @@
+{
+  "date": "2023-08-29",
+  "generated_at": "2026-04-23T23:03:10.045344",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21468,
+    "resting_hr": 52.0,
+    "hrv": 59.51,
+    "vo2max": 39.99
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was sleeping until 6 which was not that bad - 7 hours. New therapies were interesting for sure.\nReading \nGrooming - shaving, washing face, putting cream\nGym - stretching some strength exercises\nSpela - 5th Element - she was kind enough to point to some things - funny she did see some weird things so hopefully \ud83e\udd1e we are closer to solving this issue\nDemo meeting\nWas super angry with Hayley \nLunchy\nDrive to Maribor was raining all the time\nMeeting Denis and his brother\nMeeting Zana for Bioresonance "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
