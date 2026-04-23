@@ -1,0 +1,27 @@
+{
+  "date": "2023-06-14",
+  "generated_at": "2026-04-23T23:01:35.961818",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 35849,
+    "resting_hr": 59.0,
+    "hrv": 48.37,
+    "sleep_hrs": 0.0,
+    "vo2max": 41.18,
+    "respiratory_rate": 14.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Another nice day, really used well whole evening , less itchy nose, i bet it was mostly due to sleeping with open window coz also humidity was low\nMeditation\nWas kinda feeling a bit sick with AC and all but was ok during the day - didnt take singular today also my nose didnt itch so much\nBreakfast and bornemann theraphy todsy we repeated same as day before - injections right on painful spot and massage with shockwave theraphy was really painful and the young guy that did it was really into it\nMe"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
