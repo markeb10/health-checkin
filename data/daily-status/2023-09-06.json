@@ -1,0 +1,24 @@
+{
+  "date": "2023-09-06",
+  "generated_at": "2026-04-23T23:03:20.127384",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15005,
+    "resting_hr": 55.0,
+    "hrv": 67.58
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept ok, kinda still sleeping after waking up haha, I really need my naps damn it, tomorrow will be tough to get it too.\nMeditation\nGym workout - legs again hehe hip exercises\nWalkie\nOriginals meeting\nBoro filip meeting working on JPM\nCall with ironman frontend\nDidn\u2019t take the pill Singulair today\nMeeting with boro and Filio again \nCosita made lunch\nGot upset about docs i need to upload again to mga portal anyways replied to them - i was missing my afternoon nap I think haha \ud83d\ude02 this warm weather"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
