@@ -1,0 +1,27 @@
+{
+  "date": "2024-04-17",
+  "generated_at": "2026-04-23T23:08:04.011218",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34399,
+    "resting_hr": 58.0,
+    "hrv": 59.84,
+    "daylight_mins": 449.0,
+    "vo2max": 41.76,
+    "spo2": 94.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept nothing since 3 am - blaming it on cacao\nWalkie in the mornjng - 2 circles though I thinjk it was one\nBreakfast\nMarrakech guided tour - we liked it new experience its really hard to get used to \nWe ate lunch in center as well - I mean its interesting how they built all this and how are they living to this date its just crazy\nWe were tired i worked\nSpoke to Miha about the whole plan\nWalkie at same time - walked 12 km\nDinner - Shrvan - was really pleasantly surprised with quality of the food"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
