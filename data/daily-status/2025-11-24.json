@@ -1,0 +1,73 @@
+{
+  "date": "2025-11-24",
+  "generated_at": "2026-04-23T23:20:20.324768",
+  "whoop": {
+    "imported": true,
+    "recovery": 67.0,
+    "hrv": 35.4,
+    "rhr": 48.0,
+    "sleep_perf": 92.0,
+    "strain": 11.6,
+    "sleep_hrs": 7.2,
+    "spo2": 95.3,
+    "skin_temp": 33.7,
+    "sleep_efficiency": 91.7,
+    "sleep_consistency": 90.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 3.6,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.7,
+    "sleep_cycles": 7,
+    "disturbances": 6,
+    "sleep_needed_hrs": 8.0,
+    "sleep_debt_hrs": 0.5,
+    "calories": 1917,
+    "avg_hr": 63,
+    "max_hr": 186,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 123,
+        "avg_hr": 97,
+        "max_hr": 145
+      },
+      {
+        "sport": "HIIT",
+        "calories": 308,
+        "avg_hr": 120,
+        "max_hr": 186
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19865,
+    "resting_hr": 51.0,
+    "hrv": 45.67,
+    "sleep_hrs": 7.2,
+    "daylight_mins": 93.0,
+    "vo2max": 41.39,
+    "spo2": 96.95,
+    "respiratory_rate": 13.24,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 3,
+    "journal": "New day, feeling relatively good, pain in my sitting bones was slightly better but at times was quite strong its weird, reading book, learning spanish, light exercise, kinda what i like but something might be missing, i might be living behind somekind of facade, am i accepting life?\nbloating 3/10 wasnt too bad, eventhough I ate something sweet well probably will feel it tomorrow",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
