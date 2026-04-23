@@ -1,0 +1,27 @@
+{
+  "date": "2024-02-01",
+  "generated_at": "2026-04-23T23:06:27.537005",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20541,
+    "resting_hr": 55.0,
+    "hrv": 72.84,
+    "daylight_mins": 3.0,
+    "spo2": 96.0,
+    "respiratory_rate": 15.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Relaxing day, not doing much really haha\nTai chi\nWas checking if I can learn from some master live here in Dubai - but I think I will first try to learn from his videos on udemity then we will see\nBreakfast\nHealth wise so so coughing\nWorking a bit - I am lazy likr crazy haha\nCosita made grrat lunch\nWent to Helge for some shockwave was good hurted gaha\nWalkie with cosita\nWe watched the the code movie about google earth algorithm - terra vision\nDid face yoga\nFeeling a bit under the weather\nInspire"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
