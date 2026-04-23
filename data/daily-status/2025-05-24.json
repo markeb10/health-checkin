@@ -1,0 +1,32 @@
+{
+  "date": "2025-05-24",
+  "generated_at": "2026-04-23T23:16:32.130219",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19676,
+    "resting_hr": 58.0,
+    "hrv": 45.29,
+    "daylight_mins": 59.0,
+    "spo2": 97.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 3,
+    "journal": "Feeling good of course good sleep and coffee hehe but not possible to sleep specially coz i was packing in the evening its not a good idea to do so. Though this year I was so much less nervous than before\nVery low bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut",
+      "Telfast"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
