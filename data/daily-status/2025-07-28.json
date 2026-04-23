@@ -1,0 +1,35 @@
+{
+  "date": "2025-07-28",
+  "generated_at": "2026-04-23T23:17:54.428984",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11245,
+    "resting_hr": 56.0,
+    "hrv": 52.52,
+    "spo2": 97.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 6,
+    "journal": "Feeling okey until I got home - feeling hot and feverish - should take aswqganda with me just in case. Another really nice day. I really like it.\nBloating 7/10 also gas and feelinf tense in my belly almost like i have a stone\n\nphgg might be the culprit here, lets pause for next 2 days",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Omega-3",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 2,
+    "bloating": 7
+  },
+  "zoe": {
+    "imported": false
+  }
+}
