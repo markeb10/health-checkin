@@ -1,0 +1,25 @@
+{
+  "date": "2023-08-31",
+  "generated_at": "2026-04-23T23:03:12.583923",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25487,
+    "resting_hr": 52.0,
+    "hrv": 71.3,
+    "vo2max": 39.74
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "What a day, lots of meetings, but I felt I was being productive and focused, now it turned out I was stressed too much weirdly, i was having some heart issues - was coughing like it was trying to beat too fast\nReading a book \ud83d\udcd6 \nPaying providers\nMeeting with MDO on call going trough plants\nCrm meeting\nBreakfast\nFunimalz + lunch\nDimitar is coming to work for us from tomorrow\nSpoke to Dmitry - told him about the JUSD j$\nMeeting with Filip - jesus we really did spend a fortune to get this done \u2705 3.5"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
