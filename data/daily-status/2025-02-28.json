@@ -1,0 +1,32 @@
+{
+  "date": "2025-02-28",
+  "generated_at": "2026-04-23T23:14:48.250418",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23517,
+    "resting_hr": 55.0,
+    "hrv": 58.82,
+    "vo2max": 41.5,
+    "spo2": 98.25,
+    "respiratory_rate": 14.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "I felt okeyish, i mean quite good, no afterlinch alump, had good energy teought whole day, spent most part of it in shopping mall and I was fine\nLow bloating, coccyx pain low",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
