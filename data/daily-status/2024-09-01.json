@@ -1,0 +1,31 @@
+{
+  "date": "2024-09-01",
+  "generated_at": "2026-04-23T23:11:00.815942",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34100,
+    "resting_hr": 54.0,
+    "hrv": 68.81,
+    "daylight_mins": 214.0,
+    "spo2": 98.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good, except in afternoon I am bloated again so annoying\nBloating quite noticable - maybe due to multivitamins I am taking will stop that too",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
