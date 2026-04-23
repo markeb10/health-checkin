@@ -1,0 +1,26 @@
+{
+  "date": "2023-09-30",
+  "generated_at": "2026-04-23T23:03:50.351331",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21561,
+    "resting_hr": 53.0,
+    "hrv": 65.1,
+    "daylight_mins": 9.0,
+    "spo2": 96.56
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Last day of september, sleep was alright, my neck didnt hurt so that was great\nExercise/ strech\nHunting for food walkie around the town got plums\nAte lots of plums really got gassy like crazy haha\nWas playing with my Umbrel\nBitcoin full node is up, electrum server is up and lightning node is up and opened one channel \nWent to pickup the cake but the cake is not the same good one - was a bit disappointed also the fact that it leaked around when i brought it home\nLunchy in Kubo was good fishy and "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
