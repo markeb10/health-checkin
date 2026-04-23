@@ -1,0 +1,31 @@
+{
+  "date": "2025-05-15",
+  "generated_at": "2026-04-23T23:16:21.045567",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 3890,
+    "resting_hr": 55.0,
+    "hrv": 60.51,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 3,
+    "journal": "Slept a bit better but nu neck hurts will try with a taller pillow lets see, overall I was kinda not super productive\nNo soecial pain but yeah i didnhad acidity feeling mostly felt after eating so much chicken and potatoes",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
