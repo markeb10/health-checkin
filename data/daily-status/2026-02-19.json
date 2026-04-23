@@ -1,0 +1,90 @@
+{
+  "date": "2026-02-19",
+  "generated_at": "2026-04-23T23:22:08.087555",
+  "whoop": {
+    "imported": true,
+    "recovery": 46.0,
+    "hrv": 31.0,
+    "rhr": 55.0,
+    "sleep_perf": 83.0,
+    "strain": 13.6,
+    "sleep_hrs": 7.2,
+    "spo2": 93.5,
+    "skin_temp": 33.4,
+    "sleep_efficiency": 89.1,
+    "sleep_consistency": 87.0,
+    "respiratory_rate": 13.9,
+    "light_sleep_hrs": 3.7,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.9,
+    "sleep_cycles": 6,
+    "disturbances": 6,
+    "sleep_needed_hrs": 9.5,
+    "sleep_debt_hrs": 1.4,
+    "calories": 2232,
+    "avg_hr": 69,
+    "max_hr": 178,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "Sport 66",
+        "calories": 170,
+        "avg_hr": 137,
+        "max_hr": 164
+      },
+      {
+        "sport": "Activity",
+        "calories": 184,
+        "avg_hr": 119,
+        "max_hr": 165
+      },
+      {
+        "sport": "HIIT",
+        "calories": 28,
+        "avg_hr": 87,
+        "max_hr": 123
+      },
+      {
+        "sport": "Activity",
+        "calories": 179,
+        "avg_hr": 140,
+        "max_hr": 178
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25498,
+    "resting_hr": 56.0,
+    "hrv": 63.57,
+    "sleep_hrs": 6.1,
+    "daylight_mins": 53.0,
+    "vo2max": 39.36,
+    "spo2": 95.5,
+    "respiratory_rate": 13.93,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 2,
+    "journal": "Feeling relatively good, was quite long day and lots of driving but overall was good, camel riding as well. Energy was better today, I guess since it was a resting day no sports exercises kinda helped, tomorrow I guess more ping pong\nfeeling relatively okeyish, no major stuff to report. \u2026. interestingly there is no more that tightness that I felt before \u2026 hmm how about that, so thats connected to stress or what?\n\n3/10 bloating, but I do have pain in my pelvic seitting bonuses more dur to camel r",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
