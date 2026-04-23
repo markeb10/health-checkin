@@ -1,0 +1,24 @@
+{
+  "date": "2023-07-31",
+  "generated_at": "2026-04-23T23:02:34.095335",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18107,
+    "resting_hr": 56.0,
+    "hrv": 51.38
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Another day of sleeping good, did similar things as the day before was good, really super important to eat something fermented every day\nFizio - sound waves - focused - the new guy didnt know how to position it - exercises were pretty hard - side lifts of leg 3s hold and repeat, big ball by wall raising hips, moving ketttle bell around me 6kh while standing on one leg, + one more i cant remember\nBreakfast - kombutcha 2x multivitamin, oil zinzino, yoghurt berries blueberries, spirulina 1 spoon, 1"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
