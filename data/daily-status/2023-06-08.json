@@ -1,0 +1,27 @@
+{
+  "date": "2023-06-08",
+  "generated_at": "2026-04-23T23:01:28.910542",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22950,
+    "resting_hr": 61.0,
+    "hrv": 54.28,
+    "sleep_hrs": 6.0,
+    "vo2max": 40.84,
+    "respiratory_rate": 14.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Digestion went weird, need to eat something before bed too, past aglio olio was very light\nfeeling under the weather - my nose was a big blocked my digestion went crazy and my lower back is hurting me - \nFeeling feverish and in general something is off - no exercise today\nMeditation\nDid senses training\nLower back relaxation\nFilip and reinhard remote - we came up with ideas but Reinhard needs to now implement all this\nPicked office chair at filips office\nChanged tv as tv broke in our room\nWent to"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
