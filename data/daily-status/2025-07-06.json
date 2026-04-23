@@ -1,0 +1,34 @@
+{
+  "date": "2025-07-06",
+  "generated_at": "2026-04-23T23:17:26.992833",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10963,
+    "resting_hr": 53.0,
+    "hrv": 52.98,
+    "daylight_mins": 48.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Good day, in control, setup foundation for my supplement stack, lets see, going yo st tropez and punta cana - its decided\nMedium bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Vitamin D3+K2",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
