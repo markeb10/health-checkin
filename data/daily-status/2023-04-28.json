@@ -1,0 +1,29 @@
+{
+  "date": "2023-04-28",
+  "generated_at": "2026-04-23T23:00:37.654486",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 35929,
+    "resting_hr": 55.0,
+    "hrv": 62.78,
+    "weight_kg": 72.433,
+    "sleep_hrs": 0.0,
+    "body_fat_pct": 0.15,
+    "bmi": 24.77,
+    "vo2max": 40.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept a bit more, still waking up early cant sleep more, at least found a clinic - another gigantic win dios porko\nStretching with Milka\nSent email to orthopedic surgeon in Germany\nBO meeting / just feels like we ain\u2019t getting anywhere there\nIronman meetings\nPaid some things\nNew ideas with Boro and Filip - we designed Jackpot workflow - hopefully it will be good and interesting for players\nMeeting with Murat Claire polona for turkey\nWalkie with JP and Meghan \nSimpsons\nPlanning trip to Hamburg - "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
