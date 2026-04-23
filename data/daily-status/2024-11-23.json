@@ -1,0 +1,33 @@
+{
+  "date": "2024-11-23",
+  "generated_at": "2026-04-23T23:12:46.437802",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31774,
+    "resting_hr": 56.0,
+    "hrv": 56.81,
+    "daylight_mins": 66.0,
+    "vo2max": 41.94,
+    "spo2": 93.0,
+    "respiratory_rate": 16.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Relaxed , chinese massage did the trick as it seems m, those guys know their stuff, felt also bit more up from chatn was good\nSurprisingly today I was able to be with no food for long and no issues",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
