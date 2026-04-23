@@ -1,0 +1,34 @@
+{
+  "date": "2025-05-21",
+  "generated_at": "2026-04-23T23:16:28.526773",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13698,
+    "resting_hr": 56.0,
+    "hrv": 54.7,
+    "daylight_mins": 29.0,
+    "vo2max": 42.23,
+    "spo2": 97.86
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 4,
+    "journal": "Morning was good my sleep was very good, but then the worked catched up on me and I was tired\nLow bloating definitely much more noticable than day before (yest was exercising, no tomatoe etc)",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Zinc"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
