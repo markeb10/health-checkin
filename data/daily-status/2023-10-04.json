@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-04",
+  "generated_at": "2026-04-23T23:03:55.385559",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24186,
+    "resting_hr": 55.0,
+    "hrv": 63.73,
+    "vo2max": 42.03,
+    "spo2": 97.2,
+    "respiratory_rate": 17.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Woke up too early, but I still got 7 hours\nBeen exercising with Milica - focus on legs\nWalkie\nTalk with Filip regarding everything omg soo many things\nPiggy bank meeting - we are almost ready - all looking good for tomorrow lunch\nCosita lunch was good\nWas less bloated but i feel I am getting constipated from this active chacoal - but let my body figure this one out\nFound a probiotic that I am going to get when I get back from Spain\nTalked to my sister\nProlonged Epic contract for both of us\nWalki"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
