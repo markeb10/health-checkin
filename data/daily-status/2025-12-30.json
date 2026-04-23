@@ -1,0 +1,70 @@
+{
+  "date": "2025-12-30",
+  "generated_at": "2026-04-23T23:21:04.630995",
+  "whoop": {
+    "imported": true,
+    "recovery": 68.0,
+    "hrv": 35.3,
+    "rhr": 49.0,
+    "sleep_perf": 90.0,
+    "strain": 13.8,
+    "sleep_hrs": 8.8,
+    "spo2": 92.1,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 91.7,
+    "sleep_consistency": 78.0,
+    "respiratory_rate": 13.9,
+    "light_sleep_hrs": 4.9,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.9,
+    "awake_hrs": 0.8,
+    "sleep_cycles": 8,
+    "disturbances": 10,
+    "sleep_needed_hrs": 8.6,
+    "sleep_debt_hrs": 1.0,
+    "calories": 2430,
+    "avg_hr": 69,
+    "max_hr": 163,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 47,
+        "avg_hr": 101,
+        "max_hr": 144
+      },
+      {
+        "sport": "Activity",
+        "calories": 485,
+        "avg_hr": 124,
+        "max_hr": 163
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27214,
+    "resting_hr": 52.0,
+    "hrv": 69.35,
+    "sleep_hrs": 8.8,
+    "daylight_mins": 100.0,
+    "spo2": 92.12,
+    "respiratory_rate": 13.89,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 1,
+    "journal": "Feeling good in the morning lots of sleep but somehow was nervous during the ping pong david game threw me off I really wanted to win but it didnt work, then mini golf I managed but still was nervous, was a funny day how my competitiveness comes out, i need to work on this a little bit seriously\nbloating 3/10 - no bigger problems i did eat many things, and was still kinda fine but i was always moving after the food",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 8,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
