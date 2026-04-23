@@ -1,0 +1,28 @@
+{
+  "date": "2023-08-27",
+  "generated_at": "2026-04-23T23:03:07.397115",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34324,
+    "resting_hr": 53.0,
+    "hrv": 54.45,
+    "weight_kg": 73.504,
+    "body_fat_pct": 0.27,
+    "bmi": 25.14,
+    "respiratory_rate": 14.83
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "A bit less pain than day before, however when I was sitting on this chair here it was not good after awhile , this Urbana office chair is killing me also for hip I feel\nPlay\nBreak from exercise\nWent to PH to check on humidity - i think its clear its coming from the fresh air intake\nBrought my pillow back\nWent out to eat / was a donation day for kids with paralyze - people were serving free stuff had a veganika cake coconut wowza soo good \ud83d\udc4d - ordered one for my sister - need to follow up on that "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
