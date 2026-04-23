@@ -1,0 +1,31 @@
+{
+  "date": "2025-03-09",
+  "generated_at": "2026-04-23T23:14:59.149124",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31378,
+    "resting_hr": 56.0,
+    "hrv": 53.91,
+    "vo2max": 42.18,
+    "spo2": 92.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good, really nice to spend quality time with Filip and Nasti its top, we are really connected. And I love the connection nasti and filip have\nMedium to high bloated - considering what I ate I am not surprised",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
