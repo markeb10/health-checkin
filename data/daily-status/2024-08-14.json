@@ -1,0 +1,34 @@
+{
+  "date": "2024-08-14",
+  "generated_at": "2026-04-23T23:10:37.876066",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 47510,
+    "resting_hr": 60.0,
+    "hrv": 54.07,
+    "daylight_mins": 402.0,
+    "vo2max": 43.5,
+    "spo2": 98.5,
+    "respiratory_rate": 15.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Felt much better today as we have walked a lot acomplished some stuff, even talked over some important things, did a lot of foreest bathing - really enjoy spending time in forrest - specially after the sweets and nutella I was all in positive mood interesting probably cacao\nFeelinf bloated a lot - no wonder as I was eating loads of stuff that I shouldn't in theory but okey",
+    "supplements_list": [
+      "Enterosgel",
+      "Immune Action",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
