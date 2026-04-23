@@ -1,0 +1,71 @@
+{
+  "date": "2026-02-28",
+  "generated_at": "2026-04-23T23:22:19.468168",
+  "whoop": {
+    "imported": true,
+    "recovery": 35.0,
+    "hrv": 31.0,
+    "rhr": 56.0,
+    "sleep_perf": 70.0,
+    "strain": 13.8,
+    "sleep_hrs": 5.2,
+    "spo2": 97.2,
+    "skin_temp": 34.3,
+    "sleep_efficiency": 93.8,
+    "sleep_consistency": 70.0,
+    "respiratory_rate": 14.9,
+    "light_sleep_hrs": 2.5,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 0.7,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 3,
+    "disturbances": 8,
+    "sleep_needed_hrs": 9.0,
+    "sleep_debt_hrs": 1.1,
+    "calories": 2399,
+    "avg_hr": 73,
+    "max_hr": 156,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 743,
+        "avg_hr": 123,
+        "max_hr": 156
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11355,
+    "resting_hr": 57.5,
+    "hrv": 55.78,
+    "sleep_hrs": 4.0,
+    "daylight_mins": 87.0,
+    "spo2": 95.47,
+    "respiratory_rate": 14.85,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 2,
+    "journal": "Feeling not great, had a bad night, elevated heart rate probably due to this hotel choclates high concentraction of some bullshit chemicals inside idk\u2026 maybe just cacao or 2 vitamin c pills doing its thing or just also the peak of being sick, but 2 hour nap after duo lingo and long padel session really put me back on track and feeling like a human being again\nbloating level: 3/10 \n\nHelped that I didnt eat anything for lunch, its an interesting way of doing things, 2 hour nap in afternoon hhee",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 8,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
