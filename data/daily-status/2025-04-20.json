@@ -1,0 +1,27 @@
+{
+  "date": "2025-04-20",
+  "generated_at": "2026-04-23T23:15:49.976440",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16610,
+    "resting_hr": 58.0,
+    "hrv": 46.18,
+    "daylight_mins": 18.0,
+    "spo2": 97.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Feeling really good, in general whole day wasnin good spirits, i am tremendously happy that I can creade peoduce even if only protoype apps, this is insane\nWas bloated on the flight but aftre eating food before and on the fligt but i ate proteins but still",
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
