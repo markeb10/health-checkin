@@ -1,0 +1,27 @@
+{
+  "date": "2024-04-04",
+  "generated_at": "2026-04-23T23:07:47.435916",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 38644,
+    "resting_hr": 52.0,
+    "hrv": 69.6,
+    "daylight_mins": 200.0,
+    "vo2max": 41.69,
+    "spo2": 99.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept relatively okeyish, but could be bit longer\nTai chi\nMeeting with Boro Matej Dimitar Jus - Bistarz Mania\nCrm meeting\nDid some stretching, gym, was good 10 min of rowing at 90-100 w - 20 strokes per minute\nBreakfast\nCoordinating for 10th anniversary the message is not good - we need a marketing manager\nLunchy cosita made a fish but somehow its not sitting well in my stomach been super bloated and sick and burping crazy\nWalkie and talked to my sister\nWrote to Nas my doctor that the sibo is li"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
