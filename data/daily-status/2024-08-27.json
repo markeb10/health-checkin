@@ -1,0 +1,30 @@
+{
+  "date": "2024-08-27",
+  "generated_at": "2026-04-23T23:10:54.562139",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 33567,
+    "resting_hr": 53.0,
+    "hrv": 54.51,
+    "daylight_mins": 199.0,
+    "spo2": 97.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling okeyish, i ate cacao in that blueberry chocolate now I dont feel sleepy while writing this :(\n\nwas able to read 30 pages which is great too. Probably will feel tomorrow like I partied\nBloating was quite strong , unsure why steonger today after lunch but cant be only cookie",
+    "supplements_list": [
+      "Probiotic"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
