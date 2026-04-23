@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-26",
+  "generated_at": "2026-04-23T23:05:39.593323",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14861,
+    "resting_hr": 54.0,
+    "hrv": 75.04,
+    "daylight_mins": 90.0,
+    "spo2": 96.0,
+    "respiratory_rate": 15.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice day, fun and games and food, I like it, its how I would spend the day, except maybe learning something new but I did that with games\nWaking up at 6:30 them getting up around 7:30 \nTai chi 2 x flow - did one outside but its just too loud \nPlayed Uncharted with guys\nAl beirut lunch in Dubai hills mall\nWas shopping with guys - bought them t-shirts in Balmain\nWe came back more uncharted\nThen played Uno with David Domen and Vesna\nWas a nice day - spoke to my sister in general\nAte too much chocol"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
