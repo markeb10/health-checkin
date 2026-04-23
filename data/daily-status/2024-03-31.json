@@ -1,0 +1,27 @@
+{
+  "date": "2024-03-31",
+  "generated_at": "2026-04-23T23:07:42.576457",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29051,
+    "resting_hr": 51.0,
+    "hrv": 59.51,
+    "daylight_mins": 77.0,
+    "vo2max": 41.57,
+    "spo2": 98.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept not good second day of antibiotics - but today before bed I am getting sleepy and I can tell its going to work\nWoke up super early could not sleep it was 5:20 but since we moved clock it was 4:20 on old watch so yeah - 2 days of probiotics made some havocs in my guts\nMorning stretching also did some arm exercises - was interesting that I could not lift my right arm - its very weak and if I apply more pressure it hurts\nWas working a bit\nBreakfast eggs ajvar cheese daamn so good\nSpoke to Bor"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
