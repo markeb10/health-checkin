@@ -1,0 +1,37 @@
+{
+  "date": "2025-07-25",
+  "generated_at": "2026-04-23T23:17:50.571037",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26191,
+    "resting_hr": 55.0,
+    "hrv": 67.56,
+    "daylight_mins": 100.0,
+    "vo2max": 41.53,
+    "spo2": 97.57
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 7,
+    "journal": "It was a weird day. Ashwagandha effects mixed with pressure in my chest. I managed to sleep until six. But then, yeah, I was just having issues with breathing, so I needed to do some box breathing. I'm fighting with Cosita. Bodo got better in the evening in the end, so I feel now much calmer and I'm ready to sleep.\nBloating was 5/10. Coccyx pain, no changes. Still painful on left, not any more painful on the right. But yet is this tape that rather gave me its kind of weird. So I'll probably take",
+    "supplements_list": [
+      "Ashwagandha",
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Magnesium Glycinate",
+      "Omega-3",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 7
+  },
+  "zoe": {
+    "imported": false
+  }
+}
