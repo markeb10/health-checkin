@@ -1,0 +1,39 @@
+{
+  "date": "2024-06-29",
+  "generated_at": "2026-04-23T23:09:37.799288",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29316,
+    "resting_hr": 55.0,
+    "hrv": 59.07,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 222.0,
+    "spo2": 95.6,
+    "respiratory_rate": 14.12,
+    "sleep_deep_hrs": 0.8,
+    "sleep_rem_hrs": 1.4,
+    "sleep_core_hrs": 4.5,
+    "sleep_awake_hrs": 1.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling better than yeaterday - was having low pulze in morning 1 h after taking aswaganda\n- my boniko hurts, I was swimming a bit but not much, was rolling on thr ball\nso far so good\n\n\n28.6.2024",
+    "supplements_list": [
+      "Ashwagandha",
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
