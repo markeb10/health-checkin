@@ -1,0 +1,34 @@
+{
+  "date": "2025-08-14",
+  "generated_at": "2026-04-23T23:18:16.075776",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7583,
+    "resting_hr": 55.0,
+    "hrv": 60.09,
+    "daylight_mins": 39.0,
+    "spo2": 95.27
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 9,
+    "supplements": 4,
+    "journal": "Feeling good overall apart from coccyx pain seat was terrible, luckily guy had some foam to fix it else i dont k oe how would i make it\n\ndead sleep\nFeeling that i got bloated a lot around 5-6/12 to ni kul",
+    "supplements_list": [
+      "Creatine",
+      "Enterosgel",
+      "Lutein",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
