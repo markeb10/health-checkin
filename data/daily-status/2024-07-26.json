@@ -1,0 +1,38 @@
+{
+  "date": "2024-07-26",
+  "generated_at": "2026-04-23T23:10:13.123060",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29845,
+    "resting_hr": 52.0,
+    "hrv": 54.68,
+    "sleep_hrs": 5.9,
+    "daylight_mins": 335.0,
+    "spo2": 97.0,
+    "respiratory_rate": 13.75,
+    "sleep_deep_hrs": 1.3,
+    "sleep_rem_hrs": 1.2,
+    "sleep_core_hrs": 3.5,
+    "sleep_awake_hrs": 1.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "Feeling tired, but not sleepy in evening\n- my sleep is declining day by day\n- took omeprazole second day in a row\nWas just feeling very hungry in morning",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
