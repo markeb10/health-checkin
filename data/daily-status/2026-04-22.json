@@ -1,6 +1,6 @@
 {
   "date": "2026-04-22",
-  "generated_at": "2026-04-23T22:30:48.391591",
+  "generated_at": "2026-04-23T22:32:59.584963",
   "whoop": {
     "imported": true,
     "recovery": 39.0,
@@ -85,6 +85,140 @@
     "bloating": 4
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 6,
+    "meal_names": [
+      "Rice Cake with Peanut Butter and Blueberries",
+      "Shredded Pork Tacos with Rice and Guacamole",
+      "Chicken Skewers with Coriander and Pickled Radish",
+      "Oyster musroom with Coriander Sauce",
+      "Porridge with Blueberries",
+      "Fried Eggs with Wholemeal Toast and Microgreens"
+    ],
+    "meal_details": [
+      {
+        "name": "Rice Cake with Peanut Butter and Blueberries",
+        "score": 74,
+        "calories": 119.0,
+        "protein_g": 2.2,
+        "fat_g": 0.8,
+        "carbs_g": 8.0,
+        "fibre_g": 1.1,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Exki Corn Cakes",
+            "qty": "1 \u00d7 individual bag",
+            "score": 70
+          },
+          {
+            "name": "Meridian Almond Butter",
+            "qty": "1 g",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Shredded Pork Tacos with Rice and Guacamole",
+        "score": 47,
+        "calories": 886.0,
+        "protein_g": 50.9,
+        "fat_g": 26.8,
+        "carbs_g": 115.7,
+        "fibre_g": 9.1,
+        "ingredients": [
+          {
+            "name": "Coriander leaves, fresh",
+            "qty": "8 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Guacamole",
+            "qty": "50 g",
+            "score": 88
+          },
+          {
+            "name": "Limes",
+            "qty": "3 \u00d7 slice",
+            "score": 81
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "30 g",
+            "score": 84
+          },
+          {
+            "name": "Pork shoulder joint, lean, weighed raw",
+            "qty": "150 g",
+            "score": 47
+          },
+          {
+            "name": "Refried beans",
+            "qty": "2 \u00d7 serving",
+            "score": 82
+          },
+          {
+            "name": "Rice, white",
+            "qty": "1 \u00d7 serving",
+            "score": 19
+          },
+          {
+            "name": "Tortilla wraps",
+            "qty": "1 \u00d7 large wrap",
+            "score": 39
+          }
+        ]
+      },
+      {
+        "name": "Chicken Skewers with Coriander and Pickled Radish",
+        "score": 76,
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "carbs_g": null,
+        "fibre_g": null,
+        "ingredients": []
+      },
+      {
+        "name": "Oyster musroom with Coriander Sauce",
+        "score": 82,
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "carbs_g": null,
+        "fibre_g": null,
+        "ingredients": []
+      },
+      {
+        "name": "Porridge with Blueberries",
+        "score": 47,
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "carbs_g": null,
+        "fibre_g": null,
+        "ingredients": []
+      },
+      {
+        "name": "Fried Eggs with Wholemeal Toast and Microgreens",
+        "score": 59,
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "carbs_g": null,
+        "fibre_g": null,
+        "ingredients": []
+      }
+    ],
+    "avg_score": 64.0,
+    "calories": 1005.0,
+    "protein_g": 53.1,
+    "fat_g": 27.6,
+    "carbs_g": 123.7,
+    "fibre_g": 10.2
   }
 }
