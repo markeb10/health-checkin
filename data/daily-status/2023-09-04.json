@@ -1,0 +1,25 @@
+{
+  "date": "2023-09-04",
+  "generated_at": "2026-04-23T23:03:17.658643",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26391,
+    "resting_hr": 52.0,
+    "hrv": 70.6,
+    "vo2max": 40.01
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Good sleep, those 2 pills Carbon EV really helped, took 3 today (need to take them straight after breakfast)\nSleep almost until 7 good sleep\nWalkie with alex for 2 hours almost we talked how chatGPT could boost productivity of our guys - also made 9 km in process\nLunch in Black egg as Emma was closed\nWalkie back with cosita \nPaid some stuff worked on admin stuff reply to Kika so I dont have to do it tomorrow\nLunch in Aki - sushi was good , duck not so much too dry\nWorked a bit more \nReading a lo"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
