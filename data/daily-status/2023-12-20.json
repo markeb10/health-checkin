@@ -1,0 +1,26 @@
+{
+  "date": "2023-12-20",
+  "generated_at": "2026-04-23T23:05:32.260892",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26185,
+    "resting_hr": 59.0,
+    "hrv": 64.66,
+    "daylight_mins": 49.0,
+    "spo2": 98.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Cool day, but not enough sleep my brain is slow, so lets get some sleep soon\nGood day, lots of stuff done - seen Filip\nTilal al gaf\nDid. Tai chi full flow 2x\nRichard arrived - was great that he came we had breakfast together\nJPM meeting\nFired Tatiana - was sad but wee had to do it\nDoctor Helge did shockwave theraphy on gluteus radial and focused - both just in case - got another treatment on Saturday\nTalk to Dimitar\nWe have been walking with Filip - ate at Zouzou \nSpoke with Vlad, last preparati"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
