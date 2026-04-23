@@ -1,0 +1,31 @@
+{
+  "date": "2024-08-31",
+  "generated_at": "2026-04-23T23:10:59.486185",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18271,
+    "resting_hr": 55.0,
+    "hrv": 42.7,
+    "daylight_mins": 47.0,
+    "spo2": 92.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feels good, positivity, humor is there, not taking things too serious\nEverything ok apart from bloating and farting - quite a lot in afternoon",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
