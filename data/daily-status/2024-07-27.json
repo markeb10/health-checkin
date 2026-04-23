@@ -1,0 +1,39 @@
+{
+  "date": "2024-07-27",
+  "generated_at": "2026-04-23T23:10:14.374875",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 35313,
+    "resting_hr": 59.0,
+    "hrv": 66.7,
+    "sleep_hrs": 7.2,
+    "daylight_mins": 411.0,
+    "spo2": 95.5,
+    "respiratory_rate": 14.12,
+    "sleep_deep_hrs": 1.2,
+    "sleep_rem_hrs": 1.7,
+    "sleep_core_hrs": 4.4,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Tired but feeling happy. I was relaxed whole day but my coccyx really is hurting more. Emotionally I am good.\nNo pain in stonach",
+    "supplements_list": [
+      "Ashwagandha",
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
