@@ -1,0 +1,67 @@
+{
+  "date": "2025-09-20",
+  "generated_at": "2026-04-23T23:19:00.958865",
+  "whoop": {
+    "imported": true,
+    "recovery": 94.0,
+    "hrv": 40.3,
+    "rhr": 49.0,
+    "sleep_perf": 85.0,
+    "strain": 8.2,
+    "sleep_hrs": 6.3,
+    "spo2": 96.1,
+    "skin_temp": 33.7,
+    "sleep_efficiency": 91.9,
+    "sleep_consistency": 86.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 2.5,
+    "deep_sleep_hrs": 2.6,
+    "rem_sleep_hrs": 1.3,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 6,
+    "disturbances": 8,
+    "sleep_needed_hrs": 8.4,
+    "sleep_debt_hrs": 0.8,
+    "calories": 1826,
+    "avg_hr": 62,
+    "max_hr": 151,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 146,
+        "avg_hr": 91,
+        "max_hr": 145
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27172,
+    "resting_hr": 51.0,
+    "hrv": 63.06,
+    "sleep_hrs": 6.3,
+    "daylight_mins": 109.0,
+    "vo2max": 41.44,
+    "spo2": 95.89,
+    "respiratory_rate": 13.18,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good relatively to how early I woke up, I did packing successfully and managed to return back to Slo and arrived to Izola, great one\nall good but bloating was high 6/10",
+    "supplements_list": [
+      "Lutein",
+      "Vitamin C",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 2,
+    "bloating": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
