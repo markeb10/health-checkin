@@ -1,0 +1,33 @@
+{
+  "date": "2025-05-09",
+  "generated_at": "2026-04-23T23:16:13.285291",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 5417,
+    "resting_hr": 57.0,
+    "hrv": 60.28,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling amazing , really good my mind is not qute ther still having issues focusing - too much multitasking but hopefull with a bit of meditation we will rocus this as well\nLow bloating almost ultra low, seems to be fine didnt eat berries i guess is that",
+    "supplements_list": [
+      "DAO",
+      "Enterosgel",
+      "Vitamin C",
+      "Vitamin K2",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
