@@ -1,0 +1,24 @@
+{
+  "date": "2023-09-08",
+  "generated_at": "2026-04-23T23:03:22.684034",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23547,
+    "resting_hr": 57.0,
+    "hrv": 59.39
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Woke up late, slept well after 2 pm,\nFirst time slept in Villa Sch. - was so - so\nWas reporting bugs in morning\nFiguring out the machines, trash - making breakfast, finding bugs\nDrive to Pula\nLunch - was so so - they didnt had much for me to eat - maybe I go for meat next time\nNappy but instead had a depression moments again - just feeling I cant be happy about anything in this life, strange feeling which just makes me depressed because then whats the point of setting goals if reaching them is n"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
