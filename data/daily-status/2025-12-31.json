@@ -1,0 +1,65 @@
+{
+  "date": "2025-12-31",
+  "generated_at": "2026-04-23T23:21:05.871854",
+  "whoop": {
+    "imported": true,
+    "recovery": 54.0,
+    "hrv": 32.0,
+    "rhr": 50.0,
+    "sleep_perf": 82.0,
+    "strain": 12.0,
+    "sleep_hrs": 6.8,
+    "spo2": 95.7,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 91.1,
+    "sleep_consistency": 68.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 3.3,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.7,
+    "sleep_cycles": 6,
+    "disturbances": 6,
+    "sleep_needed_hrs": 8.0,
+    "sleep_debt_hrs": null,
+    "calories": 2050,
+    "avg_hr": 72,
+    "max_hr": 170,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 132,
+        "avg_hr": 116,
+        "max_hr": 170
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27577,
+    "resting_hr": 53.0,
+    "hrv": 44.77,
+    "sleep_hrs": 6.8,
+    "daylight_mins": 79.0,
+    "spo2": 96.9,
+    "respiratory_rate": 13.34,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 2,
+    "journal": "Feeling relatively okeyish, slept somehow 7 hours could be worse actually, some ping pong, but overall not too stressed apart from during the game which was quite intense hehe\nbloating 3/10",
+    "supplements_list": [
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 3,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
