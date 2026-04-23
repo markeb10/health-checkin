@@ -1,0 +1,26 @@
+{
+  "date": "2023-12-21",
+  "generated_at": "2026-04-23T23:05:33.513234",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 2600,
+    "resting_hr": 57.0,
+    "hrv": 64.01,
+    "daylight_mins": 31.0,
+    "spo2": 97.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice day, working but I did some stuff, hopefully all will be ok with payments\nWoke up late - good\nMorning tai chi\nSalaries - lots of issues bugs but managed to pull it trough and also to pay some providers\nCosita made an amazing lunch pasta with tuna\nSpoke a bit to richard was cool he is 31 wow so young \nWas able to do some work but was a bit distracted with several things but made all payments and btc too\nLong day at the computer omg\nAlso made tai chi in the break time\nStomach is better, still"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
