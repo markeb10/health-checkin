@@ -1,0 +1,32 @@
+{
+  "date": "2025-05-14",
+  "generated_at": "2026-04-23T23:16:19.808974",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7751,
+    "resting_hr": 55.0,
+    "hrv": 55.05,
+    "daylight_mins": 20.0,
+    "spo2": 97.29
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "nightmares at night, not sure whars happening but not good, could not sleep after 4 am meditation and got some sleep\nLots of meetings\nPainful again around belly buttong managed to difuse it with massage dissapeared into the day super weird\n\nlow bloating - got quite bloated in afternoon but then it was fine",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
