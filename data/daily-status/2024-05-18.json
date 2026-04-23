@@ -1,0 +1,37 @@
+{
+  "date": "2024-05-18",
+  "generated_at": "2026-04-23T23:08:43.582575",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 59441,
+    "resting_hr": 53.0,
+    "hrv": 62.39,
+    "sleep_hrs": 6.3,
+    "daylight_mins": 134.0,
+    "vo2max": 42.39,
+    "spo2": 98.0,
+    "respiratory_rate": 13.5,
+    "sleep_deep_hrs": 2.1,
+    "sleep_rem_hrs": 1.4,
+    "sleep_core_hrs": 2.8,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "My mind is up, brain is ready to think\nAllergy or stress induced feeling - like my chest does not want to expand (i can cant do a long inhale of more than 5s exhale only 6s max - usually I could do this much longer)\n- few hours after taking Fexofenadine I started feeling tired lets see if this will help with my sleep\n- potencially could be some grass flying around from other countries\n- thinking to get some antihistamine pills Fexofenadine\n- i have a proper rush on my hand edema caused by psoria",
+    "supplements_list": [
+      "Telfast"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
