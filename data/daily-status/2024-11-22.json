@@ -1,0 +1,32 @@
+{
+  "date": "2024-11-22",
+  "generated_at": "2026-04-23T23:12:45.226669",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16422,
+    "resting_hr": 58.0,
+    "hrv": 56.94,
+    "daylight_mins": 91.0,
+    "vo2max": 41.42,
+    "respiratory_rate": 8.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good, nice to see all the kids together and to do something together, also chatn situation improved after long call and everything is going back to normal\nAll is okey, ate only 1x today",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
