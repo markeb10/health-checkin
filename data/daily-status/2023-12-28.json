@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-28",
+  "generated_at": "2026-04-23T23:05:42.008815",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7856,
+    "resting_hr": 52.0,
+    "hrv": 79.84,
+    "daylight_mins": 19.0,
+    "spo2": 98.5,
+    "respiratory_rate": 16.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Cool day with lots of games and enjoying the house\nBreakfast\nDoctor Helge - he saw my sister told her she needs operation , for me I feel like not any much progress have vern made - but lets see - today was 3rd time - he suggested 5 treatments\nPlayed pool, uncharted\nLunch cosita made a good one\nMore uncharted \nFight with cosita, she is complaining about the issue that you cant cool down the place\nGames with guys uno, poker uncharted\nTai chi in the morning then the only thing that spoiled everyth"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
