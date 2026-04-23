@@ -1,0 +1,36 @@
+{
+  "date": "2024-08-06",
+  "generated_at": "2026-04-23T23:10:27.127047",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19730,
+    "resting_hr": 62.0,
+    "hrv": 44.22,
+    "sleep_hrs": 0.7,
+    "daylight_mins": 113.0,
+    "spo2": 96.0,
+    "sleep_deep_hrs": 0.4,
+    "sleep_core_hrs": 0.3,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 3,
+    "journal": "Feeling tired after the long day - and driving really is not comfortable on the front seat - I feel I get to suffer so much sun radiation there - I also think I got this after this hot cold treatments - just made it worse - saunas are never making any good thing for me, its completely possible it was some reaction of temp and textile, or plants in lake and reaction to sun\nHad some spikes a little bit, also feeling thr acid a little bit in the evening - peobably I built this over several days",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic",
+      "Immune Action"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
