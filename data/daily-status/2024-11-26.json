@@ -1,0 +1,31 @@
+{
+  "date": "2024-11-26",
+  "generated_at": "2026-04-23T23:12:50.047304",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21432,
+    "resting_hr": 54.0,
+    "hrv": 63.55,
+    "vo2max": 42.1,
+    "spo2": 99.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Was quite glued to phone, wuite moody in the morning, nothing sat right, but later it got better\nFeeling fine",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
