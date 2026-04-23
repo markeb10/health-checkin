@@ -1,0 +1,25 @@
+{
+  "date": "2023-09-18",
+  "generated_at": "2026-04-23T23:03:35.342610",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21362,
+    "resting_hr": 57.0,
+    "hrv": 68.73,
+    "vo2max": 39.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept relatively ok for first day, bed was a bit hard but otherwise was ok. No issues after stopping probiotics - i think was not serious just yet - I am definitely trying again after taking the otherones for some time\nSlept long - was unable to wake up hehe (waking up in mid a lot)\nQuick gym\nJpm meeting\nBreakfast\nMeeting Hayley - she brought the sample - was okey\nEating in Nobu was good but never even order sushi - so bad\nThe rest was really good \ud83d\udc4d \nCoccyx day one at sayer clinic - she did manu"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
