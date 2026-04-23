@@ -1,0 +1,26 @@
+{
+  "date": "2023-12-11",
+  "generated_at": "2026-04-23T23:05:21.302518",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9302,
+    "resting_hr": 60.0,
+    "hrv": 63.27,
+    "spo2": 97.67,
+    "respiratory_rate": 17.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept well, I have been tired, been hot at night but then it was fine, today evening feeling much better - worried that I am facing cacao effect\nBreakfast with brigita and matjaz\nWe drove to Mdina - checked out the town\nWe went to mdina experience video was just ok\nDannys lunch - guys really loved the food and all\nWe drive to golden bay and visited popeyes village and hiked to Mellieha bay - it was cool\nThen stopped in Amorino on the way back\nWe said goodbye with cosita\nAmazing day, lots of laug"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
