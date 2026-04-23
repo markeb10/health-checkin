@@ -1,0 +1,74 @@
+{
+  "date": "2026-01-14",
+  "generated_at": "2026-04-23T23:21:23.855829",
+  "whoop": {
+    "imported": true,
+    "recovery": 52.0,
+    "hrv": 32.8,
+    "rhr": 50.0,
+    "sleep_perf": 85.0,
+    "strain": 14.5,
+    "sleep_hrs": 6.6,
+    "spo2": 95.9,
+    "skin_temp": 34.6,
+    "sleep_efficiency": 94.5,
+    "sleep_consistency": 87.0,
+    "respiratory_rate": 13.6,
+    "light_sleep_hrs": 3.3,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.2,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 5,
+    "disturbances": 4,
+    "sleep_needed_hrs": 9.1,
+    "sleep_debt_hrs": 1.4,
+    "calories": 2582,
+    "avg_hr": 72,
+    "max_hr": 161,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 267,
+        "avg_hr": 124,
+        "max_hr": 151
+      },
+      {
+        "sport": "Activity",
+        "calories": 116,
+        "avg_hr": 119,
+        "max_hr": 161
+      },
+      {
+        "sport": "Activity",
+        "calories": 120,
+        "avg_hr": 118,
+        "max_hr": 137
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20261,
+    "resting_hr": 56.0,
+    "hrv": 49.99,
+    "sleep_hrs": 6.6,
+    "daylight_mins": 28.0,
+    "vo2max": 42.98,
+    "spo2": 96.99,
+    "respiratory_rate": 13.61,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 0,
+    "journal": "Feeling okeyish, again a bit too little sleep was kinda weird to see that, i will relax today, and sleep better today, ping pong day with my dad and mita and Kaja, was cool to practise and to really learn new things, i dont know if I want to take this pain medicine, i mean I can try and see what is the effect on me but yeah \u2026 chatgpt recommended 2.5mg to start with lol thats a quarter of a dose that I got lol probably a third is fine, just not sure what exercises to combine it with- today I shou",
+    "anxiety": 8,
+    "bloating": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
