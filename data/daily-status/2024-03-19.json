@@ -1,0 +1,27 @@
+{
+  "date": "2024-03-19",
+  "generated_at": "2026-04-23T23:07:27.650273",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26505,
+    "resting_hr": 53.0,
+    "hrv": 69.48,
+    "daylight_mins": 65.0,
+    "vo2max": 40.99,
+    "spo2": 96.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept 8h woke up with alarm but on other hand I was not bloated, it felt completely different\nTook antibiotics \nWas on phone\nThen walkie did tai chi\nWe to gym Reflex bought membership - will visit every few days - I like the rowing part I think its good every two days\nBought meat and salad\nCosita made breakfast and fruits\nWe brainstormed the name for the startup and came up with name curifind.com everyone likes it and we made a logo\nI was a bit dizzy in morning but it got better to the evening\nG"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
