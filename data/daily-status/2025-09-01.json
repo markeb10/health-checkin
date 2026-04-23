@@ -1,0 +1,34 @@
+{
+  "date": "2025-09-01",
+  "generated_at": "2026-04-23T23:18:38.045028",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15752,
+    "resting_hr": 55.0,
+    "hrv": 59.27,
+    "daylight_mins": 138.0,
+    "spo2": 98.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling a bit overwhelmed in the morning with all the work but it was fine, spoke to Vane regarding my procedures and I think its good to hear him a little here and there\n\nBeach time was amazing, sauna really felt good, and I feel good in the evening. Maybe I should have done a jump in the sea every day. Maybe this is how I should start the day or something idk.\nbloating 3/10",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
