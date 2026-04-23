@@ -1,0 +1,25 @@
+{
+  "date": "2023-09-22",
+  "generated_at": "2026-04-23T23:03:40.545373",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19533,
+    "resting_hr": 58.0,
+    "hrv": 66.2,
+    "vo2max": 40.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept better than night before, the pain from Madleina went down a bit\nBreakfast\nJPM meeting\nLast theraphy with Madliena - goodbye gift - she was a moving my coccyx - she also massaged my back after telling her about my neck, she did a good job overall - said I have to come back in a month\nWalk trough the part back\nCosita picked up my new watch in apple store\nTransport to Heathrow\nFlight to Ljubljana - we watched the Bear and finished it\nGot my iphone 15 as well , put it to transfer data from ph"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
