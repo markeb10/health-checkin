@@ -1,0 +1,31 @@
+{
+  "date": "2024-12-22",
+  "generated_at": "2026-04-23T23:13:22.085469",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28615,
+    "resting_hr": 55.0,
+    "hrv": 64.79,
+    "daylight_mins": 86.0,
+    "spo2": 97.0,
+    "respiratory_rate": 15.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "7 hours sleep was good\nSlept until 10\nGym - did my achilles raises and inversion table and antigravity machine running \nWent around the house - to see whats new\nChatn was okeyish - cleared up some air which was bugging me yesterday + walkie around the area\nEating at Bosporus restaurant - its a top place really - food was amazing - really top\nShopping - got tshirt and sneakers\nChatn\nPlaying uno\nPlanning lunches\nSetting up massage room for tomorrow\nVery nice day, no work but just slowly hanging ou",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ]
+  },
+  "zoe": {
+    "imported": false
+  }
+}
