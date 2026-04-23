@@ -1,0 +1,31 @@
+{
+  "date": "2024-10-12",
+  "generated_at": "2026-04-23T23:11:52.142013",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15654,
+    "resting_hr": 54.0,
+    "hrv": 70.65,
+    "daylight_mins": 65.0,
+    "spo2": 100.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 2,
+    "journal": "Being super calm, not much is happening but I am excited about piggy master, on the other hand aware there is a lot of risk behind all this\nFeeling okeyish nothing to report",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
