@@ -1,0 +1,26 @@
+{
+  "date": "2023-10-08",
+  "generated_at": "2026-04-23T23:04:00.270206",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16857,
+    "resting_hr": 50.0,
+    "hrv": 65.05,
+    "daylight_mins": 384.0,
+    "spo2": 97.43
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Woke up at 8 at least got 7 hours of sleep, no alco day before so I was fine, cosita was snoring as usual - really want to sleep alone\nWoke up at 8 wanted to do gym - my hip pain came back, lots of standing day before, went for a walk around island - was nice\nBreakfast\nWas in a bad mood but then got my humor back\nAfter breakfast CRM meeting\nThen I was giving a loan to Milan and checking some other things\nFunimalz meeting was not too painful but okey\nLunchy was good had chicken with salad and ric"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
