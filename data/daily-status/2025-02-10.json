@@ -1,0 +1,32 @@
+{
+  "date": "2025-02-10",
+  "generated_at": "2026-04-23T23:14:25.294203",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7276,
+    "resting_hr": 58.0,
+    "hrv": 57.24,
+    "daylight_mins": 23.0,
+    "spo2": 99.0,
+    "respiratory_rate": 15.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Taking the whole day very easy, i was a bit still under the sedation whole day, \n\ngot lower back pain amd i bit myself in lip from inside\nFelt some pain here and there but otherwise its fine.\n\n\n09.2.2025",
+    "supplements_list": [
+      "DAO",
+      "Electrolytes"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
