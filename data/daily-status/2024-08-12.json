@@ -1,0 +1,33 @@
+{
+  "date": "2024-08-12",
+  "generated_at": "2026-04-23T23:10:35.349673",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27108,
+    "resting_hr": 54.0,
+    "hrv": 61.1,
+    "daylight_mins": 126.0,
+    "vo2max": 43.69,
+    "spo2": 98.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Felt very tired in afternoon somehow, was hot but also I felt it was somehow warmer, maybe was effect from soup hard to say\nPhysically felt very good in the morning, i was starving myself too much for breakfast and for lunch\nIts making noises, dhiarea in afternoon",
+    "supplements_list": [
+      "Enterosgel",
+      "Immune Action",
+      "Probiotic"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
