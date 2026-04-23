@@ -1,0 +1,27 @@
+{
+  "date": "2024-03-30",
+  "generated_at": "2026-04-23T23:07:41.316615",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27506,
+    "resting_hr": 54.0,
+    "hrv": 74.19,
+    "daylight_mins": 108.0,
+    "vo2max": 41.47,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept not ok, it was too short\u2026\nWoke up at 4:30 could not sleep more - lets hope this has nothing to do with probiotics haha - will try to get a massage tomorrow\nWas doing meditation - my mind is very scattered - need to practice more focus\nTai chi\nTalked to Miha this morning - not having the best feeling about this does not strike me as a guy that will figure this one out - also they have way too many things going for them I mean I get it they are young\nSpoke to Boro that part was exciting\nWent"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
