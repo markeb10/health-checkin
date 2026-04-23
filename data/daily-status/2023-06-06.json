@@ -1,0 +1,30 @@
+{
+  "date": "2023-06-06",
+  "generated_at": "2026-04-23T23:01:26.577737",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20950,
+    "resting_hr": 59.0,
+    "hrv": 50.37,
+    "weight_kg": 73.238,
+    "sleep_hrs": 7.5,
+    "body_fat_pct": 0.13,
+    "bmi": 25.05,
+    "vo2max": 40.66,
+    "respiratory_rate": 14.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Rainy strange day, but it was alright no pressure due to me taking the singulair pills interesting, i have taken it today as well\nGreat day in terms of productivity - not much multitasking is making me much less stressed\nMeditation\nGym - nothing hard but was alright\nWalkie\nHave included all guys in insurance\nMeeting with Boro and Filip\nDemo meeting\nMeeting Sarah and Sandra at Sean was alright\nSushi\nClapping meeting\nPaid Occhio and confirmed \u2705 \nSocial restart meeting\nA play was alright but wasnt "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
