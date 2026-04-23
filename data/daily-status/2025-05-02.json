@@ -1,0 +1,35 @@
+{
+  "date": "2025-05-02",
+  "generated_at": "2026-04-23T23:16:04.694755",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 32246,
+    "resting_hr": 54.0,
+    "hrv": 53.54,
+    "daylight_mins": 214.0,
+    "vo2max": 41.98,
+    "spo2": 95.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling good relatively, but also nervous about my health a bit, I trust in the process and I am determined I can stop this inflamation in my body that was probably there for a very long time\nLow bloating, i masteubated and retaining relarively low pain",
+    "supplements_list": [
+      "DAO",
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
