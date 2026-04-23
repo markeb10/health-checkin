@@ -1,0 +1,27 @@
+{
+  "date": "2023-06-09",
+  "generated_at": "2026-04-23T23:01:30.094427",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22413,
+    "resting_hr": 64.0,
+    "hrv": 50.51,
+    "sleep_hrs": 6.6,
+    "vo2max": 41.18,
+    "respiratory_rate": 16.06
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Good day, lots of meetings though but somehow things flew, got the chair but somehow didnt work out that well, that net is no bueno I know that i mean\nWoke up at 5:30 i think\nGym at 7 and therapy - feels like that second sound wave focused theraphy this week is not good - not sure if we are doing any improvement really. Gym was easy\nBreakfast - we made lisicke and berries so it was plenty\nGot a cake after lunchy\nMeeting for JPM, acc managers, scatter king, chanelle, and other things\nBioresonance"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
