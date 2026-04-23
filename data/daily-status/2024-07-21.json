@@ -1,0 +1,40 @@
+{
+  "date": "2024-07-21",
+  "generated_at": "2026-04-23T23:10:06.601242",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 40159,
+    "resting_hr": 58.0,
+    "hrv": 68.47,
+    "sleep_hrs": 15.0,
+    "daylight_mins": 328.0,
+    "vo2max": 42.92,
+    "spo2": 96.33,
+    "respiratory_rate": 13.12,
+    "sleep_deep_hrs": 3.4,
+    "sleep_rem_hrs": 4.4,
+    "sleep_core_hrs": 7.2,
+    "sleep_awake_hrs": 2.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 4,
+    "journal": "- Felt good overall - good sleep helped and meditation\nall good, i was feeling full after food and super gassy after 4 pm again",
+    "supplements_list": [
+      "Ashwagandha",
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
