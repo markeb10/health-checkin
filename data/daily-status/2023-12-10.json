@@ -1,0 +1,26 @@
+{
+  "date": "2023-12-10",
+  "generated_at": "2026-04-23T23:05:20.112960",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12356,
+    "resting_hr": 56.0,
+    "hrv": 68.67,
+    "daylight_mins": 45.0,
+    "spo2": 98.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept until 4:30 then could not - pain in neck could not find position, was pretty pesimistic about my neck but got better by evening\nMassage with Actomy guy\nUsed new chair it was ok\nAte berries lots\nJpm meeting\nCrm meeting\nDad lunch - I was a bit moody but managed to fix it - gave him 20 we talked about many things\nOffice work - gotta say I like working with power bouts\nMeeting Polona\nIt was nice to see my dad, I feel he has that special energy, polona as always polona, neck is a bit better, I "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
