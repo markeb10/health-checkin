@@ -1,0 +1,31 @@
+{
+  "date": "2024-11-19",
+  "generated_at": "2026-04-23T23:12:41.348044",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29023,
+    "resting_hr": 64.0,
+    "hrv": 46.51,
+    "vo2max": 41.33,
+    "spo2": 98.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling much more myself, feeling like I have more energy\nOverall really good, no issues with gas as well",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
