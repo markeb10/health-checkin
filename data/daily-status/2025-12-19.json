@@ -1,0 +1,58 @@
+{
+  "date": "2025-12-19",
+  "generated_at": "2026-04-23T23:20:51.142571",
+  "whoop": {
+    "imported": true,
+    "recovery": 47.0,
+    "hrv": 32.0,
+    "rhr": 55.0,
+    "sleep_perf": 69.0,
+    "strain": 6.2,
+    "sleep_hrs": 5.6,
+    "spo2": 93.7,
+    "skin_temp": 34.4,
+    "sleep_efficiency": 97.4,
+    "sleep_consistency": 73.0,
+    "respiratory_rate": 13.8,
+    "light_sleep_hrs": 2.3,
+    "deep_sleep_hrs": 1.9,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 3,
+    "disturbances": 2,
+    "sleep_needed_hrs": 9.9,
+    "sleep_debt_hrs": 2.0,
+    "calories": 1721,
+    "avg_hr": 63,
+    "max_hr": 145,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17992,
+    "resting_hr": 54.5,
+    "hrv": 62.03,
+    "sleep_hrs": 5.6,
+    "vo2max": 40.21,
+    "spo2": 96.53,
+    "respiratory_rate": 13.83,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 2,
+    "journal": "Tough morning, cant sleep still really need to do something, did have a lot of training yesterday but still was also that something something is not letting me sleep in the morning, I took ruporut and it was better funny enough, good day in frankfurt was working a bit but not that much, first leg done, did a nappy - if anything the nappies are good to break the day and lower the cortisol - i maybe have to start doing this seriously specially on days that I am sleepy, I am the boss\nFeeling weird ",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut"
+    ],
+    "anxiety": 2,
+    "bloating": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
