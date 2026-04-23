@@ -1,0 +1,32 @@
+{
+  "date": "2025-03-21",
+  "generated_at": "2026-04-23T23:15:13.874832",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 40244,
+    "resting_hr": 56.0,
+    "hrv": 63.91,
+    "vo2max": 41.26,
+    "spo2": 99.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling very good, morninf exercise with cosita felt very nice, its nice to have a routine we can do it together\n\ngot ems suite katalyst\n\ndid many meetings but it was fine\nFeeling acidity after cacao cake - had this problem before\n\nmedium bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C",
+      "Zinc Carnosine"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
