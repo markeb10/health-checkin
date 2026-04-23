@@ -1,0 +1,24 @@
+{
+  "date": "2023-05-19",
+  "generated_at": "2026-04-23T23:01:05.047369",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21341,
+    "resting_hr": 64.0,
+    "hrv": 47.29
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Day 2 of this teambuilding - was challenging due to lack of sleep and being hangovered\nMorning acupuncture - hangover , high pulse painful neck back\nMorning acupuncture - was much more relaxed but lost my voice\nMorning meeting\nDepartment meetings BI and softswiss\nLunch time\nTeam-building games, we came in 4th\nBowling with Olle Magnus Matthew and Luke\nDinner\nMeeting with Dmitry Andrii and Alex coinspaid stuff and platform plans\nTough day, no voice, no sleep, and in pain a bit\nInspired by: myself "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
