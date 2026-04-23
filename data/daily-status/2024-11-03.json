@@ -1,0 +1,32 @@
+{
+  "date": "2024-11-03",
+  "generated_at": "2026-04-23T23:12:21.046971",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20434,
+    "resting_hr": 56.0,
+    "hrv": 53.46,
+    "daylight_mins": 62.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "Feels okey today, was a bit more quite but yeah, was really looking ofrward to see everyonr, maybe too much of all but good still,  i like how kids and eveyone get along well now such a change\nLots of acidity in morning could not sleep too, took ruporut",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
