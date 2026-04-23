@@ -1,0 +1,33 @@
+{
+  "date": "2025-07-03",
+  "generated_at": "2026-04-23T23:17:23.354147",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23436,
+    "resting_hr": 59.0,
+    "hrv": 61.02,
+    "daylight_mins": 60.0,
+    "vo2max": 40.91,
+    "spo2": 98.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "Feeling tired. Sleepy low energy took more vit c but still feeling lack of sleep, mentallynot great, a lot of doom scrolling instead of researching interesting things\nMid/ high bloating - not sticking to diet",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
