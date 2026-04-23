@@ -1,0 +1,24 @@
+{
+  "date": "2023-09-15",
+  "generated_at": "2026-04-23T23:03:31.569973",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18745,
+    "resting_hr": 59.0,
+    "hrv": 55.23
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept relatively ok, woke up one time was quite awake but then managed to fall asleep back again, went to bed waay to late and was feeling googy\nMorning grooming - routine\nBreakfast with the guys - talking about fun stuff - laughing a lot - its actually very helpful\nJpm meeting\nLooking together at other games sounds\nSwimming in Woertersee and pool\nSupping with boys\nLunch\nDrive back home\nWorking on some things\nWalkie and talkie to my sister \ud83d\udc67\nI like company of the guys, they seem very fun and eng"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
