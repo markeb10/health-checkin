@@ -1,0 +1,32 @@
+{
+  "date": "2025-07-19",
+  "generated_at": "2026-04-23T23:17:43.243406",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22940,
+    "resting_hr": 56.0,
+    "hrv": 49.15,
+    "daylight_mins": 264.0,
+    "spo2": 97.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling weird. Tired whole dsy but interesting enough after pizza I was properly awake and full of energy could it be that all this protein plus poratoes is makjnf me tired\nMy sister is really weird acting today\nSo so, was stool movement but not crqzy one",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
