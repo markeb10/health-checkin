@@ -1,0 +1,32 @@
+{
+  "date": "2025-02-01",
+  "generated_at": "2026-04-23T23:14:13.985857",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23362,
+    "resting_hr": 49.0,
+    "hrv": 60.79,
+    "daylight_mins": 89.0,
+    "spo2": 100.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Tired, suuper sleepy after lunch, not sure if its from IV but definitely feels like I could fall asleep right there\nIv for gut health\nWas bloated still in morning in evening some smaller bloating - didnt really eat much after lunch",
+    "supplements_list": [
+      "Enterosgel",
+      "Glutamine",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
