@@ -1,0 +1,24 @@
+{
+  "date": "2023-09-01",
+  "generated_at": "2026-04-23T23:03:13.860635",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 32166,
+    "resting_hr": 53.0,
+    "hrv": 69.03
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "First day of work - I took it easy, still was productive\nWoke up a bit nervous first day back on track\nStretching on carpet in sun wowza\nTraining with Tim - my back is killed hehe he wants me to lean more forward need to strengthen my back muscles - also I should always properly warm up\nHitting little task admin stuff bank documents chasing and other things\nCosita made amazing lunch\nPool guys came to clean it\nNew ideas \nWas playing pinball\nBi meeting\nVlad did presentation of the back-office for "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
