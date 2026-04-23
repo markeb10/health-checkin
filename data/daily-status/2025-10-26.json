@@ -1,0 +1,69 @@
+{
+  "date": "2025-10-26",
+  "generated_at": "2026-04-23T23:19:44.347084",
+  "whoop": {
+    "imported": true,
+    "recovery": 51.0,
+    "hrv": 31.3,
+    "rhr": 49.0,
+    "sleep_perf": 79.0,
+    "strain": 9.7,
+    "sleep_hrs": 6.2,
+    "spo2": 96.6,
+    "skin_temp": 33.4,
+    "sleep_efficiency": 82.2,
+    "sleep_consistency": 90.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 2.5,
+    "deep_sleep_hrs": 2.7,
+    "rem_sleep_hrs": 1.0,
+    "awake_hrs": 1.4,
+    "sleep_cycles": 7,
+    "disturbances": 5,
+    "sleep_needed_hrs": 8.7,
+    "sleep_debt_hrs": 1.1,
+    "calories": 1806,
+    "avg_hr": 63,
+    "max_hr": 177,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 103,
+        "avg_hr": 78,
+        "max_hr": 113
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26682,
+    "resting_hr": 53.0,
+    "hrv": 58.18,
+    "sleep_hrs": 6.2,
+    "daylight_mins": 117.0,
+    "bp_systolic": 105.33,
+    "bp_diastolic": 65.67,
+    "vo2max": 40.96,
+    "spo2": 96.22,
+    "respiratory_rate": 13.3,
+    "sleep_awake_hrs": 1.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 3,
+    "journal": "Feeling good and somehow better than yesterday, my brain is working better, I did whole morning protocol and i feel that for my mood early workout is a must but not too strong just something light and then harder during the day, watched tv\nfeeling okeyish bloating was not as much as you would expect but still 4/10 , in general feeling after eating the food was good - the food was landing well in my belly",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
