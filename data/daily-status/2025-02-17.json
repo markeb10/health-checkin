@@ -1,0 +1,31 @@
+{
+  "date": "2025-02-17",
+  "generated_at": "2026-04-23T23:14:33.923033",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 8999,
+    "resting_hr": 54.0,
+    "hrv": 57.45,
+    "spo2": 96.33,
+    "respiratory_rate": 12.42
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling okeyish, lots of parts of my body aches, coccyx neck in particularly bad, i feel the massager doesnt help at all just make things worse, cant wait for Ljubljana and some massage there, or in Kenya\nFeeling acidity after the tomatoe sauce with chicken - definitely not the best combo - seems that I am sensitive - Medium bloating almost high",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
