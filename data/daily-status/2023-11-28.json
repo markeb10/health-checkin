@@ -1,0 +1,27 @@
+{
+  "date": "2023-11-28",
+  "generated_at": "2026-04-23T23:05:05.109960",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23092,
+    "resting_hr": 54.0,
+    "hrv": 63.4,
+    "daylight_mins": 11.0,
+    "vo2max": 40.37,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish, I was hot in morning and my muscles were active could not stay in bed longer i was \"se pretegoval\" bolecina v spodnjem predelu je bila kar mocna, sex drive 0\nTai chi \nExercises from Milos\nWent to get berries - aloot\nJpm meeting\nNew ideas\nPayed lots of stuff what was outstanding for providers so we are going clean slate \nCosita made a great lunch\nGot upset with Innovecs for suggesting stupid things - hire another product designer and see if its good haha - will try with voodoo and "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
