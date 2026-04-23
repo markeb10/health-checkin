@@ -1,0 +1,35 @@
+{
+  "date": "2025-05-10",
+  "generated_at": "2026-04-23T23:16:15.051125",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14087,
+    "resting_hr": 61.0,
+    "hrv": 62.28,
+    "daylight_mins": 20.0,
+    "spo2": 95.8,
+    "respiratory_rate": 13.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Felt good whole day, feels like I have power, I will really want to know what is the main driver behind this change hehe\nFeeling good, low bloating, less pain on coccyx",
+    "supplements_list": [
+      "DAO",
+      "Enterosgel",
+      "Vitamin C",
+      "Vitamin K2",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
