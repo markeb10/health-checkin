@@ -1,0 +1,71 @@
+{
+  "date": "2026-02-08",
+  "generated_at": "2026-04-23T23:21:54.370855",
+  "whoop": {
+    "imported": true,
+    "recovery": 58.0,
+    "hrv": 33.0,
+    "rhr": 51.0,
+    "sleep_perf": 77.0,
+    "strain": 10.7,
+    "sleep_hrs": 6.0,
+    "spo2": 96.4,
+    "skin_temp": 33.7,
+    "sleep_efficiency": 90.5,
+    "sleep_consistency": 88.0,
+    "respiratory_rate": 13.8,
+    "light_sleep_hrs": 2.8,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.2,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 4,
+    "disturbances": 3,
+    "sleep_needed_hrs": 9.9,
+    "sleep_debt_hrs": 2.0,
+    "calories": 1973,
+    "avg_hr": 66,
+    "max_hr": 152,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 51,
+        "avg_hr": 104,
+        "max_hr": 145
+      },
+      {
+        "sport": "Walking",
+        "calories": 340,
+        "avg_hr": 108,
+        "max_hr": 152
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18366,
+    "resting_hr": 51.5,
+    "hrv": 54.78,
+    "sleep_hrs": 8.9,
+    "daylight_mins": 59.0,
+    "spo2": 97.18,
+    "respiratory_rate": 13.83,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling with that pressure in the morning, but after telfast got a little bit better, definitely the tension dissapeared by the evening interesting enough, I mean what if I just have allergy, so tomorrow I will take another 0.5 pill and see if there is any effect or change, or if it persists\nbloating 4/10 mostly in the evening, need to stop eating sweet stuff",
+    "supplements_list": [
+      "Enterosgel",
+      "Telfast"
+    ],
+    "anxiety": 4,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
