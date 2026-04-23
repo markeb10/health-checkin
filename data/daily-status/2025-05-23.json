@@ -1,0 +1,35 @@
+{
+  "date": "2025-05-23",
+  "generated_at": "2026-04-23T23:16:30.994584",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16018,
+    "resting_hr": 55.0,
+    "hrv": 49.91,
+    "daylight_mins": 49.0,
+    "spo2": 97.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 6,
+    "journal": "I am really good today, no complaints, i do have this chest pain interesting enouh chinese guy found it, ofhwewise lots of meeting without any problems\nSmall acidity due to eating only rice this is a problem took ruporut\n\nvery low bloating",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Ruporut",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
