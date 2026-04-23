@@ -1,0 +1,33 @@
+{
+  "date": "2024-08-15",
+  "generated_at": "2026-04-23T23:10:39.149121",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31710,
+    "resting_hr": 50.0,
+    "hrv": 53.83,
+    "daylight_mins": 133.0,
+    "vo2max": 43.67,
+    "spo2": 97.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "I feel sad and frustrated when I want to say something fun but just cant find the words \u2026 this is getting weird\nI urgently need to start practicing better concentration because it will help me with everything\nPainful at times, mostly after the food",
+    "supplements_list": [
+      "Enterosgel",
+      "Immune Action",
+      "Probiotic"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
