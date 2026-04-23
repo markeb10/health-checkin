@@ -1,0 +1,79 @@
+{
+  "date": "2026-02-25",
+  "generated_at": "2026-04-23T23:22:15.671441",
+  "whoop": {
+    "imported": true,
+    "recovery": 38.0,
+    "hrv": 31.4,
+    "rhr": 54.0,
+    "sleep_perf": 70.0,
+    "strain": 11.3,
+    "sleep_hrs": 5.5,
+    "spo2": 95.5,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 93.2,
+    "sleep_consistency": 74.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 2.4,
+    "deep_sleep_hrs": 1.5,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 5,
+    "disturbances": 5,
+    "sleep_needed_hrs": 9.6,
+    "sleep_debt_hrs": 1.6,
+    "calories": 1962,
+    "avg_hr": 72,
+    "max_hr": 156,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "Walking",
+        "calories": 364,
+        "avg_hr": 114,
+        "max_hr": 145
+      },
+      {
+        "sport": "Yoga",
+        "calories": 104,
+        "avg_hr": 101,
+        "max_hr": 135
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13376,
+    "resting_hr": 54.0,
+    "hrv": 51.34,
+    "sleep_hrs": 5.1,
+    "daylight_mins": 175.0,
+    "spo2": 95.94,
+    "respiratory_rate": 13.48,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling relatively okey today, did some padel , in general day was good, and also I am tired so lets try to use this to get good sleep\n\noverall really likes the setup today, amazing time with family, with everyone\nin general okey, but my throat is getting tight and I feel its starting to build some tingling there and I might have to start coughing which is not great, cant tell if its acidity or something else.",
+    "supplements_list": [
+      "Enterosgel",
+      "Ginger",
+      "Propolis",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
