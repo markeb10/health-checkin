@@ -1,0 +1,29 @@
+{
+  "date": "2024-11-06",
+  "generated_at": "2026-04-23T23:12:24.795550",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10174
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 4,
+    "journal": "I have been feeling relatively okey today, luckily enough sleep so yeah\nAll good today, no acidity in morning much better",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Probiotic",
+      "Zinc"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
