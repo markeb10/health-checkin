@@ -1,0 +1,74 @@
+{
+  "date": "2025-10-10",
+  "generated_at": "2026-04-23T23:19:25.226176",
+  "whoop": {
+    "imported": true,
+    "recovery": 61.0,
+    "hrv": 30.6,
+    "rhr": 50.0,
+    "sleep_perf": 87.0,
+    "strain": 11.2,
+    "sleep_hrs": 7.8,
+    "spo2": 96.2,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 90.2,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 13.1,
+    "light_sleep_hrs": 4.4,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.3,
+    "awake_hrs": 0.9,
+    "sleep_cycles": 8,
+    "disturbances": 9,
+    "sleep_needed_hrs": 9.3,
+    "sleep_debt_hrs": 1.7,
+    "calories": 1975,
+    "avg_hr": 62,
+    "max_hr": 170,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 111,
+        "avg_hr": 96,
+        "max_hr": 145
+      },
+      {
+        "sport": "HIIT",
+        "calories": 115,
+        "avg_hr": 116,
+        "max_hr": 147
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30031,
+    "resting_hr": 51.0,
+    "hrv": 57.51,
+    "sleep_hrs": 7.6,
+    "daylight_mins": 93.0,
+    "spo2": 97.7,
+    "respiratory_rate": 13.12,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 5,
+    "journal": "Feeling great, felt pain when sleeping but managed to sleep more on my back, though yeah need to manage the pain somehow better - will try with the support for my lower back lets see.\nbloating was somewhere 4/10, eventhoug I had the tiramisu hehe weird one",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Lutein",
+      "Vitamin C",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
