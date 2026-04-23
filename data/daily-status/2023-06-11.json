@@ -1,0 +1,25 @@
+{
+  "date": "2023-06-11",
+  "generated_at": "2026-04-23T23:01:32.451149",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19065,
+    "resting_hr": 62.0,
+    "hrv": 53.86,
+    "sleep_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept relatively ok, was having this feel that I am extremely tired for some reason\nMilos exercises\nBreakfast\nJpm\nSome tasks - but not very focused\nPaid the MDO\nMeeting with Tarique showed me the villa how it looks \nMeeting with Filip went trough over the Dubai plan\nTalking to Jordan he finally gave offer to offspring - this guy is driving me a bit crazy\nI am too scattered - my brain cant focus on one thing - definitely need meditation this is crazy\nWe have a winner chair Mirra 2 or Aeron but Mi"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
