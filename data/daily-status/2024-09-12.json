@@ -1,0 +1,33 @@
+{
+  "date": "2024-09-12",
+  "generated_at": "2026-04-23T23:11:14.501635",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30259,
+    "resting_hr": 54.0,
+    "hrv": 72.01,
+    "daylight_mins": 142.0,
+    "vo2max": 43.33,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "I feel ok but not happy since I have another knee injury - lets hope its not super bad but I almost dont remember the time when the knee would hurt so much right after exercise\nEverything fine in this region",
+    "supplements_list": [
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
