@@ -1,0 +1,31 @@
+{
+  "date": "2024-08-20",
+  "generated_at": "2026-04-23T23:10:45.646199",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12179,
+    "resting_hr": 52.0,
+    "hrv": 62.86,
+    "daylight_mins": 35.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 6,
+    "supplements": 2,
+    "journal": "Feels great knowing that I am accomplishing tasks, loving the little house apartment we have airbnb, considering I didnt sleep that much I am doing great I would say\nP3 - the lab \n\nthey agree that right  hamstring is weaker than the other but they believe the weakness comes from weak glute minimus, medius and a bit up on my back. Since this is not stable the hamstrings are also having impossible job of stabilization.\nEverything fine in this except gass",
+    "supplements_list": [
+      "Multivitamin",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
