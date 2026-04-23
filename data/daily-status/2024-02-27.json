@@ -1,0 +1,26 @@
+{
+  "date": "2024-02-27",
+  "generated_at": "2026-04-23T23:07:00.545884",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24792,
+    "resting_hr": 57.0,
+    "hrv": 64.64,
+    "daylight_mins": 370.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice day, beach time was nice, sleep was so so disrupted by noises from outside\nWalkie around house with Dad exploring \nBreakfast\nSeeing loads od turtles\nBeach time - snorkeling a bit but was not nice due to muddy waters\nLunch at nest restaurant had an old fish bad idea\nMassage with my dad was awesome\nWe went for a walk in golf course and spotting crabs birds bats\nShower dinner\nDinner was short we were not hungry really - its really not a good thing to eat so much\nWas feeling a bit sick too alka"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
