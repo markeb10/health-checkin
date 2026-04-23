@@ -1,0 +1,32 @@
+{
+  "date": "2025-06-28",
+  "generated_at": "2026-04-23T23:17:17.124419",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 62741,
+    "resting_hr": 60.0,
+    "hrv": 61.0,
+    "daylight_mins": 323.0,
+    "vo2max": 40.62,
+    "spo2": 97.14
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "It was an interesting day. I was very excited to meet Philip. He had some great news to share, and also Primors had some good news to share. It was amazing seeing him and Nastya, and can't wait to spend the whole weekend with them. It's really nice to feel better and to be able to eat everything I can. I'm super grateful for that. I walked a lot, I ate a lot of different kinds of things, and it seems to not affect me at all. Really really happy about it. I think I don't remember last time this w",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
