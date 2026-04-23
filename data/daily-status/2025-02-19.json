@@ -1,0 +1,29 @@
+{
+  "date": "2025-02-19",
+  "generated_at": "2026-04-23T23:14:36.367008",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13019,
+    "resting_hr": 60.0,
+    "hrv": 59.06
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling okeyish, i mean amazing day, blessed to be able to experience all this what a treat and I would say one of the best choice\nFeeling max bloated",
+    "supplements_list": [
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
