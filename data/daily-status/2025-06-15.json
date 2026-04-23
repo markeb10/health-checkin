@@ -1,0 +1,33 @@
+{
+  "date": "2025-06-15",
+  "generated_at": "2026-04-23T23:17:00.004362",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 6184,
+    "resting_hr": 60.0,
+    "hrv": 57.93,
+    "daylight_mins": 123.0,
+    "spo2": 97.83,
+    "respiratory_rate": 16.64
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good, had several gas expelling 1 hour after cake and later but its more or less fine, feels like I managed to difuse it a bitpcerall feeling relaxed and positive. Still pain in the leg and mostly in my perineal area\nFeeling okey but high bloating in evening otherwise fine, blaming it on deserts I ate but no allegy response",
+    "supplements_list": [
+      "Celecoxib",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
