@@ -1,0 +1,25 @@
+{
+  "date": "2023-07-26",
+  "generated_at": "2026-04-23T23:02:27.765998",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22259,
+    "resting_hr": 57.0,
+    "hrv": 71.98,
+    "vo2max": 39.52
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Good day, mentally much better, theraphy went good,\nChatn\nGym - exercises for stability and hip muscles\nWalkie and bringing berries from market\nBreakfast - was a bit too in a hurry\nSalaries - spent 1 hour wow - ok no crypto payments\nBioresonanca theraphy\nGym fizio - hurted properly after focused shockwave theraphy\nMitja walkie - he was explaining me his dating Bumble - otherwise was nice\nChecking appliances with cosita\nRained again\nI was just awake this morning, maybe I should eat more idk or ma"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
