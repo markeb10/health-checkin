@@ -1,0 +1,33 @@
+{
+  "date": "2025-06-26",
+  "generated_at": "2026-04-23T23:17:14.673193",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21714,
+    "resting_hr": 55.0,
+    "hrv": 50.25,
+    "daylight_mins": 51.0,
+    "vo2max": 40.36,
+    "spo2": 97.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good whole day, setting up my day right definitely helps\nLow bloating which is surprisjng considering the ice cream and 3 flavours I mixed",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
