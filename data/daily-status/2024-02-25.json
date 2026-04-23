@@ -1,0 +1,28 @@
+{
+  "date": "2024-02-25",
+  "generated_at": "2026-04-23T23:06:57.871416",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26909,
+    "resting_hr": 60.0,
+    "hrv": 51.69,
+    "daylight_mins": 87.0,
+    "vo2max": 39.36,
+    "spo2": 96.67,
+    "respiratory_rate": 14.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was a good morning - feeling some sorness around my coccyx - i guess due to all exercises, sleep was ok around 7 h\nExercise in the morning - started with pushups - did some dumbells too\nMasko\nVesna helped me with exercises\nBreakfast - super good cosita made croissants and bought bread\nWas drumming - was good but I got super nervous and agitated afterwards - I need to have a limit - could be a reason behind my stress but mostly I think was due to using headphones and due to doing it for an hour o"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
