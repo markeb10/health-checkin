@@ -1,0 +1,25 @@
+{
+  "date": "2023-05-17",
+  "generated_at": "2026-04-23T23:01:01.629204",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14142,
+    "resting_hr": 63.0,
+    "hrv": 54.37,
+    "respiratory_rate": 10.39
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "The day of the trip has come, I am so happy to see everyone, my mental state is disaster as my pulse has been 65 during night over 70 and same base level has persisted over whole night\nWoke up at 3 - been super bad trying to fall asleep didnt work\nFinished packing did some work\nCosita made me breakfast\nTrip with guys to istanbul and then antalya\nMassage at resort / was so so nothing amazing \nMet and hugged all the guys at Italian reataurant\nHad a call with Alex Soul guide\nI felt bad but also goo"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
