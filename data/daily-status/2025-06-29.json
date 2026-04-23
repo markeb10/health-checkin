@@ -1,0 +1,31 @@
+{
+  "date": "2025-06-29",
+  "generated_at": "2026-04-23T23:17:18.411149",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7436,
+    "resting_hr": 55.0,
+    "hrv": 68.36,
+    "daylight_mins": 50.0,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling super sleepy and tired affer the wibe\nLow bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
