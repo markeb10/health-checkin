@@ -1,0 +1,28 @@
+{
+  "date": "2023-12-03",
+  "generated_at": "2026-04-23T23:05:11.790896",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17434,
+    "resting_hr": 53.0,
+    "hrv": 72.61,
+    "daylight_mins": 40.0,
+    "vo2max": 39.98,
+    "spo2": 98.0,
+    "respiratory_rate": 15.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Had nightmares that caro was being pregnant and I was like what the hell it can be mine and shit i am getting a kid and I know nothing about kids\nWoke up early 6/20 found an issue on the water on the floor\nStretching and doing glutes exercises - tomorrow break only golfing\nPracticed golf was going relatively ok\nPool time with cosita\nLa mar - royal atlantis was very good food tiradito and seviche and empanadas\nExhibition of art was nice - very cool artists from whole world\nBoro meeting - big pict"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
