@@ -1,0 +1,71 @@
+{
+  "date": "2026-02-27",
+  "generated_at": "2026-04-23T23:22:18.225811",
+  "whoop": {
+    "imported": true,
+    "recovery": 61.0,
+    "hrv": 36.8,
+    "rhr": 54.0,
+    "sleep_perf": 82.0,
+    "strain": 12.2,
+    "sleep_hrs": 6.6,
+    "spo2": 97.5,
+    "skin_temp": 34.3,
+    "sleep_efficiency": 93.2,
+    "sleep_consistency": 73.0,
+    "respiratory_rate": 14.1,
+    "light_sleep_hrs": 2.7,
+    "deep_sleep_hrs": 1.9,
+    "rem_sleep_hrs": 2.0,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 7,
+    "disturbances": 5,
+    "sleep_needed_hrs": 8.4,
+    "sleep_debt_hrs": 1.7,
+    "calories": 2086,
+    "avg_hr": 75,
+    "max_hr": 164,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "Walking",
+        "calories": 488,
+        "avg_hr": 116,
+        "max_hr": 164
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14230,
+    "resting_hr": 59.0,
+    "hrv": 57.63,
+    "sleep_hrs": 6.9,
+    "daylight_mins": 103.0,
+    "spo2": 95.72,
+    "respiratory_rate": 14.06,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "feeling even more sick, but somehow surviving, padel in the morning is keeping me up, did massage and cold plunge, ginger shots and salty water the fulls shebang, also had a proper rage outbrake in the evening, which was crazy but gave me more enrgy and I think it helped me with recovery for sure\n\nplayed UNO\nfeeling emotionally unstable a little bit but feeling the fire in the evening, from that fight,\n\noverall feeling okey",
+    "supplements_list": [
+      "Ginger",
+      "Vitamin C"
+    ],
+    "anxiety": 8,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
