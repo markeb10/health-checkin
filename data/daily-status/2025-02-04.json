@@ -1,0 +1,31 @@
+{
+  "date": "2025-02-04",
+  "generated_at": "2026-04-23T23:14:17.748399",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25660,
+    "resting_hr": 58.0,
+    "hrv": 50.65,
+    "daylight_mins": 44.0,
+    "vo2max": 41.01,
+    "spo2": 95.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 1,
+    "journal": "Feeling a bit slow in morning but better, I felt much more positive than yeaterday what a change holy shit\nFeeling very low bloating in evening, one of the lowest by far",
+    "supplements_list": [
+      "Quercetin"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
