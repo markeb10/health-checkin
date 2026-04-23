@@ -1,0 +1,35 @@
+{
+  "date": "2025-06-01",
+  "generated_at": "2026-04-23T23:16:41.901596",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24221,
+    "resting_hr": 52.0,
+    "hrv": 56.34,
+    "daylight_mins": 95.0,
+    "vo2max": 41.24,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "feeling it in the morning, i had some stuff that was coming naturally but still needed preparation\n\nbut okey, lots of love people grateful for the experience\nLow bloating, but expecting more because of cake and drinks",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Ruporut",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
