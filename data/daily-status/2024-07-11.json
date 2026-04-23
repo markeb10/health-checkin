@@ -1,0 +1,37 @@
+{
+  "date": "2024-07-11",
+  "generated_at": "2026-04-23T23:09:52.968364",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 51873,
+    "resting_hr": 52.0,
+    "hrv": 83.22,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 434.0,
+    "spo2": 96.67,
+    "respiratory_rate": 13.12,
+    "sleep_deep_hrs": 2.0,
+    "sleep_rem_hrs": 1.6,
+    "sleep_core_hrs": 3.1,
+    "sleep_awake_hrs": 1.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 2,
+    "journal": "Was upset as I was fighting with gf also felt I was still sleepy, did a nap in afternoon\nA little bloated in afternoon but just expelling gas\nEverything was ok",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
