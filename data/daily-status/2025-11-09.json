@@ -1,0 +1,77 @@
+{
+  "date": "2025-11-09",
+  "generated_at": "2026-04-23T23:20:01.389407",
+  "whoop": {
+    "imported": true,
+    "recovery": 91.0,
+    "hrv": 45.8,
+    "rhr": 50.0,
+    "sleep_perf": 85.0,
+    "strain": 13.5,
+    "sleep_hrs": 6.6,
+    "spo2": 96.0,
+    "skin_temp": 34.4,
+    "sleep_efficiency": 91.6,
+    "sleep_consistency": 90.0,
+    "respiratory_rate": 13.9,
+    "light_sleep_hrs": 3.4,
+    "deep_sleep_hrs": 1.8,
+    "rem_sleep_hrs": 1.5,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 7,
+    "disturbances": 6,
+    "sleep_needed_hrs": 9.4,
+    "sleep_debt_hrs": 1.6,
+    "calories": 2085,
+    "avg_hr": 63,
+    "max_hr": 187,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 110,
+        "avg_hr": 101,
+        "max_hr": 121
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "HIIT",
+        "calories": 361,
+        "avg_hr": 119,
+        "max_hr": 187
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24650,
+    "resting_hr": 51.5,
+    "hrv": 65.86,
+    "sleep_hrs": 6.6,
+    "daylight_mins": 80.0,
+    "vo2max": 40.81,
+    "spo2": 96.2,
+    "respiratory_rate": 13.89,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 1,
+    "journal": "It was a good day, was tired in the morning intersting enough i slept a lot on the back but then ended up hurting my boniko, then I have sat on the chair with the net and thats definitely killing me, need to stabilise this seriously it hurts around the anal hole like if I press on the chanal kinda weird\nbloating 5/10 considering I ate a goodie italian food this was expected now tomorrow we need some protein or something but its important to vary a bit i think , feeling tired and sleepy in the ev",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
