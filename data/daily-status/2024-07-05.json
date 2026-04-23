@@ -1,0 +1,31 @@
+{
+  "date": "2024-07-05",
+  "generated_at": "2026-04-23T23:09:45.618842",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28525,
+    "resting_hr": 56.0,
+    "hrv": 66.42,
+    "daylight_mins": 240.0,
+    "spo2": 94.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling headache in morning when working out and I was sweating weirdly\n\nfelt like a bubble on my inside of my lips, probably some allergy on pear from breakfast maybe\n\nbloating from appricots - had to expel a lot of gas\nFelt some pain 1 h after appricots maybe it was allergy or gas forming",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
