@@ -1,0 +1,29 @@
+{
+  "date": "2024-08-29",
+  "generated_at": "2026-04-23T23:10:56.937567",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 39306,
+    "resting_hr": 57.0,
+    "hrv": 47.57,
+    "daylight_mins": 227.0,
+    "spo2": 96.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "supplements_list": [
+      "Probiotic",
+      "Multivitamin"
+    ]
+  },
+  "zoe": {
+    "imported": false
+  }
+}
