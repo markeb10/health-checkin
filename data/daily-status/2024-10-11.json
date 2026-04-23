@@ -1,0 +1,34 @@
+{
+  "date": "2024-10-11",
+  "generated_at": "2026-04-23T23:11:50.963344",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22104,
+    "resting_hr": 57.0,
+    "hrv": 63.64,
+    "daylight_mins": 54.0,
+    "vo2max": 41.3,
+    "spo2": 97.57
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 4,
+    "journal": "Feeling okeyish, nothing special usually thats a good sign - boniko hurts but in a different way due to that crazy massage\nWas a good day\nEverything was fine , maybe a bit acidity in evening due to potica",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
