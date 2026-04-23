@@ -1,0 +1,32 @@
+{
+  "date": "2024-12-06",
+  "generated_at": "2026-04-23T23:13:02.522926",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7980,
+    "resting_hr": 63.0,
+    "hrv": 57.07,
+    "spo2": 99.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 4,
+    "journal": "Feeling better after ruporut also managed to get sleep\n\nin general feeling good been with boys but having hard time screaming and I feel i need to train my voice muscles damn it\nNot feeling good showing all the symptoms, feeling bad after the food, issue in knee, coccyx hurt",
+    "supplements_list": [
+      "Enterosgel",
+      "Ginger",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
