@@ -1,0 +1,33 @@
+{
+  "date": "2024-10-04",
+  "generated_at": "2026-04-23T23:11:42.016552",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7783,
+    "resting_hr": 60.0,
+    "hrv": 54.17,
+    "spo2": 97.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "bit tired after all this meetings , stayed home since I felt worse than day before, nose and sneezing\nFelt ok, no special issues also les bloating which is kind funny but expected as i dwell more in home cooked food and not eating so much in restaurant, also did take rupurut day before not sure if that helped",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
