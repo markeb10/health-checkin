@@ -1,0 +1,31 @@
+{
+  "date": "2025-06-12",
+  "generated_at": "2026-04-23T23:16:56.209645",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7564,
+    "resting_hr": 62.0,
+    "hrv": 51.17,
+    "spo2": 96.86
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling fed up a bit of being in pain all the time by something but happy that pain on achilles got better, at least i can limo on left leg. My right knee is okey\nLow bloating - was very careful what I eat",
+    "supplements_list": [
+      "Celecoxib",
+      "Magnesium Glycinate",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
