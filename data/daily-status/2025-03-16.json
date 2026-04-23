@@ -1,0 +1,32 @@
+{
+  "date": "2025-03-16",
+  "generated_at": "2026-04-23T23:15:07.869092",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21241,
+    "resting_hr": 55.0,
+    "hrv": 59.96,
+    "spo2": 96.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling good, was quite okey,\u2026 the sun in izola was so nice, my heart is full, like honestly I would pay more dor something so nice as this, really want to reconnect with somebody from izola - to see where those kids are now and what happened\nExtreme bloating - like crazy - many reason ice cream bread pasta",
+    "supplements_list": [
+      "Berberine",
+      "DAO",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
