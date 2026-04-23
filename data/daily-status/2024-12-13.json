@@ -1,0 +1,32 @@
+{
+  "date": "2024-12-13",
+  "generated_at": "2026-04-23T23:13:11.177974",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 44937,
+    "resting_hr": 61.0,
+    "hrv": 57.95,
+    "daylight_mins": 79.0,
+    "vo2max": 41.33,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling great, excited and feeling positive about this prp treatment - I dont know if it will help but definitely worth to try more often probably, angry before concert fight with cosita, but really cool concert like wooow\nEverything is ok, just getting some muscle pain in stomach area but its from exercising abs yeaterday",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
