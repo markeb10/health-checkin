@@ -1,0 +1,27 @@
+{
+  "date": "2023-11-15",
+  "generated_at": "2026-04-23T23:04:48.831898",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 40536,
+    "resting_hr": 53.0,
+    "hrv": 51.3,
+    "daylight_mins": 54.0,
+    "vo2max": 41.0,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish, my neck head hurts, cant really shake off the pain during the day but ok\nExercises from Milos\nBreakfast \nJpm\nQuick Sigma show - was ok met usual people bank, softswiss, borut, new ideas\nLunchy by cosita\nWas tired so went out for a walk\nWas bombed by our guys with birthday wishes - wowza so many postcards from all over the world - they were in postbox in office\nResearched a bit the colonoscopy and located best manufacturer Olympus for endoscopy - wrote them about the best centers t"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
