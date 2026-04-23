@@ -1,0 +1,26 @@
+{
+  "date": "2024-04-01",
+  "generated_at": "2026-04-23T23:07:43.750795",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 35944,
+    "resting_hr": 60.0,
+    "hrv": 65.44,
+    "daylight_mins": 153.0,
+    "spo2": 92.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was coughing during the night a lot my throat was just tickled all the time - then it was full - the corona is trying really hard to work on my throat and potencially go lower leta hope it wont happen\nLong stop in bed\nTai chi 2x did also the master Hang on Udemity lesson 1 lots of emphasis on the diafragmal breathing\nPlayed tetris almost set a record\nJpm meeting\nCosita made lunch\nChatn self\nChatted to primoz to have a call tomorrow\nOfficially started closing down of Funimalz chapter - what I lea"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
