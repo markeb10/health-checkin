@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-20",
+  "generated_at": "2026-04-23T23:04:15.472796",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26889,
+    "resting_hr": 53.0,
+    "hrv": 60.32,
+    "daylight_mins": 136.0,
+    "vo2max": 41.1,
+    "spo2": 96.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was feeling still tired, jittery, and somehow weird, like over stimulated\nMeditation - woke up very edgy not slept well maybe its the cream - I felt like I was having coffee - didnt apply cream this morning and it went away interesting. Second culprit could be probiotics\nBreakfast\nJpm\nInvestigating the drop in NGR3\nCuddling the cat\nTreatment by the lady - it was proper massage really liked it waay better than what Medicofit is doing - that 30 min treatments are not enough I feel she did fascio r"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
