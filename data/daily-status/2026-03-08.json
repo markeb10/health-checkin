@@ -1,0 +1,103 @@
+{
+  "date": "2026-03-08",
+  "generated_at": "2026-04-23T23:22:29.581676",
+  "whoop": {
+    "imported": true,
+    "recovery": 62.0,
+    "hrv": 37.7,
+    "rhr": 49.0,
+    "sleep_perf": 86.0,
+    "strain": 15.1,
+    "sleep_hrs": 7.3,
+    "spo2": 95.8,
+    "skin_temp": 34.1,
+    "sleep_efficiency": 93.2,
+    "sleep_consistency": 88.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 3.5,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 6,
+    "disturbances": 6,
+    "sleep_needed_hrs": 9.8,
+    "sleep_debt_hrs": 2.1,
+    "calories": 2701,
+    "avg_hr": 70,
+    "max_hr": 159,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "HIIT",
+        "calories": 346,
+        "avg_hr": 114,
+        "max_hr": 145
+      },
+      {
+        "sport": "Walking",
+        "calories": 351,
+        "avg_hr": 120,
+        "max_hr": 157
+      },
+      {
+        "sport": "HIIT",
+        "calories": 71,
+        "avg_hr": 103,
+        "max_hr": 121
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26530,
+    "resting_hr": 53.5,
+    "hrv": 79.09,
+    "sleep_hrs": 7.5,
+    "daylight_mins": 164.0,
+    "vo2max": 39.7,
+    "spo2": 96.54,
+    "respiratory_rate": 13.34,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 1,
+    "journal": "Feeling good, just need a bit more of social aspect, I feel I cant be that spontaneus as I want to be, i am kinda static, not saying anything not able to process two things at the same time its a bit weird, slept kinda weird had a nightmare in the morning nothing crazy but still - Probably due to my hippy pain, Its my Labrum tear says gemini or impingement\n\nwill try to do some exercises and we will see\n\ngreat lunch, managed to hang out with people, Sandi is a bit weird but lets see.\nall okey act",
+    "supplements_list": [
+      "Sirotka (Whey)"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": true,
+    "meals": 10,
+    "meal_names": [
+      "Toast with Nut Butter",
+      "1/2 Individual Tiramisu",
+      "Roast Chicken Leg with Dandelion Salad",
+      "Rack of pork rib with Salad and Boiled Eggs",
+      "Hearty Salad with Black Pudding and Boiled Egg",
+      "Broth with Dumplings and Carrots",
+      "Lemonade",
+      "Toast with Hazelnut Butter and Berries",
+      "Fried Egg and Sauce on Toast",
+      "Avocado and Cheese Toast"
+    ],
+    "meal_details": [],
+    "avg_score": 65.2,
+    "calories": 2291.0,
+    "protein_g": 118.4,
+    "fat_g": 144.2,
+    "carbs_g": 125.5,
+    "fibre_g": 23.5
+  }
+}
