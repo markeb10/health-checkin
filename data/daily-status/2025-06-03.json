@@ -1,0 +1,32 @@
+{
+  "date": "2025-06-03",
+  "generated_at": "2026-04-23T23:16:45.145833",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25222,
+    "resting_hr": 58.0,
+    "hrv": 69.9,
+    "daylight_mins": 91.0,
+    "spo2": 95.29
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 3,
+    "journal": "Feeling super nice in the morning but gradually worse when getting yo this hotel funny enoug , probably was just the food I had - must be\nWas bad - felt it not good whole evening also i did eat a bit late should have avoided - avoiding ruporut lets see",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
