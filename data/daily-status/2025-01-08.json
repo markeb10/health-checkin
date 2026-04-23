@@ -1,0 +1,26 @@
+{
+  "date": "2025-01-08",
+  "generated_at": "2026-04-23T23:13:43.193788",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 5189
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 1,
+    "journal": "Tired, my vision is getitng worse - not exactly sure why that is, could it be coz this glasses that I am wearing are making my eyesight worse?\nFeeling still bloated in evening - bit more than yesterday but less than 2 days ago",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
