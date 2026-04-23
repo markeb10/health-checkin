@@ -1,0 +1,25 @@
+{
+  "date": "2023-07-16",
+  "generated_at": "2026-04-23T23:02:15.492265",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24821,
+    "resting_hr": 58.0,
+    "hrv": 36.25,
+    "respiratory_rate": 18.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Good day, we did many things, lots of sun but managed to avoid sun burns\nTxtn\nGym time\nBreakfast\nBeach club in portopiccolo - super not organised people\nConcert Maneskin was good but didnt enjoyed it properly - really should not sit it would be better but still i really dont know well their songs and not 100% fan\nWe walked back 4.8km\nWas super hot \ud83e\udd75, situation was not best there but we managed to get a good beds at the end and we adjusted umbrella so we had shade all the time coz that gazebo is "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
