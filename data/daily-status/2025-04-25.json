@@ -1,0 +1,31 @@
+{
+  "date": "2025-04-25",
+  "generated_at": "2026-04-23T23:15:56.132599",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20906,
+    "resting_hr": 55.0,
+    "hrv": 70.61,
+    "daylight_mins": 174.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 2,
+    "journal": "Feeling better today after managing to sleep finally normally - been very good actually even managed to dip myself in cold water sea\nvery low bloating - all okey",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
