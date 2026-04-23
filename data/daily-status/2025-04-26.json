@@ -1,0 +1,34 @@
+{
+  "date": "2025-04-26",
+  "generated_at": "2026-04-23T23:15:57.343854",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21362,
+    "resting_hr": 56.0,
+    "hrv": 60.73,
+    "daylight_mins": 159.0,
+    "spo2": 97.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Relatively okeyish somehow\nAll good, low bloating (bit more than previous days) was poking bear more will surely show in next days",
+    "supplements_list": [
+      "DAO",
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Singulair",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
