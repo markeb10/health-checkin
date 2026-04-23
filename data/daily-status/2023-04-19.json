@@ -1,0 +1,29 @@
+{
+  "date": "2023-04-19",
+  "generated_at": "2026-04-23T23:00:26.839235",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34638,
+    "resting_hr": 56.0,
+    "hrv": 63.18,
+    "weight_kg": 73.722,
+    "sleep_hrs": 0.0,
+    "body_fat_pct": 0.18,
+    "bmi": 25.21,
+    "vo2max": 41.31
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Strange that I was not sleepy enough, felt super hot before morning and this was a problem, need to sleep with light sheet\nDidnt sleep after 4 was too hot could not cool down and cosita was snoring - the matress just felt cold somehow\nMilica training \ud83c\udfcb\ufe0f\u200d\u2640\ufe0f- legs were easy today\nMeeting with Boro for BS JP\nMeeting with chanelle and olle\nAcc managers meeting\nBreakfast bananas and oats was good - i wasnt super bloated \ud83e\udec3 fun fact - was a bit but not super crazy - carbofin works - took 2 probiotics i"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
