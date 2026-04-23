@@ -1,0 +1,79 @@
+{
+  "date": "2026-01-30",
+  "generated_at": "2026-04-23T23:21:43.344424",
+  "whoop": {
+    "imported": true,
+    "recovery": 45.0,
+    "hrv": 29.2,
+    "rhr": 54.0,
+    "sleep_perf": 76.0,
+    "strain": 16.4,
+    "sleep_hrs": 6.0,
+    "spo2": 96.0,
+    "skin_temp": 33.7,
+    "sleep_efficiency": 86.1,
+    "sleep_consistency": 93.0,
+    "respiratory_rate": 13.6,
+    "light_sleep_hrs": 2.1,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.5,
+    "awake_hrs": 1.0,
+    "sleep_cycles": 5,
+    "disturbances": 8,
+    "sleep_needed_hrs": 9.6,
+    "sleep_debt_hrs": 1.7,
+    "calories": 2669,
+    "avg_hr": 72,
+    "max_hr": 175,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 232,
+        "avg_hr": 116,
+        "max_hr": 152
+      },
+      {
+        "sport": "Activity",
+        "calories": 364,
+        "avg_hr": 130,
+        "max_hr": 166
+      },
+      {
+        "sport": "Activity",
+        "calories": 141,
+        "avg_hr": 117,
+        "max_hr": 142
+      },
+      {
+        "sport": "Activity",
+        "calories": 384,
+        "avg_hr": 144,
+        "max_hr": 175
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14072,
+    "resting_hr": 56.33,
+    "hrv": 70.59,
+    "sleep_hrs": 7.3,
+    "daylight_mins": 24.0,
+    "spo2": 96.6,
+    "respiratory_rate": 13.56,
+    "sleep_awake_hrs": 1.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Feeling nervous for Carolos and Jannik,my ishias pain was super loud today behind my ass, could be this was piriformis screaming actually hmmm\u2026. interesting could it be really this\nbloating level 4/10 considering what I ate it is a miracle, definitely feeling better than yesterday when I was feeling under the weather",
+    "anxiety": 8,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
