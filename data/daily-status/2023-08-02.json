@@ -1,0 +1,25 @@
+{
+  "date": "2023-08-02",
+  "generated_at": "2026-04-23T23:02:36.462560",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15022,
+    "resting_hr": 52.0,
+    "hrv": 56.56,
+    "respiratory_rate": 17.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept little but was good, did loads of steps today, woke up super early like at 5 could not sleep more.\nMeeting with Olle\n2. Meeting with BI\n3. Meeting with Paul, Max, Marina it was a turbulent one\n4. Missing with Ivan I like his meetings much more what a shit show haha\n5. Meeting gameart Matheus\n6. New ideas\n7. Ski arrived - lets make this a team - its okey\n8. Indian restaurant\nMy energy feels a bit low, I feel I could have performed better and make people more proud but still\nInspired by: Mat"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
