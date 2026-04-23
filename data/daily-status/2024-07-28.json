@@ -1,0 +1,39 @@
+{
+  "date": "2024-07-28",
+  "generated_at": "2026-04-23T23:10:15.690686",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 49087,
+    "resting_hr": 59.0,
+    "hrv": 64.37,
+    "sleep_hrs": 8.5,
+    "daylight_mins": 296.0,
+    "vo2max": 43.41,
+    "spo2": 95.5,
+    "respiratory_rate": 14.5,
+    "sleep_deep_hrs": 2.0,
+    "sleep_rem_hrs": 1.7,
+    "sleep_core_hrs": 4.7,
+    "sleep_awake_hrs": 1.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling ok, bit tired and relaxed as always after trip and lots of sun after supping very far with domen\nEverything is fine, nothing special to report.",
+    "supplements_list": [
+      "Ashwagandha",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
