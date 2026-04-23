@@ -1,0 +1,29 @@
+{
+  "date": "2024-04-22",
+  "generated_at": "2026-04-23T23:08:10.316482",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26310,
+    "resting_hr": 54.0,
+    "hrv": 72.07,
+    "weight_kg": 68.512,
+    "daylight_mins": 92.0,
+    "bmi": 23.71,
+    "vo2max": 42.4,
+    "spo2": 91.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept relatively ok, was hot in mid of the night but then it got better\nMeeting with filip and dimitar\nBreakfast \nMadliena therapy at sayer clinic jesus she is wild - i felt one of the biggest pains\n Walkie and meeting filip and Dimitar working on BMS - new ideas\nLunchy in Lebanese place was good but insanely expensive then again we did had good meat \nMore meeting with guys\nWalkie \nSpoke to Miguel over sound message\nSpoke to Jordan Levin - things seem to be on track\nTxt to Murat\nOne of the bigge"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
