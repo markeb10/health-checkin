@@ -1,0 +1,31 @@
+{
+  "date": "2024-04-26",
+  "generated_at": "2026-04-23T23:08:15.309222",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26864,
+    "resting_hr": 59.0,
+    "hrv": 42.53,
+    "weight_kg": 69.075,
+    "daylight_mins": 73.0,
+    "body_fat_pct": 0.2,
+    "bmi": 23.9,
+    "vo2max": 42.39,
+    "spo2": 92.5,
+    "respiratory_rate": 15.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept relatively okeyish, cosita is snoring a lot really crazy\nLittle stretching and exercise\nMeeting with filip dimitar\nBreakfast\nMadliena at sayer clinic was - was really tough - too much pain but I did it wowza \nMeeting presentation of BMS to the guys for first time presenting Figma - Dimitar was presenting was good I helped him a little\nMeeting with Taymount clinic FMT consultation - ordered online Oxy Powder\nPacking\nDrive to airport - gave all guys 50 EUR each\nSpoke to Boro regarding bms - "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
