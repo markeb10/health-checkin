@@ -1,0 +1,26 @@
+{
+  "date": "2024-01-21",
+  "generated_at": "2026-04-23T23:06:11.998156",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24580,
+    "resting_hr": 56.0,
+    "hrv": 61.39,
+    "daylight_mins": 212.0,
+    "spo2": 95.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish, longer - even though I was waking up, boniko was better today - hard to say what exactly helped but definitely better - i think the shockwave theraphy is helping\nTai chi\nDoing mobility exercises for my ankles mostly right leg\nBreakfast\nBait miryam food was good - really amazing actually \nWe walked to sector P - from Secfor D all the way to X\nWe ended up in Al Quz was a good walkie we saw some coffee places - one party one - one very cool one to work from\nWalkie - was nice\nPrince o"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
