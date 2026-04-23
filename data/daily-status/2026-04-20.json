@@ -1,6 +1,6 @@
 {
   "date": "2026-04-20",
-  "generated_at": "2026-04-23T23:45:49.103846",
+  "generated_at": "2026-04-24T00:00:50.198367",
   "whoop": {
     "imported": true,
     "recovery": 54.0,
@@ -70,7 +70,10 @@
         "unit": ""
       }
     ],
-    "anxiety": 0
+    "energy_afternoon": 5,
+    "energy_evening": 4,
+    "anxiety": 1,
+    "bloating": 3
   },
   "zoe": {
     "imported": true,
