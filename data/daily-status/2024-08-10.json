@@ -1,0 +1,32 @@
+{
+  "date": "2024-08-10",
+  "generated_at": "2026-04-23T23:10:32.666697",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26118,
+    "resting_hr": 55.0,
+    "hrv": 61.87,
+    "daylight_mins": 121.0,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Felt okey, a bit strange the Marvel movie at some moments - I was a bit low on energy feels like I lost all at gym today - the leg recovery is a bitch - that a little influenced my mood\nNo need to brad about so much\nEverything ok in this separment",
+    "supplements_list": [
+      "Enterosgel",
+      "Immune Action",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
