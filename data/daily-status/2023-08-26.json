@@ -1,0 +1,24 @@
+{
+  "date": "2023-08-26",
+  "generated_at": "2026-04-23T23:03:06.195485",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13154,
+    "resting_hr": 58.0,
+    "hrv": 60.93
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Less pain when sitting today, even during the night it was the least painful in last few days, my hands are falling asleep like I dont have circulation, also I am super awake for some reason cant sleep much, but today I think it will be ok \u2705\nRest from gym\nPacking\nBreakfast - been avoiding well to gluten and lactose really well - will keep on doing that for some time at least 3 months so until lets say November\nMore packing - taxi to Hamburg airport \nFlight to Zurich luckily on time - watched pai"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
