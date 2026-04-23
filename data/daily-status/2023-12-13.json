@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-13",
+  "generated_at": "2026-04-23T23:05:23.698701",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11750,
+    "resting_hr": 59.0,
+    "hrv": 66.26,
+    "daylight_mins": 15.0,
+    "spo2": 98.25,
+    "respiratory_rate": 14.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was tired in the morning, felt like my ass hurts, also my lower back prett sure the issue is in this bed coz its so soft\nMassage at Actomy - really relaxed me definitely something I should do at least 1x per 2 weeks at least\nJpm meeting\nDenis dropped by quickly\nFilip dropped by brought something solata \nHad meeting for JPM\nNew ideas \nLunch cosita was good\nI was soo sleepy dueing day\nBryan Addams concert with Sandi and Vesna - Sandi was driving in Zagreb was raining but it was cool - we managed t"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
