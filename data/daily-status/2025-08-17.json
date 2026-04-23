@@ -1,0 +1,38 @@
+{
+  "date": "2025-08-17",
+  "generated_at": "2026-04-23T23:18:19.668252",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27511,
+    "resting_hr": 52.0,
+    "hrv": 60.4,
+    "daylight_mins": 86.0,
+    "vo2max": 39.69,
+    "spo2": 98.12
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 7,
+    "journal": "Feeling weird, have that feel that I am slow that my brain is not going anywhere, feeling a bit numb\u2026 i think its the last day of Ltheanin otherwise I will become a vegetable haha\u2026 but i did had 8 hours of sleep so not sure if that was influencing\nFeeling weird deep in my pelvic area something burning is there its almost as something is injured like a sore muscle or some kind of mechanical pain\n\nBloating 4/10",
+    "supplements_list": [
+      "Collagen",
+      "Creatine",
+      "Enterosgel",
+      "Glycine",
+      "L-Theanine",
+      "Lutein",
+      "Omega-3"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
