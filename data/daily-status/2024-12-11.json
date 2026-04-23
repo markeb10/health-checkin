@@ -1,0 +1,32 @@
+{
+  "date": "2024-12-11",
+  "generated_at": "2026-04-23T23:13:08.759787",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30087,
+    "resting_hr": 66.0,
+    "hrv": 40.2,
+    "daylight_mins": 34.0,
+    "vo2max": 41.6,
+    "spo2": 98.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Bloated a lot, feeling okeyish - after I ate that food in italian i felt tired moody - got also very bloated - i guess also from sandwiches from before\nBloated a lot, sandwich, pasta, gnocci",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
