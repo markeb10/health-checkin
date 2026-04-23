@@ -1,0 +1,32 @@
+{
+  "date": "2025-07-27",
+  "generated_at": "2026-04-23T23:17:53.156183",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 32739,
+    "resting_hr": 52.0,
+    "hrv": 44.85,
+    "daylight_mins": 257.0,
+    "vo2max": 41.44,
+    "spo2": 95.83
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 2,
+    "journal": "What a day, great sleep, good breakfast, broke a lot of stuff i should not eat or drink haha It was very nostalgic to be back to Izola, a town where I spent my childhood playing around and having the best time of my life as a kid. I was deeply judged and moved just walking in those streets and smelling the smell in the building where my aunt lived.\n5/10 bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
