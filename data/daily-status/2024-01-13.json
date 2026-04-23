@@ -1,0 +1,26 @@
+{
+  "date": "2024-01-13",
+  "generated_at": "2026-04-23T23:06:01.674582",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22057,
+    "resting_hr": 57.0,
+    "hrv": 66.74,
+    "daylight_mins": 117.0,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Okeyish sleep, was really tired in evening and mornjng could not wake up was missinf physical energy - must be from massage yesterday, heloge was too rough today got my ass properly kicked\nTai chi - repeat 2x the whole flow plus standard one\nBreakfast\nHelge therapy was very painful\nWe drove to Salvaje - wild in spanish - really good food - sushi was very nice\nWe walked around\nWent home i made some vacation adjustments\nThen walkie \nKorean movie\nPlayed demo version of Prince\nPlayed tetris as well\n"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
