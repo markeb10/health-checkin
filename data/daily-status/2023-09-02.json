@@ -1,0 +1,25 @@
+{
+  "date": "2023-09-02",
+  "generated_at": "2026-04-23T23:03:15.082027",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 44785,
+    "resting_hr": 54.0,
+    "hrv": 57.47,
+    "vo2max": 39.87
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "I was not able to sleep after 4 was having a bit of mental issues - luckily managed to gather myself - talk to myself in the mirror and managed to collect positive energy to start the day\nWoke up at 4\nManaged to talk to myself in mirror \ud83e\ude9e felt good\nBreakfast with Olle\nPrepared the stand\nLots of meetings whole day\nWas a successful day I believe there were plenty of affiliates trying to get a deal with us - position of stand was a bit so so\nSushi samba dinner all was great probably ate too much he"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
