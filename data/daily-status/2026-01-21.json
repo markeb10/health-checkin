@@ -1,0 +1,59 @@
+{
+  "date": "2026-01-21",
+  "generated_at": "2026-04-23T23:21:32.263527",
+  "whoop": {
+    "imported": true,
+    "recovery": 79.0,
+    "hrv": 35.6,
+    "rhr": 50.0,
+    "sleep_perf": 86.0,
+    "strain": 10.1,
+    "sleep_hrs": 6.7,
+    "spo2": 96.0,
+    "skin_temp": 33.2,
+    "sleep_efficiency": 96.5,
+    "sleep_consistency": 92.0,
+    "respiratory_rate": 14.1,
+    "light_sleep_hrs": 2.2,
+    "deep_sleep_hrs": 2.5,
+    "rem_sleep_hrs": 2.0,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 6,
+    "disturbances": 10,
+    "sleep_needed_hrs": 9.2,
+    "sleep_debt_hrs": 1.4,
+    "calories": 1828,
+    "avg_hr": 69,
+    "max_hr": 197,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31508,
+    "resting_hr": 56.5,
+    "hrv": 68.68,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 50.0,
+    "spo2": 95.74,
+    "respiratory_rate": 14.06,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling tired but better, last day feels the best kinda hehe, i am adapted and it feels natural to navigate here around. Its just something odd with seeing Boro and the guys, there is something weird there I dont know what to say but yeah dang.\nbloating level 4/10 , ate super late again\n\n\n20.1.2026",
+    "supplements_list": [
+      "Enterosgel",
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 5,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
