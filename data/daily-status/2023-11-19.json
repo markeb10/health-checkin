@@ -1,0 +1,27 @@
+{
+  "date": "2023-11-19",
+  "generated_at": "2026-04-23T23:04:53.820746",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 36195,
+    "resting_hr": 54.0,
+    "hrv": 65.15,
+    "daylight_mins": 118.0,
+    "vo2max": 40.64,
+    "spo2": 92.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept 8+ hours, was kinda tired , gassy went to toilet at 6, took probiotic in the morning around 9 before breakfast\nSlept until 8 \nBreakfast\nWalkie to St Thomas bay was nice\nLunch at AKI\nPlayed Cypher game with cosita for 2 hours at least\nNice day\nDay was relaxing, cosita was nice - in general she is much better when my family is not around - i think she becomes like me a bit jealous\nInspired by: Sam Altman, he got sacked yeaterday and today drama continues he is just negotiating if he should c"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
