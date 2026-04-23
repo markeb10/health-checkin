@@ -1,0 +1,27 @@
+{
+  "date": "2023-11-23",
+  "generated_at": "2026-04-23T23:04:58.666330",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24592,
+    "resting_hr": 54.0,
+    "hrv": 57.75,
+    "daylight_mins": 10.0,
+    "vo2max": 40.43,
+    "spo2": 96.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept good, did have some issues at 5 to sleep more. Probably due to screen time yesterday. I did have screen time today as well. Hopefully all goes well\nBrainstorming with myself - getting ready for the day\nTai chi lessons - first salutation to the sun, from the cross to the strech\nBreakfast \nJpm - doing well - getting there\nSpoke to bank forcing them to process payment\nInvite andreas antenopolous is a good idea imo\nFunimalz meeting - i really want to stop this - decided today \nLunchy was good\n"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
