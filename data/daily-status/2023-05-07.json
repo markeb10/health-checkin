@@ -1,0 +1,29 @@
+{
+  "date": "2023-05-07",
+  "generated_at": "2026-04-23T23:00:49.293843",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28172,
+    "resting_hr": 58.0,
+    "hrv": 49.48,
+    "weight_kg": 72.988,
+    "sleep_hrs": 7.8,
+    "body_fat_pct": 0.1,
+    "bmi": 24.96,
+    "respiratory_rate": 14.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Again woke up tired at 5am with no power but was better after chatn, was pretty good \ud83d\udc4d, no detox today as I think my stomach is not ready for this\nBrought breakfast from Brot - damn it was sooo good \ud83d\ude0a \nAte a bit of everything I liked it - today didnt take the detox thingy - my stomach felt better is it actually this detox thingy that fucking up everything - took new vitamin C \nFelt very good in morning - no workout though\nAcc managers meeting Dmitry promised all things I wanted\nMeeting with Boro"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
