@@ -1,0 +1,29 @@
+{
+  "date": "2024-09-14",
+  "generated_at": "2026-04-23T23:11:17.031145",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27526,
+    "resting_hr": 63.0,
+    "hrv": 79.34,
+    "daylight_mins": 2.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Felt really proud about my schoolmates and how they are leading their lives, true inspiration really\nAll ok, except yeah some gas",
+    "supplements_list": [
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
