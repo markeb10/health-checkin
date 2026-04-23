@@ -1,0 +1,37 @@
+{
+  "date": "2025-04-11",
+  "generated_at": "2026-04-23T23:15:39.342393",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20310,
+    "resting_hr": 54.0,
+    "hrv": 58.99,
+    "daylight_mins": 42.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 8,
+    "journal": "Feeling good, lots of wnergy\nShower before bed\nVery low bloating",
+    "supplements_list": [
+      "DAO",
+      "Electrolytes",
+      "Enterosgel",
+      "Ginger",
+      "Magnesium Glycinate",
+      "Omega-3",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
