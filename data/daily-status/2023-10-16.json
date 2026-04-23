@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-16",
+  "generated_at": "2026-04-23T23:04:10.516290",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31050,
+    "resting_hr": 57.0,
+    "hrv": 79.82,
+    "daylight_mins": 83.0,
+    "vo2max": 41.61,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice day, lots of\nNice morning - figured out the metal puzzle now I know how to lock it and unlock it in 30s\nDoctor - physio didnt do much - too busy\nJpm meeting\nContent writer meeting\nCosita made a great lunch\nPaid the chair for Malta\nMedicofit - laser on my coccyx - tecar on my neck, back (he thinks that this will go back to normal in 10 days haha - i really hope so)\nMet Matjaz - Dolfi\nMet Lovro suhodolcan\nPlanned the date for anniversary\nLoved meeting the guys, its always nice to see them\nIns"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
