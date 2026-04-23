@@ -1,0 +1,38 @@
+{
+  "date": "2024-06-13",
+  "generated_at": "2026-04-23T23:09:16.433660",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34387,
+    "resting_hr": 60.0,
+    "hrv": 49.32,
+    "sleep_hrs": 6.7,
+    "daylight_mins": 63.0,
+    "vo2max": 42.16,
+    "spo2": 95.0,
+    "respiratory_rate": 14.38,
+    "sleep_deep_hrs": 1.6,
+    "sleep_rem_hrs": 1.8,
+    "sleep_core_hrs": 3.3,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "I felt great after the gym, otherwise was nice\nNot winning but I am fine\nAll ok",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
