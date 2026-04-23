@@ -1,0 +1,34 @@
+{
+  "date": "2024-12-16",
+  "generated_at": "2026-04-23T23:13:14.778028",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12728,
+    "resting_hr": 58.0,
+    "hrv": 67.46,
+    "daylight_mins": 33.0,
+    "spo2": 97.33,
+    "respiratory_rate": 14.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 4,
+    "journal": "Being quite good, no problems , bitcoin is pumping and I feel much better here in slo, also sleeping in this bed is great\nFeeling hungry in evening",
+    "supplements_list": [
+      "Enterosgel",
+      "Omega-3",
+      "Probiotic",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
