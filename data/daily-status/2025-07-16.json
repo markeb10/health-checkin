@@ -1,0 +1,31 @@
+{
+  "date": "2025-07-16",
+  "generated_at": "2026-04-23T23:17:39.560568",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 39316,
+    "resting_hr": 60.0,
+    "hrv": 55.58,
+    "daylight_mins": 95.0,
+    "spo2": 97.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good did lots of therapies today,red light hbot rado\n\nlots of walkie , hanging out with the piggy master crew - amazing\nMedium bloating (almost high but i thinj fine)",
+    "supplements_list": [
+      "Enterosgel",
+      "Lutein"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
