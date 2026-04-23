@@ -1,0 +1,27 @@
+{
+  "date": "2024-01-30",
+  "generated_at": "2026-04-23T23:06:25.008815",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24084,
+    "resting_hr": 53.0,
+    "hrv": 60.4,
+    "daylight_mins": 72.0,
+    "spo2": 98.0,
+    "respiratory_rate": 15.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Not that good sleep, only until 5 kinda could not sleep more\nTeramask\nTaichi , walking session with cosita, leg exercises to help strenghten my body\nBreakfast\nPhysioveda - was good the guy pointed out a new thing\nJpm meeting\nLunchy pasta was good\nInvested in shrap, paid Innovecs to finish things, need to check a bit the funds situation but should be ok - its still % a relatively small portion\nWalkie with cosita - we got company to present new cleaning device \nWe have nought meat and cake and ina"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
