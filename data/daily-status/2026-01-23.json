@@ -1,0 +1,66 @@
+{
+  "date": "2026-01-23",
+  "generated_at": "2026-04-23T23:21:34.648622",
+  "whoop": {
+    "imported": true,
+    "recovery": 93.0,
+    "hrv": 43.8,
+    "rhr": 50.0,
+    "sleep_perf": 81.0,
+    "strain": 13.4,
+    "sleep_hrs": 7.4,
+    "spo2": 95.7,
+    "skin_temp": 34.4,
+    "sleep_efficiency": 94.0,
+    "sleep_consistency": 70.0,
+    "respiratory_rate": 13.8,
+    "light_sleep_hrs": 3.4,
+    "deep_sleep_hrs": 2.3,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 5,
+    "disturbances": 8,
+    "sleep_needed_hrs": 9.6,
+    "sleep_debt_hrs": 2.1,
+    "calories": 2099,
+    "avg_hr": 68,
+    "max_hr": 173,
+    "workouts": [
+      {
+        "sport": "Sport 32",
+        "calories": 287,
+        "avg_hr": 122,
+        "max_hr": 150
+      },
+      {
+        "sport": "Activity",
+        "calories": 263,
+        "avg_hr": 120,
+        "max_hr": 159
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17854,
+    "resting_hr": 53.0,
+    "hrv": 50.69,
+    "sleep_hrs": 7.4,
+    "spo2": 97.14,
+    "respiratory_rate": 13.83,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Feeling good, HRV 44 lol, might be some glitch in my whoop, but going to bed at 5 am allowed me to stay awake longer, seems to be some trick maybe the issue is purely from a psyhcological poing, i did listen yesterday a lot of anythony robbinson, a good emersion\nbloating level 3/10, ate late but not too late and not too much so its fine",
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
