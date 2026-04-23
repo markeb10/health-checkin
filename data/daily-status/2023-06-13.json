@@ -1,0 +1,27 @@
+{
+  "date": "2023-06-13",
+  "generated_at": "2026-04-23T23:01:34.787181",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34778,
+    "resting_hr": 60.0,
+    "hrv": 60.02,
+    "sleep_hrs": 7.5,
+    "vo2max": 41.19,
+    "respiratory_rate": 15.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was a good day that Heiko finally checked me out and understood the problem and went in with medication \ud83d\udc8a injection \ud83d\udc89 and also improved my hip\nMeditation\nNway back 20 rounds\nHeiko Borneman session he was actually there and I seen stars, he was areanging the bone from inside and checking what could be the issue his diagnose is inflammation on the skin of the bone - got few injections there also he made some treatment with radio shockwave on my hip and it was better\nAte waffle\nMeeting  - demo meet"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
