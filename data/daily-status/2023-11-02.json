@@ -1,0 +1,27 @@
+{
+  "date": "2023-11-02",
+  "generated_at": "2026-04-23T23:04:33.042631",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24808,
+    "resting_hr": 56.0,
+    "hrv": 54.0,
+    "daylight_mins": 27.0,
+    "vo2max": 41.7,
+    "spo2": 96.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Early flight wake up at 5 am - raxi driver was a bit in a rush - wasnt that nice\nEarly taxi\nFlight back home watched lokwood and co snd break point and 2 more movies \ud83c\udf7f on plane \u2708\ufe0f \nArrived to Dubai feels good to be back\nSitting bones hurted more than going to London for sure, fun fact hip didnt bug me coz wasnt doing exercises of course\nInspired by: the A380 plane - soo big and how fast they get the luggage is amazing\nDidnt like: that taxi drive and that I ate so much sweets on the plane fhat wa"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
