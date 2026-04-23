@@ -1,0 +1,80 @@
+{
+  "date": "2025-11-01",
+  "generated_at": "2026-04-23T23:19:51.667745",
+  "whoop": {
+    "imported": true,
+    "recovery": 93.0,
+    "hrv": 40.9,
+    "rhr": 50.0,
+    "sleep_perf": 86.0,
+    "strain": 16.0,
+    "sleep_hrs": 7.3,
+    "spo2": 96.8,
+    "skin_temp": 33.4,
+    "sleep_efficiency": 95.4,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 13.2,
+    "light_sleep_hrs": 3.9,
+    "deep_sleep_hrs": 1.9,
+    "rem_sleep_hrs": 1.5,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 5,
+    "disturbances": 7,
+    "sleep_needed_hrs": 9.0,
+    "sleep_debt_hrs": 1.3,
+    "calories": 2495,
+    "avg_hr": 70,
+    "max_hr": 189,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 601,
+        "avg_hr": 122,
+        "max_hr": 189
+      },
+      {
+        "sport": "Activity",
+        "calories": 249,
+        "avg_hr": 125,
+        "max_hr": 166
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25432,
+    "resting_hr": 56.0,
+    "hrv": 62.9,
+    "sleep_hrs": 7.0,
+    "daylight_mins": 174.0,
+    "vo2max": 40.64,
+    "spo2": 94.96,
+    "respiratory_rate": 13.2,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling very good in the morning, woke up with a good HRV 41 so watch said go and get it tiger and I did haha 16 stress level was one of my highest \n\nin the evening my resting pulse is too much and my pressure is a bit up as well from average day just reading the book",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Ginger",
+      "Vitamin C"
+    ],
+    "anxiety": 8,
+    "bloating": 7
+  },
+  "zoe": {
+    "imported": false
+  }
+}
