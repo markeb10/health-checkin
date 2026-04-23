@@ -1,0 +1,26 @@
+{
+  "date": "2024-02-13",
+  "generated_at": "2026-04-23T23:06:42.637376",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20872,
+    "resting_hr": 57.0,
+    "hrv": 59.25,
+    "spo2": 98.33,
+    "respiratory_rate": 16.17
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Woke up at 7, felt a bit weird - all coming from that Ice cream in evening - definitely not eating haagen das for some time\nQuick exercise + mask\nNeuro guy - did some basic checks charged an arm and a leg told me to come back again - annoying\nMet with guys and dr Mo did IV got Cvitamin and B complex, guys got other stuff\nCosita made an amazing lunch\nWe had an interview with a guy thought it was a girl for CRM position \nWe did have a call - townhall went ok\nNew ideas were flowing\nWe went to super"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
