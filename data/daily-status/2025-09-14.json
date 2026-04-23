@@ -1,0 +1,70 @@
+{
+  "date": "2025-09-14",
+  "generated_at": "2026-04-23T23:18:53.805092",
+  "whoop": {
+    "imported": true,
+    "recovery": 52.0,
+    "hrv": 31.5,
+    "rhr": 50.0,
+    "sleep_perf": 91.0,
+    "strain": 15.0,
+    "sleep_hrs": 7.9,
+    "spo2": 93.2,
+    "skin_temp": 34.0,
+    "sleep_efficiency": 96.9,
+    "sleep_consistency": 85.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 3.8,
+    "deep_sleep_hrs": 2.6,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 6,
+    "disturbances": 8,
+    "sleep_needed_hrs": 8.3,
+    "sleep_debt_hrs": 0.7,
+    "calories": 2184,
+    "avg_hr": 67,
+    "max_hr": 197,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 584,
+        "avg_hr": 115,
+        "max_hr": 197
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 40093,
+    "resting_hr": 54.0,
+    "hrv": 44.29,
+    "sleep_hrs": 6.8,
+    "daylight_mins": 218.0,
+    "vo2max": 42.51,
+    "spo2": 96.64,
+    "respiratory_rate": 13.28,
+    "sleep_awake_hrs": 0.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 6,
+    "journal": "Feeling good, morning was nice, slept well and then went into the exercise strong with caros dad we walked properly down and then up.\n\nI practised my spanish as well so part of my duolingo it was cool.\n\nOverall sauna + swim in the sea made us all super relaxed so it was very nice",
+    "supplements_list": [
+      "Glycine",
+      "Lutein",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K2"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
