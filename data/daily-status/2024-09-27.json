@@ -1,0 +1,33 @@
+{
+  "date": "2024-09-27",
+  "generated_at": "2026-04-23T23:11:33.184366",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15448,
+    "resting_hr": 55.0,
+    "hrv": 65.84,
+    "daylight_mins": 253.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 5,
+    "supplements": 4,
+    "journal": "Was feeling a bit slow at times - my eyes are not able to process things happening so fast - definitely was a cool day - really liked energy from Matheus and Artur and everyone ita cool\nAll okey but bloated",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
