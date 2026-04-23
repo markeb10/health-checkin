@@ -1,0 +1,35 @@
+{
+  "date": "2025-08-21",
+  "generated_at": "2026-04-23T23:18:24.540806",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 34915,
+    "resting_hr": 56.0,
+    "hrv": 56.6,
+    "daylight_mins": 203.0,
+    "vo2max": 39.84,
+    "spo2": 96.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Was a good morning, interview , didnt take omega and some other supplements and therfore it was better no creatin and omega but honestly I think its the omega that is a problem\n\nLoving the morning walks damn it\nMuch better, was a bit weird after my burrito with chicken but got better after 1 hour and walkie right after",
+    "supplements_list": [
+      "Creatine",
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
