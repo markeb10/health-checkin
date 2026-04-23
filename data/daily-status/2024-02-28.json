@@ -1,0 +1,26 @@
+{
+  "date": "2024-02-28",
+  "generated_at": "2026-04-23T23:07:01.850714",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30280,
+    "resting_hr": 59.0,
+    "hrv": 54.73,
+    "daylight_mins": 497.0,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Great day, walkie, had lots of good food, spent some time with my dad, I didnt get sick after the fish, all going well hehe\nWalk in the nature to the peak was super cool, then we came back lots of plants fruits amazing papaya etc\nBreakfast\nBit of pool we drank coconut\nMeeting with the filmer Sergey was so so\nWe decided on Miguel\nLunch at Nest was expecting more but it was okey we got happy with rum\nPhoto-shooting\nMeeting for community management Sun and Doux so so\nPhoto-shooting sunset\nDinner\nGr"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
