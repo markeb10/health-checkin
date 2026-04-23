@@ -1,0 +1,78 @@
+{
+  "date": "2025-12-08",
+  "generated_at": "2026-04-23T23:20:37.564036",
+  "whoop": {
+    "imported": true,
+    "recovery": 47.0,
+    "hrv": 32.3,
+    "rhr": 49.0,
+    "sleep_perf": 84.0,
+    "strain": 13.5,
+    "sleep_hrs": 6.2,
+    "spo2": 98.0,
+    "skin_temp": 33.8,
+    "sleep_efficiency": 97.0,
+    "sleep_consistency": 84.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 2.3,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.5,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 4,
+    "disturbances": 8,
+    "sleep_needed_hrs": 8.2,
+    "sleep_debt_hrs": 0.6,
+    "calories": 2138,
+    "avg_hr": 65,
+    "max_hr": 183,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 321,
+        "avg_hr": 105,
+        "max_hr": 166
+      },
+      {
+        "sport": "Activity",
+        "calories": 272,
+        "avg_hr": 130,
+        "max_hr": 183
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22984,
+    "resting_hr": 52.0,
+    "hrv": 70.92,
+    "sleep_hrs": 6.2,
+    "daylight_mins": 87.0,
+    "vo2max": 40.22,
+    "spo2": 98.0,
+    "respiratory_rate": 13.3,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "Was super nervous in the morning some, i feel pushing back stuff is not good but also I dont have thick skin really weird, didnt sleep more than until 6 had to go to the toilet but there was nothing to pee, was super bloated whole day, but did some exercising and feeling kinda more calm lets did also take vit C after lunch but too late was already bloated\nsuper bloated and it was the smelly ones,  mostly after the lunch kinda weird coz i was fine for a week with oats but now its kinda weird real",
+    "supplements_list": [
+      "Enterosgel",
+      "Curcumin",
+      "Vitamin C"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
