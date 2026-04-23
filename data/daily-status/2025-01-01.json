@@ -1,0 +1,29 @@
+{
+  "date": "2025-01-01",
+  "generated_at": "2026-04-23T23:13:34.535503",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9887,
+    "hrv": 53.33,
+    "daylight_mins": 51.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Felt relaxed whole day, started day on a good note, with routines, games\nFeeling good, but bit bloated",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
