@@ -1,0 +1,32 @@
+{
+  "date": "2024-11-24",
+  "generated_at": "2026-04-23T23:12:47.654707",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 40224,
+    "resting_hr": 58.0,
+    "hrv": 47.96,
+    "daylight_mins": 68.0,
+    "vo2max": 42.05,
+    "spo2": 95.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Was feeling a bit watching the phone all the time mood hehe, its hard to stop\nFeeling happy that I csme up with this idea and also realized it\nFelt okey, no problems - was just very hungry after breakfast after walkie, that pastizi just flew into me",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
