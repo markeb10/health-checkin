@@ -1,0 +1,26 @@
+{
+  "date": "2024-03-25",
+  "generated_at": "2026-04-23T23:07:35.125669",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29038,
+    "resting_hr": 55.0,
+    "hrv": 58.52,
+    "daylight_mins": 58.0,
+    "spo2": 97.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was forcing myself to sleep more but was hard, tomorrow I have Boro 6:30\nTai chi\nMilos - got me into some exercises lets see he wants to fox my arm mobility and also the pelvis\nBi meeting\nContent meeting\nBreakfast - it was time\nMeeting with Tarique and sandi about how to deal with Trello things\nMeeting with Dejan Georgios and later George - just to talk about this weird situation Slo banks closing accounts from cypr related comp\nDoing salaries - pretty much finished just need to do providers tom"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
