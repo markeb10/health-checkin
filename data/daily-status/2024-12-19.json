@@ -1,0 +1,33 @@
+{
+  "date": "2024-12-19",
+  "generated_at": "2026-04-23T23:13:18.370895",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18456,
+    "resting_hr": 63.0,
+    "hrv": 73.36,
+    "daylight_mins": 27.0,
+    "vo2max": 41.2,
+    "spo2": 99.0,
+    "respiratory_rate": 17.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "New ideas, being calm and friendly, nice energies after having so much laughter with Filip and Nasti yeaterday\nBloated much more but relarivelynokey",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
