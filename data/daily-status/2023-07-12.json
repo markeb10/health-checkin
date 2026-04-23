@@ -1,0 +1,25 @@
+{
+  "date": "2023-07-12",
+  "generated_at": "2026-04-23T23:02:10.651331",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26110,
+    "resting_hr": 62.0,
+    "hrv": 38.77,
+    "vo2max": 41.41
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept worse, kinda feels less sleep more pain too :( i woke up again at 6\nTai chi repeat - now its a long one hehe\nWoke up early - did meditation \nWalkie and talking to Tarique and Sandi - seems to be getting there - ofc it wont be but its ok\nWalked outside\nInterview with Davide - Denis friend was not that excited really - talks too much, very cocky as well - conflicting\nJpm meeting - we worked trough provably fair\nVacation tracker checking for Mango an for new comers\nLunchy by cosita\nSpoke to V"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
