@@ -1,0 +1,32 @@
+{
+  "date": "2024-09-30",
+  "generated_at": "2026-04-23T23:11:36.942508",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19461,
+    "resting_hr": 61.0,
+    "hrv": 58.7,
+    "daylight_mins": 79.0,
+    "vo2max": 42.6,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Felt good almost everytjing I started today was with a positive note, had sex too which is not ofgen\nBloated a lot afyer georgis, not sure if this is going to always be like this",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
