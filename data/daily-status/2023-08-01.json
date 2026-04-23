@@ -1,0 +1,24 @@
+{
+  "date": "2023-08-01",
+  "generated_at": "2026-04-23T23:02:35.258787",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17084,
+    "resting_hr": 55.0,
+    "hrv": 62.08
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Last day of holidays, all relaxing things need to come to an end, time for some mental toughness this week - lets not try to cram everything in one week shall we\nStomach bug a proper one during night caused me to not sleep good and everything was just pouring out of me had to take pills\nWent to practise golf \u26f3\ufe0f went well was testing the Blast \ud83d\udca5 gadget that I got on putting area was very cool\nWe went to eat tacos in Lila taqueria - wow soo good\nWe went to Togas and other stores such as Marina, Re"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
