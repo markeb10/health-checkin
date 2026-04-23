@@ -1,0 +1,35 @@
+{
+  "date": "2024-09-10",
+  "generated_at": "2026-04-23T23:11:12.072828",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22717,
+    "resting_hr": 52.0,
+    "hrv": 58.85,
+    "daylight_mins": 102.0,
+    "vo2max": 43.11,
+    "spo2": 96.57,
+    "respiratory_rate": 12.83
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 4,
+    "journal": "Feeling mentally slow also, feeling acidity - hence took the ruporut which definitely helps for a little bit but then it came back again\n\nfeeling a bit anxious not relaxed\nAcidity still there, little bloated",
+    "supplements_list": [
+      "Enterogerma",
+      "Multivitamin",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
