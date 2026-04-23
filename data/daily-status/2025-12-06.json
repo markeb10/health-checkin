@@ -1,0 +1,63 @@
+{
+  "date": "2025-12-06",
+  "generated_at": "2026-04-23T23:20:35.121735",
+  "whoop": {
+    "imported": true,
+    "recovery": 69.0,
+    "hrv": 35.1,
+    "rhr": 47.0,
+    "sleep_perf": 89.0,
+    "strain": 5.9,
+    "sleep_hrs": 7.3,
+    "spo2": 96.9,
+    "skin_temp": 32.9,
+    "sleep_efficiency": 95.8,
+    "sleep_consistency": 89.0,
+    "respiratory_rate": 12.9,
+    "light_sleep_hrs": 3.2,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.8,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 6,
+    "disturbances": 10,
+    "sleep_needed_hrs": 8.9,
+    "sleep_debt_hrs": 1.3,
+    "calories": 1637,
+    "avg_hr": 59,
+    "max_hr": 137,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 49,
+        "avg_hr": 99,
+        "max_hr": 125
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 5936,
+    "resting_hr": 51.0,
+    "hrv": 57.18,
+    "sleep_hrs": 7.3,
+    "spo2": 97.55,
+    "respiratory_rate": 12.92,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling okey, i mean the day was full of what i like to do new things and to be able to innovate\nlow bloating 2/10 interesitng enough, i think due to low stress after taking the LTaurin this low dose helps 250 mg",
+    "supplements_list": [
+      "Taurine"
+    ],
+    "anxiety": 2,
+    "bloating": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
