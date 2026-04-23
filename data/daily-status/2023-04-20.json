@@ -1,0 +1,30 @@
+{
+  "date": "2023-04-20",
+  "generated_at": "2026-04-23T23:00:28.040117",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22596,
+    "resting_hr": 56.0,
+    "hrv": 75.26,
+    "weight_kg": 73.345,
+    "sleep_hrs": 7.3,
+    "body_fat_pct": 0.13,
+    "bmi": 25.08,
+    "vo2max": 41.4,
+    "respiratory_rate": 13.38
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Cool beans, so slept really good, though did woke up at 6 but managed to sleep further\nMilica gym \ud83c\udfcb\ufe0f\u200d\u2640\ufe0f  Managed to bench 75 kg but maybe was 85\nWalkie feeling good today - hands always feel good interesting enough\nCrm meeting\nInterview for support role\nCall with Chanelle and Olle\nCall with Funimalz team\nCall with Boro and Steve brainstorming on new game provider\nI felt I got stuff done, gym was easy and yeah things flew nicely\nInspired by: how I love making something new and brainstorming\nDidnt"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
