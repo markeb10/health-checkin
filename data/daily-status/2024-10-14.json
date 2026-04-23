@@ -1,0 +1,32 @@
+{
+  "date": "2024-10-14",
+  "generated_at": "2026-04-23T23:11:54.666170",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 11944,
+    "resting_hr": 57.0,
+    "hrv": 65.4,
+    "daylight_mins": 19.0,
+    "vo2max": 41.4,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling good, but somehow running hot in evening mostly - but its 22 degrees in the room, i was pretty relaxed whole day except finding out our support is not really that great\nEverything feels fine in that region",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
