@@ -1,0 +1,33 @@
+{
+  "date": "2025-05-26",
+  "generated_at": "2026-04-23T23:16:34.544954",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24135,
+    "resting_hr": 74.0,
+    "hrv": 50.93,
+    "daylight_mins": 63.0,
+    "vo2max": 41.66,
+    "spo2": 95.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling nervous like crazy, but its also the whole practicing and visualising that was making me insane, thinking I have to learn the lines by heart is a trap\n\ngreeting,\nAnxiety attack - coz i want to make things perfect\nAll good low bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Zinc"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
