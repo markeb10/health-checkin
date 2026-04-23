@@ -1,0 +1,24 @@
+{
+  "date": "2023-09-03",
+  "generated_at": "2026-04-23T23:03:16.383513",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 4752,
+    "resting_hr": 59.0,
+    "hrv": 61.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Great day, lots of physical activity - got the steps in lots of swings, could not sleep that much but its fine\nLesson and practicing with Tim golf \u26f3\ufe0f \nTesting layer still not working but we seem to be closer to solution\nPool is green situation\nTalking with Tarique\nCrm meeting\nFunimalz meeting\nTop golf with guys and cosita was fun\nWalkie\nGoodbye saying with boys\nIt was a tough day for alex as bot was down, cosita is jealous and feels being left behind and lots of other things\nInspired by: the emi"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
