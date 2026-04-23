@@ -1,0 +1,32 @@
+{
+  "date": "2024-10-02",
+  "generated_at": "2026-04-23T23:11:39.513543",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 6576,
+    "resting_hr": 57.0,
+    "hrv": 51.49,
+    "spo2": 100.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling ok, a bit stressed due to not having much time apart from meetings, I was exercising dueing them haha\nGot runny nose, really hope this is not some imune reaction to that prebiotic jesus\nRelatively ok but my nose started to be runny which is not a good sign",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
