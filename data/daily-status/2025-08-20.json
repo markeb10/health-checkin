@@ -1,0 +1,32 @@
+{
+  "date": "2025-08-20",
+  "generated_at": "2026-04-23T23:18:23.332068",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 36514,
+    "resting_hr": 53.0,
+    "hrv": 57.66,
+    "daylight_mins": 171.0,
+    "vo2max": 39.77,
+    "spo2": 97.44
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Was a good morning, loved the vibe of being with the nature, crickets, birds, just being together with the nature is priceless, its not every time that I can be this level of connecting. Reminds me of when we were in Bajnof.\nhorrible even in the evening sitting at the table was bad, feeling tight and pain in the left side of the belly button\n\ngas 5/10, lots of burping",
+    "supplements_list": [
+      "Enterosgel",
+      "Lutein"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
