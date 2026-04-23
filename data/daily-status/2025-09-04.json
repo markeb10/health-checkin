@@ -1,0 +1,41 @@
+{
+  "date": "2025-09-04",
+  "generated_at": "2026-04-23T23:18:41.617631",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30915,
+    "resting_hr": 57.0,
+    "hrv": 69.81,
+    "sleep_hrs": 1.7,
+    "daylight_mins": 138.0,
+    "vo2max": 41.41,
+    "spo2": 97.57,
+    "sleep_awake_hrs": 0.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 8,
+    "journal": "Feeling wired and up but not sleepy at all whole day which is amazing considering I didnt sleep at all almost only 4 hours\n\nToday instead ltheanin I took ashwaganda lets see if it will be better, but I am already liking the initial effec\nbloating 3/10 from 4 to 7 pm mostly",
+    "supplements_list": [
+      "Ashwagandha",
+      "Creatine",
+      "Enterosgel",
+      "Glycine",
+      "L-Theanine",
+      "Melatonin",
+      "Vitamin C",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 5,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
