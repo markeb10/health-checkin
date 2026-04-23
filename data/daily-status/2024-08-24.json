@@ -1,0 +1,32 @@
+{
+  "date": "2024-08-24",
+  "generated_at": "2026-04-23T23:10:50.791733",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26577,
+    "resting_hr": 51.0,
+    "hrv": 62.08,
+    "daylight_mins": 205.0,
+    "spo2": 97.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "painful fingers , like they are heavy and inflammed,\nmore coccyx pain\nFeeling a bit of acidity, when I exercises for example, morning, yesterday lots of space plan",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic",
+      "Vitamin C"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
