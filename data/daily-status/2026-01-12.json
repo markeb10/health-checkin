@@ -1,0 +1,66 @@
+{
+  "date": "2026-01-12",
+  "generated_at": "2026-04-23T23:21:20.417226",
+  "whoop": {
+    "imported": true,
+    "recovery": 52.0,
+    "hrv": 32.1,
+    "rhr": 49.0,
+    "sleep_perf": 85.0,
+    "strain": 12.2,
+    "sleep_hrs": 6.9,
+    "spo2": 97.7,
+    "skin_temp": 34.5,
+    "sleep_efficiency": 94.3,
+    "sleep_consistency": 85.0,
+    "respiratory_rate": 13.8,
+    "light_sleep_hrs": 3.6,
+    "deep_sleep_hrs": 2.0,
+    "rem_sleep_hrs": 1.2,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 7,
+    "disturbances": 5,
+    "sleep_needed_hrs": 8.9,
+    "sleep_debt_hrs": 1.3,
+    "calories": 2129,
+    "avg_hr": 67,
+    "max_hr": 171,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 325,
+        "avg_hr": 114,
+        "max_hr": 142
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25793,
+    "resting_hr": 52.0,
+    "hrv": 47.99,
+    "sleep_hrs": 6.9,
+    "daylight_mins": 38.0,
+    "vo2max": 43.36,
+    "spo2": 96.1,
+    "respiratory_rate": 13.83,
+    "sleep_awake_hrs": 0.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Was a cool day, padel was relatively okey, cold but good, heart rate stayed low more or less and I didnt feel the after practice crash as I normally would, I retained the energy which is great, seems to be also better at the stress on the table, new ideas\n7/10 bloating in the evening I think mushrooms, polenta, aubergines, banana bread, sandwish with cream haha\u2026. lot of potencial culprits there",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2,
+    "bloating": 7
+  },
+  "zoe": {
+    "imported": false
+  }
+}
