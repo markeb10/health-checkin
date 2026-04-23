@@ -1,0 +1,26 @@
+{
+  "date": "2023-08-14",
+  "generated_at": "2026-04-23T23:02:51.296738",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25168,
+    "resting_hr": 57.0,
+    "hrv": 80.03,
+    "vo2max": 39.56,
+    "respiratory_rate": 16.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was a nice day, figuring out things,\nTalk with the guys \nFizio\nShopping in maxi for the guys / expensive old wine is a trap\nCleaning and sorting stuff in the house\nMade the cellery juice - made a small batch and my digestion is great\nCosita made lunch - we had first lunch at the table\nWorking at the table\nChilling on seats\nDinner at the island\nWalkie in the town\nSleep was better, humidity is higher but all good.\nInspired by: oven, stove is really good quality\nDidnt like: that I am strugling to c"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
