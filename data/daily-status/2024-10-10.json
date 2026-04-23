@@ -1,0 +1,33 @@
+{
+  "date": "2024-10-10",
+  "generated_at": "2026-04-23T23:11:49.587347",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18006,
+    "resting_hr": 57.0,
+    "hrv": 65.56,
+    "daylight_mins": 74.0,
+    "vo2max": 41.36,
+    "spo2": 97.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling a little exhausted in evening but not too bad, puzzling definitely tires my mind and calms it down\nEverything is fine in this region",
+    "supplements_list": [
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
