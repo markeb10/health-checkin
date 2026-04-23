@@ -1,0 +1,38 @@
+{
+  "date": "2025-08-11",
+  "generated_at": "2026-04-23T23:18:12.308246",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14471,
+    "resting_hr": 62.0,
+    "hrv": 44.07,
+    "daylight_mins": 192.0,
+    "vo2max": 39.74,
+    "spo2": 97.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 8,
+    "journal": "Feeling good. Good day. Got some sleep. Was quite a variation of things we did. Really good flow and just enjoyed the day. It could be more productive, but still. \n\nThe stretching seems to be doing something good, so let's continue with that\nFeeling good and didn't have any problems. I was feeling a bit hot in the evening, maybe it was the wine. I also ate a lot of Toma\u010dica keksi.",
+    "supplements_list": [
+      "Glycine",
+      "Lutein",
+      "Magnesium",
+      "Omega-3",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K2",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
