@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-31",
+  "generated_at": "2026-04-23T23:04:30.360212",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22732,
+    "resting_hr": 55.0,
+    "hrv": 74.66,
+    "daylight_mins": 49.0,
+    "vo2max": 41.79,
+    "spo2": 96.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept until 4, I guess my body just needs less there is no other explantion haha I wasnt even super sleepy during the day - gotta catch some break\nWoke up at 4 am, my brain was like HIiii \ud83d\ude06\nI was thinking about the concert alot and getting excited for nothing haha\nMorning grooming quick then Milos time was a bit surprised how he changed his teachings to posturative repair insitute PRI \nInterview went well\nWas having good JPM session\nWorky a bit - talk with Olle and Dimitar\nThen lunchy\nThen anoth"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
