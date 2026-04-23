@@ -1,0 +1,25 @@
+{
+  "date": "2023-08-25",
+  "generated_at": "2026-04-23T23:03:04.808121",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23208,
+    "resting_hr": 53.0,
+    "hrv": 54.87,
+    "vo2max": 40.59
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was a productive day, I felt I did something for our guys and was productive - still need to work on my brain power and sleep\nGym - home variant\nBreakfast\nBitstarz originals\nSalaries\nLunchy\n4th day was with the older guy - who I wanted to have at least for 1 day. He took a bit different approach relaxing muscles but also working with the exact point. He claims he could not feel anymore the little thing in the coccyx area \nCalln \nElectric boating round Luebeck was soo cool really enjoyed that one"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
