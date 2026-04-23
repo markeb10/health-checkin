@@ -1,0 +1,36 @@
+{
+  "date": "2024-06-20",
+  "generated_at": "2026-04-23T23:09:26.589074",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23465,
+    "resting_hr": 57.0,
+    "hrv": 49.31,
+    "sleep_hrs": 13.6,
+    "spo2": 97.0,
+    "respiratory_rate": 13.5,
+    "sleep_deep_hrs": 4.0,
+    "sleep_rem_hrs": 3.2,
+    "sleep_core_hrs": 6.4,
+    "sleep_awake_hrs": 1.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "- boniko felt better, it was easier to sit longer\nI thinj the lacrose ball and massage of the gluteus muscles by sitting helped\nbloated, expelling gas a lot since 3pm",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
