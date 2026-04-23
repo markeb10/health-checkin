@@ -1,0 +1,35 @@
+{
+  "date": "2024-10-17",
+  "generated_at": "2026-04-23T23:11:58.489637",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30777,
+    "resting_hr": 58.0,
+    "hrv": 78.85,
+    "daylight_mins": 77.0,
+    "spo2": 97.0,
+    "respiratory_rate": 15.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 5,
+    "journal": "Feeling excited about Piggy Master - definitely needs lottery and some other stuff\n\nfeeling pumped too much in evening hehe\nNo problems",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic",
+      "Zinc"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
