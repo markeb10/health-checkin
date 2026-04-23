@@ -1,0 +1,30 @@
+{
+  "date": "2025-02-03",
+  "generated_at": "2026-04-23T23:14:16.501990",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7862,
+    "resting_hr": 57.0,
+    "hrv": 55.55,
+    "daylight_mins": 73.0,
+    "spo2": 96.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": 1,
+    "supplements": 1,
+    "journal": "Thinking of strange thoughts how my life is not worth living and shit, really weird\u2026 depressed, compressed chest, was a proper shit show, could not sleep\nIts one if the toughest days\nStomach feels okeyish, when I ate not so much",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
