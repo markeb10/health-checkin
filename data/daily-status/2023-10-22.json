@@ -1,0 +1,26 @@
+{
+  "date": "2023-10-22",
+  "generated_at": "2026-04-23T23:04:17.949393",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10648,
+    "resting_hr": 49.0,
+    "hrv": 77.25,
+    "daylight_mins": 23.0,
+    "spo2": 94.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish defnitely helps if I go to bed early like yesterday, however I was dead during the afternoon maybe the sugar crush idk\nSleep in, was waking up a bit\nBreakfast a lot of berries but this time I blended everything, I dont think this is a good idea actually, i think its better to eat slow and maybe even eat one by one berry either than blending lots of it\nAte two coconut yoghurts \nPacked\nPlayed with Jackie \nCosita made great lunch\nFlight to London\nAte a little cacao this makes me up\nWa"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
