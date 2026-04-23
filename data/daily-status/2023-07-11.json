@@ -1,0 +1,28 @@
+{
+  "date": "2023-07-11",
+  "generated_at": "2026-04-23T23:02:09.403019",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30980,
+    "resting_hr": 70.0,
+    "hrv": 47.19
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Good day even though I didnt slept good, thinking about the Turkey event is making me nervous\nMilos exercising - we did some funny exercises which really pushed me\nWoke up at 6 could not sleep more\nJpm meeting\nBreakfast\nWalkie\nWas cracking on payment to D&D\nJob offer to Mike content writer he accepted\nPreparation for meeting\nI have reported wrong road on Google \nClapping meeting - was no clapping but ok\nCall with My dad seen sunset\nCall with Sandi regarding Dubai / seems to be a big project as h",
+    "supplements_list": [
+      "Probiotic",
+      "Singulair"
+    ]
+  },
+  "zoe": {
+    "imported": false
+  }
+}
