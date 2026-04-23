@@ -1,0 +1,68 @@
+{
+  "date": "2025-10-06",
+  "generated_at": "2026-04-23T23:19:20.457788",
+  "whoop": {
+    "imported": true,
+    "recovery": 93.0,
+    "hrv": 39.6,
+    "rhr": 50.0,
+    "sleep_perf": 80.0,
+    "strain": 10.6,
+    "sleep_hrs": 6.6,
+    "spo2": 96.6,
+    "skin_temp": 33.4,
+    "sleep_efficiency": 93.7,
+    "sleep_consistency": 67.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 2.5,
+    "deep_sleep_hrs": 2.8,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 6,
+    "disturbances": 5,
+    "sleep_needed_hrs": 8.6,
+    "sleep_debt_hrs": 2.1,
+    "calories": 1911,
+    "avg_hr": 64,
+    "max_hr": 149,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 330,
+        "avg_hr": 114,
+        "max_hr": 149
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24321,
+    "resting_hr": 51.0,
+    "hrv": 81.11,
+    "sleep_hrs": 6.6,
+    "daylight_mins": 10.0,
+    "vo2max": 40.15,
+    "spo2": 97.96,
+    "respiratory_rate": 13.26,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Today was a great day the HRV really stood out 40 and I was feeling much better, fun fact this was when I did the nap day before and was really laying low the whole day\nfeeling okeyish but bloated in the afetrnoon a lot , no clear reason why maybe vegetables in the chicken idk",
+    "supplements_list": [
+      "Curcumin",
+      "Enterosgel",
+      "Lutein",
+      "Vitamin C",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
