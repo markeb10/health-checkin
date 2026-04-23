@@ -1,0 +1,27 @@
+{
+  "date": "2024-02-19",
+  "generated_at": "2026-04-23T23:06:50.124487",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22137,
+    "resting_hr": 54.0,
+    "hrv": 83.58,
+    "sleep_hrs": 7.5,
+    "daylight_mins": 26.0,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "It was a nice day with some physio in the mix and lots of activities, sleep was not the best but at least I didnt feel too sleepy dhlurings the day\nMask treatment\nBreakfast\nSpace Joint\nPhysioveda - he massaged my legs it was painful omg\nJpm meeting\nCositas lunch was really good - amazing fishy\nTalked to Seychells vip manager\nSpoken about retargeting wifh Edgard\nDrumming session for 30 min\nWalkie\nSpoke to Sandi it was his 50th Birthday\nSpoke to Dimitar about Personal assistant thingy for everyone"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
