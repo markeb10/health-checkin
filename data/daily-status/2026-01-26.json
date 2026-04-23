@@ -1,0 +1,75 @@
+{
+  "date": "2026-01-26",
+  "generated_at": "2026-04-23T23:21:38.323918",
+  "whoop": {
+    "imported": true,
+    "recovery": 66.0,
+    "hrv": 34.0,
+    "rhr": 51.0,
+    "sleep_perf": 81.0,
+    "strain": 15.2,
+    "sleep_hrs": 7.6,
+    "spo2": 95.7,
+    "skin_temp": 34.1,
+    "sleep_efficiency": 90.5,
+    "sleep_consistency": 64.0,
+    "respiratory_rate": 13.7,
+    "light_sleep_hrs": 3.1,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 2.1,
+    "awake_hrs": 0.8,
+    "sleep_cycles": 7,
+    "disturbances": 12,
+    "sleep_needed_hrs": 8.8,
+    "sleep_debt_hrs": 0.9,
+    "calories": 2375,
+    "avg_hr": 66,
+    "max_hr": 198,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 392,
+        "avg_hr": 135,
+        "max_hr": 173
+      },
+      {
+        "sport": "Activity",
+        "calories": 241,
+        "avg_hr": 115,
+        "max_hr": 198
+      },
+      {
+        "sport": "Activity",
+        "calories": 229,
+        "avg_hr": 126,
+        "max_hr": 162
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15487,
+    "resting_hr": 53.0,
+    "hrv": 49.82,
+    "sleep_hrs": 8.8,
+    "spo2": 96.94,
+    "respiratory_rate": 15.11,
+    "sleep_awake_hrs": 0.7
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling nervous during the day, this stuff that doesnt work just making me nervous also I wasnt able to do salaries so that was annoying or talk to the guys serious stuff\nbloating 4/10, had a late lunch today and no dinner, finally some proteins for lunch",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 5,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
