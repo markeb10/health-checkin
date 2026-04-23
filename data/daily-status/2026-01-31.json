@@ -1,0 +1,61 @@
+{
+  "date": "2026-01-31",
+  "generated_at": "2026-04-23T23:21:44.591962",
+  "whoop": {
+    "imported": true,
+    "recovery": 88.0,
+    "hrv": 39.4,
+    "rhr": 51.0,
+    "sleep_perf": 80.0,
+    "strain": 10.1,
+    "sleep_hrs": 6.6,
+    "spo2": 95.1,
+    "skin_temp": 33.4,
+    "sleep_efficiency": 96.3,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 13.1,
+    "light_sleep_hrs": 2.6,
+    "deep_sleep_hrs": 2.1,
+    "rem_sleep_hrs": 1.8,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 3,
+    "disturbances": 6,
+    "sleep_needed_hrs": 10.0,
+    "sleep_debt_hrs": 1.8,
+    "calories": 1872,
+    "avg_hr": 64,
+    "max_hr": 153,
+    "workouts": [
+      {
+        "sport": "Activity",
+        "calories": 325,
+        "avg_hr": 124,
+        "max_hr": 153
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19224,
+    "resting_hr": 51.0,
+    "hrv": 72.38,
+    "sleep_hrs": 6.6,
+    "daylight_mins": 79.0,
+    "spo2": 96.85,
+    "respiratory_rate": 13.1,
+    "sleep_awake_hrs": 0.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "feeling okey but also not okey as having lots of nerve issues really weird where I am getting this, ou well, cool game play ping pong with Filip, hanging out with Nasti, went to strech and he had a good indication for me\nbloating 4/10\nwent to",
+    "anxiety": 5,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
