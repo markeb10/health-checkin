@@ -1,0 +1,64 @@
+{
+  "date": "2025-12-16",
+  "generated_at": "2026-04-23T23:20:47.459946",
+  "whoop": {
+    "imported": true,
+    "recovery": 58.0,
+    "hrv": 32.8,
+    "rhr": 51.0,
+    "sleep_perf": 83.0,
+    "strain": 11.9,
+    "sleep_hrs": 6.6,
+    "spo2": 97.1,
+    "skin_temp": 34.1,
+    "sleep_efficiency": 91.8,
+    "sleep_consistency": 82.0,
+    "respiratory_rate": 13.5,
+    "light_sleep_hrs": 3.2,
+    "deep_sleep_hrs": 2.2,
+    "rem_sleep_hrs": 1.2,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 5,
+    "disturbances": 4,
+    "sleep_needed_hrs": 9.4,
+    "sleep_debt_hrs": 1.6,
+    "calories": 2089,
+    "avg_hr": 69,
+    "max_hr": 154,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 417,
+        "avg_hr": 117,
+        "max_hr": 154
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22542,
+    "resting_hr": 55.5,
+    "hrv": 56.64,
+    "sleep_hrs": 6.6,
+    "spo2": 97.71,
+    "respiratory_rate": 13.48,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling a bit under the nerves due to Q10 but otherwise good, did padel in the morning went well, didnt stress myself out too much or so I think, Petra did some painful therapy she was pressing on that spot and yeah thats not how it will heal honestly but you never know the other spot did heal\nbloating 3/10 (took vitamin C after breakfast and after lunch) probably also Q10 helped, was having session with the Matej and Mateja",
+    "supplements_list": [
+      "CoQ10",
+      "Vitamin C"
+    ],
+    "anxiety": 5,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
