@@ -1,0 +1,30 @@
+{
+  "date": "2023-05-02",
+  "generated_at": "2026-04-23T23:00:43.412738",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21201,
+    "resting_hr": 61.0,
+    "hrv": 59.48,
+    "weight_kg": 72.647,
+    "sleep_hrs": 6.1,
+    "body_fat_pct": 0.09,
+    "bmi": 24.84,
+    "vo2max": 40.43,
+    "respiratory_rate": 14.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Super sleepy, hip is bugging me and hurting when sitting super annoying - changed shoes and it was a little bit better but no\nCelery juice - was zombiko slow thoughts\nSome rolling \nWe went to siper market\nTalked to Boro - he is having a breaktrough on BJackpot \nWe ate at throve\nWe walked around shops\nSeen several fountain shows was cool\nI am dead - less rhan yesterday - best to see foundation is from timeOut at the souk in dubai mall from balcony\nGot some homepatic medicine for hip lets see. Ove"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
