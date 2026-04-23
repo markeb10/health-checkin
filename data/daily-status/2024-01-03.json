@@ -1,0 +1,27 @@
+{
+  "date": "2024-01-03",
+  "generated_at": "2026-04-23T23:05:49.304466",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 17799,
+    "resting_hr": 68.0,
+    "hrv": 38.52,
+    "daylight_mins": 58.0,
+    "vo2max": 41.06,
+    "spo2": 98.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okeyish - my boniko hurts when sitting for some reason idk why\nMorning snorkeling at the beach a bit a way - was super duper nice, managed to snorkel with my dad\nBreakfast\nWorked a bit meeting for cureLink - maybe a good name would be AskMedGuru\nPacked\nLunchy\nShowered\nTraveling back to Mahe\nTakamaka rum so good we bought some souvenirs\nWe boarded before midnight plane for Dubai\nVery nice last day, did some things for work but also had an amazing morning\nInspired by: fishes at morning snork"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
