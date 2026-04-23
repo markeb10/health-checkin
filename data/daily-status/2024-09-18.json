@@ -1,0 +1,35 @@
+{
+  "date": "2024-09-18",
+  "generated_at": "2026-04-23T23:11:21.950444",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31810,
+    "resting_hr": 58.0,
+    "hrv": 54.69,
+    "daylight_mins": 227.0,
+    "vo2max": 43.49,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 5,
+    "journal": "Felt depressed as I was feeling my hip pain was coming again when sleeping on side, lets hope all is ok. Othwrwise day was okey.\nNot so sleepy due to black te extract in collagen\nAcidity was clear in the evening took ruporut - trigger nuts peanuts , cookie cacao in chocolade, piece of pizza butek",
+    "supplements_list": [
+      "Collagen",
+      "Enterogerma",
+      "Multivitamin",
+      "Probiotic",
+      "Ruporut"
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
