@@ -1,0 +1,40 @@
+{
+  "date": "2025-08-08",
+  "generated_at": "2026-04-23T23:18:08.687292",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 18232,
+    "resting_hr": 58.0,
+    "hrv": 61.02,
+    "daylight_mins": 118.0,
+    "vo2max": 39.98,
+    "spo2": 96.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 10,
+    "journal": "I feel really good after Rado, I felt very good. Like, I felt I was able to breathe. I felt I was able to relax more. It could be that there is something about my chest area that just gets squeezed and that's creating tension. Or it could also be this belt she gave. Another cool day spent with guys. We did a few things, and I think it should be nice.",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Glycine",
+      "L-Theanine",
+      "Magnesium Glycinate",
+      "Omega-3",
+      "Vitamin C",
+      "Vitamin D",
+      "Vitamin K2",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
