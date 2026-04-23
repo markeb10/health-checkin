@@ -1,0 +1,25 @@
+{
+  "date": "2023-07-10",
+  "generated_at": "2026-04-23T23:02:08.167269",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 9696,
+    "resting_hr": 78.0,
+    "hrv": 26.51,
+    "vo2max": 41.09
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept 7 hours and was rested , less pain in neck but pain in sitting bones,\nEarly morning - stretching\nChatn - afterlongtime\nListened to Green Day - Jesus of Suburbia really cool song\nMeeting with Simon regarding JPM we really improved some things and had some ideas\nPacking\nAte looots of berries\nLunch at Socerb for 4 hours was very good\nWe arrived at San Canzian village - very nice loving the place so far\nWe observed sunset \nWe made the fire and enjoyed for 2 hours how it burning\nGreat day with "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
