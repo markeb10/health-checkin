@@ -1,0 +1,26 @@
+{
+  "date": "2023-06-16",
+  "generated_at": "2026-04-23T23:01:38.499360",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23304,
+    "resting_hr": 61.0,
+    "hrv": 67.53,
+    "sleep_hrs": 6.7,
+    "respiratory_rate": 15.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Nice day, travel day, ate lots of cacao so I was quite awake and then I have also drank a lot\nWoke up packed\nDrive to airport \nFlight to Brussel\nMeeting with Tarique\nMeeting with BO guys\nFlight to slovenia\nConcert 40th anniversary Sank rock was super cool \ud83d\ude0e \nDrank like a rock star haha \ud83d\ude02- need to sober up\nGreat day, some work, but mostly relaxing and then finishing off with a concert from my favourite band\nInspired by: Sank rock - really doing their best\nDidnt like: that I drank so much\nIdea: ha"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
