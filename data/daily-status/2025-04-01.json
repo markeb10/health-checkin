@@ -1,0 +1,31 @@
+{
+  "date": "2025-04-01",
+  "generated_at": "2026-04-23T23:15:27.754851",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21478,
+    "resting_hr": 58.0,
+    "hrv": 63.61,
+    "daylight_mins": 27.0,
+    "vo2max": 41.23,
+    "spo2": 99.67
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 1,
+    "journal": "Feeling okey, this long sleep was great probably affected by herpes , was super going crqzy and shocked when seeing domain was for aale cashy.com\nMedium bloating / low\n\nbit acidity in evening",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
