@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-12",
+  "generated_at": "2026-04-23T23:13:48.108760",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 35732,
+    "resting_hr": 58.0,
+    "hrv": 55.45,
+    "daylight_mins": 126.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling great after Pilates but then the lunch was too adventurous for me\nSuper bloated in the evening was shooting gas left and right",
+    "supplements_list": [
+      "Enterosgel",
+      "Ruporut"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
