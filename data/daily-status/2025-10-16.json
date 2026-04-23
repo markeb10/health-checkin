@@ -1,0 +1,93 @@
+{
+  "date": "2025-10-16",
+  "generated_at": "2026-04-23T23:19:32.398718",
+  "whoop": {
+    "imported": true,
+    "recovery": 43.0,
+    "hrv": 31.1,
+    "rhr": 51.0,
+    "sleep_perf": 58.0,
+    "strain": 13.7,
+    "sleep_hrs": 4.2,
+    "spo2": 98.0,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 92.6,
+    "sleep_consistency": 63.0,
+    "respiratory_rate": 12.8,
+    "light_sleep_hrs": 1.6,
+    "deep_sleep_hrs": 1.9,
+    "rem_sleep_hrs": 0.7,
+    "awake_hrs": 0.4,
+    "sleep_cycles": 4,
+    "disturbances": 4,
+    "sleep_needed_hrs": 8.4,
+    "sleep_debt_hrs": 0.6,
+    "calories": 2253,
+    "avg_hr": 70,
+    "max_hr": 156,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 132,
+        "avg_hr": 99,
+        "max_hr": 134
+      },
+      {
+        "sport": "Walking",
+        "calories": 434,
+        "avg_hr": 119,
+        "max_hr": 154
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31026,
+    "resting_hr": 55.5,
+    "hrv": 68.42,
+    "sleep_hrs": 5.5,
+    "daylight_mins": 44.0,
+    "bp_systolic": 94.25,
+    "bp_diastolic": 59.5,
+    "vo2max": 40.36,
+    "spo2": 96.5,
+    "respiratory_rate": 12.83,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 2,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 3,
+    "journal": "Feeling awake but in general no problem with breaking easily so it was not a same or super bad episode but I coudlnt sleep after 3 am , had to use the restroom and cosita was snoring so no chance\n\noverall didnt take aswaganda this time lets see; played padle and it was good before coming to therapy\nall good but bloating 4/10 was not super bad but it was present",
+    "supplements_list": [
+      "Ashwagandha",
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
