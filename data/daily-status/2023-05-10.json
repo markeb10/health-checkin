@@ -1,0 +1,27 @@
+{
+  "date": "2023-05-10",
+  "generated_at": "2026-04-23T23:00:52.927696",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25471,
+    "resting_hr": 59.0,
+    "hrv": 68.35,
+    "sleep_hrs": 6.9,
+    "vo2max": 40.07,
+    "respiratory_rate": 15.56
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept good, better today. I pulled something when streching I think must be the last exercise. Was a bit sleepy when i got up.\nWoke up relatively late\nStreching like a cat - did also one exercise from the guy ED \nWent to Brot - little walkie\nBreakfast\nJpm meeting working on tutorial\nMeeting Miran - he invited me to Rotarijski pisker - lunch in Cubo was good\nWorked on different tasks emails slack\nSpoke to Dimitar about CasinoPilot.io bought domain\nMet Domen - its kinda so so - really talks a lot "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
