@@ -1,0 +1,35 @@
+{
+  "date": "2025-07-15",
+  "generated_at": "2026-04-23T23:17:38.296094",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 15997,
+    "resting_hr": 55.0,
+    "hrv": 58.72,
+    "daylight_mins": 39.0,
+    "spo2": 96.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 6,
+    "journal": "Feeling relatively good, was doing red light today and some other stuff like vibra for face - i liked it fall asleep - probably crash after lunch hahah\nMedium/high bloating from 6 -11 pm",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Omega-3",
+      "Vitamin C",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
