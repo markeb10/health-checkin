@@ -1,0 +1,73 @@
+{
+  "date": "2025-11-20",
+  "generated_at": "2026-04-23T23:20:15.513257",
+  "whoop": {
+    "imported": true,
+    "recovery": 74.0,
+    "hrv": 36.1,
+    "rhr": 49.0,
+    "sleep_perf": 83.0,
+    "strain": 12.0,
+    "sleep_hrs": 8.3,
+    "spo2": 93.8,
+    "skin_temp": 33.7,
+    "sleep_efficiency": 87.3,
+    "sleep_consistency": 79.0,
+    "respiratory_rate": 13.1,
+    "light_sleep_hrs": 5.5,
+    "deep_sleep_hrs": 1.8,
+    "rem_sleep_hrs": 1.0,
+    "awake_hrs": 1.2,
+    "sleep_cycles": 7,
+    "disturbances": 9,
+    "sleep_needed_hrs": 9.3,
+    "sleep_debt_hrs": 1.1,
+    "calories": 1972,
+    "avg_hr": 63,
+    "max_hr": 185,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 251,
+        "avg_hr": 110,
+        "max_hr": 170
+      },
+      {
+        "sport": "HIIT",
+        "calories": 191,
+        "avg_hr": 134,
+        "max_hr": 185
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22054,
+    "resting_hr": 51.5,
+    "hrv": 57.81,
+    "sleep_hrs": 8.3,
+    "daylight_mins": 93.0,
+    "vo2max": 40.83,
+    "spo2": 95.78,
+    "respiratory_rate": 13.07,
+    "sleep_awake_hrs": 1.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 3,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "journal": "Feeling very weird during the night pulse was fine was just very alert without a reason, I was able to breathe slowly so it was not a histamine problem but it was probably some acidity problem as I was feeling it in my stomach, after ruporut and meditation and breathing for 16 min it was better\n3/10 not particularly bloated but just to some base level which is still too much, but in evening i felt acidity and had to take the ruporut, problem is that hopefully this will not start to be a regular ",
+    "supplements_list": [
+      "Curcumin",
+      "Ruporut",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
