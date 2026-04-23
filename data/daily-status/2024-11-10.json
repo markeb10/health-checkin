@@ -1,0 +1,31 @@
+{
+  "date": "2024-11-10",
+  "generated_at": "2026-04-23T23:12:29.917697",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23477,
+    "resting_hr": 56.0,
+    "hrv": 61.95,
+    "daylight_mins": 98.0,
+    "spo2": 94.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Being very light, a bit anxious at times but mostly very positive same as cosita\nFeeling okeyish , was a bit weird after lunch - felt those spices but I hope will be fine",
+    "supplements_list": [
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
