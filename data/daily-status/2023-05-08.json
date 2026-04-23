@@ -1,0 +1,27 @@
+{
+  "date": "2023-05-08",
+  "generated_at": "2026-04-23T23:00:50.511708",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 31648,
+    "resting_hr": 60.0,
+    "hrv": 56.18,
+    "sleep_hrs": 8.1,
+    "vo2max": 39.73,
+    "respiratory_rate": 13.88
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slow day, my brain just super not working. Really need to get it in order.\nCN - quick airport\nHome gym\nFetched breakfast and had breakfast - betties and yoghurt baccalar and some tuna spreads - I have a feeling this is not great for me so I might stay out of it\nMy brain is dead, was sleeping a bit\nThen lunch chicken and cabbage - getting my feemented food\nAte some gluten free cookies which really caused my stomach pain\nWent to Villa - worked with Richard on things / richard could not finish but "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
