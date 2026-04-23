@@ -1,0 +1,28 @@
+{
+  "date": "2024-01-16",
+  "generated_at": "2026-04-23T23:06:05.654523",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 22571,
+    "resting_hr": 55.0,
+    "hrv": 45.38,
+    "daylight_mins": 68.0,
+    "vo2max": 40.23,
+    "spo2": 98.33,
+    "respiratory_rate": 14.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Relatively good sleep, woke up to the bathroom, not the best but ok\nTai chi\nChatn sell\nBreakfast\nWorking on grass\nWriting specs on b innovation program\nCosita made lunchy\nJpm meeting\nJp meeting and olle he fought with simona and they just need to smoke the peace pipe\nHelfe appointment\nWalkie and sunset talkie with my dad\nWorked a bit outside by pool in evening - is very nice - not so calm as there is noise from somebody all the time but yeah all good\nKorean series getting really good The brother"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
