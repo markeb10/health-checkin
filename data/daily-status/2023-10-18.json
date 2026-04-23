@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-18",
+  "generated_at": "2026-04-23T23:04:13.004581",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 21679,
+    "resting_hr": 53.0,
+    "hrv": 67.22,
+    "daylight_mins": 34.0,
+    "vo2max": 41.45,
+    "spo2": 91.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Good day, meetings, need more brain work, slept okeyish. Today might be more challenging as I am up\nMorning grooming\nGood mood - just being happy - heating up the place\nVesna came for a visit - spent some time with her in morning \nJpm meeting\nAccount managers meeting\nSK meeting\nRecruitment meeting\nMedicofit\nBought new sneakers - new balance\nWent to apartment - it was the day of open doors at Schellenburg - felt like thats it \nCosita has a bad feeling about family specially vesna thinking she wil"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
