@@ -1,0 +1,28 @@
+{
+  "date": "2023-10-25",
+  "generated_at": "2026-04-23T23:04:21.685642",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24750,
+    "resting_hr": 56.0,
+    "hrv": 54.48,
+    "daylight_mins": 62.0,
+    "vo2max": 41.77,
+    "spo2": 95.5,
+    "respiratory_rate": 15.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept okey and long surprisingly, although I had some cacao before. Was a bit upset due to sudoku not being solved - could not solve it. Marek is ok physio but I feel my body needs to rest.\nBreakfast\nJpm meeting\nMarek - gave exercise - cracked me a bit I think was good\nWalkie back and meeting for scatter kings\nTalkie with Artur and Simona and Dimitar regarding BCK\nTalkie with Dimitar regarding next steps\nLunch in restaurant\nWalkie \nTalk with Chris Angela \u2026 bit awkward Idk just really weird - whe"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
