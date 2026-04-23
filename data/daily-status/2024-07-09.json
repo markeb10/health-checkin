@@ -1,0 +1,38 @@
+{
+  "date": "2024-07-09",
+  "generated_at": "2026-04-23T23:09:50.456896",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 56959,
+    "resting_hr": 60.0,
+    "hrv": 49.69,
+    "sleep_hrs": 6.2,
+    "daylight_mins": 291.0,
+    "vo2max": 44.2,
+    "spo2": 97.0,
+    "respiratory_rate": 16.19,
+    "sleep_deep_hrs": 0.9,
+    "sleep_rem_hrs": 0.7,
+    "sleep_core_hrs": 4.7,
+    "sleep_awake_hrs": 1.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 2,
+    "journal": "Pain in stomach right after eating food hard to say if from appricots or not and also later in evening\nPain after food, felt same yesterday. I thought it was due to appricots but maybe there is something else. Hard to say.",
+    "supplements_list": [
+      "Multivitamin",
+      "Probiotic"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
