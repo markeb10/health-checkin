@@ -1,0 +1,35 @@
+{
+  "date": "2025-08-23",
+  "generated_at": "2026-04-23T23:18:27.016887",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 40570,
+    "resting_hr": 58.0,
+    "hrv": 52.04,
+    "daylight_mins": 267.0,
+    "vo2max": 40.23,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": 8,
+    "supplements": 4,
+    "journal": "Feeling great, aligned with nature, sleeping well, just in general really good. Love the sound of crickets, being calm. Woke up at 6:15 and was a proper day of walking 19 km\nbloating 3/10",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Lutein",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
