@@ -1,0 +1,24 @@
+{
+  "date": "2023-07-04",
+  "generated_at": "2026-04-23T23:02:00.703101",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20118,
+    "resting_hr": 59.0,
+    "hrv": 54.03
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Watched olle stream got sleep for 4 hours and then 1 hour more but this is it, took one more lemon balm, hoping for some normal sleep today\nMilica training gym \ud83c\udfcb\ufe0f\u200d\u2640\ufe0fupper body\nWalkie\nOriginals meeting\nTarique meeting - so so he is ok but I feel super inefficient - lots of talking\nMarusa and Tomaz meeting Plants - not impressed with his proposal at all\nBoro meeting for 3 hours - trying to solve the challenge of how to give edge to VIP - i think we came to a solution it was mine hehe \ud83d\ude1c \nWalkie saw"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
