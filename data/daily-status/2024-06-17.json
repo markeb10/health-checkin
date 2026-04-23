@@ -1,0 +1,37 @@
+{
+  "date": "2024-06-17",
+  "generated_at": "2026-04-23T23:09:21.589955",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 29468,
+    "resting_hr": 59.0,
+    "hrv": 50.18,
+    "sleep_hrs": 6.8,
+    "daylight_mins": 101.0,
+    "spo2": 98.33,
+    "respiratory_rate": 14.12,
+    "sleep_deep_hrs": 1.8,
+    "sleep_rem_hrs": 1.5,
+    "sleep_core_hrs": 3.5,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "was ok",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole"
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
