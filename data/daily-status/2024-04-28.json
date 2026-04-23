@@ -1,0 +1,30 @@
+{
+  "date": "2024-04-28",
+  "generated_at": "2026-04-23T23:08:17.867071",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28485,
+    "resting_hr": 55.0,
+    "hrv": 71.83,
+    "weight_kg": 68.919,
+    "daylight_mins": 63.0,
+    "body_fat_pct": 0.2,
+    "bmi": 23.85,
+    "vo2max": 42.21,
+    "spo2": 100.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept long 1 could not wake up really\nAntibiotics\nTai chi - slept in late could not get up bit jet lagged hehe\nBreakfast\nLooking for a new luggage - in the end found it - we will see \nShopping with cosita\nLunchy\nWatched Gendarme in NY\nLucka\nWalked and talked to my dad - he is happy to go to Turkey\nSpoke to Guven and Laurence in telegram\nMassage\nWas only eating rifixamine\nWas a bit reactive to stressful situations or even bothered by some things which I normally would not be\nInspired by: all the "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
