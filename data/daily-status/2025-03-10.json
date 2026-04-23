@@ -1,0 +1,31 @@
+{
+  "date": "2025-03-10",
+  "generated_at": "2026-04-23T23:15:00.316692",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13895,
+    "resting_hr": 56.0,
+    "hrv": 59.47,
+    "vo2max": 42.25,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feeling relaxed and being able to focus eventhough I did a lot of exercising hehe\nMedium bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
