@@ -1,0 +1,30 @@
+{
+  "date": "2025-01-09",
+  "generated_at": "2026-04-23T23:13:44.422953",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 7473,
+    "resting_hr": 53.0,
+    "hrv": 55.64,
+    "daylight_mins": 65.0,
+    "spo2": 98.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling good, feeling on top of the game, also healthier - seems like this running is doing wonders for me - even 12 min is enough / lets hope my hip and other structures will get used to this as well hehe\nNo special issues - fhe least bloating so far - what I do feel is that less water is better for sure",
+    "supplements_list": [
+      "Enterosgel"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
