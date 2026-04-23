@@ -1,0 +1,79 @@
+{
+  "date": "2026-02-11",
+  "generated_at": "2026-04-23T23:21:58.043564",
+  "whoop": {
+    "imported": true,
+    "recovery": 68.0,
+    "hrv": 34.3,
+    "rhr": 50.0,
+    "sleep_perf": 81.0,
+    "strain": 13.0,
+    "sleep_hrs": 6.3,
+    "spo2": 97.8,
+    "skin_temp": 32.9,
+    "sleep_efficiency": 96.3,
+    "sleep_consistency": 88.0,
+    "respiratory_rate": 13.7,
+    "light_sleep_hrs": 2.9,
+    "deep_sleep_hrs": 2.3,
+    "rem_sleep_hrs": 1.1,
+    "awake_hrs": 0.2,
+    "sleep_cycles": 6,
+    "disturbances": 4,
+    "sleep_needed_hrs": 9.9,
+    "sleep_debt_hrs": 1.9,
+    "calories": 2190,
+    "avg_hr": 66,
+    "max_hr": 176,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 75,
+        "avg_hr": 99,
+        "max_hr": 155
+      },
+      {
+        "sport": "Activity",
+        "calories": 102,
+        "avg_hr": 106,
+        "max_hr": 153
+      },
+      {
+        "sport": "Walking",
+        "calories": 579,
+        "avg_hr": 124,
+        "max_hr": 176
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20390,
+    "resting_hr": 53.5,
+    "hrv": 58.18,
+    "sleep_hrs": 8.0,
+    "daylight_mins": 26.0,
+    "spo2": 97.31,
+    "respiratory_rate": 13.68,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling relatively good in the morning was up at 6 like no problem haha, went to bed today late, so tomorrow is probably going to be a challenge, getting Gary tomorrow,\npain in stomach went away today, tomorrow I should do the exercises from pilates but maybe I wait actuallly idk, those special ones for pelvic floor from kathy, food was good today, I feel it was healthy, also happy I am eating less banana bread so maybe this is helping",
+    "supplements_list": [
+      "Enterosgel",
+      "Kombucha",
+      "Telfast",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
