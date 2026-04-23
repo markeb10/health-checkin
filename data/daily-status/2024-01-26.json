@@ -1,0 +1,28 @@
+{
+  "date": "2024-01-26",
+  "generated_at": "2026-04-23T23:06:18.752315",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19435,
+    "resting_hr": 56.0,
+    "hrv": 52.87,
+    "daylight_mins": 23.0,
+    "vo2max": 40.23,
+    "spo2": 97.25,
+    "respiratory_rate": 12.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Again bad sleep, slept maybe 5 hours today \u2026 my head hurt and in general didnt feel well, was hanging same thing trough out the day - no idea what is this\nTainchi\nBreakfast\nSalaries\nPhysioveda - released the feet today and around Achilles  \nLunch in Zouzou dubai hills mall\nBought the light theraphy theraface mask - lets see\nDidnt sleep well again - woke up at 4 already\nSat a lot today - boniko not happy\nPlayed prince of persia managed to do aome progress\nWalkie\nHappy that I managed to do all sal"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
