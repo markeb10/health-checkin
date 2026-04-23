@@ -1,0 +1,32 @@
+{
+  "date": "2025-07-13",
+  "generated_at": "2026-04-23T23:17:35.805490",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 51994,
+    "resting_hr": 57.0,
+    "hrv": 76.09,
+    "daylight_mins": 192.0,
+    "vo2max": 41.68,
+    "spo2": 99.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Was a relaxing day, somehow was able to relax easier and be more in the flow was a good weekend just for 1.5 days and everything changes\nHuge max bloating was smelly too",
+    "supplements_list": [
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
