@@ -1,0 +1,34 @@
+{
+  "date": "2025-04-29",
+  "generated_at": "2026-04-23T23:16:00.933726",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28247,
+    "resting_hr": 55.0,
+    "hrv": 68.12,
+    "daylight_mins": 107.0,
+    "vo2max": 40.84,
+    "spo2": 99.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling good in the morning but then very tired in evening afternoon, nothing much new on examinations mri\nLow bloating",
+    "supplements_list": [
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc Carnosine"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
