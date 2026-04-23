@@ -1,0 +1,37 @@
+{
+  "date": "2024-05-24",
+  "generated_at": "2026-04-23T23:08:51.055050",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 26300,
+    "resting_hr": 55.0,
+    "hrv": 69.27,
+    "sleep_hrs": 6.2,
+    "daylight_mins": 69.0,
+    "vo2max": 42.24,
+    "spo2": 97.0,
+    "respiratory_rate": 13.62,
+    "sleep_deep_hrs": 1.7,
+    "sleep_rem_hrs": 1.2,
+    "sleep_core_hrs": 3.4,
+    "sleep_awake_hrs": 0.9
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 1,
+    "journal": "Feeling weird pain in stomach\nDiscomfort in my stomach persists felt bit bellow belly button\nDidnt sleep again more than 5.5 hours\n\nmatthew fixed my hip today actually feels better / seing him tomorrwo\nDiscomfort in gut and a bit in stomach at first then it moved lower to gut. Started weird when I got up.",
+    "supplements_list": [
+      "Toxaprevent"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
