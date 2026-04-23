@@ -1,0 +1,25 @@
+{
+  "date": "2023-05-21",
+  "generated_at": "2026-04-23T23:01:07.431573",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28096,
+    "resting_hr": 67.0,
+    "hrv": 52.28,
+    "respiratory_rate": 15.83
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Day 4 - 2 more to go, been doing exercises\nFirst - video call in a year with a nice surprise and he\nGym \nBreakfast - \nMeeting with guys\nArtur meeting about OKRs - was so so\nMeeting with designers - was okeyish\nPlayed Golf \u26f3\ufe0f Practiced - i did my best considering the clubs were really shitty and something was properly off idk what \nAccupuncture - fell asleep again - she took out from my ear whatever she left in last time\nDinner \nKaraokee night was a success\nIt was an ok day, it just feels all a b"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
