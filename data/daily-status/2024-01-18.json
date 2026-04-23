@@ -1,0 +1,27 @@
+{
+  "date": "2024-01-18",
+  "generated_at": "2026-04-23T23:06:08.190742",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 20341,
+    "resting_hr": 56.0,
+    "hrv": 68.55,
+    "daylight_mins": 150.0,
+    "spo2": 97.83,
+    "respiratory_rate": 14.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "It was good day, this indian guy in physioveda is onto something, he says i have issue in feet, achilee and its all coming from there, so yeah this will take some time to resolve\nTai chi\nBreakfast\nDrive to helge the. Physioveda helge did treatment of my arm and phsioveda guy did today my hamstrings - they are tight a lot\nCosita lunchy\nSpoke to Max - we want to move jurisdiction\nJpm meeting\nGetting all docs for KYC for the bank VP and compiling the email\nChecking with Tarique things outside\nSpoke"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
