@@ -1,0 +1,31 @@
+{
+  "date": "2025-06-05",
+  "generated_at": "2026-04-23T23:16:47.564672",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 3443,
+    "resting_hr": 53.0,
+    "hrv": 83.2,
+    "spo2": 95.75,
+    "respiratory_rate": 13.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Gentamicin (80 mg) injected locally into the prostate \u2022\nAwaiting full biopsy + culture results | Ultra high - i was completely freaking out - especially on thought they will habe to put it back in - the thought of it was just crazy | 2 |  | Normal | Super painful tip of the penis. It got super irritated after I put the cream on it even more",
+    "supplements_list": [
+      "Cefpodoxime",
+      "Celecoxib"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
