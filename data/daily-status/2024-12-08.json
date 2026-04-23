@@ -1,0 +1,33 @@
+{
+  "date": "2024-12-08",
+  "generated_at": "2026-04-23T23:13:04.991256",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12730,
+    "resting_hr": 58.0,
+    "hrv": 48.51,
+    "daylight_mins": 18.0,
+    "spo2": 98.5,
+    "respiratory_rate": 14.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling good, apart from being sleepy and kinda not fast with my brain - though puzzling went quite well\nSmaller bloating but nothing special",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Probiotic"
+    ],
+    "anxiety": 1
+  },
+  "zoe": {
+    "imported": false
+  }
+}
