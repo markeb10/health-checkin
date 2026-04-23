@@ -1,0 +1,24 @@
+{
+  "date": "2023-07-14",
+  "generated_at": "2026-04-23T23:02:13.073808",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25779,
+    "resting_hr": 67.0,
+    "hrv": 48.03
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Great day, was relaxing airport went fine and I managed to speak ton , and also exercise\nGym\nBeen working out \ud83c\udfcb\ufe0f\u200d\u2642\ufe0f well\nBeeakfast pack\nMeeting bitstarz originals\nChatn \nFlight to Ljubljana\nAte lunch in Rog - was okeyish\nBeen feeling good overall just bloated like crazy - bananas and bread is killing me haha\nWalkie around town with cosita\nSpoke to Filip\nWalked almost 10km, feeling nicely tired in evening so thats great,\nInspired by: how nice is Ljubljana in summer\nDidnt like: that I am not livin"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
