@@ -1,0 +1,34 @@
+{
+  "date": "2025-06-20",
+  "generated_at": "2026-04-23T23:17:07.219563",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 36557,
+    "resting_hr": 55.0,
+    "hrv": 45.51,
+    "daylight_mins": 113.0,
+    "vo2max": 40.11,
+    "spo2": 96.0,
+    "respiratory_rate": 15.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "My pelvic is bit better today maybe the massage from Mitja helped, and today Rado did q good job I feel he tried to resolve it as much as possible with his techniques\nMedium/high bloating i cant jnderstand why its happening worse and worse",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
