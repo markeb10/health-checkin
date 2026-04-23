@@ -1,0 +1,31 @@
+{
+  "date": "2024-09-04",
+  "generated_at": "2026-04-23T23:11:04.627006",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 28646,
+    "resting_hr": 57.0,
+    "hrv": 59.49,
+    "daylight_mins": 124.0,
+    "spo2": 96.75,
+    "respiratory_rate": 11.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 1,
+    "supplements": 1,
+    "journal": "Super low battery, like I didnt sleep and also my mind is still super hyper but hype is no longee there",
+    "supplements_list": [
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
