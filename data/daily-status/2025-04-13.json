@@ -1,0 +1,37 @@
+{
+  "date": "2025-04-13",
+  "generated_at": "2026-04-23T23:15:41.687480",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 32398,
+    "resting_hr": 55.0,
+    "hrv": 64.19,
+    "daylight_mins": 113.0,
+    "vo2max": 40.41,
+    "spo2": 97.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 7,
+    "journal": "Feeling good in general relqxed, a bit slower and with more aches ashwaganda effect\nLow bloating - lets see how it will go today is first day of mg glycin",
+    "supplements_list": [
+      "Ashwagandha",
+      "DAO",
+      "Enterosgel",
+      "Glycine",
+      "Magnesium Glycinate",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}

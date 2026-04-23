@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "generated_at": "2026-04-23T23:00:46.121980",
+  "generated_at": "2026-04-23T23:15:41.358428",
   "whoop": {
     "imported": true,
     "recovery": 51.0,
@@ -47,32 +47,35 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
+    "mood": 7,
     "energy": 3,
     "sleep_quality": 7,
     "supplements": 3,
-    "journal": "Grateful for: New day, being alive, well, learning new things, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, being in this nice hotel, Loving the town, enjoying the nature\nToday great: Easing off the sciatica pain, i think I will apply some ice on it and see how it goes\nAffirmation: I am happy and calm and will be on a journey of improvement",
+    "journal": "1. Duo lingo\n2. Trying to understand what to do to lower my issue with sciattica - ice helped a bit mostly gone, still issues with my back a bit\n3. Did loufa under shower so that was pretty much gentle - ask renzo how to do it \n4.  Working a bit with claude\n5. shower\n6. walkie to lunch Lima cantina was very good loved it - chicken was genuinly the best so far\n7. walkie back trough buckingham palace\n8. resting icing my back\n9. went to harrods to buy some stuff\n10. duo lingo\n11. wrestilng with my ",
     "supplements_list": [
       {
         "name": "Telfast",
-        "time": "09:21",
+        "time": "23:00",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C (1)",
-        "time": "09:21",
+        "time": "23:00",
         "dose": "",
         "unit": ""
       },
       {
         "name": "roibos vanilla tea",
-        "time": "09:21",
+        "time": "23:00",
         "dose": "",
         "unit": ""
       }
     ],
-    "anxiety": 2
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 2,
+    "bloating": 4
   },
   "zoe": {
     "imported": true,
