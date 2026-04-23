@@ -1,0 +1,37 @@
+{
+  "date": "2024-05-16",
+  "generated_at": "2026-04-23T23:08:41.031449",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 55748,
+    "resting_hr": 55.0,
+    "hrv": 43.65,
+    "sleep_hrs": 11.4,
+    "daylight_mins": 139.0,
+    "spo2": 95.5,
+    "respiratory_rate": 13.38,
+    "sleep_deep_hrs": 2.9,
+    "sleep_rem_hrs": 2.2,
+    "sleep_core_hrs": 6.3,
+    "sleep_awake_hrs": 2.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 2,
+    "journal": "Feeling alerted and with heart palpations at 5:20 am - 49 pulse 109 /74 blood pressure (maybe magnezium is making my heart lower than usual) \n- try chamamolile tea in evening to keep cortisol levels down\n- try vitamin C\n- try taking oxy powder after waking up\nC vitamin made me more alert, more focused\nMorning: no bowel movement no signs of any discomfort\n\nmy belly is maybe less bloated since I have been eating oxy powder and also less gassy - so there is some positive effect just how to figure o",
+    "supplements_list": [
+      "Magnesium",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
