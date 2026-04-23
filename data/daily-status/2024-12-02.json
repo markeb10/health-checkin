@@ -1,0 +1,34 @@
+{
+  "date": "2024-12-02",
+  "generated_at": "2026-04-23T23:12:57.469841",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 2960,
+    "resting_hr": 55.0,
+    "hrv": 56.78,
+    "daylight_mins": 4.0,
+    "spo2": 99.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling relatively okeyish, consideing didnt go out whole day and meetings until late, but I am fine - a bit ok autopilot need to start using my head a bit more and start creating - just doing some admin stuff annoying\nFeeling okey considering ate little but also I didnt move a lot and yesterday I did eat a lot so it was a good fasting Monday",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin",
+      "Probiotic",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
