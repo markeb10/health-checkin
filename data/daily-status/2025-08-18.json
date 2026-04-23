@@ -1,0 +1,37 @@
+{
+  "date": "2025-08-18",
+  "generated_at": "2026-04-23T23:18:20.886526",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 30646,
+    "resting_hr": 55.0,
+    "hrv": 61.69,
+    "daylight_mins": 63.0,
+    "vo2max": 39.68,
+    "spo2": 97.25
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 7,
+    "journal": "Feeling relatively okey, but my pains around stomach are getting more and more today i over ate and it was even worse, then in evening also not good\nbloating was around 4/10",
+    "supplements_list": [
+      "Enterosgel",
+      "Multivitamin",
+      "Magnesium Glycinate",
+      "Glycine",
+      "Creatine",
+      "Lutein",
+      "Collagen"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
