@@ -1,0 +1,25 @@
+{
+  "date": "2023-09-10",
+  "generated_at": "2026-04-23T23:03:25.203108",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27954,
+    "resting_hr": 54.0,
+    "hrv": 86.12,
+    "vo2max": 39.87
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept 7 hours again possibly more , amazing day, woke up due to nightmare just couldnt stand cosita wanting to buy her a sofa for 100k so her family could ait when they arrice\nStretching grooming\nBreakfast \nJPM meeting\nWalking to Gro\u017enjan medieval town 11.5km \nLunch in Michelin hotel restaurant was good but not like wowza considering the amount we paid\nWe swam 0.5 km\nDrove to Buje town we walked around then almost made it back home to turn around to go for pizza - mmm that was good as they had g"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
