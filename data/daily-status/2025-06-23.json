@@ -1,0 +1,30 @@
+{
+  "date": "2025-06-23",
+  "generated_at": "2026-04-23T23:17:10.938658",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13262,
+    "resting_hr": 56.0,
+    "hrv": 46.27,
+    "daylight_mins": 63.0,
+    "spo2": 96.57
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "I am going a bit forgetting mode, hard to organise myself and postponing and then being late, need to get more disciplined cmonw\nSuper bloated - medium/high i think its from the spices in the chicken i dont see other reason",
+    "supplements_list": [
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
