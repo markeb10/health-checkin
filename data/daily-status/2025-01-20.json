@@ -1,0 +1,33 @@
+{
+  "date": "2025-01-20",
+  "generated_at": "2026-04-23T23:13:57.904247",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 25904,
+    "resting_hr": 54.0,
+    "hrv": 48.11,
+    "daylight_mins": 23.0,
+    "vo2max": 41.72,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Its a weird feeling, being warned, i received many weird signals lately, lets hope its nothing really but yeah, there is something I feel,\nFeeling okeyish, no acidity",
+    "supplements_list": [
+      "Collagen",
+      "Enterosgel",
+      "Multivitamin"
+    ],
+    "anxiety": 6
+  },
+  "zoe": {
+    "imported": false
+  }
+}
