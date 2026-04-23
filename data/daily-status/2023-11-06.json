@@ -1,0 +1,27 @@
+{
+  "date": "2023-11-06",
+  "generated_at": "2026-04-23T23:04:37.953291",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23250,
+    "resting_hr": 59.0,
+    "hrv": 42.82,
+    "daylight_mins": 46.0,
+    "vo2max": 41.2,
+    "spo2": 98.14
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Sleeping relatively ok, was sleepy on the plane today felt I could fall asleep but almost did, felt that pain was less than 5 weeks ago\nWoke up in a good modd\nMeditation \ud83e\uddd8\u200d\u2642\ufe0f \nPacking for Germany\nFlight to Munich then to Hamburg and taxi to Luebeck\nWe watched Manifest and I played N wayback\nWe walked in town and ate Flamkuchen \nUnpacked\nVery calm morning, slowly getting everything in order in a good mood \ud83d\ude04, made cosita coffee \u2615\ufe0f\nInspired by: how nicely the whole trip was - very smooth\nDidn't lik"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
