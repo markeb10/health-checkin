@@ -1,0 +1,27 @@
+{
+  "date": "2023-12-01",
+  "generated_at": "2026-04-23T23:05:09.067923",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19492,
+    "resting_hr": 58.0,
+    "hrv": 64.9,
+    "daylight_mins": 26.0,
+    "vo2max": 40.03,
+    "spo2": 98.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Not bad of a day, I have been quite positive whole day, my hip doesn't hurt so much if I sit with pillow funny enough on floor\nMeditation \ud83e\uddd8\u200d\u2642\ufe0f finally - i am a mountain\nShopping for groceries with cosita\nStrech test with the Victoria golf fizio she was testing what can I do to improve posture and if ai have some limitation of movement\nCrm meeting\nLunchy with cosita she made really good food\nOffice work - admin stuff \nCall with Ben the social media guy\nPlaying games on console - pinball and playi"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
