@@ -1,0 +1,39 @@
+{
+  "date": "2024-06-21",
+  "generated_at": "2026-04-23T23:09:27.977898",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 51247,
+    "resting_hr": 52.0,
+    "hrv": 57.73,
+    "sleep_hrs": 8.0,
+    "daylight_mins": 171.0,
+    "vo2max": 43.04,
+    "spo2": 98.25,
+    "respiratory_rate": 14.0,
+    "sleep_deep_hrs": 3.1,
+    "sleep_rem_hrs": 1.2,
+    "sleep_core_hrs": 3.7,
+    "sleep_awake_hrs": 2.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling bit sad, tired, slow brain\nPain in stomach in morning but then in evening it was getting better",
+    "supplements_list": [
+      "Multivitamin",
+      "Omeprazole",
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
