@@ -1,0 +1,67 @@
+{
+  "date": "2025-11-25",
+  "generated_at": "2026-04-23T23:20:21.541826",
+  "whoop": {
+    "imported": true,
+    "recovery": 60.0,
+    "hrv": 35.8,
+    "rhr": 49.0,
+    "sleep_perf": 85.0,
+    "strain": 14.3,
+    "sleep_hrs": 6.5,
+    "spo2": 95.4,
+    "skin_temp": 33.8,
+    "sleep_efficiency": 93.3,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 12.9,
+    "light_sleep_hrs": 2.8,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.3,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 7,
+    "disturbances": 6,
+    "sleep_needed_hrs": 8.3,
+    "sleep_debt_hrs": 0.5,
+    "calories": 2218,
+    "avg_hr": 65,
+    "max_hr": 179,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 682,
+        "avg_hr": 134,
+        "max_hr": 179
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 8471,
+    "resting_hr": 50.5,
+    "hrv": 51.35,
+    "sleep_hrs": 6.5,
+    "daylight_mins": 51.0,
+    "spo2": 98.27,
+    "respiratory_rate": 12.92,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Q10 early breakfast, and vitamins gave me good padel session which set me up for a good day, and nothing was hard, I wasnt tired after the session, the sitting bones didnt hurt\u2026. almost a bit suspicious whats going to happen when this effect winds down lol\ni do need to eat the vitamins 10 min before the breakfast might be the sweet spot actually\nbloating level much lower than usual 2/10",
+    "supplements_list": [
+      "CoQ10",
+      "Curcumin",
+      "Multivitamin",
+      "Vitamin C"
+    ],
+    "anxiety": 2,
+    "bloating": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
