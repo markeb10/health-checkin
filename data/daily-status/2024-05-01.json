@@ -1,0 +1,30 @@
+{
+  "date": "2024-05-01",
+  "generated_at": "2026-04-23T23:08:21.654556",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 27730,
+    "resting_hr": 56.0,
+    "hrv": 53.05,
+    "weight_kg": 72.383,
+    "daylight_mins": 96.0,
+    "body_fat_pct": 0.17,
+    "bmi": 24.47,
+    "vo2max": 42.14,
+    "spo2": 98.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Bad sleep, also super awake in evening and morning - blaming it bit on zinzino\nTai chi - corona hitting me differently - went to my nose - annoying really feels like maybe I need some paracetamol to fight this one\nWoke up super early my lower back was extremely painful mostly on my back but all positions pretty sure its from the condition I have\nBreakfast\nAnswered email to Bank to provide with the answers they need \nLunchy\nMeeting with Primoz - decided to make this investment - 2 lets see how it"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
