@@ -1,0 +1,26 @@
+{
+  "date": "2024-05-03",
+  "generated_at": "2026-04-23T23:08:24.974383",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 33406,
+    "resting_hr": 54.0,
+    "hrv": 71.62,
+    "daylight_mins": 134.0,
+    "vo2max": 41.94
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Was peaceful day, no walkie - nothing, sleep was not good could not sleep in mid noght but then I did\nBreakfast\nTook pills sinupret 2x\nPhysioveda only massage she focused on my feet\nJpm meeting \nTalking to Miguel the scrip stuff and all\nTrying to make my rockband to work but no luck\nTownhall meeting went fine - i felt I was not super fun person \nFeeling sick\nLunchy was really good\nSicky day but working as normal\nInspired by: guys being so close to make this JPM work properly\nDidnt like: that I w"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
