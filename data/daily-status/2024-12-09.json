@@ -1,0 +1,31 @@
+{
+  "date": "2024-12-09",
+  "generated_at": "2026-04-23T23:13:06.298767",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19597,
+    "resting_hr": 62.0,
+    "hrv": 46.21,
+    "daylight_mins": 83.0,
+    "vo2max": 41.95,
+    "spo2": 96.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 1,
+    "journal": "Feeling happy since I am finally traveling - should be good\nFeeling a bit pain when i press my stomach in",
+    "supplements_list": [
+      "Probiotic"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
