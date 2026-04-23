@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-11",
+  "generated_at": "2026-04-23T23:04:04.392728",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 24560,
+    "resting_hr": 57.0,
+    "hrv": 64.29,
+    "daylight_mins": 154.0,
+    "vo2max": 41.83,
+    "spo2": 95.75
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept good, however i didnt exercise much day before - funny its something with my parasympathetic nerve system I must have been very still and not waking it up and therefore I was able to sleep better\nMeditation\nMilos gym - we did some new exercises trying to activate left obliques\nBreakfast \nJpm meeting\nBitstarz originals call\nMeeting with Tarique\nContract for Michael\nCosita made a great lunchy\nTalking to cosita\nThe news about - anonymous crypto millionaire owning apartment shocked me today - "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
