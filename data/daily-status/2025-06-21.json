@@ -1,0 +1,35 @@
+{
+  "date": "2025-06-21",
+  "generated_at": "2026-04-23T23:17:08.458933",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23948,
+    "resting_hr": 56.0,
+    "hrv": 64.49,
+    "daylight_mins": 123.0,
+    "vo2max": 40.2,
+    "spo2": 94.4
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 5,
+    "journal": "Feeling relqtively okey, calm day, i like it just enjoying the place - its amazing, ithe chatn didnt feel somehow good idk probabky me\nLow bloating a improvement - could be ginger, not eating that red potatoe, roibos tea, not taking zinc",
+    "supplements_list": [
+      "Enterosgel",
+      "Ginger",
+      "Kombucha",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
