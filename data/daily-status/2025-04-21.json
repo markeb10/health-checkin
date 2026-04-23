@@ -1,0 +1,36 @@
+{
+  "date": "2025-04-21",
+  "generated_at": "2026-04-23T23:15:51.189666",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16569,
+    "resting_hr": 55.0,
+    "hrv": 66.42,
+    "daylight_mins": 190.0,
+    "spo2": 92.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 7,
+    "journal": "Feeling very familiar for allergy stuff symptoms - feeling this slight depression - not good, in general dueing the day felt okey but i feel it took a lot of energy from me\nFeeling okey so far , been eating okey things, perhaps too little probablu tomorrow a dinner i guess",
+    "supplements_list": [
+      "DAO",
+      "Electrolytes",
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Omega-3",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
