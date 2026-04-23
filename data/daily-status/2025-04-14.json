@@ -1,0 +1,37 @@
+{
+  "date": "2025-04-14",
+  "generated_at": "2026-04-23T23:15:42.918206",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 14700,
+    "resting_hr": 59.0,
+    "hrv": 57.03,
+    "daylight_mins": 42.0,
+    "vo2max": 40.67,
+    "spo2": 97.0,
+    "respiratory_rate": 13.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 4,
+    "supplements": 6,
+    "journal": "Feeling kinda under stress in morninf was too cold in evening I was swelling and joint swelled and felt flushing feeling. Not sure what I am doing wrong definitely after eating things.\nLow / mid bloating\n\nlow back pain",
+    "supplements_list": [
+      "DAO",
+      "Enterosgel",
+      "Magnesium Glycinate",
+      "Omega-3",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
