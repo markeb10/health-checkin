@@ -1,0 +1,67 @@
+{
+  "date": "2025-09-15",
+  "generated_at": "2026-04-23T23:18:55.008873",
+  "whoop": {
+    "imported": true,
+    "recovery": 55.0,
+    "hrv": 32.3,
+    "rhr": 50.0,
+    "sleep_perf": 90.0,
+    "strain": 6.5,
+    "sleep_hrs": 7.1,
+    "spo2": 93.6,
+    "skin_temp": 33.6,
+    "sleep_efficiency": 92.4,
+    "sleep_consistency": 88.0,
+    "respiratory_rate": 13.4,
+    "light_sleep_hrs": 3.2,
+    "deep_sleep_hrs": 2.3,
+    "rem_sleep_hrs": 1.6,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 7,
+    "disturbances": 8,
+    "sleep_needed_hrs": 8.3,
+    "sleep_debt_hrs": 0.2,
+    "calories": 1654,
+    "avg_hr": 63,
+    "max_hr": 127,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 35,
+        "avg_hr": 94,
+        "max_hr": 112
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 23287,
+    "resting_hr": 50.5,
+    "hrv": 49.09,
+    "sleep_hrs": 7.2,
+    "daylight_mins": 46.0,
+    "vo2max": 42.54,
+    "spo2": 95.96,
+    "respiratory_rate": 13.38,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 10,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 3,
+    "journal": "Feeling amazing after HBOT lots os serotinin, I felt super powerful\nBut later the power turned down because I was getting pain from my pelvic area really didnt like it - maybe its the jeans idk\nfeeling okey , bloating levels are 5/10 so went down eventhough I ate not great food",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Vitamin D3+K2"
+    ],
+    "anxiety": 2,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
