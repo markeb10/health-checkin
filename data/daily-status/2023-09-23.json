@@ -1,0 +1,27 @@
+{
+  "date": "2023-09-23",
+  "generated_at": "2026-04-23T23:03:41.807266",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 19959,
+    "resting_hr": 54.0,
+    "hrv": 76.26,
+    "weight_kg": 74.0,
+    "daylight_mins": 33.0,
+    "spo2": 97.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept until 7 which was good - woke up in the middle of the night but managed to fall asleep again. Today might be more challenging as I was exercising in the evening.\nInstalling watch and iphone 15 which I received yesterday - took whole attention in the morning - skipped the grooming routine\nBrot breakfast i was having eggs and rice crackers \nWe went to market boight berries and figs - funny I ate berries figs and developed strange things in my stomach - i was also trying grapes - what if the "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
