@@ -1,0 +1,28 @@
+{
+  "date": "2023-08-08",
+  "generated_at": "2026-04-23T23:02:43.864940",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12146,
+    "resting_hr": 60.0,
+    "hrv": 47.75,
+    "sleep_hrs": 6.3,
+    "respiratory_rate": 17.17,
+    "sleep_core_hrs": 0.0,
+    "sleep_awake_hrs": 2.2
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Woke up with even higher temperature \ud83e\udd12 37.00 up for 0.4 from yesterday same time, made corona test and still nothing\nChatn\nMeeting with Dmitar went well\nMeeting with Fabric is alright - I am still not sure why exactly we need so many people lol \ud83d\ude02 \nPacking for the trip to Croatia\nSlovenia versus crna gora - we won \ud83c\udfc6\ud83d\ude4c\ud83e\udd47\nShowed apartment to Vesna and Sandi - rhey were impressed hehe \ud83d\ude09 \nWe chilled in all areas of the house was good\nInspiring meeting with Dimitar, I really felt this guy, I like it, my"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
