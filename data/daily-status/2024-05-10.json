@@ -1,0 +1,33 @@
+{
+  "date": "2024-05-10",
+  "generated_at": "2026-04-23T23:08:33.555400",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 45480,
+    "resting_hr": 58.0,
+    "hrv": 51.8,
+    "sleep_hrs": 0.2,
+    "daylight_mins": 250.0,
+    "spo2": 99.0,
+    "sleep_core_hrs": 0.2,
+    "sleep_awake_hrs": 0.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 9,
+    "energy": null,
+    "sleep_quality": 2,
+    "supplements": 1,
+    "journal": ": Second night with poor sleep. There's just some stress coming from the area around the navel. I sleep until 5 and then that's it. And even that sleep isn't quality sleep. Digestive enzymes didn't help.When I'm a bit hungry in the morning, it really hits the nerves even more, and this discomfort around the navel is more present and loud, so then I'm totally nervous and can't even think. Total brain fog and brain and mental fatigue.With lighter exercise and the same load, I record a 20% higher h",
+    "supplements_list": [
+      "Magnesium"
+    ],
+    "anxiety": 8
+  },
+  "zoe": {
+    "imported": false
+  }
+}
