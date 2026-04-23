@@ -1,0 +1,27 @@
+{
+  "date": "2023-10-17",
+  "generated_at": "2026-04-23T23:04:11.794805",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 40309,
+    "resting_hr": 53.0,
+    "hrv": 63.52,
+    "daylight_mins": 101.0,
+    "vo2max": 41.49,
+    "spo2": 96.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Relaxing day, again socialising - been quite full of personal interactions lately its good, I should keep it up, sleep was relatively ok after long nap during day\nmorning grooming and evening, using new serum from my sister its been good but a bit too oily\nAfter training with Anja my hip muscle hurts , the one I am usually protecting with a pillow, we just did the kneeling exercise and then back going all the way back\nInspired by: Matej and Dejan they do have a good connection - somehow I dont m"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
