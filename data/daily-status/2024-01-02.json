@@ -1,0 +1,26 @@
+{
+  "date": "2024-01-02",
+  "generated_at": "2026-04-23T23:05:48.133324",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 13049,
+    "resting_hr": 59.0,
+    "hrv": 55.46,
+    "daylight_mins": 64.0,
+    "spo2": 97.33
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "New month, sleep was not super bad but not good. Another 6 h sleep\nDoing exercises for legi, but feels like my knee is not appreciating something here - not sure which exercise it is - well it was during the walk\nBreakfast\nPhysioveda - the guy showed me how my leg looks like - the back of whole leg is completely weaker wowza\nCrm meeting talking about what to do for 10th years anniversary\nCosita made an amazing luncy chicken in tai soup\nSnagging to the end with tarique - we agreed on the deal - w"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
