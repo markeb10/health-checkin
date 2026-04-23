@@ -1,0 +1,37 @@
+{
+  "date": "2025-08-29",
+  "generated_at": "2026-04-23T23:18:34.324663",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 57657,
+    "resting_hr": 55.0,
+    "hrv": 48.87,
+    "daylight_mins": 209.0,
+    "vo2max": 40.49,
+    "spo2": 99.0
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 4,
+    "energy": null,
+    "sleep_quality": 3,
+    "supplements": 6,
+    "journal": "Tired after Sauna but also my brain was not really working, I feel I am not sleeping well at all. Need to get some regenerative sleep today.\n\nMet with Schulleyman spent 1.5 for 10% \u2026. damn it but I think its the right move I think he will bring this baby much higher and I am all for seeing it grow.\n3/10 bloating, but also I feel super big pain in my hip and big pain in my upper back on left side",
+    "supplements_list": [
+      "Enterosgel",
+      "Glycine",
+      "Magnesium",
+      "Multivitamin",
+      "Vitamin C",
+      "Zinc"
+    ],
+    "anxiety": 8,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
