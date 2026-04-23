@@ -1,0 +1,67 @@
+{
+  "date": "2026-01-29",
+  "generated_at": "2026-04-23T23:21:42.082625",
+  "whoop": {
+    "imported": true,
+    "recovery": 86.0,
+    "hrv": 38.3,
+    "rhr": 50.0,
+    "sleep_perf": 85.0,
+    "strain": 13.7,
+    "sleep_hrs": 6.8,
+    "spo2": 97.2,
+    "skin_temp": 34.0,
+    "sleep_efficiency": 89.8,
+    "sleep_consistency": 89.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 3.2,
+    "deep_sleep_hrs": 1.6,
+    "rem_sleep_hrs": 2.0,
+    "awake_hrs": 0.8,
+    "sleep_cycles": 7,
+    "disturbances": 5,
+    "sleep_needed_hrs": 9.4,
+    "sleep_debt_hrs": 1.6,
+    "calories": 2378,
+    "avg_hr": 68,
+    "max_hr": 161,
+    "workouts": [
+      {
+        "sport": "Walking",
+        "calories": 737,
+        "avg_hr": 125,
+        "max_hr": 161
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 10510,
+    "resting_hr": 53.0,
+    "hrv": 55.08,
+    "sleep_hrs": 4.9,
+    "daylight_mins": 1.0,
+    "spo2": 96.71,
+    "respiratory_rate": 13.32,
+    "sleep_awake_hrs": 0.8
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 4,
+    "journal": "Feeling good in the morning, though it feels like I am going to catch some cold like Alex but its okey, I am holding up\nbloating 4/10, could be way worse considering how much banana bread and deserts I had lol",
+    "supplements_list": [
+      "Electrolytes",
+      "Ginger",
+      "Propolis",
+      "Vitamin C"
+    ],
+    "anxiety": 5,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
