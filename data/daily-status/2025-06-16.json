@@ -1,0 +1,31 @@
+{
+  "date": "2025-06-16",
+  "generated_at": "2026-04-23T23:17:01.492767",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 5210,
+    "resting_hr": 57.0,
+    "hrv": 59.97,
+    "daylight_mins": 16.0,
+    "spo2": 97.62
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 2,
+    "journal": "Feelinf depresed, unmotivated, cant concentrate, just not able to finisih anythinf really, had a good chat with Luka\n1 stool in morning was floating and 4",
+    "supplements_list": [
+      "Enterosgel",
+      "Vitamin C"
+    ],
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
