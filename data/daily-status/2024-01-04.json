@@ -1,0 +1,27 @@
+{
+  "date": "2024-01-04",
+  "generated_at": "2026-04-23T23:05:50.489542",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16815,
+    "resting_hr": 56.0,
+    "hrv": 63.53,
+    "daylight_mins": 95.0,
+    "spo2": 98.5,
+    "respiratory_rate": 15.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Slept amazing, felt really good in morning - went all into activities with dumbells and pushups and leg activation and rowing and walking\nTai chi\nWalkie and talkie to Manoel island and back - spoke to Dimitar - I am not agreeing to all but he seems to be great hire still\nGym quick - rowing 5 min , did 70 pushups\nBreakfast at 12\nDidnt do much today, had another call witj Dimitar just wanted to bounce on some ideas\nLunchy cosita made was very good the chicken was nice\nSpoke to Filip povedal mi je "
+  },
+  "zoe": {
+    "imported": false
+  }
+}
