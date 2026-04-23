@@ -1,0 +1,33 @@
+{
+  "date": "2024-05-13",
+  "generated_at": "2026-04-23T23:08:37.395148",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 41541,
+    "resting_hr": 56.0,
+    "hrv": 71.87,
+    "sleep_hrs": 7.3,
+    "daylight_mins": 177.0,
+    "spo2": 95.33,
+    "respiratory_rate": 13.75,
+    "sleep_deep_hrs": 1.7,
+    "sleep_rem_hrs": 1.8,
+    "sleep_core_hrs": 3.8,
+    "sleep_awake_hrs": 1.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": 7,
+    "supplements": 0,
+    "journal": "Positive feelings in the morning, slept better, \n\nGood after workout\n\nTired after lunch\nAll ok, was just acting weird after rasbberries",
+    "anxiety": 2
+  },
+  "zoe": {
+    "imported": false
+  }
+}
