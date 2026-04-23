@@ -1,0 +1,24 @@
+{
+  "date": "2023-08-19",
+  "generated_at": "2026-04-23T23:02:57.442198",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 16753,
+    "resting_hr": 58.0,
+    "hrv": 51.1
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": null,
+    "sleep_quality": null,
+    "supplements": 0,
+    "journal": "Not so long sleep, but its fine - did some gym which felt good - really nice to do some of this exercises every second day, need to bring the band to Luebeck so I will do it there\nGym\nBreakfast\nDrive with Polona and guys to Brda\nWine tasting at Ferdinand and Edi Simic ferdinand story was much better and also wines I felt where much better\nWe went for lunch as well with a very nice view of Brda\nWe came back no traffic issues and we went shopping\nWe made steaks \ud83e\udd69 first time outside on the inductio"
+  },
+  "zoe": {
+    "imported": false
+  }
+}
