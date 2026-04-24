@@ -1,6 +1,6 @@
 {
   "date": "2026-04-24",
-  "generated_at": "2026-04-24T08:00:07.833361",
+  "generated_at": "2026-04-25T00:16:22.734608",
   "whoop": {
     "imported": false
   },
@@ -8,9 +8,289 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 6,
+    "sleep_quality": 8,
+    "supplements": 4,
+    "journal": "1. Duolingo\n2. Working with Claude\n3. Processing payrolls and building the database\n4. Lunch in the Portuguese restaurant\n5. managed to play a bit ping pong with cosita was fun\n5. walking aronud to Westminster and abb and big beng and buckingham palace\n6. worked with claude finally imported all invoices from API trough INV system Vlad helped me\n7. Duolingo",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "23:04",
+        "dose": "60",
+        "unit": "mg"
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "23:04",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "23:04",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "23:04",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 0,
+    "bloating": 5
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 7,
+    "meal_names": [
+      "Rice Cakes with Peanut Butter and Blueberries",
+      "Beef and Vegetable Stew with Fried Rice",
+      "Roast Chicken with Potatoes and Dips",
+      "Pulled beef and Chicken Tacos with Avocado Crema",
+      "Corn on the Cob with Butter",
+      "Porridge with Blueberries and Jam",
+      "Fried Eggs with Wholemeal Toast and Microgreens"
+    ],
+    "meal_details": [
+      {
+        "name": "Rice Cakes with Peanut Butter and Blueberries",
+        "score": 66,
+        "calories": 105.0,
+        "protein_g": 3.7,
+        "fat_g": 7.8,
+        "carbs_g": 5.2,
+        "fibre_g": 1.3,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "30 g",
+            "score": 73
+          },
+          {
+            "name": "Oppa Tteok Rice Cake",
+            "qty": "1 g",
+            "score": 43
+          },
+          {
+            "name": "Peanut butter, smooth",
+            "qty": "15 g",
+            "score": 64
+          }
+        ]
+      },
+      {
+        "name": "Beef and Vegetable Stew with Fried Rice",
+        "score": 46,
+        "calories": 990.0,
+        "protein_g": 67.2,
+        "fat_g": 28.9,
+        "carbs_g": 123.0,
+        "fibre_g": 7.3,
+        "ingredients": [
+          {
+            "name": "Beef, stewing steak, lean",
+            "qty": "1 \u00d7 medium serving",
+            "score": 48
+          },
+          {
+            "name": "Eggs",
+            "qty": "1 \u00d7 medium",
+            "score": 71
+          },
+          {
+            "name": "Garlic",
+            "qty": "2 \u00d7 clove",
+            "score": 79
+          },
+          {
+            "name": "Ginger, fresh",
+            "qty": "2 \u00d7 slice",
+            "score": 80
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "1 \u00d7 small",
+            "score": 84
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Potatoes",
+            "qty": "1 \u00d7 serving",
+            "score": 43
+          },
+          {
+            "name": "Rice, plain, ready-cooked",
+            "qty": "1 \u00d7 large serving",
+            "score": 27
+          },
+          {
+            "name": "Spring onions",
+            "qty": "1 \u00d7 spring onion",
+            "score": 96
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "3 \u00d7 cherry tomato",
+            "score": 90
+          },
+          {
+            "name": "Vegetable oil",
+            "qty": "10 ml",
+            "score": 78
+          }
+        ]
+      },
+      {
+        "name": "Roast Chicken with Potatoes and Dips",
+        "score": 42,
+        "calories": 725.0,
+        "protein_g": 52.8,
+        "fat_g": 43.1,
+        "carbs_g": 33.0,
+        "fibre_g": 1.4,
+        "ingredients": [
+          {
+            "name": "Chicken, whole, weighed raw with bones",
+            "qty": "400 g",
+            "score": 47
+          },
+          {
+            "name": "Potatoes, roasted in oil",
+            "qty": "1 \u00d7 serving",
+            "score": 29
+          }
+        ]
+      },
+      {
+        "name": "Pulled beef and Chicken Tacos with Avocado Crema",
+        "score": 69,
+        "calories": 221.0,
+        "protein_g": 19.2,
+        "fat_g": 8.7,
+        "carbs_g": 17.5,
+        "fibre_g": 1.7,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "30 g",
+            "score": 100
+          },
+          {
+            "name": "Beef, lean, weighed raw",
+            "qty": "1 g",
+            "score": 48
+          },
+          {
+            "name": "Chicken breast",
+            "qty": "50 g",
+            "score": 65
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "10 g",
+            "score": 84
+          },
+          {
+            "name": "Tortilla wraps",
+            "qty": "30 g",
+            "score": 39
+          }
+        ]
+      },
+      {
+        "name": "Corn on the Cob with Butter",
+        "score": 76,
+        "calories": 130.0,
+        "protein_g": 3.1,
+        "fat_g": 9.8,
+        "carbs_g": 8.1,
+        "fibre_g": 2.1,
+        "ingredients": [
+          {
+            "name": "Butter, salted",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 47
+          },
+          {
+            "name": "Corn on the cob, weighed with core",
+            "qty": "1 \u00d7 large",
+            "score": 92
+          }
+        ]
+      },
+      {
+        "name": "Porridge with Blueberries and Jam",
+        "score": 47,
+        "calories": 523.0,
+        "protein_g": 8.6,
+        "fat_g": 34.9,
+        "carbs_g": 47.0,
+        "fibre_g": 4.2,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Coconut milk/cream, reduced fat, tinned",
+            "qty": "1 \u00d7 tin",
+            "score": 46
+          },
+          {
+            "name": "Oats",
+            "qty": "1 \u00d7 medium bowl",
+            "score": 49
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Wholemeal Toast and Microgreens",
+        "score": 57,
+        "calories": 535.0,
+        "protein_g": 35.7,
+        "fat_g": 33.5,
+        "carbs_g": 24.2,
+        "fibre_g": 3.2,
+        "ingredients": [
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 33
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "3 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Microgreens",
+            "qty": "5 g",
+            "score": 100
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "1 \u00d7 cherry tomato",
+            "score": 90
+          }
+        ]
+      }
+    ],
+    "avg_score": 58.0,
+    "calories": 3229.0,
+    "protein_g": 190.3,
+    "fat_g": 166.7,
+    "carbs_g": 258.0,
+    "fibre_g": 21.2
   }
 }
