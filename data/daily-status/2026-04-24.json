@@ -1,6 +1,6 @@
 {
   "date": "2026-04-24",
-  "generated_at": "2026-04-25T09:16:08.747208",
+  "generated_at": "2026-04-25T09:31:12.883927",
   "whoop": {
     "imported": true,
     "recovery": 69.0,
@@ -84,6 +84,261 @@
     "bloating": 5
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 7,
+    "meal_names": [
+      "Rice Cakes with Chocolate Spread and Blueberries",
+      "Slice of Cake with Ice Cream, Pastry and Cream",
+      "Roast Chicken with Potatoes, Salad, Rice and Skewers",
+      "Arancini with Bread and Olive Oil",
+      "Sausages with Peppers and Prawns with Garlic",
+      "Porridge with Blueberries",
+      "Fried Eggs with Toast, Cherry Tomato and Microgreens"
+    ],
+    "meal_details": [
+      {
+        "name": "Rice Cakes with Chocolate Spread and Blueberries",
+        "score": 81,
+        "calories": 25.0,
+        "protein_g": 0.7,
+        "fat_g": 0.6,
+        "carbs_g": 4.2,
+        "fibre_g": 0.7,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Meridian Almond Butter",
+            "qty": "1 g",
+            "score": 90
+          },
+          {
+            "name": "Oppa Tteok Rice Cake",
+            "qty": "1 g",
+            "score": 43
+          }
+        ]
+      },
+      {
+        "name": "Slice of Cake with Ice Cream, Pastry and Cream",
+        "score": 23,
+        "calories": 98.0,
+        "protein_g": 1.0,
+        "fat_g": 3.4,
+        "carbs_g": 15.9,
+        "fibre_g": 0.4,
+        "ingredients": [
+          {
+            "name": "Almondy Almond Cake, \u2155 g",
+            "qty": null,
+            "score": 29
+          },
+          {
+            "name": "Lemon peel / zest",
+            "qty": "1 g",
+            "score": 100
+          },
+          {
+            "name": "Pastel de nata, portuguese custard tarts, \u00bd \u00d7 tart",
+            "qty": null,
+            "score": 23
+          }
+        ]
+      },
+      {
+        "name": "Roast Chicken with Potatoes, Salad, Rice and Skewers",
+        "score": 50,
+        "calories": 618.0,
+        "protein_g": 40.0,
+        "fat_g": 27.2,
+        "carbs_g": 56.4,
+        "fibre_g": 5.4,
+        "ingredients": [
+          {
+            "name": "Beef, lean, weighed raw",
+            "qty": "1 g",
+            "score": 48
+          },
+          {
+            "name": "Cabbage",
+            "qty": "2 \u00d7 serving",
+            "score": 91
+          },
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 medium",
+            "score": 65
+          },
+          {
+            "name": "Lemons",
+            "qty": "50 g",
+            "score": 78
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "15 ml",
+            "score": 90
+          },
+          {
+            "name": "Potatoes, roasted in oil",
+            "qty": "1 \u00d7 serving",
+            "score": 29
+          },
+          {
+            "name": "Rice, egg fried, shop-bought, \u00bd \u00d7 small serving",
+            "qty": null,
+            "score": 28
+          }
+        ]
+      },
+      {
+        "name": "Arancini with Bread and Olive Oil",
+        "score": 75,
+        "calories": 350.0,
+        "protein_g": 3.8,
+        "fat_g": 28.8,
+        "carbs_g": 20.2,
+        "fibre_g": 1.7,
+        "ingredients": [
+          {
+            "name": "Bread, brown",
+            "qty": "1 \u00d7 large slice",
+            "score": 27
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "30 ml",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Sausages with Peppers and Prawns with Garlic",
+        "score": 59,
+        "calories": 470.0,
+        "protein_g": 36.4,
+        "fat_g": 25.1,
+        "carbs_g": 25.5,
+        "fibre_g": 4.0,
+        "ingredients": [
+          {
+            "name": "Bay leaf, dried",
+            "qty": "5 \u00d7 leaf",
+            "score": 81
+          },
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": "1 \u00d7 small slice",
+            "score": 47
+          },
+          {
+            "name": "Chorizo",
+            "qty": "2 \u00d7 slice",
+            "score": 2
+          },
+          {
+            "name": "Garlic",
+            "qty": "3 \u00d7 clove",
+            "score": 79
+          },
+          {
+            "name": "Lemons",
+            "qty": "20 g",
+            "score": 78
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "15 ml",
+            "score": 90
+          },
+          {
+            "name": "Peppers, green",
+            "qty": "1 \u00d7 serving",
+            "score": 89
+          },
+          {
+            "name": "Potatoes",
+            "qty": "1 \u00d7 potato",
+            "score": 43
+          },
+          {
+            "name": "Prawns, king",
+            "qty": "2 \u00d7 serving",
+            "score": 73
+          }
+        ]
+      },
+      {
+        "name": "Porridge with Blueberries",
+        "score": 53,
+        "calories": 208.0,
+        "protein_g": 5.9,
+        "fat_g": 4.2,
+        "carbs_g": 39.1,
+        "fibre_g": 4.3,
+        "ingredients": [
+          {
+            "name": "Beper Almond Milk",
+            "qty": "1 \u00d7 dash",
+            "score": 76
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Mint, fresh",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 80
+          },
+          {
+            "name": "Oats",
+            "qty": "1 \u00d7 medium bowl",
+            "score": 49
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast, Cherry Tomato and Microgreens",
+        "score": 60,
+        "calories": 504.0,
+        "protein_g": 34.3,
+        "fat_g": 33.2,
+        "carbs_g": 18.3,
+        "fibre_g": 2.5,
+        "ingredients": [
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 33
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "3 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Microgreens",
+            "qty": "5 g",
+            "score": 100
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "1 \u00d7 cherry tomato",
+            "score": 90
+          }
+        ]
+      }
+    ],
+    "avg_score": 57.3,
+    "calories": 2273.0,
+    "protein_g": 122.1,
+    "fat_g": 122.5,
+    "carbs_g": 179.6,
+    "fibre_g": 19.0
   }
 }
