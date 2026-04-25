@@ -1,6 +1,6 @@
 {
   "date": "2026-04-25",
-  "generated_at": "2026-04-25T09:32:13.142459",
+  "generated_at": "2026-04-25T23:27:47.476720",
   "whoop": {
     "imported": true,
     "recovery": 55.0,
@@ -32,13 +32,300 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
-    "energy": 5,
-    "sleep_quality": 5,
-    "supplements": 0,
-    "anxiety": 0
+    "mood": 6,
+    "energy": 6,
+    "sleep_quality": 7,
+    "supplements": 5,
+    "journal": "1. Zoe\n2. Breakfast\n3. Clauding around - playing with Claude building and correcting his data for Salary review and investments - doing loan organizsation and making him digest all my emails and bank statements\n4. went to bo market",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "22:02",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "22:02",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "22:02",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Alfacort (hydrocortisone 1%)",
+        "time": "22:02",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Bepanthen ointment",
+        "time": "22:02",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 4,
+    "energy_evening": 6,
+    "anxiety": 1,
+    "bloating": 6
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Rice Cakes with Chocolate Spread",
+      "Lamb Chop with Tomatoes, Grain Pilaf with Dill and Yogurt, and Chicken Skewers with Pistachios and Lemon",
+      "Kofta in Pitta with Tomato and Cucumber Salad",
+      "Mezze Platter with Hummus, Baba Ghanoush and Bread",
+      "Fried Eggs with Toast, Cherry Tomato and Microgreens"
+    ],
+    "meal_details": [
+      {
+        "name": "Rice Cakes with Chocolate Spread",
+        "score": 72,
+        "calories": 103.0,
+        "protein_g": 1.9,
+        "fat_g": 0.7,
+        "carbs_g": 4.4,
+        "fibre_g": 0.5,
+        "ingredients": [
+          {
+            "name": "Exki Corn Cakes",
+            "qty": "1 \u00d7 individual bag",
+            "score": 70
+          },
+          {
+            "name": "Meridian Almond Butter",
+            "qty": "1 g",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Lamb Chop with Tomatoes, Grain Pilaf with Dill and Yogurt, and Chicken Skewers with Pistachios and Lemon",
+        "score": 68,
+        "calories": 871.0,
+        "protein_g": 95.3,
+        "fat_g": 30.0,
+        "carbs_g": 54.6,
+        "fibre_g": 7.4,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 medium",
+            "score": 65
+          },
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 65
+          },
+          {
+            "name": "Dill, fresh",
+            "qty": "8 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Lemons",
+            "qty": "50 g",
+            "score": 78
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "10 ml",
+            "score": 90
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Pilaf, rice with spinach",
+            "qty": "1 \u00d7 large serving",
+            "score": 39
+          },
+          {
+            "name": "Pistachio nuts, unsalted",
+            "qty": "15 g",
+            "score": 100
+          },
+          {
+            "name": "Salt",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Tomatoes",
+            "qty": "1 \u00d7 large, beefsteak size",
+            "score": 84
+          },
+          {
+            "name": "Yoghurt, Greek, plain, natural",
+            "qty": "30 g",
+            "score": 77
+          }
+        ]
+      },
+      {
+        "name": "Kofta in Pitta with Tomato and Cucumber Salad",
+        "score": 45,
+        "calories": 621.0,
+        "protein_g": 41.8,
+        "fat_g": 29.6,
+        "carbs_g": 49.5,
+        "fibre_g": 2.6,
+        "ingredients": [
+          {
+            "name": "Bread, pitta, white",
+            "qty": "1 \u00d7 pitta",
+            "score": 25
+          },
+          {
+            "name": "Cucumber",
+            "qty": "15 g",
+            "score": 100
+          },
+          {
+            "name": "Garlic",
+            "qty": "2 g",
+            "score": 79
+          },
+          {
+            "name": "Kofta, lamb, breaded, homemade",
+            "qty": "5 \u00d7 kofta",
+            "score": 44
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "5 g",
+            "score": 84
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "3 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Tomatoes",
+            "qty": "1 \u00d7 slice",
+            "score": 84
+          }
+        ]
+      },
+      {
+        "name": "Mezze Platter with Hummus, Baba Ghanoush and Bread",
+        "score": 41,
+        "calories": 1.0,
+        "protein_g": 41.5,
+        "fat_g": 139.9,
+        "carbs_g": 84.4,
+        "fibre_g": 30.2,
+        "ingredients": [
+          {
+            "name": "Baba ganoush",
+            "qty": "150 g",
+            "score": 89
+          },
+          {
+            "name": "Bread, pitta, white",
+            "qty": "1 \u00d7 pitta",
+            "score": 25
+          },
+          {
+            "name": "Chilli flakes",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 77
+          },
+          {
+            "name": "Chilli peppers, chillies, green",
+            "qty": "20 g",
+            "score": 100
+          },
+          {
+            "name": "Garlic",
+            "qty": "2 \u00d7 clove",
+            "score": 79
+          },
+          {
+            "name": "Hummus, houmous",
+            "qty": "2 \u00d7 tub",
+            "score": 85
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "10 ml",
+            "score": 90
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "10 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Pomegranates",
+            "qty": "10 g",
+            "score": 60
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast, Cherry Tomato and Microgreens",
+        "score": 53,
+        "calories": 399.0,
+        "protein_g": 25.7,
+        "fat_g": 22.9,
+        "carbs_g": 24.2,
+        "fibre_g": 3.2,
+        "ingredients": [
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 33
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Microgreens",
+            "qty": "5 g",
+            "score": 100
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "1 \u00d7 cherry tomato",
+            "score": 90
+          }
+        ]
+      }
+    ],
+    "avg_score": 56.0,
+    "calories": 1995.0,
+    "protein_g": 206.2,
+    "fat_g": 223.1,
+    "carbs_g": 217.1,
+    "fibre_g": 43.9
   }
 }
