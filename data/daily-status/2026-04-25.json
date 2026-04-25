@@ -1,6 +1,6 @@
 {
   "date": "2026-04-25",
-  "generated_at": "2026-04-25T00:19:34.549964",
+  "generated_at": "2026-04-25T08:00:07.026753",
   "whoop": {
     "imported": false
   },
@@ -8,7 +8,12 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 5,
+    "energy": 5,
+    "sleep_quality": 5,
+    "supplements": 0,
+    "anxiety": 0
   },
   "zoe": {
     "imported": true,
@@ -261,7 +266,7 @@
         ]
       }
     ],
-    "avg_score": 57.0,
+    "avg_score": 57.3,
     "calories": 2273.0,
     "protein_g": 122.1,
     "fat_g": 122.5,
