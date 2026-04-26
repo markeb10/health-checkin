@@ -1,6 +1,6 @@
 {
   "date": "2026-04-26",
-  "generated_at": "2026-04-26T22:56:54.343489",
+  "generated_at": "2026-04-26T23:05:58.722563",
   "whoop": {
     "imported": true,
     "recovery": 39.0,
@@ -35,8 +35,8 @@
     "mood": 5,
     "energy": 6,
     "sleep_quality": 7,
-    "supplements": 5,
-    "journal": "Grateful for: Being alive, having woken up in my skin, still being able to control my day, take care of myself, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Being in London this great town\nToday great: New places I will visit today Camden town\nI will give back to our guys, by doing salaries\nAffirmation: Take it easy and dont stress youself, everything is going to be fine.",
+    "supplements": 8,
+    "journal": "1. duo lingo\n2. breakfast\n3. showered finally\n4. talking to claudio to figure out what the heck is the problem\n5. camden town\n6. buttersea powerplant view \n7. tashas lunch\n8. boots to get gloves and vitamin C\n9. ",
     "supplements_list": [
       {
         "name": "Vitamin C (1)",
@@ -67,14 +67,383 @@
         "time": "16:34",
         "dose": "",
         "unit": ""
+      },
+      {
+        "name": "Eumovate 2 x CeraVe Therapetic cream",
+        "time": "23:02",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Liposomal C (Modern Chemistry)",
+        "time": "23:02",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Lemon on blisters",
+        "time": "23:02",
+        "dose": "",
+        "unit": ""
       }
     ],
     "energy_afternoon": 5,
     "energy_evening": 5,
     "anxiety": 0,
-    "bloating": 0
+    "bloating": 5
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 8,
+    "meal_names": [
+      "Chicken and Roasted Potato Bowl with Spinach and Rice",
+      "Steak with Burrata and Roasted Potatoes",
+      "Prawn Curry with Spinach and Rice",
+      "Rocket, Corn and Feta Salad with Cherry Tomatoes and Lemon",
+      "Breaded Fish Sandwich with Sauce",
+      "Fried Eggs with Bread and Microgreens",
+      "Chia Pudding with Mango, Raspberry and Coconut",
+      "The Fine Cheese Co Toast For Cheese Cherries, Almonds &amp; Linseeds"
+    ],
+    "meal_details": [
+      {
+        "name": "Chicken and Roasted Potato Bowl with Spinach and Rice",
+        "score": 65,
+        "calories": 285.0,
+        "protein_g": 35.1,
+        "fat_g": 9.1,
+        "carbs_g": 16.8,
+        "fibre_g": 2.4,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 medium",
+            "score": 65
+          },
+          {
+            "name": "Lettuce",
+            "qty": "3 \u00d7 large leaf",
+            "score": 97
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Potatoes, roasted in oil, \u2155 \u00d7 serving",
+            "qty": null,
+            "score": 29
+          },
+          {
+            "name": "Rice, brown, \u2155 \u00d7 small serving",
+            "qty": null,
+            "score": 36
+          },
+          {
+            "name": "Spinach",
+            "qty": "50 g",
+            "score": 93
+          }
+        ]
+      },
+      {
+        "name": "Steak with Burrata and Roasted Potatoes",
+        "score": 47,
+        "calories": 587.0,
+        "protein_g": 34.9,
+        "fat_g": 39.3,
+        "carbs_g": 25.0,
+        "fibre_g": 2.5,
+        "ingredients": [
+          {
+            "name": "Beef, ribeye steak, lean, \u00bd \u00d7 medium, 5 oz",
+            "qty": null,
+            "score": 35
+          },
+          {
+            "name": "Burrata cheese",
+            "qty": "100 g",
+            "score": 63
+          },
+          {
+            "name": "Chilli flakes",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 77
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Potatoes, roasted in oil, \u00bd \u00d7 serving",
+            "qty": null,
+            "score": 29
+          },
+          {
+            "name": "Tomato puree",
+            "qty": "50 ml",
+            "score": 74
+          }
+        ]
+      },
+      {
+        "name": "Prawn Curry with Spinach and Rice",
+        "score": 67,
+        "calories": 537.0,
+        "protein_g": 20.6,
+        "fat_g": 29.9,
+        "carbs_g": 49.8,
+        "fibre_g": 4.8,
+        "ingredients": [
+          {
+            "name": "Chilli powder",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 76
+          },
+          {
+            "name": "Coconut milk/cream, tinned",
+            "qty": "100 ml",
+            "score": 46
+          },
+          {
+            "name": "Coriander leaves, fresh",
+            "qty": "8 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Cumin seeds",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 75
+          },
+          {
+            "name": "Garlic",
+            "qty": "2 \u00d7 clove",
+            "score": 79
+          },
+          {
+            "name": "Ginger, fresh",
+            "qty": "2 \u00d7 slice",
+            "score": 80
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "1 \u00d7 slice",
+            "score": 84
+          },
+          {
+            "name": "Peppers, orange",
+            "qty": "1 \u00d7 serving",
+            "score": 84
+          },
+          {
+            "name": "Prawns",
+            "qty": "1 \u00d7 serving",
+            "score": 70
+          },
+          {
+            "name": "Rice, white, basmati",
+            "qty": "1 \u00d7 small serving",
+            "score": 42
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Spinach",
+            "qty": "50 g",
+            "score": 93
+          },
+          {
+            "name": "Tomatoes, chopped, tinned",
+            "qty": "100 g",
+            "score": 86
+          },
+          {
+            "name": "Turmeric, ground",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 69
+          },
+          {
+            "name": "Vegetable oil",
+            "qty": "10 ml",
+            "score": 78
+          }
+        ]
+      },
+      {
+        "name": "Rocket, Corn and Feta Salad with Cherry Tomatoes and Lemon",
+        "score": 79,
+        "calories": 375.0,
+        "protein_g": 14.6,
+        "fat_g": 31.0,
+        "carbs_g": 10.4,
+        "fibre_g": 2.8,
+        "ingredients": [
+          {
+            "name": "Cheese, Feta",
+            "qty": "2 \u00d7 portion",
+            "score": 47
+          },
+          {
+            "name": "Lemons",
+            "qty": "10 g",
+            "score": 78
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "15 ml",
+            "score": 90
+          },
+          {
+            "name": "Olives, black, kalamata, in brine",
+            "qty": "1 \u00d7 handful",
+            "score": 84
+          },
+          {
+            "name": "Rocket",
+            "qty": "6 \u00d7 handful of leaves",
+            "score": 100
+          },
+          {
+            "name": "Sweetcorn",
+            "qty": "1 \u00d7 serving",
+            "score": 92
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "3 \u00d7 cherry tomato",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Breaded Fish Sandwich with Sauce",
+        "score": 32,
+        "calories": 931.0,
+        "protein_g": 23.6,
+        "fat_g": 42.2,
+        "carbs_g": 116.3,
+        "fibre_g": 5.5,
+        "ingredients": [
+          {
+            "name": "Bread rolls, buns, baps, white",
+            "qty": "1 \u00d7 large bap",
+            "score": 21
+          },
+          {
+            "name": "Lettuce",
+            "qty": "5 g",
+            "score": 97
+          },
+          {
+            "name": "Mayonnaise",
+            "qty": "30 ml",
+            "score": 48
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "15 g",
+            "score": 84
+          },
+          {
+            "name": "Tesco Southern Fried Chicken Wrap",
+            "qty": "1 \u00d7 serving",
+            "score": 29
+          },
+          {
+            "name": "Tomatoes",
+            "qty": "10 g",
+            "score": 84
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Bread and Microgreens",
+        "score": 60,
+        "calories": 340.0,
+        "protein_g": 23.1,
+        "fat_g": 22.2,
+        "carbs_g": 12.9,
+        "fibre_g": 1.8,
+        "ingredients": [
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 small slice",
+            "score": 33
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Microgreens",
+            "qty": "5 g",
+            "score": 100
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "1 \u00d7 cherry tomato",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Chia Pudding with Mango, Raspberry and Coconut",
+        "score": 97,
+        "calories": 250.0,
+        "protein_g": 6.5,
+        "fat_g": 17.2,
+        "carbs_g": 9.6,
+        "fibre_g": 13.7,
+        "ingredients": [
+          {
+            "name": "Almond milk, unsweetened",
+            "qty": "200 ml",
+            "score": 54
+          },
+          {
+            "name": "Chia seeds",
+            "qty": "1 \u00d7 handful",
+            "score": 100
+          },
+          {
+            "name": "Coconut, desiccated",
+            "qty": "10 g",
+            "score": 75
+          },
+          {
+            "name": "Mango",
+            "qty": "1 \u00d7 slice",
+            "score": 66
+          },
+          {
+            "name": "Raspberries",
+            "qty": "8 \u00d7 raspberry",
+            "score": 88
+          }
+        ]
+      },
+      {
+        "name": "The Fine Cheese Co Toast For Cheese Cherries, Almonds &amp; Linseeds",
+        "score": null,
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "carbs_g": null,
+        "fibre_g": null,
+        "ingredients": []
+      }
+    ],
+    "avg_score": 64.0,
+    "calories": 3305.0,
+    "protein_g": 158.4,
+    "fat_g": 190.9,
+    "carbs_g": 240.79999999999998,
+    "fibre_g": 33.5
   }
 }
