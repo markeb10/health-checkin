@@ -1,6 +1,6 @@
 {
   "date": "2026-04-24",
-  "generated_at": "2026-04-26T08:31:05.105523",
+  "generated_at": "2026-04-26T08:45:49.654308",
   "whoop": {
     "imported": true,
     "recovery": 69.0,
@@ -46,7 +46,42 @@
     "sleep_awake_hrs": 0.5
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 6,
+    "sleep_quality": 8,
+    "supplements": 4,
+    "journal": "1. Duolingo\n2. Working with Claude\n3. Processing payrolls and building the database\n4. Lunch in the Portuguese restaurant\n5. managed to play a bit ping pong with cosita was fun\n5. walking aronud to Westminster and abb and big beng and buckingham palace\n6. worked with claude finally imported all invoices from API trough INV system Vlad helped me\n7. Duolingo",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "23:04",
+        "dose": "60",
+        "unit": "mg"
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "23:04",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "23:04",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "23:04",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 0,
+    "bloating": 5
   },
   "zoe": {
     "imported": true,
@@ -299,7 +334,7 @@
         ]
       }
     ],
-    "avg_score": 57.0,
+    "avg_score": 57.3,
     "calories": 2273.0,
     "protein_g": 122.1,
     "fat_g": 122.5,
