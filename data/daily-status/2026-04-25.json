@@ -1,31 +1,8 @@
 {
   "date": "2026-04-25",
-  "generated_at": "2026-04-26T07:00:55.177216",
+  "generated_at": "2026-04-26T07:16:07.294801",
   "whoop": {
-    "imported": true,
-    "recovery": 55.0,
-    "hrv": 34.0,
-    "rhr": 48.0,
-    "sleep_perf": 87.0,
-    "strain": 4.2,
-    "sleep_hrs": 6.8,
-    "spo2": 96.1,
-    "skin_temp": 34.3,
-    "sleep_efficiency": 93.3,
-    "sleep_consistency": 83.0,
-    "respiratory_rate": 13.2,
-    "light_sleep_hrs": 3.2,
-    "deep_sleep_hrs": 2.2,
-    "rem_sleep_hrs": 1.4,
-    "awake_hrs": 0.5,
-    "sleep_cycles": 6,
-    "disturbances": 8,
-    "sleep_needed_hrs": 8.1,
-    "sleep_debt_hrs": 0.5,
-    "calories": 1457,
-    "avg_hr": 59,
-    "max_hr": 110,
-    "workouts": []
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -39,54 +16,7 @@
     "sleep_awake_hrs": 0.6
   },
   "checkin": {
-    "imported": true,
-    "mood": 6,
-    "energy": 6,
-    "sleep_quality": 7,
-    "supplements": 6,
-    "journal": "1. Zoe\n2. Breakfast\n3. Clauding around - playing with Claude building and correcting his data for Salary review and investments - doing loan organizsation and making him digest all my emails and bank statements\n4. went to the market in bourough street then walked along the south bank all the way to tower-hill and further \n5. super tired in afternoon was better after I got some food but yeah super tired\n6. Played around with Claude managed to connect my emails with API and claude so now I am able",
-    "supplements_list": [
-      {
-        "name": "Telfast",
-        "time": "22:02",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Vitamin C (1)",
-        "time": "22:02",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "roibos vanilla tea",
-        "time": "22:02",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Alfacort (hydrocortisone 1%)",
-        "time": "22:02",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Bepanthen ointment",
-        "time": "22:02",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Eumovate 2 x CeraVe Therapetic cream",
-        "time": "23:50",
-        "dose": "",
-        "unit": ""
-      }
-    ],
-    "energy_afternoon": 4,
-    "energy_evening": 6,
-    "anxiety": 1,
-    "bloating": 6
+    "imported": false
   },
   "zoe": {
     "imported": true,
@@ -335,7 +265,7 @@
         ]
       }
     ],
-    "avg_score": 55.8,
+    "avg_score": 56.0,
     "calories": 1995.0,
     "protein_g": 206.2,
     "fat_g": 223.1,
