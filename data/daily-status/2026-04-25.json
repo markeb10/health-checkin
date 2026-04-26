@@ -1,6 +1,6 @@
 {
   "date": "2026-04-25",
-  "generated_at": "2026-04-26T22:45:50.563310",
+  "generated_at": "2026-04-26T22:56:52.888438",
   "whoop": {
     "imported": true,
     "recovery": 55.0,
@@ -22,8 +22,8 @@
     "disturbances": 8,
     "sleep_needed_hrs": 8.1,
     "sleep_debt_hrs": 0.5,
-    "calories": 1975,
-    "avg_hr": 57,
+    "calories": 1510,
+    "avg_hr": 59,
     "max_hr": 110,
     "workouts": []
   },
