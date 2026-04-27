@@ -1,6 +1,6 @@
 {
   "date": "2026-04-27",
-  "generated_at": "2026-04-27T09:51:14.059000",
+  "generated_at": "2026-04-27T21:18:36.445685",
   "whoop": {
     "imported": true,
     "recovery": 97.0,
@@ -31,9 +31,286 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 8,
+    "sleep_quality": 8,
+    "supplements": 5,
+    "journal": "1. Duolingo\n2. Breakfast\n3. Doing some clauding - preparing\n4. Doing test epigenetic and genetic test + Zoe\n4. Lunch in Harrods - chicken shish was really good\n5. Working with zoe\n6. chatn - so so bit flat but okey we will get him up\n7. Did full run with claude taking attachments from email and putting it in right folder, understanding what was paid and what wasnt so this is important before I do anything\n8. Vitamin C took 4 drops in morning 2 after lunch definitely seeing less bloating after th",
+    "supplements_list": [
+      {
+        "name": "Liposomal C 4 drops",
+        "time": "19:51",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "19:51",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "19:51",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "19:51",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Eumovate + Beef tallow + White glove",
+        "time": "19:51",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 8,
+    "energy_evening": 7,
+    "anxiety": 0,
+    "bloating": 2
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Corn Cake with Nut Butter",
+      "Green Bean Side and Chicken Salad",
+      "Kofta Platter with Rice and Grilled Vegetables",
+      "Fried Eggs with Toast and Microgreens",
+      "Chia Pudding with Mango, Raspberry and Coconut"
+    ],
+    "meal_details": [
+      {
+        "name": "Corn Cake with Nut Butter",
+        "score": 72,
+        "calories": 103.0,
+        "protein_g": 1.9,
+        "fat_g": 0.7,
+        "carbs_g": 4.4,
+        "fibre_g": 0.5,
+        "ingredients": [
+          {
+            "name": "Exki Corn Cakes",
+            "qty": "1 \u00d7 individual bag",
+            "score": 70
+          },
+          {
+            "name": "Meridian Almond Butter",
+            "qty": "1 g",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Green Bean Side and Chicken Salad",
+        "score": 78,
+        "calories": 391.0,
+        "protein_g": 30.2,
+        "fat_g": 25.1,
+        "carbs_g": 11.9,
+        "fibre_g": 6.9,
+        "ingredients": [
+          {
+            "name": "Carrots",
+            "qty": "15 g",
+            "score": 81
+          },
+          {
+            "name": "Chicken breast",
+            "qty": "75 g",
+            "score": 65
+          },
+          {
+            "name": "Chilli peppers, chillies, red",
+            "qty": "5 g",
+            "score": 92
+          },
+          {
+            "name": "Garlic",
+            "qty": "3 \u00d7 clove",
+            "score": 79
+          },
+          {
+            "name": "Green beans",
+            "qty": "2 \u00d7 portion",
+            "score": 99
+          },
+          {
+            "name": "Lettuce",
+            "qty": "7 \u00d7 large leaf",
+            "score": 97
+          },
+          {
+            "name": "Mayonnaise",
+            "qty": "30 ml",
+            "score": 48
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "1 \u00d7 slice",
+            "score": 84
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "5 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          }
+        ]
+      },
+      {
+        "name": "Kofta Platter with Rice and Grilled Vegetables",
+        "score": 89,
+        "calories": 258.0,
+        "protein_g": 37.6,
+        "fat_g": 5.6,
+        "carbs_g": 13.8,
+        "fibre_g": 6.5,
+        "ingredients": [
+          {
+            "name": "Broccoli, tenderstem",
+            "qty": "1 \u00d7 serving",
+            "score": 100
+          },
+          {
+            "name": "Carrots",
+            "qty": "1 \u00d7 serving",
+            "score": 81
+          },
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 medium",
+            "score": 65
+          },
+          {
+            "name": "Gherkins, pickled",
+            "qty": "1 \u00d7 pickle",
+            "score": 73
+          },
+          {
+            "name": "Naan bread, \u2155 g",
+            "qty": null,
+            "score": 27
+          },
+          {
+            "name": "Pickled onions",
+            "qty": "2 \u00d7 pickled onion",
+            "score": 69
+          },
+          {
+            "name": "Pistachio nuts, unsalted",
+            "qty": "5 g",
+            "score": 100
+          },
+          {
+            "name": "Pomegranates",
+            "qty": "5 g",
+            "score": 60
+          },
+          {
+            "name": "Tomatoes, grilled",
+            "qty": "1 \u00d7 medium",
+            "score": 85
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast and Microgreens",
+        "score": 67,
+        "calories": 471.0,
+        "protein_g": 32.6,
+        "fat_g": 32.6,
+        "carbs_g": 11.5,
+        "fibre_g": 1.5,
+        "ingredients": [
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": "1 \u00d7 small slice",
+            "score": 47
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "3 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Microgreens",
+            "qty": "5 g",
+            "score": 100
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 dash",
+            "score": 20
+          }
+        ]
+      },
+      {
+        "name": "Chia Pudding with Mango, Raspberry and Coconut",
+        "score": 99,
+        "calories": 204.0,
+        "protein_g": 5.9,
+        "fat_g": 13.6,
+        "carbs_g": 6.6,
+        "fibre_g": 12.6,
+        "ingredients": [
+          {
+            "name": "Almond milk, unsweetened",
+            "qty": "150 ml",
+            "score": 54
+          },
+          {
+            "name": "Alpro Coconut Natural Yogurt",
+            "qty": "1 g",
+            "score": 75
+          },
+          {
+            "name": "Chia seeds",
+            "qty": "1 \u00d7 handful",
+            "score": 100
+          },
+          {
+            "name": "Coconut, desiccated",
+            "qty": "5 g",
+            "score": 75
+          },
+          {
+            "name": "Mango",
+            "qty": "20 g",
+            "score": 66
+          },
+          {
+            "name": "Raspberries",
+            "qty": "10 \u00d7 raspberry",
+            "score": 88
+          }
+        ]
+      }
+    ],
+    "avg_score": 81.0,
+    "calories": 1427.0,
+    "protein_g": 108.2,
+    "fat_g": 77.60000000000001,
+    "carbs_g": 48.2,
+    "fibre_g": 28.0
   }
 }
