@@ -1,6 +1,6 @@
 {
   "date": "2026-04-27",
-  "generated_at": "2026-04-27T21:23:37.954923",
+  "generated_at": "2026-04-27T21:31:02.255482",
   "whoop": {
     "imported": true,
     "recovery": 97.0,
@@ -50,7 +50,7 @@
     "mood": 7,
     "energy": 8,
     "sleep_quality": 8,
-    "supplements": 5,
+    "supplements": 6,
     "journal": "1. Duolingo\n2. Breakfast\n3. Doing some clauding - preparing\n4. Doing test epigenetic and genetic test + Zoe\n4. Lunch in Harrods - chicken shish was really good\n5. Working with zoe\n6. chatn - so so bit flat but okey we will get him up\n7. Did full run with claude taking attachments from email and putting it in right folder, understanding what was paid and what wasnt so this is important before I do anything\n8. Vitamin C took 4 drops in morning 2 after lunch definitely seeing less bloating after th",
     "supplements_list": [
       {
@@ -82,6 +82,12 @@
         "time": "19:51",
         "dose": "",
         "unit": ""
+      },
+      {
+        "name": "Liposomal C (Modern Chemistry)",
+        "time": "21:30",
+        "dose": "0.2",
+        "unit": "mg"
       }
     ],
     "energy_afternoon": 8,
