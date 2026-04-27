@@ -1,6 +1,6 @@
 {
   "date": "2026-04-27",
-  "generated_at": "2026-04-27T21:18:44.791108",
+  "generated_at": "2026-04-27T21:23:37.954923",
   "whoop": {
     "imported": true,
     "recovery": 97.0,
@@ -35,7 +35,15 @@
     ]
   },
   "apple_health": {
-    "imported": false
+    "imported": true,
+    "steps": 8640,
+    "resting_hr": 50.0,
+    "hrv": 63.7,
+    "sleep_hrs": 7.7,
+    "daylight_mins": 35.0,
+    "spo2": 96.6,
+    "respiratory_rate": 13.4,
+    "sleep_awake_hrs": 0.3
   },
   "checkin": {
     "imported": true,
@@ -316,7 +324,7 @@
     "avg_score": 81.0,
     "calories": 1427.0,
     "protein_g": 108.2,
-    "fat_g": 77.60000000000001,
+    "fat_g": 77.6,
     "carbs_g": 48.2,
     "fibre_g": 28.0
   }
