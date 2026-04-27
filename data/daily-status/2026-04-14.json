@@ -1,6 +1,6 @@
 {
   "date": "2026-04-14",
-  "generated_at": "2026-04-27T10:15:46.161905",
+  "generated_at": "2026-04-27T10:30:34.185066",
   "whoop": {
     "imported": true,
     "recovery": 65.0,
@@ -47,11 +47,11 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 3,
+    "mood": 5,
     "energy": 5,
     "sleep_quality": 5,
     "supplements": 2,
-    "journal": "1. Zoe\n2. ping pong\n3. shower\n4. packing\n5. petra\n6. lunch\n7. drive to Zg Jezersko Vila Planinka\n8. walkie\n9. dinner\n10. duo lingo",
+    "journal": "Amazing things: Amazing walkie in nature, Ping pong\nBetter: Even less laptop use\nIdeas: 1. Hard stop with screens at 9 \n2. no laptop use after 6 pm\n3. do flash cards for spanish\nDid today: 1. Zoe\n2. ping pong\n3. shower\n4. packing\n5. petra\n6. lunch\n7. drive to Zg Jezersko Vila Planinka\n8. walkie\n9. dinner\n10. duo lingo",
     "supplements_list": [
       {
         "name": "Enterosgel",
