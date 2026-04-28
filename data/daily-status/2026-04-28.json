@@ -1,6 +1,6 @@
 {
   "date": "2026-04-28",
-  "generated_at": "2026-04-28T22:53:19.204814",
+  "generated_at": "2026-04-28T22:57:06.022182",
   "whoop": {
     "imported": true,
     "recovery": 40.0,
@@ -51,7 +51,7 @@
     "energy": 6,
     "sleep_quality": 4,
     "supplements": 3,
-    "journal": "1. woke up at 4am , did some meditation but wasnt really able to focus properly\n2. Did DUOLINGO early\n3. breakfast\n4. coding a bit further with Claude - was teaching him to get attachments from slack and email \n5. new ideas\n6. shower \n7. exercise with Micheal at 10am - was good I think I will be able to do this alone\n8. lunch at the Grill in the 5th\n9. Went to Boost to get more fexofenadine\n10. chatns in the morning was good\n11. new ",
+    "journal": "1. woke up at 4am , did some meditation but wasnt really able to focus properly\n2. Did DUOLINGO early\n3. breakfast\n4. coding a bit further with Claude - was teaching him to get attachments from slack and email \n5. new ideas\n6. shower \n7. exercise with Micheal at 10am - was good I think I will be able to do this alone\n8. lunch at the Grill in the 5th\n9. Went to Boost to get more fexofenadine\n10. chatns in the morning was good\n11. Renzo Ostepat, did some adjustments mostly small, only one spin cli",
     "supplements_list": [
       {
         "name": "Enterosgel",
@@ -78,6 +78,321 @@
     "bloating": 5
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 7,
+    "meal_names": [
+      "Baked Fish with Broccoli, Cauliflower, and Potatoes",
+      "Scallop with Seaweed and Parsley",
+      "Greek Salad with Fried Courgette",
+      "Spiced Chicken with Pomegranate, Pistachios, Rice and Green Beans",
+      "Porridge with Blueberries and Honey",
+      "Fried Eggs with Toast and Microgreens",
+      "Chia Pudding with Mango, Raspberry and Coconut"
+    ],
+    "meal_details": [
+      {
+        "name": "Baked Fish with Broccoli, Cauliflower, and Potatoes",
+        "score": 82,
+        "calories": 394.0,
+        "protein_g": 42.0,
+        "fat_g": 11.8,
+        "carbs_g": 31.7,
+        "fibre_g": 5.8,
+        "ingredients": [
+          {
+            "name": "Broccoli",
+            "qty": "1 \u00d7 portion",
+            "score": 100
+          },
+          {
+            "name": "Cauliflower",
+            "qty": "1 \u00d7 serving",
+            "score": 97
+          },
+          {
+            "name": "Cod",
+            "qty": "1 \u00d7 medium fillet",
+            "score": 87
+          },
+          {
+            "name": "Lemons",
+            "qty": "20 g",
+            "score": 78
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "10 ml",
+            "score": 90
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "5 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Potatoes, boiled",
+            "qty": "1 \u00d7 serving",
+            "score": 42
+          }
+        ]
+      },
+      {
+        "name": "Scallop with Seaweed and Parsley",
+        "score": 100,
+        "calories": 183.0,
+        "protein_g": 28.8,
+        "fat_g": 6.3,
+        "carbs_g": 3.0,
+        "fibre_g": 13.6,
+        "ingredients": [
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "5 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Scallops",
+            "qty": "3 \u00d7 large scallop",
+            "score": 80
+          },
+          {
+            "name": "Seaweed, nori, dried",
+            "qty": "30 g",
+            "score": 100
+          }
+        ]
+      },
+      {
+        "name": "Greek Salad with Fried Courgette",
+        "score": 80,
+        "calories": 484.0,
+        "protein_g": 21.0,
+        "fat_g": 36.9,
+        "carbs_g": 18.6,
+        "fibre_g": 6.6,
+        "ingredients": [
+          {
+            "name": "Cheese, Feta",
+            "qty": "3 \u00d7 portion",
+            "score": 47
+          },
+          {
+            "name": "Courgette",
+            "qty": "1 \u00d7 courgette",
+            "score": 100
+          },
+          {
+            "name": "Cucumber",
+            "qty": "1 \u00d7 serving",
+            "score": 100
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "15 ml",
+            "score": 90
+          },
+          {
+            "name": "Olives, black, kalamata, in brine",
+            "qty": "1 \u00d7 handful",
+            "score": 84
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "1 \u00d7 small",
+            "score": 84
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "5 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Peppers, green",
+            "qty": "50 g",
+            "score": 89
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Tomatoes",
+            "qty": "1 \u00d7 large, beefsteak size",
+            "score": 84
+          }
+        ]
+      },
+      {
+        "name": "Spiced Chicken with Pomegranate, Pistachios, Rice and Green Beans",
+        "score": 73,
+        "calories": 590.0,
+        "protein_g": 72.3,
+        "fat_g": 15.2,
+        "carbs_g": 43.3,
+        "fibre_g": 4.7,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 large",
+            "score": 65
+          },
+          {
+            "name": "Chives, fresh",
+            "qty": "3 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Green beans",
+            "qty": "1 \u00d7 portion",
+            "score": 99
+          },
+          {
+            "name": "Limes",
+            "qty": "6 \u00d7 slice",
+            "score": 81
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "30 g",
+            "score": 84
+          },
+          {
+            "name": "Pistachio nuts, unsalted",
+            "qty": "10 g",
+            "score": 100
+          },
+          {
+            "name": "Pomegranates",
+            "qty": "15 g",
+            "score": 60
+          },
+          {
+            "name": "Rice, white, basmati",
+            "qty": "1 \u00d7 small serving",
+            "score": 42
+          }
+        ]
+      },
+      {
+        "name": "Porridge with Blueberries and Honey",
+        "score": 41,
+        "calories": 696.0,
+        "protein_g": 4.9,
+        "fat_g": 67.7,
+        "carbs_g": 17.4,
+        "fibre_g": 0.7,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Coconut milk/cream, tinned",
+            "qty": "1 \u00d7 tin",
+            "score": 46
+          },
+          {
+            "name": "Semper Organic Gluten Free Oats",
+            "qty": "1 g",
+            "score": 68
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast and Microgreens",
+        "score": 56,
+        "calories": 367.0,
+        "protein_g": 24.2,
+        "fat_g": 22.5,
+        "carbs_g": 18.1,
+        "fibre_g": 2.3,
+        "ingredients": [
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 33
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Microgreens",
+            "qty": "5 g",
+            "score": 100
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 dash",
+            "score": 20
+          }
+        ]
+      },
+      {
+        "name": "Chia Pudding with Mango, Raspberry and Coconut",
+        "score": 98,
+        "calories": 214.0,
+        "protein_g": 6.2,
+        "fat_g": 14.1,
+        "carbs_g": 7.9,
+        "fibre_g": 12.8,
+        "ingredients": [
+          {
+            "name": "Almond milk, unsweetened",
+            "qty": "200 ml",
+            "score": 54
+          },
+          {
+            "name": "Chia seeds",
+            "qty": "1 \u00d7 handful",
+            "score": 100
+          },
+          {
+            "name": "Coconut, desiccated",
+            "qty": "5 g",
+            "score": 75
+          },
+          {
+            "name": "Mango",
+            "qty": "30 g",
+            "score": 66
+          },
+          {
+            "name": "Raspberries",
+            "qty": "8 \u00d7 raspberry",
+            "score": 88
+          }
+        ]
+      }
+    ],
+    "avg_score": 76.0,
+    "calories": 2928.0,
+    "protein_g": 199.4,
+    "fat_g": 174.5,
+    "carbs_g": 140.0,
+    "fibre_g": 46.5
   }
 }
