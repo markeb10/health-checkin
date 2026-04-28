@@ -1,13 +1,13 @@
 {
   "date": "2026-04-28",
-  "generated_at": "2026-04-28T08:00:07.354793",
+  "generated_at": "2026-04-28T22:38:14.681221",
   "whoop": {
     "imported": true,
     "recovery": 40.0,
     "hrv": 30.4,
     "rhr": 49.0,
     "sleep_perf": 73.0,
-    "strain": 0.2,
+    "strain": 4.9,
     "sleep_hrs": 5.5,
     "spo2": 94.6,
     "skin_temp": 34.0,
@@ -22,16 +22,49 @@
     "disturbances": 2,
     "sleep_needed_hrs": 7.8,
     "sleep_debt_hrs": 0.3,
-    "calories": 487,
-    "avg_hr": 50,
-    "max_hr": 90,
-    "workouts": []
+    "calories": 1445,
+    "avg_hr": 62,
+    "max_hr": 127,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 19,
+        "avg_hr": 90,
+        "max_hr": 104
+      }
+    ]
   },
   "apple_health": {
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 5,
+    "energy": 6,
+    "sleep_quality": 4,
+    "supplements": 3,
+    "journal": "Grateful for: being alive, being wired still better than having fog haha, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Having this freedome to take it a bit easy, I miss some exercising but also what if that push with HIIT make me sleep less - it was a quick jumping jack session but still, I have cosita that loves me\nToday great: Get some relaxation, dont push too hard, no sudden bursts. Today I have session with Micheal and Renzo. So ideally both sessions go well and I will be able to make some progress or le",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "16:46",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "16:46",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "16:46",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 1
   },
   "zoe": {
     "imported": false
