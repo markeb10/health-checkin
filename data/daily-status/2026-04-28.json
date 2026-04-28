@@ -1,6 +1,6 @@
 {
   "date": "2026-04-28",
-  "generated_at": "2026-04-28T22:45:24.062220",
+  "generated_at": "2026-04-28T22:49:38.823235",
   "whoop": {
     "imported": true,
     "recovery": 40.0,
@@ -35,7 +35,15 @@
     ]
   },
   "apple_health": {
-    "imported": false
+    "imported": true,
+    "steps": 9122,
+    "resting_hr": 50.5,
+    "hrv": 43.8,
+    "sleep_hrs": 5.5,
+    "daylight_mins": 45.0,
+    "spo2": 96.1,
+    "respiratory_rate": 12.9,
+    "sleep_awake_hrs": 1.5
   },
   "checkin": {
     "imported": true,
@@ -43,7 +51,7 @@
     "energy": 6,
     "sleep_quality": 4,
     "supplements": 3,
-    "journal": "Grateful for: being alive, being wired still better than having fog haha, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Having this freedome to take it a bit easy, I miss some exercising but also what if that push with HIIT make me sleep less - it was a quick jumping jack session but still, I have cosita that loves me\nToday great: Get some relaxation, dont push too hard, no sudden bursts. Today I have session with Micheal and Renzo. So ideally both sessions go well and I will be able to make some progress or le",
+    "journal": "1. woke up at 4am , did some meditation but wasnt really able to focus properly\n2. Did DUOLINGO early\n3. breakfast\n4. coding a bit further with Claude - was teaching him to get attachments from slack and email \n5. new ideas\n6. shower \n7. exercise with Micheal at 10am - was good I think I will be able to do this alone\n8. lunch at the Grill in the 5th\n9. ",
     "supplements_list": [
       {
         "name": "Enterosgel",
@@ -64,7 +72,10 @@
         "unit": ""
       }
     ],
-    "anxiety": 1
+    "energy_afternoon": 7,
+    "energy_evening": 6,
+    "anxiety": 1,
+    "bloating": 5
   },
   "zoe": {
     "imported": false
