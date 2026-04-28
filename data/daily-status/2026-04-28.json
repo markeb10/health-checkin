@@ -1,6 +1,6 @@
 {
   "date": "2026-04-28",
-  "generated_at": "2026-04-28T23:07:26.153260",
+  "generated_at": "2026-04-28T23:13:48.411200",
   "whoop": {
     "imported": true,
     "recovery": 40.0,
@@ -55,21 +55,21 @@
     "supplements_list": [
       {
         "name": "Enterosgel",
-        "time": "16:46",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "roibos vanilla tea",
-        "time": "16:46",
+        "time": "23:12",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Telfast from Boots",
-        "time": "16:46",
+        "time": "23:12",
         "dose": "",
         "unit": ""
+      },
+      {
+        "name": "Ruporut",
+        "time": "23:09",
+        "dose": "0.5",
+        "unit": "mg"
       }
     ],
     "energy_afternoon": 7,
