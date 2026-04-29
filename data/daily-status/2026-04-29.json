@@ -1,6 +1,6 @@
 {
   "date": "2026-04-29",
-  "generated_at": "2026-04-29T08:00:08.424984",
+  "generated_at": "2026-04-29T22:01:53.691632",
   "whoop": {
     "imported": false
   },
@@ -8,9 +8,251 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 7,
+    "sleep_quality": 8,
+    "supplements": 3,
+    "journal": "1. I was packing in the morning. \n2. Breakfast. \n3. Duolingo. \n4. Travel to the airport, Heathrow. \n5. I had lunch at the Lounge. \n6. Flight to Ljubljana \n7. I de-packed \n8. Work with Claude - trying to figure out how we can protect our community from scraping. \n9. Duolingo ",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "21:50",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "21:50",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Ruporut",
+        "time": "22:01",
+        "dose": "0.5",
+        "unit": "mg"
+      }
+    ],
+    "energy_afternoon": 6,
+    "energy_evening": 7,
+    "anxiety": 0,
+    "bloating": 6
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 6,
+    "meal_names": [
+      "Rice Cakes with Chocolate Hazelnut Spread",
+      "Mixed Leaf Salad with Sweetcorn and Parmesan",
+      "Roasted Potatoes with Pork Belly",
+      "Porridge with Blueberries and Honey",
+      "Fried Eggs with Toast",
+      "Chia Pudding with Mixed Berries and Coconut Flakes"
+    ],
+    "meal_details": [
+      {
+        "name": "Rice Cakes with Chocolate Hazelnut Spread",
+        "score": 72,
+        "calories": 103.0,
+        "protein_g": 1.9,
+        "fat_g": 0.7,
+        "carbs_g": 4.4,
+        "fibre_g": 0.5,
+        "ingredients": [
+          {
+            "name": "Exki Corn Cakes",
+            "qty": "1 \u00d7 individual bag",
+            "score": 70
+          },
+          {
+            "name": "Meridian Almond Butter",
+            "qty": "1 g",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Mixed Leaf Salad with Sweetcorn and Parmesan",
+        "score": 83,
+        "calories": 187.0,
+        "protein_g": 8.3,
+        "fat_g": 15.5,
+        "carbs_g": 4.1,
+        "fibre_g": 1.2,
+        "ingredients": [
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "10 ml",
+            "score": 90
+          },
+          {
+            "name": "Parmesan cheese",
+            "qty": "3 \u00d7 tbsp grated",
+            "score": 65
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": "9 \u00d7 handful of leaves",
+            "score": 94
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Sweetcorn",
+            "qty": "30 g",
+            "score": 92
+          }
+        ]
+      },
+      {
+        "name": "Roasted Potatoes with Pork Belly",
+        "score": 46,
+        "calories": 556.0,
+        "protein_g": 24.9,
+        "fat_g": 30.0,
+        "carbs_g": 46.6,
+        "fibre_g": 6.0,
+        "ingredients": [
+          {
+            "name": "Garlic powder",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 76
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "10 ml",
+            "score": 90
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Pork belly, weighed raw",
+            "qty": "100 g",
+            "score": 32
+          },
+          {
+            "name": "Potatoes, new/salad, boiled, skin on",
+            "qty": "2 \u00d7 portion",
+            "score": 48
+          },
+          {
+            "name": "Rosemary, dried",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 75
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          }
+        ]
+      },
+      {
+        "name": "Porridge with Blueberries and Honey",
+        "score": 41,
+        "calories": 899.0,
+        "protein_g": 10.6,
+        "fat_g": 71.8,
+        "carbs_g": 55.8,
+        "fibre_g": 4.8,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "2 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Coconut milk/cream, tinned",
+            "qty": "1 \u00d7 tin",
+            "score": 46
+          },
+          {
+            "name": "Oats",
+            "qty": "1 \u00d7 medium bowl",
+            "score": 49
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast",
+        "score": 59,
+        "calories": 333.0,
+        "protein_g": 22.7,
+        "fat_g": 22.0,
+        "carbs_g": 11.8,
+        "fibre_g": 1.4,
+        "ingredients": [
+          {
+            "name": "Bread, wholemeal, toasted, \u00bd \u00d7 large slice",
+            "qty": null,
+            "score": 33
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          }
+        ]
+      },
+      {
+        "name": "Chia Pudding with Mixed Berries and Coconut Flakes",
+        "score": 98,
+        "calories": 226.0,
+        "protein_g": 6.1,
+        "fat_g": 16.0,
+        "carbs_g": 6.6,
+        "fibre_g": 13.2,
+        "ingredients": [
+          {
+            "name": "Almond milk, unsweetened",
+            "qty": "100 ml",
+            "score": 54
+          },
+          {
+            "name": "Blackberries",
+            "qty": "3 \u00d7 blackberry",
+            "score": 89
+          },
+          {
+            "name": "Chia seeds",
+            "qty": "1 \u00d7 handful",
+            "score": 100
+          },
+          {
+            "name": "Coconut, desiccated",
+            "qty": "10 g",
+            "score": 75
+          },
+          {
+            "name": "Mango",
+            "qty": "15 g",
+            "score": 66
+          },
+          {
+            "name": "Raspberries",
+            "qty": "8 \u00d7 raspberry",
+            "score": 88
+          }
+        ]
+      }
+    ],
+    "avg_score": 66.5,
+    "calories": 2304.0,
+    "protein_g": 74.5,
+    "fat_g": 156.0,
+    "carbs_g": 129.3,
+    "fibre_g": 27.1
   }
 }
