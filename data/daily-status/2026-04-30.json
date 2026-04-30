@@ -1,6 +1,6 @@
 {
   "date": "2026-04-30",
-  "generated_at": "2026-04-30T21:31:42.382786",
+  "generated_at": "2026-04-30T21:33:13.019239",
   "whoop": {
     "imported": true,
     "recovery": 42.0,
@@ -86,13 +86,13 @@
       },
       {
         "name": "L-theanine",
-        "time": "21:28",
+        "time": "21:32",
         "dose": "150",
         "unit": "mg"
       },
       {
         "name": "Magnezium Taurate 100 mg",
-        "time": "21:28",
+        "time": "21:32",
         "dose": "",
         "unit": "mg"
       }
