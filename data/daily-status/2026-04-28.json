@@ -1,6 +1,6 @@
 {
   "date": "2026-04-28",
-  "generated_at": "2026-04-30T17:31:36.644699",
+  "generated_at": "2026-04-30T17:46:22.368755",
   "whoop": {
     "imported": true,
     "recovery": 40.0,
@@ -55,13 +55,13 @@
     "supplements_list": [
       {
         "name": "Enterosgel",
-        "time": "23:22",
+        "time": "17:45",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Telfast from Boots",
-        "time": "23:22",
+        "time": "17:45",
         "dose": "",
         "unit": ""
       },
