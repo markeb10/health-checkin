@@ -1,13 +1,13 @@
 {
   "date": "2026-04-30",
-  "generated_at": "2026-04-30T21:20:31.989444",
+  "generated_at": "2026-04-30T21:20:42.729518",
   "whoop": {
     "imported": true,
     "recovery": 42.0,
     "hrv": 30.9,
     "rhr": 49.0,
     "sleep_perf": 68.0,
-    "strain": 4.0,
+    "strain": 9.8,
     "sleep_hrs": 5.0,
     "spo2": 93.0,
     "skin_temp": 33.4,
@@ -22,10 +22,29 @@
     "disturbances": 6,
     "sleep_needed_hrs": 8.3,
     "sleep_debt_hrs": 0.7,
-    "calories": 552,
-    "avg_hr": 53,
-    "max_hr": 110,
-    "workouts": []
+    "calories": 1657,
+    "avg_hr": 69,
+    "max_hr": 148,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 138,
+        "avg_hr": 113,
+        "max_hr": 148
+      },
+      {
+        "sport": "HIIT",
+        "calories": 60,
+        "avg_hr": 91,
+        "max_hr": 104
+      },
+      {
+        "sport": "HIIT",
+        "calories": 158,
+        "avg_hr": 93,
+        "max_hr": 111
+      }
+    ]
   },
   "apple_health": {
     "imported": false
@@ -35,7 +54,8 @@
     "mood": 4,
     "energy": 3,
     "sleep_quality": 3,
-    "supplements": 3,
+    "supplements": 5,
+    "journal": "1. Duolingo \n2. Woke here with Filip and meeting - feeling super weak. Filip is explaining to me their idea about the AI development. I feel like everything has such shaky ground. \n3. ",
     "supplements_list": [
       {
         "name": "roibos vanilla tea",
@@ -54,9 +74,24 @@
         "time": "17:41",
         "dose": "2",
         "unit": "drops"
+      },
+      {
+        "name": "L-theanine",
+        "time": "21:20",
+        "dose": "150",
+        "unit": "mg"
+      },
+      {
+        "name": "Magnezium Taurate 100 mg",
+        "time": "21:20",
+        "dose": "",
+        "unit": "mg"
       }
     ],
-    "anxiety": 1
+    "energy_afternoon": 4,
+    "energy_evening": 4,
+    "anxiety": 1,
+    "bloating": 3
   },
   "zoe": {
     "imported": true,
