@@ -1,6 +1,6 @@
 {
   "date": "2026-04-30",
-  "generated_at": "2026-04-30T08:00:08.713254",
+  "generated_at": "2026-04-30T21:20:31.989444",
   "whoop": {
     "imported": true,
     "recovery": 42.0,
@@ -31,9 +31,206 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 4,
+    "energy": 3,
+    "sleep_quality": 3,
+    "supplements": 3,
+    "supplements_list": [
+      {
+        "name": "roibos vanilla tea",
+        "time": "17:41",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "17:41",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Liposomal C",
+        "time": "17:41",
+        "dose": "2",
+        "unit": "drops"
+      }
+    ],
+    "anxiety": 1
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 3,
+    "meal_names": [
+      "Chicken Fried Rice",
+      "Burger with Fries and Caesar Salad",
+      "Fried Eggs with Corn Cakes"
+    ],
+    "meal_details": [
+      {
+        "name": "Chicken Fried Rice",
+        "score": 52,
+        "calories": 539.0,
+        "protein_g": 41.7,
+        "fat_g": 21.9,
+        "carbs_g": 46.7,
+        "fibre_g": 3.1,
+        "ingredients": [
+          {
+            "name": "Carrots",
+            "qty": "50 g",
+            "score": 81
+          },
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 medium",
+            "score": 65
+          },
+          {
+            "name": "Eggs",
+            "qty": "30 g",
+            "score": 71
+          },
+          {
+            "name": "Garlic",
+            "qty": "2 g",
+            "score": 79
+          },
+          {
+            "name": "Ginger, fresh",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 80
+          },
+          {
+            "name": "Oil, sesame",
+            "qty": "5 ml",
+            "score": 78
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Rice, plain, ready-cooked, \u00bd \u00d7 large serving",
+            "qty": null,
+            "score": 27
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Spring onions",
+            "qty": "1 \u00d7 serving",
+            "score": 96
+          },
+          {
+            "name": "Vegetable oil",
+            "qty": "10 ml",
+            "score": 78
+          }
+        ]
+      },
+      {
+        "name": "Burger with Fries and Caesar Salad",
+        "score": 15,
+        "calories": 1.0,
+        "protein_g": 55.1,
+        "fat_g": 60.6,
+        "carbs_g": 73.8,
+        "fibre_g": 4.6,
+        "ingredients": [
+          {
+            "name": "Burger, beef, homemade (patty only)",
+            "qty": "150 g",
+            "score": 28
+          },
+          {
+            "name": "Burger buns, white",
+            "qty": "1 \u00d7 bun",
+            "score": 23
+          },
+          {
+            "name": "Caesar salad, kit, retail",
+            "qty": "30 ml",
+            "score": 35
+          },
+          {
+            "name": "Chips, fried potatoes, homemade",
+            "qty": "1 \u00d7 serving",
+            "score": 33
+          },
+          {
+            "name": "Croutons",
+            "qty": "10 g",
+            "score": 34
+          },
+          {
+            "name": "Lemons",
+            "qty": "15 g",
+            "score": 78
+          },
+          {
+            "name": "Lettuce",
+            "qty": "3 \u00d7 large leaf",
+            "score": 97
+          },
+          {
+            "name": "Mayonnaise",
+            "qty": "15 g",
+            "score": 48
+          },
+          {
+            "name": "Parmesan cheese",
+            "qty": "3 \u00d7 tbsp grated",
+            "score": 65
+          },
+          {
+            "name": "Tomato ketchup",
+            "qty": "1 \u00d7 sachet",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Corn Cakes",
+        "score": 71,
+        "calories": 341.0,
+        "protein_g": 21.4,
+        "fat_g": 25.0,
+        "carbs_g": 8.0,
+        "fibre_g": 0.3,
+        "ingredients": [
+          {
+            "name": "Corn fritters",
+            "qty": "24 g",
+            "score": 75
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Pepper, black, \u2155 g",
+            "qty": null,
+            "score": 70
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 dash",
+            "score": 20
+          }
+        ]
+      }
+    ],
+    "avg_score": 46.0,
+    "calories": 881.0,
+    "protein_g": 118.2,
+    "fat_g": 107.5,
+    "carbs_g": 128.5,
+    "fibre_g": 8.0
   }
 }
