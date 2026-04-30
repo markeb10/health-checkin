@@ -1,6 +1,6 @@
 {
   "date": "2026-04-30",
-  "generated_at": "2026-04-30T21:46:08.411060",
+  "generated_at": "2026-04-30T22:01:07.441130",
   "whoop": {
     "imported": true,
     "recovery": 42.0,
@@ -67,32 +67,32 @@
     "journal": "1. Duolingo \n2. Woke here with Filip and meeting - feeling super weak. Filip is explaining to me their idea about the AI development. I feel like everything has such shaky ground. \n3. My dad arrived, so I spent some time with him. We went for a walk, and of course he was here for the money. I've said this pattern before. It's okay. \n4. Feeling like shit the whole day, like I just can't calm down. That's really weird. It's not even that I'll be tired. It's just I'm kind of wired at the same time ",
     "supplements_list": [
       {
+        "name": "Liposomal C",
+        "time": "21:58",
+        "dose": "2",
+        "unit": "drops"
+      },
+      {
         "name": "roibos vanilla tea",
-        "time": "17:41",
+        "time": "21:58",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Telfast from Boots",
-        "time": "17:41",
+        "time": "21:58",
         "dose": "",
         "unit": ""
       },
       {
-        "name": "Liposomal C",
-        "time": "17:41",
-        "dose": "2",
-        "unit": "drops"
-      },
-      {
         "name": "L-theanine",
-        "time": "21:34",
+        "time": "21:59",
         "dose": "150",
         "unit": "mg"
       },
       {
         "name": "Magnezium Taurate 100 mg",
-        "time": "21:34",
+        "time": "21:59",
         "dose": "",
         "unit": "mg"
       }
