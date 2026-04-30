@@ -1,6 +1,6 @@
 {
   "date": "2026-04-30",
-  "generated_at": "2026-04-30T21:20:42.729518",
+  "generated_at": "2026-04-30T21:25:43.917895",
   "whoop": {
     "imported": true,
     "recovery": 42.0,
@@ -47,7 +47,16 @@
     ]
   },
   "apple_health": {
-    "imported": false
+    "imported": true,
+    "steps": 21881,
+    "resting_hr": 54.5,
+    "hrv": 61.1,
+    "sleep_hrs": 5.0,
+    "daylight_mins": 154.0,
+    "vo2max": 40.3,
+    "spo2": 96.0,
+    "respiratory_rate": 12.9,
+    "sleep_awake_hrs": 0.8
   },
   "checkin": {
     "imported": true,
@@ -55,7 +64,7 @@
     "energy": 3,
     "sleep_quality": 3,
     "supplements": 5,
-    "journal": "1. Duolingo \n2. Woke here with Filip and meeting - feeling super weak. Filip is explaining to me their idea about the AI development. I feel like everything has such shaky ground. \n3. ",
+    "journal": "1. Duolingo \n2. Woke here with Filip and meeting - feeling super weak. Filip is explaining to me their idea about the AI development. I feel like everything has such shaky ground. \n3. My dad arrived, so I spent some time with him. We went for a walk, and of course he was here for the money. I've said this pattern before. It's okay. \n4. Feeling like shit the whole day, like I just can't calm down. That's really weird. It's not even that I'll be tired. It's just I'm kind of wired at the same time ",
     "supplements_list": [
       {
         "name": "roibos vanilla tea",
@@ -77,13 +86,13 @@
       },
       {
         "name": "L-theanine",
-        "time": "21:20",
+        "time": "21:24",
         "dose": "150",
         "unit": "mg"
       },
       {
         "name": "Magnezium Taurate 100 mg",
-        "time": "21:20",
+        "time": "21:24",
         "dose": "",
         "unit": "mg"
       }
