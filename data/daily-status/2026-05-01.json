@@ -1,6 +1,6 @@
 {
   "date": "2026-05-01",
-  "generated_at": "2026-05-01T22:00:46.754323",
+  "generated_at": "2026-05-01T22:09:13.682647",
   "whoop": {
     "imported": true,
     "recovery": 48.0,
@@ -22,7 +22,7 @@
     "disturbances": 8,
     "sleep_needed_hrs": 9.3,
     "sleep_debt_hrs": 1.6,
-    "calories": 2115,
+    "calories": 2126,
     "avg_hr": 68,
     "max_hr": 162,
     "workouts": [
@@ -39,38 +39,53 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
+    "mood": 6,
     "energy": 5,
     "sleep_quality": 6,
-    "supplements": 4,
-    "journal": "Grateful for: I'm grateful for at least getting more sleep than five hours like yesterday, Being in Ljubljana, in this town where I feel safe, I have my network of specialists around me, Even though in this apartment I actually never sleep well, I am aspiring to do that, Being alive\nToday great: Simply:\n- exercise\n- rest\n- eat good food\n- relax\n- do some tests\nYeah.\nAffirmation: I'm stronger than I think. I need to start healing myself from within. ",
+    "supplements": 6,
+    "journal": "1. I play Duolingo. \n2. I did breakfast in the morning, pre-breakfast, before pedal. \n3. Then I did a battle session with Dan, and I was playing really bad. I just find my vision bad, and the movement wasn't great. Doing a lot of mistakes. \n4. I'm not feeling myself at all. \n5. There was a long Duolingo session, but also I did a cloud session about my health. \n6. I ran all the tests: the fast tests for COVID and Gripa. All negative. \n7. Claudia suggests a lot of new tests that I will run on Mond",
     "supplements_list": [
       {
         "name": "Liposomal C",
-        "time": "10:24",
+        "time": "22:09",
         "dose": "2",
         "unit": "drops"
       },
       {
         "name": "Enterosgel",
-        "time": "10:24",
+        "time": "22:09",
         "dose": "",
         "unit": ""
       },
       {
         "name": "roibos vanilla tea",
-        "time": "10:24",
+        "time": "22:09",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Telfast from Boots",
-        "time": "10:24",
+        "time": "22:09",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "L-theanine",
+        "time": "22:08",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Mg Taurate",
+        "time": "22:08",
         "dose": "",
         "unit": ""
       }
     ],
-    "anxiety": 1
+    "energy_afternoon": 6,
+    "energy_evening": 6,
+    "anxiety": 1,
+    "bloating": 2
   },
   "zoe": {
     "imported": true,
@@ -244,7 +259,7 @@
         ]
       }
     ],
-    "avg_score": 57.0,
+    "avg_score": 57.4,
     "calories": 1484.0,
     "protein_g": 94.0,
     "fat_g": 63.0,
