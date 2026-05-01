@@ -1,6 +1,6 @@
 {
   "date": "2026-05-01",
-  "generated_at": "2026-05-01T08:00:07.307251",
+  "generated_at": "2026-05-01T22:00:36.720575",
   "whoop": {
     "imported": true,
     "recovery": 48.0,
@@ -31,9 +31,217 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 5,
+    "energy": 5,
+    "sleep_quality": 6,
+    "supplements": 4,
+    "journal": "Grateful for: I'm grateful for at least getting more sleep than five hours like yesterday, Being in Ljubljana, in this town where I feel safe, I have my network of specialists around me, Even though in this apartment I actually never sleep well, I am aspiring to do that, Being alive\nToday great: Simply:\n- exercise\n- rest\n- eat good food\n- relax\n- do some tests\nYeah.\nAffirmation: I'm stronger than I think. I need to start healing myself from within. ",
+    "supplements_list": [
+      {
+        "name": "Liposomal C",
+        "time": "10:24",
+        "dose": "2",
+        "unit": "drops"
+      },
+      {
+        "name": "Enterosgel",
+        "time": "10:24",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "10:24",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "10:24",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 1
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Blueberry Muffin and Loaf Cake Slices",
+      "Roasted Fish with Potatoes and Mixed Vegetables",
+      "Seafood and Asparagus Rice Bowl",
+      "Fried Eggs with Toast and Berries",
+      "Toast with Almond Butter and Blueberries"
+    ],
+    "meal_details": [
+      {
+        "name": "Blueberry Muffin and Loaf Cake Slices",
+        "score": 30,
+        "calories": 214.0,
+        "protein_g": 3.3,
+        "fat_g": 6.4,
+        "carbs_g": 37.9,
+        "fibre_g": 2.5,
+        "ingredients": [
+          {
+            "name": "Banana bread",
+            "qty": "1 \u00d7 small slice",
+            "score": 16
+          },
+          {
+            "name": "Blueberries",
+            "qty": "3 \u00d7 handful",
+            "score": 73
+          }
+        ]
+      },
+      {
+        "name": "Roasted Fish with Potatoes and Mixed Vegetables",
+        "score": 85,
+        "calories": 437.0,
+        "protein_g": 38.9,
+        "fat_g": 17.8,
+        "carbs_g": 28.5,
+        "fibre_g": 5.4,
+        "ingredients": [
+          {
+            "name": "Broccoli",
+            "qty": "3 \u00d7 floret",
+            "score": 100
+          },
+          {
+            "name": "Cauliflower",
+            "qty": "50 g",
+            "score": 97
+          },
+          {
+            "name": "Fish, yellowtail, weighed raw",
+            "qty": "1 \u00d7 medium fillet",
+            "score": 88
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "10 ml",
+            "score": 90
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Peppers, yellow",
+            "qty": "50 g",
+            "score": 87
+          },
+          {
+            "name": "Potatoes, new/salad, boiled, skin on",
+            "qty": "1 \u00d7 portion",
+            "score": 48
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          }
+        ]
+      },
+      {
+        "name": "Seafood and Asparagus Rice Bowl",
+        "score": 59,
+        "calories": 83.0,
+        "protein_g": 8.4,
+        "fat_g": 1.7,
+        "carbs_g": 9.2,
+        "fibre_g": 1.0,
+        "ingredients": [
+          {
+            "name": "Asparagus",
+            "qty": "2 \u00d7 spear",
+            "score": 100
+          },
+          {
+            "name": "Crab",
+            "qty": "2 \u00d7 leg",
+            "score": 74
+          },
+          {
+            "name": "Green beans",
+            "qty": "3 \u00d7 bean",
+            "score": 99
+          },
+          {
+            "name": "Rice, white, \u2155 \u00d7 small serving",
+            "qty": null,
+            "score": 19
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast and Berries",
+        "score": 54,
+        "calories": 417.0,
+        "protein_g": 31.2,
+        "fat_g": 19.5,
+        "carbs_g": 31.5,
+        "fibre_g": 4.2,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "30 g",
+            "score": 73
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 18
+          },
+          {
+            "name": "Eggs",
+            "qty": "3 \u00d7 large",
+            "score": 71
+          },
+          {
+            "name": "Raspberries",
+            "qty": "1 \u00d7 handful",
+            "score": 88
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 59,
+        "calories": 333.0,
+        "protein_g": 12.2,
+        "fat_g": 17.6,
+        "carbs_g": 32.5,
+        "fibre_g": 5.2,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 18
+          }
+        ]
+      }
+    ],
+    "avg_score": 57.0,
+    "calories": 1484.0,
+    "protein_g": 94.0,
+    "fat_g": 63.0,
+    "carbs_g": 139.6,
+    "fibre_g": 18.3
   }
 }
