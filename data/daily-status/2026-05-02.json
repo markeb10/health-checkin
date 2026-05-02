@@ -1,0 +1,64 @@
+{
+  "date": "2026-05-02",
+  "generated_at": "2026-05-02T08:20:46.765847",
+  "whoop": {
+    "imported": true,
+    "recovery": 55.0,
+    "hrv": 32.4,
+    "rhr": 49.0,
+    "sleep_perf": 80.0,
+    "strain": 4.0,
+    "sleep_hrs": 6.0,
+    "spo2": 94.9,
+    "skin_temp": 34.2,
+    "sleep_efficiency": 95.6,
+    "sleep_consistency": 81.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 2.8,
+    "deep_sleep_hrs": 2.3,
+    "rem_sleep_hrs": 1.0,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 4,
+    "disturbances": 5,
+    "sleep_needed_hrs": 9.2,
+    "sleep_debt_hrs": 1.3,
+    "calories": 564,
+    "avg_hr": 53,
+    "max_hr": 115,
+    "workouts": []
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": 6,
+    "sleep_quality": 6,
+    "supplements": 3,
+    "supplements_list": [
+      {
+        "name": "Liposomal C",
+        "time": "08:16",
+        "dose": "2",
+        "unit": "drops"
+      },
+      {
+        "name": "Enterosgel",
+        "time": "08:16",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "08:16",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 0
+  },
+  "zoe": {
+    "imported": false
+  }
+}
