@@ -1,6 +1,6 @@
 {
   "date": "2026-05-02",
-  "generated_at": "2026-05-02T08:20:46.765847",
+  "generated_at": "2026-05-02T20:19:20.533796",
   "whoop": {
     "imported": true,
     "recovery": 55.0,
@@ -32,10 +32,11 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 7,
+    "mood": 4,
     "energy": 6,
     "sleep_quality": 6,
     "supplements": 3,
+    "journal": "1. 1h scrolling on phone after i woke up at 5:20 am\n2. Did exercises - DNS - those 4 from Micheal\n3. Duolino session\n4. talked to my dad regarding the battery project - really dont like that he is taking it so easily but this is a huge project and a lot of things to think about\n5. Drive to Izola\n6. lunch at Kamin\n7. Checked in the room in Beleveder hotel\n8. Quick walkie\n9. Nappy in the the room\n10. walkie to the Izola, saw the food market",
     "supplements_list": [
       {
         "name": "Liposomal C",
@@ -56,9 +57,203 @@
         "unit": ""
       }
     ],
-    "anxiety": 0
+    "energy_afternoon": 4,
+    "energy_evening": 4,
+    "anxiety": 0,
+    "bloating": 3
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Baked Fish with Roasted Vegetables",
+      "Penne Pasta with Truffle and Parmesan",
+      "Seared Scallops with Pea Shoots",
+      "Fried Eggs with Toast",
+      "Toast with Almond Butter and Blueberries"
+    ],
+    "meal_details": [
+      {
+        "name": "Baked Fish with Roasted Vegetables",
+        "score": 75,
+        "calories": 521.0,
+        "protein_g": 38.2,
+        "fat_g": 23.5,
+        "carbs_g": 39.3,
+        "fibre_g": 5.0,
+        "ingredients": [
+          {
+            "name": "Carrots",
+            "qty": "1 \u00d7 serving",
+            "score": 81
+          },
+          {
+            "name": "Courgette",
+            "qty": "1 \u00d7 portion",
+            "score": 100
+          },
+          {
+            "name": "Fish, yellowtail, weighed raw",
+            "qty": "1 \u00d7 medium fillet",
+            "score": 88
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "10 ml",
+            "score": 90
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "1 \u00d7 small",
+            "score": 84
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Potatoes, roasted in oil",
+            "qty": "3 \u00d7 roast potato",
+            "score": 29
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          }
+        ]
+      },
+      {
+        "name": "Penne Pasta with Truffle and Parmesan",
+        "score": 88,
+        "calories": 372.0,
+        "protein_g": 29.5,
+        "fat_g": 11.0,
+        "carbs_g": 41.6,
+        "fibre_g": 12.4,
+        "ingredients": [
+          {
+            "name": "Mushrooms, dried",
+            "qty": "1 \u00d7 serving",
+            "score": 100
+          },
+          {
+            "name": "Parmesan cheese",
+            "qty": "3 \u00d7 tbsp grated",
+            "score": 65
+          },
+          {
+            "name": "Pasta",
+            "qty": "100 g",
+            "score": 45
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          }
+        ]
+      },
+      {
+        "name": "Seared Scallops with Pea Shoots",
+        "score": 73,
+        "calories": 209.0,
+        "protein_g": 26.3,
+        "fat_g": 9.8,
+        "carbs_g": 4.1,
+        "fibre_g": 0.1,
+        "ingredients": [
+          {
+            "name": "Butter, unsalted",
+            "qty": "1 \u00d7 portion, spread",
+            "score": 49
+          },
+          {
+            "name": "Lemon juice",
+            "qty": "5 ml",
+            "score": 34
+          },
+          {
+            "name": "Pea shoots",
+            "qty": "5 g",
+            "score": 100
+          },
+          {
+            "name": "Pepper, black, \u2155 g",
+            "qty": null,
+            "score": 70
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Scallops",
+            "qty": "4 \u00d7 large scallop",
+            "score": 80
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast",
+        "score": 50,
+        "calories": 242.0,
+        "protein_g": 19.5,
+        "fat_g": 12.7,
+        "carbs_g": 13.5,
+        "fibre_g": 0.6,
+        "ingredients": [
+          {
+            "name": "Bread, white, toasted, \u00bd \u00d7 large slice",
+            "qty": null,
+            "score": 18
+          },
+          {
+            "name": "Eggs",
+            "qty": "2 \u00d7 large",
+            "score": 71
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 56,
+        "calories": 238.0,
+        "protein_g": 8.6,
+        "fat_g": 11.8,
+        "carbs_g": 25.1,
+        "fibre_g": 3.7,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 18
+          }
+        ]
+      }
+    ],
+    "avg_score": 68.0,
+    "calories": 1582.0,
+    "protein_g": 122.10000000000001,
+    "fat_g": 68.8,
+    "carbs_g": 123.6,
+    "fibre_g": 21.8
   }
 }
