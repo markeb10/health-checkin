@@ -1,6 +1,6 @@
 {
   "date": "2026-05-01",
-  "generated_at": "2026-05-02T08:20:44.936632",
+  "generated_at": "2026-05-02T08:31:03.853263",
   "whoop": {
     "imported": true,
     "recovery": 48.0,
@@ -79,13 +79,13 @@
       },
       {
         "name": "L-theanine",
-        "time": "22:08",
+        "time": "08:22",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Mg Taurate",
-        "time": "22:08",
+        "time": "08:22",
         "dose": "",
         "unit": ""
       }
@@ -93,7 +93,7 @@
     "energy_afternoon": 6,
     "energy_evening": 6,
     "anxiety": 1,
-    "bloating": 2
+    "bloating": 4
   },
   "zoe": {
     "imported": true,
