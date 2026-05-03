@@ -1,6 +1,6 @@
 {
   "date": "2026-05-03",
-  "generated_at": "2026-05-03T08:00:06.155075",
+  "generated_at": "2026-05-03T21:43:19.359108",
   "whoop": {
     "imported": true,
     "recovery": 60.0,
@@ -39,24 +39,302 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
-    "energy": 6,
-    "sleep_quality": 4,
+    "mood": 6,
+    "energy": 5,
+    "sleep_quality": 5,
     "supplements": 1,
+    "journal": "1. I prepared documentation for my dad. For the battery project I answered the email from the guy. \n2. I was teaching Claude how to identify my CSI, central sensitisation. And from all the stats that he gathered for me from the last 30 days, he thinks that I'm not really having this problem. I probably should reply to his questions manually once again. \n3. I was also identifying different possible solutions to this problem: different cleanings, different people I could see \n4. also I added a new",
     "supplements_list": [
       {
         "name": "Enterosgel",
-        "time": "07:40",
+        "time": "09:02",
         "dose": "",
         "unit": ""
       }
     ],
-    "energy_afternoon": 5,
-    "energy_evening": 5,
-    "anxiety": 1,
-    "bloating": 0
+    "energy_afternoon": 6,
+    "energy_evening": 6,
+    "anxiety": 0,
+    "bloating": 4
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 8,
+    "meal_names": [
+      "Pulled Pork Wrap with Cheese",
+      "Pulled Pork Tacos with Tortillas and Lime",
+      "Fish and Octopus with Potatoes and Tomatoes",
+      "Pasta with Cheese and Pepper",
+      "Seared Scallops with Truffle and Parsnip Puree",
+      "Crepes with Nutty Spread",
+      "Fried Eggs with Tuna Sandwich and Butter",
+      "Toast with Butter"
+    ],
+    "meal_details": [
+      {
+        "name": "Pulled Pork Wrap with Cheese",
+        "score": 47,
+        "calories": 620.0,
+        "protein_g": 66.5,
+        "fat_g": 25.0,
+        "carbs_g": 34.5,
+        "fibre_g": 1.2,
+        "ingredients": [
+          {
+            "name": "Cheese, Cheddar",
+            "qty": "1 \u00d7 slice",
+            "score": 59
+          },
+          {
+            "name": "Pork, diced, lean",
+            "qty": "2 \u00d7 serving",
+            "score": 48
+          },
+          {
+            "name": "Tortilla wraps",
+            "qty": "1 \u00d7 large wrap",
+            "score": 39
+          }
+        ]
+      },
+      {
+        "name": "Pulled Pork Tacos with Tortillas and Lime",
+        "score": 45,
+        "calories": 346.0,
+        "protein_g": 39.7,
+        "fat_g": 11.2,
+        "carbs_g": 20.7,
+        "fibre_g": 2.2,
+        "ingredients": [
+          {
+            "name": "Limes",
+            "qty": "1 \u00d7 slice",
+            "score": 81
+          },
+          {
+            "name": "Pork, diced, lean, weighed raw",
+            "qty": "2 \u00d7 serving",
+            "score": 47
+          },
+          {
+            "name": "Tesco Tortilla Corn Wraps",
+            "qty": "1 \u00d7 wrap",
+            "score": 41
+          }
+        ]
+      },
+      {
+        "name": "Fish and Octopus with Potatoes and Tomatoes",
+        "score": 75,
+        "calories": 530.0,
+        "protein_g": 48.6,
+        "fat_g": 18.0,
+        "carbs_g": 37.0,
+        "fibre_g": 4.7,
+        "ingredients": [
+          {
+            "name": "Mixed herbs, dried",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 77
+          },
+          {
+            "name": "Octopus",
+            "qty": "1 \u00d7 serving",
+            "score": 88
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "15 ml",
+            "score": 90
+          },
+          {
+            "name": "Olives, black, kalamata, in brine",
+            "qty": "3 \u00d7 olive",
+            "score": 84
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "1 \u00d7 small",
+            "score": 84
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Potatoes",
+            "qty": "1 \u00d7 serving",
+            "score": 43
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "2 \u00d7 cherry tomato",
+            "score": 90
+          },
+          {
+            "name": "Whiting, weighed raw",
+            "qty": "1 \u00d7 medium fillet",
+            "score": 87
+          },
+          {
+            "name": "Wine, white, dry",
+            "qty": "50 ml",
+            "score": 41
+          }
+        ]
+      },
+      {
+        "name": "Pasta with Cheese and Pepper",
+        "score": 49,
+        "calories": 545.0,
+        "protein_g": 22.4,
+        "fat_g": 18.8,
+        "carbs_g": 76.7,
+        "fibre_g": 3.7,
+        "ingredients": [
+          {
+            "name": "Butter, salted",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 47
+          },
+          {
+            "name": "Parmesan cheese",
+            "qty": "5 \u00d7 tbsp grated",
+            "score": 65
+          },
+          {
+            "name": "Pasta, weighed uncooked",
+            "qty": "1 \u00d7 serving",
+            "score": 45
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          }
+        ]
+      },
+      {
+        "name": "Seared Scallops with Truffle and Parsnip Puree",
+        "score": 66,
+        "calories": 308.0,
+        "protein_g": 28.6,
+        "fat_g": 8.1,
+        "carbs_g": 31.2,
+        "fibre_g": 6.0,
+        "ingredients": [
+          {
+            "name": "Brown sauce",
+            "qty": "50 ml",
+            "score": 0
+          },
+          {
+            "name": "Parsnips",
+            "qty": "1 \u00d7 large serving",
+            "score": 43
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Scallops",
+            "qty": "4 \u00d7 large scallop",
+            "score": 80
+          },
+          {
+            "name": "Truffle oil, average",
+            "qty": "5 g",
+            "score": 78
+          }
+        ]
+      },
+      {
+        "name": "Crepes with Nutty Spread",
+        "score": 32,
+        "calories": 84.0,
+        "protein_g": 2.2,
+        "fat_g": 3.6,
+        "carbs_g": 11.4,
+        "fibre_g": 0.3,
+        "ingredients": [
+          {
+            "name": "Pancakes, crepes, \u2155 \u00d7 large",
+            "qty": null,
+            "score": 20
+          },
+          {
+            "name": "Walnuts",
+            "qty": "1 \u00d7 nut half",
+            "score": 98
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Tuna Sandwich and Butter",
+        "score": 60,
+        "calories": 589.0,
+        "protein_g": 45.0,
+        "fat_g": 39.8,
+        "carbs_g": 13.5,
+        "fibre_g": 0.6,
+        "ingredients": [
+          {
+            "name": "Bread, white, toasted, \u00bd \u00d7 large slice",
+            "qty": null,
+            "score": 18
+          },
+          {
+            "name": "Butter, unsalted",
+            "qty": "5 g",
+            "score": 49
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "3 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Tuna, tinned in oil, drained",
+            "qty": "50 g",
+            "score": 75
+          }
+        ]
+      },
+      {
+        "name": "Toast with Butter",
+        "score": 33,
+        "calories": 171.0,
+        "protein_g": 3.6,
+        "fat_g": 8.9,
+        "carbs_g": 20.3,
+        "fibre_g": 0.8,
+        "ingredients": [
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 18
+          },
+          {
+            "name": "Butter, unsalted",
+            "qty": "1 \u00d7 portion, spread",
+            "score": 49
+          }
+        ]
+      }
+    ],
+    "avg_score": 51.0,
+    "calories": 3193.0,
+    "protein_g": 256.6,
+    "fat_g": 133.4,
+    "carbs_g": 245.3,
+    "fibre_g": 19.5
   }
 }
