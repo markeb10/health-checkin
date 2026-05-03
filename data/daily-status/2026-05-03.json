@@ -1,0 +1,62 @@
+{
+  "date": "2026-05-03",
+  "generated_at": "2026-05-03T08:00:06.155075",
+  "whoop": {
+    "imported": true,
+    "recovery": 60.0,
+    "hrv": 33.1,
+    "rhr": 48.0,
+    "sleep_perf": 79.0,
+    "strain": 1.4,
+    "sleep_hrs": 6.0,
+    "spo2": 96.0,
+    "skin_temp": 33.9,
+    "sleep_efficiency": 92.0,
+    "sleep_consistency": 78.0,
+    "respiratory_rate": 13.1,
+    "light_sleep_hrs": 3.4,
+    "deep_sleep_hrs": 1.8,
+    "rem_sleep_hrs": 0.8,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 4,
+    "disturbances": 7,
+    "sleep_needed_hrs": 9.1,
+    "sleep_debt_hrs": 1.6,
+    "calories": 593,
+    "avg_hr": 50,
+    "max_hr": 104,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": 6,
+    "sleep_quality": 4,
+    "supplements": 1,
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "07:40",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 5,
+    "energy_evening": 5,
+    "anxiety": 1,
+    "bloating": 0
+  },
+  "zoe": {
+    "imported": false
+  }
+}
