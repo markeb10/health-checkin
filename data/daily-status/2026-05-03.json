@@ -1,6 +1,6 @@
 {
   "date": "2026-05-03",
-  "generated_at": "2026-05-03T22:00:48.156710",
+  "generated_at": "2026-05-03T22:15:47.557477",
   "whoop": {
     "imported": true,
     "recovery": 60.0,
@@ -54,23 +54,23 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
-    "energy": 6,
-    "sleep_quality": 4,
+    "mood": 6,
+    "energy": 5,
+    "sleep_quality": 5,
     "supplements": 1,
     "journal": "1. I prepared documentation for my dad. For the battery project I answered the email from the guy. \n2. I was teaching Claude how to identify my CSI, central sensitisation. And from all the stats that he gathered for me from the last 30 days, he thinks that I'm not really having this problem. I probably should reply to his questions manually once again. \n3. I was also identifying different possible solutions to this problem: different cleanings, different people I could see \n4. also I added a new",
     "supplements_list": [
       {
         "name": "Enterosgel",
-        "time": "21:59",
+        "time": "22:09",
         "dose": "",
         "unit": ""
       }
     ],
-    "energy_afternoon": 5,
-    "energy_evening": 5,
-    "anxiety": 1,
-    "bloating": 0
+    "energy_afternoon": 6,
+    "energy_evening": 6,
+    "anxiety": 0,
+    "bloating": 4
   },
   "zoe": {
     "imported": true,
