@@ -1,6 +1,6 @@
 {
   "date": "2026-05-03",
-  "generated_at": "2026-05-04T10:15:45.822306",
+  "generated_at": "2026-05-04T10:30:46.128607",
   "whoop": {
     "imported": true,
     "recovery": 60.0,
@@ -54,15 +54,15 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 6,
+    "mood": 5,
     "energy": 5,
     "sleep_quality": 5,
     "supplements": 1,
-    "journal": "1. I prepared documentation for my dad. For the battery project I answered the email from the guy. \n2. I was teaching Claude how to identify my CSI, central sensitisation. And from all the stats that he gathered for me from the last 30 days, he thinks that I'm not really having this problem. I probably should reply to his questions manually once again. \n3. I was also identifying different possible solutions to this problem: different cleanings, different people I could see \n4. also I added a new",
+    "journal": "Grateful for: being alive, my ai, health support, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, New ideas, being optimistic, willing to do something new - slept less but seems more optimistic still tired but cant sleep\nToday great: Just enjoy this place get a walkie in and sleep well\nAffirmation: I love my life I love my body\nAmazing things: Amazing thing was I met Bojan an old friend from izola from my childhood, I was feeling a bit better even though I slept less, I was somehow better than the day before, Tha",
     "supplements_list": [
       {
         "name": "Enterosgel",
-        "time": "09:49",
+        "time": "10:19",
         "dose": "",
         "unit": ""
       }
