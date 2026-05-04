@@ -1,6 +1,6 @@
 {
   "date": "2026-05-04",
-  "generated_at": "2026-05-04T20:42:39.556756",
+  "generated_at": "2026-05-04T20:49:07.119222",
   "whoop": {
     "imported": true,
     "recovery": 63.0,
@@ -50,6 +50,227 @@
     "bloating": 4
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Chicken and Potato Stew",
+      "Chicken Curry with Rice and Side Salad",
+      "Carrot and Ginger Soup with Parsley Garnish",
+      "Fried Eggs with Toast",
+      "Almond Butter and Jam Sandwich"
+    ],
+    "meal_details": [
+      {
+        "name": "Chicken and Potato Stew",
+        "score": 56,
+        "calories": 347.0,
+        "protein_g": 50.9,
+        "fat_g": 3.5,
+        "carbs_g": 29.8,
+        "fibre_g": 3.0,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 65
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Potatoes",
+            "qty": "1 \u00d7 serving",
+            "score": 43
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Water",
+            "qty": "100 ml",
+            "score": 100
+          }
+        ]
+      },
+      {
+        "name": "Chicken Curry with Rice and Side Salad",
+        "score": 61,
+        "calories": 645.0,
+        "protein_g": 36.6,
+        "fat_g": 34.4,
+        "carbs_g": 48.3,
+        "fibre_g": 4.0,
+        "ingredients": [
+          {
+            "name": "Chicken breasts, weighed raw",
+            "qty": "120 g",
+            "score": 62
+          },
+          {
+            "name": "Coconut milk/cream, tinned",
+            "qty": "100 ml",
+            "score": 46
+          },
+          {
+            "name": "Coriander leaves, fresh",
+            "qty": "3 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Curry paste",
+            "qty": "30 g",
+            "score": 32
+          },
+          {
+            "name": "Garlic",
+            "qty": "2 \u00d7 clove",
+            "score": 79
+          },
+          {
+            "name": "Ginger, fresh",
+            "qty": "2 \u00d7 slice",
+            "score": 80
+          },
+          {
+            "name": "Green beans",
+            "qty": "1 \u00d7 portion",
+            "score": 99
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "30 g",
+            "score": 84
+          },
+          {
+            "name": "Rice, white, basmati",
+            "qty": "1 \u00d7 small serving",
+            "score": 42
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": "6 \u00d7 handful of leaves",
+            "score": 94
+          },
+          {
+            "name": "Sesame seeds",
+            "qty": "2 g",
+            "score": 100
+          },
+          {
+            "name": "Vegetable oil",
+            "qty": "5 ml",
+            "score": 78
+          }
+        ]
+      },
+      {
+        "name": "Carrot and Ginger Soup with Parsley Garnish",
+        "score": 86,
+        "calories": 164.0,
+        "protein_g": 3.8,
+        "fat_g": 7.3,
+        "carbs_g": 23.3,
+        "fibre_g": 9.0,
+        "ingredients": [
+          {
+            "name": "Carrots",
+            "qty": "3 \u00d7 serving",
+            "score": 81
+          },
+          {
+            "name": "Garlic",
+            "qty": "2 \u00d7 clove",
+            "score": 79
+          },
+          {
+            "name": "Ginger, fresh",
+            "qty": "1 \u00d7 1-inch piece",
+            "score": 80
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "1 \u00d7 small",
+            "score": 84
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Stock, vegetable cube, made up with water",
+            "qty": "250 ml",
+            "score": 21
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast",
+        "score": 59,
+        "calories": 500.0,
+        "protein_g": 34.0,
+        "fat_g": 33.1,
+        "carbs_g": 17.7,
+        "fibre_g": 2.1,
+        "ingredients": [
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 33
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "3 \u00d7 large",
+            "score": 69
+          }
+        ]
+      },
+      {
+        "name": "Almond Butter and Jam Sandwich",
+        "score": 74,
+        "calories": 190.0,
+        "protein_g": 7.6,
+        "fat_g": 11.7,
+        "carbs_g": 13.6,
+        "fibre_g": 3.8,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 90
+          },
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 small slice",
+            "score": 33
+          }
+        ]
+      }
+    ],
+    "avg_score": 67.0,
+    "calories": 1846.0,
+    "protein_g": 132.9,
+    "fat_g": 90.0,
+    "carbs_g": 132.7,
+    "fibre_g": 21.9
   }
 }
