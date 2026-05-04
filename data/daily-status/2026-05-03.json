@@ -1,6 +1,6 @@
 {
   "date": "2026-05-03",
-  "generated_at": "2026-05-04T07:45:46.339283",
+  "generated_at": "2026-05-04T08:00:04.172682",
   "whoop": {
     "imported": true,
     "recovery": 60.0,
@@ -22,8 +22,8 @@
     "disturbances": 7,
     "sleep_needed_hrs": 9.1,
     "sleep_debt_hrs": 1.6,
-    "calories": 1526,
-    "avg_hr": 60,
+    "calories": 1643,
+    "avg_hr": 61,
     "max_hr": 114,
     "workouts": [
       {
@@ -62,7 +62,7 @@
     "supplements_list": [
       {
         "name": "Enterosgel",
-        "time": "07:19",
+        "time": "07:49",
         "dose": "",
         "unit": ""
       }
