@@ -1,6 +1,6 @@
 {
   "date": "2026-05-03",
-  "generated_at": "2026-05-04T02:15:10.769718",
+  "generated_at": "2026-05-04T02:30:13.393415",
   "whoop": {
     "imported": true,
     "recovery": 60.0,
@@ -62,7 +62,7 @@
     "supplements_list": [
       {
         "name": "Enterosgel",
-        "time": "01:49",
+        "time": "02:19",
         "dose": "",
         "unit": ""
       }
