@@ -1,6 +1,6 @@
 {
   "date": "2026-05-05",
-  "generated_at": "2026-05-05T08:00:06.462211",
+  "generated_at": "2026-05-05T21:22:09.489284",
   "whoop": {
     "imported": true,
     "recovery": 69.0,
@@ -32,10 +32,11 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
+    "mood": 7,
     "energy": 7,
     "sleep_quality": 8,
     "supplements": 1,
+    "journal": "1. DNS exercises. \n2. Ping pong with Lara \n3. Breakfast and I did a stool test \n4. The toilet got clogged. That caused a lot of stress \n5. Duolingo \n6. Meeting for cashy, not so great \n7. Meeting for Aca. How are we going to do this? Sending. And with other guys \n8. Lunch time. \n9. Went for shopping with Cosita for dinner. \n10. Some admin stuff \n11. Michael Parr session was really good \n12. Dinner time with Cosita \n13. Unclog the toilet \n14. Reading meditations from Marcus Aurelius. \n15. Duoling",
     "supplements_list": [
       {
         "name": "Enterosgel",
@@ -44,12 +45,67 @@
         "unit": ""
       }
     ],
-    "energy_afternoon": 5,
-    "energy_evening": 5,
+    "energy_afternoon": 7,
+    "energy_evening": 7,
     "anxiety": 0,
-    "bloating": 0
+    "bloating": 4
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 4,
+    "meal_names": [
+      "Whole Roasted Fish with Rice and Roasted Courgette",
+      "Grilled Pork Chop with Roasted Potatoes and Side Salad",
+      "Fried Eggs with Toast",
+      "Almond Butter and Blueberry Toast"
+    ],
+    "meal_details": [
+      {
+        "name": "Whole Roasted Fish with Rice and Roasted Courgette",
+        "score": 77,
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "carbs_g": null,
+        "fibre_g": null,
+        "ingredients": []
+      },
+      {
+        "name": "Grilled Pork Chop with Roasted Potatoes and Side Salad",
+        "score": 35,
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "carbs_g": null,
+        "fibre_g": null,
+        "ingredients": []
+      },
+      {
+        "name": "Fried Eggs with Toast",
+        "score": 52,
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "carbs_g": null,
+        "fibre_g": null,
+        "ingredients": []
+      },
+      {
+        "name": "Almond Butter and Blueberry Toast",
+        "score": 68,
+        "calories": null,
+        "protein_g": null,
+        "fat_g": null,
+        "carbs_g": null,
+        "fibre_g": null,
+        "ingredients": []
+      }
+    ],
+    "avg_score": 58.0,
+    "calories": null,
+    "protein_g": null,
+    "fat_g": null,
+    "carbs_g": null,
+    "fibre_g": null
   }
 }
