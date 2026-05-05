@@ -1,6 +1,6 @@
 {
   "date": "2026-05-05",
-  "generated_at": "2026-05-05T21:27:26.985662",
+  "generated_at": "2026-05-05T21:32:41.473072",
   "whoop": {
     "imported": true,
     "recovery": 69.0,
@@ -35,7 +35,15 @@
     ]
   },
   "apple_health": {
-    "imported": false
+    "imported": true,
+    "steps": 8575,
+    "resting_hr": 54.0,
+    "hrv": 74.5,
+    "sleep_hrs": 7.0,
+    "daylight_mins": 12.0,
+    "spo2": 95.8,
+    "respiratory_rate": 13.5,
+    "sleep_awake_hrs": 0.2
   },
   "checkin": {
     "imported": true,
