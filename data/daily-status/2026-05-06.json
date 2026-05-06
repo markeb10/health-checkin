@@ -1,6 +1,6 @@
 {
   "date": "2026-05-06",
-  "generated_at": "2026-05-06T08:00:18.495506",
+  "generated_at": "2026-05-06T21:57:02.551665",
   "whoop": {
     "imported": true,
     "recovery": 48.0,
@@ -31,9 +31,192 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 6,
+    "energy": 7,
+    "sleep_quality": 6,
+    "supplements": 1,
+    "journal": "1. I did Duolingo. I have sent or I have given the stool test. Went to Synlab and back. \n2. I was feeling under the weather and somehow feverish, with warm hands the whole day. \n3. Massage in the morning. It was good. Can't complain. Felt nothing was hurting me. I mean I had a fever. \n4. Meeting with Vesna it was ok but a bit superficial. I don't think I was in the right state. Things with her are a bit of an interrogation but okay. \n5. Meeting with scatter kings was good. \n6. Meeting day and ma",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "21:49",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 0,
+    "bloating": 4
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Chicken and Courgette Soup",
+      "Braised Beef with Creamy Polenta and Side Salad",
+      "Green Vegetable Soup with Herb Garnish",
+      "Peanut Butter and Blueberry Toast",
+      "Fried Eggs with Toast and Blueberries"
+    ],
+    "meal_details": [
+      {
+        "name": "Chicken and Courgette Soup",
+        "score": 65,
+        "calories": 299.0,
+        "protein_g": 51.0,
+        "fat_g": 3.7,
+        "carbs_g": 16.3,
+        "fibre_g": 2.5,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 65
+          },
+          {
+            "name": "Courgette",
+            "qty": "1 \u00d7 portion",
+            "score": 100
+          },
+          {
+            "name": "Potatoes",
+            "qty": "75 g",
+            "score": 43
+          },
+          {
+            "name": "Salt, \u00bd \u00d7 pinch (1/8tsp)",
+            "qty": null,
+            "score": 20
+          }
+        ]
+      },
+      {
+        "name": "Braised Beef with Creamy Polenta and Side Salad",
+        "score": 45,
+        "calories": 385.0,
+        "protein_g": 53.4,
+        "fat_g": 15.1,
+        "carbs_g": 9.5,
+        "fibre_g": 1.3,
+        "ingredients": [
+          {
+            "name": "Beef, braising steak, lean",
+            "qty": "150 g",
+            "score": 45
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Polenta, weighed uncooked",
+            "qty": "1 \u00d7 serving",
+            "score": 5
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": "6 \u00d7 handful of leaves",
+            "score": 94
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "2 \u00d7 cherry tomato",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Green Vegetable Soup with Herb Garnish",
+        "score": 76,
+        "calories": 180.0,
+        "protein_g": 2.6,
+        "fat_g": 15.2,
+        "carbs_g": 9.3,
+        "fibre_g": 2.3,
+        "ingredients": [
+          {
+            "name": "Fresh green herbs",
+            "qty": "3 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Soup, vegetable, homemade",
+            "qty": "250 ml",
+            "score": 65
+          }
+        ]
+      },
+      {
+        "name": "Peanut Butter and Blueberry Toast",
+        "score": 68,
+        "calories": 234.0,
+        "protein_g": 9.2,
+        "fat_g": 12.1,
+        "carbs_g": 22.6,
+        "fibre_g": 5.0,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 33
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast and Blueberries",
+        "score": 59,
+        "calories": 447.0,
+        "protein_g": 31.4,
+        "fat_g": 24.4,
+        "carbs_g": 27.3,
+        "fibre_g": 3.4,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 33
+          },
+          {
+            "name": "Costa D'oro Extra Virgin Olive Oil L'extra",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Eggs",
+            "qty": "3 \u00d7 large",
+            "score": 71
+          }
+        ]
+      }
+    ],
+    "avg_score": 63.0,
+    "calories": 1545.0,
+    "protein_g": 147.6,
+    "fat_g": 70.5,
+    "carbs_g": 85.0,
+    "fibre_g": 14.5
   }
 }
