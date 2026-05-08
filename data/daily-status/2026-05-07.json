@@ -1,0 +1,69 @@
+{
+  "date": "2026-05-07",
+  "generated_at": "2026-05-08T08:00:16.456854",
+  "whoop": {
+    "imported": true,
+    "recovery": 48.0,
+    "hrv": 32.5,
+    "rhr": 51.0,
+    "sleep_perf": 85.0,
+    "strain": 12.8,
+    "sleep_hrs": 6.6,
+    "spo2": 98.1,
+    "skin_temp": 34.7,
+    "sleep_efficiency": 95.2,
+    "sleep_consistency": 90.0,
+    "respiratory_rate": 13.8,
+    "light_sleep_hrs": 2.8,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.4,
+    "awake_hrs": 0.3,
+    "sleep_cycles": 6,
+    "disturbances": 8,
+    "sleep_needed_hrs": 9.2,
+    "sleep_debt_hrs": 1.6,
+    "calories": 2044,
+    "avg_hr": 67,
+    "max_hr": 178,
+    "workouts": [
+      {
+        "sport": "Sport 230",
+        "calories": 470,
+        "avg_hr": 130,
+        "max_hr": 178
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": 5,
+    "sleep_quality": 5,
+    "supplements": 2,
+    "journal": "1. DNS exercises - Repeated the last session from Michael. I think this is a good scenario where I repeat: when we do a session once a week, he shows me the exercises and then I do that for the whole week and then next week I schedule him again \n2. Ping-pong with Laura actually wasn't bad. I feel today my brain was surprisingly doing better somehow. \n3. I'm still riding some smaller fever, like 36.8-6 on a digital thermometer, so it's probably a bit over 37 \n4. I was feeling dizzy in the evening",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "06:44",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "20:56",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 6,
+    "anxiety": 0,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
