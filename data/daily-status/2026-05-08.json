@@ -1,6 +1,6 @@
 {
   "date": "2026-05-08",
-  "generated_at": "2026-05-09T22:15:42.718901",
+  "generated_at": "2026-05-09T22:30:41.236419",
   "whoop": {
     "imported": true,
     "recovery": 63.0,
@@ -65,6 +65,155 @@
     "bloating": 3
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 4,
+    "meal_names": [
+      "Toast with Almond Butter",
+      "Pan-Seared Chicken Breasts with Potatoes and Greens",
+      "Hearty Vegetable and Lentil Soup with Side Salad",
+      "Fried Eggs with Toast"
+    ],
+    "meal_details": [
+      {
+        "name": "Toast with Almond Butter",
+        "score": 66,
+        "calories": 218.0,
+        "protein_g": 8.8,
+        "fat_g": 12.1,
+        "carbs_g": 19.0,
+        "fibre_g": 4.4,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 90
+          },
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 33
+          }
+        ]
+      },
+      {
+        "name": "Pan-Seared Chicken Breasts with Potatoes and Greens",
+        "score": 65,
+        "calories": 436.0,
+        "protein_g": 68.4,
+        "fat_g": 5.1,
+        "carbs_g": 30.7,
+        "fibre_g": 5.2,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 large",
+            "score": 65
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Potatoes",
+            "qty": "1 \u00d7 serving",
+            "score": 43
+          },
+          {
+            "name": "Spring greens",
+            "qty": "1 \u00d7 serving",
+            "score": 100
+          }
+        ]
+      },
+      {
+        "name": "Hearty Vegetable and Lentil Soup with Side Salad",
+        "score": 99,
+        "calories": 478.0,
+        "protein_g": 28.3,
+        "fat_g": 11.2,
+        "carbs_g": 71.6,
+        "fibre_g": 25.3,
+        "ingredients": [
+          {
+            "name": "Carrots",
+            "qty": "40 g",
+            "score": 81
+          },
+          {
+            "name": "Eggs, boiled",
+            "qty": "25 g",
+            "score": 73
+          },
+          {
+            "name": "Leeks",
+            "qty": "30 g",
+            "score": 97
+          },
+          {
+            "name": "Lentils, green, brown, puy, weighed uncooked",
+            "qty": "1 \u00d7 large serving",
+            "score": 100
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "5 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Pearl barley, weighed uncooked",
+            "qty": "30 g",
+            "score": 92
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": "6 \u00d7 handful of leaves",
+            "score": 94
+          },
+          {
+            "name": "Stock, vegetable cube, made up with water",
+            "qty": "300 ml",
+            "score": 21
+          },
+          {
+            "name": "Swede",
+            "qty": "40 g",
+            "score": 81
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast",
+        "score": 56,
+        "calories": 530.0,
+        "protein_g": 35.4,
+        "fat_g": 33.4,
+        "carbs_g": 23.6,
+        "fibre_g": 2.8,
+        "ingredients": [
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 33
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "3 \u00d7 large",
+            "score": 69
+          }
+        ]
+      }
+    ],
+    "avg_score": 72.0,
+    "calories": 1662.0,
+    "protein_g": 140.9,
+    "fat_g": 61.8,
+    "carbs_g": 144.9,
+    "fibre_g": 37.7
   }
 }
