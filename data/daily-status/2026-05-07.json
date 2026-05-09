@@ -1,6 +1,6 @@
 {
   "date": "2026-05-07",
-  "generated_at": "2026-05-09T22:30:39.882858",
+  "generated_at": "2026-05-09T22:42:00.959308",
   "whoop": {
     "imported": true,
     "recovery": 48.0,
@@ -73,6 +73,187 @@
     "bloating": 3
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Chicken and Courgette Soup",
+      "Breaded Cutlets with Potato Salad and Side Salad",
+      "Green Vegetable Soup with Herb Garnish",
+      "Fried Eggs with Bread",
+      "Toast with Almond Butter and Blueberries"
+    ],
+    "meal_details": [
+      {
+        "name": "Chicken and Courgette Soup",
+        "score": 71,
+        "calories": 260.0,
+        "protein_g": 37.1,
+        "fat_g": 2.9,
+        "carbs_g": 22.8,
+        "fibre_g": 3.9,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 medium",
+            "score": 65
+          },
+          {
+            "name": "Courgette",
+            "qty": "2 \u00d7 portion",
+            "score": 100
+          },
+          {
+            "name": "Potatoes",
+            "qty": "2 \u00d7 potato",
+            "score": 43
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Water",
+            "qty": "300 ml",
+            "score": 100
+          }
+        ]
+      },
+      {
+        "name": "Breaded Cutlets with Potato Salad and Side Salad",
+        "score": 50,
+        "calories": 566.0,
+        "protein_g": 24.4,
+        "fat_g": 38.5,
+        "carbs_g": 32.8,
+        "fibre_g": 3.3,
+        "ingredients": [
+          {
+            "name": "Breaded cod",
+            "qty": "1 \u00d7 portion",
+            "score": 40
+          },
+          {
+            "name": "Cheese, Cheddar",
+            "qty": "2 \u00d7 tbsp grated",
+            "score": 59
+          },
+          {
+            "name": "Eggs, quail",
+            "qty": "2 \u00d7 egg",
+            "score": 76
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Potato salad, with mayonnaise",
+            "qty": "1 \u00d7 serving",
+            "score": 48
+          },
+          {
+            "name": "Radishes, red",
+            "qty": "1 \u00d7 radish",
+            "score": 90
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": "6 \u00d7 handful of leaves",
+            "score": 94
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "1 \u00d7 cherry tomato",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Green Vegetable Soup with Herb Garnish",
+        "score": 74,
+        "calories": 263.0,
+        "protein_g": 4.1,
+        "fat_g": 21.5,
+        "carbs_g": 14.9,
+        "fibre_g": 3.7,
+        "ingredients": [
+          {
+            "name": "Fresh green herbs",
+            "qty": "5 \u00d7 pinch (1/8tsp)",
+            "score": 81
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Soup, vegetable, homemade",
+            "qty": "1 \u00d7 bowl",
+            "score": 65
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Bread",
+        "score": 61,
+        "calories": 544.0,
+        "protein_g": 29.4,
+        "fat_g": 28.1,
+        "carbs_g": 42.7,
+        "fibre_g": 4.9,
+        "ingredients": [
+          {
+            "name": "Bread, sourdough, wholemeal, shop-bought",
+            "qty": "2 \u00d7 large slice",
+            "score": 47
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 67,
+        "calories": 230.0,
+        "protein_g": 9.1,
+        "fat_g": 12.1,
+        "carbs_g": 21.7,
+        "fibre_g": 4.9,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "30 g",
+            "score": 73
+          },
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 33
+          }
+        ]
+      }
+    ],
+    "avg_score": 64.6,
+    "calories": 1863.0,
+    "protein_g": 104.1,
+    "fat_g": 103.1,
+    "carbs_g": 134.9,
+    "fibre_g": 20.7
   }
 }
