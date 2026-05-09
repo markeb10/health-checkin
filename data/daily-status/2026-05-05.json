@@ -1,6 +1,6 @@
 {
   "date": "2026-05-05",
-  "generated_at": "2026-05-09T22:30:37.234501",
+  "generated_at": "2026-05-09T22:42:03.473215",
   "whoop": {
     "imported": true,
     "recovery": 69.0,
@@ -78,49 +78,143 @@
       {
         "name": "Whole Roasted Fish with Rice and Roasted Courgette",
         "score": 77,
-        "calories": null,
-        "protein_g": null,
-        "fat_g": null,
-        "carbs_g": null,
-        "fibre_g": null,
-        "ingredients": []
+        "calories": 882.0,
+        "protein_g": 97.2,
+        "fat_g": 37.1,
+        "carbs_g": 42.8,
+        "fibre_g": 1.0,
+        "ingredients": [
+          {
+            "name": "Courgette",
+            "qty": "1 \u00d7 portion",
+            "score": 100
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "10 ml",
+            "score": 90
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Rice, white",
+            "qty": "1 \u00d7 small serving",
+            "score": 19
+          },
+          {
+            "name": "Salt",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Sea bass",
+            "qty": "2 \u00d7 large fillet",
+            "score": 86
+          }
+        ]
       },
       {
         "name": "Grilled Pork Chop with Roasted Potatoes and Side Salad",
         "score": 35,
-        "calories": null,
-        "protein_g": null,
-        "fat_g": null,
-        "carbs_g": null,
-        "fibre_g": null,
-        "ingredients": []
+        "calories": 542.0,
+        "protein_g": 13.3,
+        "fat_g": 26.4,
+        "carbs_g": 66.9,
+        "fibre_g": 3.3,
+        "ingredients": [
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 90
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "1 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Pepper, black, \u2155 g",
+            "qty": null,
+            "score": 70
+          },
+          {
+            "name": "Pork chops, weighed raw with bone, \u2155 \u00d7 chop",
+            "qty": null,
+            "score": 31
+          },
+          {
+            "name": "Potatoes, roasted in oil",
+            "qty": "2 \u00d7 serving",
+            "score": 29
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": "6 \u00d7 handful of leaves",
+            "score": 94
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 dash",
+            "score": 20
+          }
+        ]
       },
       {
         "name": "Fried Eggs with Toast",
         "score": 52,
-        "calories": null,
-        "protein_g": null,
-        "fat_g": null,
-        "carbs_g": null,
-        "fibre_g": null,
-        "ingredients": []
+        "calories": 394.0,
+        "protein_g": 25.4,
+        "fat_g": 22.7,
+        "carbs_g": 23.6,
+        "fibre_g": 2.8,
+        "ingredients": [
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 33
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          }
+        ]
       },
       {
         "name": "Almond Butter and Blueberry Toast",
         "score": 68,
-        "calories": null,
-        "protein_g": null,
-        "fat_g": null,
-        "carbs_g": null,
-        "fibre_g": null,
-        "ingredients": []
+        "calories": 234.0,
+        "protein_g": 9.2,
+        "fat_g": 12.1,
+        "carbs_g": 22.6,
+        "fibre_g": 5.0,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 33
+          }
+        ]
       }
     ],
     "avg_score": 58.0,
-    "calories": null,
-    "protein_g": null,
-    "fat_g": null,
-    "carbs_g": null,
-    "fibre_g": null
+    "calories": 2052.0,
+    "protein_g": 145.1,
+    "fat_g": 98.3,
+    "carbs_g": 155.9,
+    "fibre_g": 12.1
   }
 }
