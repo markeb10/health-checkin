@@ -1,6 +1,6 @@
 {
   "date": "2026-05-08",
-  "generated_at": "2026-05-10T22:15:41.521606",
+  "generated_at": "2026-05-10T22:30:42.929583",
   "whoop": {
     "imported": true,
     "recovery": 63.0,
@@ -40,21 +40,15 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
-    "energy": 5,
-    "sleep_quality": 5,
-    "supplements": 2,
-    "journal": "1. DNS exercises - Repeated the last session from Michael. I think this is a good scenario where I repeat: when we do a session once a week, he shows me the exercises and then I do that for the whole week and then next week I schedule him again \n2. Ping-pong with Laura actually wasn't bad. I feel today my brain was surprisingly doing better somehow. \n3. I'm still riding some smaller fever, like 36.8-6 on a digital thermometer, so it's probably a bit over 37 \n4. I was feeling dizzy in the evening",
+    "mood": 6,
+    "energy": 6,
+    "sleep_quality": 6,
+    "supplements": 1,
+    "journal": "1. Woke up early, was investigating, found out about the floating room. To do floating pod instead of or just add it to the rest of the stuff there \n2. - Play Duolingo\n- Breakfast\n- Did some small work\n- Read meditations\n- Three passages\n3. Appointment with Vita Stukovnik\n4. Lunchy\n5. worked with claude on my virus stuff\n6. working on beds - didnt sent out enquiries yet\n7. duo lingo\n8. fight with cosita she id in period\n9.",
     "supplements_list": [
       {
         "name": "Enterosgel",
-        "time": "16:33",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Enterosgel",
-        "time": "22:20",
+        "time": "22:02",
         "dose": "",
         "unit": ""
       }
@@ -62,7 +56,7 @@
     "energy_afternoon": 7,
     "energy_evening": 6,
     "anxiety": 0,
-    "bloating": 3
+    "bloating": 5
   },
   "zoe": {
     "imported": true,
