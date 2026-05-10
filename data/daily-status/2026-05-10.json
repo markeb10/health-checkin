@@ -1,6 +1,6 @@
 {
   "date": "2026-05-10",
-  "generated_at": "2026-05-10T22:15:44.428569",
+  "generated_at": "2026-05-10T22:30:46.206997",
   "whoop": {
     "imported": true,
     "recovery": 42.0,
@@ -39,7 +39,7 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
+    "mood": 6,
     "energy": 6,
     "sleep_quality": 7,
     "supplements": 0,
