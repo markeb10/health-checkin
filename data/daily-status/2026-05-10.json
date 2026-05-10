@@ -1,6 +1,6 @@
 {
   "date": "2026-05-10",
-  "generated_at": "2026-05-10T21:00:44.856307",
+  "generated_at": "2026-05-10T21:04:42.486167",
   "whoop": {
     "imported": true,
     "recovery": 42.0,
@@ -50,6 +50,113 @@
     "bloating": 3
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 3,
+    "meal_names": [
+      "Toast with Almond Butter and Blueberries",
+      "Grilled Fish with Roasted Potatoes and Mixed Vegetables",
+      "Fried Eggs with Toast"
+    ],
+    "meal_details": [
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 61,
+        "calories": 458.0,
+        "protein_g": 17.1,
+        "fat_g": 24.0,
+        "carbs_g": 44.6,
+        "fibre_g": 8.4,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "2 \u00d7 serving, as spread",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "35 g",
+            "score": 73
+          },
+          {
+            "name": "Bread, brown, toasted",
+            "qty": "2 \u00d7 medium slice",
+            "score": 27
+          }
+        ]
+      },
+      {
+        "name": "Grilled Fish with Roasted Potatoes and Mixed Vegetables",
+        "score": 69,
+        "calories": 567.0,
+        "protein_g": 51.4,
+        "fat_g": 23.0,
+        "carbs_g": 37.7,
+        "fibre_g": 3.4,
+        "ingredients": [
+          {
+            "name": "Broccoli",
+            "qty": "30 g",
+            "score": 100
+          },
+          {
+            "name": "Cauliflower",
+            "qty": "60 g",
+            "score": 97
+          },
+          {
+            "name": "Fish, yellowtail, weighed raw",
+            "qty": "1 \u00d7 large fillet",
+            "score": 88
+          },
+          {
+            "name": "Peppers, red",
+            "qty": "40 g",
+            "score": 85
+          },
+          {
+            "name": "Potatoes, roasted in oil",
+            "qty": "1 \u00d7 serving",
+            "score": 29
+          },
+          {
+            "name": "Vegetable oil",
+            "qty": "5 ml",
+            "score": 78
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast",
+        "score": 56,
+        "calories": 547.0,
+        "protein_g": 33.5,
+        "fat_g": 37.5,
+        "carbs_g": 20.2,
+        "fibre_g": 0.8,
+        "ingredients": [
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 18
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "3 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Vegetable oil",
+            "qty": "5 ml",
+            "score": 78
+          }
+        ]
+      }
+    ],
+    "avg_score": 62.0,
+    "calories": 1572.0,
+    "protein_g": 102.0,
+    "fat_g": 84.5,
+    "carbs_g": 102.5,
+    "fibre_g": 12.6
   }
 }
