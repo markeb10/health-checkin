@@ -1,6 +1,6 @@
 {
   "date": "2026-05-10",
-  "generated_at": "2026-05-10T21:45:46.170361",
+  "generated_at": "2026-05-10T22:00:45.085269",
   "whoop": {
     "imported": true,
     "recovery": 42.0,
@@ -39,13 +39,13 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 8,
+    "mood": 5,
     "energy": 6,
     "sleep_quality": 7,
     "supplements": 0,
     "journal": "1. It was a funny start of the day. I didn't get much sleep. \n2. Trying to fall back asleep, was meditating but that's it. Didn't manage \n3. I was putting ice on my lower back as well \n4. Doing DNS exercises and duoldueling\nWent to market to buy stuff for the breakfast because Nastia and Filip are coming \nDid a short Duolingo session and vacuum cleaned parts of the apartment \n5. We had Nastia and Filip coming over. We had breakfast \n6. Played Ping-Pong with Filip, went really well - I love playi",
     "energy_afternoon": 8,
-    "energy_evening": 7,
+    "energy_evening": 5,
     "anxiety": 1,
     "bloating": 3
   },
