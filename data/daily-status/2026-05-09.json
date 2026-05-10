@@ -1,6 +1,6 @@
 {
   "date": "2026-05-09",
-  "generated_at": "2026-05-10T11:15:43.820983",
+  "generated_at": "2026-05-10T11:20:52.864792",
   "whoop": {
     "imported": true,
     "recovery": 52.0,
@@ -65,6 +65,305 @@
     "bloating": 3
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 9,
+    "meal_names": [
+      "Assortment of Pastries",
+      "Sashimi Selection",
+      "Grilled Fish with Pickled Vegetables and Daikon",
+      "Salmon and Tuna Sushi Rolls with Avocado",
+      "Braised Aubergine with Microgreens",
+      "Fried Eggs with Bread",
+      "Fresh Blueberries",
+      "Toast with Almond Butter and Blueberries",
+      "Toast with Almond Butter and Blueberries"
+    ],
+    "meal_details": [
+      {
+        "name": "Assortment of Pastries",
+        "score": 35,
+        "calories": 672.0,
+        "protein_g": 8.6,
+        "fat_g": 36.7,
+        "carbs_g": 81.6,
+        "fibre_g": 2.9,
+        "ingredients": [
+          {
+            "name": "Dried mixed fruit",
+            "qty": "1 \u00d7 handful",
+            "score": 10
+          },
+          {
+            "name": "Fruit pies",
+            "qty": "1 \u00d7 57",
+            "score": 17
+          },
+          {
+            "name": "Puff pastry",
+            "qty": "50 g",
+            "score": 31
+          },
+          {
+            "name": "Seeds, mixed",
+            "qty": "2 g",
+            "score": 100
+          },
+          {
+            "name": "Sugar, icing",
+            "qty": "5 \u00d7 pinch (1/8tsp)",
+            "score": 0
+          },
+          {
+            "name": "Walnuts",
+            "qty": "8 \u00d7 nut half",
+            "score": 98
+          }
+        ]
+      },
+      {
+        "name": "Sashimi Selection",
+        "score": 87,
+        "calories": 283.0,
+        "protein_g": 46.8,
+        "fat_g": 10.4,
+        "carbs_g": 0.5,
+        "fibre_g": 0.2,
+        "ingredients": [
+          {
+            "name": "Lemons",
+            "qty": "5 g",
+            "score": 78
+          },
+          {
+            "name": "Radishes, white, mooli",
+            "qty": "2 \u00d7 radish",
+            "score": 82
+          },
+          {
+            "name": "Salmon",
+            "qty": "60 g",
+            "score": 86
+          },
+          {
+            "name": "Tuna, fresh",
+            "qty": "60 g",
+            "score": 89
+          },
+          {
+            "name": "Whiting",
+            "qty": "60 g",
+            "score": 87
+          }
+        ]
+      },
+      {
+        "name": "Grilled Fish with Pickled Vegetables and Daikon",
+        "score": 67,
+        "calories": 139.0,
+        "protein_g": 22.4,
+        "fat_g": 0.8,
+        "carbs_g": 9.3,
+        "fibre_g": 1.2,
+        "ingredients": [
+          {
+            "name": "Beetroot, tinned, pickled",
+            "qty": "1 \u00d7 beetroot",
+            "score": 48
+          },
+          {
+            "name": "Cod",
+            "qty": "1 \u00d7 small fillet",
+            "score": 87
+          },
+          {
+            "name": "Radishes, white, mooli",
+            "qty": "1 \u00d7 serving",
+            "score": 82
+          },
+          {
+            "name": "Rice wine, mirin",
+            "qty": "5 ml",
+            "score": 20
+          },
+          {
+            "name": "Soy sauce",
+            "qty": "2 \u00d7 individual packet",
+            "score": 0
+          },
+          {
+            "name": "Sugar, white",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 0
+          }
+        ]
+      },
+      {
+        "name": "Salmon and Tuna Sushi Rolls with Avocado",
+        "score": 57,
+        "calories": 372.0,
+        "protein_g": 27.6,
+        "fat_g": 11.4,
+        "carbs_g": 42.3,
+        "fibre_g": 2.2,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "30 g",
+            "score": 100
+          },
+          {
+            "name": "Rice, Thai fragrant, weighed cooked",
+            "qty": "1 \u00d7 small serving",
+            "score": 18
+          },
+          {
+            "name": "Salmon, wild",
+            "qty": "40 g",
+            "score": 86
+          },
+          {
+            "name": "Seaweed, nori, dried",
+            "qty": "1 \u00d7 sheet",
+            "score": 100
+          },
+          {
+            "name": "Tuna, fresh",
+            "qty": "40 g",
+            "score": 89
+          }
+        ]
+      },
+      {
+        "name": "Braised Aubergine with Microgreens",
+        "score": 81,
+        "calories": 51.0,
+        "protein_g": 2.9,
+        "fat_g": 0.8,
+        "carbs_g": 8.4,
+        "fibre_g": 4.1,
+        "ingredients": [
+          {
+            "name": "Aubergine",
+            "qty": "2 \u00d7 portion",
+            "score": 93
+          },
+          {
+            "name": "Microgreens",
+            "qty": "3 \u00d7 handful of leaves",
+            "score": 100
+          },
+          {
+            "name": "Soy sauce",
+            "qty": "3 \u00d7 individual packet",
+            "score": 0
+          },
+          {
+            "name": "Water",
+            "qty": "50 ml",
+            "score": 100
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Bread",
+        "score": 56,
+        "calories": 676.0,
+        "protein_g": 38.3,
+        "fat_g": 38.2,
+        "carbs_g": 43.4,
+        "fibre_g": 2.6,
+        "ingredients": [
+          {
+            "name": "Bread, sourdough, white, shop bought",
+            "qty": "2 \u00d7 large slice",
+            "score": 39
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "3 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Vegetable oil",
+            "qty": "5 ml",
+            "score": 78
+          }
+        ]
+      },
+      {
+        "name": "Fresh Blueberries",
+        "score": 73,
+        "calories": 64.0,
+        "protein_g": 1.4,
+        "fat_g": 0.3,
+        "carbs_g": 14.6,
+        "fibre_g": 2.4,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "4 \u00d7 handful",
+            "score": 73
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 56,
+        "calories": 238.0,
+        "protein_g": 8.6,
+        "fat_g": 11.8,
+        "carbs_g": 25.1,
+        "fibre_g": 3.7,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 18
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 68,
+        "calories": 317.0,
+        "protein_g": 11.4,
+        "fat_g": 17.4,
+        "carbs_g": 29.4,
+        "fibre_g": 5.5,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 90
+          },
+          {
+            "name": "Blueberries",
+            "qty": "2 \u00d7 handful",
+            "score": 73
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 18
+          }
+        ]
+      }
+    ],
+    "avg_score": 64.0,
+    "calories": 2812.0,
+    "protein_g": 168.0,
+    "fat_g": 127.80000000000001,
+    "carbs_g": 254.6,
+    "fibre_g": 24.8
   }
 }
