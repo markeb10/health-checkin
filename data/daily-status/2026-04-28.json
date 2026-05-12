@@ -1,38 +1,8 @@
 {
   "date": "2026-04-28",
-  "generated_at": "2026-05-12T09:15:28.759443",
+  "generated_at": "2026-05-12T09:30:37.110894",
   "whoop": {
-    "imported": true,
-    "recovery": 40.0,
-    "hrv": 30.4,
-    "rhr": 49.0,
-    "sleep_perf": 73.0,
-    "strain": 4.9,
-    "sleep_hrs": 5.5,
-    "spo2": 94.6,
-    "skin_temp": 34.0,
-    "sleep_efficiency": 78.4,
-    "sleep_consistency": 79.0,
-    "respiratory_rate": 12.9,
-    "light_sleep_hrs": 2.5,
-    "deep_sleep_hrs": 2.3,
-    "rem_sleep_hrs": 0.8,
-    "awake_hrs": 1.5,
-    "sleep_cycles": 4,
-    "disturbances": 2,
-    "sleep_needed_hrs": 7.8,
-    "sleep_debt_hrs": 0.3,
-    "calories": 1550,
-    "avg_hr": 62,
-    "max_hr": 127,
-    "workouts": [
-      {
-        "sport": "HIIT",
-        "calories": 19,
-        "avg_hr": 90,
-        "max_hr": 104
-      }
-    ]
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -46,36 +16,7 @@
     "sleep_awake_hrs": 1.5
   },
   "checkin": {
-    "imported": true,
-    "mood": 5,
-    "energy": 6,
-    "sleep_quality": 4,
-    "supplements": 3,
-    "journal": "Grateful for: being alive, being wired still better than having fog haha, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Having this freedome to take it a bit easy, I miss some exercising but also what if that push with HIIT make me sleep less - it was a quick jumping jack session but still, I have cosita that loves me\nToday great: Get some relaxation, dont push too hard, no sudden bursts. Today I have session with Micheal and Renzo. So ideally both sessions go well and I will be able to make some progress or le",
-    "supplements_list": [
-      {
-        "name": "Enterosgel",
-        "time": "17:50",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Telfast from Boots",
-        "time": "17:50",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Ruporut",
-        "time": "23:09",
-        "dose": "0.5",
-        "unit": "mg"
-      }
-    ],
-    "energy_afternoon": 7,
-    "energy_evening": 6,
-    "anxiety": 1,
-    "bloating": 5
+    "imported": false
   },
   "zoe": {
     "imported": true,
@@ -388,7 +329,7 @@
         ]
       }
     ],
-    "avg_score": 75.7,
+    "avg_score": 76.0,
     "calories": 2928.0,
     "protein_g": 199.4,
     "fat_g": 174.5,
