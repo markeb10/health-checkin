@@ -1,6 +1,6 @@
 {
   "date": "2026-05-05",
-  "generated_at": "2026-05-12T09:30:52.471753",
+  "generated_at": "2026-05-12T09:45:48.179857",
   "whoop": {
     "imported": false
   },
@@ -16,7 +16,24 @@
     "sleep_awake_hrs": 0.2
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 7,
+    "sleep_quality": 8,
+    "supplements": 1,
+    "journal": "1. DNS exercises. \n2. Ping pong with Lara \n3. Breakfast and I did a stool test \n4. The toilet got clogged. That caused a lot of stress \n5. Duolingo \n6. Meeting for cashy, not so great \n7. Meeting for Aca. How are we going to do this? Sending. And with other guys \n8. Lunch time. \n9. Went for shopping with Cosita for dinner. \n10. Some admin stuff \n11. Michael Parr session was really good \n12. Dinner time with Cosita \n13. Unclog the toilet \n14. Reading meditations from Marcus Aurelius. \n15. Duoling",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "06:33",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 0,
+    "bloating": 4
   },
   "zoe": {
     "imported": true,
