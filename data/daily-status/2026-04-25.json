@@ -1,6 +1,6 @@
 {
   "date": "2026-04-25",
-  "generated_at": "2026-05-12T10:15:29.349963",
+  "generated_at": "2026-05-12T10:30:29.652547",
   "whoop": {
     "imported": false
   },
@@ -16,7 +16,54 @@
     "sleep_awake_hrs": 0.6
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 6,
+    "energy": 6,
+    "sleep_quality": 7,
+    "supplements": 6,
+    "journal": "Grateful for: New day, being a bit groggy, moody but okey, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, this place, being calm\nToday great: To finalise salaries and to get some work done but also to enjoy london get some great food and walkie around explore new areas of London.\nAffirmation: I love my life I love my body.\nAmazing things: - walking around south bank was great, The resturant we ate was genuinly good ARABICA at borough market - what a place, Managed to ingest some more data in to my AI\nBetter: Sup",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "22:02",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "22:02",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "22:02",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Alfacort (hydrocortisone 1%)",
+        "time": "22:02",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Bepanthen ointment",
+        "time": "22:02",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Eumovate 2 x CeraVe Therapetic cream",
+        "time": "00:13",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 4,
+    "energy_evening": 6,
+    "anxiety": 1,
+    "bloating": 6
   },
   "zoe": {
     "imported": true,
