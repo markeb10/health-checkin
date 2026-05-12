@@ -1,38 +1,8 @@
 {
   "date": "2026-04-27",
-  "generated_at": "2026-05-12T09:15:26.997846",
+  "generated_at": "2026-05-12T09:30:34.974134",
   "whoop": {
-    "imported": true,
-    "recovery": 97.0,
-    "hrv": 49.7,
-    "rhr": 47.0,
-    "sleep_perf": 93.0,
-    "strain": 5.8,
-    "sleep_hrs": 7.7,
-    "spo2": 97.1,
-    "skin_temp": 34.5,
-    "sleep_efficiency": 96.4,
-    "sleep_consistency": 87.0,
-    "respiratory_rate": 13.4,
-    "light_sleep_hrs": 4.3,
-    "deep_sleep_hrs": 2.3,
-    "rem_sleep_hrs": 1.1,
-    "awake_hrs": 0.3,
-    "sleep_cycles": 4,
-    "disturbances": 8,
-    "sleep_needed_hrs": 8.2,
-    "sleep_debt_hrs": 0.7,
-    "calories": 1604,
-    "avg_hr": 60,
-    "max_hr": 142,
-    "workouts": [
-      {
-        "sport": "HIIT",
-        "calories": 65,
-        "avg_hr": 102,
-        "max_hr": 142
-      }
-    ]
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -46,54 +16,7 @@
     "sleep_awake_hrs": 0.3
   },
   "checkin": {
-    "imported": true,
-    "mood": 8,
-    "energy": 8,
-    "sleep_quality": 8,
-    "supplements": 6,
-    "journal": "Grateful for: being in this great hotel, finally getting one of the best sleeps in a while, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Being calm, happy, I am alive, well\nToday great: Teach claude how to collect invoices and put them into the banking system so that alone will save me some time. To pay third party providers.\nAffirmation: I am happy to be finally sleeping well, lets keep this up and hope this is a nice trend and that C vitamin is able to break this vicious cycle I kinda spiraled into.\nAmazing ",
-    "supplements_list": [
-      {
-        "name": "Liposomal C 4 drops",
-        "time": "19:51",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Enterosgel",
-        "time": "19:51",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "roibos vanilla tea",
-        "time": "19:51",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Telfast from Boots",
-        "time": "19:51",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Eumovate + Beef tallow + White glove",
-        "time": "19:51",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Liposomal C (Modern Chemistry)",
-        "time": "21:34",
-        "dose": "2",
-        "unit": "drops"
-      }
-    ],
-    "energy_afternoon": 8,
-    "energy_evening": 7,
-    "anxiety": 0,
-    "bloating": 2
+    "imported": false
   },
   "zoe": {
     "imported": true,
