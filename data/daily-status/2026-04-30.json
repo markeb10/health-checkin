@@ -1,6 +1,6 @@
 {
   "date": "2026-04-30",
-  "generated_at": "2026-05-12T21:51:25.429418",
+  "generated_at": "2026-05-12T22:00:46.919792",
   "whoop": {
     "imported": false
   },
@@ -17,7 +17,48 @@
     "sleep_awake_hrs": 0.8
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 5,
+    "energy": 5,
+    "sleep_quality": 5,
+    "supplements": 5,
+    "journal": "1. Duolingo \n2. Woke here with Filip and meeting - feeling super weak. Filip is explaining to me their idea about the AI development. I feel like everything has such shaky ground. \n3. My dad arrived, so I spent some time with him. We went for a walk, and of course he was here for the money. I've said this pattern before. It's okay. \n4. Feeling like shit the whole day, like I just can't calm down. That's really weird. It's not even that I'll be tired. It's just I'm kind of wired at the same time ",
+    "supplements_list": [
+      {
+        "name": "Liposomal C",
+        "time": "07:15",
+        "dose": "2",
+        "unit": "drops"
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "07:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "07:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "L-theanine",
+        "time": "22:16",
+        "dose": "150",
+        "unit": "mg"
+      },
+      {
+        "name": "Magnezium Taurate 100 mg",
+        "time": "22:16",
+        "dose": "",
+        "unit": "mg"
+      }
+    ],
+    "energy_afternoon": 5,
+    "energy_evening": 5,
+    "anxiety": 0,
+    "bloating": 0
   },
   "zoe": {
     "imported": true,
