@@ -1,6 +1,6 @@
 {
   "date": "2026-04-23",
-  "generated_at": "2026-05-12T09:15:20.009797",
+  "generated_at": "2026-05-12T09:30:25.783506",
   "whoop": {
     "imported": true,
     "recovery": 51.0,
@@ -22,7 +22,7 @@
     "disturbances": 9,
     "sleep_needed_hrs": 8.5,
     "sleep_debt_hrs": 0.9,
-    "calories": 1594,
+    "calories": 1498,
     "avg_hr": 59,
     "max_hr": 134,
     "workouts": [
@@ -47,27 +47,27 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
+    "mood": 7,
     "energy": 3,
     "sleep_quality": 7,
     "supplements": 3,
-    "journal": "Grateful for: New day, being alive, well, learning new things, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, being in this nice hotel, Loving the town, enjoying the nature\nToday great: Easing off the sciatica pain, i think I will apply some ice on it and see how it goes\nAffirmation: I am happy and calm and will be on a journey of improvement\nAmazing things: Feeling a bit better, less sciatica pain, still a bit stuck though\nBetter: I could have gone to bed earlier and do all the stuff earlier\nIdeas: 1. Do almost",
+    "journal": "1. Duo lingo\n2. Trying to understand what to do to lower my issue with sciattica - ice helped a bit mostly gone, still issues with my back a bit\n3. Did loufa under shower so that was pretty much gentle - ask renzo how to do it \n4.  Working a bit with claude\n5. shower\n6. walkie to lunch Lima cantina was very good loved it - chicken was genuinly the best so far\n7. walkie back trough buckingham palace\n8. resting icing my back\n9. went to harrods to buy some stuff\n10. duo lingo\n11. wrestilng with my ",
     "supplements_list": [
       {
         "name": "Telfast",
-        "time": "12:58",
+        "time": "23:00",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C (1)",
-        "time": "12:58",
+        "time": "23:00",
         "dose": "",
         "unit": ""
       },
       {
         "name": "roibos vanilla tea",
-        "time": "12:58",
+        "time": "23:00",
         "dose": "",
         "unit": ""
       }
