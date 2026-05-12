@@ -1,6 +1,6 @@
 {
   "date": "2026-05-07",
-  "generated_at": "2026-05-12T09:30:56.700717",
+  "generated_at": "2026-05-12T09:45:52.411353",
   "whoop": {
     "imported": false
   },
@@ -17,7 +17,30 @@
     "sleep_awake_hrs": 0.3
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 5,
+    "energy": 5,
+    "sleep_quality": 5,
+    "supplements": 2,
+    "journal": "1. DNS exercises - Repeated the last session from Michael. I think this is a good scenario where I repeat: when we do a session once a week, he shows me the exercises and then I do that for the whole week and then next week I schedule him again \n2. Ping-pong with Laura actually wasn't bad. I feel today my brain was surprisingly doing better somehow. \n3. I'm still riding some smaller fever, like 36.8-6 on a digital thermometer, so it's probably a bit over 37 \n4. I was feeling dizzy in the evening",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "06:44",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "20:56",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 6,
+    "anxiety": 0,
+    "bloating": 3
   },
   "zoe": {
     "imported": true,
@@ -196,7 +219,7 @@
         ]
       }
     ],
-    "avg_score": 65.0,
+    "avg_score": 64.6,
     "calories": 1863.0,
     "protein_g": 104.1,
     "fat_g": 103.1,
