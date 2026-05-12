@@ -1,6 +1,6 @@
 {
   "date": "2026-04-24",
-  "generated_at": "2026-05-12T10:15:27.370078",
+  "generated_at": "2026-05-12T10:30:27.463161",
   "whoop": {
     "imported": false
   },
@@ -16,7 +16,42 @@
     "sleep_awake_hrs": 0.5
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 6,
+    "sleep_quality": 8,
+    "supplements": 4,
+    "journal": "Grateful for: New sunny day in London, Being loved, being alive, having luxury to eat in the great restaurants, to take time off, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, being alive\nToday great: Going to get some more good food, doing salaries so I get one thing out of the way and just be in the moment, teach claude to check all the salaries for me\nAffirmation: I am positive and hopeful\nAmazing things: - pain was lower today, felt a bit better, Still a little low in feeling but was better took only, 5 Tel",
+    "supplements_list": [
+      {
+        "name": "Telfast",
+        "time": "23:04",
+        "dose": "60",
+        "unit": "mg"
+      },
+      {
+        "name": "Vitamin C (1)",
+        "time": "23:04",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "23:04",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "23:04",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 0,
+    "bloating": 5
   },
   "zoe": {
     "imported": true,
