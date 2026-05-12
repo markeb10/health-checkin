@@ -1,6 +1,6 @@
 {
   "date": "2026-05-10",
-  "generated_at": "2026-05-12T09:31:03.294032",
+  "generated_at": "2026-05-12T09:45:58.558459",
   "whoop": {
     "imported": false
   },
@@ -15,7 +15,16 @@
     "sleep_awake_hrs": 1.1
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 6,
+    "energy": 6,
+    "sleep_quality": 7,
+    "supplements": 0,
+    "journal": "1. I was researching and buying new air plugs. \n2. I decided what I'm gonna do with the mattress: I'm gonna fly it over from Dubai \n3. New ideas about the speech and I wrote some of the speech in connection with AI, even though I think the cold nuggets will actually come from me. Okay at least he did some ground work \n4. I did a bread panel, 50% 50%, 5 minutes plus 5 minutes, and I did a DNS exercise \n5. We had breakfast and I did duoldueling\nLunch at the restaurant. The fish was really good \nOh",
+    "energy_afternoon": 4,
+    "energy_evening": 6,
+    "anxiety": 1,
+    "bloating": 3
   },
   "zoe": {
     "imported": true,
