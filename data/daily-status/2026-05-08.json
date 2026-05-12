@@ -1,31 +1,8 @@
 {
   "date": "2026-05-08",
-  "generated_at": "2026-05-12T09:15:46.629666",
+  "generated_at": "2026-05-12T09:30:58.863003",
   "whoop": {
-    "imported": true,
-    "recovery": 63.0,
-    "hrv": 33.9,
-    "rhr": 50.0,
-    "sleep_perf": 76.0,
-    "strain": 4.3,
-    "sleep_hrs": 7.1,
-    "spo2": 96.8,
-    "skin_temp": 34.5,
-    "sleep_efficiency": 80.9,
-    "sleep_consistency": 79.0,
-    "respiratory_rate": 13.8,
-    "light_sleep_hrs": 3.4,
-    "deep_sleep_hrs": 2.3,
-    "rem_sleep_hrs": 1.5,
-    "awake_hrs": 1.7,
-    "sleep_cycles": 7,
-    "disturbances": 5,
-    "sleep_needed_hrs": 9.6,
-    "sleep_debt_hrs": 1.7,
-    "calories": 1560,
-    "avg_hr": 58,
-    "max_hr": 122,
-    "workouts": []
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -39,24 +16,7 @@
     "sleep_awake_hrs": 1.7
   },
   "checkin": {
-    "imported": true,
-    "mood": 6,
-    "energy": 5,
-    "sleep_quality": 5,
-    "supplements": 1,
-    "journal": "1. Woke up early, was investigating, found out about the floating room. To do floating pod instead of or just add it to the rest of the stuff there \n2. - Play Duolingo\n- Breakfast\n- Did some small work\n- Read meditations\n- Three passages\n3. Appointment with Vita Stukovnik\n4. Lunchy\n5. worked with claude on my virus stuff\n6. working on beds - didnt sent out enquiries yet\n7. duo lingo\n8. fight with cosita she id in period\n9.",
-    "supplements_list": [
-      {
-        "name": "Enterosgel",
-        "time": "16:33",
-        "dose": "",
-        "unit": ""
-      }
-    ],
-    "energy_afternoon": 7,
-    "energy_evening": 6,
-    "anxiety": 0,
-    "bloating": 3
+    "imported": false
   },
   "zoe": {
     "imported": true,
@@ -203,7 +163,7 @@
         ]
       }
     ],
-    "avg_score": 71.5,
+    "avg_score": 72.0,
     "calories": 1662.0,
     "protein_g": 140.9,
     "fat_g": 61.8,
