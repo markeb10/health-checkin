@@ -1,31 +1,8 @@
 {
   "date": "2026-04-26",
-  "generated_at": "2026-05-12T09:15:25.216143",
+  "generated_at": "2026-05-12T09:30:32.528047",
   "whoop": {
-    "imported": true,
-    "recovery": 39.0,
-    "hrv": 30.2,
-    "rhr": 51.0,
-    "sleep_perf": 92.0,
-    "strain": 4.0,
-    "sleep_hrs": 7.3,
-    "spo2": 94.6,
-    "skin_temp": 33.9,
-    "sleep_efficiency": 95.9,
-    "sleep_consistency": 90.0,
-    "respiratory_rate": 13.1,
-    "light_sleep_hrs": 4.0,
-    "deep_sleep_hrs": 1.9,
-    "rem_sleep_hrs": 1.4,
-    "awake_hrs": 0.3,
-    "sleep_cycles": 6,
-    "disturbances": 12,
-    "sleep_needed_hrs": 8.3,
-    "sleep_debt_hrs": 0.8,
-    "calories": 1548,
-    "avg_hr": 58,
-    "max_hr": 117,
-    "workouts": []
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -39,66 +16,7 @@
     "sleep_awake_hrs": 0.3
   },
   "checkin": {
-    "imported": true,
-    "mood": 6,
-    "energy": 6,
-    "sleep_quality": 7,
-    "supplements": 8,
-    "journal": "Grateful for: Being alive, having woken up in my skin, still being able to control my day, take care of myself, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Being in London this great town\nToday great: New places I will visit today Camden town\nI will give back to our guys, by doing salaries\nAffirmation: Take it easy and dont stress youself, everything is going to be fine.\nAmazing things: Visited new place Camden was cool something new\nBetter: would be great if I would have some energy , it was running on low b",
-    "supplements_list": [
-      {
-        "name": "Vitamin C (1)",
-        "time": "16:34",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Enterosgel",
-        "time": "16:34",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "roibos vanilla tea",
-        "time": "16:34",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Eumovate  + CeraVe Therapeutic Hand Cream",
-        "time": "16:34",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Telfast from Boots",
-        "time": "16:34",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Eumovate 2 x CeraVe Therapetic cream",
-        "time": "23:34",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Liposomal C (Modern Chemistry)",
-        "time": "23:34",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Lemon on blisters",
-        "time": "23:34",
-        "dose": "",
-        "unit": ""
-      }
-    ],
-    "energy_afternoon": 5,
-    "energy_evening": 5,
-    "anxiety": 0,
-    "bloating": 5
+    "imported": false
   },
   "zoe": {
     "imported": true,
@@ -447,7 +365,7 @@
         "ingredients": []
       }
     ],
-    "avg_score": 63.9,
+    "avg_score": 64.0,
     "calories": 3305.0,
     "protein_g": 158.4,
     "fat_g": 190.9,
