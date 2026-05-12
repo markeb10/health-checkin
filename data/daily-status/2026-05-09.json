@@ -1,44 +1,8 @@
 {
   "date": "2026-05-09",
-  "generated_at": "2026-05-12T09:15:48.165878",
+  "generated_at": "2026-05-12T09:31:01.045808",
   "whoop": {
-    "imported": true,
-    "recovery": 52.0,
-    "hrv": 32.7,
-    "rhr": 49.0,
-    "sleep_perf": 79.0,
-    "strain": 11.2,
-    "sleep_hrs": 5.6,
-    "spo2": 97.6,
-    "skin_temp": 33.3,
-    "sleep_efficiency": 99.1,
-    "sleep_consistency": 82.0,
-    "respiratory_rate": 13.8,
-    "light_sleep_hrs": 2.4,
-    "deep_sleep_hrs": 1.9,
-    "rem_sleep_hrs": 1.3,
-    "awake_hrs": 0.1,
-    "sleep_cycles": 4,
-    "disturbances": 5,
-    "sleep_needed_hrs": 8.7,
-    "sleep_debt_hrs": 1.2,
-    "calories": 1980,
-    "avg_hr": 68,
-    "max_hr": 150,
-    "workouts": [
-      {
-        "sport": "Sport 230",
-        "calories": 345,
-        "avg_hr": 125,
-        "max_hr": 150
-      },
-      {
-        "sport": "Sport 70",
-        "calories": null,
-        "avg_hr": null,
-        "max_hr": null
-      }
-    ]
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -53,16 +17,7 @@
     "sleep_awake_hrs": 0.1
   },
   "checkin": {
-    "imported": true,
-    "mood": 8,
-    "energy": 6,
-    "sleep_quality": 6,
-    "supplements": 0,
-    "journal": "1. It was a funny start of the day. I didn't get much sleep. \n2. Trying to fall back asleep, was meditating but that's it. Didn't manage \n3. I was putting ice on my lower back as well \n4. Doing DNS exercises and duoldueling\nWent to market to buy stuff for the breakfast because Nastia and Filip are coming \nDid a short Duolingo session and vacuum cleaned parts of the apartment \n5. We had Nastia and Filip coming over. We had breakfast \n6. Played Ping-Pong with Filip, went really well - I love playi",
-    "energy_afternoon": 8,
-    "energy_evening": 7,
-    "anxiety": 1,
-    "bloating": 3
+    "imported": false
   },
   "zoe": {
     "imported": true,
@@ -359,7 +314,7 @@
         ]
       }
     ],
-    "avg_score": 64.4,
+    "avg_score": 64.0,
     "calories": 2812.0,
     "protein_g": 168.0,
     "fat_g": 127.8,
