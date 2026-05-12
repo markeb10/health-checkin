@@ -1,6 +1,6 @@
 {
   "date": "2026-05-01",
-  "generated_at": "2026-05-12T21:51:28.638583",
+  "generated_at": "2026-05-12T22:00:49.186168",
   "whoop": {
     "imported": false
   },
@@ -16,7 +16,54 @@
     "sleep_awake_hrs": 0.5
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 6,
+    "energy": 5,
+    "sleep_quality": 6,
+    "supplements": 6,
+    "journal": "1. I play Duolingo. \n2. I did breakfast in the morning, pre-breakfast, before pedal. \n3. Then I did a battle session with Dan, and I was playing really bad. I just find my vision bad, and the movement wasn't great. Doing a lot of mistakes. \n4. I'm not feeling myself at all. \n5. There was a long Duolingo session, but also I did a cloud session about my health. \n6. I ran all the tests: the fast tests for COVID and Gripa. All negative. \n7. Claudia suggests a lot of new tests that I will run on Mond",
+    "supplements_list": [
+      {
+        "name": "Liposomal C",
+        "time": "22:09",
+        "dose": "2",
+        "unit": "drops"
+      },
+      {
+        "name": "Enterosgel",
+        "time": "22:09",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "22:09",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "22:09",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "L-theanine",
+        "time": "08:22",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Mg Taurate",
+        "time": "08:22",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 6,
+    "energy_evening": 6,
+    "anxiety": 1,
+    "bloating": 4
   },
   "zoe": {
     "imported": true,
