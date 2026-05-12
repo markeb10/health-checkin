@@ -1,6 +1,6 @@
 {
   "date": "2026-05-06",
-  "generated_at": "2026-05-12T09:30:54.628736",
+  "generated_at": "2026-05-12T09:45:50.284158",
   "whoop": {
     "imported": false
   },
@@ -17,7 +17,24 @@
     "sleep_awake_hrs": 0.4
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 6,
+    "energy": 7,
+    "sleep_quality": 6,
+    "supplements": 1,
+    "journal": "1. I did Duolingo. I have sent or I have given the stool test. Went to Synlab and back. \n2. I was feeling under the weather and somehow feverish, with warm hands the whole day. \n3. Massage in the morning. It was good. Can't complain. Felt nothing was hurting me. I mean I had a fever. \n4. Meeting with Vesna it was ok but a bit superficial. I don't think I was in the right state. Things with her are a bit of an interrogation but okay. \n5. Meeting with scatter kings was good. \n6. Meeting day and ma",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "21:50",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 0,
+    "bloating": 4
   },
   "zoe": {
     "imported": true,
@@ -181,7 +198,7 @@
         ]
       }
     ],
-    "avg_score": 63.0,
+    "avg_score": 62.6,
     "calories": 1545.0,
     "protein_g": 147.6,
     "fat_g": 70.5,
