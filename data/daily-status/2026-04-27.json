@@ -1,6 +1,6 @@
 {
   "date": "2026-04-27",
-  "generated_at": "2026-05-12T10:15:33.339261",
+  "generated_at": "2026-05-12T10:30:33.918672",
   "whoop": {
     "imported": false
   },
@@ -16,7 +16,54 @@
     "sleep_awake_hrs": 0.3
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 8,
+    "energy": 8,
+    "sleep_quality": 8,
+    "supplements": 6,
+    "journal": "Grateful for: being in this great hotel, finally getting one of the best sleeps in a while, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Being calm, happy, I am alive, well\nToday great: Teach claude how to collect invoices and put them into the banking system so that alone will save me some time. To pay third party providers.\nAffirmation: I am happy to be finally sleeping well, lets keep this up and hope this is a nice trend and that C vitamin is able to break this vicious cycle I kinda spiraled into.\nAmazing ",
+    "supplements_list": [
+      {
+        "name": "Liposomal C 4 drops",
+        "time": "19:51",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "19:51",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "roibos vanilla tea",
+        "time": "19:51",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "19:51",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Eumovate + Beef tallow + White glove",
+        "time": "19:51",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Liposomal C (Modern Chemistry)",
+        "time": "21:34",
+        "dose": "2",
+        "unit": "drops"
+      }
+    ],
+    "energy_afternoon": 8,
+    "energy_evening": 7,
+    "anxiety": 0,
+    "bloating": 2
   },
   "zoe": {
     "imported": true,
