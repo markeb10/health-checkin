@@ -1,6 +1,6 @@
 {
   "date": "2026-04-28",
-  "generated_at": "2026-05-12T10:15:35.464770",
+  "generated_at": "2026-05-12T10:30:36.033117",
   "whoop": {
     "imported": false
   },
@@ -16,7 +16,36 @@
     "sleep_awake_hrs": 1.5
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 5,
+    "energy": 6,
+    "sleep_quality": 4,
+    "supplements": 3,
+    "journal": "Grateful for: being alive, being wired still better than having fog haha, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Having this freedome to take it a bit easy, I miss some exercising but also what if that push with HIIT make me sleep less - it was a quick jumping jack session but still, I have cosita that loves me\nToday great: Get some relaxation, dont push too hard, no sudden bursts. Today I have session with Micheal and Renzo. So ideally both sessions go well and I will be able to make some progress or le",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "23:22",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "23:22",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Ruporut",
+        "time": "23:09",
+        "dose": "0.5",
+        "unit": "mg"
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 6,
+    "anxiety": 1,
+    "bloating": 5
   },
   "zoe": {
     "imported": true,
