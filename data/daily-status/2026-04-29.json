@@ -1,6 +1,6 @@
 {
   "date": "2026-04-29",
-  "generated_at": "2026-05-12T09:30:39.194976",
+  "generated_at": "2026-05-12T09:45:35.978764",
   "whoop": {
     "imported": false
   },
@@ -15,7 +15,36 @@
     "sleep_awake_hrs": 0.5
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 7,
+    "sleep_quality": 8,
+    "supplements": 3,
+    "journal": "1. I was packing in the morning. \n2. Breakfast. \n3. Duolingo. \n4. Travel to the airport, Heathrow. \n5. I had lunch at the Lounge. \n6. Flight to Ljubljana \n7. I de-packed \n8. Work with Claude - trying to figure out how we can protect our community from scraping. \n9. Duolingo ",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "21:50",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "21:50",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Ruporut",
+        "time": "22:01",
+        "dose": "0.5",
+        "unit": "mg"
+      }
+    ],
+    "energy_afternoon": 6,
+    "energy_evening": 7,
+    "anxiety": 0,
+    "bloating": 6
   },
   "zoe": {
     "imported": true,
@@ -226,7 +255,7 @@
         ]
       }
     ],
-    "avg_score": 66.0,
+    "avg_score": 66.5,
     "calories": 2304.0,
     "protein_g": 74.5,
     "fat_g": 156.0,
