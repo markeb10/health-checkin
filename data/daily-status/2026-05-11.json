@@ -1,6 +1,6 @@
 {
   "date": "2026-05-11",
-  "generated_at": "2026-05-13T06:00:10.478366",
+  "generated_at": "2026-05-13T06:06:45.612633",
   "whoop": {
     "imported": true,
     "recovery": 69.0,
@@ -78,6 +78,207 @@
     "bloating": 3
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Chicken and Potato Soup",
+      "Meatballs in Tomato Sauce with Mashed Potatoes and Side Salad",
+      "Hearty Vegetable Soup",
+      "Toast with Almond Butter and Blueberries",
+      "Fried Eggs with Toast and Papaya"
+    ],
+    "meal_details": [
+      {
+        "name": "Chicken and Potato Soup",
+        "score": 46,
+        "calories": 299.0,
+        "protein_g": 19.0,
+        "fat_g": 12.4,
+        "carbs_g": 29.8,
+        "fibre_g": 3.0,
+        "ingredients": [
+          {
+            "name": "Chicken thighs",
+            "qty": "1 \u00d7 thigh",
+            "score": 46
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Potatoes",
+            "qty": "1 \u00d7 serving",
+            "score": 43
+          }
+        ]
+      },
+      {
+        "name": "Meatballs in Tomato Sauce with Mashed Potatoes and Side Salad",
+        "score": 38,
+        "calories": 261.0,
+        "protein_g": 16.5,
+        "fat_g": 14.0,
+        "carbs_g": 18.2,
+        "fibre_g": 2.3,
+        "ingredients": [
+          {
+            "name": "Basil, fresh",
+            "qty": "3 \u00d7 pinch (1/8tsp)",
+            "score": 80
+          },
+          {
+            "name": "Mashed potato, made with butter, \u00bd \u00d7 serving",
+            "qty": null,
+            "score": 31
+          },
+          {
+            "name": "Meatballs in tomato sauce",
+            "qty": "100 g",
+            "score": 19
+          },
+          {
+            "name": "Parmesan cheese",
+            "qty": "2 \u00d7 tbsp grated",
+            "score": 65
+          },
+          {
+            "name": "Radishes, red",
+            "qty": "1 \u00d7 radish",
+            "score": 90
+          },
+          {
+            "name": "Salad, mixed green",
+            "qty": "6 \u00d7 handful of leaves",
+            "score": 91
+          },
+          {
+            "name": "Tomatoes, cherry",
+            "qty": "1 \u00d7 cherry tomato",
+            "score": 87
+          }
+        ]
+      },
+      {
+        "name": "Hearty Vegetable Soup",
+        "score": 83,
+        "calories": 213.0,
+        "protein_g": 11.6,
+        "fat_g": 3.2,
+        "carbs_g": 37.5,
+        "fibre_g": 10.1,
+        "ingredients": [
+          {
+            "name": "Black eye beans, peas",
+            "qty": "40 g",
+            "score": 85
+          },
+          {
+            "name": "Carrots",
+            "qty": "50 g",
+            "score": 80
+          },
+          {
+            "name": "Celery",
+            "qty": "1 \u00d7 stalk",
+            "score": 75
+          },
+          {
+            "name": "Lentils, green, brown, puy",
+            "qty": "20 g",
+            "score": 99
+          },
+          {
+            "name": "Mixed herbs, dried",
+            "qty": "2 \u00d7 pinch (1/8tsp)",
+            "score": 77
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Peas",
+            "qty": "30 g",
+            "score": 100
+          },
+          {
+            "name": "Potatoes",
+            "qty": "75 g",
+            "score": 43
+          },
+          {
+            "name": "Stock, vegetable cube, made up with water",
+            "qty": "250 ml",
+            "score": 21
+          },
+          {
+            "name": "Sweetcorn",
+            "qty": "30 g",
+            "score": 92
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 61,
+        "calories": 365.0,
+        "protein_g": 12.9,
+        "fat_g": 17.7,
+        "carbs_g": 39.8,
+        "fibre_g": 6.4,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 89
+          },
+          {
+            "name": "Blueberries",
+            "qty": "3 \u00d7 handful",
+            "score": 72
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 18
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast and Papaya",
+        "score": 62,
+        "calories": 396.0,
+        "protein_g": 23.2,
+        "fat_g": 22.0,
+        "carbs_g": 28.1,
+        "fibre_g": 4.1,
+        "ingredients": [
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 small slice",
+            "score": 18
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Papaya",
+            "qty": "2 \u00d7 serving",
+            "score": 66
+          }
+        ]
+      }
+    ],
+    "avg_score": 58.0,
+    "calories": 1534.0,
+    "protein_g": 83.2,
+    "fat_g": 69.3,
+    "carbs_g": 153.4,
+    "fibre_g": 25.9
   }
 }
