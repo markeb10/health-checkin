@@ -1,6 +1,6 @@
 {
   "date": "2026-05-12",
-  "generated_at": "2026-05-13T06:00:10.800473",
+  "generated_at": "2026-05-13T06:11:52.058617",
   "whoop": {
     "imported": true,
     "recovery": 78.0,
@@ -66,6 +66,187 @@
     "bloating": 5
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Chicken and Vegetable Soup",
+      "Gnocchi with Prawns and Side Salad",
+      "Creamy Vegetable Soup with Herb Oil",
+      "Fried Eggs with Toast and Papaya",
+      "Toast with Almond Butter and Blueberries"
+    ],
+    "meal_details": [
+      {
+        "name": "Chicken and Vegetable Soup",
+        "score": 62,
+        "calories": 245.0,
+        "protein_g": 35.5,
+        "fat_g": 2.6,
+        "carbs_g": 21.2,
+        "fibre_g": 3.0,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "1 \u00d7 medium",
+            "score": 65
+          },
+          {
+            "name": "Courgette",
+            "qty": "1 \u00d7 portion",
+            "score": 99
+          },
+          {
+            "name": "Potatoes",
+            "qty": "2 \u00d7 potato",
+            "score": 43
+          }
+        ]
+      },
+      {
+        "name": "Gnocchi with Prawns and Side Salad",
+        "score": 77,
+        "calories": 279.0,
+        "protein_g": 34.9,
+        "fat_g": 14.4,
+        "carbs_g": 2.4,
+        "fibre_g": 1.1,
+        "ingredients": [
+          {
+            "name": "Basil, fresh",
+            "qty": "8 \u00d7 pinch (1/8tsp)",
+            "score": 80
+          },
+          {
+            "name": "Eggs, boiled",
+            "qty": "30 g",
+            "score": 73
+          },
+          {
+            "name": "Gnocchi Sardi Garofalo",
+            "qty": "1 g",
+            "score": 47
+          },
+          {
+            "name": "Lettuce",
+            "qty": "3 \u00d7 large leaf",
+            "score": 94
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 87
+          },
+          {
+            "name": "Parmesan cheese",
+            "qty": "3 \u00d7 tbsp grated",
+            "score": 65
+          },
+          {
+            "name": "Prawns",
+            "qty": "2 \u00d7 serving",
+            "score": 70
+          },
+          {
+            "name": "Radishes, red",
+            "qty": "4 \u00d7 radish",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Creamy Vegetable Soup with Herb Oil",
+        "score": 96,
+        "calories": 170.0,
+        "protein_g": 6.7,
+        "fat_g": 6.4,
+        "carbs_g": 22.6,
+        "fibre_g": 6.9,
+        "ingredients": [
+          {
+            "name": "Carrots",
+            "qty": "1 \u00d7 serving",
+            "score": 80
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 87
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "1 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Peas",
+            "qty": "1 \u00d7 serving",
+            "score": 100
+          },
+          {
+            "name": "Potatoes",
+            "qty": "1 \u00d7 potato",
+            "score": 43
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast and Papaya",
+        "score": 62,
+        "calories": 394.0,
+        "protein_g": 23.1,
+        "fat_g": 22.0,
+        "carbs_g": 27.6,
+        "fibre_g": 4.1,
+        "ingredients": [
+          {
+            "name": "Bread, white, toasted, \u00bd \u00d7 large slice",
+            "qty": null,
+            "score": 18
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          },
+          {
+            "name": "Papaya",
+            "qty": "2 \u00d7 serving",
+            "score": 66
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 59,
+        "calories": 341.0,
+        "protein_g": 12.4,
+        "fat_g": 17.6,
+        "carbs_g": 34.3,
+        "fibre_g": 5.5,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 89
+          },
+          {
+            "name": "Blueberries",
+            "qty": "60 g",
+            "score": 72
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 18
+          }
+        ]
+      }
+    ],
+    "avg_score": 71.0,
+    "calories": 1429.0,
+    "protein_g": 112.6,
+    "fat_g": 63.0,
+    "carbs_g": 108.1,
+    "fibre_g": 20.6
   }
 }
