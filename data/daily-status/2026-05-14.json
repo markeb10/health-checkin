@@ -1,13 +1,13 @@
 {
   "date": "2026-05-14",
-  "generated_at": "2026-05-14T08:00:20.941646",
+  "generated_at": "2026-05-14T20:53:27.516820",
   "whoop": {
     "imported": true,
     "recovery": 67.0,
     "hrv": 36.2,
     "rhr": 49.0,
     "sleep_perf": 78.0,
-    "strain": 4.0,
+    "strain": 10.2,
     "sleep_hrs": 5.8,
     "spo2": 97.5,
     "skin_temp": 34.5,
@@ -22,10 +22,16 @@
     "disturbances": 4,
     "sleep_needed_hrs": 9.5,
     "sleep_debt_hrs": 1.8,
-    "calories": 574,
-    "avg_hr": 52,
-    "max_hr": 102,
+    "calories": 1742,
+    "avg_hr": 64,
+    "max_hr": 161,
     "workouts": [
+      {
+        "sport": "Sport 230",
+        "calories": 406,
+        "avg_hr": 121,
+        "max_hr": 161
+      },
       {
         "sport": "Sport 70",
         "calories": null,
@@ -43,6 +49,7 @@
     "energy": 5,
     "sleep_quality": 5,
     "supplements": 0,
+    "journal": "Grateful for: New ideas, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, being calm, \u201cokey\u201d, I have my book, my faight, if things are tough you need to understand this is all part of nature\nToday great: - a good pong pong session\n- me writing the speech\n- this weird neural thingy to stop\nAffirmation: We need to keep it together especially on day like this.",
     "anxiety": 1
   },
   "zoe": {
