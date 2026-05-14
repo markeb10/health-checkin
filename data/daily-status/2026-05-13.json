@@ -1,6 +1,6 @@
 {
   "date": "2026-05-13",
-  "generated_at": "2026-05-14T20:53:25.512693",
+  "generated_at": "2026-05-14T21:07:54.751913",
   "whoop": {
     "imported": true,
     "recovery": 84.0,
@@ -57,11 +57,11 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 6,
+    "mood": 5,
     "energy": 6,
     "sleep_quality": 7,
     "supplements": 1,
-    "journal": "Grateful for: Being alive, being in this apartment, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, New ideas being able to think, to breathe, to have my peace of mind, This peaceful morning\nToday great: Great massage and some exercises like this DNS and, in general, just being awesome and getting the speech done \nAffirmation: I love my life. I love my body \nAmazing things: - i did some good further thinking with claude, - chat with dr andersen - she will give some pointers, - good massage but now all hurts weird",
+    "journal": "1. Woke up too early. 5:30\n2. Did 4/8 breathing \n3. Diary intake \n4. DNS exercising and red light panel \n5. Did also neurosym 20 min level 12\n6. did massage with Mitja\n7. breakfast\n8. pcr test corona\n9. duo lingo\n10. lunch\n11. working with claude on new teories\n12. talk with dr anderson from the Medizincenter \n13. ping pong\n14. really clauding properly\n15. dinner chicken soup\n16. Duo lingo",
     "supplements_list": [
       {
         "name": "Enterosgel",
@@ -76,6 +76,212 @@
     "bloating": 4
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Chicken and Vegetable Soup",
+      "Steak with Roasted Potatoes, Asparagus, and Side Salad with Boiled Eggs",
+      "Creamy Vegetable Soup with Herb Oil",
+      "Toast with Almond Butter and Blueberries",
+      "Fried Eggs with Toast and Blueberries"
+    ],
+    "meal_details": [
+      {
+        "name": "Chicken and Vegetable Soup",
+        "score": 65,
+        "calories": 321.0,
+        "protein_g": 51.6,
+        "fat_g": 3.7,
+        "carbs_g": 21.6,
+        "fibre_g": 3.0,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 65
+          },
+          {
+            "name": "Courgette",
+            "qty": "1 \u00d7 portion",
+            "score": 99
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Potatoes",
+            "qty": "2 \u00d7 potato",
+            "score": 43
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Water",
+            "qty": "300 ml",
+            "score": 100
+          }
+        ]
+      },
+      {
+        "name": "Steak with Roasted Potatoes, Asparagus, and Side Salad with Boiled Eggs",
+        "score": 52,
+        "calories": 761.0,
+        "protein_g": 84.0,
+        "fat_g": 39.3,
+        "carbs_g": 18.5,
+        "fibre_g": 2.6,
+        "ingredients": [
+          {
+            "name": "Asparagus",
+            "qty": "1 \u00d7 portion",
+            "score": 100
+          },
+          {
+            "name": "Beef, sirloin steak, lean, medium rare",
+            "qty": "1 \u00d7 large, 8 oz",
+            "score": 44
+          },
+          {
+            "name": "Eggs, boiled",
+            "qty": "2 \u00d7 large",
+            "score": 73
+          },
+          {
+            "name": "Lettuce",
+            "qty": "2 \u00d7 large leaf",
+            "score": 94
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 87
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Potatoes, roasted in oil, \u00bd \u00d7 serving",
+            "qty": null,
+            "score": 29
+          },
+          {
+            "name": "Radishes, red",
+            "qty": "3 \u00d7 radish",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Creamy Vegetable Soup with Herb Oil",
+        "score": 81,
+        "calories": 236.0,
+        "protein_g": 5.9,
+        "fat_g": 11.3,
+        "carbs_g": 30.1,
+        "fibre_g": 7.0,
+        "ingredients": [
+          {
+            "name": "Carrots",
+            "qty": "1 \u00d7 serving",
+            "score": 80
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "10 ml",
+            "score": 87
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "5 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Peas",
+            "qty": "40 g",
+            "score": 100
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Potatoes",
+            "qty": "2 \u00d7 potato",
+            "score": 43
+          },
+          {
+            "name": "Stock, vegetable cube, made up with water",
+            "qty": "150 ml",
+            "score": 21
+          }
+        ]
+      },
+      {
+        "name": "Toast with Almond Butter and Blueberries",
+        "score": 59,
+        "calories": 333.0,
+        "protein_g": 12.2,
+        "fat_g": 17.6,
+        "carbs_g": 32.5,
+        "fibre_g": 5.2,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 89
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 72
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 18
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast and Blueberries",
+        "score": 58,
+        "calories": 384.0,
+        "protein_g": 23.4,
+        "fat_g": 22.1,
+        "carbs_g": 24.4,
+        "fibre_g": 2.4,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "3 \u00d7 handful",
+            "score": 72
+          },
+          {
+            "name": "Bread, white, toasted, \u00bd \u00d7 large slice",
+            "qty": null,
+            "score": 18
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          }
+        ]
+      }
+    ],
+    "avg_score": 63.0,
+    "calories": 2035.0,
+    "protein_g": 177.1,
+    "fat_g": 94.0,
+    "carbs_g": 127.1,
+    "fibre_g": 20.2
   }
 }
