@@ -1,0 +1,33 @@
+{
+  "date": "2026-05-15",
+  "generated_at": "2026-05-17T10:29:15.899854",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": 5,
+    "sleep_quality": 6,
+    "supplements": 1,
+    "journal": "1. Synlab tests\n2. walked back - was feeling very dizzy and even later on \n3. breakfast\n4. bioresonance - i need to calm down my vagus nerve - basically I am too alert and need to sleep more - she also did some therapy with those glasses - that was interesting\n5. Doulingo\n6. did in the end 2x chapters did big session in the evening - better than just doing those speakjng stuff specially for evening is too stimulating imo\n7. lunchy was good\n8. Did neurosym\n9. analysed a bit with claude - did some",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "22:29",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 6,
+    "energy_evening": 7,
+    "anxiety": 1,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
