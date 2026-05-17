@@ -1,38 +1,8 @@
 {
   "date": "2026-05-06",
-  "generated_at": "2026-05-16T06:45:23.233184",
+  "generated_at": "2026-05-17T06:45:41.741687",
   "whoop": {
-    "imported": true,
-    "recovery": 48.0,
-    "hrv": 32.7,
-    "rhr": 52.0,
-    "sleep_perf": 86.0,
-    "strain": 7.7,
-    "sleep_hrs": 7.1,
-    "spo2": 93.6,
-    "skin_temp": 34.9,
-    "sleep_efficiency": 95.3,
-    "sleep_consistency": 89.0,
-    "respiratory_rate": 13.8,
-    "light_sleep_hrs": 3.3,
-    "deep_sleep_hrs": 2.1,
-    "rem_sleep_hrs": 1.7,
-    "awake_hrs": 0.4,
-    "sleep_cycles": 7,
-    "disturbances": 4,
-    "sleep_needed_hrs": 9.6,
-    "sleep_debt_hrs": 1.7,
-    "calories": 1714,
-    "avg_hr": 66,
-    "max_hr": 147,
-    "workouts": [
-      {
-        "sport": "HIIT",
-        "calories": 45,
-        "avg_hr": 100,
-        "max_hr": 108
-      }
-    ]
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -52,11 +22,11 @@
     "energy": 7,
     "sleep_quality": 6,
     "supplements": 1,
-    "journal": "1. I did Duolingo. I have sent or I have given the stool test. Went to Synlab and back. \n2. I was feeling under the weather and somehow feverish, with warm hands the whole day. \n3. Massage in the morning. It was good. Can't complain. Felt nothing was hurting me. I mean I had a fever. \n4. Meeting with Vesna it was ok but a bit superficial. I don't think I was in the right state. Things with her are a bit of an interrogation but okay. \n5. Meeting with scatter kings was good. \n6. Meeting day and ma",
+    "journal": "Grateful for: Being alive, being in this town, New ideas, new positive mindset, really excited about reading Marcus Aurelius's Meditations or his diary, Cosita friends Family \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, New day, new way to live life, Uncover new things, improve how you treat the people around you\nToday great: Learning new things, doing some organisational stuff It will be good to meet my sister after a long time and also to get a massage finally I also need to do some work looking forward to that Scatter Kings meet",
     "supplements_list": [
       {
         "name": "Enterosgel",
-        "time": "21:50",
+        "time": "21:49",
         "dose": "",
         "unit": ""
       }
