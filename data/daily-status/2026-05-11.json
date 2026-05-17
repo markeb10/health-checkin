@@ -1,44 +1,8 @@
 {
   "date": "2026-05-11",
-  "generated_at": "2026-05-16T06:45:32.290003",
+  "generated_at": "2026-05-17T06:45:50.403406",
   "whoop": {
-    "imported": true,
-    "recovery": 69.0,
-    "hrv": 33.7,
-    "rhr": 49.0,
-    "sleep_perf": 81.0,
-    "strain": 11.6,
-    "sleep_hrs": 6.2,
-    "spo2": 91.3,
-    "skin_temp": 34.1,
-    "sleep_efficiency": 90.0,
-    "sleep_consistency": 80.0,
-    "respiratory_rate": 13.6,
-    "light_sleep_hrs": 3.0,
-    "deep_sleep_hrs": 2.2,
-    "rem_sleep_hrs": 1.0,
-    "awake_hrs": 0.7,
-    "sleep_cycles": 3,
-    "disturbances": 7,
-    "sleep_needed_hrs": 8.9,
-    "sleep_debt_hrs": 1.2,
-    "calories": 2010,
-    "avg_hr": 67,
-    "max_hr": 149,
-    "workouts": [
-      {
-        "sport": "Swimming",
-        "calories": 31,
-        "avg_hr": 94,
-        "max_hr": 117
-      },
-      {
-        "sport": "Sport 249",
-        "calories": 358,
-        "avg_hr": 123,
-        "max_hr": 149
-      }
-    ]
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -53,11 +17,11 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 7,
+    "mood": 6,
     "energy": 6,
     "sleep_quality": 6,
     "supplements": 2,
-    "journal": "1. Blood test - only some - slo lab is very limited in this stuff - got much more in dubai but probably they ran it trough other labs - i see where this is actually all going\n2. padel with dan\n3. breakfast\n4. did some clauding\n5. duolingo\n6. ordered vaccuum cleaner for desktop\n7. Took a nappy for 15 min - was good hopefully i will be able to sleep\n8. Lunchy was good but meatballs with meat gave me a proper acidity - interesting\n9. ping pong wirh cosita\n10. Emporium shopping did a huge shopping -",
+    "journal": "Grateful for: New day, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, being alive, strong mental resilience - markus aurelius, I trust in my body\nToday great: Have a great padel game, finish my speech, figure our some new things be creative, \nAffirmation: I love myself i love my body\nAmazing things: i played padel relatively good, Managed to find good program on Dishwasher, Got some really nice clothes\nBetter: I should have written speech instead I was procrastinating - this is my challenge tomorrow write rhe sp",
     "supplements_list": [
       {
         "name": "Enterosgel",
@@ -67,7 +31,7 @@
       },
       {
         "name": "Rinced a bit throat with soda bicarbona",
-        "time": "21:47",
+        "time": "21:44",
         "dose": "",
         "unit": ""
       }
