@@ -1,0 +1,41 @@
+{
+  "date": "2026-05-17",
+  "generated_at": "2026-05-17T10:29:06.113794",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": 5,
+    "sleep_quality": 6,
+    "supplements": 3,
+    "supplements_list": [
+      {
+        "name": "roibos vanilla tea",
+        "time": "10:25",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "mg glycinate 1 capsule (probably wont take it more)",
+        "time": "10:25",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "10:25",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
