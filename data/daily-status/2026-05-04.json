@@ -1,38 +1,8 @@
 {
   "date": "2026-05-04",
-  "generated_at": "2026-05-16T06:45:19.677112",
+  "generated_at": "2026-05-17T06:45:38.243845",
   "whoop": {
-    "imported": true,
-    "recovery": 63.0,
-    "hrv": 34.3,
-    "rhr": 49.0,
-    "sleep_perf": 83.0,
-    "strain": 11.5,
-    "sleep_hrs": 6.3,
-    "spo2": 96.4,
-    "skin_temp": 33.7,
-    "sleep_efficiency": 96.3,
-    "sleep_consistency": 86.0,
-    "respiratory_rate": 13.4,
-    "light_sleep_hrs": 2.4,
-    "deep_sleep_hrs": 2.5,
-    "rem_sleep_hrs": 1.5,
-    "awake_hrs": 0.2,
-    "sleep_cycles": 3,
-    "disturbances": 6,
-    "sleep_needed_hrs": 9.1,
-    "sleep_debt_hrs": 1.6,
-    "calories": 1985,
-    "avg_hr": 67,
-    "max_hr": 154,
-    "workouts": [
-      {
-        "sport": "Walking",
-        "calories": 405,
-        "avg_hr": 120,
-        "max_hr": 154
-      }
-    ]
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -47,11 +17,11 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 6,
+    "mood": 7,
     "energy": 7,
     "sleep_quality": 6,
     "supplements": 0,
-    "journal": "1. Blood sample analysis. \n2. Pedal session with Dan \n3. Smaller task left and right than breakfast \n4. I did Duolingo - i beat cosita\n5. Launch time. \n6. I bought three new books. One of them is also a diary from Mark Aurelius \n7. I had a content meeting with the guys. \n8. Meeting about the test of Azo and his transferring of players from cashy to Bitstarz. \n9. Ping pong, With Cosita \n10. Duolingo ",
+    "journal": "Grateful for: New day, feeling even better today, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Excited what the day will bring\nToday great: Being productive, tick of many tasks but also to do some heart conversation with a friend I havent seen in a while\nAffirmation: My body is recovering well.\nAmazing things: I enjoyed my pedal session even though I sucked a bit less than the other one, I was using my AI, it was quite good, Record all the meetings, make sure that everything gets recorded when I'm talking to p",
     "energy_afternoon": 6,
     "energy_evening": 6,
     "anxiety": 0,
