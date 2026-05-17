@@ -1,44 +1,8 @@
 {
   "date": "2026-05-10",
-  "generated_at": "2026-05-16T06:45:30.452507",
+  "generated_at": "2026-05-17T06:45:48.657155",
   "whoop": {
-    "imported": true,
-    "recovery": 42.0,
-    "hrv": 30.8,
-    "rhr": 49.0,
-    "sleep_perf": 80.0,
-    "strain": 8.9,
-    "sleep_hrs": 6.8,
-    "spo2": 97.7,
-    "skin_temp": 33.8,
-    "sleep_efficiency": 86.5,
-    "sleep_consistency": 80.0,
-    "respiratory_rate": 13.2,
-    "light_sleep_hrs": 3.4,
-    "deep_sleep_hrs": 2.3,
-    "rem_sleep_hrs": 1.1,
-    "awake_hrs": 1.1,
-    "sleep_cycles": 5,
-    "disturbances": 5,
-    "sleep_needed_hrs": 9.3,
-    "sleep_debt_hrs": 1.6,
-    "calories": 1697,
-    "avg_hr": 62,
-    "max_hr": 147,
-    "workouts": [
-      {
-        "sport": "HIIT",
-        "calories": 26,
-        "avg_hr": 94,
-        "max_hr": 110
-      },
-      {
-        "sport": "Swimming",
-        "calories": 57,
-        "avg_hr": 90,
-        "max_hr": 120
-      }
-    ]
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -57,7 +21,7 @@
     "energy": 6,
     "sleep_quality": 7,
     "supplements": 0,
-    "journal": "1. I was researching and buying new air plugs. \n2. I decided what I'm gonna do with the mattress: I'm gonna fly it over from Dubai \n3. New ideas about the speech and I wrote some of the speech in connection with AI, even though I think the cold nuggets will actually come from me. Okay at least he did some ground work \n4. I did a bread panel, 50% 50%, 5 minutes plus 5 minutes, and I did a DNS exercise \n5. We had breakfast and I did duoldueling\nLunch at the restaurant. The fish was really good \nOh",
+    "journal": "Grateful for: I'm grateful for a new day, being alive, still managed to get some sleep, my body being able to work without the supplements, Cosita family, friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, New ideas being in control, Being hard\nToday great: Some exercises:\n- Writing my speech or speech needs to be written today\n- Walk in the nature\n- Just being back, myself, getting my energy back, my mojo\n \nAffirmation: I trust my body without supplements, without everything that he can fight, whatever it's fighting, and that he",
     "energy_afternoon": 4,
     "energy_evening": 6,
     "anxiety": 1,
