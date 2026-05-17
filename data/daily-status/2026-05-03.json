@@ -1,44 +1,8 @@
 {
   "date": "2026-05-03",
-  "generated_at": "2026-05-16T06:45:17.510447",
+  "generated_at": "2026-05-17T06:45:36.528311",
   "whoop": {
-    "imported": true,
-    "recovery": 60.0,
-    "hrv": 33.1,
-    "rhr": 48.0,
-    "sleep_perf": 79.0,
-    "strain": 5.7,
-    "sleep_hrs": 6.0,
-    "spo2": 96.0,
-    "skin_temp": 33.9,
-    "sleep_efficiency": 92.0,
-    "sleep_consistency": 78.0,
-    "respiratory_rate": 13.1,
-    "light_sleep_hrs": 3.4,
-    "deep_sleep_hrs": 1.8,
-    "rem_sleep_hrs": 0.8,
-    "awake_hrs": 0.6,
-    "sleep_cycles": 4,
-    "disturbances": 7,
-    "sleep_needed_hrs": 9.1,
-    "sleep_debt_hrs": 1.6,
-    "calories": 1643,
-    "avg_hr": 61,
-    "max_hr": 114,
-    "workouts": [
-      {
-        "sport": "HIIT",
-        "calories": 78,
-        "avg_hr": 91,
-        "max_hr": 112
-      },
-      {
-        "sport": "Sport 70",
-        "calories": null,
-        "avg_hr": null,
-        "max_hr": null
-      }
-    ]
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -54,11 +18,11 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 6,
+    "mood": 5,
     "energy": 5,
     "sleep_quality": 5,
     "supplements": 1,
-    "journal": "1. I prepared documentation for my dad. For the battery project I answered the email from the guy. \n2. I was teaching Claude how to identify my CSI, central sensitisation. And from all the stats that he gathered for me from the last 30 days, he thinks that I'm not really having this problem. I probably should reply to his questions manually once again. \n3. I was also identifying different possible solutions to this problem: different cleanings, different people I could see \n4. also I added a new",
+    "journal": "Grateful for: being alive, my ai, health support, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, New ideas, being optimistic, willing to do something new - slept less but seems more optimistic still tired but cant sleep\nToday great: Just enjoy this place get a walkie in and sleep well\nAffirmation: I love my life I love my body\nAmazing things: Amazing thing was I met Bojan an old friend from izola from my childhood, I was feeling a bit better even though I slept less, I was somehow better than the day before, Tha",
     "supplements_list": [
       {
         "name": "Enterosgel",
