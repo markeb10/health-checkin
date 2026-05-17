@@ -1,6 +1,6 @@
 {
   "date": "2026-05-15",
-  "generated_at": "2026-05-17T22:40:38.792733",
+  "generated_at": "2026-05-17T22:46:26.263791",
   "whoop": {
     "imported": false
   },
@@ -37,6 +37,180 @@
     "bloating": 3
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 4,
+    "meal_names": [
+      "Pan-Fried Chicken with Toast and Blueberries",
+      "Pan-Seared Fish with Asparagus and New Potatoes",
+      "Creamy Vegetable Soup with Herb Oil",
+      "Fried Eggs with Toast, Blueberries, and Almond Butter"
+    ],
+    "meal_details": [
+      {
+        "name": "Pan-Fried Chicken with Toast and Blueberries",
+        "score": 48,
+        "calories": 287.0,
+        "protein_g": 36.0,
+        "fat_g": 11.9,
+        "carbs_g": 9.5,
+        "fibre_g": 0.7,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "30 g",
+            "score": 72
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "12 g",
+            "score": 18
+          },
+          {
+            "name": "Chicken thighs, meat only",
+            "qty": "3 \u00d7 thigh",
+            "score": 52
+          }
+        ]
+      },
+      {
+        "name": "Pan-Seared Fish with Asparagus and New Potatoes",
+        "score": 82,
+        "calories": 374.0,
+        "protein_g": 38.4,
+        "fat_g": 12.9,
+        "carbs_g": 23.8,
+        "fibre_g": 3.9,
+        "ingredients": [
+          {
+            "name": "Asparagus",
+            "qty": "1 \u00d7 portion",
+            "score": 100
+          },
+          {
+            "name": "Fish, yellowtail, weighed raw",
+            "qty": "1 \u00d7 medium fillet",
+            "score": 87
+          },
+          {
+            "name": "Lemons",
+            "qty": "20 g",
+            "score": 78
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 87
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Potatoes, new/salad, boiled, skin on",
+            "qty": "1 \u00d7 portion",
+            "score": 48
+          }
+        ]
+      },
+      {
+        "name": "Creamy Vegetable Soup with Herb Oil",
+        "score": 75,
+        "calories": 275.0,
+        "protein_g": 4.8,
+        "fat_g": 15.3,
+        "carbs_g": 32.7,
+        "fibre_g": 6.5,
+        "ingredients": [
+          {
+            "name": "Butter, unsalted",
+            "qty": "5 g",
+            "score": 49
+          },
+          {
+            "name": "Carrots",
+            "qty": "1 \u00d7 serving",
+            "score": 80
+          },
+          {
+            "name": "Garlic",
+            "qty": "2 \u00d7 clove",
+            "score": 75
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "10 ml",
+            "score": 87
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "1 \u00d7 small",
+            "score": 82
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Potatoes",
+            "qty": "2 \u00d7 potato",
+            "score": 43
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Stock, vegetable cube, made up with water",
+            "qty": "250 ml",
+            "score": 21
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast, Blueberries, and Almond Butter",
+        "score": 64,
+        "calories": 621.0,
+        "protein_g": 32.5,
+        "fat_g": 39.0,
+        "carbs_g": 36.1,
+        "fibre_g": 5.8,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 89
+          },
+          {
+            "name": "Blueberries",
+            "qty": "2 \u00d7 handful",
+            "score": 72
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 18
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          }
+        ]
+      }
+    ],
+    "avg_score": 67.0,
+    "calories": 1557.0,
+    "protein_g": 111.7,
+    "fat_g": 79.1,
+    "carbs_g": 102.10000000000001,
+    "fibre_g": 16.9
   }
 }
