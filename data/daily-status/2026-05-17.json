@@ -1,6 +1,6 @@
 {
   "date": "2026-05-17",
-  "generated_at": "2026-05-17T10:29:06.113794",
+  "generated_at": "2026-05-17T22:37:13.267125",
   "whoop": {
     "imported": false
   },
@@ -9,33 +9,171 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
+    "mood": 4,
     "energy": 5,
     "sleep_quality": 6,
     "supplements": 3,
+    "journal": "1. Reading Marcus Aurelius at 3:00 in the morning \n2. Managed to fall back asleep but then I am not feeling well in the morning \n3. After working with Claude, just checking on some health stuff and importing, I got super anxious and not sure if it is coz i was hungry\n4. I have eaten the breakfast, still anxiety. \n5. I have just gone out for a walk. Still super anxious. I play Duolingo. \n6. We went to the restaurant for the fish. It was good. \n7. We have watched Young Sherlock Holmes, like I thin",
     "supplements_list": [
       {
         "name": "roibos vanilla tea",
-        "time": "10:25",
+        "time": "16:34",
         "dose": "",
         "unit": ""
       },
       {
         "name": "mg glycinate 1 capsule (probably wont take it more)",
-        "time": "10:25",
+        "time": "16:34",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C + MG + CA",
-        "time": "10:25",
+        "time": "16:34",
         "dose": "",
         "unit": ""
       }
     ],
-    "anxiety": 4
+    "energy_afternoon": 5,
+    "energy_evening": 5,
+    "anxiety": 4,
+    "bloating": 3
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 4,
+    "meal_names": [
+      "Rice Cakes with Almond Butter and Blueberries",
+      "Grilled Fish Fillets with New Potatoes and Mixed Vegetables",
+      "Diced Papaya",
+      "Fried Eggs with Toast, Blueberries, and Cream Cheese"
+    ],
+    "meal_details": [
+      {
+        "name": "Rice Cakes with Almond Butter and Blueberries",
+        "score": 61,
+        "calories": 302.0,
+        "protein_g": 9.7,
+        "fat_g": 18.9,
+        "carbs_g": 25.4,
+        "fibre_g": 5.1,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "30 g",
+            "score": 89
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 72
+          },
+          {
+            "name": "Rice cakes, lightly salted",
+            "qty": "1 \u00d7 individual bag",
+            "score": 6
+          }
+        ]
+      },
+      {
+        "name": "Grilled Fish Fillets with New Potatoes and Mixed Vegetables",
+        "score": 80,
+        "calories": 597.0,
+        "protein_g": 43.9,
+        "fat_g": 32.5,
+        "carbs_g": 32.2,
+        "fibre_g": 6.4,
+        "ingredients": [
+          {
+            "name": "Broccoli",
+            "qty": "3 \u00d7 floret",
+            "score": 100
+          },
+          {
+            "name": "Courgette",
+            "qty": "50 g",
+            "score": 99
+          },
+          {
+            "name": "Lidl Deluxe Stuffed Seabass with Red Shrimps &amp; Champagne Sauce",
+            "qty": "1 \u00d7 1/2 pack",
+            "score": 79
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "10 ml",
+            "score": 87
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "30 g",
+            "score": 82
+          },
+          {
+            "name": "Peppers, red",
+            "qty": "40 g",
+            "score": 87
+          },
+          {
+            "name": "Potatoes, new/salad, boiled, skin on",
+            "qty": "1 \u00d7 portion",
+            "score": 48
+          }
+        ]
+      },
+      {
+        "name": "Diced Papaya",
+        "score": 66,
+        "calories": 58.0,
+        "protein_g": 0.8,
+        "fat_g": 0.2,
+        "carbs_g": 14.1,
+        "fibre_g": 3.5,
+        "ingredients": [
+          {
+            "name": "Papaya",
+            "qty": "2 \u00d7 serving",
+            "score": 66
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast, Blueberries, and Cream Cheese",
+        "score": 49,
+        "calories": 488.0,
+        "protein_g": 36.8,
+        "fat_g": 24.1,
+        "carbs_g": 33.4,
+        "fibre_g": 1.6,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "30 g",
+            "score": 72
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 18
+          },
+          {
+            "name": "Cottage cheese, low fat",
+            "qty": "1 \u00d7 small pot",
+            "score": 63
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          }
+        ]
+      }
+    ],
+    "avg_score": 64.0,
+    "calories": 1445.0,
+    "protein_g": 91.19999999999999,
+    "fat_g": 75.7,
+    "carbs_g": 105.1,
+    "fibre_g": 16.6
   }
 }
