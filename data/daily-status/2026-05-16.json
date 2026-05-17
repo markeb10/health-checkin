@@ -1,6 +1,6 @@
 {
   "date": "2026-05-16",
-  "generated_at": "2026-05-17T22:40:40.550429",
+  "generated_at": "2026-05-17T22:42:47.924331",
   "whoop": {
     "imported": false
   },
@@ -61,6 +61,214 @@
     "bloating": 3
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 6,
+    "meal_names": [
+      "Pan-Fried Chicken with Toast, Blueberries, and Almond Butter",
+      "Assorted Sushi Platter with Nigiri and Maki Rolls",
+      "Miso Soup with Seaweed and Tofu",
+      "Toast with Peanut Butter and Blueberries",
+      "Fried Eggs with Blueberries and Toast",
+      "Toast with Peanut Butter and Blueberries"
+    ],
+    "meal_details": [
+      {
+        "name": "Pan-Fried Chicken with Toast, Blueberries, and Almond Butter",
+        "score": 51,
+        "calories": 689.0,
+        "protein_g": 44.8,
+        "fat_g": 42.3,
+        "carbs_g": 32.6,
+        "fibre_g": 5.3,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 72
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 large slice",
+            "score": 18
+          },
+          {
+            "name": "Chicken thighs",
+            "qty": "2 \u00d7 thigh",
+            "score": 46
+          },
+          {
+            "name": "Meridian Almond Butter",
+            "qty": "30 g",
+            "score": 90
+          }
+        ]
+      },
+      {
+        "name": "Assorted Sushi Platter with Nigiri and Maki Rolls",
+        "score": 59,
+        "calories": 463.0,
+        "protein_g": 35.3,
+        "fat_g": 17.5,
+        "carbs_g": 43.5,
+        "fibre_g": 2.0,
+        "ingredients": [
+          {
+            "name": "Avocado",
+            "qty": "30 g",
+            "score": 99
+          },
+          {
+            "name": "Fish, yellowtail, weighed raw",
+            "qty": "20 g",
+            "score": 87
+          },
+          {
+            "name": "Omelette, plain, homemade",
+            "qty": "20 g",
+            "score": 55
+          },
+          {
+            "name": "Rice, white",
+            "qty": "1 \u00d7 small serving",
+            "score": 19
+          },
+          {
+            "name": "Salmon",
+            "qty": "40 g",
+            "score": 86
+          },
+          {
+            "name": "Seaweed, nori, dried",
+            "qty": "2 g",
+            "score": 100
+          },
+          {
+            "name": "Sushi, salmon nigiri",
+            "qty": "10 g",
+            "score": 31
+          },
+          {
+            "name": "Tuna, fresh",
+            "qty": "40 g",
+            "score": 89
+          }
+        ]
+      },
+      {
+        "name": "Miso Soup with Seaweed and Tofu",
+        "score": 80,
+        "calories": 110.0,
+        "protein_g": 9.6,
+        "fat_g": 5.0,
+        "carbs_g": 6.0,
+        "fibre_g": 6.0,
+        "ingredients": [
+          {
+            "name": "Miso soup/broth",
+            "qty": "250 g",
+            "score": 37
+          },
+          {
+            "name": "Seaweed, wakame, dried",
+            "qty": "4 \u00d7 sheet",
+            "score": 100
+          },
+          {
+            "name": "Spring onions",
+            "qty": "5 g",
+            "score": 94
+          },
+          {
+            "name": "Tofu, silken",
+            "qty": "30 g",
+            "score": 63
+          }
+        ]
+      },
+      {
+        "name": "Toast with Peanut Butter and Blueberries",
+        "score": 66,
+        "calories": 209.0,
+        "protein_g": 7.6,
+        "fat_g": 11.6,
+        "carbs_g": 19.0,
+        "fibre_g": 3.5,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 89
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 72
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 small slice",
+            "score": 18
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Blueberries and Toast",
+        "score": 57,
+        "calories": 380.0,
+        "protein_g": 24.4,
+        "fat_g": 22.5,
+        "carbs_g": 21.4,
+        "fibre_g": 2.7,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 72
+          },
+          {
+            "name": "Bread, wholemeal, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 33
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          }
+        ]
+      },
+      {
+        "name": "Toast with Peanut Butter and Blueberries",
+        "score": 56,
+        "calories": 238.0,
+        "protein_g": 8.6,
+        "fat_g": 11.8,
+        "carbs_g": 25.1,
+        "fibre_g": 3.7,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "1 \u00d7 serving, as spread",
+            "score": 89
+          },
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 72
+          },
+          {
+            "name": "Bread, white, toasted",
+            "qty": "1 \u00d7 medium slice",
+            "score": 18
+          }
+        ]
+      }
+    ],
+    "avg_score": 62.0,
+    "calories": 2089.0,
+    "protein_g": 130.29999999999998,
+    "fat_g": 110.7,
+    "carbs_g": 147.6,
+    "fibre_g": 23.2
   }
 }
