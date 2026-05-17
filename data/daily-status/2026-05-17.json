@@ -1,6 +1,6 @@
 {
   "date": "2026-05-17",
-  "generated_at": "2026-05-17T22:40:42.334299",
+  "generated_at": "2026-05-17T22:49:05.111249",
   "whoop": {
     "imported": false
   },
@@ -26,19 +26,19 @@
     "supplements_list": [
       {
         "name": "roibos vanilla tea",
-        "time": "16:34",
+        "time": "22:47",
         "dose": "",
         "unit": ""
       },
       {
         "name": "mg glycinate 1 capsule (probably wont take it more)",
-        "time": "16:34",
+        "time": "22:47",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C + MG + CA",
-        "time": "16:34",
+        "time": "22:47",
         "dose": "",
         "unit": ""
       }
@@ -180,7 +180,7 @@
     ],
     "avg_score": 64.0,
     "calories": 1445.0,
-    "protein_g": 91.19999999999999,
+    "protein_g": 91.2,
     "fat_g": 75.7,
     "carbs_g": 105.1,
     "fibre_g": 16.6
