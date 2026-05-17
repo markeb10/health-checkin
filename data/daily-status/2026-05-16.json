@@ -1,0 +1,57 @@
+{
+  "date": "2026-05-16",
+  "generated_at": "2026-05-17T10:29:17.690209",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": 5,
+    "sleep_quality": 6,
+    "supplements": 5,
+    "journal": "1. Some meditation in the morning. Chatns\n2. Trying to fall asleep a little bit as well. \n3. Been trying to be good and don't touch the computer too much \n4. Ping pong with Cosita after breakfast \n5. Duo lingo the session \n6. Sushi mama, sushi or the \n7. Nice walk here and visit of the church, Maria Museum Francis Khan \n8. Cloud it a little bit \n9. Worked a little bit in this pitch, just a little bit. \n10. Woki outdoors myself. It was a very good one during the forest. I need this I need more of",
+    "supplements_list": [
+      {
+        "name": "roibos vanilla tea",
+        "time": "10:25",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "mg glycinate 1 capsule (probably wont take it more)",
+        "time": "10:25",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "10:25",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "C 500 mg mg 54 mg 95 mg CA",
+        "time": "22:34",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Chamomile tea",
+        "time": "22:34",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 6,
+    "energy_evening": 6,
+    "anxiety": 4,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
