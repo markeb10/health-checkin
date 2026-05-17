@@ -1,38 +1,8 @@
 {
   "date": "2026-05-05",
-  "generated_at": "2026-05-16T06:45:21.454662",
+  "generated_at": "2026-05-17T06:45:39.963754",
   "whoop": {
-    "imported": true,
-    "recovery": 69.0,
-    "hrv": 34.8,
-    "rhr": 50.0,
-    "sleep_perf": 85.0,
-    "strain": 13.1,
-    "sleep_hrs": 7.0,
-    "spo2": 92.1,
-    "skin_temp": 33.9,
-    "sleep_efficiency": 96.8,
-    "sleep_consistency": 87.0,
-    "respiratory_rate": 13.5,
-    "light_sleep_hrs": 3.2,
-    "deep_sleep_hrs": 2.2,
-    "rem_sleep_hrs": 1.6,
-    "awake_hrs": 0.2,
-    "sleep_cycles": 3,
-    "disturbances": 9,
-    "sleep_needed_hrs": 9.6,
-    "sleep_debt_hrs": 1.8,
-    "calories": 2102,
-    "avg_hr": 67,
-    "max_hr": 169,
-    "workouts": [
-      {
-        "sport": "Sport 230",
-        "calories": 188,
-        "avg_hr": 113,
-        "max_hr": 167
-      }
-    ]
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -51,7 +21,7 @@
     "energy": 7,
     "sleep_quality": 8,
     "supplements": 1,
-    "journal": "1. DNS exercises. \n2. Ping pong with Lara \n3. Breakfast and I did a stool test \n4. The toilet got clogged. That caused a lot of stress \n5. Duolingo \n6. Meeting for cashy, not so great \n7. Meeting for Aca. How are we going to do this? Sending. And with other guys \n8. Lunch time. \n9. Went for shopping with Cosita for dinner. \n10. Some admin stuff \n11. Michael Parr session was really good \n12. Dinner time with Cosita \n13. Unclog the toilet \n14. Reading meditations from Marcus Aurelius. \n15. Duoling",
+    "journal": "Grateful for: Being alive, being more relaxed, No ideas, Cosita family, friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Being happy air the day before but also got a bit better sleep even though I had a session of battle yesterday\nToday great: A good ping pong session with the lara would be great \nBe effective in the meetings, be present, and nail it properly \nDo the evening downtime like I did the days before so basically the hard stop is at 9:30 when I need to go into the shutdown procedure, pretty much reading from then on ",
     "supplements_list": [
       {
         "name": "Enterosgel",
