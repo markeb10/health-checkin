@@ -1,38 +1,8 @@
 {
   "date": "2026-05-12",
-  "generated_at": "2026-05-16T06:45:34.086445",
+  "generated_at": "2026-05-17T06:45:52.149093",
   "whoop": {
-    "imported": true,
-    "recovery": 78.0,
-    "hrv": 36.3,
-    "rhr": 50.0,
-    "sleep_perf": 83.0,
-    "strain": 10.6,
-    "sleep_hrs": 6.5,
-    "spo2": 95.2,
-    "skin_temp": 34.3,
-    "sleep_efficiency": 89.0,
-    "sleep_consistency": 88.0,
-    "respiratory_rate": 13.9,
-    "light_sleep_hrs": 2.4,
-    "deep_sleep_hrs": 2.4,
-    "rem_sleep_hrs": 1.7,
-    "awake_hrs": 0.8,
-    "sleep_cycles": 7,
-    "disturbances": 6,
-    "sleep_needed_hrs": 9.5,
-    "sleep_debt_hrs": 1.7,
-    "calories": 1957,
-    "avg_hr": 63,
-    "max_hr": 160,
-    "workouts": [
-      {
-        "sport": "Sport 230",
-        "calories": 400,
-        "avg_hr": 119,
-        "max_hr": 160
-      }
-    ]
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -47,11 +17,11 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
+    "mood": 6,
     "energy": 6,
     "sleep_quality": 7,
     "supplements": 1,
-    "journal": "1. I have warmed up a little bit, did my morning routine, and did ping pong. \n2. breakfast \n3. Coding and falling into a deep hole with my blood results and trying to dig what exactly is the issue and problem got full-on anxiety, feeling like I'm going through my past and this and that, trying to put the big picture together. I feel like I'm running around in a circle and I really feel into some kind of anxiety, like a feeling of hopelessness and not being able to change it. At the same time I'm",
+    "journal": "Grateful for: New day, cosita friends family \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, rainy calm morning, being okey - somehow slept\nToday great: A good ping pong session, a good chapter in marcus aurelius, some hip exercises so it stops hurting, connection with my friends\nAffirmation: A leader who is ever evolving\nAmazing things: Well I managed to put together some kind of a summary, I also managed to figure out that I don't need to do a DNA test but they can just export it from my current one, the raw one that I got from 23, ",
     "supplements_list": [
       {
         "name": "Gargling doda bicarbona",
