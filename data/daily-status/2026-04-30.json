@@ -1,50 +1,8 @@
 {
   "date": "2026-04-30",
-  "generated_at": "2026-05-15T16:00:40.089064",
+  "generated_at": "2026-05-17T06:45:31.166881",
   "whoop": {
-    "imported": true,
-    "recovery": 42.0,
-    "hrv": 30.9,
-    "rhr": 49.0,
-    "sleep_perf": 68.0,
-    "strain": 9.8,
-    "sleep_hrs": 5.0,
-    "spo2": 93.0,
-    "skin_temp": 33.4,
-    "sleep_efficiency": 87.3,
-    "sleep_consistency": 59.0,
-    "respiratory_rate": 12.9,
-    "light_sleep_hrs": 2.4,
-    "deep_sleep_hrs": 2.1,
-    "rem_sleep_hrs": 0.5,
-    "awake_hrs": 0.7,
-    "sleep_cycles": 2,
-    "disturbances": 6,
-    "sleep_needed_hrs": 8.3,
-    "sleep_debt_hrs": 0.7,
-    "calories": 1781,
-    "avg_hr": 69,
-    "max_hr": 148,
-    "workouts": [
-      {
-        "sport": "HIIT",
-        "calories": 138,
-        "avg_hr": 113,
-        "max_hr": 148
-      },
-      {
-        "sport": "HIIT",
-        "calories": 60,
-        "avg_hr": 91,
-        "max_hr": 104
-      },
-      {
-        "sport": "HIIT",
-        "calories": 158,
-        "avg_hr": 93,
-        "max_hr": 111
-      }
-    ]
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -60,9 +18,9 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
-    "energy": 5,
-    "sleep_quality": 5,
+    "mood": 4,
+    "energy": 3,
+    "sleep_quality": 3,
     "supplements": 5,
     "journal": "Grateful for: Being alive, being in Slovenia, such a great place to live sooo green, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, New ideas\nToday great: Get better and survive the day\nAffirmation: I am hopeful I will understand the cause of this problems. This is independent from whats happening with my back for sure.\nAmazing things: I got the mouse, yes, I saw my dad, For the first time meeting Filip, I didn't have that great feeling, I don't think it will work, But on the other hand, if we are doing flipping",
     "supplements_list": [
@@ -97,10 +55,10 @@
         "unit": "mg"
       }
     ],
-    "energy_afternoon": 5,
-    "energy_evening": 5,
-    "anxiety": 0,
-    "bloating": 0
+    "energy_afternoon": 4,
+    "energy_evening": 4,
+    "anxiety": 1,
+    "bloating": 3
   },
   "zoe": {
     "imported": true,
