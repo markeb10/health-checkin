@@ -1,6 +1,6 @@
 {
   "date": "2026-05-19",
-  "generated_at": "2026-05-19T21:14:06.550399",
+  "generated_at": "2026-05-19T22:08:22.144490",
   "whoop": {
     "imported": true,
     "recovery": 91.0,
@@ -35,12 +35,18 @@
     "mood": 7,
     "energy": 5,
     "sleep_quality": 7,
-    "supplements": 1,
+    "supplements": 2,
     "journal": "1. Trying to fall asleep for two hours and curing my anxiety attack by reading Marcus Aurelius and breathing \n2. Stay in bed until 7:30, blood tests galore\n3. Bioresonance rather than doing Vibra 3.0, the main verdict was:\n- histamine high\n- lymphatic blockage near my pelvis\n- my vagus nerve being irritated\n4. Breakfast and Duolingo \n5. Lunchtime, trying to eat low-histamine diet \n6. Interview for customer support because fortunately, in duolingo, there is a Brazilian guy \n7. Worked on health ap",
     "supplements_list": [
       {
         "name": "Vitamin C + MG + CA",
-        "time": "16:34",
+        "time": "21:23",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Ruporut",
+        "time": "21:23",
         "dose": "",
         "unit": ""
       }
@@ -51,6 +57,217 @@
     "bloating": 3
   },
   "zoe": {
-    "imported": false
+    "imported": true,
+    "meals": 5,
+    "meal_names": [
+      "Chicken and Vegetable Soup",
+      "Pan-Seared Fish with Quinoa, Spinach, Edamame, and Radish",
+      "Pea and Mint Soup",
+      "Fried Eggs with Toast, Blueberries, and Rice Cakes",
+      "Rice Cakes with Almond Butter and Blueberries"
+    ],
+    "meal_details": [
+      {
+        "name": "Chicken and Vegetable Soup",
+        "score": 58,
+        "calories": 428.0,
+        "protein_g": 54.0,
+        "fat_g": 9.9,
+        "carbs_g": 33.8,
+        "fibre_g": 5.5,
+        "ingredients": [
+          {
+            "name": "Chicken breast",
+            "qty": "150 g",
+            "score": 65
+          },
+          {
+            "name": "Courgette",
+            "qty": "1 \u00d7 portion",
+            "score": 99
+          },
+          {
+            "name": "Olive oil, not extra virgin",
+            "qty": "5 ml",
+            "score": 76
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Potatoes",
+            "qty": "1 \u00d7 serving",
+            "score": 43
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Stock, vegetable cube, made up with water",
+            "qty": "300 ml",
+            "score": 21
+          }
+        ]
+      },
+      {
+        "name": "Pan-Seared Fish with Quinoa, Spinach, Edamame, and Radish",
+        "score": 77,
+        "calories": 513.0,
+        "protein_g": 38.0,
+        "fat_g": 14.4,
+        "carbs_g": 59.2,
+        "fibre_g": 12.1,
+        "ingredients": [
+          {
+            "name": "Edamame",
+            "qty": "75 g",
+            "score": 99
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 87
+          },
+          {
+            "name": "Quinoa, weighed uncooked",
+            "qty": "2 \u00d7 serving",
+            "score": 51
+          },
+          {
+            "name": "Radishes, red",
+            "qty": "2 \u00d7 radish",
+            "score": 90
+          },
+          {
+            "name": "Sole",
+            "qty": "1 \u00d7 small fillet",
+            "score": 85
+          },
+          {
+            "name": "Spinach",
+            "qty": "50 g",
+            "score": 92
+          }
+        ]
+      },
+      {
+        "name": "Pea and Mint Soup",
+        "score": 89,
+        "calories": 222.0,
+        "protein_g": 13.5,
+        "fat_g": 8.7,
+        "carbs_g": 24.8,
+        "fibre_g": 9.5,
+        "ingredients": [
+          {
+            "name": "Garlic",
+            "qty": "2 \u00d7 clove",
+            "score": 75
+          },
+          {
+            "name": "Mint, fresh",
+            "qty": "10 g",
+            "score": 80
+          },
+          {
+            "name": "Olive oil, extra virgin",
+            "qty": "5 ml",
+            "score": 87
+          },
+          {
+            "name": "Onions, white or red",
+            "qty": "1 \u00d7 small",
+            "score": 82
+          },
+          {
+            "name": "Parsley, fresh",
+            "qty": "2 \u00d7 sprig",
+            "score": 81
+          },
+          {
+            "name": "Peas",
+            "qty": "2 \u00d7 serving",
+            "score": 100
+          },
+          {
+            "name": "Pepper, black",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 70
+          },
+          {
+            "name": "Salt",
+            "qty": "1 \u00d7 pinch (1/8tsp)",
+            "score": 20
+          },
+          {
+            "name": "Stock, vegetable cube, made up with water",
+            "qty": "250 ml",
+            "score": 21
+          }
+        ]
+      },
+      {
+        "name": "Fried Eggs with Toast, Blueberries, and Rice Cakes",
+        "score": 55,
+        "calories": 352.0,
+        "protein_g": 22.7,
+        "fat_g": 21.9,
+        "carbs_g": 17.1,
+        "fibre_g": 1.2,
+        "ingredients": [
+          {
+            "name": "Blueberries",
+            "qty": "1 \u00d7 handful",
+            "score": 72
+          },
+          {
+            "name": "Bread, white, toasted, \u00bd \u00d7 large slice",
+            "qty": null,
+            "score": 18
+          },
+          {
+            "name": "Eggs, fried",
+            "qty": "2 \u00d7 large",
+            "score": 69
+          }
+        ]
+      },
+      {
+        "name": "Rice Cakes with Almond Butter and Blueberries",
+        "score": 48,
+        "calories": 188.0,
+        "protein_g": 5.7,
+        "fat_g": 10.2,
+        "carbs_g": 20.4,
+        "fibre_g": 3.0,
+        "ingredients": [
+          {
+            "name": "Almond butter, crunchy",
+            "qty": "15 g",
+            "score": 89
+          },
+          {
+            "name": "Blueberries",
+            "qty": "30 g",
+            "score": 72
+          },
+          {
+            "name": "Rice cakes, lightly salted",
+            "qty": "3 \u00d7 rice cake",
+            "score": 6
+          }
+        ]
+      }
+    ],
+    "avg_score": 65.0,
+    "calories": 1703.0,
+    "protein_g": 133.9,
+    "fat_g": 65.1,
+    "carbs_g": 155.3,
+    "fibre_g": 31.3
   }
 }
