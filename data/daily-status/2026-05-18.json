@@ -1,6 +1,6 @@
 {
   "date": "2026-05-18",
-  "generated_at": "2026-05-22T07:34:48.636806",
+  "generated_at": "2026-05-23T05:45:50.126332",
   "whoop": {
     "imported": true,
     "recovery": 84.0,
@@ -53,7 +53,7 @@
     "mood": 7,
     "energy": 7,
     "sleep_quality": 7,
-    "supplements": 2,
+    "supplements": 3,
     "journal": "1. I have managed to sleep until 6:00. \n2. Play Duolingo and fast breakfast before pedal \n3. Padel with Dan - it was interesting. Didn't hit really much. I feel the net was higher but also I was pretty sure it's determination to win this game. \n4. Was doing some Claude stuff for the virologist and yeah, lunch time \n5. There was some meat for lunch, which probably I'll regret today, and some errands went to DM \n6. I also ordered a struklji\n7. We watched Young Sherlock Holmes and we also watched t",
     "supplements_list": [
       {
@@ -65,6 +65,12 @@
       {
         "name": "Vitamin C + MG + CA",
         "time": "13:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "C 500 mg mg 54 mg 95 mg CA",
+        "time": "06:28",
         "dose": "",
         "unit": ""
       }
