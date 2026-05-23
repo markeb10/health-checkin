@@ -1,0 +1,47 @@
+{
+  "date": "2026-05-21",
+  "generated_at": "2026-05-23T05:45:54.844189",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 12552,
+    "resting_hr": 51.0,
+    "hrv": 48.1,
+    "sleep_hrs": 6.9,
+    "daylight_mins": 88.0,
+    "spo2": 96.9,
+    "respiratory_rate": 13.6,
+    "sleep_awake_hrs": 0.3
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 8,
+    "energy": 7,
+    "sleep_quality": 7,
+    "supplements": 2,
+    "journal": "1. I have played duo lingo\n2. Sleep was not bad at all and bloating was lower considering we just landed in UK - usually when on plane its worse\n3. no bowel movement\n4. checked in hotel and went for lunch to Harrods\n5. walkie in park\n6. Artful Dodger 3 parts\n7. Duo lingo",
+    "supplements_list": [
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "10:17",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Daosin",
+        "time": "10:17",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 6,
+    "energy_evening": 5,
+    "anxiety": 1,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
