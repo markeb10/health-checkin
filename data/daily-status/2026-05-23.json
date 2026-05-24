@@ -1,0 +1,76 @@
+{
+  "date": "2026-05-23",
+  "generated_at": "2026-05-24T05:46:36.188455",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 1,
+    "resting_hr": 49.0,
+    "hrv": 52.3,
+    "sleep_hrs": 7.5,
+    "spo2": 98.0,
+    "respiratory_rate": 11.0,
+    "sleep_awake_hrs": 0.5
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": 5,
+    "sleep_quality": 7,
+    "supplements": 7,
+    "journal": "1. Duolingo\n2. Idea about the circadian thermoregulated air temp in the room - Camping\n3. working on my speech\n4. breakfast\n5. walkie in the park\n6. chatns was good - responsive\n7. new ideas\n8. writing speech - getting somewhere - its a challenge accepted\n9. Artful dodge 2 series\n10. Duo lingo was successful today",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "22:07",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Alfacort (hydrocortisone 1%)",
+        "time": "22:07",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "22:07",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "mg glycinate 1 capsule (probably wont take it more)",
+        "time": "22:07",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "22:07",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Eumovate cream 2 x",
+        "time": "22:23",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Daosin",
+        "time": "22:23",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 1,
+    "bloating": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
