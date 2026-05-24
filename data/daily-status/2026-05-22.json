@@ -1,0 +1,60 @@
+{
+  "date": "2026-05-22",
+  "generated_at": "2026-05-24T05:46:34.717206",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": true,
+    "steps": 0,
+    "resting_hr": 53.0,
+    "hrv": 30.9,
+    "sleep_hrs": 6.3,
+    "daylight_mins": 0.0,
+    "vo2max": 41.1,
+    "spo2": 91.0,
+    "respiratory_rate": 13.0,
+    "sleep_awake_hrs": 0.6
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": 6,
+    "sleep_quality": 7,
+    "supplements": 4,
+    "journal": "1. Duolingo\n2. breakfast\n3. Renzo\n4. writing speech\n5. Alex and terapy with him\n6. Lunch time in Cavita\n7. walkie around\n8. Spoke to Francesca regarding the repretouar\n9. New ideas \n10. duo lingo\n11. worked with AI\n11. watched artful dodge\n",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "18:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "mg glycinate 1 capsule (probably wont take it more)",
+        "time": "18:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "18:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Daosin",
+        "time": "22:34",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 6,
+    "energy_evening": 6,
+    "anxiety": 1,
+    "bloating": 5
+  },
+  "zoe": {
+    "imported": false
+  }
+}
