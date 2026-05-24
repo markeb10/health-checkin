@@ -1,18 +1,18 @@
 {
   "date": "2026-05-21",
-  "generated_at": "2026-05-23T05:47:46.425327",
+  "generated_at": "2026-05-24T05:46:33.268463",
   "whoop": {
     "imported": false
   },
   "apple_health": {
     "imported": true,
-    "steps": 12552,
-    "resting_hr": 51.0,
-    "hrv": 48.1,
+    "steps": 0,
+    "resting_hr": 52.0,
+    "hrv": 24.3,
     "sleep_hrs": 6.9,
-    "daylight_mins": 88.0,
-    "spo2": 96.9,
-    "respiratory_rate": 13.6,
+    "daylight_mins": 0.0,
+    "spo2": 98.0,
+    "respiratory_rate": 16.5,
     "sleep_awake_hrs": 0.3
   },
   "checkin": {
@@ -21,7 +21,7 @@
     "energy": 7,
     "sleep_quality": 7,
     "supplements": 2,
-    "journal": "1. I have played duo lingo\n2. Sleep was not bad at all and bloating was lower considering we just landed in UK - usually when on plane its worse\n3. no bowel movement\n4. checked in hotel and went for lunch to Harrods\n5. walkie in park\n6. Artful Dodger 3 parts\n7. Duo lingo",
+    "journal": "Grateful for: New day, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Being able to travel, being able to go to London, all of it, New ideas\nToday great: Today it would be great to fly to London, educating myself and also distracting myself while listening to podcasts and not having much pain when sitting, so having good seats. \nAffirmation: I love my self I love my body",
     "supplements_list": [
       {
         "name": "Vitamin C + MG + CA",
