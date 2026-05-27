@@ -1,0 +1,117 @@
+{
+  "date": "2026-05-24",
+  "generated_at": "2026-05-27T07:18:49.174363",
+  "whoop": {
+    "imported": true,
+    "recovery": 64.0,
+    "hrv": 36.3,
+    "rhr": 48.0,
+    "sleep_perf": 86.0,
+    "strain": 7.9,
+    "sleep_hrs": 7.0,
+    "spo2": 98.2,
+    "skin_temp": 33.8,
+    "sleep_efficiency": 94.4,
+    "sleep_consistency": 83.0,
+    "respiratory_rate": 13.3,
+    "light_sleep_hrs": 3.3,
+    "deep_sleep_hrs": 2.4,
+    "rem_sleep_hrs": 1.3,
+    "awake_hrs": 0.5,
+    "sleep_cycles": 6,
+    "disturbances": 9,
+    "sleep_needed_hrs": 8.7,
+    "sleep_debt_hrs": 1.2,
+    "calories": 1721,
+    "avg_hr": 64,
+    "max_hr": 168,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 62,
+        "avg_hr": 89,
+        "max_hr": 105
+      },
+      {
+        "sport": "HIIT",
+        "calories": 20,
+        "avg_hr": 81,
+        "max_hr": 110
+      },
+      {
+        "sport": "HIIT",
+        "calories": 32,
+        "avg_hr": 89,
+        "max_hr": 115
+      },
+      {
+        "sport": "HIIT",
+        "calories": 131,
+        "avg_hr": 103,
+        "max_hr": 168
+      }
+    ]
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 6,
+    "energy": 6,
+    "sleep_quality": 7,
+    "supplements": 7,
+    "journal": "1. Received Genome results form sequencing.com - was fun working with it and see what can fall out, nothing spectacularly new to be honest - just confirming most of the theroies about slow metaboliser etc..\n2. Duo lingo\n3. breakfast\n4. Went to Canary Wharf\n5. Walked a bit there went to Barbarella Italian restaurant - was good but I overate on pasta I think tomorrow I will be able to eat less haha\n6. then we walked a bit more went to shopping mall and a bit around to gaucho was very hot at the ti",
+    "supplements_list": [
+      {
+        "name": "Telfast from Boots",
+        "time": "21:51",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "mg glycinate 1 capsule (probably wont take it more)",
+        "time": "21:51",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "21:51",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "eumovate",
+        "time": "21:51",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "TELFAST UK ONE",
+        "time": "22:50",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Eumovate cream 2 x",
+        "time": "22:50",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Daosin",
+        "time": "22:50",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 1,
+    "bloating": 4
+  },
+  "zoe": {
+    "imported": false
+  }
+}
