@@ -1,6 +1,6 @@
 {
   "date": "2026-05-26",
-  "generated_at": "2026-05-27T08:00:06.605997",
+  "generated_at": "2026-05-28T06:45:09.491074",
   "whoop": {
     "imported": true,
     "recovery": 36.0,
@@ -35,7 +35,14 @@
     ]
   },
   "apple_health": {
-    "imported": false
+    "imported": true,
+    "steps": 0,
+    "resting_hr": 57.0,
+    "hrv": 31.4,
+    "daylight_mins": 0.0,
+    "vo2max": 41.2,
+    "spo2": 98.0,
+    "respiratory_rate": 13.6
   },
   "checkin": {
     "imported": true,
@@ -71,13 +78,13 @@
       },
       {
         "name": "Mg Glycinate 1 pill before bed",
-        "time": "22:50",
+        "time": "06:06",
         "dose": "",
         "unit": ""
       },
       {
         "name": "daosin 2x lunch and dinner",
-        "time": "22:50",
+        "time": "06:06",
         "dose": "",
         "unit": ""
       }
