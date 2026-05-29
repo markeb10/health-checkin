@@ -1,13 +1,13 @@
 {
   "date": "2026-05-28",
-  "generated_at": "2026-05-28T08:00:09.411076",
+  "generated_at": "2026-05-29T08:00:11.578960",
   "whoop": {
     "imported": true,
     "recovery": 66.0,
     "hrv": 35.8,
     "rhr": 51.0,
     "sleep_perf": 75.0,
-    "strain": 0.3,
+    "strain": 7.1,
     "sleep_hrs": 5.4,
     "spo2": 93.2,
     "skin_temp": 34.6,
@@ -22,16 +22,82 @@
     "disturbances": 5,
     "sleep_needed_hrs": 8.9,
     "sleep_debt_hrs": 1.4,
-    "calories": 494,
-    "avg_hr": 53,
-    "max_hr": 91,
-    "workouts": []
+    "calories": 1362,
+    "avg_hr": 65,
+    "max_hr": 147,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 51,
+        "avg_hr": 103,
+        "max_hr": 127
+      },
+      {
+        "sport": "HIIT",
+        "calories": 25,
+        "avg_hr": 85,
+        "max_hr": 105
+      },
+      {
+        "sport": "HIIT",
+        "calories": 92,
+        "avg_hr": 118,
+        "max_hr": 147
+      }
+    ]
   },
   "apple_health": {
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 5,
+    "energy": 6,
+    "sleep_quality": 6,
+    "supplements": 6,
+    "journal": "1. Duolingo. \n2. Went for bread, water, eggs. \n3. Shower \n4. We had a guy that was measuring electromagnetic radiation. \n5. I did Rado therapy. It just made it worse. I really didn't feel pleasant today. It was one of those times. Same happened last time. Not sure which programme this is, but whatever it is, is not helping. We'll try to go tomorrow for the better one that I actually liked last time. It could be actually that what helped me last time was bio resonance. Well, I guess we'll see tom",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "22:57",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "22:57",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "mg glycinate 1 capsule (probably wont take it more)",
+        "time": "22:57",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "22:57",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "daosin 2x lunch and dinner",
+        "time": "06:46",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Nasonex 1 spray each nostril",
+        "time": "06:46",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 6,
+    "energy_evening": 6,
+    "anxiety": 2,
+    "bloating": 4
   },
   "zoe": {
     "imported": false
