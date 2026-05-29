@@ -1,6 +1,6 @@
 {
   "date": "2026-05-27",
-  "generated_at": "2026-05-28T08:00:07.268297",
+  "generated_at": "2026-05-29T06:45:12.002996",
   "whoop": {
     "imported": true,
     "recovery": 65.0,
@@ -48,7 +48,36 @@
     "sleep_awake_hrs": 0.2
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 5,
+    "energy": 6,
+    "sleep_quality": 7,
+    "supplements": 3,
+    "journal": "1. Duolingo? \n2. Packing. \n3. Meeting with Ivan \n4. Giving the blood in IMD lab \n5. Drive to the airport. \n6. Fly to zurich \n7. Dinner. Flankochen. Haf \n8. Flight to ljubljna",
+    "supplements_list": [
+      {
+        "name": "Telfast from Boots",
+        "time": "22:49",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "mg glycinate 1 capsule (probably wont take it more)",
+        "time": "22:49",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "22:49",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 6,
+    "anxiety": 1,
+    "bloating": 4
   },
   "zoe": {
     "imported": false
