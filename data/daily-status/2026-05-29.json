@@ -1,0 +1,47 @@
+{
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29T08:00:13.963784",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 7,
+    "energy": 6,
+    "sleep_quality": 7,
+    "supplements": 4,
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "06:44",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "06:44",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "06:44",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "eumovate",
+        "time": "06:44",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 3
+  },
+  "zoe": {
+    "imported": false
+  }
+}
