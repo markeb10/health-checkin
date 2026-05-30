@@ -1,6 +1,6 @@
 {
   "date": "2026-05-29",
-  "generated_at": "2026-05-29T08:00:13.963784",
+  "generated_at": "2026-05-30T06:49:17.181229",
   "whoop": {
     "imported": false
   },
@@ -12,7 +12,8 @@
     "mood": 7,
     "energy": 6,
     "sleep_quality": 7,
-    "supplements": 4,
+    "supplements": 6,
+    "journal": "1. Woke up at 6:00 in the morning, cold, nervous \n2. Had three bowel movements by 10:00 in the morning. They were all level five, so clearly some nervousness kicking in. \n3. Breakfast\n4. ENT dr ko\u0161ak specialist examination: everything was fine. \n5. Practising a bit speech. \n6. Visiting Alex the Hypnotizer \n7. Quick session at my therapist 80 HZ feet+dimlje+ glutes + predpona\n8.  Lunchtime \n9. Went to odprta kuhna\n10. watched the new series on netflix The Boroughs - binge watched first 3 parts wo",
     "supplements_list": [
       {
         "name": "Enterosgel",
@@ -37,9 +38,24 @@
         "time": "06:44",
         "dose": "",
         "unit": ""
+      },
+      {
+        "name": "enterosgel",
+        "time": "06:13",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Eumovate cream 2 x",
+        "time": "06:13",
+        "dose": "",
+        "unit": ""
       }
     ],
-    "anxiety": 3
+    "energy_afternoon": 6,
+    "energy_evening": 6,
+    "anxiety": 3,
+    "bloating": 4
   },
   "zoe": {
     "imported": false
