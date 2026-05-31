@@ -1,6 +1,6 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-30T06:49:36.114225",
+  "generated_at": "2026-05-31T07:45:10.406579",
   "whoop": {
     "imported": true,
     "recovery": null,
@@ -31,7 +31,48 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 5,
+    "sleep_quality": 4,
+    "supplements": 5,
+    "journal": "1. Woke up, did Duolingo \n2. Try to meditate for half an hour. \n3. Travel to Turkey. \n4. Got into the room, had a dinner light one. \n5. Spent some time witha\n6. Feeling relaxed in the evening - released ",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "13:05",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "mg glycinate 1 capsule (probably wont take it more)",
+        "time": "13:05",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "13:05",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "TELFAST UK ONE",
+        "time": "06:11",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Nasonex 1 spray each nostril",
+        "time": "06:11",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 6,
+    "energy_evening": 6,
+    "anxiety": 5,
+    "bloating": 3
   },
   "zoe": {
     "imported": false
