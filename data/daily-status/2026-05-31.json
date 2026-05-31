@@ -1,0 +1,47 @@
+{
+  "date": "2026-05-31",
+  "generated_at": "2026-05-31T07:45:12.729322",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": 5,
+    "sleep_quality": 6,
+    "supplements": 4,
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "07:11",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "07:11",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "mg glycinate 1 capsule (probably wont take it more)",
+        "time": "07:11",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "07:11",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 7
+  },
+  "zoe": {
+    "imported": false
+  }
+}
