@@ -1,6 +1,6 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-05-31T08:00:08.312941",
+  "generated_at": "2026-06-01T11:29:36.961094",
   "whoop": {
     "imported": false
   },
@@ -9,10 +9,11 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
+    "mood": 6,
     "energy": 5,
     "sleep_quality": 6,
-    "supplements": 4,
+    "supplements": 5,
+    "journal": "I play Duolingo. \nI have gotten all the worries in my head possible. \nNew ideas \nDid a tour with Murat and breakfast with Murat \nA tour of Regnum Crown \nI did a massage with the guy. It was pretty good, actually. \nI have been eating with Murat. \nPractising speech. - I had a good feeling, actually. \nWith more that's on things \nMeta - not working as it should :(\nWas clothing a bit endearing?  \n",
     "supplements_list": [
       {
         "name": "Enterosgel",
@@ -37,9 +38,18 @@
         "time": "07:11",
         "dose": "",
         "unit": ""
+      },
+      {
+        "name": "L-theanine",
+        "time": "22:15",
+        "dose": "75",
+        "unit": "mg"
       }
     ],
-    "anxiety": 7
+    "energy_afternoon": 6,
+    "energy_evening": 6,
+    "anxiety": 7,
+    "bloating": 3
   },
   "zoe": {
     "imported": false
