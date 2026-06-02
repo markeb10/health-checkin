@@ -1,6 +1,6 @@
 {
   "date": "2026-06-01",
-  "generated_at": "2026-06-01T11:31:31.674196",
+  "generated_at": "2026-06-02T07:56:10.654967",
   "whoop": {
     "imported": false
   },
@@ -8,7 +8,42 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 8,
+    "energy": 6,
+    "sleep_quality": 7,
+    "supplements": 4,
+    "journal": "1. I did my Duolingo. \n2. Practise my speech three times. \n3. - Lunch\n- Dinner\n- Breakfast\nGood session with the boys from Support. Taught them about Playwright and how to use it. \nMy nerves are a bit lower now that I met everybody. It feels like there is always this tension before I meet them. \nIt's really interesting. How this tension thing works ",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "22:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "22:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "mg glycinate 1 capsule (probably wont take it more)",
+        "time": "22:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "22:15",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 6,
+    "energy_evening": 6,
+    "anxiety": 3,
+    "bloating": 2
   },
   "zoe": {
     "imported": false
