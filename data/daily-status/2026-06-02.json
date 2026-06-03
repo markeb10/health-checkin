@@ -1,6 +1,6 @@
 {
   "date": "2026-06-02",
-  "generated_at": "2026-06-02T07:56:44.265925",
+  "generated_at": "2026-06-03T07:45:09.671668",
   "whoop": {
     "imported": false
   },
@@ -8,7 +8,48 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 5,
+    "sleep_quality": 5,
+    "supplements": 5,
+    "journal": "1. I was fucking nervous in the morning. I was repeating my speech in bed. I did Duolingo as well. \n2. I had breakfast, and I just didn't feel it. Also, I was under the weather. \n3. I was having a call with Alex helping me to relax\n4. I fucking delivered this speech - it was slightly terrifying, but I did it, so whew, well done. \n5. I kept having that feeling that people didn't like this speech. But hey. Bit too much Marcus Aurelius. \n6. Playing ping pong with Olle, lunch with Olle. \n7. Spend so",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "23:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "23:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "mg glycinate 1 capsule (probably wont take it more)",
+        "time": "23:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "23:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "L-theanine",
+        "time": "23:27",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 6,
+    "anxiety": 6,
+    "bloating": 2
   },
   "zoe": {
     "imported": false
