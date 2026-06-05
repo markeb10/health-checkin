@@ -1,6 +1,6 @@
 {
   "date": "2026-06-03",
-  "generated_at": "2026-06-04T08:04:52.653199",
+  "generated_at": "2026-06-05T08:00:03.049897",
   "whoop": {
     "imported": false
   },
@@ -9,37 +9,41 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 6,
+    "mood": 7,
     "energy": 6,
     "sleep_quality": 6,
     "supplements": 4,
+    "journal": "Grateful for: Being alive, Having so many things in the world that many other people would want, It's funny that I am basically trading off some things for some things in life, right? I mean, who knows? Probably I'll be still nervous, if I will be working for somebody, this would be a proper disaster without the financial backup, but maybe it wouldn't turn out the way it did, Who knows?, Cosita family, friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, This beautiful room, this resort, I mean, fuck, I cannot take this for granted",
     "supplements_list": [
       {
         "name": "Enterosgel",
-        "time": "07:04",
+        "time": "09:04",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Telfast from Boots",
-        "time": "07:04",
+        "time": "09:04",
         "dose": "",
         "unit": ""
       },
       {
         "name": "mg glycinate 1 capsule (probably wont take it more)",
-        "time": "07:04",
+        "time": "09:04",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C + MG + CA",
-        "time": "07:04",
+        "time": "09:04",
         "dose": "",
         "unit": ""
       }
     ],
-    "anxiety": 2
+    "energy_afternoon": 6,
+    "energy_evening": 6,
+    "anxiety": 2,
+    "bloating": 2
   },
   "zoe": {
     "imported": false
