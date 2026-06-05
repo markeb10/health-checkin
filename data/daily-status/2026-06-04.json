@@ -1,6 +1,6 @@
 {
   "date": "2026-06-04",
-  "generated_at": "2026-06-04T08:04:55.289654",
+  "generated_at": "2026-06-05T07:45:06.657745",
   "whoop": {
     "imported": false
   },
@@ -8,7 +8,48 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 7,
+    "sleep_quality": 6,
+    "supplements": 5,
+    "journal": "1. I woke up early, slept only three hours. \n2. I was playing duolingo. \n3. I was chatting a little bit. Felt pretty relaxed. \n4. Breakfast \n5. Live chat panel, Pulse, Alex presentation \n6. General meeting, and after that we had a content and AI presentation by Peter. \n7. After that, I play ping pong. \n8. And after that we went for lunch and we had a chat with Dan and Matej about their project. \n9. Playing cornhole \n10. ChatnA\n11. Massage with Rustem\n12. Dinner \n13. Pub quiz\n14. Ping pong with t",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "00:27",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "00:27",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "mg glycinate 1 capsule (probably wont take it more)",
+        "time": "00:27",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "00:27",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "daosin",
+        "time": "00:38",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 2,
+    "bloating": 2
   },
   "zoe": {
     "imported": false
