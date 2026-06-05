@@ -1,0 +1,24 @@
+{
+  "date": "2026-06-05",
+  "generated_at": "2026-06-05T07:45:09.242162",
+  "whoop": {
+    "imported": false
+  },
+  "apple_health": {
+    "imported": false
+  },
+  "checkin": {
+    "imported": true,
+    "mood": 5,
+    "energy": 5,
+    "sleep_quality": 5,
+    "supplements": 0,
+    "energy_afternoon": 5,
+    "energy_evening": 5,
+    "anxiety": 0,
+    "bloating": 0
+  },
+  "zoe": {
+    "imported": false
+  }
+}
