@@ -1,6 +1,6 @@
 {
   "date": "2026-06-05",
-  "generated_at": "2026-06-05T08:00:08.738403",
+  "generated_at": "2026-06-06T07:45:16.810320",
   "whoop": {
     "imported": false
   },
@@ -9,14 +9,41 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
-    "energy": 5,
-    "sleep_quality": 5,
-    "supplements": 0,
-    "energy_afternoon": 5,
-    "energy_evening": 5,
-    "anxiety": 0,
-    "bloating": 0
+    "mood": 8,
+    "energy": 7,
+    "sleep_quality": 7,
+    "supplements": 4,
+    "journal": "1. Duolingo \n2. Breakfast. \n3. Woke up early again, round six. \n4. Meeting in the morning \n5. Playing launch game  bit too complicated, but otherwise really appreciate the effort. I mean, wow! - Super cool. \n6. Being nervous\n7. Ping pong games\n8. Squid games\n9. Browser automation session\n10. Quick food\n11. paddel\n12. Meeting Batman he showed me his Sentient client he vibecoded\n13. Dinner at the rooftop terrace\n14. ChatnT",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "11:29",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "11:29",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "mg glycinate 1 capsule (probably wont take it more)",
+        "time": "11:29",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "11:29",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 1,
+    "bloating": 3
   },
   "zoe": {
     "imported": false
