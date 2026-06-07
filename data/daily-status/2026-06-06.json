@@ -1,6 +1,6 @@
 {
   "date": "2026-06-06",
-  "generated_at": "2026-06-06T08:00:11.859315",
+  "generated_at": "2026-06-07T07:45:09.689348",
   "whoop": {
     "imported": false
   },
@@ -9,13 +9,47 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
-    "energy": null,
-    "sleep_quality": null,
-    "supplements": 0,
-    "energy_afternoon": 5,
-    "energy_evening": 5,
-    "bloating": 0
+    "mood": 7,
+    "energy": 5,
+    "sleep_quality": 5,
+    "supplements": 5,
+    "journal": "1. Duolingo, breakfast in the room. \n2. Went to the meeting with Daniel and Maria - needed to make it very clear \n3. General meeting and photo shooting. \n4. AI meeting with originals\n5. Cashy meeting - I mean it was a close who did what \n5. Ping-Pong with Olle and Andrew and Pierrick - Pierric was a tough nut to crack\n6. With Scatter Kings, guys, they don't want to help our originals, guys, motherfuckers. But I get them. I wanted to build a slot experience evaluator\n7. Massage. \n8. Dinner and ta",
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "09:16",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "09:16",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "09:16",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "effervecent pill Supradyn vitamins",
+        "time": "09:16",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Daosin",
+        "time": "23:38",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 3,
+    "bloating": 2
   },
   "zoe": {
     "imported": false
