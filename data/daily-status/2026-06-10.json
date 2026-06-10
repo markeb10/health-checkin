@@ -1,6 +1,6 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T06:45:39.921337",
+  "generated_at": "2026-06-10T08:00:08.425248",
   "whoop": {
     "imported": false
   },
@@ -8,7 +8,32 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 7,
+    "sleep_quality": 7,
+    "supplements": 3,
+    "supplements_list": [
+      {
+        "name": "Enterosgel",
+        "time": "07:57",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "07:57",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "07:57",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 1
   },
   "zoe": {
     "imported": false
