@@ -1,6 +1,6 @@
 {
   "date": "2026-05-27",
-  "generated_at": "2026-06-10T06:45:45.199537",
+  "generated_at": "2026-06-10T16:18:20.471896",
   "whoop": {
     "imported": true,
     "recovery": 65.0,
@@ -35,25 +35,15 @@
     ]
   },
   "apple_health": {
-    "imported": true,
-    "steps": 0,
-    "resting_hr": 49.0,
-    "hrv": 56.2,
-    "sleep_hrs": 6.6,
-    "spo2": 92.8,
-    "respiratory_rate": 12.0,
-    "sleep_deep_hrs": 0.8,
-    "sleep_rem_hrs": 1.2,
-    "sleep_core_hrs": 4.5,
-    "sleep_awake_hrs": 0.2
+    "imported": false
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
+    "mood": 7,
     "energy": 6,
     "sleep_quality": 7,
     "supplements": 3,
-    "journal": "1. Duolingo? \n2. Packing. \n3. Meeting with Ivan \n4. Giving the blood in IMD lab \n5. Drive to the airport. \n6. Fly to zurich \n7. Dinner. Flankochen. Haf \n8. Flight to ljubljna",
+    "journal": "Grateful for: Grateful for a new day, Grateful that I can visit the lab, Cosita family friends, \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f\nToday great: If I would meet with Ivan without a problem \nAffirmation: Job in front of you - Done well. Repeat. \nBetter: Could be better if you would remember to cool down the apartment before we arrived \nIdeas: 1. Talk about human stuff like how many kids, weddings we had\nDid today: 1. Duolingo? \n2. Packing. \n3. Meeting with Ivan \n4. Giving the blood in IMD lab \n5. Drive to the airport. \n6. Fl",
     "supplements_list": [
       {
         "name": "Telfast from Boots",
