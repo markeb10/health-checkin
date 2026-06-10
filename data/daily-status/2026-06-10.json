@@ -1,8 +1,38 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T08:00:08.425248",
+  "generated_at": "2026-06-10T16:18:49.835304",
   "whoop": {
-    "imported": false
+    "imported": true,
+    "recovery": null,
+    "hrv": null,
+    "rhr": null,
+    "sleep_perf": null,
+    "strain": 4.9,
+    "sleep_hrs": null,
+    "spo2": null,
+    "skin_temp": null,
+    "sleep_efficiency": null,
+    "sleep_consistency": null,
+    "respiratory_rate": null,
+    "light_sleep_hrs": null,
+    "deep_sleep_hrs": null,
+    "rem_sleep_hrs": null,
+    "awake_hrs": null,
+    "sleep_cycles": null,
+    "disturbances": null,
+    "sleep_needed_hrs": null,
+    "sleep_debt_hrs": null,
+    "calories": 506,
+    "avg_hr": 74,
+    "max_hr": 110,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 28,
+        "avg_hr": 95,
+        "max_hr": 106
+      }
+    ]
   },
   "apple_health": {
     "imported": false
@@ -13,22 +43,23 @@
     "energy": 7,
     "sleep_quality": 7,
     "supplements": 3,
+    "journal": "Grateful for: I'm grateful for being back in Ljubljana, that I made it safe, I'm grateful for this intense experience that I just had, It was crazy, Cosita family, friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, I'm grateful to be alive, every day a bit smarter about the limitations of my body\nToday great: Today, what would make it great is just to meet with friends, get some relaxation in, maybe do a small workout routine that I did with that guy. I generally think it wouldn't hurt. He's isokinetic guy, an Italian guy. \nAffir",
     "supplements_list": [
       {
-        "name": "Enterosgel",
-        "time": "07:57",
-        "dose": "",
-        "unit": ""
-      },
-      {
         "name": "Telfast from Boots",
-        "time": "07:57",
+        "time": "10:18",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C + MG + CA",
-        "time": "07:57",
+        "time": "10:18",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "COQ10 ubiquinol 100 mg",
+        "time": "10:18",
         "dose": "",
         "unit": ""
       }
