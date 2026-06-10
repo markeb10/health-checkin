@@ -1,19 +1,49 @@
 {
   "date": "2026-05-31",
-  "generated_at": "2026-06-01T11:31:27.545040",
+  "generated_at": "2026-06-10T16:18:28.747461",
   "whoop": {
-    "imported": false
+    "imported": true,
+    "recovery": null,
+    "hrv": null,
+    "rhr": null,
+    "sleep_perf": null,
+    "strain": 0.0,
+    "sleep_hrs": null,
+    "spo2": null,
+    "skin_temp": null,
+    "sleep_efficiency": null,
+    "sleep_consistency": null,
+    "respiratory_rate": null,
+    "light_sleep_hrs": null,
+    "deep_sleep_hrs": null,
+    "rem_sleep_hrs": null,
+    "awake_hrs": null,
+    "sleep_cycles": null,
+    "disturbances": null,
+    "sleep_needed_hrs": null,
+    "sleep_debt_hrs": null,
+    "calories": 9,
+    "avg_hr": 56,
+    "max_hr": 74,
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
   },
   "apple_health": {
     "imported": false
   },
   "checkin": {
     "imported": true,
-    "mood": 6,
+    "mood": 5,
     "energy": 5,
     "sleep_quality": 6,
     "supplements": 5,
-    "journal": "I play Duolingo. \nI have gotten all the worries in my head possible. \nNew ideas \nDid a tour with Murat and breakfast with Murat \nA tour of Regnum Crown \nI did a massage with the guy. It was pretty good, actually. \nI have been eating with Murat. \nPractising speech. - I had a good feeling, actually. \nWith more that's on things \nMeta - not working as it should :(\nWas clothing a bit endearing?  \n",
+    "journal": "Grateful for: I'm grateful for the yearly challenge of Turkey, Cosita Family Friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, New ideas, Being able to function somehow, definitely having issues with sleeping, if anything, what I did yesterday, I guess, didn't help much, so I was relaxed, I am alive, Meaning I have a chance to make this a great day\nToday great: A great massage, a great relaxation, some meditation should do good. \nWinning that lady in Duolingo, next week I go easy\nAffirmation: You don't need anybody else's attent",
     "supplements_list": [
       {
         "name": "Enterosgel",
@@ -41,7 +71,7 @@
       },
       {
         "name": "L-theanine",
-        "time": "22:15",
+        "time": "17:43",
         "dose": "75",
         "unit": "mg"
       }
