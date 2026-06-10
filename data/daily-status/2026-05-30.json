@@ -1,13 +1,13 @@
 {
   "date": "2026-05-30",
-  "generated_at": "2026-05-31T08:00:05.938276",
+  "generated_at": "2026-06-10T16:18:26.786246",
   "whoop": {
     "imported": true,
     "recovery": null,
     "hrv": null,
     "rhr": null,
     "sleep_perf": null,
-    "strain": 0.1,
+    "strain": 0.2,
     "sleep_hrs": null,
     "spo2": null,
     "skin_temp": null,
@@ -22,21 +22,28 @@
     "disturbances": null,
     "sleep_needed_hrs": null,
     "sleep_debt_hrs": null,
-    "calories": 192,
-    "avg_hr": 62,
+    "calories": 265,
+    "avg_hr": 56,
     "max_hr": 102,
-    "workouts": []
+    "workouts": [
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      }
+    ]
   },
   "apple_health": {
     "imported": false
   },
   "checkin": {
     "imported": true,
-    "mood": 7,
+    "mood": 6,
     "energy": 5,
     "sleep_quality": 4,
     "supplements": 5,
-    "journal": "1. Woke up, did Duolingo \n2. Try to meditate for half an hour. \n3. Travel to Turkey. \n4. Got into the room, had a dinner light one. \n5. Spent some time witha\n6. Feeling relaxed in the evening - released ",
+    "journal": "Grateful for: this day, cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, being able to afford, treat everyone to this event, Being able to have some more entertainment this year.\nToday great: Relatively painless travel to Turkey hopefully high on training for the speech, and reading what I have and coming up with the new ideas, Today is all about training and refuiling \nAffirmation: I treat myself well and love myself. I will be kind to myself. I am strong and I know I wil make it. \nAmazing things: I released, fin",
     "supplements_list": [
       {
         "name": "Enterosgel",
