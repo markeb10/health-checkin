@@ -1,38 +1,8 @@
 {
   "date": "2026-05-26",
-  "generated_at": "2026-06-10T06:45:43.430959",
+  "generated_at": "2026-06-10T16:18:54.709429",
   "whoop": {
-    "imported": true,
-    "recovery": 36.0,
-    "hrv": 27.9,
-    "rhr": 52.0,
-    "sleep_perf": 88.0,
-    "strain": 4.9,
-    "sleep_hrs": 7.1,
-    "spo2": 95.1,
-    "skin_temp": 33.8,
-    "sleep_efficiency": 97.5,
-    "sleep_consistency": 90.0,
-    "respiratory_rate": 13.6,
-    "light_sleep_hrs": 4.0,
-    "deep_sleep_hrs": 1.7,
-    "rem_sleep_hrs": 1.5,
-    "awake_hrs": 0.2,
-    "sleep_cycles": 3,
-    "disturbances": 9,
-    "sleep_needed_hrs": 9.1,
-    "sleep_debt_hrs": 1.5,
-    "calories": 1536,
-    "avg_hr": 63,
-    "max_hr": 121,
-    "workouts": [
-      {
-        "sport": "HIIT",
-        "calories": 46,
-        "avg_hr": 95,
-        "max_hr": 121
-      }
-    ]
+    "imported": false
   },
   "apple_health": {
     "imported": true,
@@ -50,7 +20,7 @@
     "energy": 6,
     "sleep_quality": 7,
     "supplements": 6,
-    "journal": "1. Welcome to Duolingo Unpacking. \n2. Breakfast \n3. Trial to the airport, flight to Berlin \n4. Lunch and settled in a hotel room. \n5. Did find pharmacies with bottles for taking samples of stool and urine. \n6. Rested a little bit, dinner at the Italian restaurant. \n7. Got some chicken and salad, so that was perfect. \n8. Duelling on the Terrace, very nice and the fresh air",
+    "journal": "Grateful for: New day, flight time to Berlin, Cosita Family Friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Being relaxed but super tired, I am alive haha, I can breathe, still think\nToday great: - relatively painless flight to Berlin \n- do the stuff I need to do and get some rest\nAffirmation: i love myself I love my body, the pain is not me its my body being in pain, I need to be patient and gentle\nAmazing things: I managed to survive my move from London to Berlin, I have an amazing terrace view here in Berlin, Great atmosphe",
     "supplements_list": [
       {
         "name": "Enterosgel",
