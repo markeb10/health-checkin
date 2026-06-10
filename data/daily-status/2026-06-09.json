@@ -1,6 +1,6 @@
 {
   "date": "2026-06-09",
-  "generated_at": "2026-06-10T06:45:38.123459",
+  "generated_at": "2026-06-10T08:00:06.227698",
   "whoop": {
     "imported": false
   },
@@ -12,36 +12,30 @@
     "mood": 7,
     "energy": 6,
     "sleep_quality": 6,
-    "supplements": 5,
+    "supplements": 4,
     "journal": "1. Duolingo \n2. Breakfast \n3. Massage 30 min\n4. Packing \n5. Drive to the airport. \n6. Landed in Istanbul \n7. Chatn Yotel\n8. Flight to Zagreb \n9. Arrived in Ljubljana  ",
     "supplements_list": [
       {
         "name": "Telfast from Boots",
-        "time": "08:13",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "mg glycinate 1 capsule (probably wont take it more)",
-        "time": "08:13",
+        "time": "07:52",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C + MG + CA",
-        "time": "08:13",
+        "time": "07:52",
         "dose": "",
         "unit": ""
       },
       {
         "name": "effervecent pill Supradyn vitamins",
-        "time": "08:13",
+        "time": "07:52",
         "dose": "0.5",
         "unit": "mg"
       },
       {
         "name": "daosin 2x lunch and dinner",
-        "time": "22:46",
+        "time": "07:38",
         "dose": "",
         "unit": ""
       }
