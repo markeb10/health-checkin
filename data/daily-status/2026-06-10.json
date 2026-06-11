@@ -1,13 +1,13 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-10T16:18:49.835304",
+  "generated_at": "2026-06-11T06:45:09.929219",
   "whoop": {
     "imported": true,
     "recovery": null,
     "hrv": null,
     "rhr": null,
     "sleep_perf": null,
-    "strain": 4.9,
+    "strain": 10.8,
     "sleep_hrs": null,
     "spo2": null,
     "skin_temp": null,
@@ -22,10 +22,22 @@
     "disturbances": null,
     "sleep_needed_hrs": null,
     "sleep_debt_hrs": null,
-    "calories": 506,
-    "avg_hr": 74,
-    "max_hr": 110,
+    "calories": 1350,
+    "avg_hr": 79,
+    "max_hr": 152,
     "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 27,
+        "avg_hr": 91,
+        "max_hr": 109
+      },
+      {
+        "sport": "Walking",
+        "calories": 542,
+        "avg_hr": 101,
+        "max_hr": 152
+      },
       {
         "sport": "HIIT",
         "calories": 28,
@@ -39,32 +51,35 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 7,
+    "mood": 6,
     "energy": 7,
     "sleep_quality": 7,
     "supplements": 3,
-    "journal": "Grateful for: I'm grateful for being back in Ljubljana, that I made it safe, I'm grateful for this intense experience that I just had, It was crazy, Cosita family, friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, I'm grateful to be alive, every day a bit smarter about the limitations of my body\nToday great: Today, what would make it great is just to meet with friends, get some relaxation in, maybe do a small workout routine that I did with that guy. I generally think it wouldn't hurt. He's isokinetic guy, an Italian guy. \nAffir",
+    "journal": "1. Duolingo \n2. Diary \n3. Massage \n4. Claude a lot. \n5. Massage with Mitya. \n6. Hair style with Anja. \n7. Lunch at Country Club \n8. CRM meeting \n9. Meeting Matja\u017e for ping pong and walking. \n10. Claude a lot. Improving the memory of my French doctor.\n11. Duolingo ",
     "supplements_list": [
       {
         "name": "Telfast from Boots",
-        "time": "10:18",
+        "time": "16:37",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C + MG + CA",
-        "time": "10:18",
+        "time": "16:37",
         "dose": "",
         "unit": ""
       },
       {
         "name": "COQ10 ubiquinol 100 mg",
-        "time": "10:18",
+        "time": "16:37",
         "dose": "",
         "unit": ""
       }
     ],
-    "anxiety": 1
+    "energy_afternoon": 6,
+    "energy_evening": 6,
+    "anxiety": 1,
+    "bloating": 3
   },
   "zoe": {
     "imported": false
