@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-12T08:00:08.569947",
+  "generated_at": "2026-06-12T23:05:01.090334",
   "whoop": {
     "imported": true,
     "recovery": 79.0,
@@ -32,34 +32,53 @@
   },
   "checkin": {
     "imported": true,
-    "mood": 5,
-    "energy": 5,
-    "sleep_quality": 5,
-    "supplements": 3,
+    "mood": 6,
+    "energy": 7,
+    "sleep_quality": 6,
+    "supplements": 6,
+    "journal": "Grateful for: I'm grateful for this life, I'm grateful for the technology, for the AI, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, I have absolute admiration for myself, for being able to push on this front to finally crack on the problem with my sleep, Most likely I would say it's hard to say what it is, Maybe even my stuff, not so we see my breathing is faster, my pulse is higher, What does this tell us? Well, I guess they are together\nToday great: Great paddle, Sasha. Not big strength. Strain \nSome chattin",
     "supplements_list": [
       {
         "name": "Telfast from Boots",
-        "time": "07:55",
+        "time": "22:58",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C + MG + CA",
-        "time": "07:55",
+        "time": "22:58",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Enterosgel",
-        "time": "07:55",
+        "time": "22:58",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "COQ10 ubiquinol 100 mg",
+        "time": "22:58",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Daosin",
+        "time": "22:15",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "L-theanine",
+        "time": "22:15",
         "dose": "",
         "unit": ""
       }
     ],
-    "energy_afternoon": 5,
-    "energy_evening": 5,
-    "anxiety": 0,
-    "bloating": 0
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 1,
+    "bloating": 3
   },
   "zoe": {
     "imported": false
