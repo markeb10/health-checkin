@@ -1,13 +1,13 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-11T08:00:10.934841",
+  "generated_at": "2026-06-12T06:45:16.966374",
   "whoop": {
     "imported": true,
     "recovery": 65.0,
     "hrv": 34.2,
     "rhr": 54.0,
     "sleep_perf": 73.0,
-    "strain": 4.1,
+    "strain": 13.7,
     "sleep_hrs": 5.7,
     "spo2": 95.8,
     "skin_temp": 33.7,
@@ -22,10 +22,34 @@
     "disturbances": 4,
     "sleep_needed_hrs": 9.5,
     "sleep_debt_hrs": 1.8,
-    "calories": 553,
-    "avg_hr": 59,
-    "max_hr": 112,
+    "calories": 2188,
+    "avg_hr": 70,
+    "max_hr": 173,
     "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 70,
+        "avg_hr": 90,
+        "max_hr": 113
+      },
+      {
+        "sport": "Sport 70",
+        "calories": null,
+        "avg_hr": null,
+        "max_hr": null
+      },
+      {
+        "sport": "Activity",
+        "calories": 22,
+        "avg_hr": 88,
+        "max_hr": 113
+      },
+      {
+        "sport": "Sport 230",
+        "calories": 627,
+        "avg_hr": 130,
+        "max_hr": 173
+      },
       {
         "sport": "Activity",
         "calories": 16,
@@ -38,7 +62,42 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 6,
+    "sleep_quality": 6,
+    "supplements": 4,
+    "journal": "1. Clauding - I have been updating the system of my French doctor. And also researching the potential issues with the trademark cashy - unless social networks and everybody else will totally dismantle us, it might be okay. Let's see. \n2. I have eaten breakfast and did Duolingo. \n3. Ping-pong session was actually really good, but my heart rate was very much up, 30% higher than usual. In general, I feel this being the case the whole day. Could be I caught something, and I'm kind of processing that",
+    "supplements_list": [
+      {
+        "name": "Telfast from Boots",
+        "time": "05:18",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "05:18",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "05:18",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "L-theanine",
+        "time": "06:20",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "energy_afternoon": 7,
+    "energy_evening": 7,
+    "anxiety": 2,
+    "bloating": 5
   },
   "zoe": {
     "imported": false
