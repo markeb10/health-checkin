@@ -97,12 +97,43 @@ textarea::placeholder,.text-input::placeholder{color:#5A5450;font-style:italic}
 .text-input{min-height:44px}
 
 /* Gratitude inputs */
+.csi-signals-list{display:flex;flex-direction:column;gap:14px;margin-top:8px}
+.csi-signal-row{}
+.csi-signal-row label{display:block;font-size:13px;color:var(--text);margin-bottom:6px;font-weight:500}
+.csi-num-grid{display:grid;grid-template-columns:repeat(11,1fr);gap:3px;width:100%}
+.csi-num{background:rgba(140,90,180,.06);border:1px solid rgba(140,90,180,.18);color:var(--text2);font-size:13px;font-weight:500;padding:9px 0;border-radius:6px;cursor:pointer;text-align:center;-webkit-tap-highlight-color:transparent;transition:transform .08s,background .15s,border-color .15s;font-family:inherit;min-width:0}
+.csi-num:active{transform:scale(.9)}
+.csi-num.selected{background:rgba(140,90,180,.5);color:#fff;font-weight:700;border-color:rgba(140,90,180,.85);box-shadow:0 1px 3px rgba(140,90,180,.3)}
+.csi-num.zero-default{opacity:.55}
+@media (max-width:380px){.csi-num{font-size:12px;padding:8px 0}}
+.exercise-row{display:flex;gap:8px;align-items:center}
+.exercise-row input{flex:1;min-width:0}
+.exercise-hint{font-size:12px;color:#999;margin-top:6px;font-style:italic;line-height:1.4}
+.location-card{}
+.location-row{display:flex;gap:8px;align-items:center}
+.location-row input{flex:1;min-width:0}
+.loc-btn{padding:10px 14px;border:1px solid #ccc;background:#f5f5f5;border-radius:8px;cursor:pointer;font-size:18px;flex-shrink:0;transition:transform .1s}
+.loc-btn:active{transform:scale(.92);background:#e0e0e0}
+.loc-btn.detecting{animation:locPulse 1s infinite}
+@keyframes locPulse{0%,100%{opacity:1}50%{opacity:.4}}
+.location-hint{font-size:12px;color:#999;margin-top:6px;font-style:italic;line-height:1.4}
+.location-hint.success{color:var(--green);font-style:normal}
+.location-hint.error{color:#c00}
 .gratitude-item{display:flex;align-items:center;gap:8px;margin-bottom:8px}
 .gratitude-num{color:var(--gold);font-weight:700;font-size:16px;width:20px;font-family:var(--serif)}
 .gratitude-item .text-input{flex:1}
 
 /* Supplement checklist */
 .supp-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.skincare-hint{padding:10px 12px;border-radius:10px;font-size:13px;margin-bottom:12px;line-height:1.4;display:none}
+.skincare-hint.retinoid{background:rgba(168,85,247,.1);border:1px solid rgba(168,85,247,.3);color:#d8b4fe;display:block}
+.skincare-hint.rest{background:rgba(59,130,246,.1);border:1px solid rgba(59,130,246,.3);color:#93c5fd;display:block}
+.skincare-hint.prestart{background:rgba(156,163,175,.1);border:1px solid rgba(156,163,175,.3);color:var(--text2);display:block}
+.skincare-check{display:flex;align-items:center;gap:10px;padding:10px 12px;background:var(--bg);
+  border-radius:10px;cursor:pointer;margin-bottom:8px;border:1.5px solid var(--border);
+  -webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none;font-size:14px}
+.skincare-check:has(input:checked){background:rgba(107,158,111,.08);border-color:rgba(107,158,111,.35)}
+.skincare-check input[type=checkbox]{width:18px;height:18px;accent-color:var(--green);cursor:pointer}
 .supp-item{display:flex;align-items:center;gap:10px;padding:12px;background:var(--bg);
   border-radius:12px;cursor:pointer;transition:all .15s;-webkit-tap-highlight-color:transparent;
   border:1.5px solid var(--border);user-select:none;-webkit-user-select:none;touch-action:manipulation}
@@ -113,6 +144,16 @@ textarea::placeholder,.text-input::placeholder{color:#5A5450;font-style:italic}
 .supp-name{font-size:13px;color:var(--text);line-height:1.3;font-weight:500}
 .supp-time{font-size:10px;color:var(--text2)}
 .supp-dose-label{font-size:11px;color:var(--gold2);font-weight:600;margin-left:auto;white-space:nowrap}
+/* Collapsed-dormant group: keeps the supp grid clean by hiding supps not used
+   in the last 2 days. User clicks "+ Show more" to expand them inline. */
+.supp-more-wrap{grid-column:1/-1;margin-top:4px}
+.supp-more-btn{width:100%;padding:9px;background:transparent;border:1.5px dashed var(--border);
+  border-radius:10px;color:var(--text2);font-size:12px;cursor:pointer;
+  -webkit-tap-highlight-color:transparent;transition:all .15s}
+.supp-more-btn:hover,.supp-more-btn:active{border-color:var(--gold);color:var(--text)}
+.supp-dormant{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:8px}
+.supp-dormant .supp-item{opacity:.7}
+.supp-dormant .supp-item.checked{opacity:1}
 
 /* Dose popup overlay */
 .dose-overlay{display:none;position:fixed;top:0;left:0;right:0;bottom:0;background:rgba(0,0,0,.6);
@@ -155,6 +196,13 @@ textarea::placeholder,.text-input::placeholder{color:#5A5450;font-style:italic}
   align-items:center;justify-content:center;backdrop-filter:blur(4px)}
 .media-slot .play-icon::after{content:'';border-style:solid;border-width:7px 0 7px 12px;
   border-color:transparent transparent transparent #fff;margin-left:2px}
+/* Standard WAI-ARIA visually-hidden pattern — keeps form inputs INTERACTABLE
+   (clickable via <label for="">) while invisible to users. Used instead of
+   display:none because Brave/Chromium recently tightened policy to silently
+   block synthetic .click() AND label-for clicks on display:none file inputs.
+   This pattern keeps the element rendered (just clipped to 0x0) so the click
+   forwards through the label. */
+.visually-hidden-input{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);clip-path:inset(50%);border:0;white-space:nowrap}
 .media-hint{font-size:11px;color:var(--text2);margin-top:6px;text-align:center}
 
 /* Dashboard media strip */
@@ -258,6 +306,64 @@ input[type=number]{width:70px;text-align:center}
 .saved-dot.unsaved{background:var(--red)}
 .saved-dot.synced{background:var(--blue)}
 
+/* Persistent "saved X ago" chip — always visible so Marko knows the save-state
+   at a glance without having to click Save and watch a toast. */
+.saved-chip{display:inline-flex;align-items:center;gap:6px;font-size:11px;
+  background:rgba(107,158,111,.12);border:1px solid rgba(107,158,111,.25);
+  color:#5a8c5e;padding:4px 9px;border-radius:999px;margin-left:8px;
+  font-weight:500;transition:all 0.3s}
+.saved-chip .dot{width:6px;height:6px;border-radius:50%;background:currentColor;
+  opacity:0.7}
+.saved-chip.state-saved{background:rgba(107,158,111,.12);border-color:rgba(107,158,111,.25);color:#5a8c5e}
+.saved-chip.state-synced{background:rgba(70,120,200,.12);border-color:rgba(70,120,200,.3);color:#4c7abf}
+.saved-chip.state-saving{background:rgba(196,149,86,.12);border-color:rgba(196,149,86,.3);color:#c49556}
+.saved-chip.state-unsaved{background:rgba(220,76,70,.12);border-color:rgba(220,76,70,.35);color:#c14a42}
+.saved-chip.state-stale{background:rgba(220,76,70,.18);border-color:rgba(220,76,70,.5);color:#c14a42;font-weight:600}
+
+/* System pill (#sysPill) — sits next to saved-chip in the header. Always
+   visible. Polls /api/system-status every 30s. Click → opens the system
+   panel with details + restart buttons. Same color rules as saved-chip
+   but separate semantics (saved-chip = my data, sys-pill = the platform). */
+.sys-pill{display:inline-flex;align-items:center;gap:6px;font-size:11px;
+  padding:4px 9px;border-radius:999px;margin-left:6px;font-weight:500;
+  cursor:pointer;border:1px solid;transition:all 0.2s}
+.sys-pill .dot{width:6px;height:6px;border-radius:50%;background:currentColor}
+.sys-pill.state-green{background:rgba(107,158,111,.12);border-color:rgba(107,158,111,.3);color:#5a8c5e}
+.sys-pill.state-yellow{background:rgba(196,149,86,.12);border-color:rgba(196,149,86,.35);color:#c49556}
+.sys-pill.state-red{background:rgba(220,76,70,.18);border-color:rgba(220,76,70,.5);color:#c14a42;font-weight:700}
+.sys-pill.state-unknown{background:rgba(133,126,117,.12);border-color:rgba(133,126,117,.3);color:#857e75}
+.sys-pill:hover{transform:translateY(-1px);box-shadow:0 2px 6px rgba(0,0,0,.15)}
+
+/* System status panel — full-screen overlay with detail + restart buttons */
+.sys-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);
+  z-index:1000;align-items:center;justify-content:center;padding:20px}
+.sys-overlay.show{display:flex}
+.sys-panel{background:var(--card);border-radius:16px;padding:22px;
+  max-width:560px;width:100%;max-height:85vh;overflow-y:auto;font-size:13px}
+.sys-panel h3{margin:0 0 10px;display:flex;align-items:center;gap:10px}
+.sys-panel .sys-summary{padding:10px 14px;border-radius:10px;margin-bottom:14px;
+  font-size:12.5px;line-height:1.5}
+.sys-panel .sys-summary.green{background:rgba(107,158,111,.1);color:#5a8c5e}
+.sys-panel .sys-summary.yellow{background:rgba(196,149,86,.1);color:#c49556}
+.sys-panel .sys-summary.red{background:rgba(220,76,70,.12);color:#c14a42}
+.sys-panel .sys-row{display:flex;align-items:center;justify-content:space-between;
+  gap:8px;padding:8px 0;border-bottom:1px solid #2a2622;font-size:12px}
+.sys-panel .sys-row:last-child{border:none}
+.sys-panel .sys-row .name{font-weight:600;color:var(--text)}
+.sys-panel .sys-row .det{color:var(--text2);font-size:11px;flex:1;margin:0 8px;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:280px}
+.sys-panel .sys-row .restart-btn{background:var(--amber);color:#fff;border:none;
+  border-radius:6px;padding:5px 10px;font-size:11px;font-weight:600;cursor:pointer;flex-shrink:0}
+.sys-panel .sys-row .ok-mark{color:#5a8c5e;font-weight:700}
+.sys-panel .sys-row .fail-mark{color:#c14a42;font-weight:700}
+.sys-panel .sys-row .warn-mark{color:#c49556;font-weight:700}
+.sys-panel .sys-section{margin:14px 0 6px;font-size:11.5px;font-weight:600;color:var(--text2);text-transform:uppercase;letter-spacing:0.04em}
+.sys-panel .sys-actions{display:flex;gap:8px;justify-content:flex-end;margin-top:14px}
+.sys-panel .sys-actions button{padding:8px 14px;border-radius:8px;cursor:pointer;font-size:12px;font-weight:500;border:1px solid #2a2622;background:transparent;color:var(--text)}
+.sys-panel .sys-actions button.primary{background:var(--accent);color:#fff;border:none}
+.sys-panel .sys-blockers{background:rgba(220,76,70,.08);padding:8px 12px;border-radius:8px;border-left:3px solid #c14a42;margin-bottom:10px;font-size:12px;color:#c14a42}
+.sys-panel .sys-warns{background:rgba(196,149,86,.08);padding:8px 12px;border-radius:8px;border-left:3px solid #c49556;margin-bottom:10px;font-size:12px;color:#c49556}
+.sys-panel .sys-blockers ul, .sys-panel .sys-warns ul{margin:4px 0 0;padding-left:18px}
+
 /* Sync buttons */
 .sync-row{display:flex;gap:8px;margin-top:12px}
 .sync-btn{flex:1;padding:12px 8px;border:none;border-radius:12px;font-size:13px;
@@ -348,6 +454,46 @@ input[type=number]{width:70px;text-align:center}
 .sync-pending-banner.show{display:flex}
 .sync-pending-banner button{background:var(--amber);color:#fff;border:none;border-radius:8px;
   padding:7px 14px;font-size:12px;font-weight:600;cursor:pointer;flex-shrink:0}
+
+/* Pain body-map grid (#11) — 2 columns on phone, 4 columns on wider screens.
+   Each row uses a stacked layout (label on top, slider+value below) so the
+   track has enough width. The original slider-row was designed for full-width
+   rows and its 72px fixed label + 34px readout collapses the track to zero
+   in a narrow grid cell. */
+.pain-body-map{display:grid;grid-template-columns:1fr 1fr;gap:8px 14px;margin-top:10px}
+@media(min-width:480px){.pain-body-map{grid-template-columns:1fr 1fr 1fr 1fr}}
+.pain-body-map .pbm-row{display:flex;flex-direction:column;gap:2px;margin:0}
+.pain-body-map .pbm-label{font-size:11.5px;color:var(--text2);font-weight:500}
+.pain-body-map .pbm-track{display:flex;align-items:center;gap:8px}
+.pain-body-map .pbm-track input[type=range]{flex:1;min-width:0}
+.pain-body-map .pbm-val{width:22px;font-size:14px;font-weight:700;color:var(--gold2);
+  text-align:right;font-family:var(--serif)}
+
+/* Voice dictation button — sits inside a textarea wrapper, tap to dictate. */
+.text-wrap{position:relative}
+.mic-btn{position:absolute;top:8px;right:8px;width:36px;height:36px;border-radius:50%;
+  background:rgba(107,158,111,.1);border:1px solid rgba(107,158,111,.3);color:#5a8c5e;
+  cursor:pointer;display:flex;align-items:center;justify-content:center;font-size:16px;
+  transition:all 0.2s;padding:0;z-index:2}
+.mic-btn:hover{background:rgba(107,158,111,.2)}
+.mic-btn.listening{background:#c14a42;color:#fff;border-color:#c14a42;
+  animation:mic-pulse 1.2s ease-in-out infinite}
+@keyframes mic-pulse{0%,100%{transform:scale(1);box-shadow:0 0 0 0 rgba(193,74,66,.5)}
+  50%{transform:scale(1.06);box-shadow:0 0 0 8px rgba(193,74,66,0)}}
+
+/* Data hole banner — warns about shell-saves / missing days so Marko sees
+   the problem the moment he opens the app, not days later via audit. */
+.hole-banner{display:none;background:rgba(220,76,70,.08);border:1.5px solid rgba(220,76,70,.35);
+  color:#c14a42;padding:12px 14px;border-radius:12px;margin-bottom:14px;font-size:12.5px;
+  line-height:1.45;font-weight:500}
+.hole-banner.show{display:block}
+.hole-banner .hole-title{font-weight:700;margin-bottom:6px;display:flex;align-items:center;gap:6px}
+.hole-banner .hole-list{margin:0;padding-left:18px}
+.hole-banner .hole-list li{margin-bottom:2px}
+.hole-banner .hole-actions{margin-top:8px;display:flex;gap:8px;flex-wrap:wrap}
+.hole-banner button{background:#c14a42;color:#fff;border:none;border-radius:8px;
+  padding:6px 12px;font-size:11.5px;font-weight:600;cursor:pointer}
+.hole-banner button.secondary{background:transparent;color:#c14a42;border:1px solid #c14a42}
 
 /* Calendar modal */
 .calendar-overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:100;display:none;
@@ -508,6 +654,33 @@ input[type=number]{width:70px;text-align:center}
 .reflection-focus-label{font-size:10px;color:#C4956A;text-transform:uppercase;letter-spacing:.6px;font-weight:600}
 .reflection-focus-text{font-size:13.5px;color:var(--text);font-weight:500}
 
+/* Reflection Chat */
+.chat-toggle{display:flex;align-items:center;gap:6px;margin-top:14px;padding:10px 14px;
+  background:rgba(196,149,86,.08);border:1px solid rgba(196,149,86,.2);border-radius:12px;
+  color:var(--gold);font-size:13px;font-weight:600;cursor:pointer;transition:all .2s}
+.chat-toggle:hover,.chat-toggle:active{background:rgba(196,149,86,.15)}
+.chat-toggle svg{width:16px;height:16px;fill:currentColor}
+.chat-container{display:none;margin-top:12px;border-top:1px solid rgba(196,149,86,.15);padding-top:12px}
+.chat-container.open{display:block}
+.chat-messages{max-height:400px;overflow-y:auto;display:flex;flex-direction:column;gap:10px;
+  padding:4px 0;margin-bottom:12px;scroll-behavior:smooth}
+.chat-msg{max-width:88%;padding:10px 14px;border-radius:16px;font-size:14px;line-height:1.5;word-wrap:break-word}
+.chat-msg.user{align-self:flex-end;background:var(--gold);color:#1A1714;border-bottom-right-radius:4px}
+.chat-msg.assistant{align-self:flex-start;background:var(--card2);color:var(--text);
+  border-bottom-left-radius:4px;font-family:var(--serif,Georgia,serif)}
+.chat-msg.assistant p{margin:0 0 8px}.chat-msg.assistant p:last-child{margin:0}
+.chat-msg.typing{color:var(--text2);font-style:italic}
+.chat-input-row{display:flex;gap:8px;align-items:flex-end}
+.chat-input{flex:1;background:var(--card2);border:1px solid var(--border);border-radius:14px;
+  color:var(--text);font-size:14px;padding:10px 14px;font-family:var(--sans);resize:none;
+  min-height:42px;max-height:120px;line-height:1.4;outline:none}
+.chat-input:focus{border-color:var(--gold)}
+.chat-input::placeholder{color:var(--text2)}
+.chat-send{width:42px;height:42px;border-radius:50%;background:var(--gold);border:none;
+  color:#1A1714;font-size:18px;cursor:pointer;display:flex;align-items:center;justify-content:center;
+  flex-shrink:0;transition:opacity .2s}
+.chat-send:disabled{opacity:.3;cursor:default}
+
 /* Dashboard journal */
 .dash-journal{margin-bottom:16px}
 .dash-journal-section{background:var(--card);border-radius:16px;padding:20px;margin-bottom:10px;box-shadow:var(--shadow)}
@@ -617,7 +790,7 @@ input[type=number]{width:70px;text-align:center}
   <!-- ==================== JOURNAL VIEW ==================== -->
   <div id="view-journal" class="view">
     <div class="header">
-      <h1>Check-in <span class="saved-dot unsaved" id="dot"></span></h1>
+      <h1>Check-in <span class="saved-dot unsaved" id="dot"></span><span class="saved-chip state-unsaved" id="savedChip"><span class="dot"></span><span id="savedChipText">unsaved</span></span><span class="sys-pill state-unknown" id="sysPill" onclick="openSystemStatus()" title="System status — click for details"><span class="dot"></span><span id="sysPillText">…</span></span></h1>
       <div class="date-nav">
         <button onclick="changeDate(-1)">&lsaquo;</button>
         <span class="date-label" id="dateLabel"></span>
@@ -625,6 +798,9 @@ input[type=number]{width:70px;text-align:center}
       </div>
       <button class="gear-btn" onclick="toggleSettings()">&#9881;</button>
     </div>
+
+    <!-- Session report pills (#9) — populated when reports/<date>_*.html exists -->
+    <div id="reportPills" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px"></div>
 
     <!-- Big date banner -->
     <div class="date-banner" id="dateBanner" onclick="openDayDetail(fmt(currentDate))">
@@ -638,6 +814,17 @@ input[type=number]{width:70px;text-align:center}
     <div class="sync-pending-banner" id="syncPendingBanner">
       <span>Saved locally, sync pending</span>
       <button onclick="retrySyncCurrent()">Retry</button>
+    </div>
+
+    <!-- Data hole banner — filled by checkCheckinHoles() on load -->
+    <div class="hole-banner" id="holeBanner">
+      <div class="hole-title">⚠ <span id="holeTitle">Data gap detected</span></div>
+      <ul class="hole-list" id="holeList"></ul>
+      <div class="hole-actions">
+        <button onclick="dismissHoleBanner()" class="secondary">Dismiss</button>
+        <button onclick="autoFixCorrupted()" id="autoFixBtn" class="secondary">Auto-fix corrupted</button>
+        <button onclick="checkCheckinHoles(true)">Re-check</button>
+      </div>
     </div>
 
     <!-- Streak bar -->
@@ -656,6 +843,20 @@ input[type=number]{width:70px;text-align:center}
       <div class="streak-stat" style="font-size:11px;color:var(--text2)">&#128197;</div>
     </div>
 
+    <!-- Reports quick-link bar — opens the reports landing page in a new tab.
+         Avoids needing to remember the /reports/ URL. Added 2026-04-28. -->
+    <a href="/reports/" target="_blank" rel="noopener"
+       style="display:flex;align-items:center;justify-content:center;gap:10px;
+              padding:11px 16px;margin:0 0 14px;background:var(--bg-card);
+              border:1px solid var(--border);border-radius:12px;color:var(--text);
+              text-decoration:none;font-size:13px;font-weight:500;transition:all .15s"
+       onmouseover="this.style.borderColor='var(--gold)'"
+       onmouseout="this.style.borderColor='var(--border)'">
+      <span style="font-size:16px">📑</span>
+      <span>All clinical reports &amp; briefs</span>
+      <span style="margin-left:auto;color:var(--text2);font-size:11px">↗</span>
+    </a>
+
     <div class="tabs">
       <div class="tab active" onclick="switchTab('morning')">Morning</div>
       <div class="tab" onclick="switchTab('evening')">Evening</div>
@@ -663,6 +864,16 @@ input[type=number]{width:70px;text-align:center}
 
     <!-- MORNING -->
     <div class="section active" id="sec-morning">
+      <!-- Objective metrics widget (#13) — last night's WHOOP, sleep, steps
+           visible at the top of the morning tab so Marko can cross-reference
+           what his body logged vs what he felt. -->
+      <div id="bodyMetrics" style="display:none;background:linear-gradient(135deg,rgba(70,120,200,.08),rgba(107,158,111,.08));border:1px solid rgba(70,120,200,.2);border-radius:14px;padding:14px;margin-bottom:14px;font-size:12.5px">
+        <div style="font-weight:600;color:var(--text2);margin-bottom:8px;display:flex;align-items:center;justify-content:space-between">
+          <span>📊 Last night's body data</span>
+          <span id="bodyMetricsDate" style="font-size:10.5px;font-weight:400;color:var(--text2)"></span>
+        </div>
+        <div id="bodyMetricsGrid" style="display:grid;grid-template-columns:repeat(4,1fr);gap:10px;font-size:12px"></div>
+      </div>
       <div class="card">
         <h2>How are you feeling?</h2>
         <div class="slider-row">
@@ -690,8 +901,249 @@ input[type=number]{width:70px;text-align:center}
           <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="anxiety_score" oninput="onSlider(this)"></div>
           <span class="slider-val">0</span>
         </div>
+        <div class="slider-row">
+          <span class="slider-label">Stress</span>
+          <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="stress_score" oninput="onSlider(this)"></div>
+          <span class="slider-val">0</span>
+        </div>
+        <div class="slider-row">
+          <span class="slider-label">Headache</span>
+          <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="headache_score" oninput="onSlider(this)"></div>
+          <span class="slider-val">0</span>
+        </div>
         <h3>Sleep notes</h3>
         <textarea data-field="sleep_notes" placeholder="Woke at 4am, gut grumbling..." oninput="autoSave()"></textarea>
+      </div>
+
+      <!-- 🌅 Morning symptoms - overnight signal (0-10 tappable buttons) -->
+      <div class="card morning-symptoms-card" style="background:linear-gradient(135deg,rgba(196,149,106,.08),rgba(140,90,180,.04));border:1px solid rgba(196,149,106,.22)">
+        <h2>🌅 Morning symptoms <span style="font-weight:400;font-size:12px;color:var(--text2)">(overnight signal, 0=none, 10=worst)</span></h2>
+        <div class="csi-signal-row" data-csi-q="Q4"><label>Jaw soreness / clenching AM</label><div class="csi-num-grid" data-target="jaw_soreness_am_score" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="jaw_soreness_am_score" value="0"></div>
+        <div class="csi-signal-row" data-csi-q="Q22"><label>Restless legs last night</label><div class="csi-num-grid" data-target="restless_legs_score" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="restless_legs_score" value="0"></div>
+        <div class="csi-signal-row" data-csi-q="MAM3"><label>Heart racing on waking</label><div class="csi-num-grid" data-target="heart_racing_am" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="heart_racing_am" value="0"></div>
+        <div class="csi-signal-row" data-csi-q="MAM4"><label>Body stiffness AM</label><div class="csi-num-grid" data-target="am_stiffness_score" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="am_stiffness_score" value="0"></div>
+        <div class="csi-signal-row" data-csi-q="MAM5"><label>Tinitus AM</label><div class="csi-num-grid" data-target="tinitus_am_score" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="tinitus_am_score" value="0"></div>
+        <div class="csi-signal-row" data-csi-q="MAM6"><label>Dyshidrotic / skin flare</label><div class="csi-num-grid" data-target="dyshidrotic_am" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="dyshidrotic_am" value="0"></div>
+        <div class="csi-signal-row" data-csi-q="MAM7"><label>Feeling feverish / running hot AM</label><div class="csi-num-grid" data-target="feverish_am" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="feverish_am" value="0"></div>
+        <div class="csi-signal-row" data-csi-q="MAM8"><label>Feeling cold / chilled AM</label><div class="csi-num-grid" data-target="cold_am" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="cold_am" value="0"></div>
+        <div class="csi-signal-row" data-csi-q="MAM9"><label>Heart racing on STANDING up (orthostatic)</label><div class="csi-num-grid" data-target="heart_racing_standing" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="heart_racing_standing" value="0"></div>
+        <div class="csi-signal-row" data-csi-q="MAM10"><label>Chest tightness / pressure / breathless on exertion</label><div class="csi-num-grid" data-target="chest_symptom_am" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="chest_symptom_am" value="0"></div>
+        <div class="csi-signal-row" data-csi-q="MAM11"><label>Ate a high-histamine / trigger / leftover food yesterday (0 = no, 10 = a lot)</label><div class="csi-num-grid" data-target="trigger_food_flag" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="trigger_food_flag" value="0"></div>
+        <div class="csi-signal-row" data-csi-q="MAM12"><label>Rumination / over-checking my body / health-anxiety (0 = calm, 10 = spiraled)</label><div class="csi-num-grid" data-target="rumination_load" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="rumination_load" value="0"></div>
+        <div class="csi-signal-row" data-csi-q="MAM13"><label>Did a regulation rep today (breathing / somatic) (0 = none, 10 = full session)</label><div class="csi-num-grid" data-target="regulation_practice" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="regulation_practice" value="0"></div>
+        <div class="csi-signal-row" data-csi-q="MAM14"><label>Blood pressure AM (sys / dia, aim 2-3x per week, leave blank if not measured)</label><div style="display:flex;gap:8px"><input type="number" min="60" max="250" data-field="bp_sys_am" oninput="autoSave()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px" placeholder="sys e.g. 120"><input type="number" min="40" max="150" data-field="bp_dia_am" oninput="autoSave()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px" placeholder="dia e.g. 80"></div></div>
+      </div>
+
+      <!-- 🛏️ Vita Štukovnik dnevnik spanja (CBT-i, permanent) -->
+      <details id="vitaSleepDiary" class="card" style="background:linear-gradient(135deg,rgba(70,120,200,.06),rgba(140,90,180,.04));border:1px solid rgba(70,120,200,.22);padding:0;overflow:hidden">
+        <summary style="padding:14px 18px;cursor:pointer;font-weight:600;font-size:15px;color:var(--text);list-style:none">🛏️ Dnevnik spanja <span style="font-weight:400;font-size:12px;color:var(--text2)">(CBT-i, po Viti Štukovnik)</span></summary>
+        <div style="padding:0 18px 18px">
+          <div style="font-size:12px;color:var(--text2);margin-bottom:10px;line-height:1.5">Dnevnik spanja po Viti Štukovnik (CBT-i). Izpolni vsako jutro takoj po prebujanju.</div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+            <div><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">1. V posteljo ob</label>
+              <input type="time" data-field="vita_bedtime" oninput="autoSave(); calcSleepEff()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px"></div>
+            <div><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">2. Poskušal zaspati ob</label>
+              <input type="time" data-field="vita_sleep_attempt_time" oninput="autoSave(); calcSleepEff()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px"></div>
+          </div>
+
+          <div style="margin-bottom:10px"><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">3. Koliko časa do zaspanja (min)</label>
+            <input type="number" min="0" max="300" data-field="vita_sleep_latency_min" oninput="autoSave(); calcSleepEff()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px" placeholder="npr. 18"></div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+            <div><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">4. Št. prebujanj (brez končnega)</label>
+              <input type="number" min="0" max="20" data-field="vita_awakening_count" oninput="autoSave(); calcSleepEff()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px" placeholder="0"></div>
+            <div><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">5. Skupen čas prebujanj (min)</label>
+              <input type="number" min="0" max="300" data-field="vita_awakening_total_min" oninput="autoSave(); calcSleepEff()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px" placeholder="0"></div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+            <div><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">6a. Zadnjič prebujen ob</label>
+              <input type="time" data-field="vita_final_wake_time" oninput="autoSave(); calcSleepEff()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px"></div>
+            <div><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">6b. Min v postelji po prebujanju</label>
+              <input type="number" min="0" max="180" data-field="vita_time_after_final_wake_min" oninput="autoSave(); calcSleepEff()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px" placeholder="0"></div>
+          </div>
+
+          <div style="margin-bottom:12px">
+            <label style="font-size:13px;color:var(--text2);display:block;margin-bottom:6px">6c. Prebudil prej, kot načrtovano?</label>
+            <div class="csi-num-grid" style="grid-template-columns:1fr 1fr" data-target="vita_woke_earlier_than_planned" onclick="selectCsiNum(event)">
+              <button type="button" class="csi-num" data-val="0">NE</button>
+              <button type="button" class="csi-num" data-val="1">DA</button>
+            </div>
+            <input type="hidden" data-field="vita_woke_earlier_than_planned" value="">
+          </div>
+
+          <div style="margin-bottom:10px"><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">7. Iz postelje vstal ob</label>
+            <input type="time" data-field="vita_get_up_time" oninput="autoSave(); calcSleepEff()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px"></div>
+
+          <div id="vita-calc" style="background:linear-gradient(135deg,rgba(122,157,191,.14),rgba(196,149,106,.06));border:1px solid rgba(122,157,191,.3);padding:14px 16px;border-radius:10px;margin-bottom:14px;font-size:13px;line-height:1.75;color:var(--text)">
+            <div style="font-size:11px;color:var(--text2);text-transform:uppercase;letter-spacing:.6px;font-weight:700;margin-bottom:8px">Izračunano</div>
+            <div>8a. Skupen čas spanja: <b id="vita-total-sleep" style="color:var(--gold2);font-size:15px">-</b></div>
+            <div>8b. Skupen čas v postelji: <b id="vita-total-bed" style="color:var(--gold2);font-size:15px">-</b></div>
+            <div>9. Učinkovitost spanja: <b id="vita-efficiency" style="color:var(--gold2);font-size:15px">-</b> <span id="vita-eff-note" style="font-size:11px;color:var(--text2);margin-left:6px"></span></div>
+            <div id="vita-calc-warning" style="margin-top:8px;padding:6px 8px;background:rgba(196,112,112,.15);border-left:3px solid var(--red);font-size:11.5px;color:var(--red);border-radius:4px;display:none"></div>
+          </div>
+
+          <div style="margin-bottom:12px">
+            <label style="font-size:13px;color:var(--text2);display:block;margin-bottom:6px">10. Kakovost spanca</label>
+            <div class="csi-num-grid" style="grid-template-columns:repeat(5,1fr)" data-target="vita_sleep_quality_5pt" onclick="selectCsiNum(event)">
+              <button type="button" class="csi-num" data-val="1">zelo slabo</button>
+              <button type="button" class="csi-num" data-val="2">slabo</button>
+              <button type="button" class="csi-num" data-val="3">srednje</button>
+              <button type="button" class="csi-num" data-val="4">dobro</button>
+              <button type="button" class="csi-num" data-val="5">zelo dobro</button>
+            </div>
+            <input type="hidden" data-field="vita_sleep_quality_5pt" value="">
+          </div>
+
+          <div style="margin-bottom:12px">
+            <label style="font-size:13px;color:var(--text2);display:block;margin-bottom:6px">11. Kako spočit / svež po prebujanju</label>
+            <div class="csi-num-grid" style="grid-template-columns:repeat(5,1fr)" data-target="vita_refreshed_5pt" onclick="selectCsiNum(event)">
+              <button type="button" class="csi-num" data-val="1">sploh ne</button>
+              <button type="button" class="csi-num" data-val="2">nekoliko</button>
+              <button type="button" class="csi-num" data-val="3">srednje</button>
+              <button type="button" class="csi-num" data-val="4">precej</button>
+              <button type="button" class="csi-num" data-val="5">zelo</button>
+            </div>
+            <input type="hidden" data-field="vita_refreshed_5pt" value="">
+          </div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+            <div><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">12a. Št. dremežev čez dan</label>
+              <input type="number" min="0" max="10" data-field="vita_nap_count" oninput="autoSave()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px" placeholder="0"></div>
+            <div><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">12b. Skupen čas dremanja (min)</label>
+              <input type="number" min="0" max="300" data-field="vita_nap_total_min" oninput="autoSave()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px" placeholder="0"></div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:10px">
+            <div><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">13a. Št. alkoholnih pijač</label>
+              <input type="number" min="0" max="20" data-field="vita_alcohol_count" oninput="autoSave()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px" placeholder="0"></div>
+            <div><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">13b. Št. kofeinskih pijač</label>
+              <input type="number" min="0" max="20" data-field="vita_caffeine_count" oninput="autoSave()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px" placeholder="0"></div>
+          </div>
+
+          <div style="margin-bottom:8px"><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">14. Zdravila / dodatki za spanje (komentar)</label>
+            <input type="text" data-field="vita_sleep_meds_notes" oninput="autoSave()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px" placeholder="npr. Mg taurat 100mg, L-teanin 150mg ob 22:00"></div>
+
+          <div><label style="font-size:13px;color:var(--text2);display:block;margin-bottom:4px">Drugo (dogodki, stres, vadba, kava, dremeži, kakršen koli kontekst)</label>
+            <textarea data-field="vita_other_notes" oninput="autoSave()" style="width:100%;padding:8px;font-size:14px;border:1px solid var(--border);border-radius:6px;min-height:50px" placeholder="..."></textarea></div>
+        </div>
+      </details>
+
+      <script>
+        // Sleep efficiency calculator - Morin Consensus Sleep Diary (CSD-M) formula.
+        //   TIB (Total Time in Bed)    = get_up_time - bedtime
+        //   Sleep window               = final_wake_time - sleep_attempt_time
+        //   TST (Total Sleep Time)     = sleep_window - sleep_latency - WASO
+        //   SE  (Sleep Efficiency)     = TST / TIB * 100
+        // Validation rules (v90 2026-05-11):
+        //   - bedtime/get_up are required for any output
+        //   - If get_up < bedtime we treat that as crossing midnight
+        //   - TIB outside [3h, 16h] is flagged (almost certainly a typo)
+        //   - sleep_attempt should be >= bedtime (if not, warn)
+        //   - final_wake should be <= get_up_time (in chronological order, after midnight crossing)
+        //   - latency + WASO > sleep_window means TST clamps to 0 + a warning
+        //   - efficiency colored: >=85% green (CBT-i target), 80-84% gold, <80% red
+        function calcSleepEff() {
+          const get = (f) => document.querySelector('[data-field="' + f + '"]')?.value || '';
+          const getNum = (f) => { const n = parseInt(get(f)); return Number.isFinite(n) && n >= 0 ? n : 0; };
+          const bed = get('vita_bedtime');
+          const sleepAttempt = get('vita_sleep_attempt_time');
+          const latency = getNum('vita_sleep_latency_min');
+          const wakeMin = getNum('vita_awakening_total_min');
+          const finalWake = get('vita_final_wake_time');
+          const getUp = get('vita_get_up_time');
+          const toMin = (t) => { if (!t) return null; const [h,m] = t.split(':').map(Number); return h*60 + m; };
+          const fmt = (m) => `${Math.floor(m/60)}h ${m%60}min`;
+          const setText = (id, val) => { const el = document.getElementById(id); if (el) el.textContent = val; };
+          const setColor = (id, color) => { const el = document.getElementById(id); if (el) el.style.color = color; };
+
+          const bedMin = toMin(bed);
+          const attemptMin = toMin(sleepAttempt);
+          const finalWakeMin = toMin(finalWake);
+          const getUpMin = toMin(getUp);
+
+          // Span between two clock times, treating end<start as crossing midnight.
+          const span = (start, end) => {
+            if (start === null || end === null) return null;
+            let s = end - start;
+            if (s < 0) s += 24 * 60;
+            return s;
+          };
+
+          const tib = span(bedMin, getUpMin);
+          // Sleep window: prefer sleep_attempt/final_wake, fall back to bedtime/get_up for partial entries
+          const winStart = attemptMin !== null ? attemptMin : bedMin;
+          const winEnd   = finalWakeMin !== null ? finalWakeMin : getUpMin;
+          const sleepWindow = span(winStart, winEnd);
+
+          // TST + SE
+          let tst = null, se = null, seClamped = false;
+          if (sleepWindow !== null) {
+            const lossInWindow = latency + wakeMin;
+            if (lossInWindow > sleepWindow) seClamped = true;
+            tst = Math.max(0, sleepWindow - lossInWindow);
+          }
+          if (tib !== null && tib > 0 && tst !== null) se = (tst / tib) * 100;
+
+          // Render values
+          setText('vita-total-sleep', tst !== null ? fmt(tst) : '-');
+          setText('vita-total-bed',   tib !== null ? fmt(tib) : '-');
+          if (se !== null) {
+            setText('vita-efficiency', se.toFixed(1) + '%');
+            // CBT-i target is 85%+. Below 80% is the actionable insomnia band.
+            let color = 'var(--gold2)';
+            let note  = '';
+            if (se >= 85)      { color = 'var(--green)'; note = '(cilj ≥85%)'; }
+            else if (se >= 80) { color = 'var(--gold2)'; note = '(pod ciljem 85%)'; }
+            else               { color = 'var(--red)';   note = '(nizka, CBT-i: skrči okno spanja)'; }
+            setColor('vita-efficiency', color);
+            setText('vita-eff-note', note);
+          } else {
+            setText('vita-efficiency', '-');
+            setColor('vita-efficiency', 'var(--gold2)');
+            setText('vita-eff-note', '');
+          }
+
+          // Validation warnings
+          const warnings = [];
+          if (tib !== null) {
+            if (tib < 180)        warnings.push('Čas v postelji < 3h - preveri vnos časov.');
+            else if (tib > 960)   warnings.push('Čas v postelji > 16h - preveri vnos časov.');
+          }
+          if (bedMin !== null && attemptMin !== null) {
+            const wait = span(bedMin, attemptMin);
+            if (wait !== null && wait > 6*60) warnings.push('Čas med "v posteljo" in "poskušal zaspati" > 6h - preveri.');
+          }
+          if (sleepWindow !== null && (latency + wakeMin) > sleepWindow) {
+            warnings.push(`Latenca (${latency}) + prebujanja (${wakeMin}) presežejo okno spanja (${sleepWindow} min) - TST omejen na 0.`);
+          }
+          const warnEl = document.getElementById('vita-calc-warning');
+          if (warnEl) {
+            if (warnings.length) { warnEl.style.display = 'block'; warnEl.textContent = '⚠ ' + warnings.join(' '); }
+            else                 { warnEl.style.display = 'none'; warnEl.textContent = ''; }
+          }
+        }
+      </script>
+
+      <!-- CSI / psychometrics banner - shows once per month after monthly calc fires -->
+      <div id="csiBanner" style="display:none;background:linear-gradient(135deg,rgba(140,90,180,.10),rgba(70,120,200,.08));border:1px solid rgba(140,90,180,.25);border-radius:14px;padding:14px 16px;margin-bottom:14px;font-size:13px">
+        <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:12px">
+          <div style="flex:1;min-width:0">
+            <div style="font-weight:600;color:var(--text);margin-bottom:6px">🧠 <span id="csiBannerTitle"></span></div>
+            <div id="csiBannerBody" style="white-space:pre-wrap;color:var(--text2);line-height:1.5;font-size:12.5px"></div>
+          </div>
+          <button onclick="dismissCsiBanner()" style="background:none;border:none;cursor:pointer;color:var(--text2);font-size:18px;line-height:1;padding:0;flex-shrink:0">×</button>
+        </div>
+      </div>
+
+      <div class="card location-card">
+        <h2>📍 Where are you?</h2>
+        <div class="location-row">
+          <input type="text" data-field="location" placeholder="Slovenia, Ljubljana - hotel/note" oninput="autoSave()" autocomplete="off" id="location-input">
+          <button type="button" class="loc-btn" onclick="detectLocation()" title="Use my current location" aria-label="Detect location">📍</button>
+        </div>
+        <div class="location-hint" id="location-hint">Auto-fills with yesterday's location. Tap 📍 to detect, or type your own.</div>
       </div>
 
       <div class="card mind-card">
@@ -716,15 +1168,21 @@ input[type=number]{width:70px;text-align:center}
         <textarea data-field="affirmation" placeholder="I am..." style="min-height:50px" oninput="autoSave()"></textarea>
       </div>
 
+      <div class="card" style="background:linear-gradient(135deg,rgba(196,149,106,.06),rgba(70,120,200,.04));border:1px solid rgba(196,149,106,.18)">
+        <h2>📔 Journal</h2>
+        <div style="font-size:12px;color:var(--text2);margin-bottom:8px;line-height:1.5">What am I feeling · what's bothering me · what am I avoiding · what do I want</div>
+        <textarea data-field="journal_morning" placeholder="What am I feeling: ...&#10;What's bothering me: ...&#10;What am I avoiding: ...&#10;What do I want: ..." style="min-height:140px" oninput="autoSave()"></textarea>
+      </div>
+
       <div class="card">
         <h2>Photos of the day</h2>
         <div class="media-grid" id="media-grid-morning"></div>
-        <input type="file" accept="image/*,video/*" multiple id="media-input-morning" style="display:none" onchange="handleMediaSelect(this,'morning')">
+        <input type="file" accept="image/*,.heic,.heif,video/*" multiple id="media-input-morning" class="visually-hidden-input" onchange="handleMediaSelect(this,'morning')">
         <div class="media-hint">Tap + to add photos or videos (max 4, videos under 30s)</div>
       </div>
 
       <div class="card">
-        <h2>Morning supplements</h2>
+        <h2>Morning supplements <button id="copy-yest-morning" onclick="copyYesterdaySupps('morning')" style="float:right;font-size:11px;padding:4px 10px;background:rgba(107,158,111,.12);color:#5a8c5e;border:1px solid rgba(107,158,111,.3);border-radius:999px;cursor:pointer;font-weight:500;margin-top:2px">⟲ same as yesterday</button></h2>
         <div class="supp-grid" id="morning-supps"></div>
         <div class="add-supp-row">
           <input type="text" id="add-morning-supp" placeholder="Add supplement...">
@@ -733,13 +1191,29 @@ input[type=number]{width:70px;text-align:center}
       </div>
 
       <div class="validation-msg" id="morning-validation"></div>
-      <button class="submit-btn morning" id="morning-save-btn" onclick="saveMorning()">Save Morning Check-in</button>
+      <div style="font-size:11px;color:var(--text2);text-align:center;margin-top:14px;margin-bottom:4px">Your words auto-save as you type. Tap below when the morning entry is complete.</div>
+      <button class="submit-btn morning" id="morning-save-btn" onclick="saveMorning()">Finalize Morning</button>
       <button class="delete-entry-btn" onclick="deleteEntry('morning')">Delete Morning Entry</button>
       <div class="status" id="morning-status"></div>
     </div>
 
     <!-- EVENING -->
     <div class="section" id="sec-evening">
+      <!-- Morning summary collapsible (#7) — auto-populated from today's morning check-in -->
+      <details id="morningSummary" style="margin-bottom:14px" hidden>
+        <summary style="padding:12px 14px;background:rgba(107,158,111,.08);border:1px solid rgba(107,158,111,.2);border-radius:12px;cursor:pointer;font-size:13px;color:#5a8c5e;font-weight:500">☀️ Morning recap (tap to expand)</summary>
+        <div id="morningSummaryBody" style="padding:12px 14px 4px 14px;font-size:12.5px;line-height:1.55;color:var(--text2);white-space:pre-wrap"></div>
+      </details>
+
+      <div class="card location-card">
+        <h2>🌙 Where are you sleeping?</h2>
+        <div class="location-row">
+          <input type="text" data-field="location_evening" placeholder="Slovenia, Ljubljana - home / hotel" oninput="autoSave()" autocomplete="off" id="location-input-evening">
+          <button type="button" class="loc-btn" onclick="detectLocation('evening')" title="Use my current location" aria-label="Detect location">📍</button>
+        </div>
+        <div class="location-hint" id="location-hint-evening">Auto-fills with this morning's location. Tap 📍 to detect, or type your own.</div>
+      </div>
+
       <div class="card">
         <h2>End of day</h2>
         <div class="slider-row">
@@ -758,10 +1232,44 @@ input[type=number]{width:70px;text-align:center}
           <span class="slider-val">5</span>
         </div>
         <div class="slider-row">
-          <span class="slider-label">Pain</span>
+          <span class="slider-label">Pain (overall)</span>
           <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="pain_evening" oninput="onSlider(this)"></div>
           <span class="slider-val">0</span>
         </div>
+        <!-- Pain body map (#11) — compact 2-col grid with stacked label/slider.
+             Uses .pain-body-map CSS (own layout), NOT .slider-row (which
+             collapses in narrow grid cells). onSlider() uses
+             parentElement.nextElementSibling for the readout, which here is
+             still the .pbm-val span, so no JS change needed. -->
+        <details style="margin:10px 0 6px 0">
+          <summary style="font-size:12px;color:var(--text2);cursor:pointer;padding:4px 0">📍 Localize pain (optional)</summary>
+          <div class="pain-body-map">
+            <div class="pbm-row"><span class="pbm-label">Coccyx</span><div class="pbm-track"><input type="range" min="0" max="10" value="0" data-field="pain_coccyx" oninput="onSlider(this)"><span class="pbm-val">0</span></div></div>
+            <div class="pbm-row"><span class="pbm-label">Low back</span><div class="pbm-track"><input type="range" min="0" max="10" value="0" data-field="pain_low_back" oninput="onSlider(this)"><span class="pbm-val">0</span></div></div>
+            <div class="pbm-row"><span class="pbm-label">Sciatic L</span><div class="pbm-track"><input type="range" min="0" max="10" value="0" data-field="pain_sciatic_l" oninput="onSlider(this)"><span class="pbm-val">0</span></div></div>
+            <div class="pbm-row"><span class="pbm-label">Sciatic R</span><div class="pbm-track"><input type="range" min="0" max="10" value="0" data-field="pain_sciatic_r" oninput="onSlider(this)"><span class="pbm-val">0</span></div></div>
+            <div class="pbm-row"><span class="pbm-label">Glute</span><div class="pbm-track"><input type="range" min="0" max="10" value="0" data-field="pain_glute" oninput="onSlider(this)"><span class="pbm-val">0</span></div></div>
+            <div class="pbm-row"><span class="pbm-label">Hip</span><div class="pbm-track"><input type="range" min="0" max="10" value="0" data-field="pain_hip" oninput="onSlider(this)"><span class="pbm-val">0</span></div></div>
+            <div class="pbm-row"><span class="pbm-label">Pelvic floor</span><div class="pbm-track"><input type="range" min="0" max="10" value="0" data-field="pain_pelvic_floor" oninput="onSlider(this)"><span class="pbm-val">0</span></div></div>
+            <div class="pbm-row"><span class="pbm-label">Groin</span><div class="pbm-track"><input type="range" min="0" max="10" value="0" data-field="pain_groin" oninput="onSlider(this)"><span class="pbm-val">0</span></div></div>
+            <div class="pbm-row"><span class="pbm-label">Neck/shoulder</span><div class="pbm-track"><input type="range" min="0" max="10" value="0" data-field="pain_neck_shoulder" oninput="onSlider(this)"><span class="pbm-val">0</span></div></div>
+            <div class="pbm-row"><span class="pbm-label">Jaw</span><div class="pbm-track"><input type="range" min="0" max="10" value="0" data-field="pain_jaw" oninput="onSlider(this)"><span class="pbm-val">0</span></div></div>
+            <div class="pbm-row"><span class="pbm-label">Knee</span><div class="pbm-track"><input type="range" min="0" max="10" value="0" data-field="pain_knee" oninput="onSlider(this)"><span class="pbm-val">0</span></div></div>
+          </div>
+        </details>
+
+        <!-- CSI-tracking signals - mobile-friendly tappable number rows. -->
+        <details style="margin:6px 0">
+          <summary style="font-size:12px;color:var(--text2);cursor:pointer;padding:4px 0">🧠 CSI signals (optional, for monthly score calc)</summary>
+          <div class="csi-signals-list">
+            <div class="csi-signal-row" data-csi-q="Q13"><label>Brain fog / focus</label><div class="csi-num-grid" data-target="brain_fog_score" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="brain_fog_score" value="0"></div>
+            <div class="csi-signal-row" data-csi-q="Q14"><label>Skin itch / rash</label><div class="csi-num-grid" data-target="skin_irritation_score" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="skin_irritation_score" value="0"></div>
+            <div class="csi-signal-row" data-csi-q="Q3"><label>Anxiety attack today</label><div class="csi-num-grid" data-target="anxiety_attack_score" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button><button type="button" class="csi-num" data-val="4">4</button><button type="button" class="csi-num" data-val="5">5</button><button type="button" class="csi-num" data-val="6">6</button><button type="button" class="csi-num" data-val="7">7</button><button type="button" class="csi-num" data-val="8">8</button><button type="button" class="csi-num" data-val="9">9</button><button type="button" class="csi-num" data-val="10">10</button></div><input type="hidden" data-field="anxiety_attack_score" value="0"></div>
+          </div>
+          <div style="font-size:11px;color:#999;font-style:italic;margin-top:8px;line-height:1.4">
+            Tap a number 0-10 (0 = none, 10 = max). Skip rows that don't apply, they default to 0. After 30 days every CSI question has a data trail.
+          </div>
+        </details>
         <div class="slider-row">
           <span class="slider-label">Bloating</span>
           <div class="slider-wrap"><input type="range" min="0" max="10" value="0" data-field="bloating_score" oninput="onSlider(this)"></div>
@@ -834,6 +1342,16 @@ input[type=number]{width:70px;text-align:center}
       </div>
 
       <div class="card">
+        <h2>🐻 Movement / exercise</h2>
+        <div class="exercise-row">
+          <input type="text" data-field="parr_exercises" placeholder="e.g. 'Michael 4 / 2x' or 'skipped'" oninput="autoSave()" autocomplete="off">
+        </div>
+        <div class="exercise-hint">
+          DNS exercises (bear, side sit, supine ball, quadruped). Free text - "Michael 4" or any mention = counted as done.
+        </div>
+      </div>
+
+      <div class="card">
         <h2>Amazing things today</h2>
         <textarea data-field="amazing_raw" placeholder="Just say what was great..." style="min-height:80px" oninput="autoSave()"></textarea>
         <div class="parsed-items" id="amazing-parsed"></div>
@@ -874,22 +1392,14 @@ input[type=number]{width:70px;text-align:center}
             <label class="mind-label">Trigger - what happened?</label>
             <textarea data-field="cbt_trigger" placeholder="The meeting went sideways..." style="min-height:50px" oninput="autoSave()"></textarea>
 
-            <label class="mind-label">Thought - what did your brain say?</label>
-            <textarea data-field="cbt_thought" placeholder="I'll fail this..." style="min-height:50px" oninput="autoSave()"></textarea>
 
-            <label class="mind-label">Feeling + intensity</label>
-            <input type="text" data-field="cbt_feeling" placeholder="anxious" oninput="autoSave()" style="width:100%;margin-bottom:8px">
             <div class="slider-row">
               <span class="slider-label">Intensity</span>
               <div class="slider-wrap"><input type="range" min="0" max="10" value="5" data-field="cbt_intensity_before" oninput="onSlider(this)"></div>
               <span class="slider-val">5</span>
             </div>
 
-            <label class="mind-label">Evidence - is it 100% true? counter-evidence?</label>
-            <textarea data-field="cbt_evidence" placeholder="Times this didn't happen..." style="min-height:50px" oninput="autoSave()"></textarea>
 
-            <label class="mind-label">Reframe - balanced version</label>
-            <textarea data-field="cbt_reframe" placeholder="A more accurate way to see it..." style="min-height:50px" oninput="autoSave()"></textarea>
 
             <div class="slider-row">
               <span class="slider-label">New intensity</span>
@@ -902,24 +1412,7 @@ input[type=number]{width:70px;text-align:center}
         <div class="mind-section">
           <div class="mind-section-title">&#128164; Sleep window (CBT-I)</div>
           <div class="mind-sub">Stimulus control. Same bedtime, only sleep in bed.</div>
-          <div class="time-row">
-            <label>Target bedtime</label>
-            <input type="time" data-field="target_bedtime" oninput="autoSave()">
-          </div>
-          <div class="winddown-row">
-            <label class="winddown-item">
-              <input type="checkbox" data-field="wd_screens" oninput="autoSave()">
-              <span>Screens off 30 min before</span>
-            </label>
-            <label class="winddown-item">
-              <input type="checkbox" data-field="wd_breath" oninput="autoSave()">
-              <span>Breathwork or pelvic floor</span>
-            </label>
-            <label class="winddown-item">
-              <input type="checkbox" data-field="wd_lights" oninput="autoSave()">
-              <span>Lights low / red light</span>
-            </label>
-          </div>
+          <div class="csi-signal-row" data-csi-q="WD"><label>Wind-down done (screens off / breath / lights low)</label><div class="csi-num-grid" style="grid-template-columns:repeat(4,1fr)" data-target="winddown_done" onclick="selectCsiNum(event)"><button type="button" class="csi-num" data-val="0">0</button><button type="button" class="csi-num" data-val="1">1</button><button type="button" class="csi-num" data-val="2">2</button><button type="button" class="csi-num" data-val="3">3</button></div><input type="hidden" data-field="winddown_done" value="0"></div>
           <label class="winddown-item" style="margin-top:8px">
             <input type="checkbox" data-field="got_out_of_bed" oninput="autoSave()">
             <span>Got out of bed during night (stimulus control)</span>
@@ -930,18 +1423,24 @@ input[type=number]{width:70px;text-align:center}
       <div class="card">
         <h2>Photos of the day</h2>
         <div class="media-grid" id="media-grid-evening"></div>
-        <input type="file" accept="image/*,video/*" multiple id="media-input-evening" style="display:none" onchange="handleMediaSelect(this,'evening')">
+        <input type="file" accept="image/*,.heic,.heif,video/*" multiple id="media-input-evening" class="visually-hidden-input" onchange="handleMediaSelect(this,'evening')">
         <div class="media-hint">Tap + to add photos or videos (max 4, videos under 30s)</div>
       </div>
 
       <div class="card">
-        <h2>Evening supplements</h2>
+        <h2>Evening supplements <button id="copy-yest-evening" onclick="copyYesterdaySupps('evening')" style="float:right;font-size:11px;padding:4px 10px;background:rgba(107,158,111,.12);color:#5a8c5e;border:1px solid rgba(107,158,111,.3);border-radius:999px;cursor:pointer;font-weight:500;margin-top:2px">⟲ same as yesterday</button></h2>
         <div class="supp-grid" id="evening-supps"></div>
         <div class="add-supp-row">
           <input type="text" id="add-evening-supp" placeholder="Add supplement...">
           <button class="add-supp-btn" onclick="addCustomSupp('evening')">+</button>
         </div>
       </div>
+
+      <!-- Skincare card removed 2026-04-27 — full skin protocol discontinued
+           after dyshidrotic flare onset Apr 25. The retinoid_applied / pm_routine_done /
+           spf_reapplied / skin_irritation fields are kept in the JSON schema for
+           backward compatibility with historical entries; just no longer surfaced
+           in the UI. To re-enable: restore this card after panel sign-off. -->
 
       <div class="card">
         <h2>Wind down</h2>
@@ -954,7 +1453,8 @@ input[type=number]{width:70px;text-align:center}
       </div>
 
       <div class="validation-msg" id="evening-validation"></div>
-      <button class="submit-btn evening" id="evening-save-btn" onclick="saveEvening()">Save Evening Check-in</button>
+      <div style="font-size:11px;color:var(--text2);text-align:center;margin-top:14px;margin-bottom:4px">Your words auto-save as you type. Tap below when the evening entry is complete.</div>
+      <button class="submit-btn evening" id="evening-save-btn" onclick="saveEvening()">Finalize Evening</button>
       <button class="delete-entry-btn" onclick="deleteEntry('evening')">Delete Evening Entry</button>
       <div class="status" id="evening-status"></div>
     </div>
@@ -1020,6 +1520,7 @@ input[type=number]{width:70px;text-align:center}
     </div>
     <div class="dose-units" id="doseUnits">
       <div class="dose-unit-btn active" onclick="pickDoseUnit(this)">mg</div>
+      <div class="dose-unit-btn" onclick="pickDoseUnit(this)">drops</div>
       <div class="dose-unit-btn" onclick="pickDoseUnit(this)">ml</div>
       <div class="dose-unit-btn" onclick="pickDoseUnit(this)">g</div>
       <div class="dose-unit-btn" onclick="pickDoseUnit(this)">mcg</div>
@@ -1033,6 +1534,44 @@ input[type=number]{width:70px;text-align:center}
 
 <!-- Save toast -->
 <div class="toast" id="saveToast"></div>
+
+<!-- System status panel — opens when sysPill is clicked. Shows every service,
+     launchd agent, data freshness, and audit holes. Each red row has a
+     Restart button hitting /api/restart-service?name=X. -->
+<div class="sys-overlay" id="sysOverlay" onclick="if(event.target===this)closeSystemStatus()">
+  <div class="sys-panel">
+    <h3>⚙️ System status</h3>
+    <div id="sysContent"><em>Loading...</em></div>
+    <div class="sys-actions">
+      <button onclick="loadSystemStatus(true)">↻ Refresh</button>
+      <button class="primary" onclick="closeSystemStatus()">Close</button>
+    </div>
+  </div>
+</div>
+
+<!-- Conflict modal: shows when local + remote both have rich data but disagree.
+     User picks which version to keep, or cancels and merges manually. -->
+<div class="conflict-overlay" id="conflictOverlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.6);z-index:1000;align-items:center;justify-content:center;padding:20px">
+  <div style="background:var(--card);border-radius:16px;padding:22px;max-width:520px;width:100%;max-height:85vh;overflow-y:auto">
+    <h3 style="margin:0 0 8px 0;color:#c14a42">⚠ Sync conflict</h3>
+    <div id="conflictMeta" style="font-size:13px;color:var(--text2);margin-bottom:14px">Two versions of this day differ. Pick one:</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:16px">
+      <div style="border:1px solid #ddd;border-radius:10px;padding:12px">
+        <div style="font-weight:600;margin-bottom:6px">This device</div>
+        <div id="conflictLocal" style="font-size:12px;color:var(--text2);white-space:pre-wrap;max-height:200px;overflow-y:auto"></div>
+        <button onclick="resolveConflict('local')" style="width:100%;margin-top:10px;padding:8px;background:var(--green);color:#fff;border:none;border-radius:8px;cursor:pointer">Keep this</button>
+      </div>
+      <div style="border:1px solid #ddd;border-radius:10px;padding:12px">
+        <div style="font-weight:600;margin-bottom:6px">Cloud version</div>
+        <div id="conflictRemote" style="font-size:12px;color:var(--text2);white-space:pre-wrap;max-height:200px;overflow-y:auto"></div>
+        <button onclick="resolveConflict('remote')" style="width:100%;margin-top:10px;padding:8px;background:var(--blue);color:#fff;border:none;border-radius:8px;cursor:pointer">Take cloud</button>
+      </div>
+    </div>
+    <div style="display:flex;gap:8px;justify-content:flex-end">
+      <button onclick="resolveConflict('cancel')" style="padding:8px 14px;background:transparent;color:var(--text2);border:1px solid #ccc;border-radius:8px;cursor:pointer">Decide later</button>
+    </div>
+  </div>
+</div>
 
 <!-- Calendar -->
 <div class="calendar-overlay" id="calendarOverlay" onclick="if(event.target===this)closeCalendar()">
@@ -1065,6 +1604,10 @@ input[type=number]{width:70px;text-align:center}
     <input type="text" id="ghPath" value="data/checkins" oninput="saveSettings()">
     <button class="modal-close" onclick="saveSettings();testSync()">Test Sync</button>
     <button class="modal-close" onclick="exportAll()">Export All Data (JSON)</button>
+    <button class="modal-close" onclick="requestNudgePermission()">🔔 Enable evening nudges</button>
+    <button class="modal-close" onclick="window.open('/reports/','_blank')">📊 Open Reports Dashboard</button>
+    <button class="modal-close" onclick="window.open('/history.html','_blank')">📝 History browser</button>
+    <button class="modal-close" onclick="downloadPractitionerPDF()">🏥 Export practitioner PDF</button>
     <div style="margin-top:16px;padding-top:12px;border-top:1px solid var(--card2)">
       <div style="font-size:12px;color:var(--text2)">
         Version <span id="appVersion" style="color:var(--gold)"></span> (build <span id="appBuild"></span>)
@@ -1078,28 +1621,79 @@ input[type=number]{width:70px;text-align:center}
 
 <script>
 // ==================== VERSION ====================
-const APP_VERSION = '2.2.0';
-const APP_BUILD = '2026-04-05';
+const APP_VERSION = '2.2.1';
+const APP_BUILD = '2026-04-27';
 
 // ==================== CONFIG ====================
+// Built-in supplement list. Removed 2026-04-29 to avoid them ever being
+// surfaced (even hidden behind "Show more"):
+//   - Quercetin: ADVERSE list, never recommend
+//   - Amitriptyline: stopped 2026-04-13, patient explicitly declines restart
+//   - Mag Glycinate: never logged in 2026 diary
+//   - Glycine 3g: discontinued 2026-04-07
+// To reintroduce any of these: user adds via "Add supplement..." input → it
+// becomes a custom supp and stays visible. The defaults below are only the
+// items realistically in rotation.
+// Names MUST match what Marko actually logs (matching is by exact name), else his
+// real supplements never show as active. Fixed 2026-06-12 (the "Vitamin C (1)" vs
+// "Vitamin C + MG + CA" mismatch). Built-in items are his daily core and stay
+// visible always (see renderSupps); the 2-day narrowing only collapses unused customs.
 const MORNING_SUPPS = [
-  {id:'telfast', name:'Telfast'},
-  {id:'vitc_1', name:'Vitamin C (1)'},
+  {id:'telfast', name:'Telfast from Boots'},
+  {id:'vitc_1', name:'Vitamin C + MG + CA'},
   {id:'enterosgel_am', name:'Enterosgel'},
-  {id:'quercetin', name:'Quercetin'},
+  {id:'coq10_am', name:'COQ10 ubiquinol 100 mg'},
+  {id:'liposomal_c_am', name:'Liposomal C', defaultDose:'4', defaultUnit:'drops'},
 ];
 const EVENING_SUPPS = [
-  {id:'vitc_2', name:'Vitamin C (2)'},
+  {id:'daosin_pm', name:'Daosin'},
+  {id:'l_theanine_pm', name:'L-theanine', defaultDose:'150', defaultUnit:'mg'},
   {id:'enterosgel_pm', name:'Enterosgel'},
-  {id:'mag_glycinate', name:'Mag Glycinate'},
-  {id:'amitriptyline', name:'Amitriptyline'},
-  {id:'glycine', name:'Glycine 3g'},
+  {id:'mag_taurate_pm', name:'Mg Taurate', defaultDose:'100', defaultUnit:'mg'},
+  {id:'vitc_2', name:'Vitamin C + MG + CA'},
+  {id:'liposomal_c_pm', name:'Liposomal C', defaultDose:'4', defaultUnit:'drops'},
   {id:'ruporut', name:'Ruporut'},
 ];
 
 let currentDate = new Date();
 let saveTimer = null;
 let currentView = localStorage.getItem('health-active-view') || 'dashboard';
+
+// ── PWA CLEANUP v87: leaked evening data from prior days ─────
+// PWA bug 2026-05-09: filling evening near midnight UTC sometimes writes
+// to the NEXT day's localStorage key too. This snippet runs on every load
+// (idempotent, fast). For each daily checkin-YYYY-MM-DD key, if its
+// evening_saved_at date is BEFORE the key's date, those evening fields
+// are leaked from a prior day - clears them.
+(() => {
+  console.log('[PWA cleanup v87] active');
+  try {
+    const leakedFields = ['evening_notes','evening_saved','evening_saved_at',
+      'evening_supplements','mood_evening','energy_evening','pain_evening',
+      'location_evening','amazing_raw','could_be_better','done_today',
+      'ideas_raw','parr_exercises','worry_dump','other_movement'];
+    let cleaned = 0;
+    for (let i = 0; i < localStorage.length; i++) {
+      const key = localStorage.key(i);
+      const m = key && key.match(/^checkin-(\d{4}-\d{2}-\d{2})$/);
+      if (!m) continue;
+      const keyDate = m[1];
+      const data = JSON.parse(localStorage.getItem(key) || 'null');
+      if (!data || !data.evening_saved_at) continue;
+      // Compare evening_saved_at date (YYYY-MM-DD) to key date
+      const savedAtDate = data.evening_saved_at.slice(0, 10);
+      // Saved BEFORE the key's own date = leaked from prior day
+      if (savedAtDate < keyDate) {
+        leakedFields.forEach(k => delete data[k]);
+        data.evening_saved = false;
+        localStorage.setItem(key, JSON.stringify(data));
+        cleaned++;
+        console.log(`[PWA cleanup v87] Cleared leaked evening from ${key} (was saved ${savedAtDate})`);
+      }
+    }
+    if (cleaned > 0) console.log(`[PWA cleanup v87] Cleaned ${cleaned} contaminated date(s)`);
+  } catch (e) { console.warn('[PWA cleanup v87] failed:', e); }
+})();
 
 // Field touch tracking for validation
 const touchedFields = new Set();
@@ -1152,7 +1746,21 @@ function changeDate(delta) {
 function getKey() { return 'checkin-' + fmt(currentDate); }
 
 function getData() {
-  try { return JSON.parse(localStorage.getItem(getKey())) || {}; } catch { return {}; }
+  try {
+    const d = JSON.parse(localStorage.getItem(getKey())) || {};
+    // Carry-over guard: a morning whose save-timestamp belongs to a DIFFERENT
+    // calendar day than this entry was duplicated by mistake. Strip it so it
+    // never shows or re-syncs. (Fixes the duplicated-morning bug.)
+    if (d.morning_saved && d.morning_saved_at && d.date &&
+        fmt(new Date(d.morning_saved_at)) !== d.date) {
+      ['sleep_quality_subjective','mood_score','energy_morning','pain_score','anxiety_score',
+       'stress_score','headache_score','sleep_notes','first_worry','gratitude_raw',
+       'make_today_great','affirmation','morning_supplements'].forEach(f => delete d[f]);
+      delete d.morning_saved;
+      delete d.morning_saved_at;
+    }
+    return d;
+  } catch { return {}; }
 }
 
 function setData(d) {
@@ -1167,45 +1775,235 @@ function updateDot(state) {
   dot.className = 'saved-dot ' + state;
 }
 
+// ==================== SAVED-AGO CHIP ====================
+// Shows "saved 12s ago" / "synced 3m ago" / "⚠ unsaved 8m" at the top of the
+// app, always visible, updates every 10s. If the time since last save gets
+// long while fields are dirty, the chip turns bright red so Marko sees the
+// problem without having to click Save and check for a toast.
+function _humanAgo(iso) {
+  if (!iso) return null;
+  const ms = Date.now() - new Date(iso).getTime();
+  if (ms < 0 || isNaN(ms)) return null;
+  const s = Math.floor(ms / 1000);
+  if (s < 5) return 'just now';
+  if (s < 60) return `${s}s ago`;
+  const m = Math.floor(s / 60);
+  if (m < 60) return `${m}m ago`;
+  const h = Math.floor(m / 60);
+  if (h < 24) return `${h}h ago`;
+  const d = Math.floor(h / 24);
+  return `${d}d ago`;
+}
+
+function updateSavedChip() {
+  const chip = document.getElementById('savedChip');
+  const text = document.getElementById('savedChipText');
+  if (!chip || !text) return;
+  const data = getData();
+  const updatedAt = data.updated_at;
+  const syncedAt = data.synced_at;
+  // Priority: synced > saved-but-not-synced > no data yet
+  if (!updatedAt) {
+    chip.className = 'saved-chip state-unsaved';
+    text.textContent = 'not started';
+    return;
+  }
+  const sinceUpdate = Date.now() - new Date(updatedAt).getTime();
+  if (data.synced && syncedAt) {
+    chip.className = 'saved-chip state-synced';
+    text.textContent = `synced ${_humanAgo(syncedAt)}`;
+  } else if (sinceUpdate < 60 * 1000) {
+    // Within last minute and not-yet-synced: saving in progress
+    chip.className = 'saved-chip state-saving';
+    text.textContent = `saving · ${_humanAgo(updatedAt)}`;
+  } else if (sinceUpdate < 10 * 60 * 1000) {
+    chip.className = 'saved-chip state-saved';
+    text.textContent = `saved ${_humanAgo(updatedAt)}`;
+  } else {
+    // Over 10 minutes with no sync — something's wrong, shout
+    chip.className = 'saved-chip state-stale';
+    text.textContent = `⚠ not synced ${_humanAgo(updatedAt)}`;
+  }
+}
+// Keep the chip live: update every 10 seconds
+setInterval(updateSavedChip, 10_000);
+// Also update immediately on any setData
+(() => {
+  const origSetData = window.setData;
+  if (origSetData) {
+    window.setData = function(d) {
+      const r = origSetData.apply(this, arguments);
+      try { updateSavedChip(); } catch {}
+      return r;
+    };
+  }
+})();
+// First render after DOM is ready
+setTimeout(updateSavedChip, 300);
+
 // ==================== SLIDERS & AUTOSAVE ====================
 function onSlider(el) {
-  el.parentElement.nextElementSibling.textContent = el.value;
+  // Most sliders: <wrap><input></wrap><span class="slider-val">   → parentElement.nextElementSibling
+  // Body-map compact: <track><input><span class="pbm-val"></track> → el.nextElementSibling
+  // Fall back between the two so both layouts work without special-casing.
+  const readout = (el.parentElement && el.parentElement.nextElementSibling) || el.nextElementSibling;
+  if (readout) readout.textContent = el.value;
   touchedFields.add(el.dataset.field);
   autoSave();
 }
 
+// ==================== SKINCARE SCHEDULE ====================
+// Retinoid introduction plan from the Apple Notes "Skincare Protocol":
+//   Week 1-2: Mon + Thu (2×/week)
+//   Week 3-4: Mon, Wed, Fri (3×/week)
+//   Week 5-8: every other night
+//   Week 9+: nightly if tolerates
+// Start: 2026-04-20 (first retinoid night, anchored on a Monday)
+const RETINOID_START = '2026-04-20';
+
+function isRetinoidNight(dateStr) {
+  const start = new Date(RETINOID_START + 'T00:00:00');
+  const d = new Date(dateStr + 'T00:00:00');
+  const daysSinceStart = Math.floor((d - start) / 86400000);
+  if (daysSinceStart < 0) return { phase: 'prestart', retinoid: false, weekLabel: null };
+
+  const weekNum = Math.floor(daysSinceStart / 7) + 1; // 1-based week
+  const dow = d.getDay(); // 0=Sun, 1=Mon, ..., 6=Sat
+
+  let retinoid = false, phase = '';
+  if (weekNum <= 2) {
+    phase = 'Week 1-2 (Mon + Thu)';
+    retinoid = (dow === 1 || dow === 4);
+  } else if (weekNum <= 4) {
+    phase = 'Week 3-4 (Mon, Wed, Fri)';
+    retinoid = (dow === 1 || dow === 3 || dow === 5);
+  } else if (weekNum <= 8) {
+    phase = 'Week 5-8 (every other night)';
+    retinoid = (daysSinceStart % 2 === 0);
+  } else {
+    phase = 'Week 9+ (nightly)';
+    retinoid = true;
+  }
+  return { phase, retinoid, weekLabel: `Week ${weekNum}` };
+}
+
+function updateSkincareHint() {
+  const hint = document.getElementById('skincare-hint');
+  if (!hint) return;
+  const info = isRetinoidNight(fmt(currentDate));
+  hint.className = 'skincare-hint';
+  if (info.phase === 'prestart') {
+    hint.classList.add('prestart');
+    hint.innerHTML = `🌿 Retinoid protocol starts ${RETINOID_START}. Tonight: just hyaluronic + moisturizer.`;
+  } else if (info.retinoid) {
+    hint.classList.add('retinoid');
+    hint.innerHTML = `🧪 <b>Retinoid night</b> · ${info.weekLabel} · ${info.phase}`;
+  } else {
+    hint.classList.add('rest');
+    hint.innerHTML = `💧 <b>Rest night</b> (hyaluronic + moisturizer) · ${info.weekLabel} · ${info.phase}`;
+  }
+  // Retinoid-specific fields only on retinoid nights.
+  // Irritation slider stays visible the day AFTER too — that's when retinoid
+  // irritation typically shows up (next morning redness/stinging/peeling).
+  const d = new Date(fmt(currentDate) + 'T00:00:00');
+  d.setDate(d.getDate() - 1);
+  const yesterdayWasRetinoid = isRetinoidNight(fmt(d)).retinoid;
+  const showRetinoidFields = info.retinoid;
+  const showIrritation = info.retinoid || yesterdayWasRetinoid;
+  const retinoidRow = document.getElementById('skincare-retinoid-row');
+  const spfRow = document.getElementById('skincare-spf-row');
+  const irritRow = document.getElementById('skincare-irritation-row');
+  if (retinoidRow) retinoidRow.style.display = showRetinoidFields ? '' : 'none';
+  if (spfRow) spfRow.style.display = showRetinoidFields ? '' : 'none';
+  if (irritRow) irritRow.style.display = showIrritation ? '' : 'none';
+}
+
 let _loadingFields = false; // guard to prevent autoSave during loadFields
+// Synchronously capture ALL fields in a given section (or the active one)
+// and write to localStorage. Used by both autoSave (debounced) and saveMorning/
+// saveEvening (blocking on Save click). The blocking path avoids the race
+// where Save ran before the 300ms debounce had written DOM → localStorage,
+// which was losing evening fields on "Save Evening" clicks.
+function captureFieldsToStorage(sectionName, { force = false } = {}) {
+  // The _loadingFields guard is there so autoSave doesn't write during field
+  // population. Explicit save calls pass force=true to bypass it. We also found
+  // _loadingFields could stay `true` unexpectedly, which was silently dropping saves.
+  if (_loadingFields && !force) return;
+  // Determine section: explicit override, otherwise currently-active tab.
+  let sectionEl;
+  if (sectionName === 'morning') sectionEl = document.getElementById('sec-morning');
+  else if (sectionName === 'evening') sectionEl = document.getElementById('sec-evening');
+  else sectionEl = document.querySelector('.section.active');
+  if (!sectionEl) return;
+  const section = sectionEl.id === 'sec-morning' ? 'morning' : 'evening';
+
+  const data = getData();
+  sectionEl.querySelectorAll('[data-field]').forEach(el => {
+    const f = el.dataset.field;
+    // BUG FIX (v84 2026-05-08): never overwrite a stored value with the HTML
+    // default of an untouched slider/number. Sequence that broke: Mac opens
+    // PWA after Phone already saved morning data → DOM renders HTML defaults
+    // (e.g. value="5" for sleep/mood/energy) → user types in another field →
+    // autoSave fires before syncPull completes → 5/5/5 gets pushed back to
+    // cloud, overwriting the real Phone-saved values. Guard: if field is a
+    // range/number AT its HTML default AND was not touched in this session
+    // AND localStorage already has a non-default value for it, KEEP the
+    // stored value rather than overwrite with the stale DOM default.
+    const isRangeOrNumber = (el.type === 'range' || el.type === 'number');
+    if (isRangeOrNumber) {
+      const domVal = el.value;
+      const htmlDefault = el.getAttribute('value'); // original HTML default (not .defaultValue which can drift)
+      const wasTouched = touchedFields.has(f);
+      const storedVal = data[f];
+      const storedHasValue = storedVal !== undefined && storedVal !== null && storedVal !== '';
+      // If untouched AND DOM is at HTML default AND we have a stored value, don't overwrite
+      if (!wasTouched && htmlDefault !== null && String(domVal) === String(htmlDefault) && storedHasValue) {
+        return; // skip - preserve stored value
+      }
+      data[f] = domVal !== '' ? Number(domVal) : null;
+    } else if (el.type === 'checkbox') {
+      data[f] = el.checked;
+    } else {
+      data[f] = el.value || null;
+    }
+  });
+  // Supplements
+  const supps = [];
+  document.querySelectorAll(`#${section}-supps .supp-item.checked`).forEach(el => {
+    const dose = el.dataset.dose || '';
+    const unit = el.dataset.unit || '';
+    supps.push({name: el.dataset.name, time: new Date().toTimeString().slice(0,5), dose, unit});
+  });
+  data[section + '_supplements'] = supps;
+  setData(data);
+}
+
 function autoSave() {
   if (_loadingFields) return;
+  // STICKY: capture to localStorage synchronously on every input so a refresh
+  // (or browser crash, or tab close) never loses a value the user typed.
+  // Only the parsed-preview redraws are debounced (they're expensive-ish).
+  captureFieldsToStorage();
   clearTimeout(saveTimer);
   saveTimer = setTimeout(() => {
-    const data = getData();
-    document.querySelectorAll('.section.active [data-field]').forEach(el => {
-      const f = el.dataset.field;
-      if (el.type === 'range' || el.type === 'number') {
-        data[f] = el.value ? Number(el.value) : null;
-      } else if (el.type === 'checkbox') {
-        data[f] = el.checked;
-      } else {
-        data[f] = el.value || null;
-      }
-    });
-    // Save supplements
-    const section = document.querySelector('.section.active').id === 'sec-morning' ? 'morning' : 'evening';
-    const supps = [];
-    document.querySelectorAll(`#${section}-supps .supp-item.checked`).forEach(el => {
-      const dose = el.dataset.dose || '';
-      const unit = el.dataset.unit || '';
-      supps.push({name: el.dataset.name, time: new Date().toTimeString().slice(0,5), dose, unit});
-    });
-    data[section + '_supplements'] = supps;
-    setData(data);
-    // Update parsed previews
     showParsed('gratitude_raw', 'gratitude-parsed');
     showParsed('amazing_raw', 'amazing-parsed');
     showParsed('ideas_raw', 'ideas-parsed');
   }, 300);
 }
+
+// Sticky safety nets: flush to localStorage the moment the page is about to
+// be hidden, unloaded, or put in the background. Belt-and-braces, because
+// autoSave now captures on every input — but if any input event was missed
+// (e.g. programmatic value change, autofill), this guarantees capture.
+function flushFields() {
+  try { captureFieldsToStorage(undefined, {force: true}); } catch (_) {}
+}
+window.addEventListener('pagehide', flushFields);
+window.addEventListener('beforeunload', flushFields);
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'hidden') flushFields();
+});
 
 // Track touches on text fields too
 document.addEventListener('input', function(e) {
@@ -1262,6 +2060,163 @@ document.addEventListener('input', function(e) {
 // Auto-grow on page load (after data is restored)
 function autoGrowAll() {
   document.querySelectorAll('textarea').forEach(autoGrow);
+}
+
+// ==================== CSI NUMBER GRID (mobile-friendly tap-to-select) ====================
+function selectCsiNum(event) {
+  const btn = event.target.closest('.csi-num');
+  if (!btn) return;
+  const grid = btn.closest('.csi-num-grid');
+  if (!grid) return;
+  const target = grid.dataset.target;
+  const val = btn.dataset.val;
+  // Toggle: tapping the already-selected number resets to 0
+  const isCurrentlySelected = btn.classList.contains('selected') && val !== '0';
+  // Clear all selected in this grid
+  grid.querySelectorAll('.csi-num').forEach(b => b.classList.remove('selected'));
+  let finalVal;
+  if (isCurrentlySelected) {
+    // Reset to 0
+    finalVal = '0';
+    grid.querySelector('.csi-num[data-val="0"]')?.classList.add('selected', 'zero-default');
+  } else {
+    finalVal = val;
+    btn.classList.add('selected');
+    if (val === '0') btn.classList.add('zero-default');
+  }
+  // Update hidden input
+  // Try .csi-signal-row first (original CSI panel design),
+  // then fall back to parent div (Vita sleep diary + other cards that
+  // don't use .csi-signal-row wrapping). Fix added 2026-05-11 - Vita
+  // diary fields vita_sleep_quality_5pt, vita_refreshed_5pt,
+  // vita_woke_earlier_than_planned were silently not saving because
+  // they don't sit inside a .csi-signal-row.
+  let row = grid.closest('.csi-signal-row') || grid.parentElement;
+  let input = row?.querySelector(`input[type="hidden"][data-field="${target}"]`);
+  // Final fallback: search whole document
+  if (!input) {
+    input = document.querySelector(`input[type="hidden"][data-field="${target}"]`);
+  }
+  if (input) {
+    input.value = finalVal;
+    // v89: belt-and-braces direct localStorage write so the value is saved even if
+    // autoSave's captureFieldsToStorage misses it (wrong active section, _loadingFields
+    // race, etc).
+    // v90 fix: use the app's own getKey() (currentDate) so navigating to a past date
+    // and clicking a button writes to THAT day's record, not today's. Pre-v90 the
+    // direct write used new Date(), which silently wrote to today instead.
+    try {
+      const key = (typeof getKey === 'function') ? getKey() : `checkin-${new Date().toISOString().slice(0, 10)}`;
+      const stored = JSON.parse(localStorage.getItem(key) || '{}');
+      stored[target] = finalVal;
+      localStorage.setItem(key, JSON.stringify(stored));
+    } catch (e) {
+      console.warn('[selectCsiNum] direct save failed', e);
+    }
+    autoSave();
+  } else {
+    console.warn(`[selectCsiNum] No hidden input found for data-field="${target}"`);
+  }
+}
+
+function refreshCsiNumStates() {
+  // Called after loadFields() to sync visual button state with input values
+  // Fix 2026-05-11: iterate ALL .csi-num-grid (not just those inside .csi-signal-row)
+  // so Vita sleep diary buttons + other non-CSI grids show the correct
+  // selected state on load. Original code missed all of these.
+  document.querySelectorAll('.csi-num-grid').forEach(grid => {
+    const target = grid.dataset.target;
+    if (!target) return;
+    // Find the associated hidden input - try sibling first, then document-wide
+    let input = grid.parentElement?.querySelector(`input[type="hidden"][data-field="${target}"]`);
+    if (!input) input = document.querySelector(`input[type="hidden"][data-field="${target}"]`);
+    if (!input) return;
+    const val = String(input.value || 0);
+    grid.querySelectorAll('.csi-num').forEach(b => b.classList.remove('selected', 'zero-default'));
+    const btn = grid.querySelector(`.csi-num[data-val="${val}"]`);
+    if (btn) {
+      btn.classList.add('selected');
+      if (val === '0') btn.classList.add('zero-default');
+    }
+  });
+}
+
+// ==================== LOCATION DETECTION ====================
+async function detectLocation(section = 'morning') {
+  // section is 'morning' (uses data-field="location") or 'evening' (uses data-field="location_evening")
+  const fieldName = section === 'evening' ? 'location_evening' : 'location';
+  const hintId = section === 'evening' ? 'location-hint-evening' : 'location-hint';
+  const input = document.querySelector(`[data-field="${fieldName}"]`);
+  const hint = document.getElementById(hintId);
+  // Find the button in the same row as this input
+  const btn = input?.parentElement?.querySelector('.loc-btn');
+  if (!input || !hint) return;
+  if (!navigator.geolocation) {
+    hint.textContent = 'Geolocation not available on this device.';
+    hint.className = 'location-hint error';
+    return;
+  }
+  // Brave-specific: detect if running in a non-secure context (HTTP from LAN)
+  // navigator.geolocation requires secure context EXCEPT for localhost. LAN IPs
+  // are NOT secure context, which silently breaks geolocation in Brave/Chrome.
+  if (!window.isSecureContext && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+    hint.innerHTML = `⚠ Geolocation needs HTTPS or localhost. You're on <code>${location.hostname}</code> (insecure context). <br>Type the location manually, or visit via <code>localhost:8787</code> on the same Mac.`;
+    hint.className = 'location-hint error';
+    return;
+  }
+  btn?.classList.add('detecting');
+  hint.textContent = 'Detecting location...';
+  hint.className = 'location-hint';
+  try {
+    const pos = await new Promise((resolve, reject) => {
+      navigator.geolocation.getCurrentPosition(resolve, reject, {
+        enableHighAccuracy: false, timeout: 10000, maximumAge: 60000
+      });
+    });
+    const { latitude, longitude, accuracy } = pos.coords;
+    // Brave aggressive fingerprint protection returns coordinates with very low
+    // accuracy (often >100km). Warn if so.
+    const isFuzzed = accuracy && accuracy > 50000;  // >50km = clearly fingerprint-protected
+    // OpenStreetMap Nominatim - free, no auth, ~1 req/sec rate limit
+    const url = `https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}&zoom=12&addressdetails=1`;
+    const res = await fetch(url, { headers: { 'Accept': 'application/json' } });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const data = await res.json();
+    const a = data.address || {};
+    const country = a.country || '';
+    const city = a.city || a.town || a.village || a.municipality || a.county || a.suburb || '';
+    const formatted = [country, city].filter(Boolean).join(', ');
+    if (formatted) {
+      const existing = input.value.trim();
+      const dashIdx = existing.indexOf(' - ');
+      const tail = dashIdx > -1 ? existing.slice(dashIdx) : '';
+      input.value = formatted + tail;
+      const accNote = isFuzzed
+        ? `⚠ Detected (Brave fingerprint protection: ±${Math.round(accuracy/1000)}km, may be wrong city). `
+        : `✓ Detected (±${Math.round((accuracy||0))}m). `;
+      hint.textContent = accNote + 'Add hotel/note after " - " if you want.';
+      hint.className = isFuzzed ? 'location-hint error' : 'location-hint success';
+      autoSave();
+    } else {
+      hint.textContent = 'Could not resolve city/country. Type it manually.';
+      hint.className = 'location-hint error';
+    }
+  } catch (e) {
+    let msg = 'Failed';
+    if (e.code === 1) {
+      msg = 'Permission denied. In Brave: Shields icon → Site settings → Location → Allow. Then refresh.';
+    } else if (e.code === 2) {
+      msg = 'Position unavailable. macOS may be blocking it - System Settings → Privacy → Location Services → enable Brave.';
+    } else if (e.code === 3) {
+      msg = 'Timeout. Try again or type manually.';
+    } else {
+      msg = 'Failed: ' + (e.message || e.toString());
+    }
+    hint.textContent = msg;
+    hint.className = 'location-hint error';
+  } finally {
+    btn?.classList.remove('detecting');
+  }
 }
 
 // ==================== TEXT PARSING ====================
@@ -1349,6 +2304,27 @@ function deleteMediaBlob(key) {
     tx.oncomplete = () => resolve();
     tx.onerror = () => reject(new Error('Could not delete media'));
   });
+}
+
+// Detect HEIC by extension or MIME (browser often sends "" for HEIC)
+function isHeic(file) {
+  const n = (file.name || '').toLowerCase();
+  return n.endsWith('.heic') || n.endsWith('.heif') ||
+         file.type === 'image/heic' || file.type === 'image/heif';
+}
+
+// Convert HEIC → JPEG via the monitor server's /api/convert-heic endpoint
+// (uses macOS sips, which handles HEIC natively). Chrome/Brave can't decode
+// HEIC in <img>, so this round trip is required before canvas processing.
+async function convertHeicToJpeg(file) {
+  const monitorHost = MONITOR_HOSTS[0];  // use same host the PWA is served from
+  const res = await fetch(monitorHost + '/api/convert-heic', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/octet-stream' },
+    body: file,
+  });
+  if (!res.ok) throw new Error('HEIC conversion failed: HTTP ' + res.status);
+  return await res.blob();  // a JPEG blob, ready for compressPhoto
 }
 
 // Compress photo using canvas
@@ -1499,11 +2475,23 @@ async function handleMediaSelect(input, section) {
         }
       }
 
+      // iPhone photos are HEIC by default and Chrome/Brave can't decode them.
+      // Convert via server (macOS sips) before handing to canvas.
+      let processedFile = file;
+      if (!isVideo && isHeic(file)) {
+        try {
+          processedFile = await convertHeicToJpeg(file);
+        } catch (e) {
+          showToast('HEIC convert failed: ' + e.message + '. Is the monitor server running?', false, 'warn');
+          continue;
+        }
+      }
+
       const id = (isVideo ? 'v' : 'p') + Date.now() + Math.random().toString(36).slice(2,5);
       const idbKey = 'media-' + fmt(currentDate) + '-' + id;
 
       // Compress photo or use video blob directly
-      const blob = isVideo ? file : await compressPhoto(file);
+      const blob = isVideo ? processedFile : await compressPhoto(processedFile);
       const thumbnail = await generateThumbnail(isVideo ? file : blob, type);
 
       await saveMediaBlob(idbKey, blob);
@@ -1544,10 +2532,20 @@ function renderMediaGrid(section) {
         <button class="delete-btn" onclick="event.stopPropagation();removeMedia('${m.id}')">&times;</button>
       </div>`;
     } else if (i === media.length) {
-      // First empty slot = add button
-      html += `<div class="media-slot" onclick="document.getElementById('media-input-${section}').click()">
+      // First empty slot = add button.
+      //
+      // BUG (2026-04-30): Brave/Chromium tightened policy on synthetic clicks
+      // to `display:none` <input type="file">. Old pattern (div onclick
+      // → input.click()) worked for 25 days but stopped after Brave update.
+      // Console showed all logs firing but picker never opened — silent block.
+      //
+      // FIX: <label for="..."> linked to the static input element which uses
+      // the WAI-ARIA visually-hidden CSS class (NOT display:none). The
+      // browser forwards the label click to the linked input as a REAL user
+      // gesture, picker opens reliably across iOS Safari, Brave, Chromium.
+      html += `<label class="media-slot" for="media-input-${section}" style="cursor:pointer">
         <span class="add-icon">+</span>
-      </div>`;
+      </label>`;
     } else {
       html += `<div class="media-slot"></div>`;
     }
@@ -1601,6 +2599,47 @@ initMediaDB().catch(e => console.error('MediaDB init error:', e));
 // ==================== SUPPLEMENTS ====================
 let _doseTarget = null; // the supp-item element being edited
 
+// Returns Set of supplement names ticked in the last `days` calendar days
+// for a given section ('morning' | 'evening'). Used to filter the rendered
+// supplement list down to "active" items so the UI doesn't show 7+ supps that
+// Marko hasn't touched in weeks (Quercetin, Mag Glycinate, Amitriptyline,
+// Glycine, Ruporut, etc — all currently dormant).
+function getRecentlyUsedSuppNames(section, days = 2) {
+  const recent = new Set();
+  const today = new Date();
+  for (let i = 0; i <= days; i++) {
+    const d = new Date(today);
+    d.setDate(today.getDate() - i);
+    try {
+      const entry = JSON.parse(localStorage.getItem('checkin-' + fmt(d)) || '{}');
+      (entry[section + '_supplements'] || []).forEach(s => {
+        if (s && s.name) recent.add(s.name);
+      });
+    } catch (_) { /* skip malformed */ }
+  }
+  return recent;
+}
+
+// Build the HTML for a single supp-item. Used in both the "active" list
+// and the "show more" expansion below it.
+function _renderSuppItem(s, savedMap) {
+  const sv = savedMap[s.name];
+  const checked = sv ? 'checked' : '';
+  const dose = sv && sv.dose ? sv.dose : '';
+  const unit = sv && sv.unit ? sv.unit : '';
+  const doseLabel = dose ? `${dose} ${unit}` : '';
+  // Per-supplement defaults (e.g. Liposomal C → "4 drops") so the dose
+  // popup pre-fills sensible values on first long-press for that item.
+  // These are NOT written to the saved supplement entry until user confirms.
+  const defaultDose = s.defaultDose || '';
+  const defaultUnit = s.defaultUnit || '';
+  return `<div class="supp-item ${checked}" data-id="${s.id}" data-name="${s.name}" data-dose="${dose}" data-unit="${unit}" data-default-dose="${defaultDose}" data-default-unit="${defaultUnit}">
+    <div class="supp-check">${checked ? '&#10003;' : ''}</div>
+    <span class="supp-name">${s.name}</span>
+    ${doseLabel ? `<span class="supp-dose-label">${doseLabel}</span>` : ''}
+  </div>`;
+}
+
 function renderSupps(containerId, list) {
   const data = getData();
   const section = containerId.split('-')[0];
@@ -1609,22 +2648,62 @@ function renderSupps(containerId, list) {
   saved.forEach(s => { savedMap[s.name] = s; });
   const customs = getCustomSupps().filter(c => c.section === section);
   const allSupps = [...list, ...customs];
-  const c = document.getElementById(containerId);
-  c.innerHTML = allSupps.map(s => {
-    const sv = savedMap[s.name];
-    const checked = sv ? 'checked' : '';
-    const dose = sv && sv.dose ? sv.dose : '';
-    const unit = sv && sv.unit ? sv.unit : '';
-    const doseLabel = dose ? `${dose} ${unit}` : '';
-    return `<div class="supp-item ${checked}" data-id="${s.id}" data-name="${s.name}" data-dose="${dose}" data-unit="${unit}">
-      <div class="supp-check">${checked ? '&#10003;' : ''}</div>
-      <span class="supp-name">${s.name}</span>
-      ${doseLabel ? `<span class="supp-dose-label">${doseLabel}</span>` : ''}
-    </div>`;
-  }).join('');
 
-  // Bind tap and long-press events
+  // Split into active (visible) vs dormant (collapsed behind "Show more").
+  // ACTIVE = ticked in last 2 days, OR ticked today, OR a user-added custom.
+  // DORMANT = everything else (e.g. Mag Glycinate, Amitriptyline that haven't
+  //          been used in weeks). User can still add them back instantly via
+  //          the "+ Show more" button.
+  const recentNames = getRecentlyUsedSuppNames(section, 2);
+  const customNames = new Set(customs.map(c => c.name));
+  // Built-in items (his curated daily core) stay visible ALWAYS; the 2-day
+  // narrowing only collapses unused customs. Fixed 2026-06-12.
+  const activeSupps = allSupps.filter(s =>
+    list.includes(s) || recentNames.has(s.name) || customNames.has(s.name) || savedMap[s.name]);
+  const dormantSupps = allSupps.filter(s => !activeSupps.includes(s));
+
+  const c = document.getElementById(containerId);
+  let html = activeSupps.map(s => _renderSuppItem(s, savedMap)).join('');
+
+  // Collapsible "Show more" group for dormant supps. Click reveals them
+  // inline without leaving the page; clicking one ticks it and re-renders
+  // (it'll then move into the active list because it now matches savedMap).
+  if (dormantSupps.length > 0) {
+    html += `
+      <div class="supp-more-wrap">
+        <button type="button" class="supp-more-btn" onclick="toggleDormantSupps('${containerId}')" aria-expanded="false">
+          + Show ${dormantSupps.length} more
+        </button>
+        <div class="supp-dormant" data-container="${containerId}" hidden>
+          ${dormantSupps.map(s => _renderSuppItem(s, savedMap)).join('')}
+        </div>
+      </div>`;
+  }
+
+  c.innerHTML = html;
+
+  // Bind tap + long-press on every supp-item (active AND dormant)
   c.querySelectorAll('.supp-item').forEach(bindSuppEvents);
+}
+
+// Toggle the collapsed dormant group inside a supp-grid. Stays open until
+// the user collapses it again or navigates away.
+function toggleDormantSupps(containerId) {
+  const c = document.getElementById(containerId);
+  if (!c) return;
+  const wrap = c.querySelector('.supp-dormant[data-container="' + containerId + '"]');
+  const btn = c.querySelector('.supp-more-btn');
+  if (!wrap || !btn) return;
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  if (expanded) {
+    wrap.hidden = true;
+    btn.setAttribute('aria-expanded', 'false');
+    btn.textContent = '+ Show ' + wrap.querySelectorAll('.supp-item').length + ' more';
+  } else {
+    wrap.hidden = false;
+    btn.setAttribute('aria-expanded', 'true');
+    btn.textContent = '− Hide unused';
+  }
 }
 
 function bindSuppEvents(el) {
@@ -1656,15 +2735,21 @@ function bindSuppEvents(el) {
 function openDosePopup(el) {
   _doseTarget = el;
   const name = el.dataset.name;
-  const dose = el.dataset.dose || '';
-  const unit = el.dataset.unit || 'mg';
+  // Saved value wins. If nothing saved yet, fall back to per-supplement
+  // defaults (e.g. Liposomal C defaults to "4 drops"). If neither, use mg.
+  const dose = el.dataset.dose || el.dataset.defaultDose || '';
+  const unit = el.dataset.unit || el.dataset.defaultUnit || 'mg';
   document.getElementById('doseTitle').textContent = name;
   document.getElementById('doseAmount').value = dose;
   document.querySelectorAll('#doseUnits .dose-unit-btn').forEach(b => {
     b.classList.toggle('active', b.textContent === unit);
   });
   document.getElementById('doseOverlay').classList.add('show');
-  setTimeout(() => document.getElementById('doseAmount').focus(), 100);
+  setTimeout(() => {
+    const inp = document.getElementById('doseAmount');
+    inp.focus();
+    inp.select();
+  }, 100);
 }
 
 function closeDosePopup() {
@@ -1761,7 +2846,11 @@ function loadFields() {
     const v = data[f];
     if (el.type === 'range') {
       el.value = v != null ? v : (el.min === '0' ? 0 : 5);
-      el.parentElement.nextElementSibling.textContent = el.value;
+      // Most sliders sit inside .slider-wrap with the readout as the slider-wrap's
+      // nextElementSibling. The skincare skin_irritation slider has no wrap and
+      // its readout is the slider's own nextElementSibling. Tolerate both shapes.
+      const readout = el.parentElement.nextElementSibling || el.nextElementSibling;
+      if (readout) readout.textContent = el.value;
     } else if (el.type === 'checkbox') {
       el.checked = !!v;
     } else if (v != null) {
@@ -1787,8 +2876,48 @@ function loadFields() {
       }
     });
   }
+  // Sticky location: pre-fill from yesterday's checkin if today's is empty
+  if (section === 'morning' && !data.location) {
+    const yest = new Date(currentDate); yest.setDate(yest.getDate() - 1);
+    const yestKey = 'checkin-' + fmt(yest);
+    const yestData = JSON.parse(localStorage.getItem(yestKey) || 'null');
+    if (yestData && (yestData.location_evening || yestData.location)) {
+      const el = document.querySelector('[data-field="location"]');
+      if (el && !el.value) {
+        // Prefer yesterday's evening (where you slept) over morning, more current
+        el.value = yestData.location_evening || yestData.location;
+        autoSave();
+      }
+    }
+  }
+  // Evening location: pre-fill from this morning's location, else yesterday's evening
+  if (section === 'evening' && !data.location_evening) {
+    const el = document.querySelector('[data-field="location_evening"]');
+    if (el && !el.value) {
+      if (data.location) {
+        el.value = data.location;
+        autoSave();
+      } else {
+        const yest = new Date(currentDate); yest.setDate(yest.getDate() - 1);
+        const yestKey = 'checkin-' + fmt(yest);
+        const yestData = JSON.parse(localStorage.getItem(yestKey) || 'null');
+        if (yestData && (yestData.location_evening || yestData.location)) {
+          el.value = yestData.location_evening || yestData.location;
+          autoSave();
+        }
+      }
+    }
+  }
   // Auto-grow textareas after populating values
   setTimeout(autoGrowAll, 50);
+  // Sync the CSI number-grid button states with input values
+  refreshCsiNumStates();
+  // v91 fix: re-compute Vita's "Izračunano" box on page load. Pre-v91 the calc
+  // only ran on input events, so opening a date with already-saved bedtime/wake
+  // times showed "-" for total sleep / efficiency until you typed something.
+  if (typeof calcSleepEff === 'function') calcSleepEff();
+  // Update skincare schedule hint for the selected day
+  updateSkincareHint();
   // Unblock autoSave after a tick (after any queued input events fire)
   setTimeout(() => { _loadingFields = false; }, 100);
   // Reset touched fields when loading a new day
@@ -1837,6 +2966,45 @@ function loadDay() {
   loadFields();
   // Pull from GitHub if no local data (cross-device sync)
   syncPull();
+  // Show CSI banner if there's a fresh monthly result not yet dismissed
+  loadCsiBanner();
+}
+
+// ==================== CSI MONTHLY BANNER ====================
+async function loadCsiBanner() {
+  try {
+    const r = await fetch('data/csi_latest.json?ts=' + Date.now(), { cache: 'no-cache' });
+    if (!r.ok) return;
+    const d = await r.json();
+    if (!d || !d.date) return;
+    const dismissed = localStorage.getItem('csiBannerDismissed');
+    if (dismissed === d.date) return;  // already dismissed this one
+    const banner = document.getElementById('csiBanner');
+    const titleEl = document.getElementById('csiBannerTitle');
+    const bodyEl = document.getElementById('csiBannerBody');
+    if (!banner || !titleEl || !bodyEl) return;
+    titleEl.textContent = d.title || 'Psychometrics monthly result';
+    let body = d.body || '';
+    // Add visual trend if prior available
+    if (d.csi_prior !== null && d.csi_prior !== undefined && d.csi_total !== null) {
+      const diff = d.csi_total - d.csi_prior;
+      const arrow = diff < 0 ? '⬇' : (diff > 0 ? '⬆' : '=');
+      body += `\n\nTrend: ${arrow} ${diff > 0 ? '+' : ''}${diff} CSI vs last month`;
+    }
+    bodyEl.textContent = body;
+    banner.dataset.bannerDate = d.date;
+    banner.style.display = 'block';
+  } catch (e) {
+    // Silent fail - banner is non-critical
+  }
+}
+
+function dismissCsiBanner() {
+  const banner = document.getElementById('csiBanner');
+  if (!banner) return;
+  const date = banner.dataset.bannerDate;
+  if (date) localStorage.setItem('csiBannerDismissed', date);
+  banner.style.display = 'none';
 }
 
 function updateDashDateDisplay() {
@@ -1866,6 +3034,13 @@ function validateFields(type) {
     ? ['sleep_quality_subjective', 'mood_score', 'energy_morning']
     : [];
   if (required.length === 0) return true;
+
+  // If this day's entry is already saved (from earlier session or another device),
+  // the sliders were populated from storage, not defaults — skip the touched check.
+  const dateStr = fmt(currentDate);
+  const existing = JSON.parse(localStorage.getItem('checkin-' + dateStr) || 'null');
+  const alreadySaved = type === 'morning' ? existing?.morning_saved : existing?.evening_saved;
+  if (alreadySaved) return true;
 
   const untouched = required.filter(f => !touchedFields.has(f));
   if (untouched.length === 0) return true;
@@ -1901,11 +3076,13 @@ function validateFields(type) {
 // ==================== SAVE & SYNC ====================
 async function saveMorning() {
   validateFields('morning'); // warn only, don't block
-  autoSave();
   clearTimeout(saveTimer);
+  captureFieldsToStorage('morning', {force: true}); // SYNC, force past _loadingFields guard
   const data = getData();
   data.morning_saved = true;
   data.morning_saved_at = new Date().toISOString();
+  // DON'T set synced:true yet — only the server can confirm that.
+  delete data.synced;
   setData(data);
   // Verify the save landed in the right key
   const key = getKey();
@@ -1916,12 +3093,42 @@ async function saveMorning() {
     showToast('Save error - please retry', false, 'warn');
     return;
   }
-  const synced = await syncToGitHub(data);
+  // Push to local monitor server (DB + dashboard) AND GitHub (backup/mobile share)
+  showToast('Syncing…', false);
+  const [localRes, githubOk] = await Promise.all([
+    syncToLocalServer(data),
+    syncToGitHub(data),
+  ]);
   const dateLabel = friendlyDate(currentDate);
-  if (synced) {
-    showToast('Saved & synced (' + dateLabel + ')', false, 'check');
+  if (localRes.ok) {
+    const after = getData();
+    after.synced = true;
+    after.synced_at = new Date().toISOString();
+    setData(after);
+    // Build detailed confirmation message
+    const p = localRes.preserved_fields || [];
+    const o = localRes.overwritten_fields || [];
+    const n = localRes.new_fields || [];
+    let msg = `Synced${githubOk ? ' to server + GitHub' : ''} (${dateLabel})`;
+    if (p.length) {
+      // Important: user tried to save empty but existing data was kept. Tell them clearly.
+      const names = p.map(prettyFieldName).slice(0, 3).join(', ') + (p.length > 3 ? `, +${p.length-3} more` : '');
+      showToast(`⚠ Kept existing: ${names}. Your save had these blank, server preserved previous values.`, false, 'warn');
+      console.warn('[save-checkin] preserved fields:', p);
+    } else if (o.length) {
+      showToast(`${msg} · updated: ${o.map(prettyFieldName).slice(0,3).join(', ')}`, false, 'check');
+    } else if (n.length) {
+      showToast(`${msg} · added: ${n.map(prettyFieldName).slice(0,3).join(', ')}`, false, 'check');
+    } else {
+      showToast(msg, false, 'check');
+    }
+    showSyncPending(false);
+    // Post-save roundtrip verification: independent check that disk + DB +
+    // mirror all agree. Delay slightly so the "synced" toast is visible first,
+    // then the verification toast replaces it.
+    setTimeout(() => showVerificationToast(localRes.verification, false), 1500);
   } else {
-    showToast('Saved locally (' + dateLabel + ')', false, 'warn');
+    showToast(`Saved locally only (${dateLabel}) — server offline?`, false, 'warn');
     showSyncPending(true);
   }
   updateStreak();
@@ -1931,11 +3138,12 @@ async function saveMorning() {
 
 async function saveEvening() {
   validateFields('evening'); // warn only
-  autoSave();
   clearTimeout(saveTimer);
+  captureFieldsToStorage('evening', {force: true}); // SYNC, force past _loadingFields guard
   const data = getData();
   data.evening_saved = true;
   data.evening_saved_at = new Date().toISOString();
+  delete data.synced;  // don't carry a stale synced flag into this save
   setData(data);
   // Verify the save landed in the right key
   const key = getKey();
@@ -1946,12 +3154,37 @@ async function saveEvening() {
     showToast('Save error - please retry', false, 'warn');
     return;
   }
-  const synced = await syncToGitHub(data);
+  showToast('Syncing…', true);
+  const [localRes, githubOk] = await Promise.all([
+    syncToLocalServer(data),
+    syncToGitHub(data),
+  ]);
   const dateLabel = friendlyDate(currentDate);
-  if (synced) {
-    showToast('Saved & synced (' + dateLabel + ')', true, 'check');
+  if (localRes.ok) {
+    const after = getData();
+    after.synced = true;
+    after.synced_at = new Date().toISOString();
+    setData(after);
+    const p = localRes.preserved_fields || [];
+    const o = localRes.overwritten_fields || [];
+    const n = localRes.new_fields || [];
+    let msg = `Synced${githubOk ? ' to server + GitHub' : ''} (${dateLabel})`;
+    if (p.length) {
+      const names = p.map(prettyFieldName).slice(0, 3).join(', ') + (p.length > 3 ? `, +${p.length-3} more` : '');
+      showToast(`⚠ Kept existing: ${names}. Save had these blank, server preserved previous values.`, true, 'warn');
+      console.warn('[save-checkin] preserved fields:', p);
+    } else if (o.length) {
+      showToast(`${msg} · updated: ${o.map(prettyFieldName).slice(0,3).join(', ')}`, true, 'check');
+    } else if (n.length) {
+      showToast(`${msg} · added: ${n.map(prettyFieldName).slice(0,3).join(', ')}`, true, 'check');
+    } else {
+      showToast(msg, true, 'check');
+    }
+    showSyncPending(false);
+    // Post-save roundtrip verification: disk + DB + mirror all agree.
+    setTimeout(() => showVerificationToast(localRes.verification, true), 1500);
   } else {
-    showToast('Saved locally (' + dateLabel + ')', true, 'warn');
+    showToast(`Saved locally only (${dateLabel}) — server offline?`, true, 'warn');
     showSyncPending(true);
   }
   updateStreak();
@@ -1981,6 +3214,568 @@ async function retrySyncCurrent() {
   }
 }
 
+// ==================== SYSTEM STATUS PILL + PANEL ====================
+// Always-visible status pill in the header that polls /api/system-status
+// every 30s. Click → opens a panel with per-service detail + Restart buttons.
+// Three states: green (all good), yellow (warnings), red (blockers).
+let _lastSysStatus = null;
+async function pollSystemStatus(silent) {
+  const pill = document.getElementById('sysPill');
+  const txt = document.getElementById('sysPillText');
+  if (!pill || !txt) return;
+  try {
+    const r = await fetch('/api/system-status?t=' + Date.now());
+    if (!r.ok) {
+      pill.className = 'sys-pill state-red';
+      txt.textContent = 'srv ✗';
+      _lastSysStatus = null;
+      return;
+    }
+    const s = await r.json();
+    _lastSysStatus = s;
+    const overall = s.overall || 'unknown';
+    pill.className = 'sys-pill state-' + overall;
+    if (overall === 'green') txt.textContent = 'systems ✓';
+    else if (overall === 'yellow') txt.textContent = `${s.warnings.length} warn`;
+    else if (overall === 'red')  txt.textContent = `${s.blockers.length} BLOCKED`;
+    else txt.textContent = '?';
+  } catch (e) {
+    pill.className = 'sys-pill state-red';
+    txt.textContent = 'srv ✗';
+    _lastSysStatus = null;
+  }
+}
+// Boot + every 30s
+setTimeout(pollSystemStatus, 800);
+setInterval(pollSystemStatus, 30_000);
+
+function openSystemStatus() {
+  const overlay = document.getElementById('sysOverlay');
+  if (overlay) overlay.classList.add('show');
+  loadSystemStatus(false);
+}
+function closeSystemStatus() {
+  const overlay = document.getElementById('sysOverlay');
+  if (overlay) overlay.classList.remove('show');
+}
+
+async function loadSystemStatus(forceRefresh) {
+  const target = document.getElementById('sysContent');
+  if (!target) return;
+  if (forceRefresh) target.innerHTML = '<em>Refreshing...</em>';
+  await pollSystemStatus();
+  const s = _lastSysStatus;
+  if (!s) {
+    target.innerHTML = '<div class="sys-summary red">⚠ Could not reach monitor server. Open Terminal and run:<br><code style="font-size:11px">launchctl kickstart -k gui/$(id -u)/com.marko.health-monitor</code></div>';
+    return;
+  }
+  const ready = s.ready_to_diary;
+  const overall = s.overall || 'unknown';
+  let html = '';
+  // Headline
+  html += `<div class="sys-summary ${overall}">`;
+  if (overall === 'green') html += '✓ All systems good. Ready to write diary.';
+  else if (overall === 'yellow') html += '⚠ Some warnings (sync may not work fully). Save will work.';
+  else html += '✗ BLOCKERS. Save may not sync. Restart the affected service below.';
+  html += '</div>';
+
+  if (s.blockers && s.blockers.length) {
+    html += '<div class="sys-blockers"><strong>Blockers:</strong><ul>';
+    for (const b of s.blockers) html += `<li>${b}</li>`;
+    html += '</ul></div>';
+  }
+  if (s.warnings && s.warnings.length) {
+    html += '<div class="sys-warns"><strong>Warnings:</strong><ul>';
+    for (const w of s.warnings) html += `<li>${w}</li>`;
+    html += '</ul></div>';
+  }
+
+  // Services
+  html += '<div class="sys-section">Services</div>';
+  for (const [name, svc] of Object.entries(s.services || {})) {
+    const mark = svc.ok ? '<span class="ok-mark">✓</span>' : '<span class="fail-mark">✗</span>';
+    const restart = svc.actionable && svc.restart_endpoint
+      ? `<button class="restart-btn" onclick="restartService('${svc.restart_endpoint.split('=')[1]}')">Restart</button>`
+      : '';
+    html += `<div class="sys-row">${mark}<span class="name">${name}</span><span class="det">${svc.detail || ''}</span>${restart}</div>`;
+  }
+
+  // Launchd agents
+  html += '<div class="sys-section">Launchd agents</div>';
+  for (const [name, ag] of Object.entries(s.launchd_agents || {})) {
+    const mark = ag.ok ? '<span class="ok-mark">✓</span>' : '<span class="fail-mark">✗</span>';
+    const restart = ag.actionable
+      ? `<button class="restart-btn" onclick="restartService('${name}')">Restart</button>` : '';
+    html += `<div class="sys-row">${mark}<span class="name">${name}</span><span class="det">${ag.detail || ''}</span>${restart}</div>`;
+  }
+
+  // Data freshness
+  html += '<div class="sys-section">Data freshness</div>';
+  for (const [k, f] of Object.entries(s.data_freshness || {})) {
+    const mark = f.stale ? '<span class="warn-mark">⚠</span>' : '<span class="ok-mark">✓</span>';
+    const detail = f.date
+      ? `last ${f.date}${f.days_old !== null ? ` (${f.days_old}d ago)` : ''}`
+      : 'no data';
+    html += `<div class="sys-row">${mark}<span class="name">${k}</span><span class="det">${detail}</span></div>`;
+  }
+
+  // Today's check-in
+  if (s.today_checkin) {
+    html += '<div class="sys-section">Today\'s check-in</div>';
+    const am = s.today_checkin.morning_saved;
+    const pm = s.today_checkin.evening_saved;
+    html += `<div class="sys-row">${am ? '<span class="ok-mark">✓</span>' : '<span class="warn-mark">⚠</span>'}<span class="name">morning</span><span class="det">${am ? 'saved' : 'not saved yet'}</span></div>`;
+    html += `<div class="sys-row">${pm ? '<span class="ok-mark">✓</span>' : '<span class="warn-mark">⚠</span>'}<span class="name">evening</span><span class="det">${pm ? 'saved' : 'not saved yet'}</span></div>`;
+  }
+
+  // Audit
+  if (s.audit) {
+    html += '<div class="sys-section">Data audit</div>';
+    const ok = s.audit.clean;
+    const mark = ok ? '<span class="ok-mark">✓</span>' : '<span class="fail-mark">⚠</span>';
+    html += `<div class="sys-row">${mark}<span class="name">holes</span><span class="det">${ok ? 'none' : s.audit.holes_count + ' hole(s)'}</span></div>`;
+  }
+
+  target.innerHTML = html;
+}
+
+async function restartService(name) {
+  if (!name) return;
+  const target = document.getElementById('sysContent');
+  if (target) target.innerHTML = `<em>⟲ Restarting ${name}... (5-10s)</em>`;
+  try {
+    const r = await fetch(`/api/restart-service?name=${encodeURIComponent(name)}`, {method: 'POST'});
+    if (r.ok) {
+      // Small wait for service to settle, then re-render
+      await new Promise(res => setTimeout(res, 3000));
+      await loadSystemStatus(true);
+      showToast(`✓ ${name} restarted`, false, 'check');
+    } else {
+      const body = await r.text();
+      showToast(`✗ Restart of ${name} failed: ${r.status}`, false, 'warn');
+      await loadSystemStatus(true);
+    }
+  } catch (e) {
+    showToast('✗ Restart error: ' + e.message, false, 'warn');
+    await loadSystemStatus(true);
+  }
+}
+
+// ==================== DATA-HOLE BANNER ====================
+// Reads /data/checkin_audit.json (written by audit_checkin_holes.py) and, if
+// there are unresolved holes or missing days, renders a red banner at the top
+// of the app so Marko sees it immediately. This is the UX half of the
+// "always alert me when you notice holes" requirement — the audit script
+// alone is only useful to Claude; this surfaces it to the user.
+async function checkCheckinHoles(forceRefresh) {
+  try {
+    const url = '/data/checkin_audit.json' + (forceRefresh ? '?t=' + Date.now() : '');
+    const r = await fetch(url);
+    if (!r.ok) { hideHoleBanner(); return; }
+    const audit = await r.json();
+    // Respect a user-dismissed state for a given audit timestamp.
+    // (They can hit Re-check to force an update.)
+    const dismissedForTs = localStorage.getItem('hole-banner-dismissed-at');
+    if (!forceRefresh && dismissedForTs === audit.audited_at) {
+      hideHoleBanner();
+      return;
+    }
+    if (audit.clean) { hideHoleBanner(); return; }
+
+    // Build the list
+    const items = [];
+    for (const h of (audit.holes || [])) {
+      items.push(`<li><strong>${h.date}</strong> ${h.tab}: ${h.reason}</li>`);
+    }
+    if (audit.missing_files && audit.missing_files.length) {
+      items.push(`<li>No check-in file on: ${audit.missing_files.join(', ')}</li>`);
+    }
+    const titleEl = document.getElementById('holeTitle');
+    const listEl = document.getElementById('holeList');
+    const banner = document.getElementById('holeBanner');
+    if (!titleEl || !listEl || !banner) return;
+    titleEl.textContent = `Data gap${items.length > 1 ? 's' : ''} detected (${audit.holes_count}) — tell Claude`;
+    listEl.innerHTML = items.join('');
+    banner.classList.add('show');
+    // Store the audit timestamp on the banner so dismissal is scoped to THIS audit
+    banner.dataset.auditTs = audit.audited_at || '';
+  } catch (e) {
+    console.warn('checkCheckinHoles failed:', e);
+  }
+}
+
+function hideHoleBanner() {
+  const b = document.getElementById('holeBanner');
+  if (b) b.classList.remove('show');
+}
+
+function dismissHoleBanner() {
+  const b = document.getElementById('holeBanner');
+  if (b) {
+    localStorage.setItem('hole-banner-dismissed-at', b.dataset.auditTs || new Date().toISOString());
+    b.classList.remove('show');
+  }
+}
+
+// Calls the server's /api/fix-merge-conflicts endpoint which scans every checkin
+// JSON for git merge conflict markers and auto-resolves them by merging both
+// sides. Used when the audit reports parse_error on a date — usually caused by
+// the same date being edited on phone + laptop and the GitHub sync producing
+// `<<<<<<< Updated upstream` markers in the file. After fixing, re-runs the audit
+// so the banner refreshes.
+async function autoFixCorrupted() {
+  const btn = document.getElementById('autoFixBtn');
+  if (btn) { btn.disabled = true; btn.textContent = 'Fixing...'; }
+  try {
+    const r = await fetch('/api/fix-merge-conflicts', { method: 'POST' });
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    const summary = await r.json();
+    const msg = `Scanned ${summary.scanned} files. Fixed ${summary.fixed}.`
+              + (summary.failed ? ` ⚠ ${summary.failed} need manual review.` : '');
+    alert(msg);
+    // Re-run the audit so the banner reflects the new state
+    await checkCheckinHoles(true);
+  } catch (e) {
+    alert('Auto-fix failed: ' + e.message);
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = 'Auto-fix corrupted'; }
+  }
+}
+
+// Check on load + every 5 minutes while the app is open so new audit results
+// surface without requiring a refresh.
+checkCheckinHoles();
+setInterval(() => checkCheckinHoles(false), 5 * 60 * 1000);
+
+// ==================== BODY METRICS WIDGET (#13) ====================
+// Fetches /data/daily-status/<date>.json and renders a 4-tile grid (WHOOP
+// recovery, HRV, sleep duration, steps) at the top of the morning tab.
+async function refreshBodyMetrics() {
+  const wrap = document.getElementById('bodyMetrics');
+  const grid = document.getElementById('bodyMetricsGrid');
+  const dateLabel = document.getElementById('bodyMetricsDate');
+  if (!wrap || !grid) return;
+  try {
+    const d = fmt(currentDate);
+    const r = await fetch(`/data/daily-status/${d}.json?t=${Date.now()}`);
+    if (!r.ok) { wrap.style.display = 'none'; return; }
+    const status = await r.json();
+    const w = status.whoop || {};
+    const a = status.apple || {};
+    const tile = (icon, label, val, unit) => {
+      if (val === null || val === undefined || val === '') return '';
+      return `<div style="background:rgba(255,255,255,.6);padding:8px;border-radius:8px;text-align:center">
+        <div style="font-size:14px">${icon}</div>
+        <div style="font-size:15px;font-weight:700;color:var(--text)">${val}${unit || ''}</div>
+        <div style="font-size:10px;color:var(--text2);margin-top:1px">${label}</div>
+      </div>`;
+    };
+    const parts = [
+      tile('💤', 'recovery', w.recovery, '%'),
+      tile('❤️', 'HRV', w.hrv_ms, 'ms'),
+      tile('🌙', 'sleep', w.sleep_hrs ? w.sleep_hrs.toFixed(1) : null, 'h'),
+      tile('👣', 'steps', a.steps ? a.steps.toLocaleString() : null, ''),
+    ].filter(Boolean);
+    if (!parts.length) { wrap.style.display = 'none'; return; }
+    grid.innerHTML = parts.join('');
+    wrap.style.display = '';
+    dateLabel.textContent = d;
+  } catch (e) { wrap.style.display = 'none'; }
+}
+(() => {
+  const origLoad = window.loadFields;
+  if (origLoad) {
+    window.loadFields = function() {
+      const r = origLoad.apply(this, arguments);
+      refreshBodyMetrics();
+      return r;
+    };
+  }
+})();
+
+// ==================== PRACTITIONER PDF (#14) ====================
+// Opens /api/practitioner-pdf?days=14 in a new tab. That endpoint returns
+// HTML styled for print; the user hits ⌘P to save as PDF.
+function downloadPractitionerPDF() {
+  window.open('/api/practitioner-pdf?days=14', '_blank');
+}
+
+// ==================== SESSION REPORT PILLS (#9) ====================
+// Fetches /api/reports-for-day?date=YYYY-MM-DD and renders a clickable pill
+// for each matching report, so sessions with Beata/Renzo/Parr auto-link to
+// the day they happened.
+async function refreshReportPills() {
+  const target = document.getElementById('reportPills');
+  if (!target) return;
+  try {
+    const d = fmt(currentDate);
+    const r = await fetch(`/api/reports-for-day?date=${d}`);
+    if (!r.ok) { target.innerHTML = ''; return; }
+    const { reports } = await r.json();
+    if (!reports || !reports.length) { target.innerHTML = ''; return; }
+    target.innerHTML = reports.map(rep =>
+      `<a href="${rep.url}" target="_blank" style="display:inline-flex;align-items:center;gap:6px;font-size:11.5px;padding:5px 10px;background:rgba(70,120,200,.1);border:1px solid rgba(70,120,200,.3);color:#4c7abf;border-radius:999px;text-decoration:none;font-weight:500">🔗 ${rep.label}</a>`
+    ).join('');
+  } catch (e) { target.innerHTML = ''; }
+}
+(() => {
+  const origLoad = window.loadFields;
+  if (origLoad) {
+    window.loadFields = function() {
+      const r = origLoad.apply(this, arguments);
+      refreshReportPills();
+      return r;
+    };
+  }
+})();
+
+// ==================== EVENING NUDGE (#8) ====================
+// If evening check-in isn't done by 22:30 local, fire a single browser
+// notification. Must be opt-in (click the 🔔 button in settings). Stored
+// per-date so we don't spam if user dismisses.
+function _shouldNudge() {
+  const d = new Date();
+  // Nudge after 22:30
+  if (d.getHours() < 22 || (d.getHours() === 22 && d.getMinutes() < 30)) return false;
+  // Not past midnight
+  if (d.getHours() === 0 && d.getMinutes() >= 0) return false;
+  const data = getData();
+  if (data.evening_saved) return false;
+  // Check localStorage to see if we already nudged today
+  const todayKey = 'nudged-' + fmt(d);
+  if (localStorage.getItem(todayKey)) return false;
+  return todayKey;
+}
+function maybeFireEveningNudge() {
+  try {
+    const key = _shouldNudge();
+    if (!key) return;
+    if (Notification.permission !== 'granted') return;
+    new Notification('Evening check-in', {
+      body: 'Quick 2 minutes before bed. Open to finish.',
+      icon: '/icon-192.png',
+      tag: 'eve-nudge',
+    });
+    localStorage.setItem(key, '1');
+  } catch (e) { console.warn('nudge failed', e); }
+}
+// Check every 5 min while app is open
+setInterval(maybeFireEveningNudge, 5 * 60 * 1000);
+setTimeout(maybeFireEveningNudge, 3000); // and once on boot
+
+// Permission request button — wire into settings gear if present
+async function requestNudgePermission() {
+  if (!('Notification' in window)) {
+    showToast('Notifications not supported', false, 'warn');
+    return;
+  }
+  const perm = await Notification.requestPermission();
+  if (perm === 'granted') showToast('✓ Evening nudges enabled', false, 'check');
+  else showToast('Nudges blocked in browser settings', false, 'warn');
+}
+
+// ==================== MORNING SUMMARY IN EVENING (#7) ====================
+// When user switches to Evening tab, populate the collapsible morning recap
+// with the sliders + sleep notes + first worry from THIS day's morning.
+// Lets user write done_today referencing how the morning started without
+// re-typing.
+function refreshMorningSummary() {
+  const wrap = document.getElementById('morningSummary');
+  const body = document.getElementById('morningSummaryBody');
+  if (!wrap || !body) return;
+  const data = getData();
+  const bits = [];
+  const push = (label, v) => {
+    if (v !== null && v !== undefined && v !== '' && v !== 0) bits.push(`${label}: ${v}`);
+  };
+  push('Sleep', data.sleep_quality_subjective);
+  push('Mood', data.mood_score);
+  push('Energy', data.energy_morning);
+  push('Pain', data.pain_score);
+  push('Anxiety', data.anxiety_score);
+  const sliders = bits.join('  ·  ');
+  const parts = [];
+  if (sliders) parts.push(sliders);
+  if (data.sleep_notes) parts.push('\n💤 ' + data.sleep_notes);
+  if (data.first_worry) parts.push('\n🧠 ' + data.first_worry);
+  if (data.make_today_great) parts.push('\n🎯 ' + data.make_today_great);
+  if (!parts.length) { wrap.hidden = true; return; }
+  body.textContent = parts.join('\n');
+  wrap.hidden = false;
+}
+// Attach to tab switch + date change
+(() => {
+  const origLoad = window.loadFields;
+  if (origLoad) {
+    window.loadFields = function() {
+      const r = origLoad.apply(this, arguments);
+      setTimeout(refreshMorningSummary, 100);
+      return r;
+    };
+  }
+})();
+
+// ==================== SAME AS YESTERDAY (#6) ====================
+// One-tap copy of yesterday's supplement list into today. Walks localStorage
+// for `checkin-{yesterday}`, reads the morning_supplements / evening_supplements
+// array, ticks those items in today's grid. Reduces 5+ taps down to 1.
+function copyYesterdaySupps(section) {
+  const d = new Date(currentDate);
+  d.setDate(d.getDate() - 1);
+  const yKey = `checkin-${fmt(d)}`;
+  const y = JSON.parse(localStorage.getItem(yKey) || '{}');
+  const suppsYesterday = y[section + '_supplements'] || [];
+  if (!suppsYesterday.length) {
+    showToast('Yesterday had no ' + section + ' supplements logged', false, 'warn');
+    return;
+  }
+  // Tick each item in the UI that matches by name
+  const names = new Set(suppsYesterday.map(s => (s.name || '').toLowerCase()));
+  const container = document.getElementById(section + '-supps');
+  if (!container) return;
+  let ticked = 0;
+  container.querySelectorAll('.supp-item').forEach(el => {
+    const n = (el.dataset.name || '').toLowerCase();
+    if (names.has(n) && !el.classList.contains('checked')) {
+      el.classList.add('checked');
+      const check = el.querySelector('.supp-check');
+      if (check) check.innerHTML = '&#10003;';
+      ticked++;
+    }
+  });
+  // Persist
+  if (typeof autoSave === 'function') autoSave();
+  showToast(`⟲ Ticked ${ticked} supplements from yesterday`, false, 'check');
+}
+
+// ==================== VOICE INPUT (#5) ====================
+// Web Speech API dictation for every textarea. Works in Safari iOS + Chrome/
+// Brave desktop. Appends to existing text rather than replacing, so you can
+// dictate pieces, pause, dictate more.
+function _supportsSpeech() {
+  return 'webkitSpeechRecognition' in window || 'SpeechRecognition' in window;
+}
+function _attachMic(textarea) {
+  if (!_supportsSpeech()) return;
+  if (textarea.closest('.text-wrap')) return; // already wrapped
+  const wrap = document.createElement('div');
+  wrap.className = 'text-wrap';
+  textarea.parentNode.insertBefore(wrap, textarea);
+  wrap.appendChild(textarea);
+  const btn = document.createElement('button');
+  btn.type = 'button';
+  btn.className = 'mic-btn';
+  btn.innerHTML = '🎤';
+  btn.title = 'Dictate';
+  btn.setAttribute('aria-label', 'Start voice dictation');
+  wrap.appendChild(btn);
+
+  let recognition = null;
+  let active = false;
+  btn.addEventListener('click', (e) => {
+    e.preventDefault();
+    if (active) {
+      try { recognition && recognition.stop(); } catch {}
+      return;
+    }
+    const R = window.SpeechRecognition || window.webkitSpeechRecognition;
+    recognition = new R();
+    recognition.continuous = true;
+    recognition.interimResults = true;
+    recognition.lang = navigator.language || 'en-US';
+    let finalBuf = '';
+    const base = textarea.value ? textarea.value + (textarea.value.endsWith(' ') ? '' : ' ') : '';
+    recognition.onresult = (ev) => {
+      let interim = '';
+      for (let i = ev.resultIndex; i < ev.results.length; i++) {
+        const tr = ev.results[i][0].transcript;
+        if (ev.results[i].isFinal) finalBuf += tr + ' ';
+        else interim += tr;
+      }
+      textarea.value = base + finalBuf + interim;
+      textarea.dispatchEvent(new Event('input', { bubbles: true }));
+      if (typeof autoGrow === 'function') autoGrow(textarea);
+    };
+    recognition.onend = () => {
+      active = false;
+      btn.classList.remove('listening');
+      btn.innerHTML = '🎤';
+    };
+    recognition.onerror = (e) => {
+      console.warn('speech error', e);
+      active = false;
+      btn.classList.remove('listening');
+      btn.innerHTML = '🎤';
+    };
+    try {
+      recognition.start();
+      active = true;
+      btn.classList.add('listening');
+      btn.innerHTML = '⏺';
+    } catch (e) {
+      console.warn('speech start failed', e);
+    }
+  });
+}
+function _attachAllMics() {
+  if (!_supportsSpeech()) return;
+  document.querySelectorAll('textarea[data-field]').forEach(_attachMic);
+}
+// First pass after DOM ready, then whenever we loadFields (which re-renders)
+document.addEventListener('DOMContentLoaded', _attachAllMics);
+setTimeout(_attachAllMics, 500); // in case DOMContentLoaded already fired
+// Hook loadFields so new days also get mics
+(() => {
+  const orig = window.loadFields;
+  if (orig) {
+    window.loadFields = function() {
+      const r = orig.apply(this, arguments);
+      setTimeout(_attachAllMics, 50);
+      return r;
+    };
+  }
+})();
+
+// ==================== BACKGROUND DRAFT SYNC (#4) ====================
+// Every 30s check if current day's data is dirty (updated_at newer than
+// synced_at) and push to server silently. Reduces the anxiety of "did I
+// click save?" — your words hit the cloud without a button press. The
+// Finalize button becomes a declaration, not the thing that saves data.
+let _bgSyncBusy = false;
+async function backgroundDraftSync() {
+  if (_bgSyncBusy) return;
+  const data = getData();
+  if (!data || !data.updated_at) return;
+  // Skip if already synced
+  const updatedAt = new Date(data.updated_at).getTime();
+  const syncedAt = data.synced_at ? new Date(data.synced_at).getTime() : 0;
+  if (syncedAt >= updatedAt) return;
+  // Skip if updated_at is very recent — user is still typing, wait for them to pause
+  if (Date.now() - updatedAt < 20_000) return;
+
+  _bgSyncBusy = true;
+  try {
+    const res = await syncToLocalServer(data);
+    if (res.ok) {
+      const after = getData();
+      after.synced = true;
+      after.synced_at = new Date().toISOString();
+      // Bypass setData's updated_at bump — this is a sync, not a content edit
+      localStorage.setItem(getKey(), JSON.stringify(after));
+      updateSavedChip();
+      // GitHub push happens too, best-effort
+      try { await syncToGitHub(after); } catch {}
+    }
+  } catch (e) {
+    console.warn('[bg-sync] failed:', e);
+  } finally {
+    _bgSyncBusy = false;
+  }
+}
+// Every 30s. The 20s typing-quiesce window above prevents us from writing
+// during active input, which would otherwise race with autoSave.
+setInterval(backgroundDraftSync, 30_000);
+
 function showStatus(id, msg, isError) {
   const el = document.getElementById(id);
   el.textContent = msg;
@@ -2002,10 +3797,76 @@ function saveSettings() {
   localStorage.setItem('checkin-settings', JSON.stringify(s));
 }
 
+// Post full check-in JSON to the local monitor server. Server writes it to
+// the canonical data dir, copies to served dir, writes a versioned archive
+// snapshot, runs daily_reconcile, and returns a DETAILED diff report.
+// Returns the full response object so callers can inspect preserved/overwritten/new fields.
+async function syncToLocalServer(data) {
+  try {
+    const host = MONITOR_HOSTS[0];  // current page origin
+    const r = await fetch(host + '/api/save-checkin', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    });
+    if (!r.ok) return { ok: false, status: r.status };
+    const res = await r.json();
+    return { ok: res.status === 'saved', ...res };
+  } catch (e) {
+    console.error('Local sync failed:', e);
+    return { ok: false, error: e.message };
+  }
+}
+
+// Render the post-save roundtrip verification as a toast.
+// Called from saveMorning/saveEvening AFTER the initial "synced" toast so the
+// user always sees independent confirmation that data landed in all three
+// sinks (canonical JSON, PWA mirror, SQLite). Lives separately from the
+// "preserved/overwritten" toast because that one reports incoming-vs-existing
+// diff, this one reports disk-vs-DB-vs-mirror agreement.
+function showVerificationToast(verification, sticky = true) {
+  if (!verification) {
+    // server didn't return verification — silent; don't spam user
+    return;
+  }
+  if (verification.ok) {
+    const n = verification.fields_ok || 0;
+    showToast(`✓ Verified ${n} fields · disk + DB + mirror all match`, sticky, 'check');
+    console.log('[save-verification] OK', verification);
+  } else {
+    const fails = verification.failures || [];
+    const names = fails.slice(0, 3).map(f => prettyFieldName(f.field)).join(', ');
+    const more = fails.length > 3 ? ` +${fails.length - 3} more` : '';
+    const msg = fails.length
+      ? `⚠ Verification failed for: ${names}${more}`
+      : (verification.summary || '⚠ Verification failed');
+    showToast(msg, sticky, 'warn');
+    console.warn('[save-verification] FAIL', verification);
+  }
+}
+
+// Human-readable label for a check-in field key (used in warnings)
+function prettyFieldName(k) {
+  const map = {
+    sleep_quality_subjective: 'Sleep quality', mood_score: 'Mood', energy_morning: 'Morning energy',
+    energy_afternoon: 'Afternoon energy', energy_evening: 'Evening energy',
+    pain_score: 'Pain (AM)', pain_evening: 'Pain (PM)', anxiety_score: 'Anxiety',
+    bloating_score: 'Bloating', acidity_score: 'Acidity', throat_tightness: 'Throat',
+    voice_fatigue: 'Voice fatigue', bowel_movements: 'Bowel movements',
+    stool_type: 'Stool type', sleep_notes: 'Sleep notes', first_worry: 'First worry',
+    gratitude_raw: 'Gratitude', make_today_great: 'Make today great', affirmation: 'Affirmation',
+    done_today: 'What I did today', amazing_raw: 'Amazing things', ideas_raw: 'Ideas',
+    could_be_better: 'Could be better', morning_supplements: 'Morning supplements',
+    evening_supplements: 'Evening supplements', retinoid_applied: 'Retinoid',
+    pm_routine_done: 'PM routine', spf_reapplied: 'SPF reapplied', skin_irritation: 'Skin irritation',
+  };
+  return map[k] || k;
+}
+
 async function syncToGitHub(data) {
   const s = getSettings();
   if (!s.token || !s.repo) {
-    console.warn('Sync skipped: no GitHub token or repo configured');
+    console.warn('GitHub sync skipped: no token or repo configured');
     return false;
   }
   const path = `${s.path || 'data/checkins'}/${data.date}.json`;
@@ -2069,7 +3930,35 @@ async function syncToGitHub(data) {
   }
 }
 
+async function pullDayFromLocalServer(dateStr) {
+  // Fetch directly from the monitor server's static data dir. Works when the
+  // PWA is loaded from the same origin (i.e. on Mac at localhost OR on phone
+  // at LAN IP, both serving from health_centre/monitor_server.py).
+  // No auth required. Returns parsed JSON or null.
+  try {
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 3000);
+    const resp = await fetch(`/data/checkins/${dateStr}.json?ts=${Date.now()}`, {
+      cache: 'no-cache',
+      signal: controller.signal
+    });
+    clearTimeout(timeout);
+    if (!resp.ok) return null;
+    return await resp.json();
+  } catch (e) {
+    console.log('[pullLocal] failed:', e.message);
+    return null;
+  }
+}
+
 async function pullDayFromGitHub(dateStr) {
+  // Try the local server first - covers the cross-device-on-same-network case
+  // (Mac saves, phone loads, both hit the same monitor_server). Faster and
+  // doesn't need a GitHub token configured on every device.
+  const localResult = await pullDayFromLocalServer(dateStr);
+  if (localResult) return localResult;
+
+  // Fall back to GitHub if local server has nothing (offline / different network)
   const s = getSettings();
   if (!s.token || !s.repo) return null;
   const path = `${s.path || 'data/checkins'}/${dateStr}.json`;
@@ -2092,6 +3981,91 @@ async function pullDayFromGitHub(dateStr) {
   }
 }
 
+// ==================== CONFLICT MODAL (#3) ====================
+// When syncPull detects both sides have rich content but disagree, surface
+// a side-by-side modal so user picks which version to keep.
+let _pendingConflict = null;
+function showConflictModal({ dateStr, local, remote, localScore, remoteScore }) {
+  _pendingConflict = { dateStr, local, remote };
+  const meta = document.getElementById('conflictMeta');
+  const lEl = document.getElementById('conflictLocal');
+  const rEl = document.getElementById('conflictRemote');
+  const overlay = document.getElementById('conflictOverlay');
+  if (!overlay) return;
+
+  const preview = d => {
+    const out = [];
+    const push = (label, v) => { if (v !== null && v !== undefined && v !== '' && v !== 0) out.push(`${label}: ${typeof v === 'string' ? v.slice(0, 80) : v}`); };
+    push('sleep', d.sleep_quality_subjective); push('mood AM', d.mood_score); push('energy AM', d.energy_morning);
+    push('pain', d.pain_score); push('sleep_notes', d.sleep_notes);
+    push('energy PM', d.energy_afternoon); push('energy eve', d.energy_evening); push('mood eve', d.mood_evening);
+    push('pain eve', d.pain_evening); push('done_today', d.done_today);
+    push('updated_at', d.updated_at);
+    return out.join('\n');
+  };
+
+  meta.textContent = `Conflict for ${dateStr}: local (score ${localScore}) vs cloud (score ${remoteScore})`;
+  lEl.textContent = preview(local);
+  rEl.textContent = preview(remote);
+  overlay.style.display = 'flex';
+}
+
+async function resolveConflict(choice) {
+  const overlay = document.getElementById('conflictOverlay');
+  if (overlay) overlay.style.display = 'none';
+  if (!_pendingConflict) return;
+  const { dateStr, local, remote } = _pendingConflict;
+  _pendingConflict = null;
+  if (choice === 'cancel') return;
+
+  const key = `checkin-${dateStr}`;
+  if (choice === 'local') {
+    // Local stays, push up to server + GitHub so remote catches up
+    try {
+      if (typeof syncToLocalServer === 'function') await syncToLocalServer(local);
+      if (typeof syncToGitHub === 'function') await syncToGitHub(local);
+      showToast('Kept local, pushed to cloud', false, 'check');
+    } catch (e) { showToast('Kept local (push failed)', false, 'warn'); }
+  } else if (choice === 'remote') {
+    _loadingFields = true;
+    try {
+      localStorage.setItem(key, JSON.stringify(remote));
+      if (typeof loadFields === 'function') loadFields();
+      showToast('Took cloud version', false, 'sync');
+    } finally {
+      setTimeout(() => { _loadingFields = false; }, 100);
+    }
+  }
+}
+
+// Score a check-in by COUNT of meaningful populated fields. A shell save
+// (evening_saved=true but all text empty) scores near zero even if its
+// updated_at is newer than local. This is the guard that prevents the
+// Apr 20 clobber from ever happening again.
+function _contentScore(d) {
+  if (!d) return 0;
+  const TEXT_FIELDS = [
+    'sleep_notes','first_worry','gratitude_raw','make_today_great','affirmation',
+    'done_today','amazing_raw','ideas_raw','could_be_better','worry_dump','evening_notes',
+  ];
+  const NUM_FIELDS = [
+    'sleep_quality_subjective','mood_score','energy_morning','pain_score','anxiety_score',
+    'energy_afternoon','energy_evening','mood_evening','pain_evening','bloating_score',
+    'acidity_score','throat_tightness','voice_fatigue','bowel_movements','stool_type',
+  ];
+  let score = 0;
+  for (const f of TEXT_FIELDS) {
+    const v = d[f];
+    if (typeof v === 'string' && v.trim().length > 10) score += Math.min(5, Math.floor(v.length / 30));
+  }
+  for (const f of NUM_FIELDS) {
+    if (d[f] !== null && d[f] !== undefined && d[f] !== '') score += 1;
+  }
+  if (Array.isArray(d.morning_supplements) && d.morning_supplements.length) score += 1;
+  if (Array.isArray(d.evening_supplements) && d.evening_supplements.length) score += 1;
+  return score;
+}
+
 async function syncPull() {
   const dateStr = fmt(currentDate);
   const key = getKey();
@@ -2099,19 +4073,66 @@ async function syncPull() {
   const remote = await pullDayFromGitHub(dateStr);
   if (!remote) return;
   if (!remote.morning_saved && !remote.evening_saved) return;
-  // Pull if: no local data, OR remote is newer than local
+
   const hasLocal = local.morning_saved || local.evening_saved;
   const localTime = local.updated_at ? new Date(local.updated_at).getTime() : 0;
   const remoteTime = remote.updated_at ? new Date(remote.updated_at).getTime() : 0;
-  if (hasLocal && remoteTime <= localTime) return; // local is same or newer
-  // Merge remote into localStorage
-  _loadingFields = true;
-  localStorage.setItem(key, JSON.stringify(remote));
-  loadFields();
-  updateStreak();
-  const what = !hasLocal ? 'Synced from cloud ☁️' : 'Updated from cloud ☁️';
-  showToast(what, false, 'sync');
-  console.log('Pulled remote data for', dateStr, hasLocal ? '(newer)' : '(new)');
+  const localScore = _contentScore(local);
+  const remoteScore = _contentScore(remote);
+
+  // Debug log: makes it easy to diagnose future clobbers
+  console.log(`[syncPull ${dateStr}] local: score=${localScore} time=${localTime} | remote: score=${remoteScore} time=${remoteTime}`);
+
+  // Case 1: no local data yet — just take remote
+  if (!hasLocal) {
+    _loadingFields = true;
+    try { localStorage.setItem(key, JSON.stringify(remote)); loadFields(); }
+    finally { setTimeout(() => { _loadingFields = false; }, 100); }
+    updateStreak();
+    showToast('Synced from cloud ☁️', false, 'sync');
+    return;
+  }
+
+  // NEW LOGIC (v77+): trust timestamps. The server now does field-level merge
+  // on POST (see monitor_server._handle_save_checkin), so cloud is always the
+  // union of all device changes. If remote is meaningfully newer than local,
+  // take remote without score-based blocking.
+  const REMOTE_NEWER_THRESHOLD_MS = 3000;  // 3s grace for clock skew
+
+  // Case 2: local is at-or-newer than remote → keep local
+  if (localTime > remoteTime + REMOTE_NEWER_THRESHOLD_MS) {
+    // Local is meaningfully newer. Push local up so cloud catches up.
+    console.log(`[syncPull ${dateStr}] local newer (${new Date(localTime).toISOString()}) than remote (${new Date(remoteTime).toISOString()}). Pushing local up.`);
+    try {
+      if (typeof syncToLocalServer === 'function') await syncToLocalServer(local);
+    } catch (e) { console.warn('local→server push failed', e); }
+    return;
+  }
+
+  // Case 3: remote is meaningfully newer → take remote.
+  // Only show modal in true concurrent-edit case (timestamps within 3s but
+  // content differs significantly).
+  if (remoteTime > localTime + REMOTE_NEWER_THRESHOLD_MS) {
+    // Clean wins: remote wins because it's newer
+    console.log(`[syncPull ${dateStr}] remote newer (${new Date(remoteTime).toISOString()}) than local (${new Date(localTime).toISOString()}). Taking remote.`);
+    _loadingFields = true;
+    try { localStorage.setItem(key, JSON.stringify(remote)); loadFields(); }
+    finally { setTimeout(() => { _loadingFields = false; }, 100); }
+    updateStreak();
+    showToast('Updated from cloud ☁️', false, 'sync');
+    return;
+  }
+
+  // Timestamps within 3s = simultaneous edit. Score difference is the tiebreaker.
+  if (remoteScore > localScore) {
+    _loadingFields = true;
+    try { localStorage.setItem(key, JSON.stringify(remote)); loadFields(); }
+    finally { setTimeout(() => { _loadingFields = false; }, 100); }
+    updateStreak();
+    showToast('Updated from cloud ☁️', false, 'sync');
+    return;
+  }
+  // Equal/lower score remote with same timestamp - keep local (already in sync)
 }
 
 async function syncMediaToGitHub(data, s) {
@@ -2345,16 +4366,32 @@ async function forceUpdate() {
   const el = document.getElementById('updateStatus');
   el.innerHTML = '<span style="color:var(--gold)">Updating...</span>';
   try {
-    // Unregister all service workers
+    // Unregister all service workers (no-op on insecure context where SW is unavailable)
     if (navigator.serviceWorker) {
-      const regs = await navigator.serviceWorker.getRegistrations();
-      await Promise.all(regs.map(r => r.unregister()));
+      try {
+        const regs = await navigator.serviceWorker.getRegistrations();
+        await Promise.all(regs.map(r => r.unregister()));
+      } catch (swErr) {
+        console.log('[forceUpdate] SW unregister skipped:', swErr.message);
+      }
     }
-    // Clear all caches
-    const keys = await caches.keys();
-    await Promise.all(keys.map(k => caches.delete(k)));
-    // Force reload from network
-    window.location.reload(true);
+    // Clear all caches (Cache API only available in secure contexts: HTTPS or localhost)
+    if (typeof caches !== 'undefined' && caches.keys) {
+      try {
+        const keys = await caches.keys();
+        await Promise.all(keys.map(k => caches.delete(k)));
+      } catch (cErr) {
+        console.log('[forceUpdate] Cache clear skipped:', cErr.message);
+      }
+    }
+    // Clear localStorage SW-related keys (defensive)
+    try {
+      Object.keys(localStorage).filter(k => k.startsWith('sw-') || k.startsWith('cache-')).forEach(k => localStorage.removeItem(k));
+    } catch {}
+    // Force reload from network with cache bust
+    const url = new URL(window.location.href);
+    url.searchParams.set('_cb', Date.now());
+    window.location.href = url.toString();
   } catch(e) {
     el.innerHTML = '<span style="color:var(--red)">Update failed: ' + e.message + '</span>';
   }
@@ -2374,7 +4411,19 @@ async function retryQueue() {
 // Legacy wrapper for old button (hidden now)
 async function triggerZoeSync() { triggerSyncAll('zoe'); }
 
-const MONITOR_HOSTS = ['http://127.0.0.1:8787', 'http://192.168.30.124:8787'];
+// Auto-include current page host (phone hitting laptop on LAN), plus known IPs
+const MONITOR_HOSTS = (() => {
+  const hosts = [];
+  // If page is loaded from a LAN IP, try same host on :8787 first
+  if (location.hostname && location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+    hosts.push(`${location.protocol}//${location.hostname}:8787`);
+  }
+  hosts.push('http://127.0.0.1:8787');
+  // Fallbacks for known WiFi IPs (update if laptop IP changes)
+  hosts.push('http://10.15.11.133:8787');
+  hosts.push('http://192.168.30.124:8787');
+  return hosts;
+})();
 let _syncMonitorHost = null;
 
 async function findMonitorHost() {
@@ -2391,6 +4440,13 @@ async function findMonitorHost() {
   return null;
 }
 
+// 2026-04-25 rewrite: route ALL sync buttons (Zoe / WHOOP / Health / Sync
+// Everything) through the same supervised pipeline that `daily_sync.py
+// --days 3` runs from CLI. The supervisor handles WDA crashes, Zoe nav
+// stalls, midnight day-boundary bugs, etc. — all the failure modes the old
+// /trigger/all path didn't recover from. After completion we render the
+// per-day status table inline so Marko sees the same output he'd see in
+// the terminal.
 async function triggerSyncAll(mode) {
   const pipeline = document.getElementById('sync-pipeline');
   const steps = {
@@ -2399,76 +4455,144 @@ async function triggerSyncAll(mode) {
     apple: document.getElementById('step-apple'),
     status: document.getElementById('step-status'),
   };
-
-  // Determine which steps to run
-  let stepList;
-  if (mode === 'all') stepList = ['zoe','whoop','apple','status'];
-  else if (mode === 'zoe') stepList = ['zoe','status'];
-  else if (mode === 'whoop') stepList = ['whoop','status'];
-  else if (mode === 'apple') stepList = ['apple','status'];
-  else stepList = [mode, 'status'];
-
-  // Reset and show pipeline
-  Object.values(steps).forEach(el => { el.className = 'sync-step waiting'; });
-  stepList.forEach(s => { if (steps[s]) steps[s].className = 'sync-step waiting'; });
-  // Mark non-requested steps as skipped (dim them out)
-  ['zoe','whoop','apple','status'].filter(s => !stepList.includes(s)).forEach(s => {
-    steps[s].style.display = 'none';
-  });
-  stepList.forEach(s => { steps[s].style.display = ''; });
+  ['zoe','whoop','apple','status'].forEach(s => { steps[s].style.display = ''; steps[s].className = 'sync-step waiting'; });
   pipeline.classList.add('active');
-
-  // Disable buttons while running
   document.querySelectorAll('.sync-btn').forEach(b => b.disabled = true);
 
-  const targetDate = fmt(currentDate);
   const host = await findMonitorHost();
-
-  if (host) {
-    try {
-      const resp = await fetch(`${host}/trigger/all?date=${targetDate}&steps=${stepList.join(',')}`, {method: 'POST'});
-      if (resp.ok) {
-        pollPipeline(host, steps, stepList, pipeline);
-        return;
-      }
-    } catch (e) {
-      console.log('Monitor trigger failed:', e);
-    }
-  }
-
-  // Fallback: GitHub trigger for Zoe only
-  if (stepList.includes('zoe')) {
-    const triggerData = { action: 'sync_zoe', date: targetDate, requested_at: new Date().toISOString() };
-    const s = getSettings();
-    if (s.token && s.repo) {
-      try {
-        const path = 'data/checkins/zoe-trigger.json';
-        const content = btoa(unescape(encodeURIComponent(JSON.stringify(triggerData, null, 2))));
-        let sha = null;
-        try {
-          const existing = await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
-            headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json'}
-          });
-          if (existing.ok) sha = (await existing.json()).sha;
-        } catch {}
-        const body = {message: `sync request ${targetDate}`, content, committer: {name: 'Health Check-in', email: 'checkin@local'}};
-        if (sha) body.sha = sha;
-        await fetch(`https://api.github.com/repos/${s.repo}/contents/${path}`, {
-          method: 'PUT',
-          headers: {'Authorization': `Bearer ${s.token}`, 'Accept': 'application/vnd.github.v3+json', 'Content-Type': 'application/json'},
-          body: JSON.stringify(body)
-        });
-        steps.zoe.className = 'sync-step done';
-        steps.zoe.querySelector('.step-label').textContent = 'Zoe - requested via GitHub (watcher will pick up)';
-      } catch {}
-    }
-  }
-
-  // Can't reach monitor - show fallback
-  document.querySelectorAll('.sync-btn').forEach(b => b.disabled = false);
   const st = document.getElementById('zoe-status');
-  st.innerHTML = 'Could not reach monitor server.<br><code style="font-size:11px;color:var(--gold)">python3 ~/health_centre/ingest/scrape_zoe.py --date ' + targetDate + '</code>';
-  st.className = 'zoe-status fail';
+  if (!host) {
+    document.querySelectorAll('.sync-btn').forEach(b => b.disabled = false);
+    st.innerHTML = 'Could not reach monitor server. Run from terminal:<br><code style="font-size:11px;color:var(--gold)">python3 ~/health_centre/ingest/daily_sync.py --days 3</code>';
+    st.className = 'zoe-status fail';
+    return;
+  }
+
+  // Capture the timestamp BEFORE we trigger, so we can detect when the
+  // daily_sync_report.json gets rewritten with a fresh `generated_at`.
+  let priorReportTs = '';
+  try {
+    const r = await fetch(`${host}/api/daily-sync-status?t=${Date.now()}`);
+    if (r.ok) priorReportTs = (await r.json()).generated_at || '';
+  } catch {}
+
+  try {
+    const resp = await fetch(`${host}/api/daily-sync-trigger`, {method: 'POST'});
+    if (!resp.ok) throw new Error('trigger failed: ' + resp.status);
+  } catch (e) {
+    document.querySelectorAll('.sync-btn').forEach(b => b.disabled = false);
+    st.innerHTML = 'Failed to start sync: ' + e.message;
+    st.className = 'zoe-status fail';
+    return;
+  }
+
+  st.innerHTML = '⟲ supervised sync running... (Zoe + WHOOP + Apple + reconcile, may take 1-3 min)';
+  st.className = 'zoe-status';
+
+  // Poll BOTH pipeline-status (so the per-step icons animate live) AND the
+  // daily_sync_report.json (which gets rewritten only when the supervisor
+  // finishes successfully). Stop on either: report freshens, or 5 min.
+  pollDailySync(host, steps, pipeline, priorReportTs);
+}
+
+async function pollDailySync(host, steps, pipeline, priorReportTs) {
+  const icons = {waiting: '&#9711;', running: '&#10227;', done: '&#10004;', error: '&#10008;', skipped: '&#8211;'};
+  let polls = 0;
+  const maxPolls = 150; // 5 min @ 2s
+  const iv = setInterval(async () => {
+    polls++;
+    if (polls > maxPolls) {
+      clearInterval(iv);
+      document.querySelectorAll('.sync-btn').forEach(b => b.disabled = false);
+      const st = document.getElementById('zoe-status');
+      st.innerHTML = '⚠ Sync timed out after 5 min. Check logs/daily_sync_pwa.log';
+      st.className = 'zoe-status fail';
+      return;
+    }
+    // 1) Update per-step icons live
+    try {
+      const ps = await fetch(`${host}/pipeline-status?t=${Date.now()}`);
+      if (ps.ok) {
+        const data = await ps.json();
+        const s = data.steps || {};
+        ['zoe','whoop','apple','status'].forEach(k => {
+          const el = steps[k];
+          const state = s[k] || 'waiting';
+          if (el) {
+            el.className = 'sync-step ' + state;
+            const icn = el.querySelector('.step-icon');
+            if (icn) icn.innerHTML = icons[state] || icons.waiting;
+          }
+        });
+      }
+    } catch {}
+    // 2) Check if the daily_sync_report.json has freshened — that's our
+    //    authoritative "supervisor completed AND rendered table" signal.
+    try {
+      const r = await fetch(`${host}/api/daily-sync-status?t=${Date.now()}`);
+      if (!r.ok) return;
+      const report = await r.json();
+      if (report.generated_at && report.generated_at !== priorReportTs) {
+        clearInterval(iv);
+        document.querySelectorAll('.sync-btn').forEach(b => b.disabled = false);
+        renderSyncTable(report);
+        // Hide pipeline after 4s — the table replaces it
+        setTimeout(() => pipeline.classList.remove('active'), 4000);
+      }
+    } catch {}
+  }, 2000);
+}
+
+// Render the per-day status table the same shape `daily_sync.py` prints.
+// Rows: WHOOP recovery/HRV/sleep, Apple steps, Zoe meals+score, diary AM/PM.
+// Mirrors print_table() in daily_sync.py so PWA + CLI surface match.
+function renderSyncTable(report) {
+  const st = document.getElementById('zoe-status');
+  if (!st) return;
+  const rows = report.rows || [];
+  const today = report.today;
+
+  const cell = (ok, shell, todayCell, val) => {
+    if (ok) return `<span style="color:#5a8c5e">✓ ${val}</span>`;
+    if (shell) return `<span style="color:#c14a42">⚠ shell</span>`;
+    if (todayCell) return `<span style="color:#857e75">⏳ pending</span>`;
+    return `<span style="color:#c14a42">✗ MISSING</span>`;
+  };
+
+  let html = `<div style="font-size:11.5px;font-weight:600;margin-bottom:6px;color:var(--text)">Daily data status — ${rows.length} days, today = ${today}</div>`;
+  html += `<table style="width:100%;font-size:10.5px;border-collapse:collapse"><tr>`;
+  html += `<th style="text-align:left;padding:3px 6px;color:var(--text2);font-weight:500">date</th>`;
+  html += `<th style="text-align:left;padding:3px 6px;color:var(--text2);font-weight:500">WHOOP</th>`;
+  html += `<th style="text-align:left;padding:3px 6px;color:var(--text2);font-weight:500">Apple</th>`;
+  html += `<th style="text-align:left;padding:3px 6px;color:var(--text2);font-weight:500">Zoe</th>`;
+  html += `<th style="text-align:left;padding:3px 6px;color:var(--text2);font-weight:500">AM</th>`;
+  html += `<th style="text-align:left;padding:3px 6px;color:var(--text2);font-weight:500">PM</th>`;
+  html += `</tr>`;
+
+  for (const r of rows) {
+    const isToday = r.date === today;
+    const w = r.whoop || {}, a = r.apple || {}, z = r.zoe || {}, am = r.diary_am || {}, pm = r.diary_pm || {};
+    const wText = w.ok ? `rec ${Math.round(w.recovery)} hrv ${w.hrv ? w.hrv.toFixed(1) : '-'} sl ${w.sleep_h || '-'}h` : '';
+    const aText = a.ok ? `${(a.steps||0).toLocaleString()}` : '';
+    const zText = z.ok ? `${z.meals}m${z.score ? ' ('+z.score+')' : ''}` : '';
+    html += `<tr style="border-top:1px solid #2a2622">`;
+    html += `<td style="padding:3px 6px;font-family:var(--mono,monospace);color:var(--text)">${r.date}</td>`;
+    html += `<td style="padding:3px 6px">${cell(w.ok, false, isToday, wText)}</td>`;
+    html += `<td style="padding:3px 6px">${cell(a.ok, false, isToday, aText)}</td>`;
+    html += `<td style="padding:3px 6px">${cell(z.ok, false, isToday, zText)}</td>`;
+    html += `<td style="padding:3px 6px">${cell(am.ok, am.shell, isToday, am.chars + 'c')}</td>`;
+    html += `<td style="padding:3px 6px">${cell(pm.ok, pm.shell, isToday, pm.chars + 'c')}</td>`;
+    html += `</tr>`;
+  }
+  html += `</table>`;
+
+  if (report.clean) {
+    html += `<div style="margin-top:8px;color:#5a8c5e;font-size:11px">✓ All sources fully synced.</div>`;
+  } else {
+    html += `<div style="margin-top:8px;color:#c14a42;font-size:11px">Gaps: ${(report.holes||[]).join(', ')}</div>`;
+  }
+  st.innerHTML = html;
+  st.className = 'zoe-status';
 }
 
 function pollPipeline(host, steps, stepList, pipeline) {
@@ -3020,7 +5144,7 @@ function renderDayStatus(data) {
   html += `<div class="source-row">
     <div class="source-icon">&#127822;</div>
     <div class="source-info"><span class="source-name">Apple Health</span>
-    ${a.imported ? `<div class="source-detail">Steps ${a.steps?.toLocaleString()||'-'} | HR ${a.resting_hr||'-'} | HRV ${a.hrv?Math.round(a.hrv):'-'}ms${a.weight_kg?' | '+a.weight_kg+'kg':''}</div>` : ''}
+    ${a.imported ? `<div class="source-detail">Steps ${a.steps?.toLocaleString()||'-'} | HR ${a.resting_hr||'-'} | HRV ${a.hrv?Math.round(a.hrv):'-'}ms</div>` : ''}
     </div><span class="source-badge ${a.imported?'yes':'no'}">${a.imported?'Imported':'Missing'}</span></div>`;
 
   const c = data.checkin || {};
@@ -3145,7 +5269,7 @@ async function buildMindSleepPanel(date, w, localData, pw) {
   h += '<div class="mind-row-grid">';
   h += `<div class="mind-stat">
     <div class="mind-stat-label">Sleep Efficiency</div>
-    <div class="mind-stat-value" style="color:${effColor}">${sleepEff != null ? sleepEff + '%' : '--'}</div>
+    <div class="mind-stat-value" style="color:${effColor}">${sleepEff != null ? Math.round(sleepEff) + '%' : '--'}</div>
     <div class="mind-stat-sub">CBT-I core. Target &gt;85%</div>
   </div>`;
   h += `<div class="mind-stat">
@@ -3262,6 +5386,34 @@ async function loadDashboard() {
       </div>
       <div class="reflection-body"><p>${reflectionHtml}</p></div>
       ${reflection.focus_for_today ? `<div class="reflection-focus"><span class="reflection-focus-label">One thing for today</span><span class="reflection-focus-text">${reflection.focus_for_today}</span></div>` : ''}
+      <div class="chat-toggle" onclick="toggleReflectionChat()">
+        <svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2zm0 14H6l-2 2V4h16v12z"/></svg>
+        Ask a follow-up
+      </div>
+      <div class="chat-container" id="reflectionChat">
+        <div class="chat-messages" id="chatMessages"></div>
+        <div class="chat-input-row">
+          <textarea class="chat-input" id="chatInput" placeholder="Ask anything..." rows="1"
+            onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendChatMessage()}"></textarea>
+          <button class="chat-send" id="chatSend" onclick="sendChatMessage()">&#9654;</button>
+        </div>
+      </div>
+    </div>`;
+  } else if (isToday) {
+    // No reflection yet but still show chat for morning conversation
+    html += `<div class="reflection-card">
+      <div class="reflection-header">
+        <span class="reflection-icon">&#128172;</span>
+        <span class="reflection-title">Morning chat</span>
+      </div>
+      <div class="chat-container open" id="reflectionChat">
+        <div class="chat-messages" id="chatMessages"></div>
+        <div class="chat-input-row">
+          <textarea class="chat-input" id="chatInput" placeholder="How are you feeling this morning?" rows="1"
+            onkeydown="if(event.key==='Enter'&&!event.shiftKey){event.preventDefault();sendChatMessage()}"></textarea>
+          <button class="chat-send" id="chatSend" onclick="sendChatMessage()">&#9654;</button>
+        </div>
+      </div>
     </div>`;
   }
 
@@ -3331,14 +5483,6 @@ async function loadDashboard() {
     <div class="kpi-label">Mood / Energy</div>
     <div class="kpi-value ${moodColor}">${mood != null ? mood + '<span class="kpi-unit">/10</span>' + delta(mood, pc.mood, true, false, 0) : '--'}</div>
     <div class="kpi-sub">${energy != null ? 'Energy ' + energy + '/10' + delta(energy, pc.energy, true, false, 0) : 'No data'}</div>
-  </div>`;
-
-  // 6. Weight
-  const weight = a.imported && a.weight_kg ? a.weight_kg : null;
-  html += `<div class="kpi-card ${weight==null?'no-data':''}" onclick="openKpiSheet('weight')">
-    <div class="kpi-label">Weight</div>
-    <div class="kpi-value kpi-blue">${weight != null ? weight + '<span class="kpi-unit">kg</span>' + delta(weight, pa.weight_kg, false) : '--'}</div>
-    <div class="kpi-sub">${a.imported && a.daylight_mins ? a.daylight_mins + ' min daylight' + delta(a.daylight_mins, pa.daylight_mins, true, false, 0) : ''}</div>
   </div>`;
 
   // 7. Fuel Balance (calories in vs out + BMR)
@@ -3782,8 +5926,8 @@ function openKpiSheet(type) {
       + sheetRow('Sleep Debt', w.imported && w.sleep_debt_hrs ? w.sleep_debt_hrs + ' hrs' : '--', w.sleep_debt_hrs > 2 ? '#f87171' : null)
       + sheetSection('Quality')
       + sheetRow('Performance', w.imported ? (w.sleep_perf || '--') + '%' : '--')
-      + sheetRow('Efficiency', w.imported && w.sleep_efficiency ? w.sleep_efficiency + '%' : '--')
-      + sheetRow('Consistency', w.imported && w.sleep_consistency ? w.sleep_consistency + '%' : '--')
+      + sheetRow('Efficiency', w.imported && w.sleep_efficiency ? Math.round(w.sleep_efficiency) + '%' : '--')
+      + sheetRow('Consistency', w.imported && w.sleep_consistency ? Math.round(w.sleep_consistency) + '%' : '--')
       + sheetRow('Disturbances', w.imported && w.disturbances != null ? w.disturbances : '--')
       + sheetRow('Sleep Cycles', w.imported && w.sleep_cycles ? w.sleep_cycles : '--')
       + sheetSection('Stages')
@@ -3870,12 +6014,6 @@ function openKpiSheet(type) {
         + sheetRow('Sleep Quality', (c.sleep_quality || '--') + '/10')
         + sheetRow('Supplements', (c.supplements || 0) + ' taken');
     }
-  } else if (type === 'weight') {
-    const a = data.apple_health || {};
-    title.textContent = 'Weight & Body';
-    html = sheetRow('Weight', a.imported && a.weight_kg ? a.weight_kg + ' kg' : '--')
-      + sheetRow('Daylight', a.imported && a.daylight_mins ? a.daylight_mins + ' min' : '--')
-      + sheetRow('Steps', a.imported ? a.steps?.toLocaleString() : '--');
   } else if (type === 'fuel') {
     const z = data.zoe || {};
     const a = data.apple_health || {};
@@ -3926,9 +6064,228 @@ updateStreak();
 prefetchRemoteStreakDays();
 loadDay();
 if (currentView === 'dashboard') loadDashboard();
-if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('./sw.js').catch(() => {});
+// Service worker - register if available (only secure contexts: HTTPS or localhost).
+// On LAN HTTP (e.g. http://192.168.x.x:port from phone), iOS Safari blocks SW
+// + Cache API entirely. Fall back to direct fetch in that case.
+const PWA_VERSION = 'v92';
+
+// ──── Auto cross-device sync ────
+// Trigger syncPull on:
+//   1. page load (existing - via loadDay)
+//   2. visibilitychange (user comes back to the tab/PWA from background)
+//   3. focus (user clicks back into the window)
+//   4. periodic poll every 30s while visible (catches in-tab edits on other device)
+// Without this, an already-open second device never auto-pulls when the first
+// device saves changes. User had to manually tap "Sync now" in version footer.
+let _lastAutoSync = 0;
+async function autoSyncIfStale() {
+  if (typeof syncPull !== 'function') return;
+  // Throttle: don't run more than once every 5s
+  const now = Date.now();
+  if (now - _lastAutoSync < 5000) return;
+  _lastAutoSync = now;
+  try {
+    await syncPull();
+  } catch (e) {
+    console.log('[autoSync] failed:', e.message);
+  }
 }
+document.addEventListener('visibilitychange', () => {
+  if (!document.hidden) autoSyncIfStale();
+});
+window.addEventListener('focus', autoSyncIfStale);
+// Periodic poll: every 30s while visible, sync from cloud
+setInterval(() => {
+  if (!document.hidden) autoSyncIfStale();
+}, 30000);
+const isSecure = window.isSecureContext;
+const swSupported = 'serviceWorker' in navigator && isSecure;
+if (swSupported) {
+  navigator.serviceWorker.register('./sw.js').then(reg => {
+    reg.update().catch(() => {});
+    if (reg.waiting) reg.waiting.postMessage({type: 'SKIP_WAITING'});
+    reg.addEventListener('updatefound', () => {
+      const newWorker = reg.installing;
+      if (!newWorker) return;
+      newWorker.addEventListener('statechange', () => {
+        if (newWorker.state === 'installed' && navigator.serviceWorker.controller) {
+          console.log('[sw] new version installed, reloading to activate');
+          setTimeout(() => location.reload(), 500);
+        }
+      });
+    });
+  }).catch(() => {});
+}
+// PROMINENT version footer + sync mode indicator. Visible on every page so
+// we can immediately see which version + sync mode each device is running.
+setTimeout(() => {
+  const existing = document.getElementById('pwa-version-footer');
+  if (existing) existing.remove();
+  const f = document.createElement('div');
+  f.id = 'pwa-version-footer';
+  const syncMode = swSupported ? 'SW' : 'direct';
+  f.style.cssText = 'position:fixed;bottom:8px;right:8px;font-size:11px;font-weight:600;color:#fff;z-index:99999;font-family:-apple-system,system-ui,sans-serif;background:rgba(70,120,200,.85);padding:5px 10px;border-radius:6px;box-shadow:0 2px 6px rgba(0,0,0,.3);cursor:pointer;border:1px solid rgba(255,255,255,.2)';
+  f.textContent = `${PWA_VERSION} · ${syncMode}`;
+  f.title = swSupported ? 'Service Worker active' : 'Direct-fetch mode (insecure context, no SW)';
+  f.onclick = async () => {
+    // Tap version: 3-button menu - Sync now / Force update / Diagnostic
+    const choice = prompt(
+      `App: ${PWA_VERSION} · ${syncMode}\n` +
+      `Origin: ${location.origin}\n\n` +
+      `1 = 🔄 SYNC NOW (pull latest from cloud, overwrite local)\n` +
+      `2 = ♻️ FORCE UPDATE (clear cache, reload)\n` +
+      `3 = ✓ Just check server version\n\n` +
+      `Type 1, 2, or 3:`
+    );
+    if (choice === '1') {
+      // Force pull from local server, overwrite local without conflict logic
+      try {
+        const dateStr = fmt(currentDate);
+        const remote = await pullDayFromLocalServer(dateStr);
+        if (remote) {
+          _loadingFields = true;
+          try {
+            localStorage.setItem(getKey(), JSON.stringify(remote));
+            loadFields();
+          } finally {
+            setTimeout(() => { _loadingFields = false; }, 200);
+          }
+          alert(`✓ Synced from cloud. Got ${Object.keys(remote).length} fields.`);
+        } else {
+          alert('No cloud data found for ' + dateStr);
+        }
+      } catch (e) {
+        alert('Sync failed: ' + e.message);
+      }
+    } else if (choice === '2') {
+      const url = new URL(location.href);
+      url.searchParams.set('_cb', Date.now());
+      location.href = url.toString();
+    } else if (choice === '3') {
+      try {
+        const r = await fetch('/sw.js?ts=' + Date.now(), {cache:'no-cache'});
+        const t = await r.text();
+        const m = t.match(/CACHE_NAME = 'health-checkin-(v\d+)'/);
+        alert(`Server SW: ${m ? m[1] : 'unknown'}\nApp: ${PWA_VERSION}\nMatch: ${m && m[1] === PWA_VERSION ? '✓ in sync' : '⚠ MISMATCH'}`);
+      } catch (e) {
+        alert('Server check failed: ' + e.message);
+      }
+    }
+  };
+  document.body.appendChild(f);
+  // Auto-fetch server version once and update the footer to show mismatch
+  fetch('/sw.js?ts=' + Date.now(), {cache:'no-cache'}).then(r => r.text()).then(t => {
+    const m = t.match(/CACHE_NAME = 'health-checkin-(v\d+)'/);
+    if (m && m[1] !== PWA_VERSION) {
+      f.textContent = `${PWA_VERSION} ⚠ server ${m[1]}`;
+      f.style.background = 'rgba(200,140,70,.95)';
+      f.title = `App is ${PWA_VERSION}, server has ${m[1]}. Tap to force update.`;
+    }
+  }).catch(() => {});
+}, 800);
+
+// ─── Reflection Chat ───
+const chatHistory = [];
+const BASE = location.protocol + '//' + location.hostname + ':8787';
+
+function toggleReflectionChat() {
+  const c = document.getElementById('reflectionChat');
+  if (c) { c.classList.toggle('open'); if (c.classList.contains('open')) document.getElementById('chatInput')?.focus(); }
+}
+
+function appendChatMsg(role, text) {
+  const box = document.getElementById('chatMessages');
+  if (!box) return null;
+  const div = document.createElement('div');
+  div.className = 'chat-msg ' + role;
+  if (role === 'assistant') {
+    div.innerHTML = text.replace(/\[SAVE:[^\]]*\]/g, '')
+      .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+      .replace(/\*(.+?)\*/g, '<i>$1</i>')
+      .replace(/\n\n/g, '</p><p>')
+      .replace(/\n/g, '<br>');
+  } else {
+    div.textContent = text;
+  }
+  box.appendChild(div);
+  box.scrollTop = box.scrollHeight;
+  return div;
+}
+
+async function sendChatMessage() {
+  const input = document.getElementById('chatInput');
+  const btn = document.getElementById('chatSend');
+  const text = input?.value?.trim();
+  if (!text) return;
+
+  input.value = '';
+  input.style.height = 'auto';
+  btn.disabled = true;
+
+  appendChatMsg('user', text);
+  chatHistory.push({ role: 'user', content: text });
+
+  const typing = appendChatMsg('assistant', '');
+  typing.classList.add('typing');
+  typing.textContent = 'Thinking...';
+
+  try {
+    const resp = await fetch(BASE + '/api/chat', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ messages: chatHistory })
+    });
+
+    if (!resp.ok) throw new Error('Server error ' + resp.status);
+
+    const reader = resp.body.getReader();
+    const decoder = new TextDecoder();
+    let fullText = '';
+    let buf = '';
+    typing.classList.remove('typing');
+    typing.innerHTML = '';
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buf += decoder.decode(value, { stream: true });
+      const lines = buf.split('\n');
+      buf = lines.pop() || '';
+      for (const line of lines) {
+        if (!line.startsWith('data: ')) continue;
+        try {
+          const ev = JSON.parse(line.slice(6));
+          if (ev.type === 'delta') {
+            fullText += ev.text;
+            typing.innerHTML = fullText
+              .replace(/\[SAVE:[^\]]*\]/g, '')
+              .replace(/\*\*(.+?)\*\*/g, '<b>$1</b>')
+              .replace(/\*(.+?)\*/g, '<i>$1</i>')
+              .replace(/\n\n/g, '</p><p>')
+              .replace(/\n/g, '<br>');
+            document.getElementById('chatMessages').scrollTop = document.getElementById('chatMessages').scrollHeight;
+          } else if (ev.type === 'error') {
+            typing.textContent = 'Error: ' + ev.text;
+          }
+        } catch(e) {}
+      }
+    }
+    if (fullText) chatHistory.push({ role: 'assistant', content: fullText });
+  } catch (e) {
+    typing.classList.remove('typing');
+    typing.textContent = 'Could not connect. Is the server running?';
+  }
+  btn.disabled = false;
+  input?.focus();
+}
+
+// Auto-resize chat input
+document.addEventListener('input', e => {
+  if (e.target.id === 'chatInput') {
+    e.target.style.height = 'auto';
+    e.target.style.height = Math.min(e.target.scrollHeight, 120) + 'px';
+  }
+});
 window.addEventListener('online', retryQueue);
 retryQueue();
 </script>
