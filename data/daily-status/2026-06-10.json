@@ -1,6 +1,6 @@
 {
   "date": "2026-06-10",
-  "generated_at": "2026-06-11T08:00:08.749772",
+  "generated_at": "2026-06-12T08:00:04.438944",
   "whoop": {
     "imported": true,
     "recovery": null,
@@ -59,19 +59,19 @@
     "supplements_list": [
       {
         "name": "Telfast from Boots",
-        "time": "16:37",
+        "time": "06:45",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C + MG + CA",
-        "time": "16:37",
+        "time": "06:45",
         "dose": "",
         "unit": ""
       },
       {
         "name": "COQ10 ubiquinol 100 mg",
-        "time": "16:37",
+        "time": "06:45",
         "dose": "",
         "unit": ""
       }
