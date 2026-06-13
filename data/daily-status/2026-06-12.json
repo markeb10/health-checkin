@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-13T06:45:41.428225",
+  "generated_at": "2026-06-13T08:00:06.455052",
   "whoop": {
     "imported": true,
     "recovery": 79.0,
@@ -22,8 +22,8 @@
     "disturbances": 8,
     "sleep_needed_hrs": 9.8,
     "sleep_debt_hrs": 1.9,
-    "calories": 2901,
-    "avg_hr": 67,
+    "calories": 2431,
+    "avg_hr": 71,
     "max_hr": 170,
     "workouts": [
       {
@@ -60,30 +60,48 @@
     "mood": 7,
     "energy": 5,
     "sleep_quality": 5,
-    "supplements": 6,
+    "supplements": 9,
     "journal": "1. Clauding - building some stuff improving my diary\n2. Duo lingo\n3. breakfast\n4. padel with dan\n5. market and meeting with dimitar\n6. bitstarz demo and cashy\n7. dad and took him to lunch we ate struklji I showed him the desert - might have issues for sleeping but ou well\n8. Meeting with Filip and Nasti - crazy that they cant sell anything and now we will need 10 years fo rebuild market but lets maybe tey to provide some other service\n9. chatn claude code tutorial\n10. clauding",
     "supplements_list": [
       {
         "name": "Telfast from Boots",
-        "time": "23:05",
+        "time": "07:52",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C + MG + CA",
-        "time": "23:05",
+        "time": "07:52",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Enterosgel",
-        "time": "23:05",
+        "time": "07:52",
         "dose": "",
         "unit": ""
       },
       {
         "name": "COQ10 ubiquinol 100 mg",
-        "time": "23:05",
+        "time": "07:52",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Telfast from Boots",
+        "time": "07:52",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "07:52",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "COQ10 ubiquinol 100 mg",
+        "time": "07:52",
         "dose": "",
         "unit": ""
       },
@@ -102,7 +120,7 @@
     ],
     "energy_afternoon": 7,
     "energy_evening": 7,
-    "anxiety": 0,
+    "anxiety": 1,
     "bloating": 3
   },
   "zoe": {
