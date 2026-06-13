@@ -1,8 +1,31 @@
 {
   "date": "2026-06-13",
-  "generated_at": "2026-06-13T07:06:16.677359",
+  "generated_at": "2026-06-13T08:00:09.277300",
   "whoop": {
-    "imported": false
+    "imported": true,
+    "recovery": 69.0,
+    "hrv": 36.9,
+    "rhr": 54.0,
+    "sleep_perf": 80.0,
+    "strain": 0.5,
+    "sleep_hrs": 7.0,
+    "spo2": 98.0,
+    "skin_temp": 34.0,
+    "sleep_efficiency": 91.5,
+    "sleep_consistency": 77.0,
+    "respiratory_rate": 14.3,
+    "light_sleep_hrs": 2.3,
+    "deep_sleep_hrs": 2.9,
+    "rem_sleep_hrs": 1.7,
+    "awake_hrs": 0.6,
+    "sleep_cycles": 7,
+    "disturbances": 10,
+    "sleep_needed_hrs": 10.2,
+    "sleep_debt_hrs": 2.1,
+    "calories": 555,
+    "avg_hr": 56,
+    "max_hr": 96,
+    "workouts": []
   },
   "apple_health": {
     "imported": false
@@ -12,7 +35,21 @@
     "mood": 7,
     "energy": 6,
     "sleep_quality": 7,
-    "supplements": 0,
+    "supplements": 2,
+    "supplements_list": [
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "07:14",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "07:14",
+        "dose": "",
+        "unit": ""
+      }
+    ],
     "anxiety": 1
   },
   "zoe": {
