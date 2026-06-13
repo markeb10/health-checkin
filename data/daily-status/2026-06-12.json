@@ -1,13 +1,13 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-12T23:05:01.090334",
+  "generated_at": "2026-06-13T06:45:41.428225",
   "whoop": {
     "imported": true,
     "recovery": 79.0,
     "hrv": 49.5,
     "rhr": 53.0,
     "sleep_perf": 69.0,
-    "strain": 0.6,
+    "strain": 15.2,
     "sleep_hrs": 5.5,
     "spo2": 92.2,
     "skin_temp": 33.9,
@@ -22,43 +22,68 @@
     "disturbances": 8,
     "sleep_needed_hrs": 9.8,
     "sleep_debt_hrs": 1.9,
-    "calories": 555,
-    "avg_hr": 55,
-    "max_hr": 95,
-    "workouts": []
+    "calories": 2901,
+    "avg_hr": 67,
+    "max_hr": 170,
+    "workouts": [
+      {
+        "sport": "HIIT",
+        "calories": 30,
+        "avg_hr": 93,
+        "max_hr": 103
+      },
+      {
+        "sport": "HIIT",
+        "calories": 41,
+        "avg_hr": 92,
+        "max_hr": 110
+      },
+      {
+        "sport": "HIIT",
+        "calories": 127,
+        "avg_hr": 98,
+        "max_hr": 134
+      },
+      {
+        "sport": "Activity",
+        "calories": 801,
+        "avg_hr": 123,
+        "max_hr": 170
+      }
+    ]
   },
   "apple_health": {
     "imported": false
   },
   "checkin": {
     "imported": true,
-    "mood": 6,
-    "energy": 7,
-    "sleep_quality": 6,
+    "mood": 7,
+    "energy": 5,
+    "sleep_quality": 5,
     "supplements": 6,
-    "journal": "Grateful for: I'm grateful for this life, I'm grateful for the technology, for the AI, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, I have absolute admiration for myself, for being able to push on this front to finally crack on the problem with my sleep, Most likely I would say it's hard to say what it is, Maybe even my stuff, not so we see my breathing is faster, my pulse is higher, What does this tell us? Well, I guess they are together\nToday great: Great paddle, Sasha. Not big strength. Strain \nSome chattin",
+    "journal": "1. Clauding - building some stuff improving my diary\n2. Duo lingo\n3. breakfast\n4. padel with dan\n5. market and meeting with dimitar\n6. bitstarz demo and cashy\n7. dad and took him to lunch we ate struklji I showed him the desert - might have issues for sleeping but ou well\n8. Meeting with Filip and Nasti - crazy that they cant sell anything and now we will need 10 years fo rebuild market but lets maybe tey to provide some other service\n9. chatn claude code tutorial\n10. clauding",
     "supplements_list": [
       {
         "name": "Telfast from Boots",
-        "time": "22:58",
+        "time": "23:05",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C + MG + CA",
-        "time": "22:58",
+        "time": "23:05",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Enterosgel",
-        "time": "22:58",
+        "time": "23:05",
         "dose": "",
         "unit": ""
       },
       {
         "name": "COQ10 ubiquinol 100 mg",
-        "time": "22:58",
+        "time": "23:05",
         "dose": "",
         "unit": ""
       },
@@ -77,7 +102,7 @@
     ],
     "energy_afternoon": 7,
     "energy_evening": 7,
-    "anxiety": 1,
+    "anxiety": 0,
     "bloating": 3
   },
   "zoe": {
