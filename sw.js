@@ -1,4 +1,4 @@
-const CACHE_NAME = 'health-checkin-v92';
+const CACHE_NAME = 'health-checkin-v93';
 // v92 (2026-06-12): morning check-in changes - supplement names fixed to Marko's real ones
 //   (Vitamin C + MG + CA etc, built-ins always active) + 6 new panel-added AM fields
 //   (heart racing on standing, chest symptom, trigger-food, rumination, regulation-practice, BP).
