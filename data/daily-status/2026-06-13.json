@@ -1,6 +1,6 @@
 {
   "date": "2026-06-13",
-  "generated_at": "2026-06-13T06:45:43.971946",
+  "generated_at": "2026-06-13T07:06:16.677359",
   "whoop": {
     "imported": false
   },
@@ -8,7 +8,12 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 7,
+    "energy": 6,
+    "sleep_quality": 7,
+    "supplements": 0,
+    "anxiety": 1
   },
   "zoe": {
     "imported": false
