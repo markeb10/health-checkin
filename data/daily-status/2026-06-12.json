@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-13T08:00:06.455052",
+  "generated_at": "2026-06-14T08:00:05.626879",
   "whoop": {
     "imported": true,
     "recovery": 79.0,
@@ -60,48 +60,30 @@
     "mood": 7,
     "energy": 5,
     "sleep_quality": 5,
-    "supplements": 9,
+    "supplements": 6,
     "journal": "1. Clauding - building some stuff improving my diary\n2. Duo lingo\n3. breakfast\n4. padel with dan\n5. market and meeting with dimitar\n6. bitstarz demo and cashy\n7. dad and took him to lunch we ate struklji I showed him the desert - might have issues for sleeping but ou well\n8. Meeting with Filip and Nasti - crazy that they cant sell anything and now we will need 10 years fo rebuild market but lets maybe tey to provide some other service\n9. chatn claude code tutorial\n10. clauding",
     "supplements_list": [
       {
         "name": "Telfast from Boots",
-        "time": "07:52",
+        "time": "22:53",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Vitamin C + MG + CA",
-        "time": "07:52",
+        "time": "22:53",
         "dose": "",
         "unit": ""
       },
       {
         "name": "Enterosgel",
-        "time": "07:52",
+        "time": "22:53",
         "dose": "",
         "unit": ""
       },
       {
         "name": "COQ10 ubiquinol 100 mg",
-        "time": "07:52",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Telfast from Boots",
-        "time": "07:52",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "Vitamin C + MG + CA",
-        "time": "07:52",
-        "dose": "",
-        "unit": ""
-      },
-      {
-        "name": "COQ10 ubiquinol 100 mg",
-        "time": "07:52",
+        "time": "22:53",
         "dose": "",
         "unit": ""
       },
