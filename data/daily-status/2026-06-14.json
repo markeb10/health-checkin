@@ -1,6 +1,6 @@
 {
   "date": "2026-06-14",
-  "generated_at": "2026-06-14T08:00:12.975422",
+  "generated_at": "2026-06-14T23:05:00.333865",
   "whoop": {
     "imported": true,
     "recovery": 67.0,
@@ -31,7 +31,39 @@
     "imported": false
   },
   "checkin": {
-    "imported": false
+    "imported": true,
+    "mood": 6,
+    "energy": 6,
+    "sleep_quality": 7,
+    "supplements": 4,
+    "journal": "Grateful for: Being alive, having this comfort of exploring new things, doing things myself, this actually really makes me happy, Cosita family friends \u2764\ufe0f\u2764\ufe0f\u2764\ufe0f, Didn't sleep enough, but still not feeling super super bad\nToday great: If I would spend some great time with my family, disconnect away from all the bullshit \nAffirmation: I am an honourable man who is deeply rooted in his stoicism virtues. ",
+    "supplements_list": [
+      {
+        "name": "Telfast from Boots",
+        "time": "20:43",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Vitamin C + MG + CA",
+        "time": "20:43",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "Enterosgel",
+        "time": "20:43",
+        "dose": "",
+        "unit": ""
+      },
+      {
+        "name": "COQ10 ubiquinol 100 mg",
+        "time": "20:43",
+        "dose": "",
+        "unit": ""
+      }
+    ],
+    "anxiety": 1
   },
   "zoe": {
     "imported": false
